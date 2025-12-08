@@ -1,16 +1,10 @@
 import os
 import json
-import subprocess
+
 from datetime import datetime
 from server import analyze_all, clean_nan
 
-def run_git_command(command):
-    try:
-        result = subprocess.run(command, shell=True, check=True, capture_output=True, text=True)
-        print(f"✅ {command}: {result.stdout.strip()}")
-    except subprocess.CalledProcessError as e:
-        print(f"❌ {command} failed: {e.stderr.strip()}")
-        raise
+
 
 async def main():
     print(f"[{datetime.now()}] 🚀 Starting Daily Update...")
@@ -31,39 +25,59 @@ async def main():
         print(f"❌ Analysis failed: {e}")
         return
 
-    # 2. Git Push
-    # Note: Railway needs GITHUB_TOKEN env var for authentication
+    # 2. Update GitHub via API (No git CLI needed)
     github_token = os.getenv("GITHUB_TOKEN")
-    repo_url = os.getenv("REPO_URL", "https://github.com/yuqiaowu/news_analyse.git")
+    repo_name = "yuqiaowu/news_analyse" # Hardcoded for simplicity
+    file_path = "latest_analysis.json"
     
-    if github_token:
-        # Inject token into URL: https://TOKEN@github.com/user/repo.git
-        auth_repo_url = repo_url.replace("https://", f"https://{github_token}@")
+    if not github_token:
+        print("❌ GITHUB_TOKEN not found.")
     else:
-        print("⚠️ GITHUB_TOKEN not found. Assuming local or SSH auth.")
-        auth_repo_url = repo_url
+        try:
+            import requests
+            import base64
+            
+            # 1. Get current SHA of the file
+            url = f"https://api.github.com/repos/{repo_name}/contents/{file_path}"
+            headers = {
+                "Authorization": f"Bearer {github_token}",
+                "Accept": "application/vnd.github.v3+json"
+            }
+            
+            sha = None
+            resp = requests.get(url, headers=headers)
+            if resp.status_code == 200:
+                sha = resp.json().get("sha")
+                
+            # 2. Prepare content
+            content_str = json.dumps(data, indent=2, ensure_ascii=False)
+            content_b64 = base64.b64encode(content_str.encode("utf-8")).decode("utf-8")
+            
+            # 3. Push update
+            payload = {
+                "message": "Update market analysis data [skip ci]",
+                "content": content_b64,
+                "branch": "main"
+            }
+            if sha:
+                payload["sha"] = sha
+                
+            resp = requests.put(url, headers=headers, json=payload)
+            
+            if resp.status_code in [200, 201]:
+                 print("✅ Data pushed to GitHub successfully via API!")
+            else:
+                 print(f"❌ GitHub API failed: {resp.status_code} {resp.text}")
 
-    try:
-        run_git_command("git config user.name 'AI Analyst'")
-        run_git_command("git config user.email 'ai@railway.app'")
-        run_git_command("git add latest_analysis.json")
-        
-        # Check if there are changes
-        status = subprocess.run("git status --porcelain", shell=True, capture_output=True, text=True)
-        if not status.stdout.strip():
-            print("No changes to commit.")
-            return
-
-        run_git_command("git commit -m 'Update market analysis data [skip ci]'")
-        run_git_command(f"git push {auth_repo_url} main")
-        print("✅ Data pushed to GitHub successfully!")
-        
-    except Exception as e:
-        print(f"❌ Git operations failed: {e}")
+        except Exception as e:
+            print(f"❌ GitHub operations failed: {e}")
 
     # 3. Trigger Vercel Deploy (Since we used [skip ci])
     vercel_hook = os.getenv("VERCEL_DEPLOY_HOOK")
     if vercel_hook:
+        if not vercel_hook.startswith("http"):
+            vercel_hook = "https://" + vercel_hook
+            
         try:
             import requests
             print(f"[{datetime.now()}] 🚀 Triggering Vercel deployment...")
