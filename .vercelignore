@@ -1,0 +1,8 @@
+# Ignore backend files for Vercel (Frontend only)
+requirements.txt
+Procfile
+*.py
+__pycache__
+api/
+.env
+server.log
