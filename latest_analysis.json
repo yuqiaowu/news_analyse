@@ -1,201 +1,100 @@
 {
-  "timestamp": "2025-12-09T01:54:07.123113",
-  "global_summary_cn": "全球流动性预期倾向于宽松（美联储降息预期大幅下降14个基点），为风险资产提供了结构性支持，尽管美债收益率小幅上升造成一定中性压力。加密市场叙事极度乐观，机构买盘强劲，主要驱动力来自贝莱德提交了Staked ETH ETF申请，以及比特币ETF连续第二天录得3.52亿美元的大额净流入。尽管宏观叙事和流动性环境高度看涨，比特币价格却短线失守9万美元，显示市场存在短期获利了结或抛售（Distribution）。这种\"宽松流动性 + 极度利好消息 + 价格回调\"的组合，构成了一个强烈的逢低买入（Buy the Dip）机会，尤其关注以太坊，它正受益于其有史以来最强大的现货产品叙事升级。",
-  "global_summary_en": "全球流动性预期倾向于宽松（美联储降息预期大幅下降14个基点），为风险资产提供了结构性支持，尽管美债收益率小幅上升造成一定中性压力。加密市场叙事极度乐观，机构买盘强劲，主要驱动力来自贝莱德提交了Staked ETH ETF申请，以及比特币ETF连续第二天录得3.52亿美元的大额净流入。尽管宏观叙事和流动性环境高度看涨，比特币价格却短线失守9万美元，显示市场存在短期获利了结或抛售（Distribution）。这种\"宽松流动性 + 极度利好消息 + 价格回调\"的组合，构成了一个强烈的逢低买入（Buy the Dip）机会，尤其关注以太坊，它正受益于其有史以来最强大的现货产品叙事升级。",
-  "news_analysis": [
-    {
-      "title": "Bessent says U.S. will finish the year with 3% GDP growth, sees 'very strong' holiday season",
-      "classification": "NEUTRAL",
-      "reason": "宏观乐观情绪，但与加密市场相关性较低。"
-    },
-    {
-      "title": "Berkshire Hathaway's Todd Combs, investment lieutenant to Buffett and Geico CEO, is leaving for JPMorgan",
-      "classification": "NEUTRAL",
-      "reason": "传统金融界高层变动，对加密货币市场影响不直接。"
-    },
-    {
-      "title": "Home sellers are giving up at 'unusually high rate,' says new Realtor report",
-      "classification": "NEUTRAL",
-      "reason": "美国房地产市场疲软信号，与美联储降息预期相关，间接影响流动性。"
-    },
-    {
-      "title": "What another Fed cut could mean for your personal borrowing costs",
-      "classification": "NEUTRAL",
-      "reason": "讨论降息影响，符合当前的Dovish（鸽派）预期，已部分被市场消化。"
-    },
-    {
-      "title": "BlackRock bets on ‘pick and shovel’ trade, singling out clear winners in AI spending spree",
-      "classification": "NEUTRAL",
-      "reason": "传统科技市场分析，侧面反映BlackRock的投资重点，与AI/Crypto交叉领域相关，但非直接利好。"
-    },
-    {
-      "title": "The easiest and safest methods for gifting crypto at Christmas in 2025 (Mon, 08 Dec 2025 17:00:00 +0000)",
-      "classification": "NEUTRAL",
-      "reason": "通用行业宣传，不构成价格驱动力。"
-    },
-    {
-      "title": "Bitcoin gives up $90K at US open as two-week exchange outflows near 35K BTC (Mon, 08 Dec 2025 16:20:28 +0000)",
-      "classification": "DISTRIBUTION",
-      "reason": "价格短期回调，尽管基本面利好，但未能守住关键心理位，显示有抛售压力。"
-    },
-    {
-      "title": "Strategy’s Bitcoin treasury swells past 660,000 BTC after fresh $962M buy (Mon, 08 Dec 2025 14:18:44 +0000)",
-      "classification": "IMPULSE",
-      "reason": "机构（MicroStrategy）大规模买入，是持续看涨的明确信号。"
-    },
-    {
-      "title": "Bitcoin ’rallies are for selling‘: Top 3 arguments from BTC market bears (Mon, 08 Dec 2025 13:35:02 +0000)",
-      "classification": "NEUTRAL",
-      "reason": "市场空头观点报道，反映了部分看跌情绪，但与当前机构驱动的叙事形成对比。"
-    },
-    {
-      "title": "Can panic wallets stop a wrench? Why crypto’s next security debate is physical (Mon, 08 Dec 2025 11:13:48 +0000)",
-      "classification": "NEUTRAL",
-      "reason": "聚焦安全和基础设施的通用话题。"
-    },
-    {
-      "title": "BlackRock files for listing staked Ether ETF (Mon, 08 Dec 2025 16:53:49 +0000)",
-      "classification": "IMPULSE",
-      "reason": "超级重大利好。Staked ETF增加了ETH的产品吸引力（通过收益），是ETH价格最强大的催化剂。"
-    },
-    {
-      "title": "Crypto funds log second week of inflows after massive $5.5B sell-off (Mon, 08 Dec 2025 10:54:18 +0000)",
-      "classification": "IMPULSE",
-      "reason": "资金流入恢复，显示市场信心在抛售后快速回升。"
-    },
-    {
-      "title": "Ethereum ‘smart’ whales open $426M long bets as ETH price chart eyes $4K (Mon, 08 Dec 2025 09:12:45 +0000)",
-      "classification": "IMPULSE",
-      "reason": "大户积极做多，与ETF消息叠加，多头仓位聚集。"
-    },
-    {
-      "title": "The future of secure messaging: Why decentralization matters more than ever (Mon, 08 Dec 2025 06:15:00 +0000)",
-      "classification": "NEUTRAL",
-      "reason": "通用行业主题。"
-    },
-    {
-      "title": "Ethereum’s first ZK-rollup, ZKsync Lite, to be retired in 2026 (Mon, 08 Dec 2025 05:55:49 +0000)",
-      "classification": "NEUTRAL",
-      "reason": "技术升级和迭代的正常过程。"
-    },
-    {
-      "title": "Script to Nuke AI Features from Windows 11 Goes Viral Amid Privacy Backlash (Mon, 08 Dec 2025 17:10:56 +0000)",
-      "classification": "NEUTRAL",
-      "reason": "传统科技新闻，与隐私和去中心化叙事有间接关联。"
-    },
-    {
-      "title": "Blackrock’s New Staked Ethereum Trust Targets ETH Yield Exposure (Mon, 08 Dec 2025 17:10:10 +0000)",
-      "classification": "IMPULSE",
-      "reason": "进一步确认Staked ETF的利好，强调收益属性，增加了机构吸引力。"
-    },
-    {
-      "title": "Bitcoin ETFs Pull in $352 Million to Extend Rebound While XRP Funds Remain Hot (Mon, 08 Dec 2025 16:54:30 +0000)",
-      "classification": "IMPULSE",
-      "reason": "明确的资金流指标，显示机构需求的持续反弹，对BTC是强力支撑。"
-    },
-    {
-      "title": "Tom Lee’s BitMine Buys $429 Million in Ethereum as ETH Rebounds (Mon, 08 Dec 2025 16:28:33 +0000)",
-      "classification": "IMPULSE",
-      "reason": "重要机构（BitMine）大规模购买，与鲸鱼做多和ETF叙事形成共振，极度利好ETH。"
-    },
-    {
-      "title": "SEC Ends Biden Era Probe: Ondo Cleared for Rapid Tokenization Growth (Mon, 08 Dec 2025 16:16:12 +0000)",
-      "classification": "IMPULSE",
-      "reason": "对RWA（现实世界资产代币化）领域是重大利好，降低了监管风险，有利于ETH生态及整体市场情绪。"
-    }
-  ],
+  "timestamp": "2025-12-08T17:58:00.757546",
+  "global_summary_cn": "分析失败: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 59.297535933s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 59\n}\n]",
+  "global_summary_en": "分析失败: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 59.297535933s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 59\n}\n]",
+  "news_analysis": [],
   "fed_futures": {
     "price": 96.41,
     "implied_rate": 3.59,
-    "timestamp": "2025-12-08T17:53:46.258026+00:00",
+    "timestamp": "2025-12-08T17:58:00.078632+00:00",
     "trend": "Dovish (Rate expectations dropping)",
     "change_5d_bps": -14.0,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 155.739,
-    "timestamp": "2025-12-08T17:53:46.468400+00:00",
+    "price": 155.761,
+    "timestamp": "2025-12-08T17:58:00.176131+00:00",
     "trend": "Neutral",
-    "change_5d_pct": 0.12,
+    "change_5d_pct": 0.13,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 99.13,
-      "change_5d_pct": 0.29,
+      "price": 99.12,
+      "change_5d_pct": 0.27,
       "trend": "Neutral"
     },
     "us10y": {
       "price": 4.18,
-      "change_5d_pct": 2.3,
+      "change_5d_pct": 2.25,
       "trend": "Neutral Rising"
     },
     "vix": {
-      "price": 16.95,
-      "change_5d_pct": 2.17,
+      "price": 16.83,
+      "change_5d_pct": 1.45,
       "trend": "Neutral"
     }
   },
   "coins": [
     {
       "symbol": "BTC",
-      "price": 90065.1,
-      "change_24h": -0.8734441500923865,
-      "rsi_4h": 47.3537857912258,
-      "funding_rate": -0.00053340162233,
-      "open_interest": 2243360.860000001,
+      "price": 90258.9,
+      "change_24h": -0.8099266010886206,
+      "rsi_4h": 48.44885881174627,
+      "funding_rate": -0.00067005012548,
+      "open_interest": 2245565.230000001,
       "sentiment": "Neutral",
-      "score": 65,
-      "comment_cn": "价格短线回调失守90K，但在MSTR大额买入和ETF资金流入（IMPULSE）的强劲基本面支撑下，回调视为积累或Priced In的短期波动。RSI中性，整体结构偏牛。",
-      "comment_en": "价格短线回调失守90K，但在MSTR大额买入和ETF资金流入（IMPULSE）的强劲基本面支撑下，回调视为积累或Priced In的短期波动。RSI中性，整体结构偏牛。"
+      "score": 50,
+      "comment_cn": "",
+      "comment_en": ""
     },
     {
       "symbol": "ETH",
-      "price": 3112.9,
-      "change_24h": -0.04174426819085888,
-      "rsi_4h": 54.74550702248847,
-      "funding_rate": -0.00133935015827,
-      "open_interest": 5393149.48000001,
-      "sentiment": "Bullish",
-      "score": 95,
-      "comment_cn": "受益于贝莱德Staked ETF和机构大额购买（IMPULSE）。价格持平或小幅下跌，但负资金费率（Crowded Shorts）暗示一旦消息被充分消化，可能出现强劲逼空行情，短期内是市场焦点。",
-      "comment_en": "受益于贝莱德Staked ETF和机构大额购买（IMPULSE）。价格持平或小幅下跌，但负资金费率（Crowded Shorts）暗示一旦消息被充分消化，可能出现强劲逼空行情，短期内是市场焦点。"
+      "price": 3121.54,
+      "change_24h": 0.1845438877459649,
+      "rsi_4h": 55.522790592449866,
+      "funding_rate": -0.00146608326596,
+      "open_interest": 5383337.240000009,
+      "sentiment": "Neutral",
+      "score": 50,
+      "comment_cn": "",
+      "comment_en": ""
     },
     {
       "symbol": "SOL",
-      "price": 135.54,
-      "change_24h": 0.6310787734798383,
-      "rsi_4h": 51.03996969828044,
-      "funding_rate": 0.00474524331672,
-      "open_interest": 2336199.9500000007,
-      "sentiment": "Bullish",
-      "score": 75,
-      "comment_cn": "相对BTC和ETH表现出较强的价格抗跌性（+0.63%），正资金费率和中性RSI显示买方情绪稳定，受机构利好消息带动，风险偏好回升。",
-      "comment_en": "相对BTC和ETH表现出较强的价格抗跌性（+0.63%），正资金费率和中性RSI显示买方情绪稳定，受机构利好消息带动，风险偏好回升。"
+      "price": 135.85,
+      "change_24h": 0.6743737957610765,
+      "rsi_4h": 51.49538664368279,
+      "funding_rate": 0.00451841053065,
+      "open_interest": 2336054.6400000006,
+      "sentiment": "Neutral",
+      "score": 50,
+      "comment_cn": "",
+      "comment_en": ""
     },
     {
       "symbol": "BNB",
-      "price": 895.2,
-      "change_24h": -0.32290390825074905,
-      "rsi_4h": 50.838866868277435,
-      "funding_rate": 0.00211348197756,
-      "open_interest": 6786884.0,
+      "price": 896.8,
+      "change_24h": -0.32232966544404695,
+      "rsi_4h": 52.38436840893778,
+      "funding_rate": 0.00201634651801,
+      "open_interest": 6784042.0,
       "sentiment": "Neutral",
-      "score": 55,
-      "comment_cn": "价格波动和RSI中性，表现与市场同步。目前缺乏独特的IMPULSE叙事，但正资金费率显示多头占据微弱优势。",
-      "comment_en": "价格波动和RSI中性，表现与市场同步。目前缺乏独特的IMPULSE叙事，但正资金费率显示多头占据微弱优势。"
+      "score": 50,
+      "comment_cn": "",
+      "comment_en": ""
     },
     {
       "symbol": "DOGE",
-      "price": 0.14237,
-      "change_24h": 0.5935137426694039,
-      "rsi_4h": 50.668831753860964,
+      "price": 0.14286,
+      "change_24h": 0.8613386049138654,
+      "rsi_4h": 52.21465878224277,
       "funding_rate": 0.01,
-      "open_interest": 654109.3199999996,
-      "sentiment": "Bullish",
-      "score": 70,
-      "comment_cn": "涨幅领先于BTC/ETH，高正资金费率和OI上升显示投机热情高涨。受整体市场风险情绪回暖驱动。",
-      "comment_en": "涨幅领先于BTC/ETH，高正资金费率和OI上升显示投机热情高涨。受整体市场风险情绪回暖驱动。"
+      "open_interest": 654611.0899999996,
+      "sentiment": "Neutral",
+      "score": 50,
+      "comment_cn": "",
+      "comment_en": ""
     }
   ]
 }
