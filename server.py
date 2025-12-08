@@ -21,6 +21,18 @@ load_dotenv()
 from contextlib import asynccontextmanager
 import subprocess
 
+# Helper to clean NaN (Moved to top level)
+def clean_nan(obj):
+    if isinstance(obj, float):
+        import math
+        if math.isnan(obj):
+            return None
+    elif isinstance(obj, dict):
+        return {k: clean_nan(v) for k, v in obj.items()}
+    elif isinstance(obj, list):
+        return [clean_nan(v) for v in obj]
+    return obj
+
 # Background Scheduler
 async def run_scheduler():
     while True:
@@ -350,17 +362,7 @@ async def analyze_all(force_refresh: bool = False):
             "comment_en": c_analysis.get("comment_en", raw_comment)
         })
 
-# Helper to clean NaN (Moved to top level)
-def clean_nan(obj):
-    if isinstance(obj, float):
-        import math
-        if math.isnan(obj):
-            return None
-    elif isinstance(obj, dict):
-        return {k: clean_nan(v) for k, v in obj.items()}
-    elif isinstance(obj, list):
-        return [clean_nan(v) for v in obj]
-    return obj
+
 
     response_data = clean_nan(response_data)
         
