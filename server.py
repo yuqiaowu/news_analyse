@@ -18,7 +18,44 @@ from price_fetcher import get_market_data
 
 load_dotenv()
 
-app = FastAPI()
+from contextlib import asynccontextmanager
+import subprocess
+
+# Background Scheduler
+async def run_scheduler():
+    while True:
+        print(f"[{datetime.now()}] ⏰ Scheduler waking up...")
+        try:
+            # Run daily_update.py as a subprocess
+            process = await asyncio.create_subprocess_exec(
+                "python", "daily_update.py",
+                stdout=asyncio.subprocess.PIPE,
+                stderr=asyncio.subprocess.PIPE
+            )
+            stdout, stderr = await process.communicate()
+            
+            if stdout:
+                print(f"[Scheduler] Output: {stdout.decode()}")
+            if stderr:
+                print(f"[Scheduler] Error: {stderr.decode()}")
+                
+        except Exception as e:
+            print(f"[Scheduler] Failed to run update: {e}")
+            
+        # Sleep for 4 hours (14400 seconds)
+        print(f"[{datetime.now()}] 💤 Scheduler sleeping for 4 hours...")
+        await asyncio.sleep(4 * 60 * 60)
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Startup: Start the background task
+    print("🚀 Server starting up. Initializing background scheduler...")
+    asyncio.create_task(run_scheduler())
+    yield
+    # Shutdown
+    print("🛑 Server shutting down.")
+
+app = FastAPI(lifespan=lifespan)
 
 # Mount static files
 app.mount("/static", StaticFiles(directory="static"), name="static")
