@@ -61,6 +61,22 @@ async def main():
     except Exception as e:
         print(f"❌ Git operations failed: {e}")
 
+    # 3. Trigger Vercel Deploy (Since we used [skip ci])
+    vercel_hook = os.getenv("VERCEL_DEPLOY_HOOK")
+    if vercel_hook:
+        try:
+            import requests
+            print(f"[{datetime.now()}] 🚀 Triggering Vercel deployment...")
+            response = requests.post(vercel_hook)
+            if response.status_code == 200:
+                print("✅ Vercel deployment triggered successfully!")
+            else:
+                print(f"❌ Failed to trigger Vercel: {response.status_code} {response.text}")
+        except Exception as e:
+            print(f"❌ Failed to trigger Vercel: {e}")
+    else:
+        print("⚠️ VERCEL_DEPLOY_HOOK not found. Skipping Vercel trigger.")
+
 if __name__ == "__main__":
     import asyncio
     asyncio.run(main())
