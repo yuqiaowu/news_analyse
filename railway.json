@@ -1,0 +1,12 @@
+{
+    "build": {
+        "watchPatterns": [
+            "**/*",
+            "!latest_analysis.json"
+        ]
+    },
+    "deploy": {
+        "restartPolicyType": "ON_FAILURE",
+        "restartPolicyMaxRetries": 10
+    }
+}
