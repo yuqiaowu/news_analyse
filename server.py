@@ -56,9 +56,7 @@ async def lifespan(app: FastAPI):
     print("🛑 Server shutting down.")
 
 app = FastAPI(lifespan=lifespan)
-
-# Mount static files
-app.mount("/static", StaticFiles(directory="static"), name="static")
+from fastapi.responses import FileResponse
 
 # Configure Gemini
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
@@ -69,8 +67,19 @@ else:
 
 @app.get("/", response_class=HTMLResponse)
 async def read_root():
-    with open("static/index.html", "r") as f:
-        return f.read()
+    return FileResponse("index.html")
+
+@app.get("/script.js")
+async def read_script():
+    return FileResponse("script.js")
+
+@app.get("/style.css")
+async def read_style():
+    return FileResponse("style.css")
+
+@app.get("/latest_analysis.json")
+async def read_data():
+    return FileResponse("latest_analysis.json")
 
 async def call_gemini_global_analysis(market_data: List[dict], news_context: str, custom_prompt: Optional[str] = None):
     """
