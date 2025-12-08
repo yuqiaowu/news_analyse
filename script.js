@@ -126,7 +126,8 @@ async function fetchData(forceRefresh = false) {
     if (timerInterval) clearInterval(timerInterval);
 
     try {
-        const url = forceRefresh ? '/api/analyze_all?force_refresh=true' : '/api/analyze_all';
+        // Fetch static JSON file directly
+        const url = forceRefresh ? `latest_analysis.json?t=${new Date().getTime()}` : 'latest_analysis.json';
         const response = await fetch(url);
         const data = await response.json();
 
