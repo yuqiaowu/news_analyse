@@ -157,8 +157,8 @@ async function fetchData(forceRefresh = false) {
         startTimer(remaining);
 
     } catch (error) {
-        console.error('Error fetching data:', error);
-        alert('Failed to fetch analysis data: ' + error.message);
+        console.error('Error fetching analysis:', error);
+        document.getElementById('loading').textContent = `数据加载失败: ${error.message}. 请稍后再试。`;
         // If error, restart timer with default interval to allow retry later
         startTimer(REFRESH_INTERVAL);
     } finally {
@@ -529,8 +529,8 @@ function updateTimerDisplay() {
 
 // Initial fetch (Use cache if available)
 document.addEventListener('DOMContentLoaded', () => {
-    // Bind button
-    document.getElementById('refresh-btn').onclick = () => fetchData(true);
+    // Refresh Button (Disabled for Static Deployment)
+    // document.getElementById('refresh-btn').addEventListener('click', () => fetchAnalysis(true));
 
     // Initialize text
     updateStaticText();
