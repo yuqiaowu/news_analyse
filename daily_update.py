@@ -55,7 +55,7 @@ async def main():
             
             # 3. Push update
             payload = {
-                "message": "Update market analysis data",
+                "message": "Update market analysis data [skip ci]",
                 "content": content_b64,
                 "branch": "main"
             }
@@ -73,6 +73,25 @@ async def main():
             print(f"❌ GitHub operations failed: {e}")
 
 
+
+    # 3. Trigger Vercel Deploy (Since we used [skip ci])
+    vercel_hook = os.getenv("VERCEL_DEPLOY_HOOK")
+    if vercel_hook:
+        if not vercel_hook.startswith("http"):
+            vercel_hook = "https://" + vercel_hook
+            
+        try:
+            import requests
+            print(f"[{datetime.now()}] 🚀 Triggering Vercel deployment...")
+            response = requests.post(vercel_hook)
+            if response.status_code == 200:
+                print("✅ Vercel deployment triggered successfully!")
+            else:
+                print(f"❌ Failed to trigger Vercel: {response.status_code} {response.text}")
+        except Exception as e:
+            print(f"❌ Failed to trigger Vercel: {e}")
+    else:
+        print("⚠️ VERCEL_DEPLOY_HOOK not found. Skipping Vercel trigger.")
 
 if __name__ == "__main__":
     import asyncio
