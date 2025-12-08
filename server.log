@@ -1,0 +1,16 @@
+INFO:     Started server process [65984]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[11:06:46] 🚀 Starting FRESH analysis...
+[11:06:46] 📰 Fetching news...
+[11:07:21] ✅ News fetched.
+[11:07:21] 💰 Fetching prices...
+[11:07:28] ✅ Prices fetched.
+[11:07:28] 🤖 Calling Gemini 2.5...
+[11:07:50] ✅ Gemini analysis complete.
+[11:07:50] 🏁 Request finished in 63.92s
+INFO:     127.0.0.1:60938 - "GET /api/analyze_all HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61156 - "GET / HTTP/1.1" 200 OK
+[11:08:17] 📦 Serving cached analysis.
+INFO:     127.0.0.1:61156 - "GET /api/analyze_all HTTP/1.1" 200 OK

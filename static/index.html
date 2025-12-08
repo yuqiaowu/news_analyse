@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Market Insight</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <span class="icon">🤖</span>
+                <h1>AI Market Insight</h1>
+            </div>
+            <div class="controls">
+                <span id="last-updated">Last Updated: Never</span>
+                <span id="next-update" style="margin-left: 15px; color: #60a5fa;">Next Update: 4h 0m 0s</span>
+                <button id="lang-btn" onclick="toggleLanguage()">
+                    <span id="lang-icon">🇺🇸</span> <span id="lang-text">EN</span>
+                </button>
+                <button id="refresh-btn" onclick="fetchData()">
+                    <span class="refresh-icon">↻</span> <span id="refresh-text">Refresh</span>
+                </button>
+            </div>
+        </header>
+
+        <div id="loading" class="loading-container">
+            <div class="spinner"></div>
+            <p id="loading-text">Analyzing Global Market Data with Gemini 2.5 Flash...</p>
+        </div>
+
+        <div id="global-summary" class="global-card" style="display: none;">
+            <h2 id="global-title">🌍 AI Global Market Insight</h2>
+            <div class="card-content">
+                <div id="global-summary-text" class="summary-text">Loading...</div>
+
+                <!-- Macro Data Grid -->
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px;">
+
+                    <!-- Fed Rate Container -->
+                    <div id="fed-rate-container"
+                        style="display: none; background: rgba(30, 41, 59, 0.5); padding: 15px; border-radius: 8px; border: 1px solid #334155;">
+                        <div
+                            style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                            <h4 id="fed-title" style="margin: 0; color: #94a3b8; font-size: 0.9rem;">🏦 Fed Rate
+                                Expectations (30-Day Futures)</h4>
+                            <span id="fed-trend"
+                                style="font-size: 0.8rem; padding: 2px 8px; border-radius: 4px; background: #334155;">--</span>
+                        </div>
+                        <div
+                            style="display: flex; flex-direction: column; gap: 5px; font-size: 0.9rem; color: #cbd5e1;">
+                            <div><span id="fed-rate-label">Implied Rate</span>: <span id="fed-rate"
+                                    style="color: #e2e8f0; font-weight: bold;">--%</span></div>
+                            <div><span id="fed-zone-label">Zone</span>: <span id="fed-zone"
+                                    style="color: #fcd34d;">--</span></div>
+                            <div><span id="fed-price-label">Price</span>: <span id="fed-price"
+                                    style="color: #94a3b8;">--</span></div>
+                            <div><span id="fed-change-label">5D Change</span>: <span id="fed-change"
+                                    style="color: #94a3b8;">-- bps</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Japan Macro Container -->
+                    <div id="japan-macro-container"
+                        style="display: none; background: rgba(30, 41, 59, 0.5); padding: 15px; border-radius: 8px; border: 1px solid #334155;">
+                        <div
+                            style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                            <h4 id="japan-title" style="margin: 0; color: #94a3b8; font-size: 0.9rem;">💴 Japan Macro
+                                (USD/JPY)</h4>
+                            <span id="japan-trend"
+                                style="font-size: 0.8rem; padding: 2px 8px; border-radius: 4px; background: #334155;">--</span>
+                        </div>
+                        <div
+                            style="display: flex; flex-direction: column; gap: 5px; font-size: 0.9rem; color: #cbd5e1;">
+                            <div><span id="japan-price-label">Price</span>: <span id="japan-price"
+                                    style="color: #e2e8f0; font-weight: bold;">--</span></div>
+                            <div><span id="japan-zone-label">Zone</span>: <span id="japan-zone"
+                                    style="color: #fcd34d;">--</span></div>
+                            <div><span id="japan-change-label">5D Change</span>: <span id="japan-change"
+                                    style="color: #94a3b8;">--%</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Global Liquidity Monitor -->
+                <div id="liquidity-monitor-container"
+                    style="display: none; background: rgba(30, 41, 59, 0.5); padding: 15px; border-radius: 8px; border: 1px solid #334155; margin-top: 20px;">
+                    <h4 id="liq-title" style="margin: 0 0 10px 0; color: #94a3b8; font-size: 0.9rem;">💧 Global
+                        Liquidity Monitor</h4>
+                    <div
+                        style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px; font-size: 0.9rem; color: #cbd5e1;">
+                        <!-- DXY -->
+                        <div style="background: rgba(15, 23, 42, 0.3); padding: 10px; border-radius: 6px;">
+                            <div style="color: #94a3b8; font-size: 0.8rem;">DXY (Dollar)</div>
+                            <div style="font-weight: bold; color: #e2e8f0; margin: 5px 0;"><span
+                                    id="dxy-price">--</span> <span id="dxy-change" style="font-size: 0.8rem;">--%</span>
+                            </div>
+                            <div id="dxy-trend" style="font-size: 0.8rem; color: #64748b;">--</div>
+                        </div>
+                        <!-- US10Y -->
+                        <div style="background: rgba(15, 23, 42, 0.3); padding: 10px; border-radius: 6px;">
+                            <div style="color: #94a3b8; font-size: 0.8rem;">US10Y (Yield)</div>
+                            <div style="font-weight: bold; color: #e2e8f0; margin: 5px 0;"><span
+                                    id="us10y-price">--</span> <span id="us10y-change"
+                                    style="font-size: 0.8rem;">--%</span></div>
+                            <div id="us10y-trend" style="font-size: 0.8rem; color: #64748b;">--</div>
+                        </div>
+                        <!-- VIX -->
+                        <div style="background: rgba(15, 23, 42, 0.3); padding: 10px; border-radius: 6px;">
+                            <div style="color: #94a3b8; font-size: 0.8rem;">VIX (Fear)</div>
+                            <div style="font-weight: bold; color: #e2e8f0; margin: 5px 0;"><span
+                                    id="vix-price">--</span> <span id="vix-change" style="font-size: 0.8rem;">--%</span>
+                            </div>
+                            <div id="vix-trend" style="font-size: 0.8rem; color: #64748b;">--</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="dashboard" class="grid-container" style="display: none;">
+            <!-- Cards will be injected here -->
+        </div>
+
+        <div id="news-analysis" class="global-card" style="display: none;">
+            <h2 id="news-title">📰 Narrative vs Reality Check</h2>
+            <div id="news-list"></div>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>

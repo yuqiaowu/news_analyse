@@ -1,0 +1,669 @@
+"""
+Fetch multi-coin 4H OHLCV data from OKX using direct API calls
+Coins: BTC, ETH, BNB, DOGE, SOL
+"""
+import os
+import time
+import requests
+import pandas as pd
+import ccxt
+import yfinance as yf
+
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv()
+
+CSV_DIR = Path("csv_data")
+CSV_DIR.mkdir(exist_ok=True)
+
+HTTP_TIMEOUT = 30
+
+def resolve_proxy():
+    proxy = os.environ.get("HTTPS_PROXY") or os.environ.get("HTTP_PROXY")
+    if not proxy and os.environ.get("USE_LOCAL_PROXY", "0").lower() in {"1", "true", "yes"}:
+        # proxy = "http://127.0.0.1:7890" # Disable default proxy, let TUN handle it
+        pass
+    if proxy:
+        return {"http": proxy, "https": proxy}
+    return None
+
+PROXIES = resolve_proxy()
+OKX_BASE = "https://www.okx.com"
+
+def okx_get(path: str, params: dict) -> dict:
+    """Make OKX API request"""
+    url = OKX_BASE + path
+    try:
+        r = requests.get(url, params=params, timeout=HTTP_TIMEOUT, proxies=PROXIES)
+        r.raise_for_status()
+        data = r.json()
+        if isinstance(data, dict) and data.get("code") not in (None, "0"):
+            print(f"⚠️ OKX API Error {data.get('code')}: {data.get('msg')}")
+            return {}
+        return data
+    except Exception as e:
+        print(f"⚠️ Request failed: {e}")
+        return {}
+
+def fetch_okx_candles(symbol: str, bar: str = "4H", days: int = 730) -> pd.DataFrame:
+    """
+    Fetch OHLCV candles from OKX
+    API: GET /api/v5/market/candles?instId=BTC-USDT&bar=4H&limit=300
+    """
+    print(f"Fetching {symbol} {bar} data for {days} days...")
+    
+    end_dt = datetime.now(timezone.utc)
+    start_dt = end_dt - timedelta(days=days + 5)
+    
+    all_records = []
+    after = None
+    
+    for iteration in range(50):  # Max 50 iterations
+        params = {
+            "instId": symbol,
+            "bar": bar,
+            "limit": "300",  # Max per request
+        }
+        
+        if after:
+            params["after"] = after
+        
+        payload = okx_get("/api/v5/market/candles", params)
+        rows = payload.get("data", [])
+        
+        if not rows:
+            break
+        
+        for row in rows:
+            # [ts, o, h, l, c, vol, volCcy, volCcyQuote, confirm]
+            ts = int(row[0])
+            dt = datetime.fromtimestamp(ts / 1000, tz=timezone.utc)
+            
+            if dt < start_dt:
+                break
+            
+            all_records.append({
+                "datetime": dt,
+                "open": float(row[1]),
+                "high": float(row[2]),
+                "low": float(row[3]),
+                "close": float(row[4]),
+                "volume": float(row[5]),
+            })
+        
+        if rows:
+            after = rows[-1][0]  # Timestamp of last candle
+        else:
+            break
+        
+        # Check if we've gone back far enough
+        oldest_ts = int(rows[-1][0])
+        oldest_dt = datetime.fromtimestamp(oldest_ts / 1000, tz=timezone.utc)
+        if oldest_dt < start_dt or len(rows) < 300:
+            break
+        
+        print(f"  Fetched {len(rows)} candles, oldest: {oldest_dt.strftime('%Y-%m-%d %H:%M')}")
+        time.sleep(0.2)  # Rate limiting
+    
+    if not all_records:
+        print("⚠️ No data fetched")
+        return pd.DataFrame()
+    
+    df = pd.DataFrame(all_records)
+    df = df.sort_values("datetime").reset_index(drop=True)
+    
+    # Convert to date column (Qlib format)
+    df['date'] = df['datetime']
+    df = df[['date', 'datetime', 'open', 'high', 'low', 'close', 'volume']]
+    
+    print(f"  ✅ Total {len(df)} candles from {df['date'].min()} to {df['date'].max()}")
+    
+    return df
+def fetch_funding_rate(symbol: str, days: int = 730) -> pd.DataFrame:
+    """
+    Fetch funding rate history
+    API: GET /api/v5/public/funding-rate-history?instId=BTC-USDT-SWAP&limit=100
+    """
+    swap_symbol = symbol.replace("-USDT", "-USDT-SWAP")
+    print(f"Fetching funding rate for {swap_symbol}...")
+    
+    end_dt = datetime.now(timezone.utc)
+    start_dt = end_dt - timedelta(days=days + 5)
+    
+    all_records = []
+    after = None
+    
+    for _ in range(100):
+        params = {"instId": swap_symbol, "limit": "100"}
+        if after:
+            params["after"] = after
+            
+        payload = okx_get("/api/v5/public/funding-rate-history", params)
+        rows = payload.get("data", [])
+        
+        if not rows:
+            break
+            
+        for row in rows:
+            # Response is list of dicts: {'instId': '...', 'fundingRate': '...', 'fundingTime': '...'}
+            try:
+                ts = int(row.get('fundingTime', 0))
+                rate = float(row.get('fundingRate', 0))
+            except (ValueError, AttributeError):
+                # Fallback for list format if API changes
+                ts = int(row[4])
+                rate = float(row[2])
+                
+            dt = datetime.fromtimestamp(ts / 1000, tz=timezone.utc)
+            
+            if dt < start_dt:
+                break
+                
+            all_records.append({
+                "datetime": dt,
+                "funding_rate": rate,
+            })
+            
+        if rows:
+            # Get last timestamp for pagination
+            try:
+                last_ts = int(rows[-1].get('fundingTime', 0))
+                after = str(last_ts)
+            except:
+                last_ts = int(rows[-1][4])
+                after = str(last_ts)
+                
+            if datetime.fromtimestamp(last_ts/1000, tz=timezone.utc) < start_dt:
+                break
+        else:
+            break
+        time.sleep(0.1)
+        
+    if not all_records:
+        return pd.DataFrame()
+        
+    df = pd.DataFrame(all_records)
+    df = df.sort_values("datetime").reset_index(drop=True)
+    print(f"  ✅ Fetched {len(df)} funding rate records")
+    return df
+
+def fetch_open_interest(symbol: str, bar: str = "4H", days: int = 730) -> pd.DataFrame:
+    """
+    Fetch open interest history (Manual OKX API)
+    Note: OKX only supports 5m, 1h, 1d. We fetch 1h and resample to 4H.
+    """
+    swap_symbol = symbol.replace("-USDT", "-USDT-SWAP")
+    print(f"Fetching open interest for {swap_symbol} (1H -> 4H)...")
+    
+    end_dt = datetime.now(timezone.utc)
+    start_dt = end_dt - timedelta(days=days)
+    start_ts_ms = int(start_dt.timestamp() * 1000)
+    
+    all_records = []
+    end_ts = None
+    
+    # Fetch 1H data
+    # Max 500 requests to be safe (500 * 100 hours = 50000 hours ~ 5.7 years)
+    for i in range(500):
+        params = {"instId": swap_symbol, "period": "1H", "limit": "100"}
+        if end_ts:
+            params["end"] = end_ts
+            
+        # Use existing okx_get function
+        try:
+            payload = okx_get("/api/v5/rubik/stat/contracts/open-interest-history", params)
+        except Exception as e:
+            print(f"    Error fetching OI: {e}")
+            break
+            
+        if isinstance(payload, list):
+            rows = payload
+        elif isinstance(payload, dict):
+            rows = payload.get("data", [])
+        else:
+            print(f"    Unexpected payload type: {type(payload)}")
+            break
+        
+        if not rows:
+            break
+            
+        for row in rows:
+            # Response: {'ts': '...', 'oi': '...', 'oiCcy': '...'}
+            try:
+                ts = int(row.get('ts', 0))
+                oi = float(row.get('oi', 0)) # Usually in contracts or coins? 
+                                             # OKX: oi is in contracts (usually). 
+                                             # But we want USD value if possible? 
+                                             # API doc says: oi: Open interest in contracts.
+                                             # oiCcy: Open interest in currency (e.g. BTC).
+                                             # We probably want USD value? 
+                                             # But wait, previous logic used 'oi'. Let's stick to 'oi' for consistency or check if 'volUsd' exists?
+                                             # Actually, let's use 'oi' (contracts) as a proxy for activity.
+            except (ValueError, AttributeError):
+                continue
+                
+            dt = datetime.fromtimestamp(ts / 1000, tz=timezone.utc)
+            
+            if ts < start_ts_ms:
+                break
+                
+            all_records.append({
+                "datetime": dt,
+                "open_interest": oi,
+            })
+            
+        if rows:
+            last_row = rows[-1]
+            if isinstance(last_row, dict):
+                last_ts = int(last_row.get('ts', 0))
+            elif isinstance(last_row, list):
+                last_ts = int(last_row[0])
+            else:
+                last_ts = 0
+                
+            end_ts = str(last_ts)
+            
+            if last_ts < start_ts_ms:
+                break
+        else:
+            break
+            
+        time.sleep(0.1)
+        
+    if not all_records:
+        return pd.DataFrame()
+        
+    df = pd.DataFrame(all_records)
+    df = df.sort_values("datetime").reset_index(drop=True)
+    
+    # Resample to 4H
+    df.set_index('datetime', inplace=True)
+    df_4h = df.resample('4H').last().dropna().reset_index()
+    
+    print(f"  ✅ Fetched {len(df)} 1H records, resampled to {len(df_4h)} 4H records")
+    return df_4h
+import sys
+
+
+# ... (imports)
+
+def fetch_binance_candles(symbol: str, bar: str = "4H", days: int = 730) -> pd.DataFrame:
+    """
+    Fetch candles from Binance as fallback
+    API: GET /api/v3/klines
+    Symbol mapping: BTC-USDT -> BTCUSDT
+    """
+    binance_symbol = symbol.replace("-", "")
+    print(f"⚠️ Fallback: Fetching {binance_symbol} from Binance...")
+    
+    # Binance interval mapping
+    interval_map = {
+        "1H": "1h", "4H": "4h", "1D": "1d"
+    }
+    interval = interval_map.get(bar, "4h")
+    
+    end_dt = datetime.now(timezone.utc)
+    start_dt = end_dt - timedelta(days=days)
+    start_ts = int(start_dt.timestamp() * 1000)
+    
+    all_records = []
+    
+    # Binance limit is 1000 per request
+    current_start = start_ts
+    
+    for _ in range(50): # Safety break
+        params = {
+            "symbol": binance_symbol,
+            "interval": interval,
+            "startTime": current_start,
+            "limit": 1000
+        }
+        
+        try:
+            # Note: Binance might block some IP addresses or require proxy
+            # We use the same PROXIES as OKX if defined
+            r = requests.get("https://api.binance.com/api/v3/klines", params=params, timeout=HTTP_TIMEOUT, proxies=PROXIES)
+            r.raise_for_status()
+            data = r.json()
+            
+            if not data:
+                break
+                
+            for row in data:
+                # [Open time, Open, High, Low, Close, Volume, Close time, ...]
+                ts = int(row[0])
+                dt = datetime.fromtimestamp(ts / 1000, tz=timezone.utc)
+                
+                all_records.append({
+                    "datetime": dt,
+                    "open": float(row[1]),
+                    "high": float(row[2]),
+                    "low": float(row[3]),
+                    "close": float(row[4]),
+                    "volume": float(row[5]),
+                })
+            
+            # Update start time for next batch (last close time + 1ms)
+            last_close_ts = int(data[-1][6])
+            current_start = last_close_ts + 1
+            
+            # Check if we reached current time
+            if current_start > int(end_dt.timestamp() * 1000):
+                break
+                
+            time.sleep(0.2)
+            
+        except Exception as e:
+            print(f"❌ Binance request failed: {e}")
+            break
+            
+    if not all_records:
+        print(f"❌ Binance returned no data for {binance_symbol}")
+        return pd.DataFrame()
+        
+    df = pd.DataFrame(all_records)
+    df = df.sort_values("datetime").reset_index(drop=True)
+    
+    # Format columns
+    df['date'] = df['datetime']
+    df = df[['date', 'datetime', 'open', 'high', 'low', 'close', 'volume']]
+    
+    print(f"  ✅ Binance: {len(df)} candles from {df['date'].min()} to {df['date'].max()}")
+    return df
+
+
+
+
+def fetch_ccxt_candles(symbol: str, bar: str = "4H", days: int = 730) -> pd.DataFrame:
+    """
+    Fetch candles using CCXT (Exchange Agnostic)
+    Prioritizes OKX, then Binance
+    """
+    print(f"⚠️ Fallback 3: Fetching {symbol} using CCXT...")
+    
+    # Map bar to CCXT timeframe
+    timeframe_map = {
+        "1H": "1h", "4H": "4h", "1D": "1d"
+    }
+    timeframe = timeframe_map.get(bar, "4h")
+    ccxt_symbol = symbol.replace("-", "/") # BTC-USDT -> BTC/USDT
+    
+    # 1. Try OKX via CCXT
+    try:
+        print(f"  Trying CCXT OKX for {ccxt_symbol}...")
+        exchange = ccxt.okx({
+            'timeout': 30000,
+            'enableRateLimit': True,
+        })
+        # Apply proxies if defined
+        if PROXIES:
+            exchange.proxies = PROXIES
+            
+        since = exchange.parse8601((datetime.now(timezone.utc) - timedelta(days=days)).isoformat())
+        
+        all_ohlcv = []
+        while True:
+            ohlcv = exchange.fetch_ohlcv(ccxt_symbol, timeframe, since, limit=100)
+            if not ohlcv:
+                break
+            all_ohlcv.extend(ohlcv)
+            since = ohlcv[-1][0] + 1
+            
+            # Stop if we reached near current time
+            if since > datetime.now(timezone.utc).timestamp() * 1000:
+                break
+                
+        if all_ohlcv:
+            df = pd.DataFrame(all_ohlcv, columns=['timestamp', 'open', 'high', 'low', 'close', 'volume'])
+            df['datetime'] = pd.to_datetime(df['timestamp'], unit='ms', utc=True)
+            df['date'] = df['datetime']
+            df = df[['date', 'datetime', 'open', 'high', 'low', 'close', 'volume']]
+            print(f"  ✅ CCXT OKX: {len(df)} candles")
+            return df
+            
+    except Exception as e:
+        print(f"  ❌ CCXT OKX failed: {e}")
+
+    # 2. Try Binance via CCXT
+    try:
+        print(f"  Trying CCXT Binance for {ccxt_symbol}...")
+        exchange = ccxt.binance({
+            'timeout': 30000,
+            'enableRateLimit': True,
+        })
+        if PROXIES:
+            exchange.proxies = PROXIES
+            
+        since = exchange.parse8601((datetime.now(timezone.utc) - timedelta(days=days)).isoformat())
+        
+        all_ohlcv = []
+        while True:
+            ohlcv = exchange.fetch_ohlcv(ccxt_symbol, timeframe, since, limit=1000)
+            if not ohlcv:
+                break
+            all_ohlcv.extend(ohlcv)
+            since = ohlcv[-1][0] + 1
+            
+            if since > datetime.now(timezone.utc).timestamp() * 1000:
+                break
+                
+        if all_ohlcv:
+            df = pd.DataFrame(all_ohlcv, columns=['timestamp', 'open', 'high', 'low', 'close', 'volume'])
+            df['datetime'] = pd.to_datetime(df['timestamp'], unit='ms', utc=True)
+            df['date'] = df['datetime']
+            df = df[['date', 'datetime', 'open', 'high', 'low', 'close', 'volume']]
+            print(f"  ✅ CCXT Binance: {len(df)} candles")
+            return df
+            
+    except Exception as e:
+        print(f"  ❌ CCXT Binance failed: {e}")
+
+    return pd.DataFrame()
+
+def fetch_yfinance_candles(symbol: str, bar: str = "4H", days: int = 730) -> pd.DataFrame:
+    """
+    Fetch candles using yfinance (Yahoo Finance)
+    Symbol mapping: BTC-USDT -> BTC-USD
+    """
+    yf_symbol = symbol.replace("-USDT", "-USD")
+    print(f"⚠️ Fallback 4: Fetching {yf_symbol} using yfinance...")
+    
+    # Map bar to yfinance interval
+    # yfinance supports: 1m, 2m, 5m, 15m, 30m, 60m, 90m, 1h, 1d, 5d, 1wk, 1mo, 3mo
+    # 4H is not directly supported, so we fetch 1h and resample
+    interval = "1h"
+    
+    try:
+        # Fetch data
+        # yfinance allows fetching by period or start/end
+        # max period for 1h is 730d
+        # Fetch data
+        # yfinance allows fetching by period or start/end
+        # max period for 1h is 730d
+        df = yf.download(yf_symbol, period=f"{days}d", interval=interval, progress=False)
+        
+        if df.empty:
+            print(f"❌ yfinance returned no data for {yf_symbol}")
+            return pd.DataFrame()
+            
+        # Reset index to get Date/Datetime column
+        df = df.reset_index()
+        
+        # Handle MultiIndex columns (yfinance update)
+        if isinstance(df.columns, pd.MultiIndex):
+            # If MultiIndex, the first level is usually Price (Open, Close, etc) and second is Ticker
+            # We just want the Price level
+            df.columns = df.columns.get_level_values(0)
+        
+        # Rename columns (yfinance returns Title Case: Open, High, Low, Close, Volume)
+        df.columns = [c.lower() for c in df.columns]
+        
+        # Ensure datetime column exists (it might be 'date' or 'datetime')
+        if 'date' in df.columns and 'datetime' not in df.columns:
+            df['datetime'] = df['date']
+        elif 'datetime' not in df.columns:
+             # Try to find the datetime column
+            for col in df.columns:
+                if pd.api.types.is_datetime64_any_dtype(df[col]):
+                    df['datetime'] = df[col]
+                    break
+        
+        if 'datetime' not in df.columns:
+             print("❌ Could not find datetime column in yfinance data")
+             return pd.DataFrame()
+
+        # Ensure UTC
+        if df['datetime'].dt.tz is None:
+            df['datetime'] = df['datetime'].dt.tz_localize('UTC')
+        else:
+            df['datetime'] = df['datetime'].dt.tz_convert('UTC')
+            
+        # Resample to 4H if needed
+        if bar == "4H":
+            df = df.set_index('datetime')
+            df_4h = df.resample('4H').agg({
+                'open': 'first',
+                'high': 'max',
+                'low': 'min',
+                'close': 'last',
+                'volume': 'sum'
+            }).dropna()
+            df = df_4h.reset_index()
+            
+        df['date'] = df['datetime']
+        df = df[['date', 'datetime', 'open', 'high', 'low', 'close', 'volume']]
+        
+        print(f"  ✅ yfinance: {len(df)} candles from {df['date'].min()} to {df['date'].max()}")
+        return df
+        
+    except Exception as e:
+        print(f"  ❌ yfinance failed: {e}")
+        return pd.DataFrame()
+
+def main():
+    """Fetch 4H data for multiple coins"""
+    symbols = {
+        'BTC-USDT': 'BTC',
+        'ETH-USDT': 'ETH',
+        'BNB-USDT': 'BNB',
+        'DOGE-USDT': 'DOGE',
+        'SOL-USDT': 'SOL',
+    }
+    
+    print("🚀 Fetching Multi-Coin 4H Data\n")
+    
+    failure_count = 0
+    
+    for symbol, coin_name in symbols.items():
+        print(f"\n{'='*60}")
+        print(f"Processing {symbol} ({coin_name})")
+        print(f"{'='*60}")
+        
+        # 1. Fetch 4H Data (Primary for Qlib)
+        df_4h = fetch_okx_candles(symbol, bar="4H", days=730)
+        if not df_4h.empty:
+            # Save 4H
+            filename_4h = CSV_DIR / f"{coin_name}_4h.csv"
+            df_4h.to_csv(filename_4h, index=False)
+            print(f"✅ Saved {symbol} 4H data to {filename_4h}")
+            print(f"   Last 3 rows:\n{df_4h.tail(3)[['date', 'close', 'volume']]}")
+        else:
+            print(f"❌ Failed to fetch {symbol} 4H from OKX")
+            
+        # 2. Fetch 1D Data (Context for Agent)
+        df_1d = fetch_okx_candles(symbol, bar="1D", days=730)
+        if not df_1d.empty:
+            # Save 1D
+            filename_1d = CSV_DIR / f"{coin_name}_1d.csv"
+            df_1d.to_csv(filename_1d, index=False)
+            print(f"✅ Saved {symbol} 1D data to {filename_1d}")
+        else:
+            print(f"⚠️ Failed to fetch {symbol} 1D from OKX (Non-critical)")
+
+        # Continue with Funding Rate logic (using 4H or just symbol)
+        # Note: Funding rate is usually independent of bar size for storage, 
+        # but we need it for the main dataset.
+        
+        # If 4H failed, try fallback (logic below expects df to be the primary 4H df)
+        df = df_4h
+        if df.empty:
+            # Fallback logic (Binance/CCXT/YF) - assumes they return 4H
+            # ... (existing fallback logic)
+            
+            # Try Binance
+            print(f"🔄 Trying Binance for {symbol}...")
+            df = fetch_binance_candles(symbol, bar="4H", days=730)
+            
+
+        # 4. Fallback to yfinance
+        if df.empty:
+            print(f"⚠️ CCXT failed for {symbol}, trying yfinance fallback...")
+            df = fetch_yfinance_candles(symbol, bar="4H", days=730)
+        
+        # Check Data Freshness
+        if not df.empty:
+            last_date = df['datetime'].max()
+            now = datetime.now(timezone.utc)
+            age = now - last_date
+            if age > timedelta(hours=12):
+                print(f"❌ Data for {symbol} is stale! Last date: {last_date}, Age: {age}")
+                df = pd.DataFrame() # Treat as failed
+                failure_count += 1
+                continue
+        
+        if df.empty:
+            print(f"❌ Failed to fetch {symbol} from ALL sources")
+            failure_count += 1
+            continue
+            
+        # Save candles immediately (Intermediate save)
+        output_path = CSV_DIR / f"{coin_name}_4h.csv"
+        df.to_csv(output_path, index=False)
+        print(f"💾 Saved candles to {output_path} (Intermediate)")
+
+        # Fetch Sentiment Data
+        try:
+            fr_df = fetch_funding_rate(symbol, days=730)
+        except Exception as e:
+            print(f"⚠️ Failed to fetch Funding Rate: {e}")
+            fr_df = pd.DataFrame()
+
+        try:
+            oi_df = fetch_open_interest(symbol, bar="4H", days=730)
+            # print("⚠️ Skipping Open Interest fetch to prevent hang")
+            # oi_df = pd.DataFrame()
+        except Exception as e:
+            import traceback
+            traceback.print_exc()
+            print(f"⚠️ Failed to fetch Open Interest: {e}")
+            oi_df = pd.DataFrame()
+        
+        # Merge Funding Rate
+        if not fr_df.empty:
+            df = pd.merge_asof(df, fr_df, on='datetime', direction='backward')
+            df['funding_rate'] = df['funding_rate'].fillna(method='ffill')
+        else:
+            df['funding_rate'] = 0.0 # Default neutral
+            
+        # Merge Open Interest
+        if not oi_df.empty:
+            df = pd.merge_asof(df, oi_df, on='datetime', direction='nearest', tolerance=pd.Timedelta(hours=1))
+        else:
+            df['open_interest'] = 0.0
+            
+        # Save Final
+        df.to_csv(output_path, index=False)
+        print(f"💾 Saved final data to {output_path}")
+        
+        time.sleep(1)
+    
+    if failure_count > 0:
+        print(f"\n❌ Failed to fetch data for {failure_count} coins. Exiting with error to stop pipeline.")
+        sys.exit(1)
+        
+    print(f"\n✅ All done! Data saved to {CSV_DIR}/")
+
+if __name__ == "__main__":
+    main()
