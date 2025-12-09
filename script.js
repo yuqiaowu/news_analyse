@@ -107,7 +107,7 @@ function updateStaticText() {
     const timePart = lastUpdated.textContent.split(': ')[1] || '';
     lastUpdated.textContent = `${t.last_updated}${timePart}`;
 
-    updateTimerDisplay();
+
 }
 
 async function fetchData(forceRefresh = false) {
@@ -139,28 +139,9 @@ async function fetchData(forceRefresh = false) {
         const ts = data.timestamp ? new Date(data.timestamp) : new Date();
         lastUpdated.textContent = `${t.last_updated}${ts.toLocaleTimeString()}`;
 
-        // Calculate remaining time based on timestamp
-        const now = new Date();
-        const elapsedSeconds = Math.floor((now - ts) / 1000);
-        let remaining = REFRESH_INTERVAL - elapsedSeconds;
-
-        // If expired (negative remaining), set to 0
-        if (remaining < 0) remaining = 0;
-
-        // If expired, don't loop immediately. Wait 30s then retry.
-        if (remaining === 0) {
-            console.log("Data expired, scheduling retry in 30s...");
-            startTimer(30);
-        } else {
-            // Start timer with calculated remaining time
-            startTimer(remaining);
-        }
-
     } catch (error) {
         console.error('Error fetching analysis:', error);
         document.getElementById('loading').textContent = `数据加载失败: ${error.message}. 请稍后再试。`;
-        // If error, restart timer with default interval to allow retry later
-        startTimer(REFRESH_INTERVAL);
     } finally {
         loading.style.display = 'none';
         document.getElementById('global-summary').style.display = 'block';
@@ -486,46 +467,7 @@ function createCard(coin) {
 }
 
 // Auto-refresh settings
-const REFRESH_INTERVAL = 4 * 60 * 60; // 4 hours in seconds
-let countdown = REFRESH_INTERVAL;
-let timerInterval;
 
-function startTimer(duration) {
-    clearInterval(timerInterval);
-
-    // Set countdown to provided duration or default
-    countdown = (typeof duration === 'number') ? duration : REFRESH_INTERVAL;
-
-    updateTimerDisplay();
-
-    timerInterval = setInterval(() => {
-        if (countdown > 0) {
-            countdown--;
-            updateTimerDisplay();
-        } else {
-            clearInterval(timerInterval);
-            fetchData(true); // Force refresh on timer expiry
-        }
-    }, 1000);
-}
-
-function updateTimerDisplay() {
-    const nextUpdate = document.getElementById('next-update');
-    const t = TRANSLATIONS[currentLang];
-
-    if (nextUpdate) {
-        // Format seconds to HH:MM:SS
-        const h = Math.floor(countdown / 3600);
-        const m = Math.floor((countdown % 3600) / 60);
-        const s = countdown % 60;
-
-        const hStr = h > 0 ? `${h}h ` : '';
-        const mStr = m > 0 ? `${m}m ` : '';
-        const sStr = `${s}s`;
-
-        nextUpdate.textContent = `${t.next_update}${hStr}${mStr}${sStr}`;
-    }
-}
 
 // Initial fetch (Use cache if available)
 document.addEventListener('DOMContentLoaded', () => {
