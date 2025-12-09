@@ -135,8 +135,18 @@ async function fetchData(forceRefresh = false) {
         renderDashboard(data);
 
         // Update timestamp
-        const ts = data.timestamp ? new Date(data.timestamp) : new Date();
-        lastUpdated.textContent = `${t.last_updated}${ts.toLocaleTimeString()}`;
+        // Assume timestamp from server is UTC if it lacks timezone info
+        let tsStr = data.timestamp;
+        if (tsStr && !tsStr.endsWith('Z') && !tsStr.includes('+')) {
+            tsStr += 'Z';
+        }
+        const ts = tsStr ? new Date(tsStr) : new Date();
+
+        // Get timezone name (e.g., CST, GMT+8)
+        const timeString = ts.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+        const timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+
+        lastUpdated.textContent = `${t.last_updated}${timeString} (${timeZone})`;
 
     } catch (error) {
         console.error('Error fetching analysis:', error);
@@ -298,11 +308,9 @@ function renderDashboard(data) {
             const changeEl = document.getElementById(`${prefix}-change`);
             if (change !== null) {
                 changeEl.textContent = `${change > 0 ? '+' : ''}${change}%`;
-                changeEl.style.color = change > 0 ? '#f87171' : '#4ade80'; // Default
-                if (key === 'dxy' || key === 'us10y' || key === 'vix') {
-                    // For these, Up is usually Bad (Risk Off)
-                    changeEl.style.color = change > 0 ? '#f87171' : '#4ade80';
-                }
+                // Standardize: Green for Up, Red for Down (Crypto/Western standard)
+                // Note: User asked to distinguish. We use Green for +, Red for -
+                changeEl.style.color = change > 0 ? '#22c55e' : '#ef4444';
             } else {
                 changeEl.textContent = '--';
                 changeEl.style.color = '#94a3b8';
