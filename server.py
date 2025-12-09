@@ -303,6 +303,7 @@ async def analyze_all(force_refresh: bool = False):
             {{
                 "title_cn": "<News Title (Chinese)>",
                 "title_en": "<News Title (English)>",
+                "news_sentiment": "Bullish" | "Bearish" | "Neutral",
                 "classification": "IMPULSE" | "PRICED IN" | "DISTRIBUTION" | "DIVERGENCE" | "NEUTRAL",
                 "reason_cn": "<Why? Chinese>",
                 "reason_en": "<Why? English>"

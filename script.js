@@ -392,11 +392,24 @@ function renderDashboard(data) {
         document.getElementById('news-analysis').style.display = 'block';
         newsList.innerHTML = data.news_analysis.map(item => {
             let badgeClass = 'badge-neutral';
-            const cls = item.classification.toUpperCase();
+            const cls = (item.classification || 'NEUTRAL').toUpperCase();
             if (cls === 'IMPULSE') badgeClass = 'badge-impulse';
             if (cls === 'PRICED IN') badgeClass = 'badge-priced-in';
             if (cls === 'DISTRIBUTION') badgeClass = 'badge-distribution';
             if (cls === 'DIVERGENCE') badgeClass = 'badge-divergence';
+
+            // Sentiment Logic
+            const sentiment = item.news_sentiment || 'Neutral';
+            let sentimentClass = 'badge-neutral';
+            if (sentiment === 'Bullish') sentimentClass = 'badge-bullish';
+            if (sentiment === 'Bearish') sentimentClass = 'badge-bearish';
+
+            const sentimentMap = {
+                'Bullish': '利多 (Bullish)',
+                'Bearish': '利空 (Bearish)',
+                'Neutral': '中性 (Neutral)'
+            };
+            const sentimentText = currentLang === 'CN' ? (sentimentMap[sentiment] || sentiment) : sentiment;
 
             // Title Translation (Fallback to 'title' if specific lang missing)
             const title = currentLang === 'CN' ? (item.title_cn || item.title) : (item.title_en || item.title);
@@ -411,7 +424,10 @@ function renderDashboard(data) {
                 <div class="news-analysis-item">
                     <div class="news-header">
                         <span class="news-title">${title}</span>
-                        <span class="news-badge ${badgeClass}">${badgeText}</span>
+                        <div style="display: flex; gap: 8px; align-items: center;">
+                            <span class="news-badge ${sentimentClass}">${sentimentText}</span>
+                            <span class="news-badge ${badgeClass}">${badgeText}</span>
+                        </div>
                     </div>
                     <div class="news-reason">${reason}</div>
                 </div>
