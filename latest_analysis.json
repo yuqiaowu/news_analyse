@@ -1,108 +1,73 @@
 {
-  "timestamp": "2025-12-08T23:29:43.936334",
-  "global_summary_cn": "全球流动性处于中性偏宽松状态，美联储降息预期下降（Dovish Trend）配合日元疲软的套利交易，为风险资产提供了温和支撑。然而，加密市场新闻叙事极度强势（Extremely Bullish）。黑石申请质押型以太坊ETF是核心驱动力（IMPULSE），这与CFTC试行代币化抵押品的消息相结合，极大地提升了ETH和整个加密领域的监管合法性。当前市场处于“叙事驱动型”牛市阶段，即便是宏观流动性没有完全释放，强劲的基本面催化剂也足以推动价格上涨。BTC价格挑战关键阻力位，需关注92K能否突破，而ETH则因重大利好而成为当前焦点。",
-  "global_summary_en": "全球流动性处于中性偏宽松状态，美联储降息预期下降（Dovish Trend）配合日元疲软的套利交易，为风险资产提供了温和支撑。然而，加密市场新闻叙事极度强势（Extremely Bullish）。黑石申请质押型以太坊ETF是核心驱动力（IMPULSE），这与CFTC试行代币化抵押品的消息相结合，极大地提升了ETH和整个加密领域的监管合法性。当前市场处于“叙事驱动型”牛市阶段，即便是宏观流动性没有完全释放，强劲的基本面催化剂也足以推动价格上涨。BTC价格挑战关键阻力位，需关注92K能否突破，而ETH则因重大利好而成为当前焦点。",
+  "timestamp": "2025-12-09T03:30:31.081708",
+  "global_summary_cn": "全球流动性正处于观望状态，等待美联储即将作出的利率决定。尽管鸽派预期略有上升，但美国10年期国债收益率的微升以及亚洲股市的下跌，导致宏观资金环境维持在中性偏紧的状态。然而，加密货币新闻叙事却极度乐观，尤其是贝莱德提交质押以太坊ETF的申请，以及机构资金连续两周流入。目前市场处于明显的“好消息与紧缩流动性”的背离状态。这表明大型机构可能正在利用市场对美联储的担忧进行价格限制（Distribution），或单纯等待宏观风险事件结束后再部署资金。短期内，如果美联储未释放明显的宽松信号，市场可能会在关键阻力位（如BTC $92K）附近进行盘整或回调。",
+  "global_summary_en": "全球流动性正处于观望状态，等待美联储即将作出的利率决定。尽管鸽派预期略有上升，但美国10年期国债收益率的微升以及亚洲股市的下跌，导致宏观资金环境维持在中性偏紧的状态。然而，加密货币新闻叙事却极度乐观，尤其是贝莱德提交质押以太坊ETF的申请，以及机构资金连续两周流入。目前市场处于明显的“好消息与紧缩流动性”的背离状态。这表明大型机构可能正在利用市场对美联储的担忧进行价格限制（Distribution），或单纯等待宏观风险事件结束后再部署资金。短期内，如果美联储未释放明显的宽松信号，市场可能会在关键阻力位（如BTC $92K）附近进行盘整或回调。",
   "news_analysis": [
+    {
+      "title": "Asia-Pacific markets mostly fall following Wall Street losses ahead of Fed rate decision",
+      "classification": "NEUTRAL",
+      "reason": "宏观风险规避情绪高涨，反映市场在美联储会议前的普遍谨慎态度，对风险资产构成间接压力。"
+    },
     {
       "title": "Trump greenlights Nvidia H200 AI chip sales to China if U.S. gets 25% cut, says Xi responded positively",
       "classification": "NEUTRAL",
-      "reason": "宏观贸易关系的积极信号，有利于整体风险偏好，但对加密货币价格影响间接。"
+      "reason": "地缘政治风险有所缓解，对全球风险情绪略有积极影响，但与加密市场关联度较低。"
     },
     {
-      "title": "Trump announces $12 billion aid package for farmers caught up in trade war",
-      "classification": "NEUTRAL",
-      "reason": "美国国内政策新闻，对加密市场无直接影响。"
-    },
-    {
-      "title": "Berkshire Hathaway's Todd Combs, investment lieutenant to Buffett and Geico CEO, is leaving for JPMorgan",
-      "classification": "NEUTRAL",
-      "reason": "传统金融高层变动，对加密货币市场情绪影响不大。"
-    },
-    {
-      "title": "Home sellers are giving up at 'unusually high rate,' says new Realtor report",
-      "classification": "NEUTRAL",
-      "reason": "宏观经济的疲软信号，但当前市场焦点完全在加密资产的机构叙事上，影响被稀释。"
-    },
-    {
-      "title": "BlackRock bets on ‘pick and shovel’ trade, singling out clear winners in AI spending spree",
-      "classification": "NEUTRAL",
-      "reason": "机构投资者的AI策略，间接表明风险资金偏好高增长科技资产。"
+      "title": "CFTC pilot opens path for crypto as collateral in derivative markets",
+      "classification": "IMPULSE",
+      "reason": "积极的监管消息，为加密资产在传统金融中的应用打开通道，但影响被近期ETF重磅消息所掩盖。"
     },
     {
       "title": "Bitcoin catches a bid, but data shows pro traders skeptical of rally above $92K",
-      "classification": "DISTRIBUTION",
-      "reason": "价格接近关键阻力位，但专业交易者持怀疑态度，暗示突破需要更强的流动性或空头清算。"
-    },
-    {
-      "title": "Crypto, TradFi sentiment improves: Will Bitcoin traders clear shorts above $93K?",
-      "classification": "IMPULSE",
-      "reason": "市场情绪改善，关注空头头寸是否会被挤压（Crowded Shorts），潜在支撑价格进一步上涨。"
-    },
-    {
-      "title": "Saylor pitches Bitcoin-backed banking system to nation-states",
       "classification": "NEUTRAL",
-      "reason": "长期愿景，属于持续的看涨叙事教育，非短期价格驱动因素。"
-    },
-    {
-      "title": "Why Grayscale thinks Bitcoin will ignore the 4-year cycle this time",
-      "classification": "NEUTRAL",
-      "reason": "市场对周期理论的讨论，反映了普遍的乐观情绪。"
+      "reason": "市场自我反馈，确认了当前价格附近存在明显的阻力位和空头压力，限制了短期上涨空间。"
     },
     {
       "title": "BlackRock files for listing staked Ether ETF",
-      "classification": "IMPULSE",
-      "reason": "本轮市场最强催化剂。直接推动ETH大幅上涨，确认了机构对ETH的长期、质押参与意愿。"
+      "classification": "DISTRIBUTION",
+      "reason": "此为结构性超级利好，但ETH价格在消息公布后涨幅有限，且随后出现小幅回落。表明在宏观谨慎环境下，多头选择获利了结，而非强势突破。"
     },
     {
       "title": "Crypto funds log second week of inflows after massive $5.5B sell-off",
       "classification": "IMPULSE",
-      "reason": "资金流出压力减弱，连续流入显示机构信心恢复，为反弹提供基础。"
+      "reason": "确认机构资金仍在低位持续积累，显示长期结构性看涨，但短期未能推动价格上涨。"
     },
     {
       "title": "Ethereum ‘smart’ whales open $426M long bets as ETH price chart eyes $4K",
       "classification": "IMPULSE",
-      "reason": "巨鲸积极开多仓，配合ETF消息，表明大型参与者对ETH的短期看涨预期极强。"
+      "reason": "鲸鱼积极做多，结合ETH ETF消息，是强烈的看涨信号。但价格尚未爆发，表明其受到大盘流动性的限制。"
     },
     {
-      "title": "Tether Invests in Italian Robotics Startup Generative Bionics Amid Humanoid Hype",
-      "classification": "NEUTRAL",
-      "reason": "Tether的生态扩张，与加密市场直接价格波动关联不大。"
-    },
-    {
-      "title": "CFTC to Pilot Tokenized Collateral in Derivatives Markets Starting With Bitcoin, Ethereum and USDC",
+      "title": "HashKey Files for Hong Kong IPO, Aims to Be City’s First Listed Crypto Exchange",
       "classification": "IMPULSE",
-      "reason": "重大利好，将BTC和ETH纳入衍生品市场的抵押品范围，提升了其监管认可度和实用性。"
+      "reason": "亚洲市场合规化和机构化的重要进展，利好长期行业发展和合规资金流入。"
     },
     {
-      "title": "Spectra Launches on Flare With Yield Tokenization for sFLR and stXRP",
+      "title": "Analysts Target $1M Bitcoin With a Surging Institution-Led Cycle",
       "classification": "NEUTRAL",
-      "reason": "具体生态项目发展，非宏观市场驱动因素。"
-    },
-    {
-      "title": "Coinbase and Korea Premiums Flash Green While Bitcoin’s December Chaos Deepens",
-      "classification": "IMPULSE",
-      "reason": "韩国溢价（Kimchi Premium）和Coinbase溢价出现，显示亚洲和机构需求正在回升。"
+      "reason": "长期看涨情绪的渲染，属于叙事的一部分，短期指导意义不大。"
     }
   ],
   "fed_futures": {
-    "price": 96.41,
-    "implied_rate": 3.59,
-    "timestamp": "2025-12-08T23:29:27.842156+00:00",
+    "price": 96.415,
+    "implied_rate": 3.585,
+    "timestamp": "2025-12-09T03:30:15.843801+00:00",
     "trend": "Dovish (Rate expectations dropping)",
-    "change_5d_bps": -14.0,
+    "change_5d_bps": -14.5,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 155.897,
-    "timestamp": "2025-12-08T23:29:27.888780+00:00",
+    "price": 155.86,
+    "timestamp": "2025-12-09T03:30:15.894146+00:00",
     "trend": "Neutral",
-    "change_5d_pct": 0.22,
+    "change_5d_pct": 0.03,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 99.1,
-      "change_5d_pct": 0.25,
+      "price": 99.04,
+      "change_5d_pct": 0.19,
       "trend": "Neutral"
     },
     "us10y": {
@@ -119,63 +84,63 @@
   "coins": [
     {
       "symbol": "BTC",
-      "price": 90699.9,
-      "change_24h": 0.7218220120177813,
-      "rsi_4h": 51.17219177982765,
-      "funding_rate": -0.00120484552703,
-      "open_interest": 2193867.4600000004,
-      "sentiment": "Bullish",
-      "score": 80,
-      "comment_cn": "受到ETH利好外溢效应及CFTC消息驱动。当前价格面临92K阻力区抛压。资金费率为负（Crowded Shorts），短期存在挤空潜力。",
-      "comment_en": "受到ETH利好外溢效应及CFTC消息驱动。当前价格面临92K阻力区抛压。资金费率为负（Crowded Shorts），短期存在挤空潜力。"
+      "price": 90055.4,
+      "change_24h": -1.2928166743209015,
+      "rsi_4h": 47.32069942288431,
+      "funding_rate": 0.0022443058183,
+      "open_interest": 2199828.8899999997,
+      "sentiment": "Neutral",
+      "score": 55,
+      "comment_cn": "价格在90K附近盘整，24小时小幅下跌，显示强劲利好未转化为冲高动能。高OI和价格疲软，结构上倾向于盘整或宏观风险释放前的获利回吐。",
+      "comment_en": "价格在90K附近盘整，24小时小幅下跌，显示强劲利好未转化为冲高动能。高OI和价格疲软，结构上倾向于盘整或宏观风险释放前的获利回吐。"
     },
     {
       "symbol": "ETH",
-      "price": 3124.09,
-      "change_24h": 2.510852909039004,
-      "rsi_4h": 55.82083511194314,
-      "funding_rate": -0.00148397598797,
-      "open_interest": 5252383.870000007,
-      "sentiment": "Strongly Bullish",
-      "score": 95,
-      "comment_cn": "黑石质押ETF为巨大利好（IMPULSE），巨鲸积极开多仓。基本面驱动强劲，短期内预计领涨市场。",
-      "comment_en": "黑石质押ETF为巨大利好（IMPULSE），巨鲸积极开多仓。基本面驱动强劲，短期内预计领涨市场。"
+      "price": 3102.34,
+      "change_24h": -0.3869136492218292,
+      "rsi_4h": 52.684064393467146,
+      "funding_rate": 0.00529163192323,
+      "open_interest": 5440868.370000009,
+      "sentiment": "Neutral/Mildly Bullish",
+      "score": 65,
+      "comment_cn": "受到Staked ETF的重大利好支撑，相对BTC表现出较强韧性。鲸鱼做多仓位上升，但价格突破受制于大盘。短期面临宏观流动性约束。",
+      "comment_en": "受到Staked ETF的重大利好支撑，相对BTC表现出较强韧性。鲸鱼做多仓位上升，但价格突破受制于大盘。短期面临宏观流动性约束。"
     },
     {
       "symbol": "SOL",
-      "price": 132.6,
-      "change_24h": 0.7522224754957683,
-      "rsi_4h": 44.68301093709157,
-      "funding_rate": -0.010929775759609999,
-      "open_interest": 2345701.760000001,
+      "price": 132.94,
+      "change_24h": -1.0936686258462902,
+      "rsi_4h": 45.29177738467901,
+      "funding_rate": -0.00549074073922,
+      "open_interest": 2395467.3500000006,
       "sentiment": "Neutral",
-      "score": 65,
-      "comment_cn": "价格表现中性，未完全捕捉到当前主要的ETH/CFTC叙事。资金费率显著为负（Crowded Shorts），技术上可能存在修复性反弹需求。",
-      "comment_en": "价格表现中性，未完全捕捉到当前主要的ETH/CFTC叙事。资金费率显著为负（Crowded Shorts），技术上可能存在修复性反弹需求。"
+      "score": 48,
+      "comment_cn": "跟随大盘下跌，RSI偏弱。负向资金费率伴随价格下跌，暗示市场缺乏短期看涨信心，空头略有增强。",
+      "comment_en": "跟随大盘下跌，RSI偏弱。负向资金费率伴随价格下跌，暗示市场缺乏短期看涨信心，空头略有增强。"
     },
     {
       "symbol": "BNB",
-      "price": 899.0,
-      "change_24h": 0.8073559093967309,
-      "rsi_4h": 53.77948180695284,
-      "funding_rate": -0.00023542324364999998,
-      "open_interest": 6731780.0,
-      "sentiment": "Neutral/Bullish",
-      "score": 75,
-      "comment_cn": "价格相对稳定，独立于主要宏观叙事。保持强劲的未平仓合约（OI），显示平台币的稳健性。",
-      "comment_en": "价格相对稳定，独立于主要宏观叙事。保持强劲的未平仓合约（OI），显示平台币的稳健性。"
+      "price": 890.2,
+      "change_24h": -1.3082039911308154,
+      "rsi_4h": 47.59807644918092,
+      "funding_rate": 0.00031723377394,
+      "open_interest": 6807522.0,
+      "sentiment": "Neutral",
+      "score": 52,
+      "comment_cn": "波动性较低，稳定跟随市场，缺乏独立叙事支撑。等待BTC方向性突破。",
+      "comment_en": "波动性较低，稳定跟随市场，缺乏独立叙事支撑。等待BTC方向性突破。"
     },
     {
       "symbol": "DOGE",
-      "price": 0.14202,
-      "change_24h": 2.6230218946455626,
-      "rsi_4h": 49.819075880673,
-      "funding_rate": 0.0065579410105,
-      "open_interest": 645378.9099999998,
+      "price": 0.14067,
+      "change_24h": 0.12812299807814487,
+      "rsi_4h": 45.43105608415734,
+      "funding_rate": 0.00447422576435,
+      "open_interest": 656150.7099999998,
       "sentiment": "Neutral",
-      "score": 70,
-      "comment_cn": "录得强劲涨幅，但缺乏基本面催化剂。资金费率已转正，表明短线追高情绪增加，注意风险。",
-      "comment_en": "录得强劲涨幅，但缺乏基本面催化剂。资金费率已转正，表明短线追高情绪增加，注意风险。"
+      "score": 50,
+      "comment_cn": "价格横盘，表现中性。在风险资产回调期间展现出一定抗跌性，但缺乏明确的交易信号。",
+      "comment_en": "价格横盘，表现中性。在风险资产回调期间展现出一定抗跌性，但缺乏明确的交易信号。"
     }
   ]
 }
