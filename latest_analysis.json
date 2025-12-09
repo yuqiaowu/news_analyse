@@ -1,78 +1,93 @@
 {
-  "timestamp": "2025-12-09T07:19:42.112075",
-  "global_summary_cn": "全球流动性正处于谨慎的“等待模式”，主要受美国10年期国债收益率小幅上升和FOMC会议前的市场避险情绪影响。虽然美联储降息预期仍在下降（长期利好），但短期资金压力导致亚太市场普遍下跌。与此同时，加密货币层的叙事却极其强劲：贝莱德提交质押型以太坊ETF申请、CFTC开放加密货币抵押路径、以及比特币40万枚被撤出交易所。这种“宏观谨慎但叙事极强”的背离结构，表明当前价格下跌是短期获利了结和宏观流动性不足所致，而非基本面恶化。市场短期面临压力，但任何回调都被视为潜在的“逢低买入”机会，尤其看好以太坊。",
-  "global_summary_en": "全球流动性正处于谨慎的“等待模式”，主要受美国10年期国债收益率小幅上升和FOMC会议前的市场避险情绪影响。虽然美联储降息预期仍在下降（长期利好），但短期资金压力导致亚太市场普遍下跌。与此同时，加密货币层的叙事却极其强劲：贝莱德提交质押型以太坊ETF申请、CFTC开放加密货币抵押路径、以及比特币40万枚被撤出交易所。这种“宏观谨慎但叙事极强”的背离结构，表明当前价格下跌是短期获利了结和宏观流动性不足所致，而非基本面恶化。市场短期面临压力，但任何回调都被视为潜在的“逢低买入”机会，尤其看好以太坊。",
+  "timestamp": "2025-12-09T07:27:05.215071",
+  "global_summary_cn": "全球流动性正处于复杂的中性偏紧状态。虽然美联储降息预期下降（偏鸽派），但美国国债收益率（US10Y）上升，且在重要的FOMC会议前夕，全球股市普遍下跌，市场风险偏好受限。然而，加密货币的叙事层面却异常强劲，出现了显著的“流动性收紧但新闻利好”的背离。特别是贝莱德提交的质押型以太坊ETF申请，以及40万枚比特币撤离交易所的链上数据，构成了强劲的结构性看涨催化剂。当前价格小幅回调被视为在宏观不确定性下的抛售（Distribution），而非基本面恶化。以太坊因其特有的ETF利好消息，表现出明显的强势和抗跌性。整体策略应是逢低买入（Buy the Dip），但需警惕FOMC会议带来的短期波动。",
+  "global_summary_en": "全球流动性正处于复杂的中性偏紧状态。虽然美联储降息预期下降（偏鸽派），但美国国债收益率（US10Y）上升，且在重要的FOMC会议前夕，全球股市普遍下跌，市场风险偏好受限。然而，加密货币的叙事层面却异常强劲，出现了显著的“流动性收紧但新闻利好”的背离。特别是贝莱德提交的质押型以太坊ETF申请，以及40万枚比特币撤离交易所的链上数据，构成了强劲的结构性看涨催化剂。当前价格小幅回调被视为在宏观不确定性下的抛售（Distribution），而非基本面恶化。以太坊因其特有的ETF利好消息，表现出明显的强势和抗跌性。整体策略应是逢低买入（Buy the Dip），但需警惕FOMC会议带来的短期波动。",
   "news_analysis": [
     {
       "title": "400K Bitcoin have peeled off exchanges since last year: Santiment",
       "classification": "IMPULSE",
-      "reason": "供应端收缩的明确信号，长期利好 BTC 价格，支持当前牛市结构。"
+      "reason": "链上数据显示供应压力减轻，对长期价格构成积极支撑，是结构性利好。"
     },
     {
       "title": "CFTC pilot opens path for crypto as collateral in derivative markets",
       "classification": "IMPULSE",
-      "reason": "监管和传统金融整合的重大利好，扩大了加密资产的应用场景和主流接受度。"
+      "reason": "监管机构推进加密资产在传统金融中的应用，极度利好合规性和机构采用。"
     },
     {
       "title": "Bitcoin catches a bid, but data shows pro traders skeptical of rally above $92K",
       "classification": "PRICED IN",
-      "reason": "市场在 $90,227 附近回调，已经体现了专业交易者在关键阻力位附近的谨慎态度和短期获利了结。"
+      "reason": "市场对短期阻力位存在共识，价格未能突破并小幅回调，表明短期压力存在且已被反映。"
     },
     {
       "title": "Crypto, TradFi sentiment improves: Will Bitcoin traders clear shorts above $93K?",
-      "classification": "NEUTRAL",
-      "reason": "情绪改善是好事，但提问性质表明市场仍在寻求关键突破，价格尚未实现。"
+      "classification": "PRICED IN",
+      "reason": "市场情绪改善已被定价，但价格仍处于等待突破的关键点位之下，动力不足。"
     },
     {
       "title": "Saylor pitches Bitcoin-backed banking system to nation-states",
       "classification": "NEUTRAL",
-      "reason": "长远的宏大叙事，对价格短期影响不大，但持续提升 BTC 的长期价值定位。"
+      "reason": "长期叙事利好，但对短期价格影响不大，属于持续的布道活动。"
     },
     {
       "title": "BlackRock files with SEC for listing of staked Ether ETF",
-      "classification": "DISTRIBUTION",
-      "reason": "这是极大利好，但消息出现后 ETH 价格虽有拉升但未持续爆发，表明市场在消化利好的同时，短期流动性不足以推动价格立即实现爆炸性上涨。"
+      "classification": "IMPULSE",
+      "reason": "机构叙事的巨大催化剂，特别是针对ETH，赋予ETH显著的独立上行动力。"
     },
     {
       "title": "Crypto funds log second week of inflows after massive $5.5B sell-off",
       "classification": "IMPULSE",
-      "reason": "资金流入恢复，验证机构需求正在回暖，支撑当前价格水平。"
+      "reason": "机构资金流出压力消退，表明看涨情绪回归，机构正在逢低加仓。"
     },
     {
       "title": "Ethereum ‘smart’ whales open $426M long bets as ETH price chart eyes $4K",
       "classification": "IMPULSE",
-      "reason": "巨鲸明确看涨的信号，尤其在贝莱德 ETF 消息的配合下，进一步巩固 ETH 的强势地位。"
+      "reason": "巨鲸积极建仓，对ETH价格表现构成强劲支撑和看涨预期。"
     },
     {
       "title": "Whipsaw Moves Signal a Volatile Year-End for Crypto",
-      "classification": "PRICED IN",
-      "reason": "当前的横盘和回调正是剧烈波动的体现，确认了市场对年底走势的预期。"
+      "classification": "NEUTRAL",
+      "reason": "描述当前市场状态（波动），非驱动因素。"
     },
     {
       "title": "Circle Wins ADGM License, Taps Former Visa Executive to Lead Middle East Push",
-      "classification": "IMPULSE",
-      "reason": "稳定币巨头在关键市场获得监管许可，有利于稳定币的全球扩张和合法化。"
+      "classification": "NEUTRAL",
+      "reason": "利好稳定币区域扩张，但对主要加密货币价格影响有限。"
+    },
+    {
+      "title": "Ninth Defendant Pleads Guilty in $263M Crypto Social-Engineering Scheme",
+      "classification": "NEUTRAL",
+      "reason": "监管和执法行动，利好行业长期健康，短期影响中性。"
+    },
+    {
+      "title": "Canadian Tax Agency Collects $72M in Crypto Back Taxes...",
+      "classification": "NEUTRAL",
+      "reason": "监管和税收常态化，中性消息。"
+    },
+    {
+      "title": "Asia-Pacific markets mostly fall following Wall Street losses ahead of Fed rate decision",
+      "classification": "DISTRIBUTION",
+      "reason": "宏观风险偏好收紧，全球股市下跌，导致加密市场也受到连锁反应影响，构成短期抛压。"
     }
   ],
   "fed_futures": {
     "price": 96.41,
     "implied_rate": 3.59,
-    "timestamp": "2025-12-09T07:19:26.920335+00:00",
+    "timestamp": "2025-12-09T07:26:48.356820+00:00",
     "trend": "Dovish (Rate expectations dropping)",
     "change_5d_bps": -14.3,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 156.142,
-    "timestamp": "2025-12-09T07:19:27.004696+00:00",
+    "price": 156.1,
+    "timestamp": "2025-12-09T07:26:48.436644+00:00",
     "trend": "Neutral",
-    "change_5d_pct": 0.22,
+    "change_5d_pct": 0.19,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 99.07,
-      "change_5d_pct": 0.08,
+      "price": 99.1,
+      "change_5d_pct": 0.12,
       "trend": "Neutral"
     },
     "us10y": {
@@ -89,63 +104,63 @@
   "coins": [
     {
       "symbol": "BTC",
-      "price": 90227.1,
-      "change_24h": -1.3610707527213215,
-      "rsi_4h": 48.2228908138147,
-      "funding_rate": 0.00223015606784,
-      "open_interest": 2215445.0799999996,
+      "price": 90432.9,
+      "change_24h": -1.3892084456022393,
+      "rsi_4h": 49.54710307207623,
+      "funding_rate": 0.00235853381011,
+      "open_interest": 2211723.5799999996,
       "sentiment": "Neutral",
-      "score": 55,
-      "comment_cn": "价格在 $92K 阻力位下回落，受到宏观谨慎情绪影响。OI 和 Funding 仍高，短期看是多头获利了结。基本面强劲，但缺乏即时流动性推动。",
-      "comment_en": "价格在 $92K 阻力位下回落，受到宏观谨慎情绪影响。OI 和 Funding 仍高，短期看是多头获利了结。基本面强劲，但缺乏即时流动性推动。"
+      "score": 60,
+      "comment_cn": "宏观压力导致的微小回调，但能坚守90K上方显示结构性支撑强劲。市场等待FOMC指引。",
+      "comment_en": "宏观压力导致的微小回调，但能坚守90K上方显示结构性支撑强劲。市场等待FOMC指引。"
     },
     {
       "symbol": "ETH",
-      "price": 3114.48,
-      "change_24h": -0.38732293009317265,
-      "rsi_4h": 54.14617002337876,
-      "funding_rate": 0.00123332159502,
-      "open_interest": 5495561.550000012,
+      "price": 3124.36,
+      "change_24h": -0.29073199998722415,
+      "rsi_4h": 55.743419814099084,
+      "funding_rate": 0.001004217139,
+      "open_interest": 5496008.360000012,
       "sentiment": "Bullish",
-      "score": 75,
-      "comment_cn": "受 BlackRock Staked ETF 消息和巨鲸大规模开多头支撑，相对 BTC 表现出极强的抗跌性。是目前市场的领先叙事币种。",
-      "comment_en": "受 BlackRock Staked ETF 消息和巨鲸大规模开多头支撑，相对 BTC 表现出极强的抗跌性。是目前市场的领先叙事币种。"
+      "score": 85,
+      "comment_cn": "受贝莱德质押型ETF申请和巨鲸看涨头寸影响，表现出极强的抗跌性，跑赢大盘。",
+      "comment_en": "受贝莱德质押型ETF申请和巨鲸看涨头寸影响，表现出极强的抗跌性，跑赢大盘。"
     },
     {
       "symbol": "SOL",
-      "price": 132.6,
-      "change_24h": -1.8141429100333335,
-      "rsi_4h": 44.749091259168786,
-      "funding_rate": -0.0020317817510099997,
-      "open_interest": 2432379.5700000017,
-      "sentiment": "Bearish",
-      "score": 40,
-      "comment_cn": "缺乏独立强势叙事，跟随大盘回调。RSI 偏低，Funding 略微转负，空头开始积累兴趣。",
-      "comment_en": "缺乏独立强势叙事，跟随大盘回调。RSI 偏低，Funding 略微转负，空头开始积累兴趣。"
+      "price": 133.15,
+      "change_24h": -1.7125562855244654,
+      "rsi_4h": 45.97798405771903,
+      "funding_rate": -0.00168678605477,
+      "open_interest": 2430750.930000001,
+      "sentiment": "Neutral/Bearish",
+      "score": 45,
+      "comment_cn": "山寨币普遍弱势，SOL回调幅度较大且资金费率转负，显示短期空头力量积累。",
+      "comment_en": "山寨币普遍弱势，SOL回调幅度较大且资金费率转负，显示短期空头力量积累。"
     },
     {
       "symbol": "BNB",
-      "price": 888.1,
-      "change_24h": -1.530103115644745,
-      "rsi_4h": 46.00344923284873,
-      "funding_rate": 0.00241150545796,
-      "open_interest": 6749184.0,
+      "price": 889.7,
+      "change_24h": -1.5491866769945777,
+      "rsi_4h": 46.92926917550657,
+      "funding_rate": 0.0028661546175599998,
+      "open_interest": 6741212.0,
       "sentiment": "Neutral",
-      "score": 50,
-      "comment_cn": "价格跟随普跌，但跌幅可控。Funding 保持正值，短期仍有支撑，等待大盘方向明确。",
-      "comment_en": "价格跟随普跌，但跌幅可控。Funding 保持正值，短期仍有支撑，等待大盘方向明确。"
+      "score": 55,
+      "comment_cn": "近期强势上涨后的健康回调，但资金费率仍高，多头略显拥挤，需要清洗筹码。",
+      "comment_en": "近期强势上涨后的健康回调，但资金费率仍高，多头略显拥挤，需要清洗筹码。"
     },
     {
       "symbol": "DOGE",
-      "price": 0.14013,
-      "change_24h": -1.128907076836231,
-      "rsi_4h": 43.55837068053527,
-      "funding_rate": 0.00192734269063,
-      "open_interest": 671070.0099999998,
-      "sentiment": "Bearish",
-      "score": 35,
-      "comment_cn": "领跌山寨币，RSI 位于 43.6，显示短期抛压较大。缺乏即时催化剂，流动性外溢明显。",
-      "comment_en": "领跌山寨币，RSI 位于 43.6，显示短期抛压较大。缺乏即时催化剂，流动性外溢明显。"
+      "price": 0.1406,
+      "change_24h": -1.0277347599605724,
+      "rsi_4h": 44.995012874496915,
+      "funding_rate": 0.00207686630857,
+      "open_interest": 671092.9799999999,
+      "sentiment": "Neutral",
+      "score": 50,
+      "comment_cn": "跟随大盘小幅回落，缺乏独立催化剂，RSI显示进入中性区间。",
+      "comment_en": "跟随大盘小幅回落，缺乏独立催化剂，RSI显示进入中性区间。"
     }
   ]
 }
