@@ -1,172 +1,76 @@
 {
-  "timestamp": "2025-12-09T09:04:02.406903",
-  "global_summary_cn": "全球流动性处于谨慎状态。市场正经历明显的**分化**。尽管结构性新闻叙事极其看涨（贝莱德申请质押型ETH ETF，CFTC为加密货币作为衍生品抵押品铺平道路，以及40万枚比特币撤离交易所），但即期宏观流动性仍处于谨慎/中性状态。关键风险指标（10年期美债收益率、VIX）小幅上升，传统市场正在为即将到来的美联储利率决定做准备，造成短期避险压力。这种宏观摩擦导致BTC短暂跌破关键的90,000美元水平。然而，以太坊叙事的强大，辅以鲸鱼的大规模多头头寸和贝莱德的催化剂，表明在小幅下跌的背后是强劲的积累。目前的疲软可能是忽略即期美联储紧张情绪的“逢低买入”机会。就机构兴趣而言，ETH正在明显脱钩。",
-  "global_summary_en": "Global liquidity is in a cautious state. The market is experiencing a significant **Divergence**. While structural news narratives are extremely bullish (BlackRock filing for a staked ETH ETF, CFTC opening paths for crypto collateral, and 400K BTC moving off exchanges), immediate macro liquidity remains Cautious/Neutral. Key risk indicators (US10Y, VIX) are slightly rising, and traditional markets are bracing for the imminent Fed rate decision, creating short-term risk-off pressure. This macro friction caused BTC to briefly slip below the key $90,000 level. However, the strength of the Ethereum narrative, confirmed by massive whale long positions and the BlackRock catalyst, suggests strong accumulation underlying the minor dip. The current weakness represents a potential 'Buy the Dip' opportunity for those looking past the immediate pre-Fed jitters. ETH is clearly decoupling in terms of institutional interest.",
+  "timestamp": "2025-12-09T09:11:55.628628",
+  "global_summary_cn": "流动性状态：全球流动性处于审慎收紧状态，市场正等待美联储利率决议，导致风险资产承压。尽管美联储利率预期趋向鸽派（五年期下降14.3个基点），但DXY和VIX的上升暗示短期内宏观焦虑占据主导地位。\n\n叙事分析：结构性利好消息强劲，尤其是贝莱德提交质押型以太坊ETF申请，以及CFTC允许加密货币作为衍生品抵押品的通道开启。然而，这些利好被短期的宏观恐惧和比特币跌破90,000美元的技术性抛压所抵消。\n\n市场合成：当前市场表现为典型的“分歧”状态（流动性收紧 + 结构性利好新闻）。价格下跌主要由宏观风险规避驱动，而非加密货币特有的坏消息。以太坊因ETF叙事表现出相对韧性。如果美联储未给出鹰派意外，目前的抛售可能构成潜在的逢低买入机会。",
+  "global_summary_en": "Liquidity Status: Global liquidity is cautiously tightening, with markets under pressure while awaiting the Fed rate decision. Although the Fed rate expectations are tilting dovish (-14.3 bps 5D drop), the rising DXY and VIX suggest immediate macro anxiety is dominant.\n\nNarrative Analysis: Structurally bullish news is strong, highlighted by BlackRock filing for a Staked Ethereum ETF and the CFTC opening pathways for crypto as derivative collateral. However, these positives are offset by short-term macro fear and technical selling pressure as Bitcoin slips below $90,000.\n\nMarket Synthesis: The current market displays a classic 'Divergence' (Tight Liquidity + Structural Good News). The price drop is driven mainly by macro risk aversion, not crypto-specific bad news. Ethereum shows relative resilience due to the ETF narrative. If the Fed avoids a hawkish surprise, the current sell-off might represent a potential buy-the-dip opportunity, assuming macro conditions stabilize.",
   "news_analysis": [
     {
-      "title_cn": "亚太股市大多下跌，此前华尔街因美联储利率决定临近而下跌",
+      "title_cn": "亚太市场普遍下跌，此前华尔街在美联储利率决议前夕录得亏损",
       "title_en": "Asia-Pacific markets mostly fall following Wall Street losses ahead of Fed rate decision",
       "news_sentiment": "Bearish",
-      "classification": "NEUTRAL",
-      "reason_cn": "典型的宏观避险行为，发生在重大经济事件（美联储会议）之前。这是导致当前加密货币普遍下跌的直接宏观因素。",
-      "reason_en": "Typical risk-off behavior preceding a major economic event (Fed meeting). This is the immediate macro factor contributing to the current general crypto price weakness."
-    },
-    {
-      "title_cn": "CFTC试点为加密货币作为衍生品市场的抵押品打开了道路",
-      "title_en": "CFTC pilot opens path for crypto as collateral in derivative markets",
-      "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "重大的结构性利好。它将加密资产进一步整合到传统金融风险基础设施中，提高了其作为合格资产的地位。",
-      "reason_en": "Major structural positive development. It further integrates crypto assets into the TradFi risk infrastructure and elevates their status as qualified collateral."
+      "reason_cn": "直接的宏观风险规避信号，解释了加密货币市场普遍下跌的原因。市场正在消化对美联储会议的焦虑。",
+      "reason_en": "Direct macro risk aversion signal, accounting for the general crypto market slump. Anxiety surrounding the upcoming Fed meeting is driving immediate action."
     },
     {
-      "title_cn": "比特币散户流入币安的流量在2025年暴跌至400枚BTC的历史低点",
-      "title_en": "Bitcoin retail inflows to Binance ‘collapse’ to 400 BTC record low in 2025",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "交易所流入量低表明散户抛售压力减小，或散户活动转向ETF/机构渠道。这是市场结构健康的信号。",
-      "reason_en": "Low exchange inflows signal reduced retail selling pressure or migration of retail activity toward ETFs/institutional channels. A sign of healthy market structure."
-    },
-    {
-      "title_cn": "自去年以来，40万枚比特币已从交易所剥离：Santiment",
-      "title_en": "400K Bitcoin have peeled off exchanges since last year: Santiment",
-      "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "这是长期的供应冲击叙事，属于结构性利好，但市场已经消化了这一趋势。支撑长期看涨。",
-      "reason_en": "This is a long-term supply shock narrative. Structural bullish factor, but the market has been pricing in this trend. Supports long-term bullish outlook."
-    },
-    {
-      "title_cn": "贝莱德向SEC提交了质押型以太坊ETF的上市文件",
+      "title_cn": "贝莱德向SEC提交质押型以太坊ETF上市申请",
       "title_en": "BlackRock files with SEC for listing of staked Ether ETF",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "对ETH及其生态系统的最大看涨催化剂。这不仅是批准的希望，更重要的是对ETH质押机制的官方认可，极大地增加潜在需求。",
-      "reason_en": "Massive bullish catalyst for ETH and its ecosystem. It legitimizes the staking mechanism and significantly increases potential demand for the asset."
+      "reason_cn": "重大的结构性利好。质押功能的加入进一步提升了ETH作为生息资产的吸引力，是ETH的直接催化剂。",
+      "reason_en": "Significant structural bullish catalyst. The inclusion of staking further enhances ETH's attractiveness as a yield-bearing asset, acting as a direct catalyst for ETH."
     },
     {
-      "title_cn": "加密基金在经历55亿美元的大规模抛售后，连续第二周录得资金流入",
-      "title_en": "Crypto funds log second week of inflows after massive $5.5B sell-off",
-      "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "表明机构正在逢低买入近期的下跌，确认了积累阶段而不是大规模退出。",
-      "reason_en": "Suggests institutions are buying the recent dip, confirming an accumulation phase rather than a mass exodus."
-    },
-    {
-      "title_cn": "以太坊“智能”鲸鱼开设4.26亿美元多头头寸，ETH价格图表瞄准4000美元",
-      "title_en": "Ethereum ‘smart’ whales open $426M long bets as ETH price chart eyes $4K",
+      "title_cn": "CFTC试点项目为加密货币在衍生品市场中用作抵押品开辟道路",
+      "title_en": "CFTC pilot opens path for crypto as collateral in derivative markets",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "与贝莱德新闻高度一致的积极短期仓位确认，表明大型资金对ETH的信心。",
-      "reason_en": "Strong positive short-term positioning confirmation, highly aligned with the BlackRock news, indicating high confidence among large capital holders regarding ETH."
+      "reason_cn": "积极的监管信号，有助于将加密资产更深入地整合到传统金融衍生品市场，扩大其效用。",
+      "reason_en": "Positive regulatory signal that helps integrate crypto assets deeper into traditional financial derivative markets, expanding utility and institutional access."
     },
     {
-      "title_cn": "比特币跌破90,000美元；安德鲁·泰特问为什么赛勒的10亿美元购买未能提振价格",
+      "title_cn": "比特币零售流入币安的流量在2025年创下400 BTC的历史新低",
+      "title_en": "Bitcoin retail inflows to Binance ‘collapse’ to 400 BTC record low in 2025",
+      "news_sentiment": "Bearish",
+      "classification": "IMPULSE",
+      "reason_cn": "零售端参与度极低，表明当前市场缺乏新的燃料和散户 FOMO情绪，容易导致价格波动性上升。",
+      "reason_en": "Extremely low retail participation, suggesting a lack of new fuel and retail FOMO, which makes the market susceptible to volatility without underlying support."
+    },
+    {
+      "title_cn": "自去年以来，已有40万枚比特币从交易所剥离：Santiment",
+      "title_en": "400K Bitcoin have peeled off exchanges since last year: Santiment",
+      "news_sentiment": "Bullish",
+      "classification": "PRICED IN",
+      "reason_cn": "经典的长期供应冲击叙事。尽管结构上利好，但当前市场受宏观主导，短期内不足以阻止价格下跌。",
+      "reason_en": "Classic long-term supply shock narrative. While structurally bullish, the current market is macro-driven, and this data point is insufficient to halt the immediate price slide."
+    },
+    {
+      "title_cn": "比特币跌破90,000美元；Andrew Tate质疑Saylor的10亿美元购买为何未能提振价格",
       "title_en": "Bitcoin Slips Below $90,000; Andrew Tate Asks Why Saylor’s $1B Purchase Failed to Boost Price",
       "news_sentiment": "Bearish",
-      "classification": "DISTRIBUTION",
-      "reason_cn": "反映了尽管有积极的买入新闻，但短期价格疲软和市场失望情绪。在关键心理位附近出现的抛售压力。",
-      "reason_en": "Reflects short-term price weakness and market frustration despite known positive buying pressure. Selling pressure near a critical psychological level."
-    },
-    {
-      "title_cn": "剧烈波动预示着加密货币将在年底波动加剧",
-      "title_en": "Whipsaw Moves Signal a Volatile Year-End for Crypto",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "市场情绪的一般性确认，与当前的市场价格剧烈波动情况一致。",
-      "reason_en": "General sentiment confirmation, consistent with the current volatile price action seen across the market."
-    },
-    {
-      "title_cn": "特朗普宣布为卷入贸易战的农民提供120亿美元援助计划",
-      "title_en": "Trump announces $12 billion aid package for farmers caught up in trade war",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "与加密市场无直接关联，但属于传统的财政刺激新闻，对整体风险情绪影响中性。",
-      "reason_en": "No direct correlation with the crypto market. Traditional fiscal stimulus news; neutral impact on overall risk sentiment."
-    },
-    {
-      "title_cn": "伯克希尔·哈撒韦公司投资副手兼Geico首席执行官托德·库姆斯将离职加入摩根大通",
-      "title_en": "Berkshire Hathaway's Todd Combs, investment lieutenant to Buffett and Geico CEO, is leaving for JPMorgan",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "传统金融界的高管变动新闻，对加密市场影响可忽略不计。",
-      "reason_en": "Executive change news in the traditional finance sector, negligible impact on the crypto market."
-    },
-    {
-      "title_cn": "房产经纪人新报告称，房屋卖家放弃出售的比例'异常高'",
-      "title_en": "Home sellers are giving up at 'unusually high rate,' says new Realtor report",
-      "news_sentiment": "Bearish",
-      "classification": "NEUTRAL",
-      "reason_cn": "反映出高利率环境下的经济压力和房地产市场疲软。间接支持宏观谨慎情绪。",
-      "reason_en": "Reflects economic stress and real estate softness under a high-interest rate environment. Indirectly supports the macro cautious sentiment."
-    },
-    {
-      "title_cn": "道琼斯期货：在人工智能巨头和美联储临近之际，特斯拉处于买入区域",
-      "title_en": "Dow Jones Futures: Tesla In Buy Area As AI Giants, Fed Loom",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "传统市场分析，反映出对科技股的潜在乐观情绪，但等待美联储的指导。",
-      "reason_en": "Traditional market analysis, reflecting potential optimism in tech stocks but awaiting Fed guidance."
-    },
-    {
-      "title_cn": "去中心化：为什么安全消息的未来比以往任何时候都更重要",
-      "title_en": "The future of secure messaging: Why decentralization matters more than ever",
-      "news_sentiment": "Bullish",
-      "classification": "NEUTRAL",
-      "reason_cn": "关于区块链应用潜力的行业评论，属于长期结构性利好，但不是价格驱动因素。",
-      "reason_en": "Industry commentary on the potential of blockchain applications. Long-term structural positive but not a price driver."
-    },
-    {
-      "title_cn": "以太坊的首个ZK-rollup，ZKsync Lite，将于2026年退役",
-      "title_en": "Ethereum’s first ZK-rollup, ZKsync Lite, to be retired in 2026",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "技术升级和迭代的一部分，反映了生态系统的发展，对价格影响中性。",
-      "reason_en": "Part of technical upgrade and iteration, reflecting ecosystem evolution. Neutral impact on price."
-    },
-    {
-      "title_cn": "2025年全球AI展阿布扎比宣布其富有远见的合作伙伴和世界级演讲者阵容",
-      "title_en": "Global AI Show 2025 Abu Dhabi Announces Its Visionary Partners and World-Class Speaker Lineup",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "行业事件公告，与加密货币有交叉点，但非直接价格驱动因素。",
-      "reason_en": "Industry event announcement, tangential to crypto but not a direct price driver."
-    },
-    {
-      "title_cn": "来自10多个非洲国家的调查人员在肯尼亚接受数字资产取证培训",
-      "title_en": "Investigators From Over 10 African Nations Trained in Kenya on Digital Asset Forensics",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "显示了全球监管机构对数字资产的关注和专业化。对市场影响中性/略积极。",
-      "reason_en": "Shows global regulatory attention and professionalization regarding digital assets. Neutral/slightly positive market impact."
-    },
-    {
-      "title_cn": "孙宇晨在币安区块链周前夕亮相币安广场；波场DAO作为金牌赞助商参与",
-      "title_en": "Justin Sun Appears Live on Binance Square Ahead of Binance Blockchain Week 2025; TRON DAO Participates as Gold Tier Sponsor",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "特定生态系统（波场/币安）的营销和活动新闻，对整个大盘影响中性。",
-      "reason_en": "Marketing and event news specific to the TRON/Binance ecosystem. Neutral impact on the broader market."
+      "classification": "IMPULSE",
+      "reason_cn": "确认了短期内关键心理和技术支撑位（90K美元）的失守，市场动能偏空。",
+      "reason_en": "Confirms the short-term loss of a key psychological and technical support level ($90K), indicating negative momentum."
     }
   ],
   "fed_futures": {
     "price": 96.41,
     "implied_rate": 3.59,
-    "timestamp": "2025-12-09T09:03:34.598733+00:00",
+    "timestamp": "2025-12-09T09:11:36.884482+00:00",
     "trend": "Dovish (Rate expectations dropping)",
     "change_5d_bps": -14.3,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 156.287,
-    "timestamp": "2025-12-09T09:03:34.685756+00:00",
+    "price": 156.222,
+    "timestamp": "2025-12-09T09:11:36.956548+00:00",
     "trend": "Neutral",
-    "change_5d_pct": 0.31,
+    "change_5d_pct": 0.27,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 99.08,
-      "change_5d_pct": 0.09,
+      "price": 99.07,
+      "change_5d_pct": 0.08,
       "trend": "Neutral"
     },
     "us10y": {
@@ -183,63 +87,63 @@
   "coins": [
     {
       "symbol": "BTC",
-      "price": 90398.1,
-      "change_24h": -1.7195098483687068,
-      "rsi_4h": 49.28811729514787,
-      "funding_rate": 0.00460585387833,
-      "open_interest": 2233653.5900000003,
+      "price": 90418.1,
+      "change_24h": -1.826060614615204,
+      "rsi_4h": 49.42577205455389,
+      "funding_rate": 0.0049359756307,
+      "open_interest": 2241963.1400000006,
       "sentiment": "Neutral",
-      "score": 60,
-      "comment_cn": "宏观谨慎情绪导致价格跌破9万美元，短期受到压力。然而，链上供应稀缺和机构结构性利好支撑底部。",
-      "comment_en": "Price is under short-term pressure due to macro caution, briefly breaking $90K. However, structural tailwinds like supply scarcity and regulatory progress support the bottom."
+      "score": 45,
+      "comment_cn": "价格跌破90,000美元，显示出短期技术疲软，但OI和正向资金费率暗示多头可能在等待宏观风险释放。RSI中性。",
+      "comment_en": "Price dropped below $90,000, showing short-term technical weakness. However, high OI and positive funding suggest bulls might be waiting for macro risk release. RSI is neutral."
     },
     {
       "symbol": "ETH",
-      "price": 3119.81,
-      "change_24h": -1.1914753454550029,
-      "rsi_4h": 54.99263590099693,
-      "funding_rate": -0.00290205414456,
-      "open_interest": 5530683.860000014,
+      "price": 3116.86,
+      "change_24h": -1.727801845090575,
+      "rsi_4h": 54.461456181947995,
+      "funding_rate": -0.0031145254462399997,
+      "open_interest": 5540704.940000015,
       "sentiment": "Bullish",
-      "score": 90,
-      "comment_cn": "贝莱德质押型ETF申请是巨大的催化剂。鲸鱼大规模做多，ETH在宏观避险中表现出相对弹性，正在结构性地脱钩。",
-      "comment_en": "BlackRock's staked ETF filing is a massive catalyst. Whales are massively long, and ETH shows relative resilience during macro risk-off, indicating structural decoupling."
+      "score": 75,
+      "comment_cn": "贝莱德质押型ETF是重大催化剂。RSI最高且资金费率为负（空头拥挤），结构上最具韧性和反弹潜力。",
+      "comment_en": "BlackRock's Staked ETF is a major catalyst. Highest RSI and negative funding (short crowding) make it structurally resilient with strong rebound potential."
     },
     {
       "symbol": "SOL",
-      "price": 132.92,
-      "change_24h": -3.3519959281611382,
-      "rsi_4h": 45.38332180998485,
-      "funding_rate": 0.00339412733014,
-      "open_interest": 2422707.880000002,
+      "price": 132.66,
+      "change_24h": -4.182015167930656,
+      "rsi_4h": 44.764443333344325,
+      "funding_rate": 0.00354205659066,
+      "open_interest": 2423168.7500000023,
       "sentiment": "Bearish",
-      "score": 40,
-      "comment_cn": "作为高beta资产，在宏观避险情绪下领跌。RSI和价格均表现疲软，需要等待大盘稳定。",
-      "comment_en": "As a high-beta asset, it leads the decline during macro risk-off. Weak RSI and price action. Needs broader market stabilization."
+      "score": 30,
+      "comment_cn": "跌幅最大（-4.18%），RSI接近超卖区。高Beta资产在宏观焦虑下的典型表现，面临抛售压力。",
+      "comment_en": "Largest drop (-4.18%) with RSI nearing oversold territory. Typical high-beta performance during macro anxiety, facing strong selling pressure."
     },
     {
       "symbol": "BNB",
-      "price": 887.1,
-      "change_24h": -2.4092409240924066,
-      "rsi_4h": 45.27181147750336,
-      "funding_rate": 0.00400829311558,
-      "open_interest": 6781637.0,
-      "sentiment": "Neutral",
-      "score": 55,
-      "comment_cn": "价格下跌幅度中等，与ETH/BTC相比无显著催化剂。在市场谨慎期保持中性。",
-      "comment_en": "Medium price drop, no significant catalyst compared to ETH/BTC. Remains neutral during cautious market phases."
+      "price": 886.0,
+      "change_24h": -2.7121994070495274,
+      "rsi_4h": 45.475514519032174,
+      "funding_rate": 0.00409891148408,
+      "open_interest": 6794777.0,
+      "sentiment": "Bearish",
+      "score": 35,
+      "comment_cn": "跟随大盘下跌，RSI较低。虽然有自身叙事支撑，但短期受制于市场整体风险规避情绪。",
+      "comment_en": "Following the broader market decline with a low RSI. While having internal narratives, it is constrained by overall market risk aversion in the short term."
     },
     {
       "symbol": "DOGE",
-      "price": 0.14064,
-      "change_24h": -1.8562456385206025,
-      "rsi_4h": 44.99285663997643,
-      "funding_rate": 0.00070066371798,
-      "open_interest": 663420.0999999997,
+      "price": 0.14048,
+      "change_24h": -2.4105592219520675,
+      "rsi_4h": 44.45606938008169,
+      "funding_rate": 0.00033320864012,
+      "open_interest": 662320.1899999997,
       "sentiment": "Bearish",
-      "score": 35,
-      "comment_cn": "Meme币在风险资产抛售中表现不佳。资金费率较低，表明兴趣减退。",
-      "comment_en": "Memecoin underperforms during risk asset sell-offs. Low funding suggests decreased speculative interest."
+      "score": 25,
+      "comment_cn": "投机性资产，跌幅较大。RSI低，资金费率接近零，缺乏短期反弹动力。",
+      "comment_en": "Highly speculative asset with a significant drop. Low RSI and near-zero funding indicate a lack of immediate bounce momentum."
     }
   ]
 }
