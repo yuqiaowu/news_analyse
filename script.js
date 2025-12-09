@@ -332,39 +332,36 @@ function renderDashboard(data) {
             }
 
             if (currentLang === 'CN') {
-                // ... Existing CN logic ...
-                // DXY
-                if (trendText.includes('Stronger')) trendText = '美元走强';
-                else if (trendText.includes('Weaker')) trendText = '美元走弱';
-                // US10Y
-                else if (trendText.includes('Critical High')) trendText = '极高危';
-                else if (trendText.includes('High')) trendText = '高位';
-                else if (trendText.includes('Low')) trendText = '低位';
+                if (key === 'dxy') {
+                    if (trendText.includes('Stronger')) trendText = '美元走强';
+                    else if (trendText.includes('Weaker')) trendText = '美元走弱';
+                    else if (trendText.includes('Neutral')) trendText = '震荡 (趋势不明)';
+                    else trendText = '中性';
 
-                // Movement modifiers
-                if (trendText.includes('Rising')) trendText += ' / 上升';
-                else if (trendText.includes('Falling')) trendText += ' / 下降';
+                    if (trendText.includes('Rising') && !trendText.includes('走强')) trendText += ' / 上行';
+                    if (trendText.includes('Falling') && !trendText.includes('走弱')) trendText += ' / 下行';
 
-                // Special case for "Neutral Rising" -> "收益率上升"
-                if (trendText.includes('Neutral') && trendText.includes('Rising')) trendText = '收益率上升';
-                else if (trendText.includes('Neutral') && trendText.includes('Falling')) trendText = '收益率下降';
-                else if (trendText === 'Neutral') trendText = '收益率平稳';
-                // VIX
-                else if (trendText.includes('Extreme Panic')) trendText = '极端恐慌';
-                else if (trendText.includes('High Fear')) trendText = '高度恐慌';
-                else if (trendText.includes('Greed')) trendText = '贪婪';
+                } else if (key === 'us10y') {
+                    if (trendText.includes('Critical High')) trendText = '极高危';
+                    else if (trendText.includes('High')) trendText = '高位';
+                    else if (trendText.includes('Low')) trendText = '低位';
 
-                // Movement modifiers
-                if (trendText.includes('Rising')) trendText += ' / 升温';
-                else if (trendText.includes('Subsiding')) trendText += ' / 消退';
+                    if (trendText.includes('Rising')) trendText = '收益率上升';
+                    else if (trendText.includes('Falling')) trendText = '收益率下降';
+                    else if (trendText.includes('Neutral')) trendText = '收益率平稳';
+                    else if (trendText === 'Neutral') trendText = '收益率平稳';
 
-                // Special case for "Neutral Subsiding" -> "恐慌消退"
-                if (trendText.includes('Neutral') && trendText.includes('Subsiding')) trendText = '恐慌消退';
-                else if (trendText.includes('Neutral') && trendText.includes('Rising')) trendText = '恐慌升温';
-                else if (trendText.includes('Calm')) trendText = '情绪平稳'; // Legacy support
-                else if (trendText === 'Neutral') trendText = '情绪平稳';
+                } else if (key === 'vix') {
+                    if (trendText.includes('Extreme Panic')) trendText = '极端恐慌';
+                    else if (trendText.includes('High Fear')) trendText = '高度恐慌';
+                    else if (trendText.includes('Greed')) trendText = '贪婪';
+                    else if (trendText.includes('Calm')) trendText = '情绪平稳';
 
-                else if (trendText === 'Neutral') trendText = '中性';
+                    if (trendText.includes('Rising')) trendText = '恐慌升温';
+                    else if (trendText.includes('Subsiding') || trendText.includes('Falling')) trendText = '恐慌消退';
+                    else if (trendText.includes('Neutral')) trendText = '情绪平稳';
+                    else if (trendText === 'Neutral') trendText = '情绪平稳';
+                }
 
                 // Append Impact (CN)
                 if (impact === 'BULLISH') trendText += ' (利好资产)';
