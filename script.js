@@ -121,8 +121,7 @@ async function fetchData(forceRefresh = false) {
     loading.style.display = 'flex';
     refreshBtn.disabled = true;
 
-    // Clear existing timer during fetch
-    if (timerInterval) clearInterval(timerInterval);
+
 
     try {
         // Fetch static JSON file directly
