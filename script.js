@@ -117,9 +117,8 @@ async function fetchData(forceRefresh = false) {
     const lastUpdated = document.getElementById('last-updated');
     const t = TRANSLATIONS[currentLang];
 
-    // Show loading
+    // Show loading (but keep dashboard visible if it has content)
     loading.style.display = 'flex';
-    dashboard.style.display = 'none';
     refreshBtn.disabled = true;
 
     // Clear existing timer during fetch
@@ -145,17 +144,17 @@ async function fetchData(forceRefresh = false) {
         const elapsedSeconds = Math.floor((now - ts) / 1000);
         let remaining = REFRESH_INTERVAL - elapsedSeconds;
 
+        // If expired (negative remaining), set to 0
         if (remaining < 0) remaining = 0;
 
-        // If expired and we didn't just force refresh, fetch again immediately
-        if (remaining === 0 && !forceRefresh) {
-            console.log("Cache expired, forcing refresh...");
-            fetchData(true);
-            return;
+        // If expired, don't loop immediately. Wait 30s then retry.
+        if (remaining === 0) {
+            console.log("Data expired, scheduling retry in 30s...");
+            startTimer(30);
+        } else {
+            // Start timer with calculated remaining time
+            startTimer(remaining);
         }
-
-        // Start timer with calculated remaining time
-        startTimer(remaining);
 
     } catch (error) {
         console.error('Error fetching analysis:', error);
@@ -500,10 +499,10 @@ function startTimer(duration) {
     updateTimerDisplay();
 
     timerInterval = setInterval(() => {
-        countdown--;
-        updateTimerDisplay();
-
-        if (countdown <= 0) {
+        if (countdown > 0) {
+            countdown--;
+            updateTimerDisplay();
+        } else {
             clearInterval(timerInterval);
             fetchData(true); // Force refresh on timer expiry
         }
