@@ -1,91 +1,100 @@
 {
-  "timestamp": "2025-12-09T13:45:00.000000",
-  "global_summary_cn": "全球流动性正处于观望状态，等待美联储即将作出的利率决定。尽管鸽派预期略有上升，但美国10年期国债收益率的微升以及亚洲股市的下跌，导致宏观资金环境维持在中性偏紧的状态。然而，加密货币新闻叙事却极度乐观，尤其是贝莱德提交质押以太坊ETF的申请，以及机构资金连续两周流入。目前市场处于明显的“好消息与紧缩流动性”的背离状态。这表明大型机构可能正在利用市场对美联储的担忧进行价格限制（Distribution），或单纯等待宏观风险事件结束后再部署资金。短期内，如果美联储未释放明显的宽松信号，市场可能会在关键阻力位（如BTC $92K）附近进行盘整或回调。",
-  "global_summary_en": "Global liquidity expectations are leaning dovish (Fed rate cut expectations dropped 14bps), providing structural support for risk assets, despite slight pressure from rising US yields. Crypto narrative is extremely optimistic, driven by strong institutional buying, specifically BlackRock's Staked ETH ETF filing and Bitcoin ETFs recording over $352M net inflows for the second day. Despite bullish macro and liquidity, Bitcoin lost $90k in the short term, indicating profit-taking (Distribution). This combo of \"Loose Liquidity + Bullish News + Price Dip\" creates a strong Buy the Dip opportunity, especially for ETH with its historic narrative upgrade.",
-  "news_analysis": [
-    {
-      "title": "贝莱德提交 Staked ETH ETF 申请",
-      "classification": "IMPULSE",
-      "reason": "贝莱德入局通常意味着极高的通过概率和机构资金的长期流入，是极强的基本面利好。"
-    },
-    {
-      "title": "比特币 ETF 连续第二天净流入超 3.5 亿美元",
-      "classification": "IMPULSE",
-      "reason": "持续的大额净流入表明机构需求依然旺盛，并非散户驱动的短期炒作。"
-    },
-    {
-      "title": "MicroStrategy 再次购买 21 亿美元比特币",
-      "classification": "IMPULSE",
-      "reason": "企业级巨鲸持续加仓，锁定了大量流动性，减少了市场抛压。"
-    },
-    {
-      "title": "美联储降息预期升温",
-      "classification": "IMPULSE",
-      "reason": "宏观流动性宽松是风险资产上涨的核心燃料。"
-    }
-  ],
-  "coins": {
-    "BTC": {
-      "sentiment": "Bullish",
-      "score": 85,
-      "comment_cn": "机构买盘强劲，回调即买入机会。",
-      "comment_en": "Strong institutional buying, dip is for buying."
-    },
-    "ETH": {
-      "sentiment": "Bullish",
-      "score": 92,
-      "comment_cn": "Staked ETF 叙事爆发，补涨潜力巨大。",
-      "comment_en": "Staked ETF narrative breakout, huge catch-up potential."
-    },
-    "SOL": {
-      "sentiment": "Neutral",
-      "score": 60,
-      "comment_cn": "跟随大盘波动，缺乏独立叙事。",
-      "comment_en": "Following market beta, lacks independent narrative."
-    },
-    "BNB": {
-      "sentiment": "Neutral",
-      "score": 55,
-      "comment_cn": "表现平稳，缺乏催化剂。",
-      "comment_en": "Stable performance, lacks catalyst."
-    },
-    "DOGE": {
-      "sentiment": "Bullish",
-      "score": 75,
-      "comment_cn": "Meme 情绪依然活跃。",
-      "comment_en": "Meme sentiment remains active."
-    }
-  },
+  "timestamp": "2025-12-09T06:36:01.350907",
+  "global_summary_cn": "分析失败: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 58.700126435s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 58\n}\n]",
+  "global_summary_en": "分析失败: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 58.700126435s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 58\n}\n]",
+  "news_analysis": [],
   "fed_futures": {
-    "price": 96.41,
-    "implied_rate": 3.59,
-    "timestamp": "2025-12-08T18:30:26.061894+00:00",
+    "price": 96.415,
+    "implied_rate": 3.585,
+    "timestamp": "2025-12-09T06:36:00.814475+00:00",
     "trend": "Dovish (Rate expectations dropping)",
-    "change_5d_bps": -14.0,
+    "change_5d_bps": -14.7,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 155.767,
-    "timestamp": "2025-12-08T18:30:26.407215+00:00",
+    "price": 156.026,
+    "timestamp": "2025-12-09T06:36:00.885593+00:00",
     "trend": "Neutral",
-    "change_5d_pct": 0.13,
+    "change_5d_pct": 0.14,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 106.0,
-      "change_5d_pct": 0.5,
+      "price": 99.07,
+      "change_5d_pct": 0.08,
       "trend": "Neutral"
     },
     "us10y": {
-      "price": 4.2,
-      "change_5d_pct": 1.2,
-      "trend": "Neutral"
+      "price": 4.17,
+      "change_5d_pct": 2.1,
+      "trend": "Neutral Rising"
     },
     "vix": {
-      "price": 15.0,
-      "change_5d_pct": -2.0,
+      "price": 16.66,
+      "change_5d_pct": 0.42,
       "trend": "Neutral"
     }
-  }
+  },
+  "coins": [
+    {
+      "symbol": "BTC",
+      "price": 89809.7,
+      "change_24h": -1.8849599771016894,
+      "rsi_4h": 45.78884763935977,
+      "funding_rate": 0.0020091694614,
+      "open_interest": 2215872.279999999,
+      "sentiment": "Neutral",
+      "score": 50,
+      "comment_cn": "",
+      "comment_en": ""
+    },
+    {
+      "symbol": "ETH",
+      "price": 3098.0,
+      "change_24h": -0.9251886035184618,
+      "rsi_4h": 51.782303677228356,
+      "funding_rate": 0.0025205652335300002,
+      "open_interest": 5486165.900000011,
+      "sentiment": "Neutral",
+      "score": 50,
+      "comment_cn": "",
+      "comment_en": ""
+    },
+    {
+      "symbol": "SOL",
+      "price": 132.15,
+      "change_24h": -2.241455836662229,
+      "rsi_4h": 43.82435629677444,
+      "funding_rate": -0.0045580462377699995,
+      "open_interest": 2428955.3400000012,
+      "sentiment": "Neutral",
+      "score": 50,
+      "comment_cn": "",
+      "comment_en": ""
+    },
+    {
+      "symbol": "BNB",
+      "price": 885.0,
+      "change_24h": -2.101769911504425,
+      "rsi_4h": 44.25723697273211,
+      "funding_rate": 0.00027849710675,
+      "open_interest": 6756070.0,
+      "sentiment": "Neutral",
+      "score": 50,
+      "comment_cn": "",
+      "comment_en": ""
+    },
+    {
+      "symbol": "DOGE",
+      "price": 0.13955,
+      "change_24h": -1.6422328728502953,
+      "rsi_4h": 42.158453799122334,
+      "funding_rate": 0.00202117194426,
+      "open_interest": 668643.1399999999,
+      "sentiment": "Neutral",
+      "score": 50,
+      "comment_cn": "",
+      "comment_en": ""
+    }
+  ]
 }
