@@ -297,12 +297,15 @@ async def analyze_all(force_refresh: bool = False):
 
     **Output Format (JSON ONLY)**:
     {{
-        "global_summary": "<Markdown text, Chinese (Simplified), max 250 words. MUST BE IN CHINESE. Start with a 'Liquidity Status' sentence (e.g., '全球流动性正在收紧...'). Then synthesize with the dominant news narrative.>",
+        "global_summary_cn": "<Markdown text, Chinese (Simplified), max 250 words. MUST BE IN CHINESE. Start with a 'Liquidity Status' sentence.>",
+        "global_summary_en": "<Markdown text, English, max 250 words. Translate the summary above.>",
         "news_analysis": [
             {{
-                "title": "<News Title>",
+                "title_cn": "<News Title (Chinese)>",
+                "title_en": "<News Title (English)>",
                 "classification": "IMPULSE" | "PRICED IN" | "DISTRIBUTION" | "DIVERGENCE" | "NEUTRAL",
-                "reason": "<Why? e.g. 'Good news but price dropped' (Chinese)>"
+                "reason_cn": "<Why? Chinese>",
+                "reason_en": "<Why? English>"
             }},
             ... (Analyze ALL provided news items)
         ],
@@ -310,7 +313,8 @@ async def analyze_all(force_refresh: bool = False):
             "BTC": {{
                 "sentiment": "Bullish"|"Bearish"|"Neutral",
                 "score": 0-100,
-                "comment": "<Short Chinese comment. Use labels like 'Impulse', 'Priced In', 'Oversold', 'Crowded Shorts' etc.>"
+                "comment_cn": "<Short Chinese comment.>",
+                "comment_en": "<Short English comment.>"
             }},
             "ETH": {{ ... }},
             "SOL": {{ ... }},
