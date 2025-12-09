@@ -355,7 +355,7 @@ function renderDashboard(data) {
                     if (trendText.includes('Extreme Panic')) trendText = '极端恐慌';
                     else if (trendText.includes('High Fear')) trendText = '高度恐慌';
                     else if (trendText.includes('Greed')) trendText = '贪婪';
-                    else if (trendText.includes('Calm')) trendText = '情绪平稳';
+                    else if (trendText.includes('Calm') || trendText.includes('Normal')) trendText = '情绪平稳';
 
                     if (trendText.includes('Rising')) trendText = '恐慌升温';
                     else if (trendText.includes('Subsiding') || trendText.includes('Falling')) trendText = '恐慌消退';

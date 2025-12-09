@@ -453,8 +453,9 @@ def fetch_liquidity_monitor() -> Dict[str, Any]:
                 
                 # Risk Logic
                 if key == "dxy":
-                    if change_pct > 0.5: item["trend"] = "Stronger (Risk Off)"
-                    elif change_pct < -0.5: item["trend"] = "Weaker (Risk On)"
+                    if change_pct > 0.1: item["trend"] = "Stronger (Risk Off)"
+                    elif change_pct < -0.1: item["trend"] = "Weaker (Risk On)"
+                    else: item["trend"] = "Neutral"
                 elif key == "us10y":
                     # Zone Logic
                     zone = "Neutral"
@@ -464,22 +465,22 @@ def fetch_liquidity_monitor() -> Dict[str, Any]:
                     
                     # Movement Logic
                     move = ""
-                    if change_pct > 1.0: move = "Rising"
-                    elif change_pct < -1.0: move = "Falling"
+                    if change_pct > 0.5: move = "Rising"
+                    elif change_pct < -0.5: move = "Falling"
                     
                     # Combine
                     item["trend"] = f"{zone} {move}".strip()
                 elif key == "vix":
                     # Zone Logic
-                    zone = "Neutral"
+                    zone = "Normal" # Renamed from Neutral for clarity
                     if latest > 30: zone = "Extreme Panic"
                     elif latest > 20: zone = "High Fear"
                     elif latest < 15: zone = "Greed"
                     
                     # Movement Logic
                     move = ""
-                    if change_pct > 5.0: move = "Rising"
-                    elif change_pct < -5.0: move = "Subsiding"
+                    if change_pct > 2.0: move = "Rising"
+                    elif change_pct < -2.0: move = "Subsiding"
                     
                     # Combine
                     item["trend"] = f"{zone} {move}".strip()
