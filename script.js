@@ -316,43 +316,65 @@ function renderDashboard(data) {
                 changeEl.style.color = '#94a3b8';
             }
 
-            // Trend Translation
+            // Trend Translation & Impact Analysis
             const trendEl = document.getElementById(`${prefix}-trend`);
             let trendText = item.trend || 'Neutral';
+            let impact = ''; // Bullish or Bearish for Risk Assets
+
+            // Determine Impact based on metric and direction
+            // DXY/US10Y/VIX: Rising = Bearish, Falling = Bullish
+            const isInverse = ['dxy', 'us10y', 'vix'].includes(key);
+
+            if (trendText.includes('Rising') || trendText.includes('Stronger') || trendText.includes('High') || trendText.includes('Panic')) {
+                impact = isInverse ? 'BEARISH' : 'BULLISH';
+            } else if (trendText.includes('Falling') || trendText.includes('Weaker') || trendText.includes('Low') || trendText.includes('Subsiding')) {
+                impact = isInverse ? 'BULLISH' : 'BEARISH';
+            }
 
             if (currentLang === 'CN') {
+                // ... Existing CN logic ...
                 // DXY
-                if (trendText.includes('Stronger')) trendText = '美元走强 (利空)';
-                else if (trendText.includes('Weaker')) trendText = '美元走弱 (利好)';
+                if (trendText.includes('Stronger')) trendText = '美元走强';
+                else if (trendText.includes('Weaker')) trendText = '美元走弱';
                 // US10Y
-                else if (trendText.includes('Critical High')) trendText = '极高危 (崩盘风险)';
-                else if (trendText.includes('High')) trendText = '高位 (施压)';
-                else if (trendText.includes('Low')) trendText = '低位 (支撑)';
+                else if (trendText.includes('Critical High')) trendText = '极高危';
+                else if (trendText.includes('High')) trendText = '高位';
+                else if (trendText.includes('Low')) trendText = '低位';
 
                 // Movement modifiers
                 if (trendText.includes('Rising')) trendText += ' / 上升';
                 else if (trendText.includes('Falling')) trendText += ' / 下降';
 
                 // Special case for "Neutral Rising" -> "收益率上升"
-                if (trendText.includes('Neutral') && trendText.includes('Rising')) trendText = '收益率上升 (施压)';
-                else if (trendText.includes('Neutral') && trendText.includes('Falling')) trendText = '收益率下降 (喘息)';
+                if (trendText.includes('Neutral') && trendText.includes('Rising')) trendText = '收益率上升';
+                else if (trendText.includes('Neutral') && trendText.includes('Falling')) trendText = '收益率下降';
                 else if (trendText === 'Neutral') trendText = '收益率平稳';
                 // VIX
-                else if (trendText.includes('Extreme Panic')) trendText = '极端恐慌 (崩盘风险)';
-                else if (trendText.includes('High Fear')) trendText = '高度恐慌 (避险)';
-                else if (trendText.includes('Greed')) trendText = '贪婪 (利好)';
+                else if (trendText.includes('Extreme Panic')) trendText = '极端恐慌';
+                else if (trendText.includes('High Fear')) trendText = '高度恐慌';
+                else if (trendText.includes('Greed')) trendText = '贪婪';
 
                 // Movement modifiers
                 if (trendText.includes('Rising')) trendText += ' / 升温';
                 else if (trendText.includes('Subsiding')) trendText += ' / 消退';
 
                 // Special case for "Neutral Subsiding" -> "恐慌消退"
-                if (trendText.includes('Neutral') && trendText.includes('Subsiding')) trendText = '恐慌消退 (利好)';
-                else if (trendText.includes('Neutral') && trendText.includes('Rising')) trendText = '恐慌升温 (警惕)';
+                if (trendText.includes('Neutral') && trendText.includes('Subsiding')) trendText = '恐慌消退';
+                else if (trendText.includes('Neutral') && trendText.includes('Rising')) trendText = '恐慌升温';
                 else if (trendText.includes('Calm')) trendText = '情绪平稳'; // Legacy support
                 else if (trendText === 'Neutral') trendText = '情绪平稳';
 
                 else if (trendText === 'Neutral') trendText = '中性';
+
+                // Append Impact (CN)
+                if (impact === 'BULLISH') trendText += ' (利好资产)';
+                if (impact === 'BEARISH') trendText += ' (利空资产)';
+
+            } else {
+                // EN Logic - Make it descriptive
+                // Append Impact (EN)
+                if (impact === 'BULLISH') trendText += ' (Bullish for Assets)';
+                if (impact === 'BEARISH') trendText += ' (Bearish for Assets)';
             }
             trendEl.textContent = trendText;
         };
