@@ -1,181 +1,245 @@
 {
-  "timestamp": "2025-12-10T15:19:56.354719",
-  "global_summary_cn": "流动性状态：宽松且即将进一步宽松。全球宏观环境正处于关键时刻。美联储降息预期正在积极定价，导致宏观流动性偏向风险资产（Risk On）。日本疲软的日元（USD/JPY 156.46）继续支持套利交易流动。加密市场叙事极度看涨，以太坊表现强劲，ETF资金流入量达到六周高点，并且所有主要ETF均呈现普涨的绿色日。市场正在经历一场基于强劲ETF需求的“完美风暴（看涨）”，同时等待美联储（FOMC）会议确认其鸽派倾向。如果美联储确认降息或给出鸽派指引，突破93,500美元的阻力将是大概率事件。然而，若FOMC意外鹰派，市场可能面临回调风险。",
-  "global_summary_en": "Liquidity Status: Loose and poised to loosen further. The global macro environment is at a critical juncture. Fed rate cut expectations are being aggressively priced in, shifting macro liquidity towards risk assets (Risk On). The weak Japanese Yen (USD/JPY 156.46) continues to support carry trade flows. The crypto narrative is extremely bullish, driven by Ethereum's strength, ETFs hitting six-week high inflows, and an 'All-Green Day' across major ETF products. The market is experiencing a 'Perfect Storm (Bullish)' based on strong institutional demand, while awaiting FOMC confirmation of its dovish tilt. If the Fed confirms the rate cut or provides dovish guidance, a break past the $93,500 resistance is highly probable. However, if FOMC surprises hawkishly, the market faces correction risk.",
+  "timestamp": "2025-12-10T16:54:00.726625",
+  "global_summary_cn": "流动性状态：全球流动性结构上宽松（风险偏好），主要得益于美联储降息预期的下降（鸽派）以及日元持续疲软（利差交易）。\n\n消息面普遍利好，特别是关于以太坊ETF流入量达到六周高点、ETH表现强劲以及加密货币在欧洲的实际应用增加。然而，尽管流动性和叙事均为积极，比特币和大部分山寨币在FOMC会议前夕出现显著回调，构成“分化”局面。这种回调可能源于短期的战术性获利了结和去风险化。鉴于宏观基础和长期ETF买盘依然强劲，当前市场回调被视为“逢低买入”的机会。市场正在等待美联储会议确认鸽派预期，高波动性预计将持续。",
+  "global_summary_en": "Liquidity Status: Global liquidity is structurally loose (Risk On), supported by decreasing Fed rate expectations (dovish pivot anticipated) and persistent Japanese Yen weakness (fueling the Carry Trade).\n\nThe news narrative is broadly bullish, highlighting strong Ethereum ETF inflows reaching a six-week high, ETH outperformance, and increasing real-world crypto adoption in Europe. However, despite positive liquidity and narratives, Bitcoin and most altcoins are showing significant pullbacks ahead of the FOMC meeting, creating a 'Divergence' scenario. This drop appears to be driven by short-term tactical profit-taking and de-risking. Given the strong macro foundation and sustained institutional buying (ETFs), the current market dip is categorized as a 'Buy the Dip' opportunity. High volatility is expected as the market awaits confirmation of dovish expectations from the Federal Reserve.",
   "news_analysis": [
     {
-      "title_cn": "美联储会议可能以降息为主，还有更多内容。以下是预期。",
+      "title_cn": "美联储会议可能以降息为特色，且内容远不止于此。以下是市场预期",
       "title_en": "The Fed meeting is likely to feature a rate cut and a lot more. Here's what to expect",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "市场预期降息或鸽派倾向，这是释放宏观流动性的主要催化剂，直接支持加密货币等风险资产。",
-      "reason_en": "Market expectation of a rate cut or dovish stance is the main catalyst for macro liquidity release, directly supporting risk assets like crypto."
+      "reason_cn": "强化了市场对美联储鸽派立场的预期，这是推动全球流动性宽松和风险资产上涨的关键宏观动力。",
+      "reason_en": "Reinforces market expectations for a dovish stance by the Fed, which is the key macro driver for loose global liquidity and risk asset appreciation."
     },
     {
-      "title_cn": "教师工会 AFT 抨击加密市场法案，警告其对美国退休计划构成“深刻风险”。",
+      "title_cn": "教师工会 AFT 抨击加密市场法案，警告美国退休计划面临“严重风险”",
       "title_en": "Teachers' union AFT slams crypto market bill, warns of 'profound risks' for America's retirement plans",
       "news_sentiment": "Bearish",
       "classification": "NEUTRAL",
-      "reason_cn": "代表监管摩擦和长期合规担忧，但不是即时的价格驱动因素。主要针对退休基金的风险敞口。",
-      "reason_en": "Represents regulatory friction and long-term compliance concerns, but it is not an immediate price driver. Focused on exposure risk for retirement funds."
+      "reason_cn": "反映了持续的监管摩擦，但目前尚未构成对市场定价的直接、重大威胁。长期来看为负面因素。",
+      "reason_en": "Reflects ongoing regulatory friction. Does not pose an immediate, significant threat to market pricing, but remains a long-term negative factor."
     },
     {
-      "title_cn": "FHA 贷款再融资需求跳升 24%，房主寻求最大程度的节省。",
-      "title_en": "Refinance demand for FHA loans jumps 24%, as homeowners seek the most savings they can",
-      "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "此数据反映了市场对利率即将下降的强烈预期，支持了现有的宽松宏观叙事。",
-      "reason_en": "This data reflects strong market expectations of falling rates, supporting the existing loose macro narrative (dovish Fed expectations)."
-    },
-    {
-      "title_cn": "比特币在“棘手”的 FOMC 之前波动性加剧，93.5K 美元的年度开盘价未能守住。",
-      "title_en": "Bitcoin hikes volatility into ‘tricky’ FOMC as $93.5K yearly open fails",
+      "title_cn": "近期立法可能导致社会保障受益人的税单发生变化",
+      "title_en": "Social Security beneficiaries' tax bills may change due to recent legislation. What to know",
       "news_sentiment": "Neutral",
       "classification": "NEUTRAL",
-      "reason_cn": "技术性分析，指出关键阻力位（$93.5K）和当前市场在重大事件前的波动性。",
-      "reason_en": "Technical analysis highlighting key resistance ($93.5K) and current market volatility ahead of a major macro event."
+      "reason_cn": "纯粹的宏观/社会政策新闻，与加密市场价格关联度低。",
+      "reason_en": "Pure macro/social policy news with low direct correlation to crypto market pricing."
     },
     {
-      "title_cn": "以太坊升至 $3.3K 证明底部已确立：ETH 100% 反弹是否接踵而至？",
+      "title_cn": "FHA贷款再融资需求跳涨24%，房主寻求最大程度的储蓄",
+      "title_en": "Refinance demand for FHA loans jumps 24%, as homeowners seek the most savings they can",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "表明消费者正在积极寻求低利率，与美联储鸽派预期相符。间接支撑风险情绪。",
+      "reason_en": "Indicates consumers are actively seeking lower rates, aligning with dovish Fed expectations. Indirectly supports risk sentiment."
+    },
+    {
+      "title_cn": "尽管生产者通胀跌幅超预期，中国消费者通胀仍创近两年新高",
+      "title_en": "China consumer inflation hits near two-year high despite deeper-than-expected producer deflation",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "中国宏观数据信号复杂（CPI升，PPI降），对全球市场的影响保持中性。",
+      "reason_en": "Mixed signal from Chinese macro data (CPI up, PPI down). Maintains a neutral impact on global risk markets."
+    },
+    {
+      "title_cn": "做空低点还是买入高点？FOMC结果揭示的比特币价格走势",
+      "title_en": "Short the dip and buy the rip? What FOMC outcomes reveal about Bitcoin price action",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "分析性文章，本身不驱动市场，但反映了市场在FOMC前的焦虑和策略讨论。",
+      "reason_en": "Analytical piece that doesn't drive the market, but reflects market anxiety and strategy discussion ahead of FOMC."
+    },
+    {
+      "title_cn": "比特币在“棘手”的FOMC会议前夕波动性加剧，93.5K美元的年度开盘价失守",
+      "title_en": "Bitcoin hikes volatility into ‘tricky’ FOMC as $93.5K yearly open fails",
+      "news_sentiment": "Bearish",
+      "classification": "PRICED IN",
+      "reason_cn": "描述了当前价格下跌的现实（BTC -2.25%），市场在关键事件前去风险化。",
+      "reason_en": "Describes the current reality of price decline (BTC -2.25%). The market is de-risking ahead of a critical event."
+    },
+    {
+      "title_cn": "日本计划进行重大转变，加密货币将从支付法转向证券法",
+      "title_en": "Japan plans major shift as crypto moves from payments to securities law",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "重要的监管结构改善，有助于增加机构的可访问性和合法性。",
+      "reason_en": "Significant regulatory structural improvement that enhances institutional accessibility and legitimacy."
+    },
+    {
+      "title_cn": "与丝绸之路相关的比特币钱包将300万美元转移到新地址",
+      "title_en": "Silk Road-linked Bitcoin wallets move $3M to new address",
+      "news_sentiment": "Bearish",
+      "classification": "NEUTRAL",
+      "reason_cn": "例行大额转移新闻，但金额相对市场规模而言影响微乎其微。",
+      "reason_en": "Routine large transfer news, but the amount is negligible relative to the overall market volume."
+    },
+    {
+      "title_cn": "以太坊涨至3.3K美元证明底部已定：接下来是否会上涨100%？",
       "title_en": "Ethereum rising to $3.3K proves bottom is in: Is 100% ETH rally next?",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "强劲的价格确认和积极的市场叙事，表明以太坊目前是市场上表现最强的领导者。",
-      "reason_en": "Strong price confirmation and aggressive positive narrative, suggesting Ethereum is currently the strongest market leader."
+      "reason_cn": "强化了ETH跑赢大盘的叙事，吸引资金轮动。",
+      "reason_en": "Reinforces the narrative of ETH outperformance, attracting capital rotation."
     },
     {
-      "title_cn": "Superstate 为 SEC 注册的上市公司开放链上资本募集。",
+      "title_cn": "Superstate为SEC注册的上市公司开放链上融资",
       "title_en": "Superstate opens onchain capital raises for SEC-registered public companies",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "RWA (真实世界资产) 和机构采用的积极发展，将传统金融带入链上。",
-      "reason_en": "Positive development for RWA (Real World Assets) and institutional adoption, bringing traditional finance onto the chain."
+      "reason_cn": "标志着代币化和传统金融整合的进一步深化，是长期积极的机构采用信号。",
+      "reason_en": "Signals further integration of tokenization and TradFi, a long-term positive institutional adoption signal."
     },
     {
-      "title_cn": "以太坊 ETF 达到六周高点，投资者在加密货币内部进行轮换。",
+      "title_cn": "Vitalik Buterin称以太坊可以应对暂时的终结性丢失",
+      "title_en": "Vitalik Buterin says Ethereum can handle temporary loss of finality",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "技术性保障声明，有助于减轻潜在的协议担忧。",
+      "reason_en": "Technical assurance statement, slightly mitigating potential protocol concerns."
+    },
+    {
+      "title_cn": "以太坊网络费用下降62%：ETH价格面临风险吗？",
+      "title_en": "Ethereum network sees 62% drop in fees: Is ETH price at risk?",
+      "news_sentiment": "Bearish",
+      "classification": "DIVERGENCE",
+      "reason_cn": "网络费用下降通常表明使用率降低，但ETH价格却相对强劲，存在潜在的基本面和价格背离。",
+      "reason_en": "Lower network fees usually signal reduced usage, but ETH price remains robust, showing a potential divergence between fundamentals and price."
+    },
+    {
+      "title_cn": "狗狗币ETF失去吸引力，比特币、以太坊等巨头引领潮流",
+      "title_en": "Dogecoin ETFs lose their bite as Bitcoin, Ethereum big dogs lead the pack",
+      "news_sentiment": "Neutral",
+      "classification": "PRICED IN",
+      "reason_cn": "证实了市场资本轮动偏向蓝筹加密资产（BTC/ETH），符合SOL/DOGE的近期价格下跌。",
+      "reason_en": "Confirms capital rotation preference toward blue-chip crypto (BTC/ETH), consistent with recent price drops in SOL/DOGE."
+    },
+    {
+      "title_cn": "Cryptoquant：大户退居二线，比特币重获短期力量",
+      "title_en": "Cryptoquant: Large Holders Step Back, Bitcoin Regains Short-Term Strength",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "表明大户在FOMC前保持谨慎，由散户或短期交易者驱动当前波动。",
+      "reason_en": "Suggests large holders are cautious pre-FOMC, with current volatility driven by retail or short-term traders."
+    },
+    {
+      "title_cn": "WhiteBIT报告发现：欧洲人使用加密货币购买杂货、咖啡和支付账单",
+      "title_en": "Europeans Tap Crypto for Groceries, Cafes and Bills, WhiteBIT Report Finds",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "确认了加密货币在欧洲的实际应用和零售采用增加，对长期价值储存有利。",
+      "reason_en": "Confirms increasing real-world usage and retail adoption of crypto in Europe, positive for long-term store of value narrative."
+    },
+    {
+      "title_cn": "全面上涨日：比特币、以太坊、Solana、XRP ETF强势流入",
+      "title_en": "All-Green Day: Bitcoin, Ether, Solana, XRP ETFs Rally with Strong Inflows",
+      "news_sentiment": "Bullish",
+      "classification": "DIVERGENCE",
+      "reason_cn": "ETF持续强劲流入的叙事与当前现货市场价格下跌（BTC, SOL）存在背离，暗示下跌是暂时的去风险行为。",
+      "reason_en": "Divergence between the narrative of strong sustained ETF inflows and the current spot price drop (BTC, SOL), suggesting the dip is temporary de-risking."
+    },
+    {
+      "title_cn": "以太坊ETF达到六周高点，投资者在加密领域内轮动",
       "title_en": "Ethereum ETFs Hit Six-Week High as Investors Rotate Within Crypto",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "直接证据表明机构资金流入和投资者对以太坊的兴趣重新燃起，推动了当前的上涨。",
-      "reason_en": "Direct evidence of institutional capital flow and renewed investor interest in Ethereum, fueling the current rally."
-    },
-    {
-      "title_cn": "全绿日：比特币、以太坊、Solana、XRP ETF 强劲流入，全线反弹。",
-      "title_en": "All-Green Day: Bitcoin, Ether, Solana, XRP ETFs Rally with Strong Inflows",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "确认了整个主要加密货币领域的广泛机构需求和买盘，强化了整体牛市结构。",
-      "reason_en": "Confirms broad institutional demand and buying across major crypto sectors, reinforcing the overall bullish structure."
-    },
-    {
-      "title_cn": "摩根大通表示没有加密寒冬。",
-      "title_en": "Morning Minute: JPMorgan Says No Crypto Winter",
-      "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "大型机构的评论确认了现有积极的市场情绪，但通常是追随趋势而非引领价格。",
-      "reason_en": "Large institutional commentary confirming existing positive market sentiment, but often follows the trend rather than leading the price."
-    },
-    {
-      "title_cn": "以太坊网络费用下降 62%：ETH 价格是否面临风险？",
-      "title_en": "Ethereum network sees 62% drop in fees: Is ETH price at risk?",
-      "news_sentiment": "Neutral",
-      "classification": "DIVERGENCE",
-      "reason_cn": "费用下降对 ETH 的通缩机制和质押者不利，但在强劲的 ETF 叙事下，ETH 价格正在急剧上涨（+6.09%），形成了价格走势与基本面指标的短期分歧。",
-      "reason_en": "Lower fees are detrimental to ETH's deflationary mechanism and stakers, but the price is rallying sharply (+6.09%) under a strong ETF narrative, creating a short-term divergence between price action and fundamental indicators."
+      "reason_cn": "确认ETH是目前机构资金轮动的主要目标，支撑其在市场下跌中表现相对抗跌。",
+      "reason_en": "Confirms ETH as the primary target for institutional capital rotation, supporting its relative resilience during the current market dip."
     }
   ],
   "fed_futures": {
-    "price": 96.405,
-    "implied_rate": 3.595,
-    "timestamp": "2025-12-10T15:19:34.145771+00:00",
+    "price": 96.355,
+    "implied_rate": 3.645,
+    "timestamp": "2025-12-10T16:53:31.262521+00:00",
     "trend": "Dovish (Rate expectations dropping)",
-    "change_5d_bps": -14.3,
+    "change_5d_bps": -9.3,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 156.46,
-    "timestamp": "2025-12-10T15:19:34.272752+00:00",
+    "price": 156.367,
+    "timestamp": "2025-12-10T16:53:31.359630+00:00",
     "trend": "Yen Weakness (Risk On)",
-    "change_5d_pct": 0.87,
+    "change_5d_pct": 0.81,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 99.03,
-      "change_5d_pct": 0.04,
+      "price": 99.02,
+      "change_5d_pct": 0.03,
       "trend": "Neutral"
     },
     "us10y": {
-      "price": 4.17,
-      "change_5d_pct": 1.56,
+      "price": 4.16,
+      "change_5d_pct": 1.31,
       "trend": "Neutral Rising"
     },
     "vix": {
-      "price": 17.17,
-      "change_5d_pct": 8.81,
+      "price": 16.92,
+      "change_5d_pct": 7.22,
       "trend": "Normal Rising"
     }
   },
   "coins": [
     {
       "symbol": "BTC",
-      "price": 92014.0,
-      "change_24h": 1.250361749912248,
-      "rsi_4h": 54.172028668390205,
-      "funding_rate": 0.006317943479550001,
-      "open_interest": 2306661.480000003,
-      "sentiment": "Neutral/Bullish",
-      "score": 65,
-      "comment_cn": "在 FOMC 之前，多头未能突破 $93.5K 的年度开盘价阻力位。市场情绪等待宏观催化剂来推动下一个方向。",
-      "comment_en": "Bulls failed to break the $93.5K yearly open resistance ahead of FOMC. Sentiment is waiting for the macro catalyst to determine the next direction."
+      "price": 92309.0,
+      "change_24h": -2.251594477912394,
+      "rsi_4h": 55.89161287876782,
+      "funding_rate": 0.00235278007592,
+      "open_interest": 2299613.5700000026,
+      "sentiment": "Neutral",
+      "score": 55,
+      "comment_cn": "价格下跌但OI和Funding仍高，FOMC前夕波动剧烈，等待宏观信号确认方向。",
+      "comment_en": "Price dropped but OI and Funding remain high. High volatility pre-FOMC, awaiting macro confirmation for direction."
     },
     {
       "symbol": "ETH",
-      "price": 3329.18,
-      "change_24h": 6.091401293167994,
-      "rsi_4h": 68.69796621531512,
-      "funding_rate": 0.005024119286,
-      "open_interest": 5484551.170000012,
-      "sentiment": "Strong Bullish",
-      "score": 90,
-      "comment_cn": "受 ETF 资金流入和 $3.3K 突破驱动，表现出强大的相对强度。市场轮动进入 ETH 仍在继续。",
-      "comment_en": "Demonstrating strong relative strength, driven by ETF inflows and the $3.3K breakout. The market rotation into ETH continues."
+      "price": 3365.61,
+      "change_24h": 0.10559002516314943,
+      "rsi_4h": 71.37355889199601,
+      "funding_rate": 0.00441403181998,
+      "open_interest": 5409646.800000007,
+      "sentiment": "Bullish",
+      "score": 85,
+      "comment_cn": "表现出强大的相对强度和资金轮动，ETF流入强劲，RSI高企暗示动能持续。",
+      "comment_en": "Showing strong relative strength and capital rotation, backed by robust ETF inflows. High RSI suggests sustained momentum."
     },
     {
       "symbol": "SOL",
-      "price": 136.91,
-      "change_24h": 2.4392068836513214,
-      "rsi_4h": 51.69811311815466,
-      "funding_rate": 0.00089672422798,
-      "open_interest": 2492231.97,
-      "sentiment": "Neutral",
-      "score": 60,
-      "comment_cn": "上涨伴随 ETF 普涨日，但势头弱于 ETH。价格在横盘整理后略微走高。",
-      "comment_en": "Rallied along with the ETF 'All-Green Day' but with less momentum than ETH. Price action is slightly elevated after consolidation."
+      "price": 136.32,
+      "change_24h": -5.438401775804664,
+      "rsi_4h": 50.52984136223091,
+      "funding_rate": 0.00052514284957,
+      "open_interest": 2519389.330000001,
+      "sentiment": "Bearish",
+      "score": 30,
+      "comment_cn": "大幅回调，未能抗住市场抛压，跟随大盘短期去风险趋势。",
+      "comment_en": "Significant pullback, failing to withstand market pressure. Follows the broader short-term de-risking trend in altcoins."
     },
     {
       "symbol": "BNB",
-      "price": 890.0,
-      "change_24h": 0.07871359496233504,
-      "rsi_4h": 47.34384216488084,
-      "funding_rate": -0.014253855988809998,
-      "open_interest": 6929194.0,
-      "sentiment": "Neutral/Cautious",
-      "score": 55,
-      "comment_cn": "价格波动最小 (+0.08%)，且是主要币种中唯一资金费率负值的，暗示存在空头对冲或抛压。",
-      "comment_en": "Minimal price movement (+0.08%) and the only major coin with negative funding rates, suggesting short hedging or selling pressure."
+      "price": 897.3,
+      "change_24h": -2.9736159169550174,
+      "rsi_4h": 51.67345423223127,
+      "funding_rate": -0.00824515360617,
+      "open_interest": 6977569.0,
+      "sentiment": "Bearish",
+      "score": 40,
+      "comment_cn": "跌幅显著且Funding转负，暗示有积极的空头活动或获利了结。",
+      "comment_en": "Significant drop with negative funding, indicating active shorting or aggressive profit-taking pressure."
     },
     {
       "symbol": "DOGE",
-      "price": 0.14556,
-      "change_24h": 1.761744966442949,
-      "rsi_4h": 54.311077704477164,
-      "funding_rate": 0.0024103003392099997,
-      "open_interest": 719591.3699999998,
-      "sentiment": "Neutral",
-      "score": 50,
-      "comment_cn": "价格跟随大盘略微上涨，但新闻显示投资者对 DOGE ETF 的兴趣正在下降。",
-      "comment_en": "Price followed the general market up slightly, but news indicates waning investor interest in DOGE specific ETFs."
+      "price": 0.146,
+      "change_24h": -3.6621577037281425,
+      "rsi_4h": 55.20086289728721,
+      "funding_rate": -0.00024919269506,
+      "open_interest": 727016.4999999998,
+      "sentiment": "Bearish",
+      "score": 35,
+      "comment_cn": "meme币叙事弱化，价格跟随山寨币板块集体下跌。",
+      "comment_en": "Meme coin narrative weakening; price follows the general altcoin sector downturn."
     }
   ]
 }
