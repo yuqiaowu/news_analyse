@@ -449,7 +449,11 @@ function createCard(coin) {
 
     const comment = currentLang === 'CN' ? (coin.comment_cn || coin.comment) : (coin.comment_en || coin.comment);
 
-    const sentimentClass = `sentiment-${sentiment.toLowerCase()}`;
+    // Normalize sentiment class (handle "Strong Bullish", "Neutral/Bearish" etc.)
+    let sentimentClass = 'sentiment-neutral'; // Default
+    const sLower = sentiment.toLowerCase();
+    if (sLower.includes('bullish')) sentimentClass = 'sentiment-bullish';
+    else if (sLower.includes('bearish')) sentimentClass = 'sentiment-bearish';
 
     // Determine color for score bar
     let scoreColor = '#eab308'; // Neutral
