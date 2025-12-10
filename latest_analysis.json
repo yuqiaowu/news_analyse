@@ -1,109 +1,84 @@
 {
-  "timestamp": "2025-12-09T21:13:48.009770",
-  "global_summary_cn": "流动性状态：宏观流动性结构正在改善（美联储鸽派倾向和日元疲软），但短期内面临美元走强等阻力。市场叙事异常强劲，充斥着机构采用、ETF创新（BlackRock Staked ETH、BTC After Dark）和积极的技术信号（哈希彩带买入信号）。这种结合创造了一个强大的上行势头。ETH表现突出，鲸鱼大规模做多以及质押型ETF的叙事使其进入超买区域（RSI 70.3）。宏观阻力（如教师工会抨击加密法案）正在被积极的资金流入和机构整合所压倒。市场处于结构性看涨，但短期需警惕ETH的超买和DXY的潜在影响。我们正处于牛市中的强劲反弹阶段。",
-  "global_summary_en": "Liquidity Status: Structural macro liquidity is improving (Dovish Fed expectation and weak JPY), but faces short-term headwinds like DXY strength. The market narrative is exceptionally strong, dominated by institutional adoption, ETF innovation (BlackRock Staked ETH, BTC After Dark), and positive technical signals (Hash Ribbons buy signal). This combination creates powerful upward momentum. ETH is leading, driven by massive whale long positioning and the staked ETF narrative, pushing it into overbought territory (RSI 70.3). Macro friction (e.g., AFT slamming crypto bill) is being outweighed by aggressive fund inflows and institutional integration. The market is structurally bullish, though short-term caution is advised regarding ETH's overbought status and DXY's potential impact. We are in a strong relief rally phase within the bull market.",
+  "timestamp": "2025-12-10T01:14:22.585663",
+  "global_summary_cn": "流动性状态：偏紧/混合对冲。宏观流动性信号处于混合状态，DXY走强和美债收益率上升构成了即时阻力，暗示全球资金偏向收紧。然而，市场正积极消化极度利好的叙事，特别是与以太坊ETF（贝莱德提交质押型ETH ETF申请）和机构采用（PNC银行提供BTC交易）相关的消息。这种流动性紧缩与叙事强劲的背离表明，当前的上涨是叙事驱动的，风险资产正在积极克服宏观阻力。如果宏观压力持续，市场可能面临获利了结，但目前强烈的机构需求主导了价格走势，尤其体现在ETH的强劲表现上。整体市场情绪为偏强牛市。",
+  "global_summary_en": "Liquidity Status: Cautiously Tight/Mixed Headwinds. Macro liquidity signals are mixed; a strengthening DXY and rising US 10Y yields present immediate headwinds, suggesting a general tightening bias. However, the market is aggressively digesting extremely bullish narratives, specifically surrounding Ethereum ETFs (BlackRock filed for a staked ETH ETF) and institutional adoption (PNC Bank launching BTC trading). This divergence—tightening liquidity countered by strong news—indicates that the current rally is narrative-driven, with risk assets actively fighting macro resistance. If macro pressures persist, the market may face distribution, but strong institutional demand is currently dominating price action, particularly evident in ETH’s performance. Overall market sentiment is strongly bullish.",
   "news_analysis": [
-    {
-      "title_cn": "教师工会AFT抨击加密市场法案，警告美国退休计划面临“巨大风险”",
-      "title_en": "Teachers' union AFT slams crypto market bill, warns of 'profound risks' for America's retirement plans",
-      "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "新鲜的监管阻力，可能阻碍养老金和退休计划的长期机构采用，对加密法案通过构成挑战。",
-      "reason_en": "Fresh regulatory resistance that could hinder long-term institutional adoption by pension/retirement plans, posing a challenge to the crypto bill passage.",
-      "is_macro": true
-    },
-    {
-      "title_cn": "预计美联储会议将降息并做出更多决策。这是你需要期待的。",
-      "title_en": "The Fed decision is expected to feature a rate cut and a lot more. Here's what to expect",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "降息预期是强烈的风险资产催化剂，确认了结构性宏观流动性正在改善的趋势。",
-      "reason_en": "Rate cut expectation is a strong catalyst for risk assets, confirming the trend toward improving structural macro liquidity.",
-      "is_macro": true
-    },
-    {
-      "title_cn": "PNC银行通过Coinbase集成向合格客户推出比特币交易",
-      "title_en": "PNC Bank launches Bitcoin trading for eligible clients via Coinbase integration",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "主要银行机构的采用是新鲜的高影响力新闻，进一步证实了传统金融对加密资产的接纳。",
-      "reason_en": "Major banking institution adoption is fresh, high-impact news, further cementing Traditional Finance acceptance of crypto assets.",
-      "is_macro": false
-    },
-    {
-      "title_cn": "比特币哈希彩带在9万美元处闪烁‘买入’信号：BTC价格会反弹吗？",
-      "title_en": "Bitcoin Hash Ribbons flash ‘buy’ signal at $90K: Will BTC price rebound?",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "确认了关键技术指标的买入信号，支撑了当前的上涨势头，是推动市场情绪的催化剂。",
-      "reason_en": "Confirmation of a buy signal from a key technical indicator, supporting the current rally and acting as a sentiment catalyst.",
-      "is_macro": false
-    },
     {
       "title_cn": "贝莱德向SEC提交质押型以太坊ETF上市申请",
       "title_en": "BlackRock files with SEC for listing of staked Ether ETF",
       "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "该消息已引发ETH的强劲反弹，ETH目前处于超买状态。市场正在积极消化这一巨大的机构催化剂。",
-      "reason_en": "This news has fueled ETH's strong rally, which is now in overbought territory. The market is actively absorbing this massive institutional catalyst.",
-      "is_macro": false
+      "classification": "IMPULSE",
+      "reason_cn": "这是以太坊的巨大催化剂。质押功能增加了ETF的吸引力，是ETH价格和流动性飙升的直接原因。",
+      "reason_en": "This is a massive catalyst for Ethereum. The staking component enhances the ETF's attractiveness and is the direct cause of ETH's price and liquidity spike."
     },
     {
-      "title_cn": "在经历55亿美元的大规模抛售后，加密基金连续第二周实现资金流入",
+      "title_cn": "PNC银行通过Coinbase整合为合格客户推出比特币交易",
+      "title_en": "PNC Bank launches Bitcoin trading for eligible clients via Coinbase integration",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "大型机构的直接采用。扩大了传统金融渠道对加密货币的访问，属于积极的结构性利好。",
+      "reason_en": "Direct institutional adoption from a major bank. It expands access to crypto through traditional finance channels, representing a positive structural development."
+    },
+    {
+      "title_cn": "比特币哈希率彩带在9万美元处闪现“买入”信号",
+      "title_en": "Bitcoin Hash Ribbons flash ‘buy’ signal at $90K: Will BTC price rebound?",
+      "news_sentiment": "Bullish",
+      "classification": "PRICED IN",
+      "reason_cn": "这是一个滞后的技术确认信号，确认了此前的抛售是投降，但目前的上涨更多是受ETF新闻驱动。",
+      "reason_en": "This is a lagging technical confirmation signal, affirming that the previous sell-off was likely capitulation. The current price movement is primarily driven by ETF news."
+    },
+    {
+      "title_cn": "以太坊网络费用下降62%：ETH价格有风险吗？",
+      "title_en": "Ethereum network sees 62% drop in fees: Is ETH price at risk?",
+      "news_sentiment": "Neutral",
+      "classification": "DIVERGENCE",
+      "reason_cn": "网络活跃度（费用下降）基本面偏弱，但价格因ETF消息而大幅上涨，叙事完全压倒了链上使用数据。",
+      "reason_en": "Weak fundamentals regarding network activity (fee drop), but the price is surging due to ETF news. Narrative completely overrides immediate on-chain usage data."
+    },
+    {
+      "title_cn": "在55亿美元大规模抛售后，加密基金迎来第二周资金流入",
       "title_en": "Crypto funds log second week of inflows after massive $5.5B sell-off",
       "news_sentiment": "Bullish",
       "classification": "PRICED IN",
-      "reason_cn": "确认机构资本正在回归，表明市场对当前上涨的信心；这是对近期反弹的肯定。",
-      "reason_en": "Confirms institutional capital is returning, signaling confidence in the current rise; validation of the recent rebound.",
-      "is_macro": false
+      "reason_cn": "确认了机构资金正在逢低买入，但当前的价格冲动（ETH）是由更近期的ETF新闻驱动的。",
+      "reason_en": "Confirms that institutional capital is buying the dip, but the current price impulse (ETH) is driven by more immediate ETF news."
     },
     {
-      "title_cn": "以太坊“智能”鲸鱼开设4.26亿美元多头头寸，ETH价格图表瞄准4000美元",
-      "title_en": "Ethereum ‘smart’ whales open $426M long bets as ETH price chart eyes $4K",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "直接确认了智能资金的激进做多，为ETH的当前价格飙升提供了强劲的基本面和情绪支撑。",
-      "reason_en": "Direct confirmation of aggressive smart money long positioning, providing strong fundamental and sentimental support for ETH's current spike.",
-      "is_macro": false
-    },
-    {
-      "title_cn": "摩根大通分析师怀疑加密寒冬即将来临，尽管比特币经历了“有意义”的抛售",
-      "title_en": "JPMorgan Analysts Doubt Crypto Winter Is Coming, Despite 'Meaningful' Bitcoin Sell-Off",
-      "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "大型金融机构的看涨评论反映了当前的市场乐观情绪和从抛售中复苏的事实。",
-      "reason_en": "Bullish commentary from a major financial institution reflecting current market optimism and recovery from the sell-off.",
-      "is_macro": false
-    },
-    {
-      "title_cn": "参议员布克：如果CFTC和SEC没有民主党任命，加密法案通过的可能性很低",
-      "title_en": "Senator Booker: Low Odds for Crypto Bill Without Democrats Appointed at CFTC, SEC",
+      "title_cn": "教师工会AFT抨击加密市场法案，警告美国退休计划面临“深远风险”",
+      "title_en": "Teachers' union AFT slams crypto market bill, warns of 'profound risks' for America's retirement plans",
       "news_sentiment": "Bearish",
-      "classification": "NEUTRAL",
-      "reason_cn": "代表了持续的政治监管不确定性，但目前被积极的市场消息所掩盖，短期内影响中性。",
-      "reason_en": "Represents ongoing political regulatory uncertainty, but currently overshadowed by positive market news. Neutral impact in the short term.",
-      "is_macro": true
+      "classification": "DIVERGENCE",
+      "reason_cn": "来自养老金部门的负面监管意见，但在积极的机构采用浪潮下被市场忽视。",
+      "reason_en": "Negative regulatory commentary concerning pension funds, but it is currently being ignored by the market amid the strong institutional adoption wave."
+    },
+    {
+      "title_cn": "美元指数DXY走强（99.22）和美10年期国债收益率（4.19）上升",
+      "title_en": "DXY trending stronger and US10Y yields rising",
+      "news_sentiment": "Bearish",
+      "classification": "DIVERGENCE",
+      "reason_cn": "宏观流动性收紧的信号，但在强劲的加密叙事驱动下，加密资产正在积极对抗这些阻力。",
+      "reason_en": "Signals of macro liquidity tightening, which crypto assets are aggressively fighting against, driven by the strong institutional narrative."
     }
   ],
   "fed_futures": {
     "price": 96.405,
     "implied_rate": 3.595,
-    "timestamp": "2025-12-09T21:13:26.536767+00:00",
+    "timestamp": "2025-12-10T01:14:04.807222+00:00",
     "trend": "Dovish (Rate expectations dropping)",
     "change_5d_bps": -13.7,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 156.906,
-    "timestamp": "2025-12-09T21:13:26.582947+00:00",
+    "price": 156.714,
+    "timestamp": "2025-12-10T01:14:04.890947+00:00",
     "trend": "Yen Weakness (Risk On)",
-    "change_5d_pct": 0.71,
+    "change_5d_pct": 1.04,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 99.24,
-      "change_5d_pct": 0.25,
+      "price": 99.22,
+      "change_5d_pct": 0.23,
       "trend": "Stronger (Risk Off)"
     },
     "us10y": {
@@ -120,63 +95,63 @@
   "coins": [
     {
       "symbol": "BTC",
-      "price": 93134.0,
-      "change_24h": 2.584380923847617,
-      "rsi_4h": 61.93881754993111,
-      "funding_rate": 0.00812955881283,
-      "open_interest": 2255831.0800000005,
+      "price": 92254.3,
+      "change_24h": 1.9507321876336452,
+      "rsi_4h": 56.47921769389458,
+      "funding_rate": -0.00275434485692,
+      "open_interest": 2289791.3300000024,
       "sentiment": "Bullish",
-      "score": 85,
-      "comment_cn": "受ETF创新、PNC集成以及哈希彩带买入信号的共同推动，突破93,000美元。尽管OI增加，但资金费率健康，上行动能强劲。",
-      "comment_en": "Driven above $93k by ETF innovation, PNC integration, and the Hash Ribbons buy signal. Strong upward momentum with healthy funding despite rising OI."
+      "score": 80,
+      "comment_cn": "受到银行采用和技术买入信号支撑，价格正在稳定上涨。尽管资金费率为负，但多头表现坚挺，表明有空头疲软。",
+      "comment_en": "Supported by banking adoption and technical buy signals, price is showing steady growth. Negative funding suggests short weakness despite the rally."
     },
     {
       "symbol": "ETH",
-      "price": 3325.44,
-      "change_24h": 6.202354985101702,
-      "rsi_4h": 70.26616135418888,
+      "price": 3307.01,
+      "change_24h": 6.1398525536715605,
+      "rsi_4h": 67.68721581444535,
       "funding_rate": 0.01,
-      "open_interest": 5667054.03000001,
+      "open_interest": 5587946.410000012,
       "sentiment": "Highly Bullish",
       "score": 95,
-      "comment_cn": "市场领导者，受BlackRock质押型ETF文件和鲸鱼激进多头头寸的双重推动。RSI已达70.3，显示极度强劲但超买的势头。",
-      "comment_en": "Market leader, propelled by the BlackRock staked ETF filing and aggressive whale long positioning. RSI at 70.3 signals extremely strong but overbought momentum."
+      "comment_cn": "当前市场的领导者。贝莱德质押型ETF申请是主要推动力。RSI高企但动能强劲，短期看涨情绪极高。",
+      "comment_en": "The current market leader. The BlackRock staked ETF filing is the key driver. High RSI but strong momentum, indicating extremely high short-term bullishness."
     },
     {
       "symbol": "SOL",
-      "price": 140.14,
-      "change_24h": 4.722761918995661,
-      "rsi_4h": 59.246705739314564,
+      "price": 137.4,
+      "change_24h": 3.269447576099206,
+      "rsi_4h": 53.45854592262475,
       "funding_rate": 0.01,
-      "open_interest": 2627924.750000003,
+      "open_interest": 2572846.350000001,
       "sentiment": "Bullish",
       "score": 75,
-      "comment_cn": "跟随主要加密货币上涨，但其涨幅和RSI健康（59.2）。资金费率强劲表明衍生品市场需求旺盛。",
-      "comment_en": "Following the majors upward, but showing a healthier pace of increase and RSI (59.2). Strong funding rate indicates robust demand in the derivatives market."
+      "comment_cn": "跟随BTC和ETH上涨，展现出健康的势头。资金费率正面，表明多头愿意付费持有头寸。",
+      "comment_en": "Following BTC and ETH higher, showing healthy momentum. Positive funding indicates longs are willing to pay to hold positions."
     },
     {
       "symbol": "BNB",
-      "price": 908.8,
-      "change_24h": 0.9889987776419578,
-      "rsi_4h": 58.042762878337086,
-      "funding_rate": 0.01,
-      "open_interest": 7053408.0,
+      "price": 890.3,
+      "change_24h": -0.4695360536612684,
+      "rsi_4h": 47.19226834454057,
+      "funding_rate": 0.00820146190066,
+      "open_interest": 6784434.0,
       "sentiment": "Neutral",
-      "score": 60,
-      "comment_cn": "表现平稳，涨幅落后于大盘。RSI适中（58.0），显示稳定但缺乏追逐ETH/BTC的爆发力。",
-      "comment_en": "Stable performance, lagging behind the majors in terms of percentage gain. Moderate RSI (58.0) suggests stability but lacks the explosive force seen in ETH/BTC."
+      "score": 55,
+      "comment_cn": "明显落后于主要加密货币，与美国机构采用叙事的相关性较弱，RSI和价格表现平淡。",
+      "comment_en": "Significantly lagging the majors. Less exposed to the US institutional adoption narrative, resulting in flat RSI and price performance."
     },
     {
       "symbol": "DOGE",
-      "price": 0.1498,
-      "change_24h": 4.667411961989933,
-      "rsi_4h": 66.21527564677498,
+      "price": 0.14645,
+      "change_24h": 3.344859219532845,
+      "rsi_4h": 56.84962500859258,
       "funding_rate": 0.01,
-      "open_interest": 741395.8099999998,
+      "open_interest": 730960.52,
       "sentiment": "Bullish",
-      "score": 70,
-      "comment_cn": "在零售势头下强劲反弹，RSI高企（66.2）。但叙事焦点仍集中在BTC和ETH，面临叙事压力。",
-      "comment_en": "Strong rebound fueled by retail momentum, high RSI (66.2). Faces narrative pressure as focus shifts explicitly to BTC and ETH, per recent news."
+      "score": 65,
+      "comment_cn": "搭乘整体市场风险偏好的顺风车，但缺乏直接催化剂，新闻提示其ETF热度不及BTC/ETH。",
+      "comment_en": "Catching tailwinds from general market risk appetite but lacks immediate catalysts. News suggests its ETF hype is overshadowed by BTC/ETH."
     }
   ]
 }
