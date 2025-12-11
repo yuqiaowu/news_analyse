@@ -208,27 +208,7 @@ button:disabled {
     border: 1px solid #ef4444;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1rem;
-    margin-bottom: 2rem;
-}
 
-@media (max-width: 1600px) {
-    .grid-container {
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    }
-}
-
-.card {
-    background-color: var(--card-bg);
-    border: 1px solid var(--border-color);
-    border-radius: 1rem;
-    padding: 1.25rem;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    transition: transform 0.2s;
-}
 
 .card:hover {
     transform: translateY(-2px);
