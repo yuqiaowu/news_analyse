@@ -1,65 +1,83 @@
 {
-  "timestamp": "2025-12-14T01:11:12.281344",
-  "global_summary_cn": "流动性状态：全球宏观流动性环境偏向“风险偏好”（Risk On）。美元指数（DXY）走弱，波动率指数（VIX）处于低位，这为风险资产提供了支撑。尽管美联储（Fed）官员古尔斯比（Goolsbee）表达了对过早降息的担忧，但市场对近期利率的预期保持稳定，避免了流动性突然收紧。\n\n叙事合成：加密叙事极为乐观，主要体现在3100亿美元稳定币市场创历史新高（待部署资本充足）以及机构继续囤积比特币（如MSTR）。分析师指出，当前交易量低迷期通常预示着下一轮周期性上涨。宏观流动性支持了这种积极的周期性叙事。目前的价格停滞（RSI中性）是由于短期抛压（OGs出售看涨期权）导致的“蛰伏期”。这是经典的“流动性宽松+看涨叙事”组合，预示着结构性牛市仍在继续，短期内或酝酿突破。",
-  "global_summary_en": "Liquidity Status: Global macro liquidity conditions lean towards \"Risk On.\" The weakening Dollar Index (DXY) and low Volatility Index (VIX) provide a supportive backdrop for risk assets. Although Fed official Goolsbee voiced concerns about front-loading rate cuts, near-term rate expectations remain stable, preventing a sudden liquidity crunch.\n\nNarrative Synthesis: The crypto narrative is overwhelmingly positive, driven primarily by the stablecoin market hitting a record $310 billion (ample capital ready to deploy) and continued institutional Bitcoin hoarding (MSTR). Analysts suggest the current low volume lull is typically a precursor to the next major cycle leg. Macro liquidity fundamentally supports this optimistic cyclical narrative. The current price stagnation (neutral RSI) is attributed to a temporary 'lull period' caused by short-term selling pressure (OGs selling covered calls). This is a classic 'Loose Liquidity + Bullish Narrative' setup, indicating that the structural bull market continues and a breakout is likely brewing.",
+  "timestamp": "2025-12-14T05:11:47.066853",
+  "global_summary_cn": "流动性状态：全球流动性处于宽松（Risk On）状态。美联储降息预期增强，美元指数走弱（DXY 98.39），VIX维持低位（15.74），为风险资产创造了有利的宏观环境。叙事层面，消息面极度乐观，特别是SEC对区块链结算和机构托管的积极表态，提供了强大的监管支持和制度化动力。目前的市场走势是流动性宽松结合重大利好消息，但价格仍处于90,000美元附近的盘整期，这是一种蓄势待发的牛市完美风暴（Perfect Storm, Bullish）。市场似乎正在消化期权和低交易量带来的短期压力，预计在流动性支持下，机构驱动的下一轮突破很快会发生。",
+  "global_summary_en": "Liquidity Status: Global liquidity is in a loose (Risk On) state. Enhanced Fed rate cut expectations, a weaker DXY (98.39), and low VIX (15.74) create a favorable macro environment for risk assets. The narrative layer is extremely optimistic, particularly regarding the SEC's positive statements on blockchain settlement and institutional custody, providing strong regulatory backing and institutional momentum. The current market action is a convergence of loose liquidity and major bullish news, yet prices are consolidating around $90,000. This setup represents a 'Perfect Storm' (Bullish) phase of accumulation. The market appears to be absorbing short-term pressure from options selling and low volume, suggesting an institutionally-driven breakout is imminent supported by robust liquidity.",
   "news_analysis": [
     {
-      "title_cn": "$3100亿稳定币市场创新高，而收益率玩法失势",
-      "title_en": "$310 Billion Stablecoin Market Hits New High While Yield Plays Lose Ground",
+      "title_cn": "SEC为链上市场定下看涨基调，区块链结算成为战略重点",
+      "title_en": "SEC Sets Bullish Tone on On-Chain Markets as Blockchain Settlement Becomes Strategic Priority",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "稳定币规模是市场购买力的直接指标。创纪录的高位意味着大量法定货币锚定的资本已进入加密生态系统，准备部署，是结构性看涨信号。",
-      "reason_en": "The stablecoin market size is a direct measure of purchasing power. The record high means vast amounts of fiat-pegged capital are ready to be deployed into the crypto ecosystem, serving as a structural bullish impulse.",
-      "title_alias": "Stablecoin Market High"
+      "reason_cn": "这是来自监管机构的重磅利好，直接肯定了区块链的核心功能，预示着传统金融基础设施将与链上技术深度融合。",
+      "reason_en": "This is a major positive impulse from the regulator, directly validating the core utility of blockchain, signaling deep integration between traditional financial infrastructure and on-chain technology.",
+      "is_macro": false
     },
     {
-      "title_cn": "策略（MSTR）保住纳斯达克100指数席位—赛勒称‘将继续囤积比特币’",
+      "title_cn": "SEC教育散户投资者持有加密资产，托管决策成为市场关键",
+      "title_en": "SEC Educates Retail Investors on Holding Crypto as Custody Decisions Become Market-Critical",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "监管机构正在积极规范和教育市场，标准化托管流程，这极大地降低了零售和机构参与的监管风险。",
+      "reason_en": "The regulator is actively standardizing custody processes and educating the market, significantly de-risking retail and institutional participation from a regulatory standpoint.",
+      "is_macro": false
+    },
+    {
+      "title_cn": "策略性持有者保住纳斯达克100指数席位，Saylor称“比特币囤积将继续”",
       "title_en": "Strategy Holds Nasdaq-100 Slot—Saylor Says ‘Bitcoin Hoarding Will Continue’",
       "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "机构对比特币的持续信心和囤积策略，强化了长期供需失衡的叙事，是持续的积极力量。",
-      "reason_en": "Continued institutional conviction and hoarding strategy reinforce the long-term supply/demand imbalance narrative, acting as a sustained positive force.",
-      "title_alias": "MSTR Hoarding"
-    },
-    {
-      "title_cn": "现货交易量下降66%处于‘平静期’，通常预示着下一周期腿的到来：Bitfinex",
-      "title_en": "Spot volumes drop 66% in ‘lulls’ that often precede next cycle leg: Bitfinex",
-      "news_sentiment": "Bullish",
       "classification": "PRICED IN",
-      "reason_cn": "这是对当前中性价格走势的周期性解释。市场正处于盘整期，技术分析证实了牛市中的“等待”模式。",
-      "reason_en": "This provides a cyclical explanation for the current neutral price action. The market is consolidating, confirming a 'waiting' pattern typical of a bull market.",
-      "title_alias": "Volume Lull"
+      "reason_cn": "确认机构对BTC的长期承诺（通过MSTR），但这一消息属于持续性积极叙事，已被市场广泛认知。",
+      "reason_en": "Confirms sustained institutional commitment to BTC (via MSTR). This is an ongoing positive narrative widely priced into the current valuation.",
+      "is_macro": false
     },
     {
-      "title_cn": "美联储古尔斯比表示，他对过早进行过多降息感到不安",
+      "title_cn": "现货交易量下降66%，“平静期”往往是下一周期腿的先兆",
+      "title_en": "Spot volumes drop 66% in ‘lulls’ that often precede next cycle leg",
+      "news_sentiment": "Bullish",
+      "classification": "DIVERGENCE",
+      "reason_cn": "交易量低通常被视为看跌信号，但分析师将其解读为底部积累和下一阶段上涨前的盘整，与当前价格盘整形成反向看涨解读。",
+      "reason_en": "Low volume is typically bearish, but analysts interpret this lull as bottom accumulation before the next leg up, offering a bullish divergence from the flat price action.",
+      "is_macro": false
+    },
+    {
+      "title_cn": "比特币OG出售看涨期权是抑制价格的主要罪魁祸首",
+      "title_en": "BTC OGs selling covered calls is the main culprit suppressing price",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "解释了BTC当前在90,000美元上方受阻的原因（期权对冲卖压），不影响长期方向，只是短期技术修正。",
+      "reason_en": "Explains the current resistance above $90,000 (options-related selling pressure). It's a short-term technical explanation, not impacting the long-term trend.",
+      "is_macro": false
+    },
+    {
+      "title_cn": "美联储古尔斯比称对过度提前降息感到不安",
       "title_en": "Fed's Goolsbee says he's uncomfortable front-loading too many rate cuts",
       "news_sentiment": "Bearish",
       "classification": "NEUTRAL",
-      "reason_cn": "强化了美联储在一段时间内维持限制性利率的立场。虽然不是新的意外，但限制了流动性宽松的速度，对风险资产构成间接压力。",
-      "reason_en": "Reinforces the Fed's commitment to maintaining restrictive rates for some time. While not a surprise, it limits the pace of liquidity loosening, providing indirect pressure on risk assets.",
-      "title_alias": "Goolsbee Rate Comments"
+      "reason_cn": "略微抑制了市场对美联储的极度鸽派预期，但整体利率趋势仍偏向下降（Dovish Trend）。",
+      "reason_en": "Slightly curbs extreme dovish expectations, but the overall Fed trajectory remains dovish (rate expectations are dropping).",
+      "is_macro": true
     },
     {
-      "title_cn": "BTC OGs出售备兑看涨期权是压制价格的主要原因：分析师",
-      "title_en": "BTC OGs selling covered calls is the main culprit suppressing price: Analyst",
+      "title_cn": "特朗普称凯文·沃什是美联储主席候选人名单的首选",
+      "title_en": "Trump says Kevin Warsh is at top of Fed chair candidate list",
       "news_sentiment": "Neutral",
       "classification": "NEUTRAL",
-      "reason_cn": "提供了对当前价格缺乏上行势头（+0.01%）的短期机制解释。这是结构性牛市中的战术性阻力，一旦期权到期或平仓，压力就会解除。",
-      "reason_en": "Provides a tactical, short-term mechanism explaining the current lack of upward momentum (+0.01%). This is tactical resistance within a structural bull market, which should clear once options expire or are closed.",
-      "title_alias": "OG Selling Pressure"
+      "reason_cn": "政治/未来领导层猜测，对市场的影响主要是情绪上的，沃什通常被认为是市场友好型人选。",
+      "reason_en": "Political speculation on future leadership. Warsh is generally seen as market-friendly, providing neutral to slight upside sentiment.",
+      "is_macro": true
     }
   ],
   "fed_futures": {
-    "price": 96.277,
-    "implied_rate": 3.723,
-    "timestamp": "2025-12-14T01:10:53.887004+00:00",
-    "trend": "Neutral (Stable expectations)",
-    "change_5d_bps": -1.0,
+    "price": 96.42,
+    "implied_rate": 3.58,
+    "timestamp": "2025-12-14T05:11:28.652114+00:00",
+    "trend": "Dovish (Rate expectations dropping)",
+    "change_5d_bps": -15.0,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
     "price": 155.567,
-    "timestamp": "2025-12-14T01:10:53.930640+00:00",
+    "timestamp": "2025-12-14T05:11:28.694301+00:00",
     "trend": "Neutral",
     "change_5d_pct": 0.15,
     "zone": "Weak Yen (Intervention Risk)"
@@ -67,7 +85,7 @@
   "liquidity_monitor": {
     "dxy": {
       "price": 98.39,
-      "change_5d_pct": -0.7,
+      "change_5d_pct": -0.83,
       "trend": "Weaker (Risk On)"
     },
     "us10y": {
@@ -84,63 +102,63 @@
   "coins": [
     {
       "symbol": "BTC",
-      "price": 90356.0,
-      "change_24h": 0.0143896040645097,
-      "rsi_4h": 45.98329667111255,
-      "funding_rate": 0.00297483151514,
-      "open_interest": 2338309.630000002,
+      "price": 90131.4,
+      "change_24h": -0.27340573255808165,
+      "rsi_4h": 44.115118949313846,
+      "funding_rate": 0.00999830751347,
+      "open_interest": 2335521.660000001,
       "sentiment": "Bullish",
-      "score": 75,
-      "comment_cn": "价格在9万美元附近高度盘整，符合“周期性蛰伏”的叙事。基本面和流动性支持突破，等待短期期权抛压解除。",
-      "comment_en": "Price is consolidating heavily near $90k, aligning with the 'cyclical lull' narrative. Fundamentals and liquidity support a breakout, pending the removal of short-term option selling pressure."
+      "score": 80,
+      "comment_cn": "在宏观流动性宽松和监管重大利好（SEC结算）的推动下，尽管受到期权卖压影响，但积累期结束后突破90,000美元的概率极高。",
+      "comment_en": "Driven by loose macro liquidity and major regulatory tailwinds (SEC settlement). Despite options selling pressure, the probability of breaking above $90,000 after this accumulation phase is extremely high."
     },
     {
       "symbol": "ETH",
-      "price": 3121.24,
-      "change_24h": 1.0113301337544782,
-      "rsi_4h": 44.62404574749936,
-      "funding_rate": -0.00139743495922,
-      "open_interest": 5705445.60000002,
+      "price": 3108.19,
+      "change_24h": 0.5808610334472492,
+      "rsi_4h": 42.73459869512841,
+      "funding_rate": -0.0036040309577000003,
+      "open_interest": 5751400.4200000195,
       "sentiment": "Bullish",
-      "score": 78,
-      "comment_cn": "相对强于BTC，有积极的长期价格预测叙事支持。负向资金费率暗示有潜在的空头回补空间。",
-      "comment_en": "Showing relative strength compared to BTC, supported by positive long-term price prediction narratives. Negative funding rate suggests potential for a minor short squeeze."
+      "score": 75,
+      "comment_cn": "尽管资金费率为负（空头被套可能性），但价格表现稳健。SEC对链上结算的关注将大幅提升ETH的叙事价值。",
+      "comment_en": "Despite slightly negative funding (potential short crowding), price action remains resilient. SEC focus on on-chain settlement significantly boosts ETH's narrative value."
     },
     {
       "symbol": "SOL",
-      "price": 133.41,
-      "change_24h": 0.40641228268231505,
-      "rsi_4h": 47.6859276550651,
-      "funding_rate": -0.0068235318441,
-      "open_interest": 2457167.5500000017,
-      "sentiment": "Bullish",
-      "score": 82,
-      "comment_cn": "资金费率深度负值，是所有主要币种中最负的。这表明空头过于拥挤，在宏观流动性支持下，潜在空头挤压（Short Squeeze）的风险极高。",
-      "comment_en": "Deeply negative funding rate, the most negative among major coins. This indicates highly crowded shorts and extremely high risk of a potential short squeeze, especially with supportive macro liquidity."
+      "price": 132.31,
+      "change_24h": -0.4888688327316528,
+      "rsi_4h": 44.70305464098432,
+      "funding_rate": 0.00106488051356,
+      "open_interest": 2471246.500000002,
+      "sentiment": "Neutral",
+      "score": 65,
+      "comment_cn": "跟随大盘盘整，RSI中性。将受益于整体风险情绪的改善，但缺乏独立的基本面催化剂。",
+      "comment_en": "Consolidating with the broader market, neutral RSI. Will benefit from overall improved risk sentiment but lacks an independent fundamental catalyst."
     },
     {
       "symbol": "BNB",
-      "price": 896.6,
-      "change_24h": 1.632282929041031,
-      "rsi_4h": 55.525474813116496,
+      "price": 893.4,
+      "change_24h": 0.710179235711865,
+      "rsi_4h": 53.0983521346722,
       "funding_rate": 0.01,
-      "open_interest": 7532903.0,
-      "sentiment": "Strong Bullish",
+      "open_interest": 7538230.0,
+      "sentiment": "Bullish",
       "score": 85,
-      "comment_cn": "表现出最强的相对强度和最高的RSI/资金费率。市场定位倾向于看涨，反映了其平台特有的需求和持续的看涨动能。",
-      "comment_en": "Displaying the strongest relative strength and highest RSI/funding rate. Positioning is heavily bullish, reflecting platform-specific demand and sustained upward momentum."
+      "comment_cn": "技术面最强，RSI和资金费率均显示内部强势。在市场盘整期表现出独立走强能力。",
+      "comment_en": "Technically the strongest, supported by high RSI and positive funding. Demonstrating independent strength during general market consolidation."
     },
     {
       "symbol": "DOGE",
-      "price": 0.13892,
-      "change_24h": 1.135701805474649,
-      "rsi_4h": 46.392580058612026,
-      "funding_rate": -0.00211006042007,
-      "open_interest": 686248.2299999999,
+      "price": 0.13805,
+      "change_24h": 0.188692938529654,
+      "rsi_4h": 43.71788840344958,
+      "funding_rate": 0.00179093623207,
+      "open_interest": 694545.2399999999,
       "sentiment": "Neutral",
-      "score": 65,
-      "comment_cn": "跟随山寨币板块的普遍情绪，表现积极。资金费率微负，若大盘上行，有望跟随获得收益。",
-      "comment_en": "Following the general altcoin sentiment with positive performance. Slightly negative funding suggests mild short interest, positioning it well to follow if the major coins break upwards."
+      "score": 60,
+      "comment_cn": "处于盘整期，对宏观流动性高度敏感。当前流动性宽松是其主要支撑，但突破缺乏叙事驱动。",
+      "comment_en": "In a consolidation phase, highly sensitive to macro liquidity. Current loose liquidity is the main support, but a breakout lacks narrative drive."
     }
   ]
 }
