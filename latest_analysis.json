@@ -1,92 +1,84 @@
 {
-  "timestamp": "2025-12-15T01:15:54.532639",
-  "global_summary_cn": "流动性状态：当前宏观流动性偏向宽松（美元指数DXY走弱，VIX低迷，美联储降息预期下调），但市场表现出明显的预警性抛售，价格普遍下跌2%左右。这种表现构成了一个显著的“熊市陷阱”或“逢低买入”的潜在机会。\n\n**双层分析合成**：当前宏观流动性宽松（Risk On），但市场叙事和价格走势却偏向看跌（Bearish Price Action），形成了**分歧**。市场正在消化或提前对本周高风险事件（如日本央行政策利率和美国CPI）带来的紧缩风险进行定价。特别是宏观分析师警告日本可能采取鹰派行动导致比特币跌破7万美元的言论，加剧了短期恐慌。由于RSI已接近超卖区域（35-40）且资金费率为负，如果即将到来的风险事件未恶化，技术性反弹的可能性较高。",
-  "global_summary_en": "Liquidity Status: Current macro liquidity leans towards loosening (DXY weakening, VIX low, Fed rate expectations dropping), yet the market shows clear preemptive selling, with prices generally dropping around 2%. This action presents a classic potential 'Buy the Dip' setup or 'Bear Trap'.\n\n**Dual-Layer Synthesis**: We observe a **Divergence** where current macro liquidity is Loose (Risk On), but the market narrative and price action are Bearish (Prices dropping). The market appears to be pricing in or anticipating tightening risks from high-impact events this week (namely the BOJ Policy Rate and US CPI). Specifically, concerns about a hawkish Japan potentially driving BTC below $70K are fueling short-term fear. Given that RSIs are near oversold territory (35-40) and funding rates are negative, the potential for a technical rebound is high, provided the upcoming risk events are benign.",
+  "timestamp": "2025-12-15T05:16:34.534545",
+  "global_summary_cn": "流动性状态：全球宏观流动性环境正朝着“风险偏好”倾斜。美联储降息预期持续走低，美元指数（DXY）跌破99，VIX处于低位，这些都为风险资产提供了支撑。新闻叙事层面极为乐观，聚焦于传统金融（TradFi）巨头（如Standard Chartered、Coinbase）深度整合加密轨道、监管批准（CFTC对预测市场）以及来自中东石油财富的新资金流入。尽管存在来自日本央行政策可能收紧的宏观担忧，但市场目前已消化了这些担忧，并在9万美元附近盘整。当前的市场状态是“完美风暴（看涨）”，即流动性宽松遇上极度利好叙事。建议逢低买入，但需警惕本周晚些时候美国CPI数据和日本央行决议带来的短期波动。",
+  "global_summary_en": "Liquidity Status: Global macro liquidity conditions are tilting towards 'Risk On.' Dovish Fed rate expectations continue to drop, the Dollar Index (DXY) is below 99, and the VIX remains subdued, providing robust support for risk assets. The news narrative is overwhelmingly bullish, highlighting the deep integration of crypto rails by TradFi giants (Standard Chartered, Coinbase), regulatory approvals (CFTC for prediction markets), and new capital inflows from oil-rich investors. Although macro anxieties regarding potential tightening by the Bank of Japan exist, the market has absorbed these fears, consolidating near the $90,000 level. The current market state is a 'Perfect Storm (Bullish),' where supportive liquidity meets extremely positive institutional narratives. Recommend buying the dips, but caution is advised ahead of the high-impact US CPI and BOJ rate decision later this week.",
   "news_analysis": [
     {
-      "title_cn": "石油富有的投资者正在助推比特币的下一波流动性浪潮",
+      "title_cn": "特朗普表示凯文·沃什是美联储主席候选人名单中的首选",
+      "title_en": "Trump says Kevin Warsh is at top of Fed chair candidate list",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "沃什通常被市场视为鸽派或倾向于宽松政策的候选人，此言论进一步降低了对未来美联储紧缩政策的担忧，对风险资产有利。",
+      "reason_en": "Warsh is generally viewed by the market as a dove or a candidate leaning toward looser monetary policy. This comment further reduces concerns about future Fed tightening, favoring risk assets."
+    },
+    {
+      "title_cn": "石油富豪投资者正在为比特币的下一波流动性浪潮添柴加火",
       "title_en": "Why oil-rich investors are fueling Bitcoin’s next liquidity wave",
       "news_sentiment": "Bullish",
-      "classification": "DIVERGENCE",
-      "reason_cn": "这是一个长期利好消息，意味着新的外部资金正在注入市场，理论上应支撑价格。但当前价格下跌，表明短期宏观担忧压倒了长期的结构性利好。",
-      "reason_en": "This is long-term bullish news, indicating new external capital is flowing into the market, which should support prices. However, the current price drop shows that short-term macro concerns are overriding long-term structural positives."
-    },
-    {
-      "title_cn": "特朗普称凯文·沃什是美联储主席候选人名单中的首选，总统应对利率进行咨询",
-      "title_en": "Trump says Kevin Warsh is at top of Fed chair candidate list, president should be consulted on rates",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "虽然沃什的立场略偏鹰派，但该消息更多是政治噪音，反映了美联储未来领导层的潜在变化，对即时市场流动性影响不大。",
-      "reason_en": "While Warsh is seen as slightly hawkish, this is largely political noise, reflecting potential future changes in Fed leadership, with little immediate impact on market liquidity."
-    },
-    {
-      "title_cn": "吉姆·克莱默谈Strategy Inc：“我认为你应该只拥有比特币”",
-      "title_en": "Jim Cramer on Strategy Inc: “I Think You Should Just Own Bitcoin”",
-      "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "知名金融评论员直接推荐比特币是利好，但考虑到其历史上的反向指标属性，以及市场未能因该消息上涨，认为其影响已被消化或忽略。",
-      "reason_en": "A direct endorsement of Bitcoin from a notable financial commentator is bullish. However, given his historical inverse indicator status and the market's failure to rise on this news, it is considered priced in or ignored."
-    },
-    {
-      "title_cn": "比特币将因日本的鹰派政策而“跌破7万美元”：宏观分析师",
-      "title_en": "Bitcoin will ‘dump below $70K’ thanks to hawkish Japan: Macro analysts",
-      "news_sentiment": "Bearish",
       "classification": "IMPULSE",
-      "reason_cn": "该消息直接指出了当前市场的最大宏观风险点（BOJ/日元套利交易平仓），并可能触发了当前的抛售压力。与高风险日历事件（BOJ Policy Rate）高度相关。",
-      "reason_en": "This news directly identifies the market's biggest macro risk (BOJ/Yen carry trade unwind) and likely triggered current selling pressure. It is highly relevant to the upcoming high-impact calendar event (BOJ Policy Rate)."
+      "reason_cn": "明确指出新的、大规模的流动性来源（中东主权财富/石油资本）正在进入加密市场，这是结构性需求增加的信号。",
+      "reason_en": "Explicitly points to new, large-scale liquidity sources (Middle Eastern sovereign wealth/oil capital) entering the crypto market, signaling increased structural demand."
     },
     {
-      "title_cn": "HashKey计划成为香港首个加密货币IPO",
+      "title_cn": "如何HashKey计划成为香港第一家加密IPO",
       "title_en": "How HashKey plans to become Hong Kong’s first crypto IPO",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "亚洲监管环境的积极进展，预示着更广泛的制度化和资本流入。这是结构性利好。",
-      "reason_en": "Positive regulatory development in Asia signals broader institutionalization and capital inflow. This is a structurally bullish development."
+      "reason_cn": "预示着亚洲主要金融中心香港的监管环境日益成熟，机构化进程加速。",
+      "reason_en": "Signals the increasing regulatory maturity and accelerated institutionalization process in Hong Kong, a major Asian financial hub."
     },
     {
-      "title_cn": "以太坊价格上次出现这种情况时飙升了260%：ETH能达到5000美元吗？",
-      "title_en": "Ether price rallied 260% last time this happened: Can ETH reach $5K?",
-      "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "乐观的长期价格预测和历史类比，但目前ETH价格随着大盘下跌，表明该预测尚未对短期市场情绪产生影响。",
-      "reason_en": "Optimistic long-term price projection and historical analogy. However, current ETH price is dropping with the broader market, indicating this forecast hasn't impacted short-term sentiment."
-    },
-    {
-      "title_cn": "迈克尔·塞勒暗示将再次购买比特币，Strategy的橙色圆点卷土重来",
-      "title_en": "Michael Saylor Teases Another Bitcoin Buy as Strategy’s Orange Dots Make a Comeback",
-      "news_sentiment": "Bullish",
-      "classification": "DIVERGENCE",
-      "reason_cn": "机构需求和持续购买的信号非常强劲。在市场下跌时，大型买家的信号预示着潜在的积累区域。",
-      "reason_en": "A very strong signal of sustained institutional demand and purchasing. During a market dip, signals from large buyers point towards potential accumulation zones."
-    },
-    {
-      "title_cn": "比特币在一周内收跌，因流动性担忧抹去了所有美联储带来的涨幅",
-      "title_en": "Bitcoin Ends Week in the Red, Shedding All Fed-Fueled Gains Amid Liquidity Worries",
+      "title_cn": "比特币将因日本鹰派政策“跌破7万美元”：宏观分析师",
+      "title_en": "Bitcoin will ‘dump below $70K’ thanks to hawkish Japan: Macro analysts",
       "news_sentiment": "Bearish",
+      "classification": "DIVERGENCE",
+      "reason_cn": "市场正在消化日本央行潜在的鹰派风险，但价格仍稳定在$89k以上，表明市场结构比恐惧更强，或者流动性宽松信号压倒了该担忧。",
+      "reason_en": "The market is absorbing potential hawkish risks from the BOJ, yet the price remains stable above $89k. This suggests market structure is stronger than the fear, or the loosening liquidity signals override this specific macro concern."
+    },
+    {
+      "title_cn": "渣打银行和Coinbase扩大机构加密轨道，银行和交易所基础设施锁定",
+      "title_en": "Standard Chartered and Coinbase Expand Institutional Crypto Rails as Banking and Exchange Infrastructure Lock in",
+      "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "描述了最近的市场情绪和疲软。流动性担忧（即日本/CPI风险）是当前市场下跌的直接驱动因素。",
-      "reason_en": "Describes the immediate market mood and weakness. Liquidity worries (i.e., Japan/CPI risk) are the immediate driver for the current market drop."
+      "reason_cn": "这是传统银行业与加密基础设施深度融合的信号，为大规模机构采用铺平道路。",
+      "reason_en": "A strong signal of deep integration between traditional banking and crypto infrastructure, paving the way for massive institutional adoption."
+    },
+    {
+      "title_cn": "受监管的预测市场成形，Bitnomial在CFTC监督下锁定清算批准",
+      "title_en": "Regulated Prediction Markets Take Shape as Bitnomial Locks in Clearing Approval Under CFTC Oversight",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "重要的监管里程碑，使加密资产类别进一步合法化，并为新金融产品的推出打开大门。",
+      "reason_en": "A significant regulatory milestone, further legitimizing the crypto asset class and opening doors for new financial products."
+    },
+    {
+      "title_cn": "加密投机处于2024年低点，而TradFi杠杆ETF达到创纪录的2390亿美元",
+      "title_en": "Crypto speculation at 2024 lows as TradFi leveraged ETFs hit record $239B",
+      "news_sentiment": "Neutral/Bullish",
+      "classification": "PRICED IN",
+      "reason_cn": "散户狂热度低，而机构杠杆高，表明当前反弹的基础坚实，风险溢价较低。",
+      "reason_en": "Low retail euphoria contrasted with high institutional leverage suggests the current rally has a solid foundation with lower typical blow-off risk."
     }
   ],
   "fed_futures": {
-    "price": 96.415,
-    "implied_rate": 3.585,
-    "timestamp": "2025-12-15T01:15:32.124209+00:00",
+    "price": 96.42,
+    "implied_rate": 3.58,
+    "timestamp": "2025-12-15T05:16:15.186671+00:00",
     "trend": "Dovish (Rate expectations dropping)",
-    "change_5d_bps": -14.5,
+    "change_5d_bps": -14.3,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 155.862,
-    "timestamp": "2025-12-15T01:15:32.167438+00:00",
+    "price": 155.233,
+    "timestamp": "2025-12-15T05:16:15.231131+00:00",
     "trend": "Neutral",
-    "change_5d_pct": 0.01,
+    "change_5d_pct": -0.39,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 98.43,
-      "change_5d_pct": -0.79,
+      "price": 98.39,
+      "change_5d_pct": -0.41,
       "trend": "Weaker (Risk On)"
     },
     "us10y": {
@@ -103,63 +95,63 @@
   "coins": [
     {
       "symbol": "BTC",
-      "price": 88568.0,
-      "change_24h": -2.005952578528673,
-      "rsi_4h": 35.892525110219125,
-      "funding_rate": -0.00538222321367,
-      "open_interest": 2451149.760000004,
-      "sentiment": "Neutral",
-      "score": 45,
-      "comment_cn": "短期受宏观风险事件预期的抛售压力主导。RSI接近35，资金费率负值，为潜在的逢低买入创造了条件，但需谨慎应对即将到来的BOJ和CPI数据。",
-      "comment_en": "Dominated by short-term selling pressure driven by macro risk anticipation. RSI near 35 and negative funding create conditions for a potential dip buy, but caution is warranted regarding upcoming BOJ and CPI data."
+      "price": 89699.1,
+      "change_24h": -0.49586171781141947,
+      "rsi_4h": 46.30264831923626,
+      "funding_rate": -0.00424785505991,
+      "open_interest": 2411648.130000003,
+      "sentiment": "Bullish",
+      "score": 85,
+      "comment_cn": "宏观流动性支持强劲，机构叙事主导。尽管价格略有回调，但负资金费率表明空头拥挤，存在再次上涨挤压的潜力。",
+      "comment_en": "Strong macro liquidity support and dominant institutional narrative. Despite a slight pullback, negative funding suggests crowded shorts, potential for another upside squeeze."
     },
     {
       "symbol": "ETH",
-      "price": 3072.99,
-      "change_24h": -1.599139269852352,
-      "rsi_4h": 39.15495926340815,
-      "funding_rate": -0.00070889402582,
-      "open_interest": 5842145.490000021,
-      "sentiment": "Neutral",
-      "score": 50,
-      "comment_cn": "表现略强于BTC和SOL。叙事上有潜在突破5000美元的乐观情绪，但仍受制于大盘流动性收紧的担忧。",
-      "comment_en": "Showing slightly better resilience than BTC and SOL. Narratives suggest optimism for a potential $5K breakthrough, but it remains capped by overall market liquidity concerns."
+      "price": 3123.24,
+      "change_24h": 0.4977845850883366,
+      "rsi_4h": 48.5870727114498,
+      "funding_rate": 0.00565224070331,
+      "open_interest": 5829881.060000016,
+      "sentiment": "Bullish",
+      "score": 88,
+      "comment_cn": "表现略强于BTC (24h +0.50%)，受到机构基础设施建设的直接利好，5K预测重现，具有追赶潜力。",
+      "comment_en": "Slightly outperforming BTC (24h +0.50%). Directly benefited by institutional infrastructure news. Renewed $5K predictions suggest catch-up potential."
     },
     {
       "symbol": "SOL",
-      "price": 130.03,
-      "change_24h": -2.5554556354916045,
-      "rsi_4h": 40.22223710248104,
-      "funding_rate": -0.007318828869629999,
-      "open_interest": 2573688.7900000033,
-      "sentiment": "Bearish",
-      "score": 35,
-      "comment_cn": "当日跌幅较大，高负资金费率表明空头情绪浓厚。在当前市场情绪下，波动性大且风险较高。",
-      "comment_en": "Experienced one of the larger drops today. High negative funding indicates significant short sentiment. Highly volatile and high risk given the current market mood."
+      "price": 131.96,
+      "change_24h": -0.21928166351606204,
+      "rsi_4h": 46.776251517024896,
+      "funding_rate": -0.00494890518922,
+      "open_interest": 2615514.390000002,
+      "sentiment": "Neutral",
+      "score": 75,
+      "comment_cn": "跟随市场，资金费率为负，显示出与BTC类似的空头压力/情绪，但缺乏新的独立催化剂。",
+      "comment_en": "Tracking the overall market, negative funding suggests similar short pressure/sentiment as BTC, but lacks a fresh independent catalyst."
     },
     {
       "symbol": "BNB",
-      "price": 883.0,
-      "change_24h": -1.703217188021814,
-      "rsi_4h": 46.889398736127184,
-      "funding_rate": -0.0005810119535300001,
-      "open_interest": 7435936.0,
-      "sentiment": "Neutral",
-      "score": 60,
-      "comment_cn": "相对表现最强，RSI较高且资金费率接近中性，显示出相对的韧性。短期内可能成为资金避险/轮动的目标。",
-      "comment_en": "The strongest relative performer, with higher RSI and near-neutral funding, showing resilience. May be a target for short-term rotation/shelter."
+      "price": 890.4,
+      "change_24h": -0.29115341545352996,
+      "rsi_4h": 51.55541215531409,
+      "funding_rate": 0.00553809239925,
+      "open_interest": 7509625.0,
+      "sentiment": "Bullish",
+      "score": 82,
+      "comment_cn": "RSI处于强势区（51.6），资金费率高企，显示出强劲的自身生态系统需求和持续的看涨势头。",
+      "comment_en": "RSI in the strong zone (51.6) with high funding rates, showing robust internal ecosystem demand and sustained bullish momentum."
     },
     {
       "symbol": "DOGE",
-      "price": 0.13522,
-      "change_24h": -2.7334196518486533,
-      "rsi_4h": 38.385414049946355,
-      "funding_rate": -0.00425081541034,
-      "open_interest": 696719.1599999998,
-      "sentiment": "Bearish",
-      "score": 30,
-      "comment_cn": "高贝塔资产在风险规避阶段表现疲软。跌幅较大，显示市场正在缩减投机性头寸。",
-      "comment_en": "High-beta asset showing weakness during this risk-off phase. Significant drop indicates the market is trimming speculative positions."
+      "price": 0.13689,
+      "change_24h": -0.7683943457774395,
+      "rsi_4h": 44.917028810868565,
+      "funding_rate": 0.0013867338336799998,
+      "open_interest": 676036.8199999998,
+      "sentiment": "Neutral",
+      "score": 60,
+      "comment_cn": "表现滞后，RSI最低，缺乏机构叙事或新的模因势头支撑，继续横盘整理。",
+      "comment_en": "Lagging performance, lowest RSI. Lacks institutional narrative or fresh meme momentum support. Expected to continue ranging."
     }
   ]
 }
