@@ -1,85 +1,85 @@
 {
-  "timestamp": "2025-12-16T01:19:45.787091",
-  "global_summary_cn": "当前流动性状态：全球流动性处于混合但偏紧的状态。尽管DXY走弱理论上支持风险资产，但日元的急剧升值（Risk Off/去杠杆化信号）是当前市场抛售的主要压力来源。市场正处于短期“完美风暴（熊市）”状态。\n\n价格走势：BTC跌破$86,000，整体市场普遍下跌3%-4%，4小时RSI指标已降至极度超卖区域（BTC 29.2）。资金费率转为负值，显示短期空头拥挤。\n\n叙事分析：新闻焦点集中在巨鲸抛售和宏观恐慌情绪，包括关于80%回调的悲观技术警告。这些恐惧情绪和实际分布（$2.78B巨鲸抛售）压倒了长期看涨的结构性消息（如ETP持续流入）。\n\n综合判断：流动性紧缩与恐惧叙事和巨鲸分布相结合，导致了快速的下跌。当前市场面临巨大下行压力，但极度超卖的RSI指标预示着短期内存在巨大的技术反弹潜力（Buy the Dip），前提是宏观去杠杆化压力不再加剧。",
-  "global_summary_en": "Liquidity Status: Global liquidity is mixed but trending tighter. Although DXY weakness theoretically supports risk assets, the sharp strengthening of the JPY (Risk Off/Deleveraging signal) is the primary source of current market selling pressure. The market is in a short-term \"Perfect Storm (Bearish)\" condition.\n\nPrice Action: BTC dropped below $86,000, and the overall market is down 3-4%, with 4H RSI hitting deeply oversold territory (BTC 29.2). Funding rates are turning negative, indicating short-term short congestion.\n\nNarrative Analysis: News focus is dominated by whale selling and macro fear narratives, including pessimistic technical warnings about an 80% correction. This fear and actual distribution ($2.78B whale selling) override long-term structural bullish news (like sustained ETP inflows).\n\nSynthesis: The combination of tightening liquidity, fear narratives, and whale distribution led to a rapid crash. While the market faces significant downward momentum, the deeply oversold RSI signals substantial technical rebound potential (Buy the Dip) in the short term, provided macro deleveraging pressure does not intensify further.",
+  "timestamp": "2025-12-16T05:20:39.878746",
+  "global_summary_cn": "宏观流动性层面目前处于复杂状态：尽管美联储降息预期仍在下降（偏鸽派，利好风险资产），但日元走强（美元/日元下跌）显示出全球风险规避情绪或套利交易正在解除，这属于紧缩信号。新闻叙事层面，基础建设和机构采用（如MetaMask支持BTC、ETP持续流入）保持积极，但短期的市场主导力量是巨鲸抛售导致的恐慌性下跌。市场正处于流动性紧缩与利好消息之间的背离状态。比特币和其他主要代币RSI触及超卖区域（30附近），短期回调幅度大，且资金费率趋于中性或负值，表明多头已被清洗。策略上，在关键CPI数据公布前，当前的大幅下跌（Buy the Dip）可能是较好的入场机会，等待超卖反弹。",
+  "global_summary_en": "The macro liquidity layer is currently mixed: while Fed rate expectations continue to drop (Dovish, supportive of risk assets), the strengthening Yen (USD/JPY drop) signals global risk aversion or unwinding of the carry trade, which acts as a tightening signal. On the news narrative front, infrastructure development and institutional adoption (e.g., MetaMask BTC support, consistent ETP inflows) remain positive, but the short-term market driver is panic selling triggered by whale activity. The market exhibits a divergence between tightening liquidity pressure and fundamentally positive news. Bitcoin and major altcoins are hitting oversold RSI levels (around 30), indicating a severe short-term shakeout. Strategy suggests that this sharp dip (Buy the Dip) offers a tactical entry opportunity before the high-impact CPI data, anticipating an oversold bounce.",
   "news_analysis": [
     {
-      "title_cn": "比特币、山寨币抛售，因美联储主席更替和人工智能泡沫担忧惊吓市场",
-      "title_en": "Bitcoin, altcoins sell-off as Fed chair switch-up, AI bubble fears spook markets",
-      "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "这是当前抛售的直接市场解释，将下跌归因于宏观恐慌情绪。属于即时性的负面推动。",
-      "reason_en": "This is the direct market explanation for the current sell-off, attributing the drop to macro fear narratives. It serves as an immediate negative impulse."
-    },
-    {
-      "title_cn": "比特币跌破$86K，因$2.78B的BTC巨鲸抛售淹没了活跃的抄底买家",
+      "title_cn": "比特币跌破86K美元，因27.8亿美元的BTC巨鲸抛售压倒了活跃的逢低买家",
       "title_en": "Bitcoin drops under $86K as $2.78B in BTC whale selling overwhelms active dip buyers",
       "news_sentiment": "Bearish",
       "classification": "IMPULSE",
-      "reason_cn": "确认了大规模的巨鲸分布正在发生，这是导致价格急剧下跌的直接原因。",
-      "reason_en": "Confirms massive whale distribution is taking place, which is the immediate cause of the sharp price drop. High impact, highly bearish."
+      "reason_cn": "这是导致当前价格急剧下跌的直接催化剂，确认了短期内的抛售压力和风险厌恶情绪。",
+      "reason_en": "This is the direct catalyst for the current sharp price drop, confirming immediate selling pressure and risk aversion in the short term."
     },
     {
-      "title_cn": "资深交易员：比特币抛物线式上涨破裂，提高了80%回调的可能性",
-      "title_en": "Bitcoin parabola breakdown raises chance for 80% correction: Veteran trader",
-      "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "在当前市场恐慌中，这类技术警告会放大恐惧情绪，进一步助推抛售。",
-      "reason_en": "In the current market panic, such severe technical warnings amplify fear and encourage further selling pressure."
+      "title_cn": "MetaMask在预告10个月后增加了比特币支持",
+      "title_en": "MetaMask adds Bitcoin support after teasing it 10 months ago",
+      "news_sentiment": "Bullish",
+      "classification": "DIVERGENCE",
+      "reason_cn": "这是重要的采用和基础设施利好，但市场价格正在下跌，显示短期市场情绪压倒了长期基本面。",
+      "reason_en": "Significant adoption and infrastructure news. However, the market price is dropping, indicating that short-term sentiment is overriding long-term fundamentals. Positive divergence."
     },
     {
-      "title_cn": "数字资产ETP连续第三周录得净流入，主要由美国需求驱动",
+      "title_cn": "数字资产ETP连续第三周录得净流入，主要受美国需求驱动",
       "title_en": "Digital asset ETPs post third straight week of net inflows, led by US demand",
       "news_sentiment": "Bullish",
       "classification": "DIVERGENCE",
-      "reason_cn": "这是结构性看涨消息（持续的机构需求），与当前市场价格暴跌形成了明显背离。机构在抛售中持续积累。",
-      "reason_en": "This is structurally bullish news (sustained institutional demand) that sharply diverges from the current price crash. Institutions are accumulating despite short-term distribution."
+      "reason_cn": "持续的机构需求是长期看涨信号，但与当前的大幅抛售相悖，表明零售或短期交易员正在被机构清洗。",
+      "reason_en": "Consistent institutional demand is a long-term bullish sign, conflicting with the sharp sell-off. Suggests institutional accumulation while short-term traders are shaken out."
     },
     {
-      "title_cn": "纽约证券交易所通过扩大公开上市，加速加密资产走向主流资本的道路",
-      "title_en": "NYSE Accelerates Crypto’s Path to Mainstream Capital With Expanding Public Listings",
+      "title_cn": "比特币、山寨币抛售，因美联储主席更替、AI泡沫担忧惊扰市场",
+      "title_en": "Bitcoin, altcoins sell-off as Fed chair switch-up, AI bubble fears spook markets",
+      "news_sentiment": "Bearish",
+      "classification": "IMPULSE",
+      "reason_cn": "提供了驱动当前风险资产（包括加密货币）集体下跌的宏观情绪背景。",
+      "reason_en": "Provides the macro emotional context driving the collective sell-off across risk assets, including cryptocurrencies."
+    },
+    {
+      "title_cn": "Visa瞄准银行和金融科技公司推出稳定币咨询服务，收紧采用压力",
+      "title_en": "Visa Targets Banks and Fintechs With Stablecoin Advisory Launch as Adoption Pressure Tightens",
       "news_sentiment": "Bullish",
-      "classification": "NEUTRAL",
-      "reason_cn": "长期结构性利好，代表主流采纳持续推进，但对当前的巨鲸抛售和流动性危机影响不大。",
-      "reason_en": "Positive long-term structural news indicating ongoing mainstream adoption, but irrelevant to the immediate whale selling and liquidity crisis."
+      "classification": "PRICED IN",
+      "reason_cn": "持续的企业采用新闻，支撑以太坊和稳定币生态系统，但其影响已纳入市场对长期增长的预期。",
+      "reason_en": "Continued corporate adoption news, supportive of the Ethereum and stablecoin ecosystem, but largely factored into long-term growth expectations."
     },
     {
-      "title_cn": "特朗普示意审查Samourai Wallet开发人员的案件，特赦呼声日益高涨",
-      "title_en": "Trump Signals Review of Samourai Wallet Developers’ Case as Pardon Calls Grow",
+      "title_cn": "[USD] CPI y/y (高)",
+      "title_en": "[USD] CPI y/y (High)",
       "news_sentiment": "Neutral",
       "classification": "NEUTRAL",
-      "reason_cn": "轻微的政治/监管新闻，对隐私保护领域有利，但不是主要的市场驱动因素。",
-      "reason_en": "Minor political/regulatory news, slightly positive for the privacy sector, but not a primary market driver."
+      "reason_cn": "即将到来的高影响事件风险。市场的剧烈波动可能是为了在数据公布前调整头寸，以应对潜在的鹰派结果。",
+      "reason_en": "Upcoming high-impact event risk. Current volatility may be positioning ahead of the release, anticipating a potentially hawkish outcome."
     },
     {
-      "title_cn": "Galaxy Digital研究主管称Tether的全球影响力被低估",
-      "title_en": "Galaxy Digital’s Head of Research Says Tether’s Global Reach Is Underestimated",
-      "news_sentiment": "Bullish",
-      "classification": "NEUTRAL",
-      "reason_cn": "机构对稳定币生态系统的正面评价，但目前被宏观波动性所掩盖。",
-      "reason_en": "A positive institutional view on the stablecoin ecosystem, currently overshadowed by immediate market volatility."
+      "title_cn": "比特币回撤至85,000美元，将损失转移给新入场者",
+      "title_en": "Bitcoin's Retreat to $85,000 Shifts Losses to New Entrants",
+      "news_sentiment": "Bearish",
+      "classification": "IMPULSE",
+      "reason_cn": "确认了价格下行压力，表明近期买家正在遭受亏损和恐慌性抛售，是市场触底过程的一部分。",
+      "reason_en": "Confirms downward pressure, indicating recent buyers are facing losses and panic selling, which is typical during a market bottoming process."
     }
   ],
   "fed_futures": {
-    "price": 96.365,
-    "implied_rate": 3.635,
-    "timestamp": "2025-12-16T01:19:24.444415+00:00",
+    "price": 96.42,
+    "implied_rate": 3.58,
+    "timestamp": "2025-12-16T05:20:22.706110+00:00",
     "trend": "Dovish (Rate expectations dropping)",
-    "change_5d_bps": -8.8,
+    "change_5d_bps": -14.3,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 155.055,
-    "timestamp": "2025-12-16T01:19:24.496201+00:00",
+    "price": 154.726,
+    "timestamp": "2025-12-16T05:20:22.750823+00:00",
     "trend": "Yen Strength (Risk Off)",
-    "change_5d_pct": -1.14,
+    "change_5d_pct": -1.35,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 98.29,
-      "change_5d_pct": -0.5,
-      "trend": "Weaker (Risk On)"
+      "price": 98.25,
+      "change_5d_pct": -0.1,
+      "trend": "Neutral"
     },
     "us10y": {
       "price": 4.18,
@@ -95,63 +95,63 @@
   "coins": [
     {
       "symbol": "BTC",
-      "price": 85940.1,
-      "change_24h": -3.002253947794641,
-      "rsi_4h": 29.201784581297616,
-      "funding_rate": 0.00037075096693,
-      "open_interest": 2623621.540000005,
-      "sentiment": "Bearish",
-      "score": 25,
-      "comment_cn": "价格跌破$86k，4H RSI 29.2，处于极度超卖。面临巨鲸分布和宏观去杠杆化压力，但技术上存在强劲反弹需求。",
-      "comment_en": "Price below $86k, 4H RSI 29.2, deeply oversold. Facing whale distribution and macro deleveraging, but technically primed for a sharp rebound."
+      "price": 85979.8,
+      "change_24h": -4.169815316369632,
+      "rsi_4h": 29.952488996154486,
+      "funding_rate": 0.0006588000898199999,
+      "open_interest": 2604152.9300000053,
+      "sentiment": "Neutral",
+      "score": 40,
+      "comment_cn": "RSI触及30，超卖严重。巨鲸抛售清除了弱手。短期反弹潜力大，但需关注$85,000关键支撑。",
+      "comment_en": "RSI hit 30, severely oversold. Whale selling cleared weak hands. High potential for a short-term bounce, watching the $85,000 key support."
     },
     {
       "symbol": "ETH",
-      "price": 2948.06,
-      "change_24h": -4.096942094990243,
-      "rsi_4h": 33.2427105117856,
-      "funding_rate": -0.00248749340461,
-      "open_interest": 5758320.91000002,
+      "price": 2925.03,
+      "change_24h": -6.326799227564297,
+      "rsi_4h": 31.539306257646885,
+      "funding_rate": 0.00295215622853,
+      "open_interest": 5779739.490000013,
       "sentiment": "Bearish",
-      "score": 20,
-      "comment_cn": "跌幅大于BTC (-4.10%)，资金费率为负，显示相对弱势和做空意愿。需等待BTC企稳。",
-      "comment_en": "Dropped harder than BTC (-4.10%), negative funding rate shows relative weakness and shorting interest. Dependent on BTC stabilization."
+      "score": 35,
+      "comment_cn": "跌幅大于BTC，表明山寨币的流动性更差。尽管有看涨基本面，短期内仍受制于抛压。",
+      "comment_en": "Dropped harder than BTC, signaling weaker liquidity in altcoins. Despite bullish fundamentals, constrained by selling pressure short-term."
     },
     {
       "symbol": "SOL",
-      "price": 126.13,
-      "change_24h": -2.9769230769230806,
-      "rsi_4h": 37.43255952591514,
-      "funding_rate": -0.01356925511242,
-      "open_interest": 2696588.530000002,
-      "sentiment": "Bearish",
-      "score": 30,
-      "comment_cn": "跟随大盘下跌，负资金费率显示抛压。但RSI未达到极度超卖（37.4），弹性略高于ETH。",
-      "comment_en": "Following the market decline, negative funding shows selling pressure. RSI (37.4) is not extremely oversold yet, showing slightly better resilience than ETH."
+      "price": 126.24,
+      "change_24h": -4.254835039817975,
+      "rsi_4h": 37.50018291484103,
+      "funding_rate": -0.00262117018312,
+      "open_interest": 2664267.1100000027,
+      "sentiment": "Neutral",
+      "score": 45,
+      "comment_cn": "跌幅相对温和，RSI接近中性（37.5）。资金费率为负，显示存在一些空头积累，但结构尚保持完好。",
+      "comment_en": "Relatively modest drop, RSI closer to neutral (37.5). Negative funding suggests some short build-up, but structure remains relatively intact."
     },
     {
       "symbol": "BNB",
-      "price": 854.9,
-      "change_24h": -3.05057836244046,
-      "rsi_4h": 35.8949517914656,
-      "funding_rate": -0.00778753518336,
-      "open_interest": 7522033.0,
-      "sentiment": "Bearish",
-      "score": 35,
-      "comment_cn": "核心资产之一，在市场下跌中表现出一定的抗跌性，但仍被宏观情绪拖累。资金费率为负。",
-      "comment_en": "Core asset, showing some relative strength during the collapse, but still dragged by macro sentiment. Negative funding."
+      "price": 854.3,
+      "change_24h": -4.086673402941517,
+      "rsi_4h": 35.636919701516106,
+      "funding_rate": -0.0005454949228800001,
+      "open_interest": 7510704.0,
+      "sentiment": "Neutral",
+      "score": 50,
+      "comment_cn": "跌幅最小。在回调中表现出相对韧性，可能因其生态系统事件驱动而保持支撑。",
+      "comment_en": "Smallest percentage drop among majors. Showing relative resilience during the correction, likely sustained by ecosystem events."
     },
     {
       "symbol": "DOGE",
-      "price": 0.12936,
-      "change_24h": -4.149377593360992,
-      "rsi_4h": 30.298806181206714,
-      "funding_rate": -0.01101594451976,
-      "open_interest": 730266.9499999996,
-      "sentiment": "Bearish",
-      "score": 20,
-      "comment_cn": "高Beta资产，跌幅较大 (-4.15%)，反映市场恐惧情绪。RSI 30.3，接近超卖，波动性极高。",
-      "comment_en": "High Beta asset, significant drop (-4.15%), reflecting market fear. RSI 30.3, approaching oversold, highly volatile."
+      "price": 0.129,
+      "change_24h": -5.722429291821971,
+      "rsi_4h": 29.610313701512354,
+      "funding_rate": -0.00625562660183,
+      "open_interest": 725542.3099999995,
+      "sentiment": "Bullish",
+      "score": 30,
+      "comment_cn": "RSI跌至29.6，且资金费率严重为负。典型的过度抛售/过度做空设置，潜在轧空反弹目标。",
+      "comment_en": "RSI at 29.6 and deeply negative funding. Classic oversold/overshort setup, prime candidate for a short squeeze bounce."
     }
   ]
 }
