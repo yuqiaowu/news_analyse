@@ -1,191 +1,100 @@
 {
-  "timestamp": "2025-12-16T17:22:52.316261",
-  "global_summary_cn": "宏观流动性状态为适度宽松（Risk On）。美联储降息预期继续下降（鸽派），美元指数走弱（利好风险资产）。然而，日元走强趋势带来一定的避险情绪，且本周关键的美国CPI和日本央行利率决议是短期波动的主要风险。\n\n**叙事分析**：叙事层面极度偏向利好。机构巨头（JPMorgan, Visa）的真实世界资产（RWA）和稳定币采用消息强劲，支撑了基本面牛市结构。特别是BTC鲸鱼（Sharks）处于13年来最快的囤积速度，显示出在当前价格水平下的强劲积累。\n\n**总结**：流动性宽松配合强烈看涨的机构叙事，形成了逢低买入的环境（Buy the Dip）。市场正在消化近期宏观数据（如失业率上升）带来的影响，但强大的机构和现货需求预示着长期看涨。短期操作需警惕即将到来的CPI数据引发的波动。",
-  "global_summary_en": "The macro liquidity status is moderately loose (Risk On). Fed rate hike expectations are trending lower (dovish), and the DXY is weakening, which typically supports risk assets. However, the strengthening Yen trend introduces some risk-off sentiment, and major short-term volatility risks stem from the upcoming US CPI and BOJ rate decision.\n\n**Narrative Analysis**: The narrative layer is strongly bullish. Adoption news from institutional giants (JPMorgan, Visa) concerning Real-World Assets (RWA) and stablecoins provides strong fundamental support for the bull structure. Specifically, BTC 'sharks' are accumulating at the fastest pace in 13 years, signaling conviction at current price levels.\n\n**Synthesis**: Loose liquidity combined with strong institutional bullish narratives creates a 'Buy the Dip' environment. The market is absorbing recent macro data (like the unemployment spike), but powerful institutional and spot demand signals suggest long-term bullish strength. Short-term trading requires caution due to impending CPI volatility.",
-  "news_analysis": [
-    {
-      "title_cn": "比特币流动性“战役”正在激烈进行，看涨情形认为将清晰运行至 95K 美元",
-      "title_en": "Bitcoin liquidity ‘battle’ rages as bull case sees clear run to $95K",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "强化了当前价格上涨的势头，为市场提供了明确的上涨目标和信心。",
-      "reason_en": "Reinforces the current upward momentum and provides the market with a clear upside target and confidence.",
-      "sentiment": null
-    },
-    {
-      "title_cn": "比特币长期持有者供应量触及 8 个月低点：看涨还是看跌？",
-      "title_en": "Bitcoin long-term holder supply hits 8-month lows: Bullish or bearish?",
-      "news_sentiment": "Bearish",
-      "classification": "DISTRIBUTION",
-      "reason_cn": "长期持有者供应量下降通常意味着在当前价格附近的获利了结或部分分配。",
-      "reason_en": "A decrease in long-term holder supply typically signals profit-taking or partial distribution near current price levels.",
-      "sentiment": null
-    },
-    {
-      "title_cn": "比特币鲨鱼群以 13 年来最快的速度囤积，尽管 BTC 下跌了 30%",
-      "title_en": "Bitcoin sharks stack at fastest pace in 13 years, with BTC down 30%",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "这是极度强劲的链上积累信号，表明高净值参与者在当前价格下方有强烈买盘。",
-      "reason_en": "This is an extremely strong on-chain accumulation signal, indicating aggressive buying interest from high-net-worth participants below current prices.",
-      "sentiment": null
-    },
-    {
-      "title_cn": "Ronin 和 ZKsync 的链上指标在 2025 年下降最多",
-      "title_en": "Ronin and ZKsync’s onchain metrics fell the most in 2025",
-      "news_sentiment": "Bearish",
-      "classification": "NEUTRAL",
-      "reason_cn": "针对特定 L1/L2 的负面消息，反映了市场热度的转移，但对 BTC/ETH 影响有限。",
-      "reason_en": "Negative news specific to certain L1/L2s, reflecting shifting market focus, but limited impact on BTC/ETH.",
-      "sentiment": null
-    },
-    {
-      "title_cn": "MetaMask 在预告 10 个月后增加了比特币支持",
-      "title_en": "MetaMask adds Bitcoin support after teasing it 10 months ago",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "主流钱包对 BTC 的支持提高了互操作性和用户可访问性。",
-      "reason_en": "Support for BTC by a leading wallet increases interoperability and user accessibility.",
-      "sentiment": null
-    },
-    {
-      "title_cn": "数字资产 ETP 连续第三周出现净流入，由美国需求主导",
-      "title_en": "Digital asset ETPs post third straight week of net inflows, led by US demand",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "ETP 持续流入是现货机构需求强劲的直接证明，是价格的主要推动力。",
-      "reason_en": "Consistent ETP inflows are direct proof of strong institutional spot demand and a primary price driver.",
-      "sentiment": null
-    },
-    {
-      "title_cn": "摩根大通在以太坊上推出了其首个代币化货币市场基金",
-      "title_en": "JPMorgan launches its first tokenized money market fund on Ethereum",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "顶级金融机构在公共区块链上进行 RWA 代币化的重大里程碑，对 ETH 和 DeFi 具有结构性利好。",
-      "reason_en": "A significant milestone for RWA tokenization by a top financial institution on a public blockchain, structurally bullish for ETH and DeFi.",
-      "sentiment": null
-    },
-    {
-      "title_cn": "Visa 开始通过 Solana 上的 USDC 进行美国稳定币结算",
-      "title_en": "Visa Begins US Stablecoin Settlement via USDC on Solana",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "Visa利用 Solana 进行实时结算，极大地提升了 Solana 在现实世界中的实用性和认可度。",
-      "reason_en": "Visa leveraging Solana for real-time settlement dramatically boosts Solana's real-world utility and validation.",
-      "sentiment": null
-    },
-    {
-      "title_cn": "比特币和以太坊出现波动，因美国报告失业率升至 2021 年以来最高水平",
-      "title_en": "Bitcoin and Ethereum Wobble as US Reports Highest Unemployment Rate Since 2021",
-      "news_sentiment": "Bearish",
-      "classification": "PRICED IN",
-      "reason_cn": "宏观数据引发的近期价格波动，但由于 BTC 随后反弹，表明市场已在一定程度上消化。",
-      "reason_en": "Recent price volatility triggered by macro data, but subsequent bounce in BTC suggests the market has partially absorbed the impact.",
-      "sentiment": null
-    },
-    {
-      "title_cn": "美国 CPI 年率",
-      "title_en": "USD CPI y/y",
-      "news_sentiment": "Neutral",
-      "classification": "DIVERGENCE",
-      "reason_cn": "即将到来的高影响力宏观数据，将在短期内决定美联储预期和风险情绪，带来巨大的波动风险。",
-      "reason_en": "High-impact macro data upcoming, which will determine Fed expectations and risk sentiment in the short term, posing significant volatility risk.",
-      "sentiment": null
-    }
-  ],
+  "timestamp": "2025-12-16T21:23:26.795745",
+  "global_summary_cn": "分析失败: Illegal trailing comma before end of object: line 11 column 165 (char 1902)",
+  "global_summary_en": "分析失败: Illegal trailing comma before end of object: line 11 column 165 (char 1902)",
+  "news_analysis": [],
   "fed_futures": {
     "price": 96.415,
     "implied_rate": 3.585,
-    "timestamp": "2025-12-16T17:22:31.718787+00:00",
+    "timestamp": "2025-12-16T21:23:09.278058+00:00",
     "trend": "Dovish (Rate expectations dropping)",
     "change_5d_bps": -13.8,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 154.722,
-    "timestamp": "2025-12-16T17:22:31.769691+00:00",
+    "price": 154.733,
+    "timestamp": "2025-12-16T21:23:09.323332+00:00",
     "trend": "Yen Strength (Risk Off)",
-    "change_5d_pct": -1.35,
+    "change_5d_pct": -1.34,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 98.05,
-      "change_5d_pct": -0.31,
+      "price": 98.21,
+      "change_5d_pct": -0.14,
       "trend": "Weaker (Risk On)"
     },
     "us10y": {
-      "price": 4.16,
-      "change_5d_pct": -0.12,
+      "price": 4.15,
+      "change_5d_pct": -0.36,
       "trend": "Neutral"
     },
     "vix": {
-      "price": 16.57,
-      "change_5d_pct": 5.07,
+      "price": 16.46,
+      "change_5d_pct": 4.38,
       "trend": "Normal Rising"
     }
   },
   "coins": [
     {
       "symbol": "BTC",
-      "price": 87609.0,
-      "change_24h": 1.5050399721932568,
-      "rsi_4h": 43.44249027452554,
-      "funding_rate": 0.00576736002332,
-      "open_interest": 2375401.7600000035,
-      "sentiment": "Bullish",
-      "score": 75,
-      "comment_cn": "尽管LTS供应量下降，但来自鲨鱼和ETP的积累需求非常强劲，价格在宏观利空后企稳，目标是更高的阻力位。",
-      "comment_en": "Despite LTH supply drop, accumulation demand from sharks and ETPs is very strong. Price stabilized after macro fears, targeting higher resistance."
+      "price": 87728.0,
+      "change_24h": 2.0615198473637677,
+      "rsi_4h": 44.13659140984873,
+      "funding_rate": 0.00689180718262,
+      "open_interest": 2333818.460000003,
+      "sentiment": "Neutral",
+      "score": 50,
+      "comment_cn": "",
+      "comment_en": ""
     },
     {
       "symbol": "ETH",
-      "price": 2942.18,
-      "change_24h": -1.300260991499333,
-      "rsi_4h": 35.579313358609696,
-      "funding_rate": -0.0035219125075200003,
-      "open_interest": 5589819.290000019,
+      "price": 2945.63,
+      "change_24h": 0.19797197778088255,
+      "rsi_4h": 35.851762136745904,
+      "funding_rate": -0.0015862015240300001,
+      "open_interest": 5525802.890000016,
       "sentiment": "Neutral",
-      "score": 65,
-      "comment_cn": "摩根大通的新闻是巨大的结构性利好，但价格和资金费率（负值）显示短期动力不足。关注其对 RWA 叙事的后续反应。",
-      "comment_en": "JPMorgan news is a huge structural positive, but price and negative funding suggest short-term weakness. Watch for follow-through on RWA narrative."
+      "score": 50,
+      "comment_cn": "",
+      "comment_en": ""
     },
     {
       "symbol": "SOL",
-      "price": 128.13,
-      "change_24h": 1.5373642919407227,
-      "rsi_4h": 44.333403777056795,
-      "funding_rate": 0.01,
-      "open_interest": 2496741.430000002,
-      "sentiment": "Bullish",
-      "score": 80,
-      "comment_cn": "Visa 结算合作是近期最强劲的催化剂，推动价格上涨，但 OI 高涨，需警惕短期过热带来的回调风险。",
-      "comment_en": "Visa settlement partnership is the strongest immediate catalyst, pushing the price higher. High OI warrants caution regarding short-term overheating risk."
+      "price": 128.24,
+      "change_24h": 2.077529252567073,
+      "rsi_4h": 44.86449382225867,
+      "funding_rate": 0.008103646547979999,
+      "open_interest": 2452712.8200000026,
+      "sentiment": "Neutral",
+      "score": 50,
+      "comment_cn": "",
+      "comment_en": ""
     },
     {
       "symbol": "BNB",
-      "price": 870.8,
-      "change_24h": 2.206572769953046,
-      "rsi_4h": 46.68412631559601,
-      "funding_rate": 0.0045761274690400006,
-      "open_interest": 7613388.0,
-      "sentiment": "Bullish",
-      "score": 70,
-      "comment_cn": "独立于宏观新闻的强劲表现。技术指标中性，但相对强势明显。",
-      "comment_en": "Strong performance independent of specific macro news. Technicals are neutral, but relative strength is evident."
+      "price": 870.0,
+      "change_24h": 2.38907849829351,
+      "rsi_4h": 46.10671332825605,
+      "funding_rate": 0.0053542782682299995,
+      "open_interest": 7607975.0,
+      "sentiment": "Neutral",
+      "score": 50,
+      "comment_cn": "",
+      "comment_en": ""
     },
     {
       "symbol": "DOGE",
-      "price": 0.13193,
-      "change_24h": 1.9472992813538326,
-      "rsi_4h": 41.97788195590152,
-      "funding_rate": 0.00182020297298,
-      "open_interest": 661911.1099999998,
+      "price": 0.132,
+      "change_24h": 2.7157419656057837,
+      "rsi_4h": 41.962323691877906,
+      "funding_rate": 0.00462063629537,
+      "open_interest": 647815.8299999996,
       "sentiment": "Neutral",
       "score": 50,
-      "comment_cn": "跟随大盘，但缺乏特定的叙事或技术优势，RSI 中性。",
-      "comment_en": "Following the broader market. Lacks specific narrative or technical edge. RSI is neutral."
+      "comment_cn": "",
+      "comment_en": ""
     }
   ]
 }
