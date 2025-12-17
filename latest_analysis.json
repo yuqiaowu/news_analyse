@@ -1,173 +1,157 @@
 {
-  "timestamp": "2025-12-17T17:27:02.285610",
-  "global_summary_cn": "流动性状态：宏观流动性偏向宽松（美联储鸽派预期和日元套利交易），但短期存在不确定性（DXY/10Y中性，VIX上升）。\n\n**双层分析总结：** 市场处于“新闻极度利好 + 价格回调”的背离状态。尽管宏观环境支持风险偏好，且加密货币领域爆出重大基础设施利好（Hut 8/谷歌合作，DTCC代币化国债），但BTC在触及9万美元后回落，主流币如ETH和SOL出现2%以上的跌幅，ETH 4H RSI跌至超卖区间。\n\n**结论：** 市场正在消化快速上涨带来的短线抛压。核心叙事（机构采用、AI整合）非常强劲，且ETH出现技术性超卖和负资金费率，表明这是一次潜在的“逢低买入”机会。但在高影响力的美国CPI数据公布前，市场可能会维持震荡和谨慎。",
-  "global_summary_en": "Liquidity Status: Macro liquidity maintains a loosening bias (Dovish Fed expectations and Yen carry trade potential), but short-term uncertainty exists (DXY/10Y Neutral, VIX rising).\n\n**Dual-Layer Synthesis:** The market exhibits a divergence state: \"Extremely Bullish News + Price Pullback.\" Despite supportive macro conditions and huge crypto infrastructure news (Hut 8/Google partnership, DTCC tokenizing Treasuries), BTC retreated after hitting $90K, and major altcoins like ETH and SOL dropped over 2%, with ETH 4H RSI entering oversold territory.\n\n**Conclusion:** The market is consolidating and absorbing selling pressure following the sharp rally. The core narratives (institutional adoption, AI integration) are extremely strong. ETH showing technical oversold conditions and negative funding suggests a potential \"Buy the Dip\" scenario. However, caution is advised, and volatility may persist ahead of high-impact US CPI data.",
+  "timestamp": "2025-12-17T21:27:35.886773",
+  "global_summary_cn": "流动性状态目前保持温和支持（受美联储鸽派倾向驱动），但市场情绪仍偏向避险和获利了结。加密货币市场经历了从9万美元高点的大幅回调，主流币跌幅在2%至4.5%之间，许多资产（如ETH和DOGE）已进入4小时图上的超卖区域。基本面消息（如Hut 8与Google合作、Tether投资闪电网络、MetaMask支持BTC）大多是利好，但被监管担忧（Shima Capital关闭、Solana相关诉讼）所掩盖。市场正在经历一场“利好出尽”的派发，与温和的宏观环境形成背离。操作上，这是一个潜在的逢低买入情景，前提是关键支撑位能够守住，且资金费率转负预示着空头拥挤。",
+  "global_summary_en": "Liquidity conditions remain mildly supportive, driven by the dovish tilt in Fed expectations, yet market sentiment leans towards risk-off and profit-taking. The crypto market experienced a sharp pullback from the recent $90K high, with majors falling 2% to 4.5%, pushing many assets (like ETH and DOGE) into 4H oversold territory. Strong fundamental news (Hut 8/Google partnership, Tether Lightning investment, MetaMask BTC support) is overshadowed by regulatory FUD (Shima Capital closure, Solana legal risks). The market is undergoing distribution despite a neutral/supportive macro backdrop, creating a divergence. This suggests a potential 'Buy the Dip' scenario, provided key support levels hold and negative funding rates indicate crowded short positioning.",
   "news_analysis": [
     {
-      "title_cn": "美联储降息后抵押贷款利率上升，导致贷款需求下降",
-      "title_en": "Mortgage rates move higher after the Fed rate cut, causing loan demand to drop",
-      "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "降息未能有效传导至终端信贷市场，流动性传导受阻，反映经济体短期融资成本仍高企，对风险资产是负面信号。",
-      "reason_en": "The rate cut failed to effectively lower consumer credit costs, indicating liquidity transmission issues and high short-term financing costs, which is negative for risk assets."
-    },
-    {
-      "title_cn": "Tricolor高管因欺诈被起诉，此前这家次级汽车贷款公司动摇了银行业",
-      "title_en": "Tricolor executives charged with 'systematic fraud' after subprime auto lender roiled banking sector",
-      "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "凸显次级信贷市场风险和系统性欺诈，增加了金融系统的谨慎情绪。",
-      "reason_en": "Highlights risks in the subprime credit market and systemic fraud, increasing caution within the financial system."
-    },
-    {
-      "title_cn": "比特币触及9万美元，加密市场大涨清算1.2亿美元空头",
+      "title_cn": "比特币触及9万美元高位，市场大涨清算1.2亿美元空头头寸",
       "title_en": "Bitcoin tags $90K as crypto market spike liquidates $120M shorts",
       "news_sentiment": "Bullish",
       "classification": "PRICED IN",
-      "reason_cn": "该事件已发生，价格目前正在从高点回调，表明短期的多头冲动已经完成，正在进入整理阶段。",
-      "reason_en": "The event has occurred, and the price is now pulling back from the peak, suggesting the immediate bullish impulse is exhausted and the market is consolidating."
+      "reason_cn": "这是一个过去时点的利好事件，但当前市场价格下跌，表明此次突破已被视作短期高点，随后的获利了结导致价格回落。",
+      "reason_en": "This was a bullish event in the past. Given the current price drop, the rally is deemed exhausted and the news is priced in, leading to subsequent profit-taking."
     },
     {
-      "title_cn": "比特币矿企Hut 8赢得谷歌支持的70亿美元AI数据中心租赁合同",
+      "title_cn": "加密矿商Hut 8获得由谷歌支持的70亿美元AI数据中心租约",
       "title_en": "Bitcoin miner Hut 8 lands $7B Google-backed AI data center lease",
       "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "极强的基本面利好，将AI叙事与挖矿基础设施深度结合，结构性地提升了加密货币行业的价值和合法性。",
-      "reason_en": "Extremely strong fundamental news that deeply integrates the AI narrative with mining infrastructure, structurally enhancing the value and legitimacy of the crypto industry."
+      "classification": "DISTRIBUTION",
+      "reason_cn": "重大利好消息，预示着挖矿和AI结合的巨大潜力。然而，价格不涨反跌，表明在市场修正期，即使是强劲的基本面消息也被用来进行派发。",
+      "reason_en": "Major bullish fundamental news indicating strong institutional adoption (Google) and future revenue streams. However, the price failed to react positively, suggesting distribution is occurring despite good fundamentals."
     },
     {
-      "title_cn": "DTCC每年处理3.7万亿美元的交易，现在它正在Canton上对国债进行代币化",
-      "title_en": "DTCC Handles $3.7 Quadrillion in Transactions a Year—Now It's Tokenizing Treasuries on Canton",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "DTCC（美国证券存托与清算公司）的行动是RWA叙事（真实世界资产）的里程碑，标志着传统金融巨头对区块链基础设施的深度信任和采用。",
-      "reason_en": "The move by DTCC (a major securities clearing house) is a milestone for the RWA narrative (Real World Assets), signaling deep trust and adoption of blockchain infrastructure by traditional finance giants."
-    },
-    {
-      "title_cn": "Decrypt 2025年度故事：加密货币财政公司涌入华尔街",
-      "title_en": "Decrypt's 2025 Story of the Year: Crypto Treasury Firms Flood Wall Street",
-      "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "证实了市场对加密货币机构化趋势的长期预期，属于宏观叙事而非短期催化剂。",
-      "reason_en": "Confirms the long-term institutionalization trend of crypto; considered a macro narrative rather than a short-term catalyst."
-    },
-    {
-      "title_cn": "MetaMask在10个月的预告后添加了比特币支持",
-      "title_en": "MetaMask adds Bitcoin support after teasing it 10 months ago",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "增加了BTC的接入点和跨链互操作性，虽然预期已久，但落地后仍有助于提升用户基础和流动性。",
-      "reason_en": "Increases accessibility and cross-chain interoperability for BTC, which helps expand the user base and liquidity, despite being anticipated for some time."
-    },
-    {
-      "title_cn": "Ronin和ZKsync的链上指标在2025年下降最多",
-      "title_en": "Ronin and ZKsync’s onchain metrics fell the most in 2025",
+      "title_cn": "大型Web3投资者Shima Capital在SEC欺诈指控后关闭",
+      "title_en": "Major Web3 Investor Shima Capital Shuts Down Following SEC Fraud Claims",
       "news_sentiment": "Bearish",
       "classification": "IMPULSE",
-      "reason_cn": "显示某些特定的L2和游戏生态系统的用户参与度正在减弱，对风险投资叙事不利。",
-      "reason_en": "Indicates weakening user engagement in certain L2 and gaming ecosystems, negatively impacting venture-backed narratives."
+      "reason_cn": "Web3/VC领域的负面监管新闻，直接打击市场信心，可能加剧了当前的抛售压力。",
+      "reason_en": "Negative regulatory news in the Web3/VC space. This directly hits market confidence and likely acted as an impulse factor contributing to the current downside move."
     },
     {
-      "title_cn": "美国CPI y/y (高影响) 即将发布",
-      "title_en": "[USD] CPI y/y (High)",
+      "title_cn": "Tether投资800万美元用于Speed，以推进闪电网络支付",
+      "title_en": "Tether Invests $8 Million in Speed to Advance Lightning Network Payments",
+      "news_sentiment": "Bullish",
+      "classification": "DISTRIBUTION",
+      "reason_cn": "利好比特币生态和扩展性。但在大盘回调时，此积极消息被忽略，表明市场短期内缺乏买盘意愿。",
+      "reason_en": "Bullish for Bitcoin scalability and ecosystem growth. This positive news is being ignored during the general market pullback, indicating a lack of immediate buying appetite."
+    },
+    {
+      "title_cn": "纽约法官批准在Pump.fun和Solana集体诉讼案中扩大索赔范围",
+      "title_en": "New York Judge Allows Expanded Claims in Pump.fun and Solana Class-Action Case",
+      "news_sentiment": "Bearish",
+      "classification": "IMPULSE",
+      "reason_cn": "直接针对Solana生态系统的负面法律风险，可能是导致SOL跌幅大于BTC和ETH的关键因素之一。",
+      "reason_en": "Direct negative legal risk specifically targeting the Solana ecosystem, likely contributing significantly to SOL's steeper decline compared to BTC and ETH."
+    },
+    {
+      "title_cn": "MetaMask在暗示10个月后新增比特币支持",
+      "title_en": "MetaMask adds Bitcoin support after teasing it 10 months ago",
+      "news_sentiment": "Bullish",
+      "classification": "DISTRIBUTION",
+      "reason_cn": "有利于比特币接入更广泛的DeFi和Web3用户群。但价格下跌表明短期内市场对基本面改善不敏感。",
+      "reason_en": "Positive news for increasing BTC accessibility to wider DeFi/Web3 users. However, the price action shows short-term insensitivity to fundamental improvements."
+    },
+    {
+      "title_cn": "美联储主席候选人沃勒称他将'绝对'强调美联储独立性的重要性",
+      "title_en": "Fed chair candidate Waller says he will 'absolutely' stress importance of Fed's independence to Trump",
       "news_sentiment": "Neutral",
       "classification": "NEUTRAL",
-      "reason_cn": "关键的宏观经济事件，将在未来24小时内决定美联储政策路径和市场流动性方向。",
-      "reason_en": "Crucial macroeconomic event that will determine the Fed's policy path and the direction of market liquidity over the next 24 hours."
+      "reason_cn": "宏观政治表态，倾向于稳定市场对货币政策的预期，但对加密货币影响不直接。",
+      "reason_en": "Macro political statement aimed at stabilizing expectations regarding monetary policy, but not a direct driver for crypto price action."
     }
   ],
   "fed_futures": {
-    "price": 96.36,
-    "implied_rate": 3.64,
-    "timestamp": "2025-12-17T17:26:45.243372+00:00",
+    "price": 96.42,
+    "implied_rate": 3.58,
+    "timestamp": "2025-12-17T21:27:18.254248+00:00",
     "trend": "Dovish (Rate expectations dropping)",
-    "change_5d_bps": -8.3,
+    "change_5d_bps": -14.3,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 155.553,
-    "timestamp": "2025-12-17T17:26:45.303230+00:00",
+    "price": 155.741,
+    "timestamp": "2025-12-17T21:27:18.305619+00:00",
     "trend": "Neutral",
-    "change_5d_pct": -0.15,
+    "change_5d_pct": -0.03,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 98.32,
-      "change_5d_pct": -0.08,
+      "price": 98.39,
+      "change_5d_pct": -0.01,
       "trend": "Neutral"
     },
     "us10y": {
-      "price": 4.16,
-      "change_5d_pct": 0.48,
+      "price": 4.15,
+      "change_5d_pct": 0.24,
       "trend": "Neutral"
     },
     "vix": {
-      "price": 17.38,
-      "change_5d_pct": 17.04,
+      "price": 17.69,
+      "change_5d_pct": 19.12,
       "trend": "Normal Rising"
     }
   },
   "coins": [
     {
       "symbol": "BTC",
-      "price": 87008.6,
-      "change_24h": -0.4395103938887244,
-      "rsi_4h": 40.97101474527361,
-      "funding_rate": 0.006248458211299999,
-      "open_interest": 2298926.7500000037,
+      "price": 85822.7,
+      "change_24h": -2.149184165130314,
+      "rsi_4h": 34.89296432756629,
+      "funding_rate": 0.0021416353673199997,
+      "open_interest": 2313022.8200000045,
       "sentiment": "Neutral",
-      "score": 65,
-      "comment_cn": "价格从9万美元回调，但宏观基本面和机构新闻形成强大的支撑。等待CPI数据指引。",
-      "comment_en": "Price pulled back from $90K, but macro fundamentals and institutional news provide strong support. Waiting for CPI guidance."
+      "score": 60,
+      "comment_cn": "价格回调至$85K附近，RSI接近中性，但整体宏观环境支持逢低买入。关注OI和资金费率的变化以确认底部。",
+      "comment_en": "Price pulled back near $85K, RSI nearing neutrality. Overall macro environment supports buying the dip. Monitor OI and funding rates for bottom confirmation."
     },
     {
       "symbol": "ETH",
-      "price": 2871.65,
-      "change_24h": -2.0586560073123943,
-      "rsi_4h": 29.683645551770056,
-      "funding_rate": -0.00131228777147,
-      "open_interest": 5638579.380000024,
+      "price": 2820.41,
+      "change_24h": -4.295554801493049,
+      "rsi_4h": 25.96878561346358,
+      "funding_rate": -0.00730035342209,
+      "open_interest": 5659423.560000027,
       "sentiment": "Bullish",
       "score": 75,
-      "comment_cn": "4H RSI触及29.7超卖区，资金费率为负，显示做空拥挤。技术性回调已深，具备反弹潜力。",
-      "comment_en": "4H RSI hit 29.7 (oversold) and funding is negative, indicating crowded shorts. Deep technical pullback offers strong bounce potential."
+      "comment_cn": "跌幅较大（-4.30%），RSI达到26.0的严重超卖水平，资金费率转负。存在强烈的空头挤压和超跌反弹潜力。",
+      "comment_en": "Significant drop (-4.30%) with RSI hitting severely oversold levels (26.0) and negative funding. Strong potential for short squeeze and oversold bounce."
     },
     {
       "symbol": "SOL",
-      "price": 124.17,
-      "change_24h": -2.6652034177314348,
-      "rsi_4h": 36.302722393264354,
-      "funding_rate": -0.00246457512054,
-      "open_interest": 2847818.940000002,
-      "sentiment": "Neutral",
-      "score": 50,
-      "comment_cn": "跟随市场深度回调，价格位于关键支撑位上方，但缺乏独立驱动力，需关注整体风险情绪。",
-      "comment_en": "Followed the market with a deep retracement. It remains above key support but lacks independent drivers, attention on overall risk sentiment."
+      "price": 122.3,
+      "change_24h": -4.542616297221361,
+      "rsi_4h": 33.22183231820371,
+      "funding_rate": -0.013367911467149999,
+      "open_interest": 2764464.8800000013,
+      "sentiment": "Bearish",
+      "score": 45,
+      "comment_cn": "跌幅居前，且受到针对其生态的负面法律新闻冲击。在负面FUD消散前，存在进一步下行风险。",
+      "comment_en": "Among the heaviest losers, hit by specific negative legal news concerning its ecosystem. Risk of further downside until the FUD dissipates."
     },
     {
       "symbol": "BNB",
-      "price": 848.5,
-      "change_24h": -2.3590333716916,
-      "rsi_4h": 37.38545263915605,
-      "funding_rate": 0.00654185656265,
-      "open_interest": 7596826.0,
+      "price": 840.2,
+      "change_24h": -3.5029286780751114,
+      "rsi_4h": 34.462621568011684,
+      "funding_rate": -0.01211075585808,
+      "open_interest": 7637532.0,
       "sentiment": "Neutral",
-      "score": 60,
-      "comment_cn": "相对抗跌，资金费率维持正值，显示多头兴趣持续，但面临上行动力不足的问题。",
-      "comment_en": "Relatively resilient. Positive funding suggests sustained long interest, but upside momentum is lacking."
+      "score": 55,
+      "comment_cn": "跟随大盘回调，RSI处于正常回调范围。在市场稳定后，其表现可能优于高风险山寨币。",
+      "comment_en": "Followed the general market pullback, RSI within normal corrective range. Might outperform high-beta altcoins once the market stabilizes."
     },
     {
       "symbol": "DOGE",
-      "price": 0.12785,
-      "change_24h": -2.8052303481830614,
-      "rsi_4h": 31.935792010596614,
-      "funding_rate": 0.00510289738438,
-      "open_interest": 662342.1099999998,
-      "sentiment": "Bearish",
-      "score": 35,
-      "comment_cn": "跌幅较大，在市场回调中表现脆弱，RSI接近超卖，但缺乏基本面支撑，易受市场情绪影响。",
-      "comment_en": "Significant loss, showing vulnerability during market pullback. RSI near oversold, but lacking fundamental support, highly sensitive to market mood."
+      "price": 0.12625,
+      "change_24h": -4.377792925850191,
+      "rsi_4h": 28.977437804634718,
+      "funding_rate": -0.00330352698066,
+      "open_interest": 674304.9499999996,
+      "sentiment": "Bullish",
+      "score": 70,
+      "comment_cn": "跌幅大且RSI进入超卖区域（29.0）。作为高波动性资产，一旦大盘企稳，具有快速反弹的潜力。",
+      "comment_en": "Large drop with RSI entering oversold territory (29.0). As a high-beta asset, it has the potential for a quick bounce once the general market stabilizes."
     }
   ]
 }
