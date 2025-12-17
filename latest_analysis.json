@@ -1,27 +1,108 @@
 {
-  "timestamp": "2025-12-16T21:23:26.795745",
-  "global_summary_cn": "分析失败: Illegal trailing comma before end of object: line 11 column 165 (char 1902)",
-  "global_summary_en": "分析失败: Illegal trailing comma before end of object: line 11 column 165 (char 1902)",
-  "news_analysis": [],
+  "timestamp": "2025-12-17T01:24:25.931733",
+  "global_summary_cn": "全球流动性状况目前处于中性偏宽松状态，美元指数走弱且美联储降息预期继续下降（5日变化 -8.8 bps），这通常支持风险资产。然而，日元走强（USD/JPY 5日下跌 -0.81%）和VIX小幅上升提醒市场存在宏观不确定性。\n\n**叙事与流动性分歧：** 尽管宏观环境支持风险偏好，但加密市场面临短期抛压，特别是现货比特币ETF流出了$358M。价格在$87,700附近企稳，显示出惊人的弹性。市场正在消化这些流出并等待关键的宏观事件——美国CPI和日本央行利率决议。当前市场处于高波动前的盘整期，操作上应保持谨慎，警惕宏P/I数据带来的方向性冲击。",
+  "global_summary_en": "Global liquidity is currently in a neutral-to-slightly permissive state. The weaker DXY and continued easing of Fed rate expectations (5D change -8.8 bps) generally support risk assets. However, the strengthening Yen (USD/JPY down -0.81% over 5D) and slightly rising VIX indicate persistent macro uncertainty.\n\n**Narrative/Liquidity Divergence:** Despite supportive macro signals, the crypto market faces short-term selling pressure, evidenced by the $358M outflow from Spot Bitcoin ETFs. The price is showing surprising resilience, consolidating near $87,700. The market is absorbing these outflows while awaiting critical macro events: US CPI and the BOJ Policy Rate decision. The market is in a consolidation phase before high volatility; caution is advised regarding directional shocks from upcoming economic data.",
+  "news_analysis": [
+    {
+      "title_cn": "加密货币ETP将在2026年进入“芝士蛋糕工厂”时代：Bitwise",
+      "title_en": "Crypto ETPs to enter ‘cheesecake factory’ era in 2026: Bitwise",
+      "news_sentiment": "Bullish",
+      "classification": "PRICED IN",
+      "reason_cn": "长期的乐观行业预测，确认了机构对加密资产的持续看好，但对短期价格影响有限，倾向于被市场消化。",
+      "reason_en": "Long-term bullish industry forecast confirming sustained institutional confidence in crypto assets, but with limited short-term price impact, likely already priced in."
+    },
+    {
+      "title_cn": "现货比特币ETF流出$358M：投资者正在放弃BTC吗？",
+      "title_en": "Spot Bitcoin ETFs see $358M outflow: Are investors abandoning BTC?",
+      "news_sentiment": "Bearish",
+      "classification": "DIVERGENCE",
+      "reason_cn": "巨大的流出是短期看跌信号，但价格在24小时内仍上涨，显示出零售或高频交易买盘正在对冲机构抛压，形成了短期价格与流量的分歧。",
+      "reason_en": "Significant outflow is a short-term bearish signal, yet the price managed to increase over 24 hours, suggesting retail/HFT buying is absorbing institutional selling pressure, creating a price/flow divergence."
+    },
+    {
+      "title_cn": "比特币国库Kindly MD因纳斯达克价格通知面临潜在退市",
+      "title_en": "Bitcoin treasury Kindly MD faces potential delisting after Nasdaq price notice",
+      "news_sentiment": "Bearish",
+      "classification": "NEUTRAL",
+      "reason_cn": "特定持有比特币的小型上市公司面临的问题，对整个加密市场情绪影响不大。",
+      "reason_en": "Issue specific to a small publicly traded company holding BTC. Minor impact on overall crypto market sentiment."
+    },
+    {
+      "title_cn": "比特币/黄金比率在2025年下跌了50%：原因分析",
+      "title_en": "The Bitcoin-to-gold ratio fell 50% in 2025: Here’s why",
+      "news_sentiment": "Bearish",
+      "classification": "NEUTRAL",
+      "reason_cn": "回顾性数据，描述了过去的宏观周期变化，不作为当前交易的直接驱动因素。",
+      "reason_en": "Retrospective data describing past macro cycle changes. Not a direct driver for current trading action."
+    },
+    {
+      "title_cn": "尽管市场恐慌情绪蔓延，BitMine仍在积累以太坊",
+      "title_en": "Why BitMine is accumulating Ether despite broader market fear",
+      "news_sentiment": "Bullish",
+      "classification": "NEUTRAL",
+      "reason_cn": "特定公司持续积累ETH，对ETH基本面构成支撑，但市场未立即做出强烈反应。",
+      "reason_en": "Specific corporate accumulation provides fundamental support for ETH, but the market has not reacted strongly immediately."
+    },
+    {
+      "title_cn": "MetaMask在预告10个月后增加了比特币支持",
+      "title_en": "MetaMask adds Bitcoin support after teasing it 10 months ago",
+      "news_sentiment": "Bullish",
+      "classification": "PRICED IN",
+      "reason_cn": "重要的基础设施更新，但此类大型钱包的兼容性扩展通常是预期的，且市场反应滞后。",
+      "reason_en": "Significant infrastructure update, but compatibility expansions for major wallets are often anticipated, leading to delayed market reaction."
+    },
+    {
+      "title_cn": "数字资产ETP连续第三周录得净流入，由美国需求主导",
+      "title_en": "Digital asset ETPs post third straight week of net inflows, led by US demand",
+      "news_sentiment": "Bullish",
+      "classification": "NEUTRAL",
+      "reason_cn": "此周度数据与最近的单日大额流出（$358M）相互矛盾，显示机构兴趣的波动性，综合来看保持中性。",
+      "reason_en": "This weekly data conflicts with the very recent large daily outflow ($358M), highlighting volatility in institutional interest. Classified as neutral overall."
+    },
+    {
+      "title_cn": "XRP深入机构金融，Vivopower构建9亿美元瑞波相关结构",
+      "title_en": "XRP Pushes Deeper Into Institutional Finance as Vivopower Builds $900M Ripple-Linked Exposure Structure",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "大型金融机构明确使用Ripple技术的结构性公告，对XRP具有直接的积极催化作用。",
+      "reason_en": "A structural announcement involving a large financial institution explicitly using Ripple technology acts as a direct positive catalyst for XRP."
+    },
+    {
+      "title_cn": "Paypal寻求批准推出Paypal银行，以收紧贷款、存款和资本管制",
+      "title_en": "Paypal Seeks Approval to Launch Paypal Bank as Lending, Deposits, and Capital Control Tighten",
+      "news_sentiment": "Bullish",
+      "classification": "NEUTRAL",
+      "reason_cn": "Paypal的扩张计划可能为加密货币服务带来更广阔的集成空间，但主要关注传统金融合规和业务。",
+      "reason_en": "Paypal's expansion plans might provide broader integration space for crypto services, but the focus is primarily on traditional financial compliance and operations."
+    },
+    {
+      "title_cn": "Startale和SBI Holdings推出受监管的日元稳定币用于全球结算",
+      "title_en": "Startale and SBI Holdings Unveil Regulated Yen Stablecoin for Global Settlement",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "在亚洲推出的受监管法币稳定币，加强了亚洲市场的合规和采用，对全球流动性桥梁是重要进展。",
+      "reason_en": "Introduction of a regulated fiat stablecoin in Asia strengthens compliance and adoption in the region, marking an important step for global liquidity bridges."
+    }
+  ],
   "fed_futures": {
-    "price": 96.415,
-    "implied_rate": 3.585,
-    "timestamp": "2025-12-16T21:23:09.278058+00:00",
+    "price": 96.365,
+    "implied_rate": 3.635,
+    "timestamp": "2025-12-17T01:24:05.444869+00:00",
     "trend": "Dovish (Rate expectations dropping)",
-    "change_5d_bps": -13.8,
+    "change_5d_bps": -8.8,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 154.733,
-    "timestamp": "2025-12-16T21:23:09.323332+00:00",
+    "price": 154.529,
+    "timestamp": "2025-12-17T01:24:05.517920+00:00",
     "trend": "Yen Strength (Risk Off)",
-    "change_5d_pct": -1.34,
+    "change_5d_pct": -0.81,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 98.21,
-      "change_5d_pct": -0.14,
+      "price": 98.19,
+      "change_5d_pct": -0.16,
       "trend": "Weaker (Risk On)"
     },
     "us10y": {
@@ -30,71 +111,71 @@
       "trend": "Neutral"
     },
     "vix": {
-      "price": 16.46,
-      "change_5d_pct": 4.38,
+      "price": 16.48,
+      "change_5d_pct": 4.5,
       "trend": "Normal Rising"
     }
   },
   "coins": [
     {
       "symbol": "BTC",
-      "price": 87728.0,
-      "change_24h": 2.0615198473637677,
-      "rsi_4h": 44.13659140984873,
-      "funding_rate": 0.00689180718262,
-      "open_interest": 2333818.460000003,
+      "price": 87729.1,
+      "change_24h": 1.9606680915505315,
+      "rsi_4h": 44.279031933971396,
+      "funding_rate": 0.00363136054102,
+      "open_interest": 2330924.8700000043,
       "sentiment": "Neutral",
-      "score": 50,
-      "comment_cn": "",
-      "comment_en": ""
+      "score": 60,
+      "comment_cn": "价格在$87k附近强势盘整，消化了$358M的大额ETF流出。RSI和资金费率中性，市场在等待CPI和BOJ决定。",
+      "comment_en": "Price consolidated strongly near $87k, absorbing the large $358M ETF outflow. Neutral RSI and funding suggest the market is awaiting CPI and BOJ decisions."
     },
     {
       "symbol": "ETH",
-      "price": 2945.63,
-      "change_24h": 0.19797197778088255,
-      "rsi_4h": 35.851762136745904,
-      "funding_rate": -0.0015862015240300001,
-      "open_interest": 5525802.890000016,
+      "price": 2959.06,
+      "change_24h": 0.04361393887962768,
+      "rsi_4h": 38.20161369875958,
+      "funding_rate": -0.0013247201223000001,
+      "open_interest": 5528539.360000019,
       "sentiment": "Neutral",
       "score": 50,
-      "comment_cn": "",
-      "comment_en": ""
+      "comment_cn": "相对BTC表现疲软，RSI较低，资金费率略负。在缺乏独立催化剂的情况下，继续跟随BTC，但短期看空情绪较重。",
+      "comment_en": "Underperformed BTC, with lower RSI and slightly negative funding. Lacks independent catalyst and continues to follow BTC, but short-term bearish positioning is noted."
     },
     {
       "symbol": "SOL",
-      "price": 128.24,
-      "change_24h": 2.077529252567073,
-      "rsi_4h": 44.86449382225867,
-      "funding_rate": 0.008103646547979999,
-      "open_interest": 2452712.8200000026,
-      "sentiment": "Neutral",
-      "score": 50,
-      "comment_cn": "",
-      "comment_en": ""
+      "price": 129.21,
+      "change_24h": 2.3445544554455506,
+      "rsi_4h": 47.20316908940103,
+      "funding_rate": 0.00489827442912,
+      "open_interest": 2439586.860000002,
+      "sentiment": "Bullish",
+      "score": 65,
+      "comment_cn": "表现强劲（+2.34%），RSI处于中性健康水平。在市场不确定时显示出高于平均的韧性。",
+      "comment_en": "Strong relative performance (+2.34%). RSI is at a neutral, healthy level. Showing above-average resilience during market uncertainty."
     },
     {
       "symbol": "BNB",
-      "price": 870.0,
-      "change_24h": 2.38907849829351,
-      "rsi_4h": 46.10671332825605,
-      "funding_rate": 0.0053542782682299995,
-      "open_interest": 7607975.0,
+      "price": 872.1,
+      "change_24h": 1.9165595418955215,
+      "rsi_4h": 47.379439356088355,
+      "funding_rate": 0.00159520409268,
+      "open_interest": 7561119.0,
       "sentiment": "Neutral",
-      "score": 50,
-      "comment_cn": "",
-      "comment_en": ""
+      "score": 55,
+      "comment_cn": "表现稳定。高OI反映了生态系统的持续关注和潜在的发射台活动。技术面中性。",
+      "comment_en": "Stable performance. High OI reflects continuous ecosystem interest and potential launchpad activity. Technically neutral."
     },
     {
       "symbol": "DOGE",
-      "price": 0.132,
-      "change_24h": 2.7157419656057837,
-      "rsi_4h": 41.962323691877906,
-      "funding_rate": 0.00462063629537,
-      "open_interest": 647815.8299999996,
+      "price": 0.1319,
+      "change_24h": 1.8061129978388244,
+      "rsi_4h": 41.813588480851216,
+      "funding_rate": 0.00487637971362,
+      "open_interest": 655225.1799999998,
       "sentiment": "Neutral",
-      "score": 50,
-      "comment_cn": "",
-      "comment_en": ""
+      "score": 45,
+      "comment_cn": "跟随大盘小幅上涨，RSI较低（41.8），显示出在之前的下跌后处于相对弱势的恢复期。",
+      "comment_en": "Followed the market with minor gains. Lower RSI (41.8) suggests it is in a weaker recovery phase after previous drops."
     }
   ]
 }
