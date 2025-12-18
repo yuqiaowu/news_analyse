@@ -1,157 +1,141 @@
 {
-  "timestamp": "2025-12-18T17:31:28.810019",
-  "global_summary_cn": "宏观流动性信号目前存在冲突。尽管美联储利率预期趋于鸽派且美国CPI数据低于预期，英国央行也已降息，这些都是对风险资产强劲的利好叙事。然而，美元指数（DXY）走强和VIX指数上升显示出短期流动性收紧的压力，市场风险偏好受限。这种宏观利好叙事与流动性收紧的矛盾，加上高达5.53亿美元的以太坊ETF资金流出，导致市场出现明显的“卖事实”或派发行为。当前加密货币普遍下跌，RSI接近超卖区域，显示出技术面的疲软和短期结构性压力。市场处于分歧阶段，潜在的多头正在消化抛售压力，需关注关键支撑位。",
-  "global_summary_en": "Macro liquidity signals are currently conflicted. Although the Fed rate expectations are dovish, US CPI data came in softer than anticipated, and the Bank of England cut rates—all strong bullish narratives for risk assets. However, the stronger DXY and rising VIX indicate short-term tightening liquidity pressure, restricting market risk appetite. This divergence between bullish macro narratives and liquidity tightening, compounded by a significant $553 million Ether ETF outflow, has led to noticeable 'Sell the News' behavior or distribution. Cryptocurrencies are broadly down, with RSIs approaching oversold territory, indicating technical weakness and short-term structural pressure. The market is in a divergence phase, where potential buyers are absorbing selling pressure. Key support levels must be watched closely.",
+  "timestamp": "2025-12-18T21:32:11.534171",
+  "global_summary_cn": "宏观流动性目前处于复杂且偏紧的状态。尽管美联储利率预期趋于鸽派，且CPI数据显示通胀降温（长期利好），但美元指数（DXY）走强以及VIX波动率的上升，表明短期市场风险偏好正在收紧。叙事层面出现了明显的“利好不涨”的分化，例如CPI数据公布后，加密市场未能跟随股市上涨，反而遭遇抛售压力。以太坊ETF出现5.53亿美元的大额流出，是导致市场整体疲软的关键因素。市场正处于对冲通胀降温的利好消息与即时流动性收紧之间的拉锯战。短期内，流动性收紧带来的风险大于利好叙事，需警惕下行风险，但长期采用（如Intuit/USDC）仍具支撑。",
+  "global_summary_en": "Macro liquidity is currently complex and leaning slightly tight. Although Fed rate expectations are becoming Dovish and CPI data showed cooling inflation (long-term bullish), the strengthening US Dollar Index (DXY) and rising VIX indicate a short-term tightening of market risk appetite. A significant 'good news ignored' divergence is present in the narrative layer; after the CPI release, the crypto market failed to follow stocks higher and instead faced selling pressure. A massive $553 million outflow from an Ethereum ETF is a key factor contributing to overall market weakness. The market is caught between the long-term bullish narrative of cooling inflation and immediate liquidity tightening. Short-term risk driven by tightening liquidity outweighs the positive narrative, warranting caution regarding downside risks, though long-term adoption (e.g., Intuit/USDC) remains supportive.",
   "news_analysis": [
     {
-      "title_cn": "随着美国CPI通胀降至2021年以来的最低水平，比特币正在寻找流动性",
-      "title_en": "Bitcoin hunts liquidity as US CPI inflation drops to lowest since 2021",
-      "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "CPI数据利好，但考虑到加密货币价格在24小时内普遍回调，市场对该消息的初期反应（上涨）已经完成，现在处于获利了结或价格消化阶段。",
-      "reason_en": "The CPI data is bullish, but given the general crypto price correction over the last 24 hours, the initial positive market reaction has completed, and the market is now in a profit-taking or price digestion phase."
-    },
-    {
-      "title_cn": "在CPI数据良好后，ETH逼近3000美元，但5.53亿美元的以太坊ETF流出引发警报",
-      "title_en": "ETH nears $3K after cool CPI print but $553M Ether ETF outflow raises alarm",
-      "news_sentiment": "Mixed",
-      "classification": "DISTRIBUTION",
-      "reason_cn": "宏观利好（CPI）被巨大的结构性利空（ETF流出）所盖过，这是导致以太坊价格显著下跌和市场情绪恶化的主要直接原因。",
-      "reason_en": "The macro positive (CPI) was overshadowed by significant structural negative news (ETF outflow), which is the primary direct cause of Ethereum's noticeable price drop and the deterioration of market sentiment."
-    },
-    {
-      "title_cn": "Tether首席执行官称人工智能泡沫是比特币在2026年面临的最大风险",
-      "title_en": "Tether CEO says AI bubble is Bitcoin’s biggest risk in 2026",
+      "title_cn": "尽管美国CPI显示通胀得到控制，但比特币在9万美元附近受挫：原因何在？",
+      "title_en": "Bitcoin trips at $90K despite CPI showing curbed US inflation: What gives?",
       "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "这是一个长期、概念性的风险讨论，不影响当前的交易结构或流动性。",
-      "reason_en": "This is a long-term, conceptual risk discussion that does not affect current trading structure or liquidity."
+      "classification": "DISTRIBUTION",
+      "reason_cn": "CPI降温本应是重大利好，但价格未能突破，反而下跌。这表明市场正在利用宏观利好消息进行派发，是典型的“利好出尽”表现。",
+      "reason_en": "Cooling CPI should be highly bullish, but the price failed to break out and instead dropped. This suggests the market is using positive macro news for distribution, a classic 'sell the news' reaction."
     },
     {
-      "title_cn": "Coinbase通过Blik移动支付集成在波兰扩张",
-      "title_en": "Coinbase expands in Poland with Blik mobile payments integration",
-      "news_sentiment": "Bullish",
-      "classification": "NEUTRAL",
-      "reason_cn": "对Coinbase自身是积极的企业发展新闻，但对整体加密货币市场的影响有限，不足以抵消宏观压力。",
-      "reason_en": "Positive corporate development news for Coinbase, but its impact on the overall crypto market is limited and not sufficient to offset macro pressures."
+      "title_cn": "ETH在CPI数据走软后逼近3K美元，但5.53亿美元的以太坊ETF流出敲响警钟",
+      "title_en": "ETH nears $3K after cool CPI print but $553M Ether ETF outflow raises alarm",
+      "news_sentiment": "Bearish",
+      "classification": "IMPULSE",
+      "reason_cn": "5.53亿美元的资金流出是直接且强大的负面流动性信号，直接压制了以太坊的价格，并带动了整个市场的悲观情绪。",
+      "reason_en": "The $553 million outflow is a direct and powerful negative liquidity signal, immediately suppressing Ethereum's price and contributing to bearish sentiment across the market."
     },
     {
-      "title_cn": "英国央行降息，为消费者带来受欢迎的圣诞节提振",
-      "title_en": "Bank of England cuts interest rates, in welcome Christmas boost for consumers",
+      "title_cn": "通胀降温，股市上涨，但为何比特币仍在挣扎？",
+      "title_en": "Inflation Cools and Stocks Rise, So Why Is Bitcoin Still Floundering?",
+      "news_sentiment": "Bearish",
+      "classification": "DIVERGENCE",
+      "reason_cn": "该标题准确概括了当前的市场分化：宏观环境改善，风险资产表现良好，但加密货币缺乏动力，暗示内部结构性抛压或流动性不足。",
+      "reason_en": "This headline accurately summarizes the current market divergence: the macro environment is improving, risk assets are performing well, but crypto lacks momentum, suggesting internal structural selling pressure or insufficient liquidity."
+    },
+    {
+      "title_cn": "报告：纽交所母公司ICE拟投资加密支付公司Moonpay",
+      "title_en": "Report: NYSE Owner ICE Eyes Investment in Crypto Payments Firm Moonpay",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "全球央行放宽货币政策的信号，直接支持风险偏好和流动性注入，但目前被美元强势压制。",
-      "reason_en": "A signal of global central banks easing monetary policy, directly supporting risk appetite and liquidity injection, although currently suppressed by US Dollar strength."
+      "reason_cn": "纽交所母公司的潜在投资代表了主流金融机构对加密基础设施的持续认可和资本流入，是长期结构性利好。",
+      "reason_en": "The potential investment by the NYSE parent company represents continued validation and capital inflow from major financial institutions into crypto infrastructure, providing long-term structural support."
     },
     {
-      "title_cn": "FBI查获涉嫌用于洗钱7000万美元勒索软件攻击资金的加密货币交易所",
-      "title_en": "FBI Seizes Crypto Exchange Allegedly Used to Launder $70M From Ransomware Attacks",
-      "news_sentiment": "Bearish",
-      "classification": "NEUTRAL",
-      "reason_cn": "属于常规的监管执法新闻，对市场造成轻微负面影响，但影响范围有限。",
-      "reason_en": "Standard regulatory enforcement news, causing slight negative sentiment but with a contained scope of impact."
-    },
-    {
-      "title_cn": "在疲软的美国通胀数据之后，比特币和以太坊上涨",
-      "title_en": "Bitcoin, Ethereum Rise Following Soft US Inflation Data",
+      "title_cn": "Intuit将在TurboTax和QuickBooks中集成USDC稳定币",
+      "title_en": "Intuit to Integrate USDC Stablecoin Across TurboTax, QuickBooks",
       "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "确认了驱动市场上涨的核心叙事，但市场随后回调，显示上涨动能已耗尽。",
-      "reason_en": "Confirms the core narrative driving the initial market rise, but the subsequent pullback shows that the upward momentum has been exhausted."
+      "classification": "IMPULSE",
+      "reason_cn": "Intuit是美国主要的税务和会计软件提供商，集成USDC极大地拓宽了稳定币的实际应用场景和用户基数，属于重大利好。",
+      "reason_en": "Intuit is a major US tax and accounting software provider. Integrating USDC significantly broadens the real-world utility and user base for stablecoins, marking a major bullish development."
     }
   ],
   "fed_futures": {
     "price": 96.42,
     "implied_rate": 3.58,
-    "timestamp": "2025-12-18T17:31:12.360242+00:00",
+    "timestamp": "2025-12-18T21:31:56.507620+00:00",
     "trend": "Dovish (Rate expectations dropping)",
     "change_5d_bps": -14.3,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 155.614,
-    "timestamp": "2025-12-18T17:31:12.407917+00:00",
+    "price": 155.567,
+    "timestamp": "2025-12-18T21:31:56.556273+00:00",
     "trend": "Neutral",
-    "change_5d_pct": 0.03,
+    "change_5d_pct": 0.0,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 98.48,
-      "change_5d_pct": 0.34,
+      "price": 98.45,
+      "change_5d_pct": 0.31,
       "trend": "Stronger (Risk Off)"
     },
     "us10y": {
       "price": 4.12,
-      "change_5d_pct": -1.65,
+      "change_5d_pct": -1.86,
       "trend": "Neutral Falling"
     },
     "vix": {
-      "price": 17.12,
-      "change_5d_pct": 3.76,
+      "price": 16.87,
+      "change_5d_pct": 2.24,
       "trend": "Normal Rising"
     }
   },
   "coins": [
     {
       "symbol": "BTC",
-      "price": 85859.1,
-      "change_24h": -1.1817797824503036,
-      "rsi_4h": 40.200686481642364,
-      "funding_rate": 0.01,
-      "open_interest": 2395287.7700000056,
+      "price": 85446.8,
+      "change_24h": -0.4744094923830113,
+      "rsi_4h": 40.70752964606499,
+      "funding_rate": -0.00094845685337,
+      "open_interest": 2434669.1400000053,
       "sentiment": "Neutral",
       "score": 55,
-      "comment_cn": "价格下跌，但RSI尚未完全超卖。在宏观利好叙事（CPI）下出现回调，表明短期抛售压力较大，关注85,000美元附近的支撑。",
-      "comment_en": "Price dropped, but RSI is not fully oversold. The pullback occurred despite bullish macro news (CPI), indicating significant short-term selling pressure. Watch support near $85,000."
+      "comment_cn": "受到宏观利好但流动性压制的影响。RSI偏低，短期可能在低位震荡，等待DXY和VIX给出明确的方向信号。",
+      "comment_en": "Affected by positive macro news but constrained by liquidity. RSI is low, suggesting short-term consolidation, waiting for clear directional signals from DXY and VIX."
     },
     {
       "symbol": "ETH",
-      "price": 2820.96,
-      "change_24h": -1.6456543568001722,
-      "rsi_4h": 37.01449402714991,
-      "funding_rate": 0.00760636850535,
-      "open_interest": 5484892.78000002,
+      "price": 2819.3,
+      "change_24h": -0.07443113347982948,
+      "rsi_4h": 38.704787697402935,
+      "funding_rate": -0.00043054815563,
+      "open_interest": 5367466.400000024,
       "sentiment": "Bearish",
       "score": 40,
-      "comment_cn": "受ETF资金大规模流出直接打击，RSI低迷。结构性弱势明显，需要时间消化抛压。",
-      "comment_en": "Directly hit by massive ETF outflows, low RSI indicates clear structural weakness. Needs time to digest the selling pressure."
+      "comment_cn": "受到ETF大规模流出($553M)的直接冲击，价格和情绪均处于疲软状态。需等待资金流逆转。",
+      "comment_en": "Directly impacted by the massive ETF outflow ($553M); both price and sentiment are weak. Needs capital flow reversal to recover."
     },
     {
       "symbol": "SOL",
-      "price": 121.99,
-      "change_24h": -1.771479185119577,
-      "rsi_4h": 38.77856080739561,
-      "funding_rate": 0.01,
-      "open_interest": 2724437.140000002,
+      "price": 118.83,
+      "change_24h": -2.8849297155933322,
+      "rsi_4h": 35.946044985975206,
+      "funding_rate": -0.006973235013410001,
+      "open_interest": 2887689.7200000016,
       "sentiment": "Bearish",
-      "score": 45,
-      "comment_cn": "跟随主流币种下跌，RSI表现疲软。在市场情绪分歧下，山寨币面临更大的下行风险。",
-      "comment_en": "Following the drop in major coins, RSI shows weakness. Altcoins face greater downside risk during conflicted market sentiment."
+      "score": 35,
+      "comment_cn": "跌幅和RSI最低，显示出高度的短期脆弱性。在主流币种中抛售压力最大，可能仍在寻求局部底部。",
+      "comment_en": "Lowest 24h drop and RSI, indicating high short-term fragility. Facing the strongest selling pressure among majors, potentially still searching for a local bottom."
     },
     {
       "symbol": "BNB",
-      "price": 826.2,
-      "change_24h": -2.66258246936851,
-      "rsi_4h": 33.972721220019494,
-      "funding_rate": -0.00038093747132,
-      "open_interest": 7560491.0,
-      "sentiment": "Bearish",
-      "score": 35,
-      "comment_cn": "跌幅较大，RSI接近34，短期内处于超卖边缘，显示出最强的短期卖压之一。",
-      "comment_en": "Significant price drop, RSI near 34. Near oversold territory in the short term, displaying one of the strongest immediate selling pressures."
+      "price": 827.9,
+      "change_24h": -1.4522080704678069,
+      "rsi_4h": 36.89166100180156,
+      "funding_rate": -0.00226261972023,
+      "open_interest": 7689158.0,
+      "sentiment": "Neutral",
+      "score": 50,
+      "comment_cn": "表现略强于其他竞争者，但在市场整体抛压下仍然下跌。主要受制于整体流动性环境。",
+      "comment_en": "Slightly stronger than other competitors but still declining under general market pressure. Constrained mainly by the overall liquidity environment."
     },
     {
       "symbol": "DOGE",
-      "price": 0.12263,
-      "change_24h": -4.00031313605761,
-      "rsi_4h": 31.834961863822258,
-      "funding_rate": 0.00855009369085,
-      "open_interest": 644617.8300000001,
+      "price": 0.12259,
+      "change_24h": -2.8913181242078476,
+      "rsi_4h": 35.331123310366635,
+      "funding_rate": -0.0022088864681,
+      "open_interest": 680091.56,
       "sentiment": "Bearish",
       "score": 30,
-      "comment_cn": "跌幅最大，RSI为31.8，接近超卖。高度敏感于风险偏好降低，在分歧市场中表现最差。",
-      "comment_en": "Largest drop, RSI at 31.8, nearing oversold. Highly sensitive to reduced risk appetite, performing the worst in the divergent market."
+      "comment_cn": "迷因币种在风险偏好收紧时跌幅通常较大。RSI低，短期趋势看跌。",
+      "comment_en": "Meme coins typically suffer larger drops when risk appetite tightens. Low RSI confirms bearish short-term trend."
     }
   ]
 }
