@@ -1,253 +1,165 @@
 {
-  "timestamp": "2025-12-19T09:34:54.189989",
-  "global_summary_cn": "当前市场处于宏观流动性中性偏宽松的环境中。美联储降息预期下行和日元疲软（利好利差交易）构成了风险资产的支撑，但美元指数（DXY）走强带来反向压力。在叙事层面，市场正经历显著的分化：结构性需求信号极其强劲，比特币现货ETF录得4.57亿美元的巨额流入，这主导了近期的看涨情绪。尽管以太坊ETF持续遭遇流出（5.53亿美元），但ETH价格仍强劲反弹，显示出潜在的现货买盘抵抗住了抛压。这是一个典型的“流动性中性，但结构性利好强劲”的买入时机。市场正在消化恐惧并积极积累。",
-  "global_summary_en": "The market currently operates under a neutral to slightly loosening macro liquidity backdrop. Dovish Fed rate expectations and a weak Japanese Yen (supporting the carry trade) provide a floor for risk assets, although the strengthening DXY adds counter-pressure. Structurally, the narrative is highly divergent: structural demand signals are extremely strong, with Bitcoin spot ETFs recording a massive $457 million inflow, dominating recent bullish sentiment. Although Ethereum ETFs continue to face outflows ($553M), the ETH price rebounded strongly, indicating that underlying spot buying is overcoming selling pressure. This represents a classic 'Neutral Liquidity, but Strong Structural News' scenario, favoring accumulation. The market is actively buying the dip and absorbing fear.",
+  "timestamp": "2025-12-19T13:35:36.115853",
+  "global_summary_cn": "流动性状态目前处于**混合/略微收紧**阶段。尽管美联储的利率预期显示出鸽派倾向（5D下降14.3基点），且日元持续疲软支持套利交易（风险偏好），但美元指数（DXY）意外走强至98.71，构成了宏观流动性的主要阻力。新闻面同样复杂：一方面，比特币技术指标显示周线RSI已跌至自$15K以来最超卖水平，存在潜在反弹动能；另一方面，以太坊遭遇了高达$5.53亿的大额ETF资金流出，对即时市场情绪构成了强烈的看跌冲击。此外，Terraform对Jump Trading的40亿美元诉讼增加了法律不确定性。由于流动性未完全宽松且高影响力的利空新闻（ETH流出）占主导地位，市场短期内可能继续处于**谨慎整合**阶段，直至DXY趋势逆转或资金流出放缓。",
+  "global_summary_en": "Liquidity status is currently **Mixed/Slightly Tightening**. Although the Fed's rate expectations show a dovish tilt (5D drop of 14.3 bps) and persistent Yen weakness supports carry trade (Risk On), the unexpected strength of the DXY, currently at 98.71, poses a major hurdle for macro liquidity. The news narrative is equally complex: technically, Bitcoin's weekly RSI has fallen to its most oversold level since the $15K bottom, suggesting potential for a contrarian bounce. However, Ethereum faced a massive high-impact outflow of $553 million from its ETF, creating a strong immediate bearish shock to market sentiment. Additionally, legal uncertainty persists with Terraform's $4B lawsuit against Jump Trading. Given that liquidity is not fully loose and high-impact bearish news (ETH outflow) dominates, the market is likely to remain in a **Cautious Consolidation** phase until the DXY trend reverses or outflows abate.",
   "news_analysis": [
     {
-      "title_cn": "特朗普承诺实施“史上最大的退税季”。",
-      "title_en": "Trump promises 'largest tax refund season of all time.'",
+      "title_cn": "比特币周线RSI跌至自$15K BTC价格以来的最超卖水平",
+      "title_en": "Bitcoin weekly RSI falls to the most oversold levels since $15K BTC price",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "潜在的财政刺激和增加的消费者流动性，对风险资产是间接利好。",
-      "reason_en": "Potential fiscal stimulus and increased consumer liquidity, indirectly beneficial for risk assets."
+      "reason_cn": "这是一个强烈的反向看涨信号，表明市场超卖严重，可能会引发技术性反弹或积累。",
+      "reason_en": "This is a strong contrarian bullish signal, indicating severe oversold conditions that could prompt a technical rebound or accumulation."
     },
     {
-      "title_cn": "由于中国销售额暴跌，关税冲击利润，耐克股价下跌10%。",
-      "title_en": "Nike shares fall 10% as China sales plunge, tariffs hit profits",
+      "title_cn": "富达宏观负责人预测比特币在2026年见底$65K，标志着牛市周期结束",
+      "title_en": "Fidelity macro lead calls $65K Bitcoin bottom in 2026, end of bull cycle",
       "news_sentiment": "Bearish",
-      "classification": "PRICED IN",
-      "reason_cn": "特定公司的负面新闻，反映宏观经济增长压力，但并非加密市场的直接驱动因素。",
-      "reason_en": "Specific negative corporate news reflecting broader macroeconomic pressure, but not a direct driver for crypto markets."
-    },
-    {
-      "title_cn": "经济学家认为延迟发布的CPI报告存在缺陷，对向下通胀数据表示怀疑。",
-      "title_en": "Economists see a lot of flaws in delayed CPI report showing downward inflation",
-      "news_sentiment": "Neutral",
       "classification": "NEUTRAL",
-      "reason_cn": "增加了对通胀路径的不确定性，对美联储未来行动预期造成干扰。",
-      "reason_en": "Increases uncertainty regarding the inflation path, potentially complicating expectations for future Fed action."
+      "reason_cn": "这是一个长期预测，对当前价格走势影响不大，但奠定了未来看跌的宏观预期。",
+      "reason_en": "This is a long-term forecast, having little immediate impact on current price action, but setting a future bearish macro expectation."
     },
     {
-      "title_cn": "日常用品比以往任何时候都贵——自2020年以来价格上涨了多少。",
-      "title_en": "Everyday items cost more than ever—how much prices have risen since 2020",
-      "news_sentiment": "Bearish",
-      "classification": "PRICED IN",
-      "reason_cn": "确认了持续的通胀压力，已被市场广为接受。",
-      "reason_en": "Confirms ongoing inflationary pressures, largely accepted and priced into the broader market."
+      "title_cn": "Metaplanet将与德意志银行合作，以MPJPY代码在美国首次亮相交易",
+      "title_en": "Metaplanet to debut US trading with Deutsche Bank under MPJPY",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "机构采用和传统金融的深入融合，增加了加密资产的信誉和流动性。",
+      "reason_en": "Deep integration of institutional adoption and traditional finance, boosting crypto asset credibility and liquidity."
     },
     {
-      "title_cn": "银行股强劲运行后，我们正在提高目标价格。",
-      "title_en": "We're increasing price targets on our bank stocks after their strong runs",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "金融部门信心提升，但与加密市场关联度较低。",
-      "reason_en": "Increased confidence in the financial sector, but low correlation to crypto market action."
-    },
-    {
-      "title_cn": "比特币在日本加息后反弹，Arthur Hayes认为美元兑日元将达到200。",
+      "title_cn": "在日本加息背景下比特币反弹，Arthur Hayes认为美元将达到200日元",
       "title_en": "Bitcoin rebounds on Japan rate hike as Arthur Hayes sees dollar at 200 yen",
       "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "将加密资产的上涨与宏观流动性变化（日元利差交易）联系起来，为当前涨势提供了宏观叙事支持。",
-      "reason_en": "Links crypto upside directly to macro liquidity shifts (Yen carry trade), providing a macro narrative for the current rally."
+      "classification": "PRICED IN",
+      "reason_cn": "日元疲软的预期是全球风险资产的支撑因素，反弹已发生，但这种宏观叙事依然存在。",
+      "reason_en": "The expectation of a weaker Yen is a supportive factor for global risk assets. The rebound has occurred, but the macro narrative persists."
     },
     {
-      "title_cn": "廉价电力如何将利比亚变成比特币挖矿热点。",
-      "title_en": "How cheap power turned Libya into a Bitcoin mining hotspot",
-      "news_sentiment": "Bullish",
-      "classification": "NEUTRAL",
-      "reason_cn": "证明了比特币挖矿的持续全球扩张和去中心化。",
-      "reason_en": "Evidence of continued global expansion and decentralization of Bitcoin mining."
-    },
-    {
-      "title_cn": "加密市值跌至8个月低点，分析师预计更多痛苦即将到来。",
-      "title_en": "Crypto market cap falls to 8-month low, analysts see more pain ahead",
-      "news_sentiment": "Bearish",
-      "classification": "DIVERGENCE",
-      "reason_cn": "典型的熊市情绪，但价格开始反弹，暗示市场正在买入低迷情绪，属于看涨的反向信号。",
-      "reason_en": "Typical bearish sentiment, but price is rebounding, suggesting the market is buying the fear. A contrarian bullish signal."
-    },
-    {
-      "title_cn": "SEC警告比特币矿工托管服务受证券法约束。",
-      "title_en": "SEC flags Bitcoin miner hosting services as subject to securities laws",
-      "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "针对加密基础设施的新的监管威胁，可能导致短期FUD和运营成本增加。",
-      "reason_en": "New regulatory threat targeting crypto infrastructure, potentially causing short-term FUD and increased operational costs."
-    },
-    {
-      "title_cn": "加密市场具备牛市所需的一切，但为何市场仍在下跌？",
-      "title_en": "Crypto has everything needed for a bull market, so why is the market down?",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "反映了市场情绪的困惑和结构性买盘与价格走势之间的脱节。",
-      "reason_en": "Reflects market confusion and the disconnect between underlying structural buying and price action."
-    },
-    {
-      "title_cn": "Synthetix在三年后重返以太坊主网：“我们可以重新运行它”。",
-      "title_en": "Synthetix returns to Ethereum mainnet after 3 years: ‘We can run it back’",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "重要的DeFi协议重新部署到以太坊，利好ETH生态系统的活动和TVL。",
-      "reason_en": "Major DeFi protocol redeploying to the Ethereum mainnet, positive for ETH ecosystem activity and TVL."
-    },
-    {
-      "title_cn": "在CPI数据降温后，ETH接近3K美元，但5.53亿美元的以太坊ETF流出引发警报。",
+      "title_cn": "以太坊在CPI数据降温后接近$3K，但$5.53亿以太坊ETF流出引发警报",
       "title_en": "ETH nears $3K after cool CPI print but $553M Ether ETF outflow raises alarm",
-      "news_sentiment": "Neutral",
-      "classification": "DIVERGENCE",
-      "reason_cn": "价格对利好数据（CPI降温）反应积极，但结构性抛压（ETF流出）仍然存在。价格上涨与流出形成背离。",
-      "reason_en": "Price reacts positively to supportive data (cool CPI), but structural selling pressure (ETF outflow) persists. Price strength diverges from outflow."
+      "news_sentiment": "Bearish",
+      "classification": "IMPULSE",
+      "reason_cn": "巨额的ETF资金流出是直接的、高影响力的负面催化剂，可能在短期内压制ETH价格。",
+      "reason_en": "The massive ETF outflow is a direct, high-impact negative catalyst that is likely to suppress the ETH price in the short term."
     },
     {
       "title_cn": "以太坊较历史高点下跌42%：ETH价格将在何处触底？",
       "title_en": "Ether down 42% from all-time high: Where will ETH price bottom?",
       "news_sentiment": "Bearish",
       "classification": "PRICED IN",
-      "reason_cn": "回顾性的熊市情绪，价格已消化大量跌幅。",
-      "reason_en": "Retrospective bearish sentiment; the price has already digested significant losses."
+      "reason_cn": "反映了市场已经发生的结构性技术弱点，是对现状的评论而非新的驱动因素。",
+      "reason_en": "Reflects the structural technical weakness already realized in the market; it is a commentary on the status quo rather than a new driver."
     },
     {
-      "title_cn": "ETHGas融资1200万美元，Buterin重提Gas期货辩论。",
-      "title_en": "ETHGas raises $12M as Buterin revives gas futures debate",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "以太坊生态系统获得风险投资，有利于长期发展和效率改进。",
-      "reason_en": "Venture capital influx into the Ethereum ecosystem, supporting long-term development and efficiency improvements."
-    },
-    {
-      "title_cn": "查尔斯·霍斯金森：特朗普的加密货币项目一直“令人沮丧”——但其他人不会谈论它。",
-      "title_en": "Charles Hoskinson: Trump Crypto Ventures Have Been 'Frustrating'—But Others Won't Talk About It",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "政治噪音和行业内部争论，对市场价格影响甚微。",
-      "reason_en": "Political noise and internal industry debates with minimal impact on market price."
-    },
-    {
-      "title_cn": "查尔斯·霍斯金森批评美国政府在加密货币问题上的客观性。",
-      "title_en": "Charles Hoskinson Critiques US Government on Crypto Objectivity",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "政治噪音，表达行业对监管环境的不满。",
-      "reason_en": "Political noise, expressing industry dissatisfaction with the regulatory environment."
-    },
-    {
-      "title_cn": "比特币ETF在以太坊流出持续的情况下，以4.57亿美元流入反弹。",
-      "title_en": "Bitcoin ETFs Rebound With $457 Million Inflow as Ether Outflows Persist",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "这是当前市场的核心驱动力。机构需求的回归是强烈的结构性看涨信号。",
-      "reason_en": "The core driver of the current market. The return of institutional demand is a strong structural bullish signal."
-    },
-    {
-      "title_cn": "报告：中非共和国的比特币到Meme币实验在选举前威胁主权。",
-      "title_en": "Report: CAR’s Bitcoin-to-Memecoin Experiments Threaten Sovereignty Ahead of Election",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "区域性的政治和加密实验风险，对全球市场影响有限。",
-      "reason_en": "Regional political and crypto experimentation risks, limited impact on global markets."
-    },
-    {
-      "title_cn": "伯尼·桑德斯推动暂停数据中心开发，以让‘民主赶上’人工智能。",
-      "title_en": "Bernie Sanders Pushes for Data Center Development Pause to Let ‘Democracy Catch up’ With AI",
+      "title_cn": "Terraform破产管理人就TerraUSD崩盘起诉Jump Trading，索赔$40亿",
+      "title_en": "Terraform Bankruptcy Admin Sues Jump Trading for $4B Over TerraUSD Collapse: Report",
       "news_sentiment": "Bearish",
       "classification": "IMPULSE",
-      "reason_cn": "反数据中心和反能源消耗情绪可能蔓延至PoW挖矿行业，带来监管压力。",
-      "reason_en": "Anti-data center and anti-energy consumption sentiment could spill over to the PoW mining sector, creating regulatory pressure."
+      "reason_cn": "重大的法律诉讼，增加了加密生态系统的历史风险和未来的法律不确定性。",
+      "reason_en": "Significant legal action that increases perceived historical risk and future legal uncertainty within the crypto ecosystem."
+    },
+    {
+      "title_cn": "参议员为加密市场结构法案设定了一月份的标记日期",
+      "title_en": "Senators Set January Markup for Crypto Market Structure Bill",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "未来的监管进展，目前对价格影响未明确。",
+      "reason_en": "Future regulatory progress; the impact on price is not yet defined."
     }
   ],
   "fed_futures": {
     "price": 96.42,
     "implied_rate": 3.58,
-    "timestamp": "2025-12-19T09:34:31.998393+00:00",
+    "timestamp": "2025-12-19T13:35:20.869523+00:00",
     "trend": "Dovish (Rate expectations dropping)",
     "change_5d_bps": -14.3,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 157.073,
-    "timestamp": "2025-12-19T09:34:32.040279+00:00",
+    "price": 157.28,
+    "timestamp": "2025-12-19T13:35:20.912426+00:00",
     "trend": "Yen Weakness (Risk On)",
-    "change_5d_pct": 0.76,
+    "change_5d_pct": 0.89,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 98.63,
-      "change_5d_pct": 0.49,
+      "price": 98.71,
+      "change_5d_pct": 0.58,
       "trend": "Stronger (Risk Off)"
     },
     "us10y": {
-      "price": 4.12,
-      "change_5d_pct": -1.86,
+      "price": 4.15,
+      "change_5d_pct": -0.84,
       "trend": "Neutral Falling"
     },
     "vix": {
-      "price": 16.23,
-      "change_5d_pct": -1.64,
+      "price": 16.42,
+      "change_5d_pct": -0.48,
       "trend": "Normal"
     }
   },
   "coins": [
     {
       "symbol": "BTC",
-      "price": 88119.1,
-      "change_24h": 0.9937881080089922,
-      "rsi_4h": 53.077160269587466,
-      "funding_rate": 0.00873081305815,
-      "open_interest": 2403325.3900000043,
-      "sentiment": "Bullish",
-      "score": 85,
-      "comment_cn": "受益于巨大的ETF流入和宏观流动性支持。高OI和正向资金费率显示多头信心强劲，倾向于继续突破。",
-      "comment_en": "Benefiting from massive ETF inflows and macro liquidity support. High OI and positive funding indicate strong long confidence, favoring continued breakout."
+      "price": 87959.7,
+      "change_24h": -0.009548916027524444,
+      "rsi_4h": 52.22066178667648,
+      "funding_rate": 0.00646551832417,
+      "open_interest": 2404052.300000005,
+      "sentiment": "Neutral",
+      "score": 60,
+      "comment_cn": "技术上严重超卖（RSI信号），但受DXY走强和ETH抛售拖累。价格仍处于关键整合区。",
+      "comment_en": "Technically heavily oversold (RSI signal), but dragged down by DXY strength and ETH selling pressure. Price remains in a key consolidation zone."
     },
     {
       "symbol": "ETH",
-      "price": 2955.54,
-      "change_24h": 3.629344712362765,
-      "rsi_4h": 51.42761332307631,
-      "funding_rate": -0.001631234049,
-      "open_interest": 5659878.430000015,
-      "sentiment": "Bullish",
-      "score": 75,
-      "comment_cn": "尽管ETF持续流出，但价格强劲反弹（+3.63%）。这表明抛压正在被吸收，市场对DeFi和L2叙事有高需求。",
-      "comment_en": "Strong rebound (+3.63%) despite persistent ETF outflows. This suggests selling pressure is being absorbed, indicating high demand for DeFi and L2 narratives."
+      "price": 2959.83,
+      "change_24h": 2.1208545522295297,
+      "rsi_4h": 51.710902538678674,
+      "funding_rate": -0.00349567984087,
+      "open_interest": 5744822.120000015,
+      "sentiment": "Bearish",
+      "score": 40,
+      "comment_cn": "短期面临巨大压力。高达$5.53亿的ETF流出是主要的看跌催化剂，需要在短期内被吸收。",
+      "comment_en": "Facing significant immediate pressure. The massive $553M ETF outflow is the primary bearish catalyst that needs to be absorbed in the near term."
     },
     {
       "symbol": "SOL",
-      "price": 124.55,
-      "change_24h": 0.8338730569948195,
-      "rsi_4h": 47.47695850272284,
+      "price": 125.88,
+      "change_24h": 0.9219915016435432,
+      "rsi_4h": 49.90816859040602,
       "funding_rate": 0.01,
-      "open_interest": 2775898.5300000017,
+      "open_interest": 2790736.960000001,
       "sentiment": "Neutral",
       "score": 55,
-      "comment_cn": "跟随大盘横盘整理，资金费率为正。需要BTC和ETH提供更清晰的领涨信号才能确定方向。",
-      "comment_en": "Consolidating, following the market lead, with positive funding. Needs clearer directional signals from BTC and ETH to confirm direction."
+      "comment_cn": "保持相对中性，RSI略低于50，但资金费率为正。关注能否守住关键支撑位。",
+      "comment_en": "Holding relatively neutral ground with RSI slightly below 50, but funding is positive. Watch for maintenance of key support levels."
     },
     {
       "symbol": "BNB",
-      "price": 847.0,
-      "change_24h": 1.0016694490818001,
-      "rsi_4h": 46.84869924431407,
+      "price": 846.3,
+      "change_24h": 0.3795516546079862,
+      "rsi_4h": 46.53186612203357,
       "funding_rate": 0.01,
-      "open_interest": 7634698.0,
+      "open_interest": 7739740.0,
       "sentiment": "Neutral",
-      "score": 60,
-      "comment_cn": "RSI处于中性区域，资金费率偏高。平台币表现稳定，但波动性低于市场领导者。",
-      "comment_en": "RSI is neutral, but funding is slightly high. Stable performance typical of exchange tokens, but lower volatility than market leaders."
+      "score": 55,
+      "comment_cn": "RSI位于46.5，略显疲软。继续表现出相对于大盘的韧性，但缺乏独立驱动力。",
+      "comment_en": "RSI at 46.5, showing slight weakness. Continues to show relative resilience compared to majors but lacks independent drive."
     },
     {
       "symbol": "DOGE",
-      "price": 0.12811,
-      "change_24h": 2.1936821952776024,
-      "rsi_4h": 47.7373149004497,
-      "funding_rate": -0.000237805463,
-      "open_interest": 680234.3999999999,
+      "price": 0.12839,
+      "change_24h": 0.5718314272285825,
+      "rsi_4h": 48.313532713990924,
+      "funding_rate": -0.0011931943769999999,
+      "open_interest": 685513.8599999998,
       "sentiment": "Neutral",
       "score": 50,
-      "comment_cn": "价格小幅上涨，但资金费率接近中性/负值。情绪和价格动能仍需观察，受社交媒体和领导者波动影响较大。",
-      "comment_en": ""
+      "comment_cn": "资金费率略负，RSI接近50，市场情绪平衡。在等待大盘方向。",
+      "comment_en": "Slightly negative funding and RSI near 50, indicating balanced market sentiment. Waiting for direction from the broader market."
     }
   ]
 }
