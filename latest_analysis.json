@@ -1,76 +1,166 @@
 {
-  "timestamp": "2025-12-21T17:45:02.855099",
-  "global_summary_cn": "流动性状态：宏观流动性信号矛盾，但偏向谨慎，假日期间交易清淡。虽然美联储降息预期增强（利好风险资产），但美元指数（DXY）走强却暗示全球融资条件收紧（利空风险资产）。消息面上，市场情绪高度分裂，长期多头（如Arthur Hayes的20万预测）与短期空头警告（需求萎缩，未触底）并存。由于欧洲/加拿大假期导致流动性极低，市场正处于高杠杆和方向不明的盘整期。宏观与叙事处于紧张的平衡状态，短期内向下波动（清算多头）的风险较高。",
-  "global_summary_en": "Liquidity Status: Macro liquidity signals are mixed but lean cautious, trading lightly due to holidays. While Fed rate expectations are dropping (Risk On), the strengthening DXY suggests tighter global funding conditions (Risk Off). Narratively, sentiment is highly fractured, balancing long-term bullish calls (e.g., Arthur Hayes' $200K prediction) against short-term bearish warnings (shrinking demand, not yet capitulation). Extremely low liquidity due to European/Canadian holidays means the market is consolidating with high leverage but little directional conviction. The macro and narrative are in a tight balance, increasing the short-term risk of a volatile move downward (to flush longs).",
+  "timestamp": "2025-12-21T21:45:33.397589",
+  "global_summary_cn": "流动性状态：短期正在收紧。尽管美联储降息预期下降（鸽派），但美元指数（DXY）走强，表明短期全球流动性正被回收到美元资产，对风险市场构成压力。**宏观流动性紧缩与叙事悲观形成完美看跌风暴。**\n\n新闻面上，主题主导为技术和情绪风险。一系列关于量子计算威胁比特币安全的警告充斥市场，引发长期技术担忧。与此同时，Santiment和Fundstrat等分析师警告市场尚未达到足够的恐慌程度以触底，预示着进一步的下行空间。在欧洲多国银行假期的薄弱交易环境下，这些负面叙事结合收紧的流动性，使得市场结构极度脆弱。如果缺乏明确的看涨催化剂，资产很可能在短期内测试支撑位。",
+  "global_summary_en": "Liquidity Status: Short-term tightening. Although Fed rate expectations are dropping (Dovish), the strengthening DXY suggests that short-term global liquidity is being recalled to USD assets, pressuring risk markets. **Tightening macro liquidity combines with a highly bearish narrative, forming a vulnerable market structure.**\n\nThe news flow is dominated by technical and sentiment risks. A barrage of warnings concerning quantum computing threats to Bitcoin's security has raised long-term technical debt concerns. Simultaneously, analysts like Santiment and Fundstrat warn that the market has not yet reached sufficient fear to call a bottom, suggesting further downside is possible. This combination of negative narratives and tightening liquidity, occurring during thin trading due to multiple European bank holidays, makes the market structure extremely fragile. Assets are likely to test supports without clear bullish catalysts.",
   "news_analysis": [
     {
-      "title_cn": "比特币交易员对7万美元崩盘和价格反弹持不同意见",
+      "title_cn": "如何这位30岁的女士在被梦想工作解雇后，将她的废品日记爱好变成了一项业务",
+      "title_en": "How this 30-year-old turned her junk journaling hobby into a business after being laid off from her dream job",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "无关的普通商业新闻。",
+      "reason_en": "Unrelated general business news."
+    },
+    {
+      "title_cn": "为了降低加密投资风险，市场开始分散其数字资产投注",
+      "title_en": "To lower crypto investment risk, the market is starting to diversify its digital asset bets",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "描述性的，表明市场风险意识提高，但对价格影响中性。",
+      "reason_en": "Descriptive of increased market risk awareness, but neutral impact on price."
+    },
+    {
+      "title_cn": "研究显示，大多数购房者不会货比三家寻找抵押贷款。为什么这是个坏主意",
+      "title_en": "Most homebuyers don't shop around for a mortgage, research shows. Why that's a bad idea",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "无关的普通金融新闻。",
+      "reason_en": "Unrelated general financial news."
+    },
+    {
+      "title_cn": "2025年，人工智能造成了超过5万人的裁员——以下是引用其进行裁员的顶级公司",
+      "title_en": "AI was behind over 50,000 layoffs in 2025 — here are the top firms to cite it for job cuts",
+      "news_sentiment": "Bearish",
+      "classification": "NEUTRAL",
+      "reason_cn": "宏观经济信号疲软，暗示消费者信心和就业市场承压，间接利空风险资产。",
+      "reason_en": "Weak macroeconomic signal, suggesting pressure on consumer confidence and job market, indirectly negative for risk assets."
+    },
+    {
+      "title_cn": "Roomba的破产可能会毁掉的远不止一家扫地机器人制造商",
+      "title_en": "Roomba's bankruptcy may wreck a lot more than one robot vacuum maker",
+      "news_sentiment": "Bearish",
+      "classification": "NEUTRAL",
+      "reason_cn": "负面商业新闻，暗示经济环境艰难。",
+      "reason_en": "Negative business news, suggesting a difficult economic environment."
+    },
+    {
+      "title_cn": "[GBP/EUR/CHF/CAD] 银行假期",
+      "title_en": "[GBP/EUR/CHF/CAD] Bank Holiday (Holiday)",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "多国假期导致交易清淡，可能加剧价格波动。",
+      "reason_en": "Multiple holidays lead to thin trading volume, potentially exacerbating volatility."
+    },
+    {
+      "title_cn": "加密高管：将比特币迁移到后量子时代可能'轻易'需要5-10年",
+      "title_en": "Migrating Bitcoin to post-quantum may 'easily' take 5-10 years: Crypto exec",
+      "news_sentiment": "Bearish",
+      "classification": "IMPULSE",
+      "reason_cn": "关于量子威胁的长期技术风险警告，是当前推动负面情绪的主导叙事之一。",
+      "reason_en": "A warning about the long-term technical risk of quantum threats, currently driving negative sentiment."
+    },
+    {
+      "title_cn": "比特币交易者在$70K暴跌和BTC价格反弹之间意见分歧",
       "title_en": "Bitcoin traders split between $70K crash and BTC price rebound within days",
       "news_sentiment": "Neutral",
       "classification": "NEUTRAL",
-      "reason_cn": "反映了市场在当前高位缺乏共识，方向性不确定性极高，预示着潜在的大幅波动。",
-      "reason_en": "Reflects high uncertainty and lack of consensus at current high price levels, signaling potential for sharp volatility.",
-      "classification_cn": "中性"
+      "reason_cn": "反映了市场高度不确定性，验证了当前盘整状态。",
+      "reason_en": "Reflects high market uncertainty, validating the current consolidation state."
     },
     {
-      "title_cn": "巴西加密货币活动增长43%，平均投资超过1000美元",
+      "title_cn": "报告：巴西加密活动增长43%，平均投资超过$1,000",
       "title_en": "Crypto activity in Brazil rises 43% with average investment surpassing $1,000: Report",
       "news_sentiment": "Bullish",
       "classification": "PRICED IN",
-      "reason_cn": "积极的结构性采用新闻，表明长期需求增长，但对缺乏流动性的短期价格影响不大。",
-      "reason_en": "Positive structural adoption news, indicating long-term demand growth, but unlikely to impact short-term price action due to thin liquidity.",
-      "classification_cn": "已计入价格"
+      "reason_cn": "积极的采用数据，但不足以抵消宏观和技术面悲观情绪。",
+      "reason_en": "Positive adoption data, but insufficient to counteract macro and technical pessimism."
     },
     {
-      "title_cn": "加密市场'还没恐慌到足以触底'：Santiment",
+      "title_cn": "Santiment：加密市场'恐慌程度不够'，尚无法触底",
       "title_en": "Crypto market ‘isn’t scared enough’ to call a bottom yet: Santiment",
       "news_sentiment": "Bearish",
       "classification": "IMPULSE",
-      "reason_cn": "直接警告市场情绪过于乐观，尚未出现投降信号，支持短期看跌的心理分析。",
-      "reason_en": "A direct warning that market sentiment is still too complacent and lacks capitulation signals, supporting a cautious/bearish short-term outlook.",
-      "classification_cn": "即时影响"
+      "reason_cn": "直接暗示市场尚未完成底部形态，需要进一步的恐慌和下行。",
+      "reason_en": "Directly suggests the market has not finalized a bottom and requires further panic and downside."
     },
     {
-      "title_cn": "比特币明显需求萎缩，分析师称新熊市信号出现",
-      "title_en": "Bitcoin's apparent demand shrinks, signals new bear market: Analysts",
-      "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "技术面和链上需求的直接警告，与流动性紧张的宏观环境相吻合，增加了短期风险。",
-      "reason_en": "A direct technical/on-chain demand warning that aligns with the tightening macro environment (DXY strength), increasing short-term downside risk.",
-      "classification_cn": "即时影响"
-    },
-    {
-      "title_cn": "为什么比特币亿万富翁Arthur Hayes预期BTC将在3月达到20万美元",
-      "title_en": "Why Bitcoin Billionaire Arthur Hayes Expects BTC to Hit $200K by March",
-      "news_sentiment": "Bullish",
-      "classification": "DIVERGENCE",
-      "reason_cn": "高度看涨的长期预测，与市场普遍的短期谨慎情绪形成鲜明对比。这可能促使零售继续做多，但机构可能在高位出货。",
-      "reason_en": "A highly bullish long-term prediction contrasting sharply with prevailing short-term caution. This divergence may keep retail interest high, potentially allowing institutions to distribute at high prices.",
-      "classification_cn": "分歧"
-    },
-    {
-      "title_cn": "多国银行假日（低流动性风险）",
-      "title_en": "[GBP] Bank Holiday (Holiday), [EUR] Italian Bank Holiday (Holiday), etc.",
+      "title_cn": "BitMine的400万ETH持仓对其股票估值意味着什么",
+      "title_en": "What BitMine’s 4M ETH holdings mean for its stock valuation",
       "news_sentiment": "Neutral",
       "classification": "NEUTRAL",
-      "reason_cn": "银行假日导致机构交易量下降，加剧了市场流动性紧张，使得价格更容易受到高杠杆头寸清算的影响。",
-      "reason_en": "Bank holidays reduce institutional volume, exacerbating thin liquidity, making the market vulnerable to sudden moves driven by leveraged position liquidations.",
-      "classification_cn": "中性"
+      "reason_cn": "特定的公司新闻，对更广泛的加密货币市场影响有限。",
+      "reason_en": "Specific company news, limited impact on the broader crypto market."
+    },
+    {
+      "title_cn": "Fundstrat的2026年加密展望警告回调，与Tom Lee观点形成对比",
+      "title_en": "Fundstrat’s circulating 2026 crypto outlook warns of pullback, contrasting Tom Lee",
+      "news_sentiment": "Bearish",
+      "classification": "IMPULSE",
+      "reason_cn": "来自知名机构的看跌预测，增加了市场的谨慎情绪。",
+      "reason_en": "Bearish prediction from a notable firm, adding to overall cautious sentiment."
+    },
+    {
+      "title_cn": "比特币跌破$85K，DATs面临'mNAV过山车'：Finance Redefined",
+      "title_en": "Bitcoin dips below $85K as DATs face ‘mNAV rollercoaster’: Finance Redefined",
+      "news_sentiment": "Bearish",
+      "classification": "PRICED IN",
+      "reason_cn": "回顾了最近发生的市场疲软事件。",
+      "reason_en": "Recounts recent market weakness that has already occurred."
+    },
+    {
+      "title_cn": "Coinbase超级应用竞标、Saylor 10亿美元购买及更多——周回顾",
+      "title_en": "Coinbase Super App Bid, Saylor $1B Buy, and More — Week in Review",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "先前事件的摘要，缺乏新的推动力。",
+      "reason_en": "Summary of prior events, lacking new impetus."
+    },
+    {
+      "title_cn": "Cardano的Hoskinson警告，加密货币进入后量子时代将需要权衡取舍",
+      "title_en": "Cardano's Hoskinson Warns Crypto Becoming Post-Quantum Will Require Trade-Offs",
+      "news_sentiment": "Bearish",
+      "classification": "IMPULSE",
+      "reason_cn": "与量子计算相关的技术风险警告，属于当前市场的主要悲观叙事。",
+      "reason_en": "Technical risk warning related to quantum computing, part of the dominant bearish narrative."
+    },
+    {
+      "title_cn": "Nic Carter称比特币开发者正'梦游'走向量子清算",
+      "title_en": "Nic Carter Says Bitcoin Devs Are ‘Sleepwalking’ Toward a Quantum Reckoning",
+      "news_sentiment": "Bearish",
+      "classification": "IMPULSE",
+      "reason_cn": "进一步加剧了市场对量子技术和比特币长期安全性的担忧。",
+      "reason_en": "Further heightens concerns about quantum technology and Bitcoin's long-term security."
+    },
+    {
+      "title_cn": "分析师声称比特币可能在9年内被破解：量子事件视界临近",
+      "title_en": "Quantum Event Horizon Ahead: Analyst Claims That Bitcoin Could Be Broken in 9 Years",
+      "news_sentiment": "Bearish",
+      "classification": "IMPULSE",
+      "reason_cn": "专注于量子风险的负面头条，强化了当前的避险情绪。",
+      "reason_en": "Negative headline focusing on quantum risk, reinforcing current risk-off sentiment."
+    },
+    {
+      "title_cn": "加密游戏崩溃：2025年最大的停服事件",
+      "title_en": "Crypto Game Crashouts: The Biggest Shutdowns in 2025",
+      "news_sentiment": "Bearish",
+      "classification": "NEUTRAL",
+      "reason_cn": "确认了加密货币特定领域（如游戏）的弱点，增加了整体谨慎情绪。",
+      "reason_en": "Confirms weakness in specific crypto sectors (like gaming), adding to overall cautious sentiment."
     }
   ],
   "fed_futures": {
     "price": 96.41,
     "implied_rate": 3.59,
-    "timestamp": "2025-12-21T17:44:49.866410+00:00",
+    "timestamp": "2025-12-21T21:45:12.917590+00:00",
     "trend": "Dovish (Rate expectations dropping)",
     "change_5d_bps": -13.5,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 157.75,
-    "timestamp": "2025-12-21T17:44:49.918553+00:00",
+    "price": 157.634,
+    "timestamp": "2025-12-21T21:45:12.962119+00:00",
     "trend": "Yen Weakness (Risk On)",
-    "change_5d_pct": 1.19,
+    "change_5d_pct": 1.12,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
@@ -93,63 +183,63 @@
   "coins": [
     {
       "symbol": "BTC",
-      "price": 88390.0,
-      "change_24h": 0.21087479025894518,
-      "rsi_4h": 53.76808198406812,
-      "funding_rate": 0.00581396346392,
-      "open_interest": 2390299.470000003,
+      "price": 88233.0,
+      "change_24h": -0.07101138560541125,
+      "rsi_4h": 52.199944528227114,
+      "funding_rate": 0.00699559679548,
+      "open_interest": 2398527.550000003,
       "sentiment": "Neutral",
-      "score": 55,
-      "comment_cn": "价格在高位盘整，但OI高企，Funding为正。在流动性紧张和熊市警告下，存在多头清算的风险。",
-      "comment_en": "Price consolidates at a high level with high OI and positive funding. Risk of long liquidation is elevated given tight liquidity and bearish warnings."
+      "score": 40,
+      "comment_cn": "高OI和略正资金费率（Funding）表明多头仍有持仓，但宏观环境和负面叙事使其极其脆弱，可能面临大幅清算。",
+      "comment_en": "High OI and slightly positive funding suggest bulls are holding, but the macro environment and negative narratives make it highly vulnerable to liquidation."
     },
     {
       "symbol": "ETH",
-      "price": 2985.7,
-      "change_24h": 0.2807875486172111,
-      "rsi_4h": 53.40971364441368,
-      "funding_rate": 0.0033707537993499996,
-      "open_interest": 5873728.890000029,
+      "price": 2978.9,
+      "change_24h": -0.12103899064882019,
+      "rsi_4h": 51.95208194487506,
+      "funding_rate": -0.00327888209353,
+      "open_interest": 5795377.400000032,
       "sentiment": "Neutral",
-      "score": 58,
-      "comment_cn": "表现与BTC相似，RSI和资金费率均表明处于中性偏多的平衡状态。等待BTC给出方向。",
-      "comment_en": "Mirroring BTC, RSI and funding indicate a neutral-to-slightly-bullish balance. Awaiting directional cues from Bitcoin."
+      "score": 45,
+      "comment_cn": "价格平稳，资金费率略负。在不确定性环境下，交易员倾向于对冲或轻微做空，但技术面相对中性。",
+      "comment_en": "Flat price action with slightly negative funding. Traders are hedging or slightly shorting amid uncertainty, but the technical structure is neutral."
     },
     {
       "symbol": "SOL",
-      "price": 125.77,
-      "change_24h": -0.25378697755572005,
-      "rsi_4h": 49.78341229207178,
-      "funding_rate": 0.00127511877804,
-      "open_interest": 2824470.4000000027,
-      "sentiment": "Neutral",
-      "score": 45,
-      "comment_cn": "略微落后于主流币，价格小幅下跌，RSI接近50。如果市场回撤，SOL可能首先承压。",
-      "comment_en": "Slightly lagging majors, with a small price drop and RSI near 50. SOL may be among the first to face pressure if the market retraces."
+      "price": 124.97,
+      "change_24h": -1.1626067700094898,
+      "rsi_4h": 46.757791247652314,
+      "funding_rate": 0.00219141916774,
+      "open_interest": 2794660.980000002,
+      "sentiment": "Bearish",
+      "score": 30,
+      "comment_cn": "24小时跌幅较大，RSI低于50，显示出明确的短期疲软和卖压。尽管资金费率为正，但价格下跌表明多头正在出货。",
+      "comment_en": "Significant 24h drop and RSI below 50 indicate clear short-term weakness and selling pressure. Price drop despite positive funding suggests longs are capitulating."
     },
     {
       "symbol": "BNB",
-      "price": 853.6,
-      "change_24h": 0.04688232536333535,
-      "rsi_4h": 50.25732694491691,
-      "funding_rate": 0.0020442415942,
-      "open_interest": 7576608.0,
+      "price": 852.2,
+      "change_24h": -0.1054975969991768,
+      "rsi_4h": 49.28639870363591,
+      "funding_rate": -0.00226547716681,
+      "open_interest": 7551386.0,
       "sentiment": "Neutral",
       "score": 50,
-      "comment_cn": "波动性极低，RSI和价格处于严格的中性区间，反映出内部结构稳定。",
-      "comment_en": "Extremely low volatility, with RSI and price firmly in the neutral range, reflecting stable internal structure."
+      "comment_cn": "价格相对稳定，资金费率略负。表现出相对弹性，但在大盘下跌时难以独立上涨。",
+      "comment_en": "Relatively stable price action with slightly negative funding. Shows resilience but unlikely to rally independently if the broader market falls."
     },
     {
       "symbol": "DOGE",
-      "price": 0.13016,
-      "change_24h": -1.1468064099643132,
-      "rsi_4h": 48.60932399709809,
-      "funding_rate": -1.7772002929999998e-05,
-      "open_interest": 662657.4999999998,
+      "price": 0.12954,
+      "change_24h": -2.123158292406503,
+      "rsi_4h": 46.88486973808488,
+      "funding_rate": -0.0030429794753200003,
+      "open_interest": 652436.2899999997,
       "sentiment": "Bearish",
-      "score": 35,
-      "comment_cn": "领跌主流山寨币，资金费率趋于零。在缺乏上涨叙事和流动性的环境下，表现疲软。",
-      "comment_en": "Leading the altcoin slight decline, with funding rate nearing zero. Showing weakness in an environment lacking fresh bullish narratives and liquidity."
+      "score": 25,
+      "comment_cn": "跌幅最大，资金费率负值。风险偏好下降导致投机性资产首先被抛售。",
+      "comment_en": "Highest percentage drop with negative funding. Speculative assets are being sold first as risk appetite declines."
     }
   ]
 }
