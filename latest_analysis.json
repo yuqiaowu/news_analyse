@@ -1,140 +1,92 @@
 {
-  "timestamp": "2025-12-20T21:41:43.459368",
-  "global_summary_cn": "当前全球流动性呈现**谨慎风险偏好（Cautious Risk On）**的状态。一方面，日元持续走弱（USD/JPY 157.75）和美10年期国债收益率下降提供了利于风险资产的流动性支撑；另一方面，美元指数（DXY 98.6）走强则构成潜在阻力。\n\n**新闻叙事层面**：市场情绪显著偏向看空。尽管比特币价格维持在 $88,000 以上的高位，但关键分析师（如Fundstrat）和市场信号（需求萎缩）却发出“熊市回归”和“回调警告”。\n\n**双层分析综合**：市场处于**分歧**状态（流动性松弛 vs. 负面叙事）。价格正在拒绝吸收看跌新闻，显示出结构性买盘（如ETF持续流入）的强大韧性。这种韧性表明，在关键的CPI数据公布前，多头仍在占据主导地位。交易员应警惕即将到来的高影响力宏观数据（如CPI和BOJ利率决定）可能引发的剧烈波动。",
-  "global_summary_en": "Global liquidity currently shows a **Cautious Risk On** status. The continued weakness of the Japanese Yen (USD/JPY 157.75) and a slight decline in the US 10-year yield provide structural tailwinds for risk assets, while the strengthening DXY (98.6) presents a potential headwind.\n\n**News Narrative Layer**: Market sentiment is notably bearish. Despite Bitcoin holding high above $88,000, prominent analysts (e.g., Fundstrat) and market indicators (demand shrinking) are issuing warnings of a 'new bear market' and significant pullbacks.\n\n**Dual-Layer Synthesis**: The market exhibits **Divergence** (Loose Liquidity vs. Negative Narrative). Price action is currently rejecting the bearish news, indicating strong structural resilience, likely driven by persistent institutional flows (IBIT ETF inflows). This resilience suggests that bulls remain dominant ahead of critical macroeconomic releases. Traders should prepare for volatility stemming from high-impact calendar events like the upcoming CPI and BOJ rate decision.",
+  "timestamp": "2025-12-21T01:42:30.466144",
+  "global_summary_cn": "流动性状态：全球流动性略显收紧，主要受DXY走强（避险情绪上升）的影响，但美债收益率(US10Y)的下降提供了一定支撑，且日元持续疲软维持了套利交易的风险偏好。整体环境持谨慎中性。\n\n新闻叙事方面，市场情绪立即偏向看跌。分析师普遍警告市场“恐惧不足”且需求萎缩，预示可能出现新一轮熊市或回调。然而，结构性利好因素依然强劲，特别是比特币ETF IBIT的持续资金流入（尽管回报为负）和机构采用的进展（如XRPL借贷协议）。\n\n综合分析：市场处于结构性利好（IBIT/机构需求）与即时性悲观情绪（分析师回调警告/DXY走强）的**分歧状态**。在重大宏观事件（CPI、BOJ）来临前，市场预计将维持震荡或小幅下行，等待宏观指引。短期交易者应注意高位整理后的下行风险。",
+  "global_summary_en": "Liquidity Status: Global liquidity is slightly tightening, primarily influenced by a strengthening DXY (Risk Off sentiment), although falling US10Y yields offer some counter-support, and continued JPY weakness maintains carry trade risk appetite. The overall macro environment is cautious and neutral.\n\nRegarding the news narrative, immediate market sentiment leans bearish, with analysts widely warning of 'insufficient fear' and shrinking demand, signaling a potential new bear market or correction. However, structural bullish factors remain robust, notably the persistent inflows into the Bitcoin ETF IBIT (despite negative returns) and advances in institutional adoption (e.g., XRPL lending protocols).\n\nSynthesis: The market is in a state of **Divergence**—structural strength (IBIT/institutional demand) clashes with immediate pessimism (analyst warnings/DXY strength). Ahead of high-impact macro events (CPI, BOJ), the market is expected to consolidate or see slight downward pressure while awaiting major macro guidance. Short-term traders should monitor downside risks following high-level consolidation.",
   "news_analysis": [
     {
-      "title_cn": "Roomba破产可能带来的影响远超一家扫地机器人制造商",
-      "title_en": "Roomba's bankruptcy may wreck a lot more than one robot vacuum maker",
-      "news_sentiment": "Bearish",
-      "classification": "NEUTRAL",
-      "reason_cn": "宏观经济新闻，暗示消费者支出疲软或衰退风险，对风险资产情绪略偏负面。",
-      "reason_en": "Macroeconomic news, suggesting weak consumer spending or recessionary risks. Slightly negative for overall risk asset sentiment."
-    },
-    {
-      "title_cn": "前特朗普顾问迪娜·鲍威尔·麦考密克在任职八个月后离开Meta董事会",
-      "title_en": "Former Trump advisor Dina Powell McCormick leaves Meta board after eight-month stint",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "企业治理新闻，与加密货币市场无直接关联。",
-      "reason_en": "Corporate governance news, no direct correlation with the crypto market."
-    },
-    {
-      "title_cn": "纽约联储主席威廉姆斯称某些“技术因素”夸大了11月份CPI读数向下偏差",
+      "title_cn": "美联储纽约联储主席威廉姆斯表示，一些“技术因素”扭曲了11月CPI读数使其偏低",
       "title_en": "NY Fed President Williams says some 'technical factors' distorted November's CPI reading downward",
       "news_sentiment": "Bearish",
-      "classification": "NEUTRAL",
-      "reason_cn": "暗示实际通胀可能比报告的更顽固，支持美联储维持限制性利率更长时间，对风险资产不利。",
-      "reason_en": "Suggests actual inflation may be stickier than reported, supporting prolonged restrictive Fed policy, which is negative for risk assets."
+      "classification": "IMPULSE",
+      "reason_cn": "这暗示未来的通胀数据可能更高，从而支持美联储维持限制性政策更长时间，对风险资产构成压力。",
+      "reason_en": "This implies potential future inflation readings might be higher, supporting the Fed's restrictive policy stance for longer, placing pressure on risk assets.",
+      "related_asset": "USD"
     },
     {
-      "title_cn": "分析师称比特币表观需求萎缩，预示新的熊市：分析师",
+      "title_cn": "比特币ETF IBIT尽管回报为负，仍跻身2025年基金流量榜单前列",
+      "title_en": "Bitcoin ETF IBIT Ranks Among Top 2025 Fund Flows Despite Negative Returns",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "这表明机构和零售投资者对结构性配置比特币的需求极高且具有持续性，支撑了长期牛市叙事。",
+      "reason_en": "This indicates extremely high and persistent demand from institutional and retail investors for structural Bitcoin allocation, underpinning the long-term bull narrative.",
+      "related_asset": "BTC"
+    },
+    {
+      "title_cn": "加密货币市场“恐惧不足”尚不足以触底：Santiment",
+      "title_en": "Crypto market ‘isn’t scared enough’ to call a bottom yet: Santiment",
+      "news_sentiment": "Bearish",
+      "classification": "PRICED IN",
+      "reason_cn": "反映了市场目前普遍的悲观情绪，认为需要经历一次更深层次的抛售或投降才能形成有效底部。价格正在反映这种回调预期。",
+      "reason_en": "Reflects prevailing pessimistic sentiment that a true bottom requires a deeper sell-off or capitulation event. Prices are currently reflecting this expectation of a pull-back.",
+      "related_asset": "BTC, General Market"
+    },
+    {
+      "title_cn": "分析师称比特币表观需求萎缩，预示着新的熊市",
       "title_en": "Bitcoin's apparent demand shrinks, signals new bear market: Analysts",
       "news_sentiment": "Bearish",
-      "classification": "DIVERGENCE",
-      "reason_cn": "极度看跌的叙事。然而，当前价格（$88k）高于此新闻暗示的水平，市场正在拒绝该信号，显示出韧性。",
-      "reason_en": "Extremely bearish narrative. However, the current price ($88k) is holding high, rejecting the signal, indicating resilience or accumulation."
+      "classification": "PRICED IN",
+      "reason_cn": "与Santiment的观点一致，市场在短期内缺乏买盘动力，这是当前价格波动不大但未能突破阻力位的原因。",
+      "reason_en": "Consistent with the wider bearish view, indicating a lack of immediate buying power, which explains the current consolidation without a strong breakthrough.",
+      "related_asset": "BTC"
     },
     {
-      "title_cn": "抛售比特币买入黄金？一位分析师称不必着急",
-      "title_en": "Sell Bitcoin for gold? Not so fast, one analyst says",
-      "news_sentiment": "Neutral",
+      "title_cn": "投资大师罗伯特·清崎警告恶性通货膨胀将压垮毫无准备的人，而比特币成为核心防御",
+      "title_en": "Robert Kiyosaki Warns Hyperinflation Will Crush the Unprepared While Bitcoin Emerges as Core Defense",
+      "news_sentiment": "Bullish",
       "classification": "NEUTRAL",
-      "reason_cn": "内部辩论，抵消了市场上的极端看空观点。",
-      "reason_en": "Internal market debate, counterbalancing extreme bearish viewpoints."
+      "reason_cn": "加强了比特币作为对冲传统货币贬值和宏观经济风险的长期价值存储叙事，但对短期价格影响不大。",
+      "reason_en": "Reinforces the long-term store-of-value narrative for Bitcoin as a hedge against currency devaluation and macroeconomic risk, but has little impact on immediate price action.",
+      "related_asset": "BTC"
     },
     {
-      "title_cn": "比特币RSI相对于黄金接近三年低点，分析师认为看涨回归在即",
-      "title_en": "Bitcoin RSI nears three-year lows vs. gold as analyst sees bullish comeback",
+      "title_cn": "XRPL借贷协议即将推出：首个协议级信用系统将XRP置于机构流动性中心",
+      "title_en": "XRPL Lending Protocol Is Coming: First Protocol-Level Credit System Puts XRP at Center of Institutional Liquidity",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "提供了一种看涨的相对价值视角，支持逢低买入的论点。",
-      "reason_en": "Provides a bullish relative value perspective, supporting the buy-the-dip thesis."
+      "reason_cn": "标志着XRP Ledger生态系统在机构实用性方面取得重大进展，为XRP提供了新的基本面催化剂。",
+      "reason_en": "Marks a significant step in the institutional utility of the XRP Ledger ecosystem, providing a new fundamental catalyst for XRP.",
+      "related_asset": "XRP"
     },
     {
-      "title_cn": "IBIT在2025年ETF流量中排名第6，尽管回报为负，但仍是“一个非常好的迹象”",
-      "title_en": "IBIT ranking 6th in 2025 ETF flows despite negative returns is ‘a really good sign’",
+      "title_cn": "迪拜慈善机构开始根据IACAD倡议接受加密货币捐赠",
+      "title_en": "Dubai Charities Begin Accepting Crypto Donations Under IACAD Initiative",
       "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "强调结构性需求持续存在，这是当前市场韧性的核心驱动力。",
-      "reason_en": "Highlights persistent structural demand (ETF inflows), which is a key driver of current market resilience, though already factored into high prices."
+      "classification": "NEUTRAL",
+      "reason_cn": "属于持续的全球采用新闻，对整体情绪有利，但缺乏直接的价格驱动力。",
+      "reason_en": "Part of ongoing global adoption news, generally positive for sentiment but lacks immediate price impetus.",
+      "related_asset": "General Market"
     },
     {
-      "title_cn": "Fundstrat流传的2026年加密展望警告回调，与Tom Lee的观点形成对比",
+      "title_cn": "Fundstrat流传的2026年加密货币展望警告可能出现回调，与汤姆·李的预测形成对比",
       "title_en": "Fundstrat’s circulating 2026 crypto outlook warns of pullback, contrasting Tom Lee",
       "news_sentiment": "Bearish",
-      "classification": "DIVERGENCE",
-      "reason_cn": "知名分析师发出回调警告。价格未能因该消息而大幅下跌，显示市场正在消化或忽视此警告。",
-      "reason_en": "High-profile analyst warning of a pullback. The lack of significant price decline suggests the market is either absorbing or ignoring the warning."
-    },
-    {
-      "title_cn": "BitMine的400万ETH持有量对其股票估值意味着什么",
-      "title_en": "What BitMine’s 4M ETH holdings mean for its stock valuation",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "公司特定新闻，与更广泛的加密货币市场情绪关联较弱。",
-      "reason_en": "Company-specific news, weak association with broader crypto market sentiment."
-    },
-    {
-      "title_cn": "比特币跌破$85K，因为DAT面临’mNAV过山车’",
-      "title_en": "Bitcoin dips below $85K as DATs face ‘mNAV rollercoaster’",
-      "news_sentiment": "Neutral",
       "classification": "PRICED IN",
-      "reason_cn": "过去的价格走势回顾，当前价格已恢复到$88k以上，表明下跌已被克服。",
-      "reason_en": "Recap of past price action. Current price is above $88k, indicating the dip has already been bought."
-    },
-    {
-      "title_cn": "区块链悄然为量子威胁做准备，比特币仍在讨论时间表",
-      "title_en": "Blockchains quietly prepare for quantum threat as Bitcoin debates timeline",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "长期技术发展新闻，对短期市场走势影响微乎其微。",
-      "reason_en": "Long-term technological development news, negligible impact on short-term market movements."
-    },
-    {
-      "title_cn": "比特币期货和期权定位表明即将迎来一次稳健的重置",
-      "title_en": "Bitcoin Futures and Options Positioning Suggests a Measured Reset Ahead",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "暗示衍生品市场结构健康化，对市场长期可持续性是积极的。",
-      "reason_en": "Suggests a healthy normalization of derivatives market structure, positive for long-term sustainability."
-    },
-    {
-      "title_cn": "随着现金和银行陷入困境，马绍尔群岛测试加密货币用于全民基本收入",
-      "title_en": "Marshall Islands Test Crypto for Universal Basic Income as Cash and Banks Fall Short",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "现实世界采用和用例扩展，是强烈的看涨信号。",
-      "reason_en": "Real-world adoption and use case expansion, a strong signal for long-term crypto viability."
-    },
-    {
-      "title_cn": "稳定币部门停滞在$310B附近，大牌正在易位",
-      "title_en": "Stablecoin Sector Stalls Near $310B as Big Names Swap Seats",
-      "news_sentiment": "Bearish",
-      "classification": "NEUTRAL",
-      "reason_cn": "稳定币市值停滞意味着新法币流入市场的速度放缓。",
-      "reason_en": "Stalled stablecoin growth implies a slowdown in new fiat entering the crypto ecosystem."
-    },
-    {
-      "title_cn": "OpenAI、微软因ChatGPT涉嫌参与康涅狄格州谋杀-自杀案被起诉",
-      "title_en": "OpenAI, Microsoft Sued Over ChatGPT's Alleged Role in Connecticut Murder-Suicide",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "大型科技公司的法律风险新闻，对加密货币市场的直接影响有限。",
-      "reason_en": "Legal risks for major tech companies; limited direct impact on the crypto market."
+      "reason_cn": "呼应了当前市场对回调的担忧，增加了谨慎情绪。虽然是长期展望，但短期内影响交易员的风险偏好。",
+      "reason_en": "Echoes current market anxieties about a potential correction, increasing caution. Although a long-term outlook, it affects near-term trader risk appetite.",
+      "related_asset": "BTC, General Market"
     }
   ],
   "fed_futures": {
     "price": 96.275,
     "implied_rate": 3.725,
-    "timestamp": "2025-12-20T21:41:22.979577+00:00",
+    "timestamp": "2025-12-21T01:42:14.571604+00:00",
     "trend": "Neutral (Stable expectations)",
     "change_5d_bps": 0.2,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
     "price": 157.75,
-    "timestamp": "2025-12-20T21:41:23.027840+00:00",
+    "timestamp": "2025-12-21T01:42:14.616049+00:00",
     "trend": "Yen Weakness (Risk On)",
     "change_5d_pct": 1.19,
     "zone": "Weak Yen (Intervention Risk)"
@@ -159,63 +111,63 @@
   "coins": [
     {
       "symbol": "BTC",
-      "price": 88305.9,
-      "change_24h": 0.4266996623477319,
-      "rsi_4h": 53.95755232317286,
-      "funding_rate": 0.00842566501814,
-      "open_interest": 2349129.100000004,
+      "price": 88082.0,
+      "change_24h": 0.01248992290311226,
+      "rsi_4h": 51.99968319084922,
+      "funding_rate": 0.00987563882392,
+      "open_interest": 2351923.6400000043,
       "sentiment": "Neutral",
-      "score": 60,
-      "comment_cn": "价格在看空警告下保持高位，显示出结构性买盘带来的强大韧性。关注$85K支撑。",
-      "comment_en": "Price holds high despite bearish warnings, showing strong resilience from structural buying. Watch $85K support."
+      "score": 55,
+      "comment_cn": "在结构性需求（ETF资金流）和短期熊市叙事之间进行激烈整合，等待CPI数据指引。",
+      "comment_en": "Strong consolidation between structural demand (ETF flows) and immediate bearish narratives, awaiting CPI data guidance."
     },
     {
       "symbol": "ETH",
-      "price": 2983.63,
-      "change_24h": 0.03453362837793201,
-      "rsi_4h": 53.51720901396906,
-      "funding_rate": 0.00120625066584,
-      "open_interest": 5856513.330000027,
+      "price": 2965.61,
+      "change_24h": -0.34175913541995956,
+      "rsi_4h": 50.792964126328876,
+      "funding_rate": 0.00145046153454,
+      "open_interest": 5767758.260000028,
       "sentiment": "Neutral",
-      "score": 55,
-      "comment_cn": "价格平稳，融资利率极低，高OI表明市场正在等待催化剂。",
-      "comment_en": "Price is stable with very low funding rates. High OI suggests the market is coiled, awaiting a catalyst."
+      "score": 52,
+      "comment_cn": "表现稳定，RSI处于中性区域，跟随比特币的横向盘整趋势。",
+      "comment_en": "Stable performance with RSI in neutral territory, tracking Bitcoin's sideways consolidation trend."
     },
     {
       "symbol": "SOL",
-      "price": 126.44,
-      "change_24h": -0.29177509660121803,
-      "rsi_4h": 51.16472196488425,
+      "price": 125.35,
+      "change_24h": -0.3101638301256566,
+      "rsi_4h": 47.8921727478315,
       "funding_rate": 0.01,
-      "open_interest": 2790096.4800000023,
+      "open_interest": 2809590.520000003,
       "sentiment": "Neutral",
-      "score": 50,
-      "comment_cn": "24小时略跌，但RSI中性。高融资费率需要谨慎对待，可能出现潜在的挤压或平仓。",
-      "comment_en": "Slight 24h drop but neutral RSI. High funding warrants caution regarding potential long squeeze or deleveraging."
+      "score": 48,
+      "comment_cn": "RSI略低于中线，未能显示出强势，但资金费率高企显示多头仍有兴趣。",
+      "comment_en": "RSI slightly below the midline, showing lack of immediate strength, but high funding rate indicates sustained long interest."
     },
     {
       "symbol": "BNB",
-      "price": 853.2,
-      "change_24h": -0.40854441461421737,
-      "rsi_4h": 49.529669214553856,
-      "funding_rate": 0.01,
-      "open_interest": 7745715.0,
+      "price": 851.7,
+      "change_24h": -0.14069644741469478,
+      "rsi_4h": 48.428328139504984,
+      "funding_rate": 0.00169966092783,
+      "open_interest": 7783570.0,
       "sentiment": "Neutral",
-      "score": 45,
-      "comment_cn": "RSI低于50，表现略弱于其他主要资产，但有高融资费率支撑。",
-      "comment_en": "RSI below 50, showing slightly weaker performance than other majors, despite high funding."
+      "score": 50,
+      "comment_cn": "波动率低，继续在关键支撑位附近横盘整理。",
+      "comment_en": "Low volatility, continues to trade sideways near key support levels."
     },
     {
       "symbol": "DOGE",
-      "price": 0.13234,
-      "change_24h": 0.04535833081342946,
-      "rsi_4h": 55.548602702174385,
+      "price": 0.1313,
+      "change_24h": 0.2596212583995166,
+      "rsi_4h": 52.36866595852765,
       "funding_rate": 0.01,
-      "open_interest": 665485.1399999998,
+      "open_interest": 649067.5499999998,
       "sentiment": "Neutral",
-      "score": 55,
-      "comment_cn": "RSI在55.5，位于中性偏强区域，投机性资金流仍在。",
-      "comment_en": "RSI at 55.5, indicating mild positive momentum. Speculative flows are still present."
+      "score": 53,
+      "comment_cn": "RSI略高，资金费率高企，显示出相对于主要币种的微弱韧性。",
+      "comment_en": "Slightly higher RSI and elevated funding rates suggest marginal resilience compared to major coins."
     }
   ]
 }
