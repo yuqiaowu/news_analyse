@@ -1,116 +1,27 @@
 {
-  "timestamp": "2025-12-22T05:46:34.062624",
-  "global_summary_cn": "宏观流动性结构上偏向宽松（美联储降息预期增强，日元疲软支持套利交易），但美元指数走强，构成短期压力，市场处于结构性“风险开启”但短期“谨慎”状态。新闻叙事方面则好坏参半：积极面包括巴西采用率激增、以太坊路线图升级以及阿瑟·海耶斯等大咖看高至$200K的言论。但同时，市场情绪警告（Santiment）和Fundstrat的警告提示潜在回调。综合来看，当前处于高位盘整阶段，市场并未出现恐慌，但整体资金费率和RSI显示健康，建议在此结构性流动性宽松支撑下，逢低买入。",
-  "global_summary_en": "Macro liquidity is structurally risk-on (Dovish Fed rate expectations, weak JPY supporting carry trade) but faces immediate pressure from a strengthening DXY. The market is thus in a structurally \"Risk On\" but immediately \"Cautious\" state. The news narrative is mixed: positive drivers include surging adoption in Brazil, the Ethereum roadmap (Glamsterdam), and high-profile predictions like Arthur Hayes' $200K BTC target. Sentiment warnings (Santiment) and Fundstrat caution against potential pullbacks, aligning with the DXY pressure. Overall, the market is consolidating at high levels without panic. Healthy funding rates and RSI suggest this is a sustainable consolidation. Strategy favors buying the dips under the structural liquidity support.",
-  "news_analysis": [
-    {
-      "title_cn": "AI在2025年造成了超过5万人的失业...",
-      "title_en": "AI was behind over 50,000 layoffs in 2025 — here are the top firms to cite it for job cuts",
-      "news_sentiment": "Bearish",
-      "classification": "NEUTRAL",
-      "reason_cn": "宏观新闻，表明劳动力市场疲软和经济不确定性，对风险资产构成间接负面影响。",
-      "reason_en": "Macro news indicating labor market weakness and economic uncertainty, posing indirect negative pressure on risk assets."
-    },
-    {
-      "title_cn": "Roomba的破产可能摧毁的不仅仅是一个机器人吸尘器制造商",
-      "title_en": "Roomba's bankruptcy may wreck a lot more than one robot vacuum maker",
-      "news_sentiment": "Bearish",
-      "classification": "NEUTRAL",
-      "reason_cn": "宏观新闻，暗示消费者支出疲软或衰退压力，但与加密市场相关性较低。",
-      "reason_en": "Macro news suggesting weak consumer spending or recessionary pressure, but low direct relevance to crypto."
-    },
-    {
-      "title_cn": "如何将比特币迁移到后量子时代可能“轻易”花费5-10年：加密高管",
-      "title_en": "Migrating Bitcoin to post-quantum may 'easily' take 5-10 years: Crypto exec",
-      "news_sentiment": "Bearish",
-      "classification": "NEUTRAL",
-      "reason_cn": "关注长期的技术风险（FUD），但短期对市场价格影响有限。",
-      "reason_en": "Focuses on long-term technological existential risk (FUD), but has limited impact on short-term market pricing."
-    },
-    {
-      "title_cn": "比特币交易者对$70K暴跌和BTC价格反弹意见不一",
-      "title_en": "Bitcoin traders split between $70K crash and BTC price rebound within days",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "反映了市场在高位震荡时的普遍不确定性和分歧情绪。",
-      "reason_en": "Reflects the general uncertainty and split sentiment in the market while consolidating at high price levels."
-    },
-    {
-      "title_cn": "巴西加密货币活动增长43%，平均投资超过$1,000：报告",
-      "title_en": "Crypto activity in Brazil rises 43% with average investment surpassing $1,000: Report",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "明确显示了全球采用率和平均投资规模的健康增长，是积极的基本面驱动因素。",
-      "reason_en": "Clearly shows healthy growth in global adoption and average investment size, serving as a positive fundamental driver."
-    },
-    {
-      "title_cn": "加密社区对Lummis参议员连任决定表示‘非常遗憾’",
-      "title_en": "Crypto community ‘very sorry’ over Senator Lummis' reelection decision",
-      "news_sentiment": "Bearish",
-      "classification": "NEUTRAL",
-      "reason_cn": "Lummis是关键的亲加密监管者。她的潜在离职对美国政策环境是负面信号。",
-      "reason_en": "Lummis is a key pro-crypto regulator. Her potential departure signals negative risk for the US regulatory environment."
-    },
-    {
-      "title_cn": "Santiment：加密市场“恐惧不足”，尚未触底",
-      "title_en": "Crypto market ‘isn’t scared enough’ to call a bottom yet: Santiment",
-      "news_sentiment": "Bearish",
-      "classification": "NEUTRAL",
-      "reason_cn": "情绪指标警告市场过于自满，暗示可能需要更大幅度的回调来清洗过度杠杆。",
-      "reason_en": "Sentiment indicator warning that the market is too complacent, implying a deeper correction might be needed to clear excess leverage."
-    },
-    {
-      "title_cn": "Fundstrat的2026年加密展望警告回调，与Tom Lee观点不同",
-      "title_en": "Fundstrat’s circulating 2026 crypto outlook warns of pullback, contrasting Tom Lee",
-      "news_sentiment": "Bearish",
-      "classification": "NEUTRAL",
-      "reason_cn": "来自知名分析师的谨慎声音，与高位预测形成对冲，增强了市场的警惕性。",
-      "reason_en": "A cautious voice from a prominent analyst hedging against high predictions, increasing market vigilance."
-    },
-    {
-      "title_cn": "以太坊的Glamsterdam升级成型，2026年目标进入视野",
-      "title_en": "Ethereum’s Glamsterdam Upgrade Takes Shape as 2026 Target Comes Into Focus",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "提供了清晰的未来发展路线图和时间表，对以太坊的基本面构成长期利好。",
-      "reason_en": "Provides a clear future development roadmap and timeline, constituting a long-term positive fundamental for Ethereum."
-    },
-    {
-      "title_cn": "为什么比特币亿万富翁Arthur Hayes预期BTC到3月将达到$200K",
-      "title_en": "Why Bitcoin Billionaire Arthur Hayes Expects BTC to Hit $200K by March",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "高调且极度乐观的预测，极大地推动了市场的牛市叙事和信心。",
-      "reason_en": "High-profile and extremely optimistic prediction, significantly fueling the bullish market narrative and confidence."
-    },
-    {
-      "title_cn": "市值最大的五家上市Solana财务公司",
-      "title_en": "The 5 Largest Publicly Traded Solana Treasury Firms",
-      "news_sentiment": "Bullish",
-      "classification": "NEUTRAL",
-      "reason_cn": "凸显了机构对Solana生态的持续兴趣和资本配置。",
-      "reason_en": "Highlights continuous institutional interest and capital allocation towards the Solana ecosystem."
-    }
-  ],
+  "timestamp": "2025-12-22T09:47:04.972000",
+  "global_summary_cn": "分析失败: Illegal trailing comma before end of object: line 11 column 137 (char 1647)",
+  "global_summary_en": "分析失败: Illegal trailing comma before end of object: line 11 column 137 (char 1647)",
+  "news_analysis": [],
   "fed_futures": {
     "price": 96.41,
     "implied_rate": 3.59,
-    "timestamp": "2025-12-22T05:46:15.444019+00:00",
+    "timestamp": "2025-12-22T09:46:47.380665+00:00",
     "trend": "Dovish (Rate expectations dropping)",
     "change_5d_bps": -13.5,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 157.316,
-    "timestamp": "2025-12-22T05:46:15.488341+00:00",
+    "price": 157.445,
+    "timestamp": "2025-12-22T09:46:47.422569+00:00",
     "trend": "Yen Weakness (Risk On)",
-    "change_5d_pct": 1.48,
+    "change_5d_pct": 1.57,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 98.61,
-      "change_5d_pct": 0.24,
+      "price": 98.51,
+      "change_5d_pct": 0.14,
       "trend": "Stronger (Risk Off)"
     },
     "us10y": {
@@ -119,71 +30,71 @@
       "trend": "Neutral Falling"
     },
     "vix": {
-      "price": 14.91,
-      "change_5d_pct": -9.64,
-      "trend": "Greed Subsiding"
+      "price": 15.14,
+      "change_5d_pct": -8.13,
+      "trend": "Normal Subsiding"
     }
   },
   "coins": [
     {
       "symbol": "BTC",
-      "price": 88917.0,
-      "change_24h": 0.8918541716308678,
-      "rsi_4h": 57.93732237139589,
-      "funding_rate": 0.0043616458188,
-      "open_interest": 2395840.4200000046,
-      "sentiment": "Bullish",
-      "score": 75,
-      "comment_cn": "维持高位盘整，尽管有回调警告，但$200K的乐观叙事和结构性流动性支撑强劲。",
-      "comment_en": "Maintaining high-level consolidation. Despite pullback warnings, the optimistic $200K narrative and structural liquidity support remain strong."
+      "price": 89637.0,
+      "change_24h": 0.8143925122226425,
+      "rsi_4h": 63.154988761915185,
+      "funding_rate": 0.00420287041581,
+      "open_interest": 2452317.840000007,
+      "sentiment": "Neutral",
+      "score": 50,
+      "comment_cn": "",
+      "comment_en": ""
     },
     {
       "symbol": "ETH",
-      "price": 3031.62,
-      "change_24h": 1.9134702659091698,
-      "rsi_4h": 60.4944429907072,
-      "funding_rate": 0.00042575708394,
-      "open_interest": 5798101.300000024,
-      "sentiment": "Bullish",
-      "score": 80,
-      "comment_cn": "RSI强劲且资金费率健康。清晰的'Glamsterdam'升级路线图提供了强大的基本面利好。",
-      "comment_en": "Strong RSI and healthy funding. The clear 'Glamsterdam' upgrade roadmap provides strong fundamental tailwinds."
+      "price": 3035.06,
+      "change_24h": 1.1791218425903973,
+      "rsi_4h": 61.02701639475499,
+      "funding_rate": 0.00048275332535,
+      "open_interest": 5854988.710000026,
+      "sentiment": "Neutral",
+      "score": 50,
+      "comment_cn": "",
+      "comment_en": ""
     },
     {
       "symbol": "SOL",
-      "price": 126.49,
-      "change_24h": 0.9416646716143904,
-      "rsi_4h": 52.90155150675576,
-      "funding_rate": 0.00489514984743,
-      "open_interest": 2810991.6900000023,
-      "sentiment": "Neutral/Bullish",
-      "score": 65,
-      "comment_cn": "RSI中性，机构持仓新闻积极，但短期缺乏强劲的独立催化剂。",
-      "comment_en": "Neutral RSI, positive institutional holdings news, but currently lacks a strong independent short-term catalyst."
+      "price": 126.04,
+      "change_24h": -0.19795708290442632,
+      "rsi_4h": 50.97320568151275,
+      "funding_rate": 0.006145362455850001,
+      "open_interest": 2851641.220000003,
+      "sentiment": "Neutral",
+      "score": 50,
+      "comment_cn": "",
+      "comment_en": ""
     },
     {
       "symbol": "BNB",
-      "price": 858.6,
-      "change_24h": 1.190335886859166,
-      "rsi_4h": 53.53446228133435,
-      "funding_rate": 0.01,
-      "open_interest": 7530045.0,
-      "sentiment": "Neutral/Bullish",
-      "score": 60,
-      "comment_cn": "价格坚挺，但资金费率高企，暗示多头相对拥挤，可能面临短期回调风险。",
-      "comment_en": "Price is firm, but high funding rate suggests bulls are relatively crowded, potentially facing short-term correction risks."
+      "price": 866.8,
+      "change_24h": 1.3919756696689645,
+      "rsi_4h": 58.97277134797014,
+      "funding_rate": 0.00129273229528,
+      "open_interest": 7610546.0,
+      "sentiment": "Neutral",
+      "score": 50,
+      "comment_cn": "",
+      "comment_en": ""
     },
     {
       "symbol": "DOGE",
-      "price": 0.13218,
-      "change_24h": 0.5400471590476826,
-      "rsi_4h": 55.02647439981193,
-      "funding_rate": -0.00102667108193,
-      "open_interest": 636719.1399999995,
+      "price": 0.13209,
+      "change_24h": -0.572073767406837,
+      "rsi_4h": 55.004632487182086,
+      "funding_rate": 0.00024142363701999998,
+      "open_interest": 629653.0999999995,
       "sentiment": "Neutral",
-      "score": 55,
-      "comment_cn": "波动性较低，资金费率为负，显示市场在$0.13附近缺乏明确的方向性。",
-      "comment_en": "Low volatility and slightly negative funding suggest the market lacks clear directionality near the $0.13 level."
+      "score": 50,
+      "comment_cn": "",
+      "comment_en": ""
     }
   ]
 }
