@@ -1,181 +1,173 @@
 {
-  "timestamp": "2025-12-22T13:47:33.587205",
-  "global_summary_cn": "流动性状态：全球流动性正在放松，倾向于风险资产。宏观环境由美联储降息预期的下降（鸽派趋势）和疲软的日元推动，这支持了全球套利交易，构成了整体风险偏好的格局。叙事层面，市场情绪极为乐观，主要受比特币“圣诞老人反弹”目标（12万美元甚至20万美元）、加纳加密货币交易合法化以及MicroStrategy持续成功的支撑。虽然有监管摩擦（Clarity Act导致资金流出）和长期回调警告（Fundstrat），但这些负面因素被强劲的流动性和积极的价格目标所掩盖。市场正处于流动性宽松与利好消息叠加的“完美风暴”状态，尽管欧洲和加拿大假期可能会导致交易量偏低。",
-  "global_summary_en": "Liquidity Status: Global liquidity is easing and leaning towards risk assets. The macro context is driven by dropping Fed rate expectations (dovish trend) and persistent Yen weakness, which supports the global carry trade, establishing an overall Risk-On regime. On the narrative layer, sentiment is highly optimistic, fueled primarily by Bitcoin's 'Santa rally' targets ($120K up to $200K), Ghana legalizing crypto trading, and MicroStrategy's continued success. While there are regulatory frictions (Clarity Act outflows) and long-term pullback warnings (Fundstrat), these negatives are currently overshadowed by strong liquidity and aggressive price targets. The market is currently in a 'Perfect Storm' configuration of loose liquidity combined with positive news, though trading volume might be thin due to holidays across Europe and Canada.",
+  "timestamp": "2025-12-22T17:48:08.778211",
+  "global_summary_cn": "宏观流动性状态为“宽松/风险偏好”（Risk On）。美联储降息预期下降（鸽派倾向），日元走弱（利于套利交易），DXY疲软，共同营造了支持风险资产上涨的环境。新闻叙事主要集中在积极的监管进展（加纳加密法案）和乐观的市场情绪（比特币圣诞行情目标120K）。\n\n**双层分析结果**：目前处于“完美看涨风暴”状态——宽松的流动性配合积极的基本面催化剂。尽管此前有机构资金流出（$9.52亿），但市场消化良好，价格持续上涨。当前的RSI和资金费率均显示多头健康，市场有望继续挑战新高，重点关注$90,000心理关口。",
+  "global_summary_en": "The Macro Liquidity Layer indicates a \"Loose/Risk On\" status. Falling Fed rate expectations (dovish bias), a weak JPY (favoring carry trades), and a softening DXY collectively create an environment supportive of risk assets. The News Narrative Layer is largely bullish, focusing on positive regulatory progress (Ghana crypto law) and optimistic market sentiment (Bitcoin 'Santa Rally' targeting $120K).\n\n**Dual-Layer Synthesis**: We are currently in a \"Perfect Storm (Bullish)\" scenario—loose liquidity combined with positive fundamental catalysts. Although institutional outflows occurred (due to Clarity Act delays, $952M), the market absorbed them well, and prices continue to climb. Current RSI and funding rates show healthy long positioning, suggesting the market is poised to test new highs, with focus on the $90,000 psychological resistance.",
   "news_analysis": [
     {
-      "title_cn": "加纳中央银行行长表示，加纳通过了加密货币交易合法化的法律",
-      "title_en": "Ghana passes law to legalize crypto trading, central bank governor says",
+      "title_cn": "为降低加密投资风险，市场开始分散数字资产押注",
+      "title_en": "To lower crypto investment risk, the market is starting to diversify its digital asset bets",
       "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "新鲜的监管利好消息，表明加密货币在全球范围内的持续接纳，特别是在非洲市场，长期利好。",
-      "reason_en": "Fresh positive regulatory news signaling continued global acceptance, particularly in the African market, which is beneficial in the long term."
+      "classification": "NEUTRAL",
+      "reason_cn": "这表明加密市场走向成熟和深度增加。虽然对BTC的影响中性，但对山寨币生态系统（ETH, SOL, BNB）是积极的。",
+      "reason_en": "This signifies increasing maturity and depth in the crypto market. While neutral for BTC dominance, it is positive for the overall altcoin ecosystem (ETH, SOL, BNB)."
     },
     {
-      "title_cn": "CoinShares：透明度法案的延迟导致9.52亿美元的加密基金流出",
-      "title_en": "Clarity Act delays led to $952M in crypto fund outflows: CoinShares",
-      "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "具体的负面资金流动数据，源于监管政策的不确定性，对机构情绪构成短期压力。",
-      "reason_en": "Specific negative capital flow data stemming from regulatory uncertainty, putting short-term pressure on institutional sentiment."
+      "title_cn": "研究显示，大多数购房者不会货比三家寻找抵押贷款。为什么这是个坏主意",
+      "title_en": "Most homebuyers don't shop around for a mortgage, research shows. Why that's a bad idea",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "这是一条关于传统金融市场的消费警告，与加密货币市场无直接相关性。",
+      "reason_en": "This is a consumer warning about traditional finance (mortgages) and has no direct relevance or impact on the crypto market."
     },
     {
-      "title_cn": "比特币“圣诞老人反弹”目标锁定12万美元，关键BTC指标转为看涨",
-      "title_en": "Bitcoin ‘Santa rally’ targets $120K as key BTC metric flips bullish",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "设定了积极且紧迫的价格目标，进一步刺激当前的市场上涨情绪和交易者信心。",
-      "reason_en": "Sets an aggressive and immediate price target, further stimulating current upward market sentiment and trader confidence."
-    },
-    {
-      "title_cn": "9万美元的BTC对比创纪录的金价：本周关于比特币需要知道的5件事",
-      "title_en": "$90K BTC vs. record gold price: 5 things to know in Bitcoin this week",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "将比特币与黄金进行对比，将其定位为更优质的宏观资产，在宏观流动性宽松的环境中进一步增强其吸引力。",
-      "reason_en": "Positions Bitcoin as a superior macro asset compared to Gold, further boosting its appeal in a loose macro liquidity environment."
-    },
-    {
-      "title_cn": "报告：巴西加密活动增长43%，平均投资超1,000美元",
-      "title_en": "Crypto activity in Brazil rises 43% with average investment surpassing $1,000: Report",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "积极的有机采用数据，表明散户兴趣和地区性增长强劲。",
-      "reason_en": "Positive organic adoption data, suggesting strong retail interest and regional growth."
-    },
-    {
-      "title_cn": "Saylor的策略再次奏效，助力USD储备增至21.9亿美元",
-      "title_en": "Saylor’s Green Dots Deliver Again as Strategy Boosts USD Reserve to $2.19B",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "MicroStrategy继续作为比特币的企业采用典范，极大地增强了机构和长期投资者的信心。",
-      "reason_en": "MicroStrategy continues to serve as the benchmark for corporate Bitcoin adoption, significantly boosting institutional and long-term investor confidence."
-    },
-    {
-      "title_cn": "Fundstrat流传的2026年加密展望警告称可能会回调，与Tom Lee的观点形成对比",
-      "title_en": "Fundstrat’s circulating 2026 crypto outlook warns of pullback, contrasting Tom Lee",
-      "news_sentiment": "Bearish",
-      "classification": "DIVERGENCE",
-      "reason_cn": "与当前的市场兴奋形成对比的长期谨慎预测，可能在交易者内部造成不确定性，但不是即时威胁。",
-      "reason_en": "A long-term cautionary forecast that contrasts with current market euphoria, potentially creating uncertainty among traders but not an immediate threat."
-    },
-    {
-      "title_cn": "为什么比特币亿万富翁Arthur Hayes预计BTC将在3月达到20万美元",
-      "title_en": "Why Bitcoin Billionaire Arthur Hayes Expects BTC to Hit $200K by March",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "来自知名行业人士的极度看涨预测，强化了投机性买入并提高了市场的兴奋度。",
-      "reason_en": "Extremely bullish prediction from a prominent industry figure, reinforcing speculative buying and increasing market excitement."
-    },
-    {
-      "title_cn": "人工智能是2025年超过5万次裁员的幕后推手——这是引用其进行裁员的顶级公司",
+      "title_cn": "AI是2025年超过50,000人失业的幕后推手——以下是引用其作为裁员原因的顶尖公司",
       "title_en": "AI was behind over 50,000 layoffs in 2025 — here are the top firms to cite it for job cuts",
       "news_sentiment": "Bearish",
       "classification": "NEUTRAL",
-      "reason_cn": "宏观经济疲软的迹象。虽然不直接影响加密货币，但可能预示着更广泛的经济压力。",
-      "reason_en": "Sign of broader macroeconomic weakness. While not directly affecting crypto, it signals potential wider economic strain."
+      "reason_cn": "宏观经济担忧的体现。虽然对整体经济不利，但在宽松的流动性环境下，这有时会促使资金流向非主权对冲资产（如黄金和加密货币）。",
+      "reason_en": "Reflects general macroeconomic concern. While negative for the overall economy, in a loose liquidity environment, this often pushes capital into non-sovereign hedge assets (like gold and crypto)."
     },
     {
-      "title_cn": "欧洲银行假期",
-      "title_en": "European/Canadian Bank Holidays",
+      "title_cn": "Roomba的破产可能摧毁的不仅仅是一个机器人吸尘器制造商",
+      "title_en": "Roomba's bankruptcy may wreck a lot more than one robot vacuum maker",
+      "news_sentiment": "Bearish",
+      "classification": "NEUTRAL",
+      "reason_cn": "具体的企业破产事件，增加了更广泛的经济压力背景。与上述裁员新闻类似，它不是加密货币特定的驱动因素。",
+      "reason_en": "Specific corporate failure adding to the broader background of economic stress. Similar to the layoff news, it is not a crypto-specific driver."
+    },
+    {
+      "title_cn": "黄金和白银价格飙升至新高，金银重新成为对冲工具",
+      "title_en": "Gold and silver prices soar to new highs as the yellow metal reemerges as a hedge",
+      "news_sentiment": "Bullish",
+      "classification": "NEUTRAL",
+      "reason_cn": "极度看涨风险规避情绪和通胀对冲需求。历史表明，机构对冲黄金的需求往往会溢出到比特币（数字黄金）。",
+      "reason_en": "Highly bullish for hedge demand against inflation/uncertainty. Historically, institutional demand for gold hedging often spills over into Bitcoin (digital gold)."
+    },
+    {
+      "title_cn": "加纳央行行长称，该国通过法律使加密货币交易合法化",
+      "title_en": "Ghana passes law to legalize crypto trading, central bank governor says",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "直接的正面监管消息。这是明确的区域采用和合法性信号，为更广泛的非洲大陆采用奠定基础，具有长期利好效应。",
+      "reason_en": "Direct positive regulatory news. This signals clear regional adoption and legitimacy, setting the stage for wider African continent adoption, providing a strong long-term catalyst."
+    },
+    {
+      "title_cn": "CoinShares：澄清法案延迟导致加密基金流出9.52亿美元",
+      "title_en": "Clarity Act delays led to $952M in crypto fund outflows: CoinShares",
+      "news_sentiment": "Bearish",
+      "classification": "PRICED IN",
+      "reason_cn": "这是一个滞后指标，反映了监管延迟的已知后果。鉴于价格仍在上涨，市场已经吸收了这些流出，且流动性宽松压倒了短期抛售压力。",
+      "reason_en": "This is a lagging indicator reflecting known consequences of regulatory delay. Given that prices are still rising, the market has absorbed these outflows, and loose liquidity is overriding short-term selling pressure."
+    },
+    {
+      "title_cn": "比特币‘圣诞行情’目标12万美元，关键BTC指标转为看涨",
+      "title_en": "Bitcoin ‘Santa rally’ targets $120K as key BTC metric flips bullish",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "直接的看涨价格预测，增强了多头的信念。这种高目标值在心理上支持了持续的购买行为，符合当前的风险偏好情绪。",
+      "reason_en": "Direct bullish price projection, reinforcing long sentiment. Such high targets psychologically support continued buying behavior, aligning with current risk-on sentiment."
+    },
+    {
+      "title_cn": "Blastoff或Blowout？以太坊价格僵局引发市场烟花",
+      "title_en": "Blastoff or Blowout? Ethereum’s Price Standoff Sparks Market Fireworks",
       "news_sentiment": "Neutral",
       "classification": "NEUTRAL",
-      "reason_cn": "预计机构交易量较低，可能导致市场在假日交易时间内出现高波动或反常价格走势。",
-      "reason_en": "Expected lower institutional trading volume, which can lead to higher volatility or anomalous price action during holiday trading hours."
+      "reason_cn": "暗示以太坊围绕关键阻力位($3000)面临高波动性。鉴于流动性环境看涨，突破'Blastoff'的可能性更高。",
+      "reason_en": "Suggests high volatility facing Ethereum around key resistance ($3,000). Given the bullish liquidity environment, a 'Blastoff' breakout is more likely."
     }
   ],
   "fed_futures": {
     "price": 96.405,
     "implied_rate": 3.595,
-    "timestamp": "2025-12-22T13:47:16.867551+00:00",
+    "timestamp": "2025-12-22T17:47:51.782338+00:00",
     "trend": "Dovish (Rate expectations dropping)",
     "change_5d_bps": -13.0,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 157.106,
-    "timestamp": "2025-12-22T13:47:16.912400+00:00",
+    "price": 156.813,
+    "timestamp": "2025-12-22T17:47:51.848764+00:00",
     "trend": "Yen Weakness (Risk On)",
-    "change_5d_pct": 1.35,
+    "change_5d_pct": 1.16,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 98.37,
-      "change_5d_pct": -0.0,
-      "trend": "Neutral"
+      "price": 98.23,
+      "change_5d_pct": -0.14,
+      "trend": "Weaker (Risk On)"
     },
     "us10y": {
       "price": 4.16,
-      "change_5d_pct": 0.24,
+      "change_5d_pct": 0.39,
       "trend": "Neutral"
     },
     "vix": {
-      "price": 14.91,
-      "change_5d_pct": -9.53,
+      "price": 14.49,
+      "change_5d_pct": -12.08,
       "trend": "Greed Subsiding"
     }
   },
   "coins": [
     {
       "symbol": "BTC",
-      "price": 89808.4,
-      "change_24h": 2.3096114193276382,
-      "rsi_4h": 63.40409146634462,
-      "funding_rate": 0.00947120589406,
-      "open_interest": 2486475.6900000083,
+      "price": 89221.7,
+      "change_24h": 0.9374034851136472,
+      "rsi_4h": 57.16024714650765,
+      "funding_rate": 0.0064102800272299995,
+      "open_interest": 2485077.320000007,
       "sentiment": "Bullish",
       "score": 90,
-      "comment_cn": "在宏观流动性放松和叙事狂热的推动下，涨势强劲。接近9万美元的关键水平，目标指向更高，但需警惕高位RSI。",
-      "comment_en": "Strong upward momentum driven by easing macro liquidity and narrative euphoria. Nearing the $90K crucial level, targeting higher, but be cautious of elevated RSI."
+      "comment_cn": "处于“完美风暴”环境中。宏观流动性宽松配合12万美元的看涨叙事。关注是否能稳固站上$90k。",
+      "comment_en": "In a 'perfect storm' environment. Loose macro liquidity aligns with the $120k bullish narrative. Focus on consolidating above $90k."
     },
     {
       "symbol": "ETH",
-      "price": 3050.74,
-      "change_24h": 3.2577534532186605,
-      "rsi_4h": 63.2277358894432,
-      "funding_rate": 0.00056716938419,
-      "open_interest": 6003726.640000026,
+      "price": 3028.6,
+      "change_24h": 1.4555382476592404,
+      "rsi_4h": 57.63652854804651,
+      "funding_rate": 0.0036221715906900004,
+      "open_interest": 5987414.790000029,
       "sentiment": "Bullish",
-      "score": 88,
-      "comment_cn": "表现优于比特币，在积极情绪中展现出强大的跟随买盘。如果流动性继续宽松，将有能力测试更高阻力。",
-      "comment_en": "Outperforming BTC, showing strong follow-through buying amid positive sentiment. Well-positioned to test higher resistance if liquidity remains loose."
+      "score": 85,
+      "comment_cn": "在$3000关口面临波动，但流动性宽松应支持其向上突破。关注其相对BTC的表现以确认强势。",
+      "comment_en": "Facing volatility at the $3,000 mark, but loose liquidity should support an upward breakout. Watch its relative performance against BTC for confirmation."
     },
     {
       "symbol": "SOL",
-      "price": 126.59,
-      "change_24h": 2.3114846843934367,
-      "rsi_4h": 52.92159959686086,
-      "funding_rate": 0.01,
-      "open_interest": 2793706.210000003,
-      "sentiment": "Neutral/Bullish",
-      "score": 70,
-      "comment_cn": "价格和RSI处于中性，但高资金费率表明多头信念强烈。等待大盘的进一步催化剂。",
-      "comment_en": "Price and RSI are neutral, but high funding rates indicate strong long conviction. Waiting for further major market catalyst."
+      "price": 126.75,
+      "change_24h": 0.835322195704055,
+      "rsi_4h": 52.64948271170096,
+      "funding_rate": 0.00552315621914,
+      "open_interest": 2808971.740000003,
+      "sentiment": "Bullish",
+      "score": 80,
+      "comment_cn": "价格稳定，RSI适中，受市场分散投资叙事支持。有望在市场大盘上涨时继续追赶。",
+      "comment_en": "Stable price, moderate RSI, supported by diversification narrative. Well-positioned to continue catching up during broader market rallies."
     },
     {
       "symbol": "BNB",
-      "price": 863.8,
-      "change_24h": 1.9233038348082543,
-      "rsi_4h": 56.925228076755,
+      "price": 867.0,
+      "change_24h": 1.5698219306466703,
+      "rsi_4h": 58.8621667515501,
       "funding_rate": 0.01,
-      "open_interest": 7645380.0,
-      "sentiment": "Neutral/Bullish",
-      "score": 75,
-      "comment_cn": "稳定上涨，资金费率高，表明平台相关代币的需求持续稳定。",
-      "comment_en": "Steady upward movement with high funding, signaling continued stable demand for the platform-related token."
+      "open_interest": 7593508.0,
+      "sentiment": "Bullish",
+      "score": 92,
+      "comment_cn": "动能最强，资金费率和涨幅领先。交易所代币在风险偏好环境中表现优异。",
+      "comment_en": "Showing the strongest momentum, leading in funding rate and 24h gain. Exchange tokens typically outperform in high risk-on environments."
     },
     {
       "symbol": "DOGE",
-      "price": 0.13264,
-      "change_24h": 2.6545932977323865,
-      "rsi_4h": 56.22945614838117,
-      "funding_rate": -0.00180328548017,
-      "open_interest": 640544.2299999997,
-      "sentiment": "Neutral/Watching Short Squeeze",
-      "score": 60,
-      "comment_cn": "价格上涨，但资金费率为负，可能表明正在进行空头挤压或交易者对进一步上涨持怀疑态度。走势相对较弱。",
-      "comment_en": "Price rising but funding is negative, potentially signaling an ongoing short squeeze or skepticism regarding further upside. Relatively weaker momentum."
+      "price": 0.13366,
+      "change_24h": 2.6574500768049085,
+      "rsi_4h": 58.43768941675182,
+      "funding_rate": 0.01,
+      "open_interest": 654104.6499999998,
+      "sentiment": "Bullish",
+      "score": 88,
+      "comment_cn": "模因币的强劲反弹表明市场风险情绪达到高点。需警惕其高资金费率带来的潜在回调风险。",
+      "comment_en": "Strong meme coin rebound signals peak market risk appetite. High funding rate means caution is needed regarding potential pullback risk."
     }
   ]
 }
