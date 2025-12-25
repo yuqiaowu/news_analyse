@@ -1,70 +1,102 @@
 {
-  "timestamp": "2025-12-24T21:54:43.804362",
-  "global_summary_cn": "全球流动性目前处于温和风险偏好（Risk On）状态，主要受到DXY走弱和VIX维持低位支撑，表明市场情绪较为舒适。然而，由于欧洲和加拿大主要银行假期导致机构交易量极低，价格走势受到高度限制。新闻叙事层面好坏参半：Arbitrum里程碑和ETH鲸鱼积累等基本面积极进展，与BTC（303亿美元）和ETH（60亿美元）巨额期权交割带来的短期对冲压力相冲突。这形成流动性宽松与交割盘整之间的分歧。市场表现为震荡整理。BNB表现出相对强势，而ETH和SOL则因期权压力和短期技术面疲软略显滞后。市场需要等待假期交易量恢复或期权交割压力完全释放后，才可能出现决定性突破（潜在的逢低买入情景）。",
-  "global_summary_en": "Global liquidity is mildly supportive (Risk On) as the DXY weakens and the VIX remains low, suggesting market comfort. However, price action remains highly restrictive, largely due to extremely low institutional volume from major European and Canadian bank holidays. The News Narrative is mixed: strong fundamental developments (Arbitrum milestone, ETH whale accumulation) conflict with significant short-term hedging pressure surrounding massive BTC ($30.3B) and ETH ($6B) options expiries. This creates a divergence where loose liquidity meets expiry-related consolidation. We observe choppy, range-bound trading. BNB is showing relative strength, while ETH and SOL are lagging slightly due to options pressure and weaker short-term technicals. A decisive break will likely require the macro calendar to resume volume or for the options expiry cloud to fully pass, potentially leading to upward relief (Buy the Dip scenario).",
+  "timestamp": "2025-12-25T01:55:19.590618",
+  "global_summary_cn": "流动性状态为**谨慎的风险偏好（Risk-On）**。宏观背景对风险资产有利，主要得益于美元指数（DXY）持续走弱（低于98），表明全球风险偏好正在上升，尽管美联储利率仍处于限制性区域。美国10年期国债收益率和VIX指数保持稳定，暗示市场波动性较低。当前的市场叙事主要围绕年末大规模的BTC（303亿美元）和ETH（60亿美元）期权交割。这一事件正在引发短期抛售压力，因为期权持仓有利于近期空头。然而，基本面保持强劲：分析师正在观察潜在的市场底部，ETH显示出深度的看涨信念，70%的仓位做多，且鲸鱼持续积累。这形成了**背离**：有利的流动性条件遇到了短期期权驱动的抛压。市场定位倾向于“逢低买入”情景，预计一旦期权的阻力被清除，强劲的流动性将推动一轮反弹。",
+  "global_summary_en": "Liquidity status is **Cautiously Risk-On**. The macro backdrop is supportive due to sustained weakness in the DXY (below 98), indicating increasing global risk appetite, despite the Fed rate remaining restrictive. US10Y and VIX are stable, signaling a low-volatility environment. The primary market narrative is focused on the massive end-of-year options expiry for both BTC ($30.3B) and ETH ($6B). This event is currently creating short-term downward pressure, as positioning favors immediate bears. However, the underlying fundamentals remain strong: analysts are sighting potential market bottoms, and ETH shows deep conviction with 70% of positions long and strong whale accumulation. This creates a **Divergence**: favorable liquidity conditions meeting short-term expiry-driven selling pressure. The market is positioned for a potential \"Buy the Dip\" scenario, anticipating a strong relief rally once the options overhead resistance is cleared.",
   "news_analysis": [
     {
-      "title_cn": "比特币空头目前在年底303亿美元的期权交割中占上风",
-      "title_en": "Bitcoin bears currently favored in BTC’s end-of-year $30.3B options expiry",
-      "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "巨额期权交割即将来临，空头占据优势，暗示短期内上行压力受限，可能引发波动或盘整。",
-      "reason_en": "A massive options expiry favors bears, signaling restricted immediate upside and potential volatility or consolidation due to short-term hedging pressure."
-    },
-    {
-      "title_cn": "在创纪录的240亿美元期权交割解除BTC价格“限制”后，比特币将获得收益",
-      "title_en": "Bitcoin due gains after record $24B options expiry lifts 'lid' on BTC price",
-      "news_sentiment": "Bullish",
-      "classification": "DIVERGENCE",
-      "reason_cn": "与空头优势的新闻相互矛盾，但表明此前价格上方的压力（“盖子”）已被解除，为后续反弹创造条件。",
-      "reason_en": "Contradictory to the bearish expiry news, this suggests that previous price overhead pressure ('the lid') has been removed, creating conditions for a potential rally post-expiry."
-    },
-    {
-      "title_cn": "美联储主席候选人哈塞特表示，美国在降息方面已经远远落后于曲线",
+      "title_cn": "美联储主席候选人哈塞特表示，美国在降低利率方面远远落后于曲线",
       "title_en": "Fed chair candidate Hassett says U.S. is way behind the curve on lowering interest rates",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "来自美联储主席候选人的鸽派言论，长期来看对风险资产构成积极信号，支持宽松的流动性预期。",
-      "reason_en": "Dovish commentary from a Fed chair candidate provides a strong positive signal for risk assets in the long term, supporting looser liquidity expectations."
+      "reason_cn": "此评论支持货币政策最终需要宽松的市场观点，利好风险资产的长期叙事。",
+      "reason_en": "This comment supports the market thesis that monetary policy will eventually need to ease, boosting the long-term narrative for risk assets."
     },
     {
       "title_cn": "美国将对中国芯片的额外关税推迟至2027年6月",
       "title_en": "U.S. pushes additional tariffs on Chinese chips to June 2027",
       "news_sentiment": "Neutral",
       "classification": "NEUTRAL",
-      "reason_cn": "关税延迟是持续的地缘政治主题，对加密市场的直接影响很小，但反映了持续的贸易保护主义。",
-      "reason_en": "Tariff delays are part of ongoing geopolitical themes; direct impact on crypto is minimal, though it reflects ongoing trade protectionism."
+      "reason_cn": "虽然加剧了地缘政治摩擦，但影响延迟且对加密货币的直接影响很小。",
+      "reason_en": "While increasing geopolitical friction, the impact is delayed and has minimal direct impact on cryptocurrency markets."
     },
     {
-      "title_cn": "随着鲸鱼积累收紧ETH供应，70%的以太坊头寸处于“多头”状态",
-      "title_en": "70% of Ether positions are 'long' as whale accumulation tightens ETH supply",
+      "title_cn": "多个国家银行假日（英国、意大利、德国、瑞士、加拿大）",
+      "title_en": "Multiple Bank Holidays (GBP, EUR, CHF, CAD)",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "银行假日导致传统市场交易量降低和流动性变薄，可能增加加密货币的波动性。",
+      "reason_en": "Bank holidays reduce traditional market volume and thin liquidity, potentially increasing crypto market volatility."
+    },
+    {
+      "title_cn": "当前比特币空头在BTC年底303亿美元期权交割中占优",
+      "title_en": "Bitcoin bears currently favored in BTC’s end-of-year $30.3B options expiry",
+      "news_sentiment": "Bearish",
+      "classification": "IMPULSE",
+      "reason_cn": "临近巨额期权交割日，市场仓位和最大痛点可能导致价格短期承压。",
+      "reason_en": "Near the massive options expiry, market positioning and max pain dynamics are likely applying short-term price pressure."
+    },
+    {
+      "title_cn": "创纪录的240亿美元期权交割解除比特币价格“盖子”后，比特币有望获利",
+      "title_en": "Bitcoin due gains after record $24B options expiry lifts 'lid' on BTC price",
       "news_sentiment": "Bullish",
       "classification": "DIVERGENCE",
-      "reason_cn": "尽管ETH短期价格承压，但鲸鱼积累和多头高持仓率显示出强劲的基本面信念和供应紧张，表明当前回调是暂时的。",
-      "reason_en": "Despite short-term ETH price pressure, strong whale accumulation and high long conviction (70%) signal robust fundamentals and supply tightness, suggesting the current pullback is temporary consolidation."
+      "reason_cn": "此叙事预期在短期抛压结束后，由于流动性释放，价格将迎来反弹。与当前市场表现形成短期背离。",
+      "reason_en": "This narrative anticipates a rally once the short-term selling pressure ends due to liquidity release. It presents a short-term divergence from current market behavior."
+    },
+    {
+      "title_cn": "三个迹象表明比特币正在寻找其市场底部",
+      "title_en": "Three signs that Bitcoin is finding its market bottom",
+      "news_sentiment": "Bullish",
+      "classification": "PRICED IN",
+      "reason_cn": "技术分析确认了当前价格附近的支撑和累积行为，有助于巩固看涨情绪。",
+      "reason_en": "Technical analysis confirms existing support and accumulation behavior near current prices, reinforcing bullish sentiment."
+    },
+    {
+      "title_cn": "随着60亿美元期权交割临近，以太坊价格承压",
+      "title_en": "Ether price under pressure as $6B in options expiry nears",
+      "news_sentiment": "Bearish",
+      "classification": "IMPULSE",
+      "reason_cn": "确认以太坊与比特币一样，受到期权交割的短期抛压影响。",
+      "reason_en": "Confirms that Ethereum, like Bitcoin, is subject to short-term selling pressure driven by options expiry dynamics."
+    },
+    {
+      "title_cn": "70%的以太坊头寸为“多头”，因鲸鱼积累收紧了ETH供应",
+      "title_en": "70% of Ether positions are 'long' as whale accumulation tightens ETH supply",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "强烈的基本面信号。大型持有者持续积累，表明对ETH的高度信心，抵消了短期价格压力。",
+      "reason_en": "Strong fundamental signal. Persistent accumulation by large holders indicates high conviction in ETH, counteracting immediate price pressure."
     },
     {
       "title_cn": "Offchain Labs提高ARB持股，Arbitrum突破200亿美元里程碑",
       "title_en": "Offchain Labs boosts ARB stake as Arbitrum crosses $20B milestone",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "L2生态系统的强劲增长和机构支持对整个DeFi和以太坊生态系统具有积极的长期意义。",
-      "reason_en": "Strong growth and institutional backing for the L2 ecosystem, providing positive long-term implications for DeFi and the overall Ethereum structure."
+      "reason_cn": "积极的生态系统增长和发展新闻，利好L2和整个以太坊生态。",
+      "reason_en": "Positive ecosystem growth and development news, favorable for L2s and the overall Ethereum ecosystem."
+    },
+    {
+      "title_cn": "加密货币的声誉转折点：体育赞助为何成为2025年Web3正常化的关键",
+      "title_en": "Crypto’s Reputation Pivot: Why Sports Sponsorship Became the Key to Normalizing Web3 in 2025",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "反映行业长期成熟和主流化趋势，但对短期价格走势影响不大。",
+      "reason_en": "Reflects long-term industry maturation and mainstream adoption trends, but has little impact on immediate price action."
     }
   ],
   "fed_futures": {
     "price": 96.277,
     "implied_rate": 3.723,
-    "timestamp": "2025-12-24T21:54:27.253101+00:00",
+    "timestamp": "2025-12-25T01:54:56.514424+00:00",
     "trend": "Neutral (Stable expectations)",
     "change_5d_bps": -0.2,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 155.942,
-    "timestamp": "2025-12-24T21:54:27.303285+00:00",
+    "price": 155.74,
+    "timestamp": "2025-12-25T01:54:56.561566+00:00",
     "trend": "Neutral",
-    "change_5d_pct": 0.29,
+    "change_5d_pct": 0.1,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
@@ -87,63 +119,63 @@
   "coins": [
     {
       "symbol": "BTC",
-      "price": 87692.9,
-      "change_24h": -0.01254220165807906,
-      "rsi_4h": 48.5568491575153,
-      "funding_rate": 0.01,
-      "open_interest": 2449507.8200000045,
+      "price": 87685.9,
+      "change_24h": 0.07806659628498208,
+      "rsi_4h": 48.4859194452192,
+      "funding_rate": 0.00555959292781,
+      "open_interest": 2435475.980000006,
       "sentiment": "Neutral",
-      "score": 50,
-      "comment_cn": "价格在缺乏交易量的情况下保持稳定，面临期权交割压力，等待宏观量能回归。",
-      "comment_en": "Price remains stable lacking volume, facing options expiry pressure, waiting for macro liquidity to return."
+      "score": 65,
+      "comment_cn": "短期受期权交割压力，价格持平。DXY走弱提供了坚实的基础，预计交割后将迎来反弹。",
+      "comment_en": "Flat price action under short-term options expiry pressure. Weak DXY provides a solid floor, anticipating a post-expiry rebound."
     },
     {
       "symbol": "ETH",
-      "price": 2948.55,
-      "change_24h": -0.9033988364706834,
-      "rsi_4h": 46.75943677396943,
-      "funding_rate": 0.00271411944846,
-      "open_interest": 5656049.96000002,
-      "sentiment": "Neutral",
-      "score": 45,
-      "comment_cn": "受60亿美元期权交割的短期压力影响，但鲸鱼积累提供支撑。技术面略弱。",
-      "comment_en": "Under short-term pressure from the $6B expiry, but whale accumulation provides underlying support. Technicals are slightly weaker."
+      "price": 2948.79,
+      "change_24h": -0.5507365637815645,
+      "rsi_4h": 46.78154132500491,
+      "funding_rate": 0.00478862718676,
+      "open_interest": 5615643.110000019,
+      "sentiment": "Bullish",
+      "score": 75,
+      "comment_cn": "基本面强劲（鲸鱼积累），尽管短期面临交割压力。长期多头情绪非常高。",
+      "comment_en": "Strong fundamentals (whale accumulation) despite immediate expiry pressure. Long-term bullish sentiment is very high."
     },
     {
       "symbol": "SOL",
-      "price": 122.95,
-      "change_24h": -1.1497025245216212,
-      "rsi_4h": 43.451834249354036,
-      "funding_rate": 0.01,
-      "open_interest": 2993495.130000004,
+      "price": 122.64,
+      "change_24h": -0.34129692832764646,
+      "rsi_4h": 42.35926055367188,
+      "funding_rate": 0.00752490471303,
+      "open_interest": 2983133.1000000034,
       "sentiment": "Neutral",
-      "score": 40,
-      "comment_cn": "相对RSI最弱，在低交易量环境中回调，需要等待流动性增强以寻找底部。",
-      "comment_en": "Weakest relative RSI, pulling back in low volume environment. Needs stronger liquidity to find a floor."
+      "score": 55,
+      "comment_cn": "RSI处于中性偏低区域，缺乏主要叙事驱动。在等待流动性或重大催化剂。",
+      "comment_en": "RSI is in the lower neutral range, lacking major narrative drivers. Waiting for liquidity boost or a major catalyst."
     },
     {
       "symbol": "BNB",
-      "price": 847.3,
-      "change_24h": 0.24846190250827127,
-      "rsi_4h": 48.0395389765966,
-      "funding_rate": 0.00930324734498,
-      "open_interest": 7594752.0,
-      "sentiment": "Bullish",
-      "score": 65,
-      "comment_cn": "在整体市场横盘时表现出相对强势和独立动量，继续吸引高OI。",
-      "comment_en": "Showing relative strength and independent momentum while the market consolidates, continuing to attract high OI."
+      "price": 847.1,
+      "change_24h": 0.4029868436648071,
+      "rsi_4h": 47.88308649861362,
+      "funding_rate": 0.005495988548439999,
+      "open_interest": 7539726.0,
+      "sentiment": "Cautiously Bullish",
+      "score": 70,
+      "comment_cn": "相对稳定且略有上涨。积极的资金费率和高OI表明杠杆多头持续存在兴趣。",
+      "comment_en": "Showing relative stability and slight upside. Positive funding and high OI suggest sustained interest from leveraged longs."
     },
     {
       "symbol": "DOGE",
-      "price": 0.12851,
-      "change_24h": -0.7721411474017243,
-      "rsi_4h": 43.78755023464462,
+      "price": 0.1286,
+      "change_24h": -0.8939580764488244,
+      "rsi_4h": 44.208099166860485,
       "funding_rate": 0.01,
-      "open_interest": 674899.9999999998,
+      "open_interest": 674272.5299999998,
       "sentiment": "Neutral",
-      "score": 45,
-      "comment_cn": "在假期市场中跟随主流币横盘整理，缺乏独立催化剂。",
-      "comment_en": "Following major coins in holiday consolidation; lacking independent catalyst or momentum."
+      "score": 50,
+      "comment_cn": "跟随市场情绪波动。高资金费率与价格下跌结合，暗示短期多头正在平仓。",
+      "comment_en": "Fluctuating with general market sentiment. High funding paired with a drop suggests minor short-term long unwinding."
     }
   ]
 }
