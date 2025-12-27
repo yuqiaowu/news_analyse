@@ -1,100 +1,68 @@
 {
-  "timestamp": "2025-12-26T22:00:58.542900",
-  "global_summary_cn": "宏观流动性环境支持风险资产。美联储降息预期下降（鸽派），DXY走弱，整体风险偏好显著回升。叙事层面上，新闻极其乐观，围绕2026年ETF爆炸式增长、以太坊的ZK技术扩展以及RWA叙事（通证化商品和黄金上涨）展开。市场目前处于高位整理阶段，所有主要加密资产在银行假期期间小幅下跌。这种“流动性宽松+叙事看涨”的完美风暴预示着，任何回调都可能是买入机会。鉴于DOGE等资产的资金费率严重为负且RSI接近超卖，短线可能存在轧空机会，但整体市场仍处于蓄势待发状态。",
-  "global_summary_en": "Macro liquidity is loose, favoring risk assets. Fed rate expectations are dropping (dovish), DXY is weakening, and overall risk appetite is clearly improving. The narrative layer is overwhelmingly bullish, focusing on explosive growth potential in 2026 driven by ETF expansion, Ethereum's ZK scaling technology, and the RWA narrative (tokenized commodities and surging gold). The market is currently consolidating at high levels, showing minor pullbacks across major coins during global bank holidays. This \"Loose Liquidity + Bullish Narrative\" synthesis suggests a potential perfect storm scenario, where any dip should be viewed as a buying opportunity. Assets like DOGE show heavily negative funding and near-oversold RSI, signaling potential for a short squeeze, but the overall market remains in accumulation mode.",
+  "timestamp": "2025-12-27T02:01:27.862482",
+  "global_summary_cn": "流动性状态：全球宏观流动性宽松（偏向风险资产）。美联储降息预期下降（鸽派），DXY走弱，美债收益率趋于稳定，共同构成了支持加密货币的宏观环境。尽管日元近期走强带来一丝不确定性，但整体风险偏好占据主导。\n\n新闻叙事层面，市场情绪极度乐观，主要聚焦于2026年展望（Coinbase、Tom Lee、Sharplink）和机构采用（ETFs爆炸式增长，ETH TVL 10倍增长）。叙事和流动性形成了潜在的“完美牛市风暴”。\n\n然而，由于多国银行假日，市场交易量极低，导致价格行动平淡（BTC横盘于$87k）。这种在高价位下的低量盘整，结合强劲的宏观和叙事背景，暗示着在进入新年之前，市场正在进行看涨积累。",
+  "global_summary_en": "Liquidity Status: Global macro liquidity is loose (Risk On). Dovish Fed expectations, a weakening DXY, and stable-to-falling US yields create a supportive macro backdrop for crypto. Despite a recent sharp strengthening of the Yen, overall risk appetite prevails.\n\nThe News Narrative is overwhelmingly optimistic, heavily focused on 2026 outlooks (Coinbase, Tom Lee, Sharplink) and institutional adoption (ETFs projected to explode, 10X ETH TVL growth). The synthesis of narrative and liquidity suggests a potential 'Perfect Bullish Storm.'\n\nHowever, price action is extremely flat (BTC consolidating near $87k) due to multiple global bank holidays resulting in very low volume. This low-volume consolidation at high price levels, supported by strong macro factors and narratives, implies bullish accumulation is occurring ahead of the new year.",
   "news_analysis": [
     {
-      "title_cn": "分析师称，2026年加密ETF将爆发式增长",
+      "title_cn": "分析师称，加密ETF将在2026年迎来爆炸性增长",
       "title_en": "Crypto ETFs set to explode higher in 2026, analysts say",
       "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "强大的未来催化剂，专注于2026年机构资金的流入，为长期看涨情绪提供燃料。",
-      "reason_en": "A powerful future catalyst, focusing on institutional capital inflow in 2026, fueling long-term bullish sentiment."
+      "classification": "PRICED IN",
+      "reason_cn": "机构采用（尤其是ETF）的叙事已经主导市场近一年，是推高当前BTC价格的主要因素。此消息强化了市场信念，但并非新鲜的短期驱动力。",
+      "reason_en": "The narrative of institutional adoption, especially via ETFs, has dominated the market for nearly a year and is a key factor in current high BTC prices. This reinforces conviction but is not a fresh short-term driver."
     },
     {
-      "title_cn": "以太坊的代币化作用成为焦点，Tom Lee勾勒出看涨前景",
-      "title_en": "Etheruem’s tokenization role takes focus as Tom Lee outlines bullish outlook",
+      "title_cn": "Sharplink CEO表示，以太坊的TVL可能在2026年“暴涨10倍”",
+      "title_en": "Ethereum's TVL could skyrocket '10X' in 2026: Sharplink CEO",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "强化了ETH作为RWA（真实世界资产）平台的核心叙事，与宏观环境中黄金和商品代币化趋势一致。",
-      "reason_en": "Reinforces the core narrative of ETH as the platform for RWA (Real World Assets), consistent with the macro trend of tokenized gold and commodities."
+      "reason_cn": "针对以太坊的具体、高倍数的增长预测，可能引发ETH在下一轮上涨中表现优于BTC的预期（'The Flippening'叙事）。",
+      "reason_en": "A specific, high-multiple growth prediction targeted at Ethereum. This fuels expectations for ETH outperformance against BTC ('The Flippening' narrative) in the next phase of the rally."
     },
     {
-      "title_cn": "特朗普支持的USD1稳定币在币安推出20%收益率后突破30亿美元市值",
-      "title_en": "Trump-Linked USD1 Stablecoin Crosses $3B Market Cap After Binance Rolls Out 20% Yield",
+      "title_cn": "Coinbase 2026年展望：加密货币将进入金融核心，实现“非凡且变革性的”转变",
+      "title_en": "Coinbase 2026 Outlook Sees Crypto Entering Finance Core in ‘Extraordinary and Transformative’ Shift",
       "news_sentiment": "Bullish",
-      "classification": "NEUTRAL",
-      "reason_cn": "反映了稳定币基础设施和市场需求的快速增长，但收益率部分可能表明短期促销或套利机会。",
-      "reason_en": "Reflects rapid growth in stablecoin infrastructure and market demand, though the yield component suggests short-term promotion or arbitrage opportunity."
+      "classification": "PRICED IN",
+      "reason_cn": "来自主要交易所的乐观展望，支持了宏观的看涨观点，但属于年度回顾/前瞻内容，市场对机构长期乐观态度已有预期。",
+      "reason_en": "Optimistic outlook from a major exchange, reinforcing the long-term bullish macro view. As EOY/beginning of year content, the market has already factored in institutional optimism."
     },
     {
-      "title_cn": "比特币目前的设置看起来像2019年，Benjamin Cowen称",
+      "title_cn": "Benjamin Cowen表示，比特币目前的设置看起来像2019年",
       "title_en": "Bitcoin’s current setup looks like 2019, says Benjamin Cowen",
       "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "积极的历史比较，但作为分析师观点，已被市场长期情绪吸收，缺乏直接价格冲动。",
-      "reason_en": "Positive historical comparison, but as an analyst's opinion, it is absorbed into long-term market sentiment and lacks direct price impulse."
-    },
-    {
-      "title_cn": "2025年加密衍生品交易量达到86万亿美元，清算额突破1500亿美元",
-      "title_en": "Crypto Derivatives Volume Hits $86 Trillion in 2025, Liquidations Top $150B",
-      "news_sentiment": "Neutral",
-      "classification": "PRICED IN",
-      "reason_cn": "回顾性数据，证实了2025年市场的高增长和高波动性，但已是过去式。",
-      "reason_en": "Retrospective data confirming high growth and volatility in the 2025 market, but already historical and priced in."
-    },
-    {
-      "title_cn": "通证化商品接近40亿美元，黄金延续历史性上涨",
-      "title_en": "Tokenized commodities near $4B, as gold extends all-time rally",
-      "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "支持加密资产作为价值储存和资产通证化媒介的叙事，有利于L1平台。",
-      "reason_en": "Supports the narrative of crypto assets as a store of value and a medium for asset tokenization, favorable for L1 platforms."
+      "reason_cn": "2019年是减半周期前的大规模积累期。这种对比暗示着当前盘整是牛市重启前的关键阶段，可能激励技术交易者入场。",
+      "reason_en": "The 2019 period was a massive accumulation phase before the pre-Halving rally. This comparison suggests the current consolidation is a critical stage before a major breakout, likely encouraging technical traders to enter."
     },
     {
-      "title_cn": "2026年是以太坊开始通过ZK技术实现指数级扩展的一年",
-      "title_en": "2026 is the year Ethereum starts scaling exponentially with ZK tech",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "重要的以太坊基本面催化剂，解决了长期扩展问题，支持其生态系统增长。",
-      "reason_en": "Crucial Ethereum fundamental catalyst, addressing long-term scaling issues and supporting ecosystem growth."
-    },
-    {
-      "title_cn": "比特币艰难爬升至8.8万美元，而Aave面临治理危机",
-      "title_en": "Bitcoin crawls to $88K as Aave faces governance drama: Finance Redefined",
+      "title_cn": "多国银行假日（英镑、欧元、加元、瑞郎）",
+      "title_en": "[Multiple] Bank Holiday (GBP, EUR, CAD, CHF)",
       "news_sentiment": "Neutral",
       "classification": "NEUTRAL",
-      "reason_cn": "BTC在高位盘整，而Aave的治理问题是孤立的DeFi项目风险，不影响大盘走势。",
-      "reason_en": "BTC is consolidating at high levels; Aave governance issues are isolated DeFi project risks and do not affect the broader market trend."
-    },
-    {
-      "title_cn": "衰退？违约？白银和黄金持续飙升，分析师感到恐慌",
-      "title_en": "Recession? Defaults? Silver and Gold Keep Surging, and Analysts Are Scared",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "强化了在不确定性下加密货币作为数字黄金的对冲叙事，与流动性宽松背景相符。",
-      "reason_en": "Reinforces the hedge narrative for cryptocurrency as digital gold amid uncertainty, consistent with the loose liquidity background."
+      "reason_cn": "这是造成当前低波动性和极低交易量的主要宏观因素，解释了价格为何在强烈看涨叙事下仍保持横盘。",
+      "reason_en": "This is the primary macro factor causing low volatility and extremely thin trading volume, explaining why prices are consolidating despite strong bullish narratives."
     }
   ],
   "fed_futures": {
     "price": 96.365,
     "implied_rate": 3.635,
-    "timestamp": "2025-12-26T22:00:41.777310+00:00",
+    "timestamp": "2025-12-27T02:01:13.201634+00:00",
     "trend": "Dovish (Rate expectations dropping)",
     "change_5d_bps": -9.0,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 156.558,
-    "timestamp": "2025-12-26T22:00:41.826647+00:00",
+    "price": 156.09,
+    "timestamp": "2025-12-27T02:01:13.246662+00:00",
     "trend": "Yen Strength (Risk Off)",
-    "change_5d_pct": -0.71,
+    "change_5d_pct": -1.01,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 98.07,
-      "change_5d_pct": -0.23,
+      "price": 98.05,
+      "change_5d_pct": -0.24,
       "trend": "Weaker (Risk On)"
     },
     "us10y": {
@@ -111,63 +79,63 @@
   "coins": [
     {
       "symbol": "BTC",
-      "price": 87466.0,
-      "change_24h": -0.49940276434787556,
-      "rsi_4h": 46.771960851364824,
-      "funding_rate": 0.00143817056259,
-      "open_interest": 2419393.710000006,
-      "sentiment": "Neutral",
-      "score": 65,
-      "comment_cn": "在高位盘整，流动性支持看涨但价格短期停滞。RSI健康，等待新的突破催化剂。",
-      "comment_en": "Consolidating at high levels. Liquidity supports bullish moves but price is stalled short-term. RSI is healthy, awaiting a new breakout catalyst."
+      "price": 87489.0,
+      "change_24h": 0.027439547247470414,
+      "rsi_4h": 47.13263013853853,
+      "funding_rate": 0.00730664115181,
+      "open_interest": 2413425.880000005,
+      "sentiment": "Bullish",
+      "score": 85,
+      "comment_cn": "在强劲的流动性和看涨叙事支撑下，在高价位进行低量盘整。技术面中性，但宏观背景暗示这是积累阶段。",
+      "comment_en": "Low-volume consolidation at high prices, supported by strong liquidity and bullish narratives. Technicals are neutral, but the macro context suggests accumulation."
     },
     {
       "symbol": "ETH",
-      "price": 2924.85,
-      "change_24h": -0.7647444009784916,
-      "rsi_4h": 44.87424781428738,
-      "funding_rate": 0.00230927492408,
-      "open_interest": 5714759.940000022,
+      "price": 2928.59,
+      "change_24h": 0.29658245231907304,
+      "rsi_4h": 45.60520009892386,
+      "funding_rate": 0.00135170339859,
+      "open_interest": 5745689.170000019,
       "sentiment": "Bullish",
-      "score": 70,
-      "comment_cn": "受2026年ZK扩展和RWA叙事支撑。资金费率稳定，技术面略强于BTC，有更高的上升潜力。",
-      "comment_en": "Supported by 2026 ZK scaling and RWA narratives. Funding is stable, slightly stronger technicals than BTC, indicating higher upside potential."
+      "score": 90,
+      "comment_cn": "资金费率极低，且有具体的TVL和代币化利好消息驱动。预计在交易量恢复时，表现将跑赢大盘。",
+      "comment_en": "Very low funding rates and specific bullish news regarding TVL and tokenization. Expected to outperform the market when volume returns."
     },
     {
       "symbol": "SOL",
-      "price": 122.01,
-      "change_24h": -1.0301752109020084,
-      "rsi_4h": 45.596270463566206,
-      "funding_rate": -0.01022772878865,
-      "open_interest": 2763026.280000002,
-      "sentiment": "Neutral",
-      "score": 60,
-      "comment_cn": "价格小幅下跌，但资金费率转负，暗示在当前高位存在一定的空头压力或套利行为。",
-      "comment_en": "Minor price drop, but funding turning negative suggests some short pressure or arbitrage activity at current high levels."
+      "price": 122.4,
+      "change_24h": 1.123595505617977,
+      "rsi_4h": 47.031147762166206,
+      "funding_rate": 0.00606721340155,
+      "open_interest": 2785103.950000002,
+      "sentiment": "Bullish",
+      "score": 80,
+      "comment_cn": "小幅领涨，显示出相对强度。在整体市场等待突破时，继续保持良好势头。",
+      "comment_en": "Slightly outperforming the majors, showing relative strength. Maintaining good momentum as the rest of the market waits for a breakout."
     },
     {
       "symbol": "BNB",
-      "price": 834.5,
-      "change_24h": -0.9260358542087088,
-      "rsi_4h": 43.46022405208147,
-      "funding_rate": 0.00643616114928,
-      "open_interest": 7460275.0,
-      "sentiment": "Neutral",
-      "score": 68,
-      "comment_cn": "价格下跌但资金费率强劲，显示多头信念强，市场正在消化抛压。",
-      "comment_en": "Price dipped but funding remains strong, showing firm long conviction and suggesting that selling pressure is being absorbed."
+      "price": 836.4,
+      "change_24h": 0.5651076109173899,
+      "rsi_4h": 45.166646851042245,
+      "funding_rate": 0.01,
+      "open_interest": 7418323.0,
+      "sentiment": "Bullish",
+      "score": 75,
+      "comment_cn": "资金费率较高，价格结构稳定。主要依赖平台生态系统发展和牛市的整体情绪。",
+      "comment_en": "Solid price structure with high funding rates. Primarily driven by platform ecosystem developments and general bullish market sentiment."
     },
     {
       "symbol": "DOGE",
-      "price": 0.12176,
-      "change_24h": -4.080668032141173,
-      "rsi_4h": 31.527106769552404,
-      "funding_rate": -0.0157981818185,
-      "open_interest": 844552.6499999992,
-      "sentiment": "Bullish",
+      "price": 0.12271,
+      "change_24h": -1.0323413178482164,
+      "rsi_4h": 35.12473733141553,
+      "funding_rate": -0.0053597450571299995,
+      "open_interest": 852264.4299999992,
+      "sentiment": "Neutral",
       "score": 55,
-      "comment_cn": "跌幅最大，RSI接近超卖，资金费率严重为负。有很高的潜在轧空机会。",
-      "comment_en": "Largest drop, RSI near oversold, and severely negative funding. High potential for a short squeeze opportunity."
+      "comment_cn": "表现最弱，资金费率为负（空头拥挤），RSI接近超卖。尽管当前下跌，但负资金费率可能预示着潜在的空头挤压。",
+      "comment_en": "The weakest performer with negative funding (crowded shorts) and RSI leaning oversold. Despite the current drop, negative funding suggests potential for a short squeeze if momentum shifts."
     }
   ]
 }
