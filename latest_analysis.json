@@ -1,92 +1,76 @@
 {
-  "timestamp": "2025-12-28T06:04:55.968292",
-  "global_summary_cn": "流动性状态：全球资金水龙头正在松动（风险偏好）。宏观背景极其有利于风险资产：美联储降息预期持续下降（-9.0 bps），美元指数（DXY）走弱，以及美债收益率（US10Y）下滑。尽管日元走强带来了轻微的避险信号，但整体流动性宽松。新闻叙事层面，长期结构性利好占主导（监管明确、机构ETH质押、BTC十年牛市预测）。但短期数据（BTC未平仓合约降至八个月低点）暗示市场在88,000美元附近缺乏即时突破动力，正在经历去杠杆化和盘整。这种宽松流动性与短期盘整的结合，预示着市场处于积累阶段，逢低买入策略可行。我们预计在宏观背景的支持下，一旦短期阻力被消化，长期看涨趋势将恢复。",
-  "global_summary_en": "Liquidity Status: The global money tap is loosening (Risk On). The macro environment is highly conducive to risk assets: Fed rate expectations continue to drop (-9.0 bps), the DXY is weakening, and the US10Y is falling. Although Yen strength offers a slight risk-off counter signal, overall liquidity is loose. On the narrative layer, long-term structural positives dominate (regulatory clarity, institutional ETH staking, predictions of a BTC decade-long bull run). However, short-term data (BTC OI hitting an 8-month low) suggests the market lacks immediate momentum for a breakout near $88,000, undergoing deleveraging and consolidation. This combination of loose liquidity and short-term consolidation points to an accumulation phase where a 'Buy the Dip' strategy is viable. We anticipate the long-term bullish trend will resume once short-term resistance is digested, supported by favorable macro conditions.",
+  "timestamp": "2025-12-28T10:05:24.372515",
+  "global_summary_cn": "流动性状态：全球宏观流动性略微宽松（风险偏好）。美联储降息预期下降（-9.0 bps），DXY和10年期美债收益率走弱，支持风险资产价格。尽管日元短期走强，但整体环境偏向宽松。\n\n叙事分析：短期叙事偏向利空，主要受到圣诞周比特币ETF高达7.82亿美元的资金流出以及期货未平仓合约降至八个月低点的影响。然而，结构性利好消息强劲，特别是关于以太坊的巨大增长潜力（TVL可能暴涨10倍）和美国积极的监管进展。\n\n市场合成：这是典型的流动性宽松但短期消息面利空的背离情形。尽管ETF流出严重，BTC价格仍维持在87,000美元上方，表明市场消化了抛压或正在进行低位吸筹。在假日低交易量时期，市场处于盘整状态，等待新年流动性恢复。投资者应关注ETF流出是否停止，并警惕短期轧空的可能性。",
+  "global_summary_en": "Liquidity Status: Global macro liquidity is slightly easing (Risk On). Falling Fed rate expectations (-9.0 bps), coupled with a weaker DXY and declining US 10-year yield, support risk assets. Despite temporary Yen strength, the overall environment leans towards accommodative.\n\nNarrative Analysis: The short-term narrative is bearish, dominated by the massive $782 million Bitcoin ETF outflows during Christmas week and futures Open Interest hitting an eight-month low. However, strong structural bullish news persists, especially concerning Ethereum's potential 10X TVL growth and positive regulatory shifts in the US.\n\nSynthesis: This is a classic divergence where loose liquidity meets short-term bad news. BTC price maintaining above $87,000 despite significant ETF outflows suggests that selling pressure is being absorbed or accumulation is occurring. The market is in consolidation during low holiday volume, awaiting the New Year liquidity injection. Investors should monitor for stabilization in ETF flows and be prepared for potential short-term squeezes.",
   "news_analysis": [
     {
-      "title_cn": "分析师称，比特币不再需要黄金和白银“放缓”",
-      "title_en": "Bitcoin doesn’t need gold and silver 'to slow down,' say analysts",
-      "news_sentiment": "Neutral",
+      "title_cn": "现货比特币ETF在圣诞周流出7.82亿美元，或因“假期仓位调整”",
+      "title_en": "Spot Bitcoin ETFs bleed $782M during Christmas week amid ‘holiday positioning’",
+      "news_sentiment": "Bearish",
       "classification": "PRICED IN",
-      "reason_cn": "这是一则关于资产成熟度的评论，属于长期叙事，对当前价格影响中性。",
-      "reason_en": "This is a commentary on asset maturity, part of the long-term narrative, offering a neutral impact on current prices."
+      "reason_cn": "虽然消息本身利空且流出量大，但BTC价格在过去24小时内保持稳定，未出现大幅下跌，表明市场可能已经消化了大部分抛压，或者抛压被场外流动性吸收。",
+      "reason_en": "Although the news is bearish due to the large outflow, the BTC price remained stable over the last 24 hours without significant decline, suggesting the market may have already priced in the pressure or that the selling was absorbed by sidelined capital."
     },
     {
-      "title_cn": "高管称，未来十年比特币回报将强劲但“不惊人”",
+      "title_cn": "分析师称，比特币回报在未来十年将保持强劲但“不至于惊人”",
       "title_en": "Bitcoin returns will be strong but 'not spectacular' over next decade: Exec",
       "news_sentiment": "Neutral",
       "classification": "NEUTRAL",
-      "reason_cn": "管理长期预期，暗示资产成熟。对于短期交易影响不大。",
-      "reason_en": "Manages long-term expectations, suggesting asset maturity. Little impact on short-term trading."
+      "reason_cn": "这是一个长期展望，缺乏短期市场驱动力。它肯定了比特币的持续价值，但也设定了温和的预期。",
+      "reason_en": "This is a long-term outlook lacking immediate market catalyst. It affirms Bitcoin's enduring value but sets moderate expectations for future returns."
     },
     {
-      "title_cn": "明年之前比特币不会达到9万美元：BTC期货未平仓合约创8个月新低",
+      "title_cn": "明年之前比特币不会达到9万美元：BTC期货未平仓合约触及8个月低点",
       "title_en": "No $90K Bitcoin till next year: BTC futures open interest hits 8-month low",
       "news_sentiment": "Bearish",
-      "classification": "PRICED IN",
-      "reason_cn": "OI下降与价格盘整相符。这确认了短期动能不足的叙事，市场正在去杠杆化，抑制了即时突破。",
-      "reason_en": "The drop in OI aligns with price consolidation. This confirms the narrative of short-term momentum weakness; the market is deleveraging, capping immediate breakouts."
+      "classification": "IMPULSE",
+      "reason_cn": "期货OI低迷反映了杠杆交易员的犹豫不决和缺乏即时动能，支持短期内市场盘整的预期。",
+      "reason_en": "Low futures OI reflects hesitation among leveraged traders and a lack of immediate momentum, supporting the expectation of short-term market consolidation."
     },
     {
-      "title_cn": "Mow表示，比特币在2025年经历了熊市，未来将迎来“十年牛市”",
-      "title_en": "Bitcoin saw bear market in 2025, 'decade-long' bull run ahead: Mow",
+      "title_cn": "Uniswap在治理批准后执行了1亿枚UNI销毁",
+      "title_en": "Uniswap executes 100M UNI burn after governance approval",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "来自知名人士的强烈长期看涨预测，加强了市场结构性牛市的信念。",
-      "reason_en": "A strong long-term bullish forecast from a notable figure, reinforcing structural bull market conviction."
+      "reason_cn": "代币销毁直接减少了供应，对于UNI代币经济学是强劲的利好消息，通常会刺激价格上涨。",
+      "reason_en": "Token burn directly reduces supply, which is strong positive news for UNI tokenomics and typically stimulates price appreciation."
     },
     {
       "title_cn": "Bitmine开始质押ETH，向以太坊PoS合约存入2.19亿美元",
       "title_en": "Bitmine begins staking ETH, deposits $219M into Ethereum PoS contract",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "机构资金流入以太坊生态系统，直接利好ETH，表明机构对PoS收益的信心。",
-      "reason_en": "Institutional capital inflow into the Ethereum ecosystem, directly bullish for ETH and shows confidence in PoS yield."
+      "reason_cn": "大型机构向ETH质押合约的大量存款显示了对以太坊安全性和长期收益的信心，是ETH的基本面利好。",
+      "reason_en": "Large institutional deposit into the ETH staking contract demonstrates confidence in Ethereum's security and long-term yield, providing a strong fundamental boost for ETH."
     },
     {
-      "title_cn": "Sharplink CEO称，以太坊的TVL可能在2026年“暴涨10倍”",
+      "title_cn": "Sharplink CEO称以太坊的TVL可能在2026年暴涨“10倍”",
       "title_en": "Ethereum's TVL could skyrocket '10X' in 2026: Sharplink CEO",
       "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "对以太坊生态系统增长的极端乐观预测，为ETH提供了巨大的长期叙事支持。",
-      "reason_en": "Extremely optimistic forecast for Ethereum's ecosystem growth, providing massive long-term narrative support for ETH."
+      "classification": "NEUTRAL",
+      "reason_cn": "虽然这是一个非常乐观的长期预测，但缺乏短期催化剂。它强化了以太坊生态系统的结构性增长叙事。",
+      "reason_en": "While highly bullish, this is a long-term projection lacking immediate catalysts. It reinforces the structural growth narrative of the Ethereum ecosystem."
     },
     {
-      "title_cn": "随着Tom Lee概述看涨前景，以太坊的代币化作用成为焦点",
-      "title_en": "Etheruem’s tokenization role takes focus as Tom Lee outlines bullish outlook",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "强调以太坊在现实世界资产代币化中的核心作用，这是一个关键的结构性催化剂。",
-      "reason_en": "Highlights Ethereum's central role in Real World Asset (RWA) tokenization, a key structural catalyst."
-    },
-    {
-      "title_cn": "具有里程碑意义的加密法案推动2025年监管转变，国会表明对数字资产增长的承诺",
+      "title_cn": "里程碑式的加密法案推动2025年监管转变，国会表明致力于数字资产增长",
       "title_en": "Landmark Crypto Bills Drive 2025 Regulatory Shift as Congress Signals Commitment to Digital Asset Growth",
       "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "监管清晰度是加密市场长期扩张的最大催化剂之一，消除不确定性，吸引机构资金。",
-      "reason_en": "Regulatory clarity is one of the biggest catalysts for long-term crypto market expansion, removing uncertainty and attracting institutional capital."
-    },
-    {
-      "title_cn": "XRP ETF在2025年推出：资金快速流入和强大的机构首次亮相",
-      "title_en": "XRP ETFs’ 2025 Launch: Rapid Inflows and a Strong Institutional Debut",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "新的机构产品线（XRP ETF）的推出，类似于BTC/ETH ETF，预期将带来新的资本流入。",
-      "reason_en": "The introduction of a new institutional product line (XRP ETF), similar to BTC/ETH ETFs, is expected to bring fresh capital inflows."
+      "classification": "NEUTRAL",
+      "reason_cn": "明确和积极的监管承诺降低了长期不确定性，对所有加密资产都是基础性利好。",
+      "reason_en": "Clear and positive regulatory commitment reduces long-term uncertainty and is fundamentally bullish for all digital assets."
     }
   ],
   "fed_futures": {
     "price": 96.365,
     "implied_rate": 3.635,
-    "timestamp": "2025-12-28T06:04:40.337499+00:00",
+    "timestamp": "2025-12-28T10:05:09.211149+00:00",
     "trend": "Dovish (Rate expectations dropping)",
     "change_5d_bps": -9.0,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
     "price": 156.09,
-    "timestamp": "2025-12-28T06:04:40.382912+00:00",
+    "timestamp": "2025-12-28T10:05:09.258599+00:00",
     "trend": "Yen Strength (Risk Off)",
     "change_5d_pct": -1.01,
     "zone": "Weak Yen (Intervention Risk)"
@@ -111,63 +95,63 @@
   "coins": [
     {
       "symbol": "BTC",
-      "price": 87645.0,
-      "change_24h": 0.19101967468355532,
-      "rsi_4h": 48.68510396427477,
-      "funding_rate": 0.00543955453542,
-      "open_interest": 2408949.8400000045,
+      "price": 87857.0,
+      "change_24h": 0.30792135389491065,
+      "rsi_4h": 51.11026237645169,
+      "funding_rate": 0.0069726505385,
+      "open_interest": 2424597.9500000044,
       "sentiment": "Neutral",
-      "score": 65,
-      "comment_cn": "在强劲的宏观利好背景下（宽松流动性），BTC目前处于盘整期。OI低迷抑制了短期突破，但长期牛市叙事强烈。",
-      "comment_en": "BTC is in a consolidation phase despite the strong macro tailwinds (loose liquidity). Low OI caps short-term breakouts, but the long-term bull narrative is strong."
+      "score": 60,
+      "comment_cn": "在ETF流出和低OI的压力下保持稳定，显示出坚固的支撑。关注宏观流动性是否能抵消短期抛压。",
+      "comment_en": "Stable despite pressure from ETF outflows and low OI, showing strong underlying support. Focus remains on whether macro liquidity can offset short-term selling."
     },
     {
       "symbol": "ETH",
-      "price": 2935.59,
-      "change_24h": 0.2051488609288778,
-      "rsi_4h": 47.60737221313574,
-      "funding_rate": 0.00306245325538,
-      "open_interest": 5685571.450000021,
+      "price": 2939.34,
+      "change_24h": 0.20386178307469993,
+      "rsi_4h": 48.549528478046795,
+      "funding_rate": 0.00469674196114,
+      "open_interest": 5748593.220000022,
       "sentiment": "Bullish",
       "score": 75,
-      "comment_cn": "ETH受到机构质押和TVL“10倍增长”预测的直接推动。其基本面催化剂比BTC更具即时性。",
-      "comment_en": "ETH is directly boosted by institutional staking and '10X TVL growth' forecasts. Its fundamental catalysts appear more immediate than BTC's."
+      "comment_cn": "基本面强劲（质押存款和TVL预测），跑赢大盘的潜力高。但短期RSI略低于50，需突破阻力。",
+      "comment_en": "Strong fundamentals (staking deposits and TVL forecasts) suggest high potential to outperform. Short-term RSI slightly below 50, needs a definitive break of resistance."
     },
     {
       "symbol": "SOL",
-      "price": 123.77,
-      "change_24h": 0.5442729488220973,
-      "rsi_4h": 51.632381062027534,
+      "price": 124.25,
+      "change_24h": 1.0244735344336982,
+      "rsi_4h": 53.803404758567886,
       "funding_rate": 0.01,
-      "open_interest": 2831934.88,
-      "sentiment": "Neutral",
-      "score": 60,
-      "comment_cn": "表现稳定，RSI中性，受益于更广泛的市场乐观情绪，但缺乏新的特定催化剂。",
-      "comment_en": "Stable performance with neutral RSI, benefiting from the broader market optimism but lacking new specific catalysts."
+      "open_interest": 2862346.56,
+      "sentiment": "Bullish",
+      "score": 80,
+      "comment_cn": "在主要资产中具有最高的24小时涨幅和高资金费率，表明持续的短期动能和积极的交易情绪。",
+      "comment_en": "Highest 24h gain and strong funding rate among majors, indicating persistent short-term momentum and positive trading sentiment."
     },
     {
       "symbol": "BNB",
-      "price": 843.1,
-      "change_24h": 0.7287933094384734,
-      "rsi_4h": 51.35011595002827,
+      "price": 847.7,
+      "change_24h": 0.9046542078324036,
+      "rsi_4h": 56.00451493265988,
       "funding_rate": 0.01,
-      "open_interest": 7464314.0,
+      "open_interest": 7476130.0,
       "sentiment": "Bullish",
-      "score": 70,
-      "comment_cn": "表现略强，资金费率和RSI略高，可能受到特定生态系统活动驱动。",
-      "comment_en": "Slightly stronger performance with higher funding and RSI, potentially driven by specific ecosystem activities."
+      "score": 85,
+      "comment_cn": "RSI处于强势区域（56.0），动能最强。市场对其生态系统保持高度信心。",
+      "comment_en": "Highest RSI (56.0) indicates the strongest relative momentum. Market maintains high confidence in its ecosystem."
     },
     {
       "symbol": "DOGE",
-      "price": 0.12387,
-      "change_24h": 0.8466986892452979,
-      "rsi_4h": 42.704275637000826,
-      "funding_rate": 0.00707619138035,
-      "open_interest": 855123.4499999995,
+      "price": 0.12403,
+      "change_24h": 1.0757069513487099,
+      "rsi_4h": 43.3374898416759,
+      "funding_rate": 0.004973657512,
+      "open_interest": 861659.3699999993,
       "sentiment": "Neutral",
-      "score": 55,
-      "comment_cn": "RSI略低（42.7），资金费率适中。作为高Beta资产，若流动性全面释放，它将迅速反应。",
-      "comment_en": "Slightly lower RSI (42.7) and moderate funding. As a high-beta asset, it is poised to react strongly once full liquidity is released."
+      "score": 50,
+      "comment_cn": "RSI较低（43.3），目前处于跟随状态。交易员可能等待山寨币季节的普遍启动。",
+      "comment_en": "Low RSI (43.3), currently lagging the market. Traders are likely waiting for broader altcoin seasonal rotation."
     }
   ]
 }
