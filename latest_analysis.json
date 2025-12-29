@@ -1,100 +1,84 @@
 {
-  "timestamp": "2025-12-28T22:07:01.530232",
-  "global_summary_cn": "流动性状态：宽松/风险偏好。全球宏观流动性环境表现强劲的风险偏好信号。美联储降息预期下降（鸽派）以及美元指数（DXY）和美债收益率（US10Y）走弱，均支持风险资产。同时，新闻叙事层也呈现出压倒性的看涨情绪，主要集中在机构采用（PNC/Coinbase合作、韩国Mirae资产收购）和核心资产（ETH/SOL）的积极基本面（质押、TVL预测、ETF前景）。由于流动性和叙事双重看涨，市场处于“完美看涨风暴”状态。尽管过去24小时主要币种价格走势趋于盘整，但这可能是在强劲宏观背景下为下一轮上涨蓄力。投资者应关注BNB的强势表现以及ETH生态系统日益增长的基本面动力。",
-  "global_summary_en": "Liquidity Status: Loose/Risk On. The global macro liquidity environment shows strong Risk On signals. Declining Fed rate expectations (dovish trend), coupled with a weaker DXY and falling US10Y yields, strongly support risk assets. Concurrently, the News Narrative Layer is overwhelmingly bullish, focusing on institutional adoption (PNC/Coinbase partnership, Mirae Asset acquisition in Korea) and positive fundamentals for core assets (ETH/SOL) like staking, TVL forecasts, and ETF prospects. With both liquidity and narrative aligned bullishly, the market is in a 'Perfect Storm (Bullish)' scenario. While major coins showed consolidation over the last 24 hours, this likely represents accumulation before the next leg up, backed by strong macro tailwinds. Investors should note the outperformance of BNB and the growing fundamental momentum in the ETH ecosystem.",
+  "timestamp": "2025-12-29T02:07:28.982473",
+  "global_summary_cn": "流动性状态：宽松/风险偏好。全球市场正处于一个看涨的“完美风暴”情景中。宏观流动性宽松，美元指数（DXY）走弱，美债收益率（US10Y）下降，且市场暗示美联储的鸽派倾向加剧（利率预期下降8.8个基点），为风险资产提供了强大的支撑。新闻叙事层面，围绕以太坊（巨额质押、TVL 10倍预测）和Defi（Uniswap代币销毁）的利好消息占据主导地位，同时机构参与度增加（Mirae收购Korbit，俄罗斯加密贷款）。市场情绪积极，尽管山寨币（如BNB）RSI高位，但整体未出现过热信号。预计短期内市场将继续受益于年末的乐观情绪和机构的看涨预期。",
+  "global_summary_en": "Liquidity Status: Loose/Risk On. The global market is currently experiencing a 'Perfect Storm' bullish scenario. Macro liquidity is loose, driven by a weakening DXY, falling US10Y yields, and an intensified dovish trend from the Fed (implied rate expectations dropped 8.8 bps), providing strong tailwinds for risk assets. On the narrative layer, bullish news dominates, centered around Ethereum (massive staking, 10X TVL forecast) and DeFi (Uniswap token burn), alongside increasing institutional adoption (Mirae buying Korbit, Russian crypto loan). Market sentiment is aggressive but not yet overheated (funding rates are moderate). The market is expected to continue benefiting from year-end optimism and strong institutional forecasts in the short term.",
   "news_analysis": [
     {
-      "title_cn": "加密市场动态：比特币目标 $90,000 回归，以太坊预期波动性增加，狗狗币着眼 $0.20 突破",
-      "title_en": "Crypto Market Move: Bitcoin Targets $90,000 Comeback, Ethereum Anticipates Increased Volatility, DOGE Eyes $0.20 Breakout",
+      "title_cn": "美联储利率预期下降（暗示鸽派倾向）",
+      "title_en": "Fed Rate Expectations Dropping (Implied Dovish Trend)",
       "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "直接的看涨价格预测，与当前市场的强劲势头和宽松的宏观流动性一致，为短期投机提供了理由。",
-      "reason_en": "Direct bullish price forecast, aligning with current market momentum and loose macro liquidity, providing justification for short-term speculation."
-    },
-    {
-      "title_cn": "加密投资者需要了解的关于 PNC 银行与 Coinbase 合作的一件事",
-      "title_en": "1 Thing Crypto Investors Need to Know About the PNC Bank-Coinbase Partnership",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "主流传统银行（PNC）与主要加密交易所（Coinbase）的合作进一步证实了机构对数字资产的整合和采用。",
-      "reason_en": "Partnership between a major traditional bank (PNC) and a primary crypto exchange (Coinbase) further validates institutional integration and adoption of digital assets."
+      "classification": "PRICED IN",
+      "reason_cn": "宏观驱动因素：利率预期下降，使得实际收益率和资金成本降低，直接利好加密等高风险资产。",
+      "reason_en": "Macro driver: Falling rate expectations reduce real yields and the cost of capital, directly benefiting high-risk assets like crypto. This is the underlying driver of the current liquidity wave."
     },
     {
       "title_cn": "Mirae Asset 洽谈以 1 亿美元收购韩国加密交易所 Korbit",
-      "title_en": "Mirae Asset in talks to buy Korean crypto exchange Korbit in $100M deal: Report",
+      "title_en": "Mirae Asset in talks to buy Korean crypto exchange Korbit in $100M deal",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "一家主要的韩国金融机构收购加密基础设施，表明传统金融资本正在积极流入加密领域。",
-      "reason_en": "Acquisition of crypto infrastructure by a major Korean financial institution signals active capital inflow from traditional finance into the crypto space."
+      "reason_cn": "重要的机构资本流入和市场整合，表明亚洲大型金融机构对加密行业的长期信心。",
+      "reason_en": "Significant institutional capital inflow and market consolidation, indicating long-term confidence from major Asian financial institutions in the crypto space."
     },
     {
       "title_cn": "Uniswap 在治理批准后销毁 1 亿 UNI",
       "title_en": "Uniswap executes 100M UNI burn after governance approval",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "重大的通缩事件，通过治理实现，对 UNI 的长期价值和 DeFi 领域的成熟是积极的。",
-      "reason_en": "Significant deflationary event enacted through governance, positive for UNI's long-term value and the maturity of the DeFi sector."
+      "reason_cn": "Defi领域代币经济学发生重大变化，创造了通缩压力，对UNI及其生态系统构成强劲利好。",
+      "reason_en": "A major tokenomics shift in the DeFi space, creating deflationary pressure and providing a strong tailwind for UNI and its ecosystem."
     },
     {
       "title_cn": "Bitmine 开始质押 ETH，向以太坊 PoS 合约存入 2.19 亿美元",
       "title_en": "Bitmine begins staking ETH, deposits $219M into Ethereum PoS contract",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "大规模机构资金（2.19 亿美元）被锁定用于质押，减少了流通供应并增强了对以太坊 PoS 机制的信任。",
-      "reason_en": "Large institutional capital ($219M) locked up in staking, reducing circulating supply and strengthening confidence in Ethereum's PoS mechanism."
+      "reason_cn": "大型机构对以太坊质押的承诺，锁定大量ETH，有助于减少流通供应并增强网络安全性。",
+      "reason_en": "Confirmation of large-scale institutional commitment to Ethereum staking, locking up supply and strengthening network security."
     },
     {
-      "title_cn": "以太坊的 TVL 可能会在 2026 年飙升 '10 倍'：Sharplink CEO",
+      "title_cn": "Ethereum 的 TVL 可能在 2026 年暴涨 '10 倍'：Sharplink CEO",
       "title_en": "Ethereum's TVL could skyrocket '10X' in 2026: Sharplink CEO",
       "news_sentiment": "Bullish",
-      "classification": "NEUTRAL",
-      "reason_cn": "这是一个长期且高度投机的预测，为基本面提供了看涨背景，但对当前价格走势的影响有限，属于长期利好。",
-      "reason_en": "A long-term and highly speculative projection that provides a bullish backdrop for fundamentals but has limited immediate price impact; classified as a long-term catalyst."
-    },
-    {
-      "title_cn": "Solana ETF 在 2025 年首次亮相：快速启动，强劲需求，稳健收官",
-      "title_en": "Solana ETFs’ 2025 Debut: Fast Start, Strong Demand, Measured Finish",
-      "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "确认了监管/机构对除 BTC 和 ETH 之外山寨币的兴趣，是 SOL 的重大叙事催化剂。",
-      "reason_en": "Confirmation of regulatory/institutional interest in altcoins beyond BTC and ETH, serving as a significant narrative catalyst for SOL."
+      "reason_cn": "极度看好的未来展望，为 ETH 带来了强烈的长期投资叙事支撑。",
+      "reason_en": "An extremely bullish future outlook providing strong long-term investment narrative support for ETH."
     },
     {
-      "title_cn": "俄罗斯联邦储蓄银行（Sberbank）发放俄罗斯首笔加密资产抵押贷款",
+      "title_cn": "俄罗斯联邦储蓄银行 Sberbank 发放首笔加密抵押贷款",
       "title_en": "Sberbank Issues First Crypto Backed Loan in Russia",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "在主要司法管辖区内，加密资产被用于实际的金融产品，标志着监管和实际应用向前迈进了一步。",
-      "reason_en": "Crypto assets being used in real-world financial products within a major jurisdiction, signaling progress in regulation and practical application."
+      "reason_cn": "现实世界的金融应用和主流机构采用的实例，提升了加密资产的实用性和合法性。",
+      "reason_en": "Example of real-world financial application and mainstream institutional adoption, increasing the utility and legitimacy of crypto assets."
     },
     {
-      "title_cn": "美联储理事 Paulson 讲话",
-      "title_en": "[USD] FOMC Member Paulson Speaks (Low)",
+      "title_cn": "年末宏观/日程假期新闻（NASA, CD利率, 抵押贷款利率）",
+      "title_en": "Year-End Macro/Calendar Holiday News (NASA, CD Rates, Mortgage Rates)",
       "news_sentiment": "Neutral",
       "classification": "NEUTRAL",
-      "reason_cn": "美联储官员的常规讲话，且被标记为低影响事件，市场可能已经消化了整体的鸽派趋势。",
-      "reason_en": "Routine speech by a Fed official, labeled as low impact. The market has likely already discounted the overarching dovish trend."
+      "reason_cn": "大部分是背景信息或节假日安排。CD和抵押贷款利率仍高，但市场更关注美联储的未来趋势。",
+      "reason_en": "Mostly background information or holiday schedules. While absolute rates are high, the market is primarily reacting to the downward trend in Fed expectations."
     }
   ],
   "fed_futures": {
-    "price": 96.365,
-    "implied_rate": 3.635,
-    "timestamp": "2025-12-28T22:06:45.039163+00:00",
+    "price": 96.363,
+    "implied_rate": 3.637,
+    "timestamp": "2025-12-29T02:07:14.910368+00:00",
     "trend": "Dovish (Rate expectations dropping)",
-    "change_5d_bps": -9.0,
+    "change_5d_bps": -8.8,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 156.477,
-    "timestamp": "2025-12-28T22:06:45.097656+00:00",
-    "trend": "Yen Strength (Risk Off)",
-    "change_5d_pct": -0.76,
+    "price": 156.394,
+    "timestamp": "2025-12-29T02:07:14.953340+00:00",
+    "trend": "Neutral",
+    "change_5d_pct": -0.31,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 98.05,
-      "change_5d_pct": -0.24,
+      "price": 97.95,
+      "change_5d_pct": -0.35,
       "trend": "Weaker (Risk On)"
     },
     "us10y": {
@@ -111,63 +95,63 @@
   "coins": [
     {
       "symbol": "BTC",
-      "price": 87570.1,
-      "change_24h": -0.06846962402188289,
-      "rsi_4h": 47.46331281111962,
-      "funding_rate": 0.0045632280593099995,
-      "open_interest": 2430933.880000005,
-      "sentiment": "Neutral",
-      "score": 75,
-      "comment_cn": "尽管宏观环境和叙事极为乐观，但 BTC 在 $87,500 附近盘整（RSI 47），等待新的突破催化剂。整体趋势强劲。",
-      "comment_en": "Despite extremely bullish macro and narrative alignment, BTC is consolidating around $87,500 (RSI 47), awaiting a fresh breakout catalyst. The underlying trend remains robust."
+      "price": 89217.3,
+      "change_24h": 1.6428311837156921,
+      "rsi_4h": 64.16266510002085,
+      "funding_rate": 0.00781838360368,
+      "open_interest": 2438560.2600000054,
+      "sentiment": "Bullish",
+      "score": 85,
+      "comment_cn": "在宏观流动性宽松和积极叙事双重推动下，突破 $89,000，目标价位转向 $90,000 关键心理关口。OI 增加显示多头押注集中。",
+      "comment_en": "Breaking $89,000 driven by loose macro liquidity and positive narratives. The focus shifts to the critical psychological level of $90,000. Increased OI suggests concentrated long positioning."
     },
     {
       "symbol": "ETH",
-      "price": 2936.23,
-      "change_24h": 0.1716020742358147,
-      "rsi_4h": 47.62570507021618,
-      "funding_rate": 0.00992624060583,
-      "open_interest": 5775805.330000022,
-      "sentiment": "Bullish",
-      "score": 85,
-      "comment_cn": "ETH 受益于积极的基本面消息（大量质押、TVL 预测、通证化角色），为下一轮上涨做好了准备。资金费率显示多头积极。",
-      "comment_en": "ETH benefits from strong fundamental tailwinds (massive staking, TVL forecasts, tokenization role) and is poised for the next upswing. Funding rate indicates active long positioning."
+      "price": 3013.15,
+      "change_24h": 2.3349409047683736,
+      "rsi_4h": 65.61094466542758,
+      "funding_rate": 0.00660202029374,
+      "open_interest": 5899522.840000016,
+      "sentiment": "Strongly Bullish",
+      "score": 90,
+      "comment_cn": "凭借自身利好消息（巨额质押、TVL 10X预测）跑赢 BTC。RSI 健康，基本面强劲，中期看涨势头强劲。",
+      "comment_en": "Outperforming BTC based on powerful independent news (massive staking, 10X TVL forecast). Healthy RSI and robust fundamentals support strong mid-term bullish momentum."
     },
     {
       "symbol": "SOL",
-      "price": 123.66,
-      "change_24h": -0.5468875663503352,
-      "rsi_4h": 50.36659365913061,
-      "funding_rate": 0.00147639613715,
-      "open_interest": 2843634.780000002,
-      "sentiment": "Neutral",
-      "score": 70,
-      "comment_cn": "价格波动最小，但 2025 年 ETF 的叙事为其长期走势提供了强大的结构性支持。",
-      "comment_en": "Minimal price volatility, but the 2025 ETF narrative provides powerful structural support for its long-term trajectory. Currently consolidating."
+      "price": 129.35,
+      "change_24h": 4.247259832366213,
+      "rsi_4h": 68.69872206471705,
+      "funding_rate": 0.01,
+      "open_interest": 3007119.9800000037,
+      "sentiment": "Strongly Bullish",
+      "score": 88,
+      "comment_cn": "涨幅领先，资金费率高企，显示市场对其高增长叙事抱有极高信念。需关注 RSI 接近 69，可能面临短期小幅回调。",
+      "comment_en": "Leading the market charge. High funding rates show extreme conviction in its growth narrative. RSI near 69 suggests strong momentum but warrants caution for potential short-term cooling."
     },
     {
       "symbol": "BNB",
-      "price": 857.7,
-      "change_24h": 1.8041543026706286,
-      "rsi_4h": 62.00281703204619,
+      "price": 871.2,
+      "change_24h": 3.6525877453896545,
+      "rsi_4h": 71.38964214047046,
       "funding_rate": 0.01,
-      "open_interest": 7953593.0,
+      "open_interest": 7866151.0,
       "sentiment": "Bullish",
-      "score": 90,
-      "comment_cn": "BNB 表现出最强的相对势头（24 小时 +1.80%，RSI 62），资金费率高，暗示其短期内强劲跑赢大盘。",
-      "comment_en": "BNB exhibits the strongest relative momentum (24h +1.80%, RSI 62) and high funding, suggesting strong short-term outperformance."
+      "score": 80,
+      "comment_cn": "强势上行，但 RSI 达到 71.4，是主要币种中最高的，短期内存在过热风险。基本面稳定，但动能需要巩固。",
+      "comment_en": "Strong upward move, but RSI at 71.4 (highest among majors) flags overheating risk in the short term. Fundamentals are stable, but momentum needs consolidation."
     },
     {
       "symbol": "DOGE",
-      "price": 0.12326,
-      "change_24h": -0.22664723976040352,
-      "rsi_4h": 40.22866059377724,
-      "funding_rate": 0.00249906664074,
-      "open_interest": 831343.0999999992,
+      "price": 0.12702,
+      "change_24h": 2.4933430162188297,
+      "rsi_4h": 58.14683328889727,
+      "funding_rate": 0.007977866697449999,
+      "open_interest": 817806.4199999991,
       "sentiment": "Neutral",
-      "score": 60,
-      "comment_cn": "RSI 疲软（40.2），目前缺乏动力。尽管新闻预测有 $0.20 的突破，但需要更强的流动性流入来支持。",
-      "comment_en": "Weak RSI (40.2) and currently lacks momentum. Despite news forecasts of a $0.20 breakout, it requires stronger liquidity injection to support the move."
+      "score": 65,
+      "comment_cn": "稳健上涨，但跑输大盘。表现符合更广泛的风险偏好环境，但缺乏独立叙事驱动。",
+      "comment_en": "Steady increase but lagging the major L1s. Performance aligns with the broader risk-on environment but lacks independent narrative catalysts."
     }
   ]
 }
