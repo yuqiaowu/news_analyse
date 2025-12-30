@@ -1,84 +1,84 @@
 {
-  "timestamp": "2025-12-30T06:11:06.728463",
-  "global_summary_cn": "流动性状态：宽松/风险偏好。宏观层面，美联储利率预期下降（-12.8 bps）和美债收益率下行（US10Y 4.12%），共同构建了利于风险资产的宽松环境。加密货币新闻叙事表现出强烈的看涨倾向，尤其体现在长期持有者停止抛售、ETH鲸鱼积累以及大型企业进行ETH质押。然而，尽管宏观和叙事双重利好，主要资产（BTC/ETH）在过去24小时内仍下跌约3%。这种“流动性宽松+利好消息+价格下跌”的组合形成了明显的**背离**，暗示当前的下跌可能是假期交易量稀疏或获利了结导致的暂时性低吸机会（Buy the Dip）。ETH的负资金费率与鲸鱼积累的结合，尤其预示着潜在的空头挤压。",
-  "global_summary_en": "Liquidity Status: Loose/Risk On. On the macro front, falling Fed rate expectations (-12.8 bps) and declining US 10Y yields (4.12%) create a supportive, risk-on environment. The crypto narrative is strongly bullish, highlighted by long-term hodlers halting selloffs, ETH whale accumulation, and large corporate staking of ETH. However, despite this dual bullish setup, major assets (BTC/ETH) dropped about 3% in the last 24 hours. This combination of \"Loose Liquidity + Good News + Falling Price\" signals a significant **Divergence**. The current dip likely represents a temporary opportunity driven by holiday-thin volumes or profit-taking (Buy the Dip). Specifically, ETH's negative funding rate, coupled with strong accumulation news, suggests a potential short squeeze on the horizon.",
+  "timestamp": "2025-12-30T10:11:33.449323",
+  "global_summary_cn": "流动性状态：全球宏观流动性略微宽松（Risk On）。美联储降息预期下降（5日内下降9个基点），以及10年期美债收益率趋于下降，为风险资产提供了支撑。市场叙事方面，消息面极度乐观，机构正在大规模积累（Metaplanet增持4.5亿美元BTC，BitMine锁定10亿美元ETH进行质押），且长期持有者停止抛售。\n\n**综合判断**：这是一个流动性宽松与重磅利好消息叠加的“完美风暴”（看涨）。尽管当前市场价格正在盘整，但基本面驱动力异常强劲。价格的停滞（BTC/ETH 24小时波动接近零）表明市场正在消化利好，而不是拒绝它。这预示着一旦盘整结束，下一轮上涨的动能将会非常充足。短期内关注ETH，因其拥有强劲的质押和鲸鱼积累叙事。",
+  "global_summary_en": "Liquidity Status: Global macro liquidity is slightly loose (Risk On). Falling Fed rate expectations (down 9 bps over 5 days) and a decreasing trend in the 10-year US Treasury yield provide strong underlying support for risk assets. The News Narrative is overwhelmingly Bullish, driven by significant institutional accumulation (Metaplanet adding $450M in BTC, BitMine locking up $1B in ETH for staking) and the halt of selling by long-term hodlers.\n\n**Synthesis**: This represents a 'Perfect Storm' scenario (Bullish), where supportive liquidity aligns with massive positive news flow. While current market prices are consolidating (BTC/ETH 24hr movement near zero), the fundamental drivers are exceptionally strong. This stagnation suggests the market is digesting the good news rather than rejecting it, indicating significant potential energy for the next upward move once consolidation concludes. ETH shows particularly strong short-term narrative catalysts.",
   "news_analysis": [
     {
-      "title_cn": "比特币长期持有者最终停止抛售，以太坊鲸鱼开始积累",
+      "title_cn": "Metaplanet在2025年12月后期增持4.5亿美元，BTC总量超过35,000枚",
+      "title_en": "Metaplanet adds $450M in late-December buys, ending 2025 above 35,000 BTC",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "明确的企业大额购入信息，证实了机构对BTC作为储备资产的持续需求。",
+      "reason_en": "Clear confirmation of large corporate purchase, solidifying institutional demand for BTC as a treasury asset."
+    },
+    {
+      "title_cn": "灰度：价值存储需求和监管清晰度将推动2026年牛市",
+      "title_en": "Store of value demand, regulatory clarity to drive 2026 bull market: Grayscale",
+      "news_sentiment": "Bullish",
+      "classification": "NEUTRAL",
+      "reason_cn": "对未来市场的积极预测，属于宏观展望，但非即时催化剂。",
+      "reason_en": "Positive forward-looking prediction about market drivers, categorized as a macro outlook rather than an immediate catalyst."
+    },
+    {
+      "title_cn": "比特币长期持有者最终停止抛售，ETH鲸鱼正在积累",
       "title_en": "Bitcoin long-term hodlers finally halt selloff as ETH whales accumulate",
       "news_sentiment": "Bullish",
-      "classification": "DIVERGENCE",
-      "reason_cn": "这是强烈的链上积累信号。尽管积累发生，价格仍在下跌（-3%），这表明当前价格可能低于公允价值，是基于基本面驱动的背离/低吸机会。",
-      "reason_en": "Strong on-chain accumulation signal. The price is falling (-3%) despite this accumulation, suggesting the current price may be undervalued. This is a fundamental divergence/buy-the-dip scenario."
-    },
-    {
-      "title_cn": "伊朗抗议货币崩溃显示比特币的必要性：Bitwise CEO",
-      "title_en": "Iranian protests over currency collapse show why Bitcoin's needed: Bitwise CEO",
-      "news_sentiment": "Bullish",
-      "classification": "NEUTRAL",
-      "reason_cn": "典型的“价值储存”叙事支撑，但并非直接的市场催化剂。",
-      "reason_en": "Classic 'store of value' narrative support, but not a direct market catalyst."
-    },
-    {
-      "title_cn": "Strategy最新的2025年比特币购买行动为积极的积累年划上句号",
-      "title_en": "Strategy’s latest 2025 Bitcoin purchase caps active year of accumulation",
-      "news_sentiment": "Bullish",
       "classification": "PRICED IN",
-      "reason_cn": "这则新闻证实了企业积累仍在持续，但积累行为是去年的事件，市场可能已部分消化。对长期看涨情绪提供支持。",
-      "reason_en": "Confirms ongoing corporate accumulation. While supportive of long-term bullish sentiment, the accumulation occurred in the past year and may be partially priced in."
+      "reason_cn": "链上数据表现出强大的积累信号，是市场强劲的基础，但价格并未立即大幅上涨，显示市场正在吸收该信息。",
+      "reason_en": "On-chain data shows strong accumulation signals, forming a solid market foundation. The lack of immediate sharp price reaction suggests the market is absorbing this information."
     },
     {
-      "title_cn": "科技巨头将推出加密钱包，Dragonfly高管称金融科技L1s将失败。",
-      "title_en": "Tech giant to launch crypto wallet, fintech L1s will bomb: Dragonfly exec.",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "科技巨头进入钱包市场是积极的采用新闻，但对L1的预测属于观点争论，市场影响中性。",
-      "reason_en": "Tech giant entering the wallet space is positive adoption news. The prediction about L1s is a subjective view. Neutral market impact."
-    },
-    {
-      "title_cn": "ETH价格将达到5K美元？上次发生这种情况时，以太币上涨了120%",
-      "title_en": "ETH price to $5K next? Ether rallied 120% the last time this happened",
-      "news_sentiment": "Bullish",
-      "classification": "DIVERGENCE",
-      "reason_cn": "强烈的看涨技术预测，但ETH当前正在下跌并伴随负资金费率，表明短期投机者持谨慎态度，为潜在反弹创造了技术性基础。",
-      "reason_en": "Strong bullish technical prediction. ETH is currently dipping with negative funding, suggesting short-term skepticism despite bullish fundamentals, setting the stage for a rebound."
-    },
-    {
-      "title_cn": "BitMine锁定10亿美元以太坊，因大型企业为获得收益而质押ETH",
+      "title_cn": "BitMine锁定10亿美元以太坊，大公司质押ETH以获取收益",
       "title_en": "BitMine locks up $1B in Ether as big corporates stake ETH for yield",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "这是机构对ETH质押生态系统信心增强的明确信号，长期供应锁定，直接利好ETH基本面。",
-      "reason_en": "Clear signal of growing institutional confidence in the ETH staking ecosystem, locking up long-term supply, directly favorable to ETH fundamentals."
+      "reason_cn": "具体的数十亿美元的ETH质押行为，减少了流通供应，为ETH提供了强大的通缩和需求支撑。",
+      "reason_en": "Specific multi-billion dollar ETH staking action, reducing circulating supply and providing strong deflationary and demand support for ETH."
     },
     {
-      "title_cn": "彭博策略师警告以太坊更有可能达到2,000美元而非4,000美元",
-      "title_en": "Bloomberg Strategist Warns Ether More Likely to Hit $2,000 Than $4,000",
-      "news_sentiment": "Bearish",
+      "title_cn": "ETH价格将达到5000美元？上次发生这种情况时以太坊上涨了120%",
+      "title_en": "ETH price to $5K next? Ether rallied 120% the last time this happened",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "强烈的价格预测和历史对比，激发了市场对ETH的短期 FOMO 情绪。",
+      "reason_en": "Strong price prediction coupled with historical comparison, fueling short-term FOMO sentiment around ETH."
+    },
+    {
+      "title_cn": "伊朗因货币崩溃引发的抗议活动显示了比特币的必要性：Bitwise CEO",
+      "title_en": "Iranian protests over currency collapse show why Bitcoin's needed: Bitwise CEO",
+      "news_sentiment": "Bullish",
       "classification": "NEUTRAL",
-      "reason_cn": "与前述看涨预测形成对比，属于常见的市场观点分歧，对即时价格行为影响中性。",
-      "reason_en": "Contrasts with other bullish predictions. Represents normal market view divergence, neutral impact on immediate price action."
+      "reason_cn": "加强了比特币作为对冲法币危机的宏观叙事，属于长期基本面支撑。",
+      "reason_en": "Reinforces the macro narrative of Bitcoin as a hedge against fiat currency crises, supporting long-term fundamentals."
+    },
+    {
+      "title_cn": "科技巨头将推出加密钱包，金融科技 L1 将失败：Dragonfly高管",
+      "title_en": "Tech giant to launch crypto wallet, fintech L1s will bomb: Dragonfly exec.",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "科技巨头进入加密钱包市场预示着用户采用率的提高。",
+      "reason_en": "Tech giant entry into the crypto wallet space signals increased user adoption."
     }
   ],
   "fed_futures": {
-    "price": 96.405,
-    "implied_rate": 3.595,
-    "timestamp": "2025-12-30T06:10:52.226811+00:00",
+    "price": 96.368,
+    "implied_rate": 3.632,
+    "timestamp": "2025-12-30T10:11:19.129688+00:00",
     "trend": "Dovish (Rate expectations dropping)",
-    "change_5d_bps": -12.8,
+    "change_5d_bps": -9.0,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 156.031,
-    "timestamp": "2025-12-30T06:10:52.276869+00:00",
+    "price": 155.829,
+    "timestamp": "2025-12-30T10:11:19.171552+00:00",
     "trend": "Neutral",
-    "change_5d_pct": -0.09,
+    "change_5d_pct": -0.22,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 97.98,
-      "change_5d_pct": -0.0,
+      "price": 98.0,
+      "change_5d_pct": 0.02,
       "trend": "Neutral"
     },
     "us10y": {
@@ -87,71 +87,71 @@
       "trend": "Neutral Falling"
     },
     "vix": {
-      "price": 14.2,
-      "change_5d_pct": 1.43,
-      "trend": "Greed"
+      "price": 14.48,
+      "change_5d_pct": 7.5,
+      "trend": "Greed Rising"
     }
   },
   "coins": [
     {
       "symbol": "BTC",
-      "price": 87299.0,
-      "change_24h": -2.990440059517664,
-      "rsi_4h": 45.253213058775074,
-      "funding_rate": 0.00134463849137,
-      "open_interest": 2580453.3200000087,
+      "price": 87989.0,
+      "change_24h": -0.2980102433939174,
+      "rsi_4h": 51.26183748202531,
+      "funding_rate": 0.00014729719026,
+      "open_interest": 2539635.540000008,
       "sentiment": "Bullish",
-      "score": 80,
-      "comment_cn": "在宽松的宏观流动性下，价格下跌提供了买入机会。链上数据显示长期持有者停止抛售。预期短期内将测试更高价格。",
-      "comment_en": "The price dip offers a buying opportunity under loose macro liquidity. On-chain data shows hodlers halting selloffs. Expected to test higher prices shortly."
+      "score": 85,
+      "comment_cn": "流动性宽松，且机构（Metaplanet）持续积累。价格正在消化利好，短期或需盘整，但趋势稳固向上。",
+      "comment_en": "Liquidity is loose, and institutional accumulation (Metaplanet) continues. The price is digesting the good news, potentially consolidating short-term, but the upward trend remains solid."
     },
     {
       "symbol": "ETH",
-      "price": 2944.65,
-      "change_24h": -3.1502123054962543,
-      "rsi_4h": 48.517090525683734,
-      "funding_rate": -0.0038976956943,
-      "open_interest": 5963549.550000031,
-      "sentiment": "Strongly Bullish",
-      "score": 85,
-      "comment_cn": "基本面极其强劲（10亿美元企业质押，鲸鱼积累），但资金费率为负。这是教科书式的空头挤压设置，预期将引领市场反弹。",
-      "comment_en": "Fundamentals are extremely strong ($1B corporate staking, whale accumulation), yet funding is negative. This is a textbook short-squeeze setup, expected to lead the market bounce."
+      "price": 2982.84,
+      "change_24h": 0.03487826145281251,
+      "rsi_4h": 55.816446204887725,
+      "funding_rate": 0.00217874203564,
+      "open_interest": 5957062.67000003,
+      "sentiment": "Strong Bullish",
+      "score": 90,
+      "comment_cn": "受益于鲸鱼积累和10亿美元机构质押的强劲叙事，基本面强于BTC，有突破新高的强烈动机。",
+      "comment_en": "Benefiting from a strong narrative of whale accumulation and $1B institutional staking. Fundamentals are stronger than BTC, with a high motivation for a breakout."
     },
     {
       "symbol": "SOL",
-      "price": 123.61,
-      "change_24h": -3.2634215057129454,
-      "rsi_4h": 48.07599014531414,
-      "funding_rate": -0.004315169272239999,
-      "open_interest": 2959530.4800000023,
-      "sentiment": "Bullish",
+      "price": 124.65,
+      "change_24h": -1.2829650748396217,
+      "rsi_4h": 52.0504344377403,
+      "funding_rate": 0.0023257535568,
+      "open_interest": 2959021.580000002,
+      "sentiment": "Neutral/Bullish",
       "score": 65,
-      "comment_cn": "与ETH类似，伴随负资金费率的下跌显示出超卖倾向。尽管基本面新闻较少，但可能会跟随BTC/ETH的反弹。",
-      "comment_en": "Similar to ETH, the drop paired with negative funding suggests an oversold condition. Despite fewer dedicated fundamental headlines, it is likely to follow BTC/ETH rebound."
+      "comment_cn": "相对稳定，缺乏新的独立催化剂。跟随大盘走势，等待新的叙事推动。",
+      "comment_en": "Relatively stable, lacking new independent catalysts. Will follow broader market momentum, awaiting new narrative drivers."
     },
     {
       "symbol": "BNB",
-      "price": 851.7,
-      "change_24h": -1.571709233791738,
-      "rsi_4h": 51.70414246476323,
-      "funding_rate": 0.00433151869116,
-      "open_interest": 7482717.0,
+      "price": 856.0,
+      "change_24h": 0.17554125219426564,
+      "rsi_4h": 56.1530471432208,
+      "funding_rate": 0.005194800371229999,
+      "open_interest": 7523466.0,
       "sentiment": "Bullish",
       "score": 75,
-      "comment_cn": "在下跌中表现出相对弹性（跌幅最小，RSI最高）。持续的市场强势迹象，资金费率为正。",
-      "comment_en": "Showed relative resilience during the dip (smallest loss, highest RSI). A sign of continued market strength, with positive funding."
+      "comment_cn": "价格表现坚挺，RSI和资金费率偏高，显示出较强的短期市场动能和信心。",
+      "comment_en": "Strong price performance with higher RSI and funding rates, indicating solid short-term market momentum and confidence."
     },
     {
       "symbol": "DOGE",
-      "price": 0.12325,
-      "change_24h": -2.9909484454938986,
-      "rsi_4h": 43.36560215130216,
-      "funding_rate": 0.00636164820596,
-      "open_interest": 789641.5599999996,
-      "sentiment": "Neutral/Bullish",
-      "score": 55,
-      "comment_cn": "波动性高，遵循整体市场情绪。RSI较低（43.4），如果流动性推动反弹，它将参与其中。",
-      "comment_en": "High volatility, following overall market sentiment. Lower RSI (43.4), suggesting it will participate if the liquidity-driven rebound occurs."
+      "price": 0.125,
+      "change_24h": -0.49355198216845203,
+      "rsi_4h": 51.16176238466061,
+      "funding_rate": 0.01,
+      "open_interest": 801896.4399999992,
+      "sentiment": "Neutral",
+      "score": 50,
+      "comment_cn": "价格波动不大，资金费率偏高，显示投机情绪仍存，但缺乏基本面催化剂。",
+      "comment_en": "Price action is muted, but higher funding rates indicate speculative interest persists, lacking immediate fundamental catalysts."
     }
   ]
 }
