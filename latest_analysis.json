@@ -1,165 +1,221 @@
 {
-  "timestamp": "2025-12-30T18:12:32.115818",
-  "global_summary_cn": "流动性状况：全球宏观流动性信号复杂，美联储利率预期趋于鸽派，但美元指数（DXY）走强，表明短期内美元流动性略有收紧，构成逆风。市场情绪：加密货币内部叙事极为乐观，主要受到机构和巨鲸大规模积累的驱动。Metaplanet在2025年底增持了价值4.5亿美元的比特币，而有巨鲸将ETH转换为价值7.48亿美元的多头头寸。市场正在消化近9万美元的阻力，但基本面需求强劲。当前市场处于“利好消息对抗流动性收紧”的背离状态，这意味着在关键阻力位下方正在发生积极的吸筹活动，预示着一旦宏观阻力减弱，可能迎来突破。",
-  "global_summary_en": "Liquidity Status: Global macro liquidity signals are mixed. While Fed rate expectations trend dovish, the DXY is strengthening, indicating slightly tightening dollar liquidity short-term, creating a headwind. Sentiment: The internal crypto narrative is extremely bullish, driven by massive institutional and whale accumulation. Metaplanet added $450M worth of BTC by the end of 2025, and a whale converted ETH into a massive $748M long position in top cryptos. The market is digesting resistance near $90K, but fundamental demand is robust. The current state is a 'Good News vs. Tight Liquidity' divergence, suggesting active accumulation is occurring below key resistance, pointing toward a potential breakout once macro headwinds subside.",
+  "timestamp": "2025-12-30T22:13:12.024308",
+  "global_summary_cn": "全球流动性正处于中性偏紧状态，主要受美元指数（DXY）走强影响，这抵消了市场对美联储降息预期的鸽派倾向。尽管宏观流动性存在阻力，但叙事层面极其乐观，属于“流动性紧缩但消息利好”的背离格局。\n\n关键新闻包括Metaplanet和Strategy的持续大量购入比特币，以及巨鲸建立大规模多头头寸，显示出强大的机构信念和结构性支撑。市场正在测试88,000美元上方，但关键阻力位90,000美元的拒绝仍是短期挑战。这种背离意味着，尽管基本面强劲，但在宏观环境放松之前，价格突破可能需要更大的动力，或可能出现“逢高卖出”的风险，直到DXY转向。",
+  "global_summary_en": "Global liquidity is neutralizing/cautiously tightening, primarily driven by the strengthening US Dollar Index (DXY), which offsets the dovish tilt in Fed rate expectations. Despite this macro headwind, the narrative layer is extremely bullish, indicating a 'Liquidity Tight but News Good' divergence.\n\nKey drivers include Metaplanet and Strategy continuously loading up on Bitcoin, alongside whales opening massive long positions, signaling strong institutional conviction and structural support. The market is testing above $88,000, but the rejection at the critical $90,000 resistance remains a short-term challenge. This divergence suggests that while fundamentals are strong, a sustained breakout requires greater momentum, or risks a 'sell the rally' scenario until the macro environment (DXY) eases.",
   "news_analysis": [
     {
-      "title_cn": "Strategy 在市场低迷期坚持购买比特币的策略",
-      "title_en": "How Strategy keeps buying Bitcoin during market downturns",
-      "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "这是一项持续的策略叙事，巩固了机构对长期持有比特币的信心，但并非新的即时购买催化剂。",
-      "reason_en": "This is an ongoing strategy narrative, reinforcing institutional conviction for long-term BTC holding, but it's not a new immediate buying catalyst."
-    },
-    {
-      "title_cn": "比特币2026年牛市情景：交易员看到了六位数BTC价格的“强烈信号”",
-      "title_en": "Bitcoin 2026 bull case: Traders see 'strong signals' for 6-figure BTC price",
-      "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "展望未来的乐观预测，有助于保持市场长期积极情绪，但缺乏即时的市场推动力。",
-      "reason_en": "Optimistic forward-looking predictions, helping maintain positive long-term sentiment, but lacking immediate market momentum."
-    },
-    {
-      "title_cn": "比特币9万美元受阻：BTC的数字黄金叙事是否正在输给债券？",
-      "title_en": "Bitcoin’s $90K rejection: Is BTC's digital gold narrative losing to bonds?",
-      "news_sentiment": "Bearish",
-      "classification": "PRICED IN",
-      "reason_cn": "价格走势已经反映了这一受阻，新闻解释了当前的技术挑战，而非新的负面冲击。",
-      "reason_en": "The price action already reflects this rejection. The news explains the current technical challenge rather than being a fresh negative shock."
-    },
-    {
-      "title_cn": "Metaplanet在12月下旬增持4.5亿美元，2025年底持有量超过35,000枚BTC",
-      "title_en": "Metaplanet adds $450M in late-December buys, ending 2025 above 35,000 BTC",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "大规模且新鲜的机构购买数据，直接证实了在市场高点附近强劲的现货需求和机构信心。",
-      "reason_en": "Massive and fresh corporate buying data, directly confirming strong spot demand and institutional confidence near market highs."
-    },
-    {
-      "title_cn": "价值110亿美元的比特币巨鲸出售3.3亿美元ETH，在顶级加密货币中开设7.48亿美元的大规模多头头寸",
-      "title_en": "$11B Bitcoin whale sells $330M ETH, opens massive $748M longs in top cryptos",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "巨鲸积极调整为大规模杠杆多头，表明对市场即将突破持高度信心，短期内是强烈的看涨信号。",
-      "reason_en": "Aggressive repositioning by a major whale into massive leveraged long positions, indicating high confidence in an imminent market breakout. Strong short-term bullish signal."
-    },
-    {
-      "title_cn": "比特币长期持有者最终停止抛售，以太坊巨鲸开始积累",
-      "title_en": "Bitcoin long-term hodlers finally halt selloff as ETH whales accumulate",
-      "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "结构性看涨信号，表明卖方压力正在减弱，为下一轮上涨奠定了基础。",
-      "reason_en": "A structurally bullish signal, indicating selling pressure is fading and setting the stage for the next upward move."
-    },
-    {
-      "title_cn": "比特币的阻力噩梦：89,000美元的障碍仍未打破",
-      "title_en": "Bitcoin’s Resistance Nightmare: $89,000 Barrier Still Unbroken",
+      "title_cn": "美联储会议纪要显示官员对12月降息存在严重分歧",
+      "title_en": "Fed minutes show officials were in tight split over December rate cut",
       "news_sentiment": "Neutral",
-      "classification": "PRICED IN",
-      "reason_cn": "描述了当前的价格走势困境，与市场正在吸收巨鲸买盘的事实相吻合（吸收需要时间）。",
-      "reason_en": "Describes the current price action struggle, consistent with the fact that the market is absorbing whale buying (which takes time)."
+      "classification": "NEUTRAL",
+      "reason_cn": "增加了政策路径的不确定性，但并未给出明确的方向性信号。",
+      "reason_en": "Adds uncertainty to the policy path but gives no definitive directional signal."
     },
     {
-      "title_cn": "房屋价格略微更加可负担，但首付仍然阻碍了买家",
+      "title_cn": "房价略有下降，但首付仍是买家阻碍",
       "title_en": "Home prices are getting slightly more affordable, but down payments are still holding buyers back",
       "news_sentiment": "Neutral",
       "classification": "NEUTRAL",
-      "reason_cn": "宏观经济数据，与加密货币市场流动性关联性低。",
-      "reason_en": "Macroeconomic data with low immediate relevance to crypto market liquidity."
+      "reason_cn": "一般经济指标，与加密货币市场关联度较低。",
+      "reason_en": "General economic indicator, low relevance to the crypto market."
+    },
+    {
+      "title_cn": "‘我们很乐观’：股市专家预计2026年将持续增长，得益于人工智能",
+      "title_en": "'We're pretty upbeat': Stock market experts expect continued growth, bolstered by AI, in 2026",
+      "news_sentiment": "Bullish",
+      "classification": "PRICED IN",
+      "reason_cn": "支持整体风险资产环境，但属于长期展望，非短期驱动因素。",
+      "reason_en": "Positive for the broader risk asset environment but constitutes a long-term outlook, not a short-term driver."
+    },
+    {
+      "title_cn": "加州罗·坎纳因支持财富税面临硅谷强烈反对",
+      "title_en": "California's Ro Khanna faces Silicon Valley backlash after embracing wealth tax",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "地方政治/税收新闻，与加密货币市场关联度较低。",
+      "reason_en": "Local political/tax story, low relevance to the crypto market."
+    },
+    {
+      "title_cn": "通用汽车2025年创纪录的股票表现超过特斯拉、福特和其他汽车制造商",
+      "title_en": "GM's record stock performance beats Tesla, Ford and other automakers in 2025",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "汽车行业特定新闻，与加密货币市场关联度较低。",
+      "reason_en": "Auto sector specific news, low relevance to the crypto market."
+    },
+    {
+      "title_cn": "Prenetics放弃比特币战略，转而专注于贝克汉姆支持的营养品牌",
+      "title_en": "Prenetics scraps Bitcoin strategy to focus on Beckham-backed nutrition brand",
+      "news_sentiment": "Bearish",
+      "classification": "PRICED IN",
+      "reason_cn": "小型企业退出，影响有限，已被更大规模的机构买入新闻所抵消。",
+      "reason_en": "Minor corporate de-adoption, limited impact, offset by much larger institutional buys."
+    },
+    {
+      "title_cn": "Strategy如何在市场低迷期间持续购入比特币",
+      "title_en": "How Strategy keeps buying Bitcoin during market downturns",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "强调机构战略的坚定信念和持续需求，为价格提供底部支撑。",
+      "reason_en": "Highlights strong institutional conviction and continuous demand, providing structural floor support for the price."
+    },
+    {
+      "title_cn": "Strategy在2026年：其比特币优先模式能否维持？",
+      "title_en": "Strategy in 2026: Can its Bitcoin-first model hold up?",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "长期焦点问题，非即时市场驱动因素。",
+      "reason_en": "Long-term focus question, not an immediate market driver."
+    },
+    {
+      "title_cn": "交易员看好2026年比特币牛市：看到六位数价格的“强劲信号”",
+      "title_en": "Bitcoin 2026 bull case: Traders see 'strong signals' for 6-figure BTC price",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "强化了积极的市场情绪和高目标价预期，助推短期上涨动能。",
+      "reason_en": "Reinforces positive market sentiment and high price target expectations, fueling short-term upward momentum."
+    },
+    {
+      "title_cn": "比特币9万美元受阻：BTC的数字黄金叙事是否输给了债券？",
+      "title_en": "Bitcoin’s $90K rejection: Is BTC's digital gold narrative losing to bonds?",
+      "news_sentiment": "Bearish",
+      "classification": "IMPULSE",
+      "reason_cn": "确认了短期关键技术阻力($90K)的存在，并指出与传统避险资产的竞争压力。",
+      "reason_en": "Confirms the existence of critical short-term technical resistance ($90K) and notes competitive pressure from traditional safe-haven assets (bonds)."
+    },
+    {
+      "title_cn": "美国检察官反对Defi教育基金简报，可能涉及MEV案件重审",
+      "title_en": "US prosecutors oppose Defi Education Fund brief ahead of potential MEV case retrial",
+      "news_sentiment": "Bearish",
+      "classification": "IMPULSE",
+      "reason_cn": "对DeFi生态系统构成直接的监管/法律风险，特别是关于MEV操作。",
+      "reason_en": "Presents direct regulatory/legal risk to the DeFi ecosystem, particularly regarding MEV operations."
+    },
+    {
+      "title_cn": "价值110亿美元的比特币巨鲸出售3.3亿美元ETH，在顶级加密货币中开设7.48亿美元大规模多头头寸",
+      "title_en": "$11B Bitcoin whale sells $330M ETH, opens massive $748M longs in top cryptos",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "巨鲸采取积极的方向性押注，显示出对加密市场短期上涨的极高信心。",
+      "reason_en": "Aggressive directional positioning by a whale indicates very high short-term confidence in market upside."
+    },
+    {
+      "title_cn": "比特币长期持有者最终停止抛售，ETH巨鲸正在积累",
+      "title_en": "Bitcoin long-term hodlers finally halt selloff as ETH whales accumulate",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "强大的链上指标，表明供应正在紧缩，结构性买盘支撑价格。",
+      "reason_en": "Strong on-chain indicator suggesting supply is tightening and structural buying is supporting prices."
+    },
+    {
+      "title_cn": "科技巨头将推出加密钱包，金融科技L1将暴跌：Dragonfly高管",
+      "title_en": "Tech giant to launch crypto wallet, fintech L1s will bomb: Dragonfly exec.",
+      "news_sentiment": "Bullish",
+      "classification": "PRICED IN",
+      "reason_cn": "一般性的行业采用和发展新闻，对生态系统是积极的，但非即时驱动因素。",
+      "reason_en": "General industry adoption and development news, positive for the ecosystem but not an immediate driver."
+    },
+    {
+      "title_cn": "Metaplanet在市场测试信念时增持4,279枚BTC",
+      "title_en": "Metaplanet Loads up on 4,279 BTC While Markets Test Conviction",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "最新的机构购买行为，直接强化了比特币作为储备资产的叙事。",
+      "reason_en": "Immediate, quantified institutional buying action directly reinforces the Bitcoin reserve asset narrative."
     }
   ],
   "fed_futures": {
-    "price": 96.405,
-    "implied_rate": 3.595,
-    "timestamp": "2025-12-30T18:12:16.020070+00:00",
+    "price": 96.4,
+    "implied_rate": 3.6,
+    "timestamp": "2025-12-30T22:12:44.262699+00:00",
     "trend": "Dovish (Rate expectations dropping)",
-    "change_5d_bps": -12.8,
+    "change_5d_bps": -12.3,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 156.329,
-    "timestamp": "2025-12-30T18:12:16.071192+00:00",
+    "price": 156.333,
+    "timestamp": "2025-12-30T22:12:44.318218+00:00",
     "trend": "Neutral",
     "change_5d_pct": 0.1,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 98.16,
-      "change_5d_pct": 0.19,
+      "price": 98.22,
+      "change_5d_pct": 0.24,
       "trend": "Stronger (Risk Off)"
     },
     "us10y": {
-      "price": 4.12,
-      "change_5d_pct": -0.39,
+      "price": 4.13,
+      "change_5d_pct": -0.15,
       "trend": "Neutral"
     },
     "vix": {
-      "price": 14.2,
-      "change_5d_pct": 5.42,
+      "price": 14.33,
+      "change_5d_pct": 6.38,
       "trend": "Greed Rising"
     }
   },
   "coins": [
     {
       "symbol": "BTC",
-      "price": 88316.7,
-      "change_24h": 0.6022463206816389,
-      "rsi_4h": 52.83940659176917,
-      "funding_rate": 0.003700444745,
-      "open_interest": 2535636.850000006,
+      "price": 88366.4,
+      "change_24h": 1.463163708304184,
+      "rsi_4h": 53.17034887634364,
+      "funding_rate": 0.00251721824799,
+      "open_interest": 2491181.7600000054,
       "sentiment": "Bullish",
-      "score": 80,
-      "comment_cn": "尽管DXY走强且在9万美元下方遇到阻力，但机构积累和巨鲸开设多头头寸提供了强大的基本面支持。",
-      "comment_en": "Strong fundamental support from institutional accumulation and whale long positioning, despite DXY strength and resistance below $90K."
+      "score": 75,
+      "comment_cn": "机构积累（Metaplanet/Strategy）和巨鲸多头头寸提供强大支撑，但需突破$90k阻力以确认牛市持续。",
+      "comment_en": "Strong support from institutional accumulation (Metaplanet/Strategy) and whale longs, but needs to decisively clear $90k resistance for confirmation."
     },
     {
       "symbol": "ETH",
-      "price": 2972.28,
-      "change_24h": 1.20122574055159,
-      "rsi_4h": 53.248723169985034,
-      "funding_rate": 0.00782408190052,
-      "open_interest": 6067328.950000027,
+      "price": 2968.65,
+      "change_24h": 1.2396412372540295,
+      "rsi_4h": 52.34625177550463,
+      "funding_rate": 0.0034352689625200003,
+      "open_interest": 5846972.360000032,
       "sentiment": "Bullish",
-      "score": 75,
-      "comment_cn": "虽然巨鲸将部分ETH转换为BTC/顶级加密货币的多头，但以太坊鲸鱼正在积累，且存在5000美元目标叙事。",
-      "comment_en": "Despite a whale converting some ETH to BTC/top crypto longs, ETH whales are accumulating, backed by the $5K price narrative."
+      "score": 70,
+      "comment_cn": "鲸鱼积累和长期持有者停止抛售提供了坚实的结构性支撑，但短期被巨鲸抛售ETH转而押注其他顶级加密货币的行动略微稀释。",
+      "comment_en": "Solid structural support from whale accumulation and hodler behavior, though slightly diluted by the news of a large whale selling ETH to fund large longs in 'top cryptos'."
     },
     {
       "symbol": "SOL",
-      "price": 124.39,
-      "change_24h": 0.6473015616150151,
-      "rsi_4h": 50.7260908558918,
+      "price": 124.21,
+      "change_24h": 0.7789046653143965,
+      "rsi_4h": 49.864126900948605,
       "funding_rate": 0.01,
-      "open_interest": 2885057.1900000027,
+      "open_interest": 2808200.050000003,
       "sentiment": "Neutral",
-      "score": 65,
-      "comment_cn": "走势跟随大盘，但缺乏独特的叙事催化剂。资金费率为正，表明多头占据主导。",
-      "comment_en": "Following the broader market trend, but lacking unique narrative catalysts. Positive funding suggests long dominance."
+      "score": 60,
+      "comment_cn": "RSI中性，价格走势滞后于大盘，高资金费率暗示多头拥挤，但在缺乏独立积极消息的情况下表现一般。",
+      "comment_en": "Neutral RSI, lagging performance relative to majors. High funding rates suggest crowded longs, but lacks independent positive news impulse."
     },
     {
       "symbol": "BNB",
-      "price": 860.6,
-      "change_24h": 0.6431996257747632,
-      "rsi_4h": 59.418003446623615,
+      "price": 863.0,
+      "change_24h": 1.148616971401776,
+      "rsi_4h": 61.17657802811762,
       "funding_rate": 0.01,
-      "open_interest": 7588037.0,
+      "open_interest": 7483159.0,
       "sentiment": "Bullish",
-      "score": 85,
-      "comment_cn": "RSI强劲（59.4），在主要币种中表现出相对优势，高OI和资金费率显示出强大的看涨信念。",
-      "comment_en": "Strong RSI (59.4) shows relative strength among majors. High OI and funding indicate strong bullish conviction."
+      "score": 75,
+      "comment_cn": "RSI处于61.2，是主流币中最热的，暗示近期强势表现，但高资金费率应警惕短期回调风险。",
+      "comment_en": "RSI at 61.2 indicates strong recent performance, the hottest among peers. High funding suggests exuberance, warranting caution for short-term pullback risk."
     },
     {
       "symbol": "DOGE",
-      "price": 0.12366,
-      "change_24h": 0.048543689320391985,
-      "rsi_4h": 45.25710008378278,
+      "price": 0.12313,
+      "change_24h": 0.5060811362337846,
+      "rsi_4h": 43.12975218550627,
       "funding_rate": 0.01,
-      "open_interest": 806734.0499999993,
+      "open_interest": 820307.8299999991,
       "sentiment": "Neutral",
       "score": 50,
-      "comment_cn": "表现滞后，缺乏即时动力。RSI偏低，短期处于整合状态。",
-      "comment_en": "Lagging performance and lacking immediate momentum. Lower RSI indicates short-term consolidation."
+      "comment_cn": "meme币交易量和波动性相对较低，RSI冷却，表现中性，受市场整体情绪主导。",
+      "comment_en": "Meme sector shows relatively low volume and volatility, with cooling RSI. Neutral performance dominated by overall market sentiment."
     }
   ]
 }
