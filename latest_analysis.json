@@ -1,100 +1,84 @@
 {
-  "timestamp": "2026-01-01T02:17:04.487757",
-  "global_summary_cn": "流动性状态：**混合且倾向于宽松**。宏观层面，尽管美元指数（DXY）走强暗示短期流动性偏紧（风险偏好下降），但美联储远期降息预期（Dovish Trend）和日元疲软的套利交易仍然为市场提供了潜在的长期支撑。叙事层面，消息面极其看涨，主要受到机构积累（如策略性积累22,000枚BTC）以及重大利好信号（如Bitwise提交11支单一代币ETF、摩根大通链上基金）的推动。目前市场处于一个**分歧阶段**：即机构在宏观流动性暂时受限时进行积累（买入恐慌/逢低买入）。BTC在88,000美元附近盘整，而BNB则表现出独立的强劲势头，整体看，市场结构健康，但需要等待DXY走弱才能实现明确突破。",
-  "global_summary_en": "Liquidity Status: **Mixed, leaning cautiously Risk On**. On the macro front, although the strengthening DXY suggests tight short-term liquidity (Risk Off), the long-term dovish trend in Fed rate expectations and the active Yen carry trade continue to provide underlying support for risk assets. The narrative layer is overwhelmingly bullish, driven by institutional accumulation (e.g., strategic accumulation of 22,000 BTC) and significant regulatory signals (e.g., Bitwise filing for 11 single-token Altcoin ETFs, JPMorgan’s on-chain fund). The market is currently in a **Divergence Phase**: Institutions are accumulating during temporary macro liquidity constraints (Buy the Dip/Consolidation). BTC is consolidating around $88,000, while BNB shows independent strength. The overall market structure remains healthy but awaits DXY softening for a decisive breakout.",
+  "timestamp": "2026-01-01T06:17:32.100752",
+  "global_summary_cn": "流动性状况正在收紧，与市场积极的前瞻性叙事形成背离。宏观流动性分析显示，随着DXY走强至98.28且美债10年期收益率上升，全球环境处于“规避风险”状态，这限制了价格的积极上行。尽管如此，新闻叙事层（Layer 2）则充满了对2026年的乐观预期，包括大规模的流动性注入、机构对BTC的持续积累以及Bitwise提交单代币ETF申请所显示的强劲山寨币需求。短期内，ETH跌破3000美元的停滞信号以及DOGE等高风险资产的显著弱势（RSI 32.9）提供了必要的警惕。在宏观逆风与乐观预期对冲下，市场目前处于“承压盘整”阶段。建议在DXY趋势逆转前保持谨慎。",
+  "global_summary_en": "The market currently exhibits a divergence between tightening macro liquidity and a forward-looking, slightly bullish narrative. Layer 1 analysis indicates Risk Off pressure, driven by a strengthening DXY (98.28) and rising US10Y. This tightening macro environment restricts aggressive upside movements. Layer 2 narratives focus heavily on optimistic 2026 expectations, citing massive liquidity injections, substantial institutional BTC accumulation, and strong altcoin demand signaled by Bitwise ETF filings. However, short-term stagnation signals for Ethereum below $3k and notable weakness in high-beta assets like DOGE (RSI 32.9) inject caution. Given the macro headwind against promising future news, the market is currently in a 'stagnation under pressure' phase. Caution is advised until the DXY reverses its strengthening trend.",
   "news_analysis": [
     {
       "title_cn": "经济学家Mark Zandi预计美联储将在2026年上半年意外降息三次",
       "title_en": "Economist Mark Zandi sees the Fed surprising with three rate cuts in first half of 2026",
       "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "强化了长期宏观流动性宽松的预期，对风险资产是重大利好。",
-      "reason_en": "Reinforces expectations of long-term macro liquidity easing, which is a major positive for risk assets."
+      "classification": "NEUTRAL",
+      "reason_cn": "这是对远期利率的乐观预测，支持长期风险资产，但对当前流动性影响中性。",
+      "reason_en": "Optimistic forecast for forward rates, supportive of long-term risk assets, but neutral impact on current liquidity conditions."
     },
     {
-      "title_cn": "'巨量'流动性注入将在2026年提振BTC价格，加密高管称",
+      "title_cn": "一位加密高管称，‘大规模’流动性注入将在2026年提振比特币价格",
       "title_en": "'Massive' liquidity injections to boost BTC price in 2026, crypto exec says",
       "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "直接印证了市场对未来流动性带来的价格上涨的乐观情绪。",
-      "reason_en": "Directly confirms market optimism regarding future liquidity injections leading to price appreciation."
+      "classification": "NEUTRAL",
+      "reason_cn": "强烈的长期看涨预期，但发生在未来的时间框架（2026年），因此对即时价格影响中性。",
+      "reason_en": "Strong long-term bullish expectation, but placed in a future time frame (2026), making the immediate price impact neutral."
     },
     {
-      "title_cn": "2026年对Bitcoin来说将是红色（下跌）的一年，但支付技术将有所改善：BTC OG称",
+      "title_cn": "BTC元老称，2026年比特币将是红色（下跌），但支付技术将有所改善",
       "title_en": "2026 will be red for Bitcoin, but payment tech will improve: BTC OGs",
       "news_sentiment": "Bearish",
-      "classification": "DIVERGENCE",
-      "reason_cn": "与当前主流的机构乐观情绪形成对比，属于长期预测中的看跌噪音。",
-      "reason_en": "Contrasts with the current institutional optimism; classified as bearish noise within long-term predictions."
+      "classification": "NEUTRAL",
+      "reason_cn": "来自早期参与者的悲观预测，与普遍的乐观情绪形成对冲，市场暂未对此做出明显反应。",
+      "reason_en": "Bearish prediction from early participants, offsetting general optimism. The market has not shown a clear reaction yet."
     },
     {
-      "title_cn": "策略性积累超过22,000枚比特币，RWAs突破190亿美元：十二月图表",
+      "title_cn": "Strategy积累了超过22,000枚比特币，RWA突破190亿美元：十二月图表",
       "title_en": "Strategy accumulates over 22,000 Bitcoin, RWAs top $19 billion: December in Charts",
       "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "明确的链上信号，显示智能资金正在进行大规模的机构积累。",
-      "reason_en": "Clear on-chain signal showing large-scale institutional accumulation by smart money."
+      "classification": "PRICED IN",
+      "reason_cn": "机构持续积累的明确证据，为价格提供了结构性支撑。考虑到BTC价格的平稳，该消息已被消化。",
+      "reason_en": "Clear evidence of continued institutional accumulation, providing structural support. This news seems priced in given the relatively flat BTC price action."
     },
     {
-      "title_cn": "以太坊低于3000美元：低费用和疲软的ETF资金流入预示着2026年的停滞",
+      "title_cn": "以太坊低于3K美元：低费用和疲弱的ETF流入预示着2026年停滞",
       "title_en": "Ethereum below $3K: Low fees, weak ETF flows signal stagnation into 2026",
       "news_sentiment": "Bearish",
-      "classification": "PRICED IN",
-      "reason_cn": "确认了ETH目前低于$3000的现状，市场对此已经有所反应。",
-      "reason_en": "Confirms the current state of ETH below $3,000; this weakness is likely already factored into the price."
+      "classification": "IMPULSE",
+      "reason_cn": "尽管ETH相对强劲，但突破3000美元的关键障碍失败，此消息强化了短期疲软的叙事。",
+      "reason_en": "Despite ETH's relative strength, failure to break the $3k barrier is reinforced by this news, signaling short-term weakness/stagnation."
     },
     {
-      "title_cn": "摩根大通的链上基金是以太坊的重要信号",
+      "title_cn": "JPMorgan的链上基金对于以太坊来说是一个重要的信号",
       "title_en": "Why JPMorgan’s onchain fund is a big signal for Ethereum",
       "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "大型金融机构对以太坊生态的认可和采用，是强烈的结构性利好。",
-      "reason_en": "Validation and adoption of the Ethereum ecosystem by a major financial institution; a strong structural positive signal."
+      "classification": "NEUTRAL",
+      "reason_cn": "积极的机构采用消息，长期利好ETH，但其影响可能被ETF流量疲软的消息抵消。",
+      "reason_en": "Positive institutional adoption news, bullish for ETH long-term, but its impact may be offset by news of weak ETF flows."
     },
     {
-      "title_cn": "Bitwise向SEC提交11支单一代币加密ETF，预示着强大的山寨币需求",
+      "title_cn": "Bitwise向SEC提交11份单代币加密ETF申请，预示着强劲的山寨币需求",
       "title_en": "Bitwise Files 11 Single-Token Crypto ETFs With SEC, Signaling Strong Altcoin Demand",
       "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "这是山寨币市场未来发展的重磅催化剂，极大地提振了市场对SOL/BNB等主流山寨币的信心。",
-      "reason_en": "A major catalyst for the future of the altcoin market, significantly boosting confidence in major altcoins like SOL/BNB."
+      "classification": "DIVERGENCE",
+      "reason_cn": "对山寨币市场的明确利好催化剂，但市场整体在DXY走强下保持平稳，形成流动性与叙事背离。",
+      "reason_en": "Clear bullish catalyst for the altcoin market. However, the market remains flat amid a strengthening DXY, creating a divergence between narrative and liquidity."
     },
     {
-      "title_cn": "以太坊L1交易量达到每日220万笔；每笔成本约17美分",
-      "title_en": "Ethereum L1 transactions hit 2.2M a day; each costs about 17 cents",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "反映了以太坊网络强大的基本面和使用率。",
-      "reason_en": "Reflects strong fundamentals and high utilization of the Ethereum network."
-    },
-    {
-      "title_cn": "特朗普媒体通过股东代币计划深化数字资产领域",
-      "title_en": "Trump Media Moves Deeper Into Digital Assets With Shareholder Token Plan",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "主流公司和政治人物进入数字资产领域，有助于市场接受度。",
-      "reason_en": "Mainstream corporate and political entry into the digital asset space, aiding market acceptance."
-    },
-    {
-      "title_cn": "从Bybit到Coinbase：2025年最大的加密货币黑客攻击和泄露事件",
+      "title_cn": "从Bybit到Coinbase：2025年最大的加密货币黑客攻击和泄密事件",
       "title_en": "From Bybit to Coinbase: 2025's Biggest Crypto Hacks and Breaches",
       "news_sentiment": "Bearish",
       "classification": "NEUTRAL",
-      "reason_cn": "回顾历史安全事件，提醒行业风险，但对当前价格影响不大。",
-      "reason_en": "Recounts historical security incidents, serving as a reminder of industry risk, but has minimal impact on current pricing."
+      "reason_cn": "回顾性报道，强化了安全风险，但已被市场消化（PRICED IN）。",
+      "reason_en": "Retrospective reporting, reinforces security risk narratives, but is generally priced into the current market sentiment."
     }
   ],
   "fed_futures": {
-    "price": 96.405,
-    "implied_rate": 3.595,
-    "timestamp": "2026-01-01T02:16:45.881930+00:00",
-    "trend": "Dovish (Rate expectations dropping)",
-    "change_5d_bps": -12.8,
+    "price": 96.277,
+    "implied_rate": 3.723,
+    "timestamp": "2026-01-01T06:17:15.954410+00:00",
+    "trend": "Neutral (Stable expectations)",
+    "change_5d_bps": 0.0,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
     "price": 156.746,
-    "timestamp": "2026-01-01T02:16:45.926707+00:00",
+    "timestamp": "2026-01-01T06:17:15.996196+00:00",
     "trend": "Neutral",
     "change_5d_pct": 0.42,
     "zone": "Weak Yen (Intervention Risk)"
@@ -119,63 +103,63 @@
   "coins": [
     {
       "symbol": "BTC",
-      "price": 88030.4,
-      "change_24h": -0.7335288658549926,
-      "rsi_4h": 49.9139482528498,
-      "funding_rate": -0.00093020980292,
-      "open_interest": 2591902.480000007,
+      "price": 87660.0,
+      "change_24h": -0.9254194225057334,
+      "rsi_4h": 46.79971966303969,
+      "funding_rate": 0.00260782530593,
+      "open_interest": 2609779.200000008,
       "sentiment": "Neutral",
-      "score": 65,
-      "comment_cn": "在$88,000附近进行高位盘整。尽管机构积累消息极度看好，但短期流动性受DXY走强限制，等待宏观条件改善。",
-      "comment_en": "Consolidating near the top at $88,000. Despite extremely bullish institutional accumulation news, short-term liquidity is capped by DXY strength."
+      "score": 55,
+      "comment_cn": "受限于宏观流动性紧缩，价格波动不大。尽管机构积累强劲，但缺乏即时上行动力。RSI中性。",
+      "comment_en": "Price action is muted, constrained by tightening macro liquidity. Strong institutional accumulation exists, but lacks immediate upside momentum. RSI is neutral."
     },
     {
       "symbol": "ETH",
-      "price": 2986.55,
-      "change_24h": 0.16467447445031289,
-      "rsi_4h": 54.97049709380922,
-      "funding_rate": 0.007405403712469999,
-      "open_interest": 5937536.940000026,
+      "price": 2981.4,
+      "change_24h": 0.18111498281255348,
+      "rsi_4h": 53.85111443811266,
+      "funding_rate": 0.00719235277896,
+      "open_interest": 5926638.350000024,
       "sentiment": "Neutral",
-      "score": 60,
-      "comment_cn": "价格挣扎于$3,000下方，但受到JPM基金和强大的L1使用率等基本面利好的支撑，短期承压，长期看好。",
-      "comment_en": "Price struggles below $3,000, but supported by strong fundamentals (JPM fund, robust L1 usage). Short-term pressure, long-term bullish."
+      "score": 58,
+      "comment_cn": "相对于BTC表现出韧性，但被3000美元附近的停滞信号困扰。机构兴趣长期利好，但短期面临阻力。",
+      "comment_en": "Shows resilience relative to BTC but is plagued by stagnation signals near $3,000. Institutional interest is positive long-term, but short-term faces resistance."
     },
     {
       "symbol": "SOL",
-      "price": 125.0,
-      "change_24h": -0.6911893223166795,
-      "rsi_4h": 51.37913832097417,
-      "funding_rate": 0.008883139894240001,
-      "open_interest": 2894194.110000003,
-      "sentiment": "Bullish",
-      "score": 75,
-      "comment_cn": "Bitwise的单一代币ETF消息是对SOL的巨大催化剂，当前价格持平，但潜在上涨势头强劲。",
-      "comment_en": "Bitwise single-token ETF news is a major catalyst for SOL. Current price flat, but potential upside momentum is strong."
+      "price": 125.24,
+      "change_24h": -0.3976459360585335,
+      "rsi_4h": 52.46541082554981,
+      "funding_rate": 0.00563616514521,
+      "open_interest": 2889975.5400000033,
+      "sentiment": "Neutral",
+      "score": 57,
+      "comment_cn": "与大盘同步盘整，RSI和资金费率健康。在单代币ETF申请的叙事下，可能跑赢大盘。",
+      "comment_en": "Consolidating in line with the major market. Healthy RSI and funding rate. Potential outperformance under the single-token ETF narrative."
     },
     {
       "symbol": "BNB",
-      "price": 872.6,
-      "change_24h": 1.3355011032400417,
-      "rsi_4h": 65.12791319101073,
+      "price": 864.1,
+      "change_24h": -0.06938822713079944,
+      "rsi_4h": 56.30668903120488,
       "funding_rate": 0.01,
-      "open_interest": 7624519.0,
+      "open_interest": 7663992.0,
       "sentiment": "Bullish",
-      "score": 80,
-      "comment_cn": "在市场盘整中表现出独立强势，RSI高企且资金费率积极，是当前表现最好的主要代币。",
-      "comment_en": "Showing independent strength during market consolidation. High RSI and positive funding suggest strong momentum. Best performing major coin currently."
+      "score": 68,
+      "comment_cn": "RSI处于高位，资金费率也最高，显示出显著的短期动量和对大盘的相对强势。",
+      "comment_en": "Highest RSI and funding rate among majors, indicating significant short-term momentum and relative strength against the wider market."
     },
     {
       "symbol": "DOGE",
-      "price": 0.11836,
-      "change_24h": -4.169702858068163,
-      "rsi_4h": 31.69365592915294,
-      "funding_rate": 0.0043251539814899995,
-      "open_interest": 1049104.9199999995,
+      "price": 0.1186,
+      "change_24h": -3.6399090022749414,
+      "rsi_4h": 32.899428704528376,
+      "funding_rate": 0.004828510161409999,
+      "open_interest": 1033562.6999999994,
       "sentiment": "Bearish",
-      "score": 30,
-      "comment_cn": "在市场压力下大幅下跌，RSI接近超卖区域，资金费率为正但价格下跌，显示恐慌性抛售。",
-      "comment_en": "Sharp drop under market pressure, RSI nearing oversold. Positive funding with falling price indicates panic selling."
+      "score": 35,
+      "comment_cn": "表现最弱的资产。大幅下跌（-3.64%），RSI接近超卖区域（32.9），表明风险偏好在收紧环境下正在迅速撤离。",
+      "comment_en": "The weakest performer. Sharp drop (-3.64%) with RSI nearing oversold territory (32.9), suggesting rapid risk appetite withdrawal in the tightening environment."
     }
   ]
 }
