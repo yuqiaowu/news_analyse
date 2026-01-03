@@ -1,220 +1,76 @@
 {
-  "timestamp": "2026-01-03T02:23:29.129198",
-  "global_summary_cn": "流动性状态：宏观流动性信号复杂，美元指数(DXY)走强构成温和紧缩压力，但美联储预期的鸽派倾向仍在支撑风险情绪。市场表现出强烈的叙事驱动型拉升（Divergence）。\n\n新闻面极其乐观，特别是监管层面传出重大利好：反加密货币的SEC委员离职，预示着监管环境可能转向对创新更加友好。此外，摩根大通链上基金的消息以及Pantera对2026年突破的展望，极大地提振了机构信心。\n\n然而，价格上涨速度过快，特别是ETH (RSI 78.3) 和DOGE (RSI 82.1) 已处于极端超买区域。虽然BTC和ETH的负资金费率暗示空头正在被挤压，但短期回调风险极高。市场正处于由叙事推动的强劲牛市冲动中，但需警惕短期流动性不足导致的快速修正。",
-  "global_summary_en": "Liquidity Status: Macro liquidity signals are mixed. The strengthening DXY presents mild tightening pressure, but the perceived dovish shift in Fed expectations continues to support risk appetite, leading to a narrative-driven divergence.\n\nNews flow is overwhelmingly bullish, fueled by significant regulatory shifts: the exit of the anti-crypto SEC Commissioner signals a potentially pro-innovation environment. Furthermore, institutional validation (JPMorgan's on-chain fund) and Pantera's forecast for a 2026 breakout heavily boost confidence.\n\nHowever, the price movement is accelerating rapidly, with ETH (RSI 78.3) and DOGE (RSI 82.1) entering extremely overbought territory. Although negative funding rates for BTC, ETH, and SOL suggest short squeezes are driving the current impulse, the risk of a sharp short-term correction remains very high. The market is enjoying strong, narrative-led momentum but must prepare for potential quick corrections due to overheating technicals.",
+  "timestamp": "2026-01-03T06:24:02.634646",
+  "global_summary_cn": "宏观流动性层面目前处于收紧状态，美元指数走强且美债收益率上升，显示外部美元流动性正在回撤。然而，美联储的鸽派预期仍在提供长期支撑。内部加密市场情绪则极其乐观，由一系列强劲的叙事驱动，包括机构对以太坊的兴趣（摩根大通）、零售聊天热度高涨，以及Pantera等机构的看涨预测。这种宏观紧缩与内部狂热的**背离**推动了由衍生品主导的反弹，特别是山寨币（如DOGE和SOL）出现狂热的超买迹象，以太坊似乎正在经历强劲的空头挤压。值得注意的是，CryptoQuant报告鲸鱼并未大量积累比特币，这表明当前上涨的结构基础可能较弱，主要依赖于动量交易。风险在于流动性一旦无法跟上，超买的市场将面临快速回调。",
+  "global_summary_en": "Macro liquidity is currently tightening, evidenced by a stronger DXY and rising US 10-Year yields, indicating a pullback in external dollar liquidity. However, the dovish Fed expectation provides a crucial long-term floor. Internally, crypto sentiment is extremely bullish, driven by a powerful confluence of narratives: institutional interest in Ethereum (JPMorgan), high retail chatter, and bullish forecasts (Pantera). This **Divergence** between macro tightening and internal frenzy is fueling a derivatives-led rally. Altcoins (DOGE, SOL) are showing signs of frantic overbought conditions, and Ethereum appears to be undergoing a strong short squeeze. Notably, CryptoQuant reports that whales are not accumulating BTC, suggesting the structural foundation of the rally might be weak, relying heavily on momentum trading. The risk is a swift correction if liquidity headwinds intensify, hitting the current overbought market.",
   "news_analysis": [
     {
-      "title_cn": "学生贷款减免再次被征税：CFP称需为“税收炸弹”做准备",
-      "title_en": "Student loan forgiveness is taxable again: Start planning for the 'tax bomb,' CFP says",
-      "news_sentiment": "Bearish",
-      "classification": "NEUTRAL",
-      "reason_cn": "对消费者可支配收入造成压力，宏观上略微利空风险资产，但对加密货币影响不直接。",
-      "reason_en": "Puts pressure on consumer disposable income, slightly bearish for risk assets macro-wise, but the impact on crypto is not direct."
-    },
-    {
-      "title_cn": "据报道Saks Global准备破产，宣布新任CEO",
-      "title_en": "Saks Global announces new CEO as it reportedly prepares for bankruptcy",
-      "news_sentiment": "Bearish",
-      "classification": "NEUTRAL",
-      "reason_cn": "传统零售业的疲软信号，反映宏观经济压力，对加密市场影响有限。",
-      "reason_en": "A sign of weakness in traditional retail, reflecting broader economic pressure, with limited impact on the crypto market."
-    },
-    {
-      "title_cn": "特朗普再次推迟家具关税后，RH、Wayfair股价上涨",
-      "title_en": "RH, Wayfair shares rise after Trump delays furniture tariffs again",
-      "news_sentiment": "Bullish",
-      "classification": "NEUTRAL",
-      "reason_cn": "有利于贸易稳定和特定股票，间接支撑市场风险情绪，但与加密货币相关性不高。",
-      "reason_en": "Favorable for trade stability and specific stocks. Indirectly supports market risk appetite, but low correlation with crypto."
-    },
-    {
-      "title_cn": "大规模加密货币盗窃案背后的比特币黑客Ilya Lichtenstein感谢特朗普提前释放",
-      "title_en": "Ilya Lichtenstein, Bitcoin hacker behind massive crypto theft, credits Trump for early prison release",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "政治和法律新闻，不影响市场基本面或短期价格。",
-      "reason_en": "Political and legal news, does not affect market fundamentals or short-term pricing."
-    },
-    {
-      "title_cn": "鲍威尔是否会留任美联储主席尚不确定",
-      "title_en": "Will he stay or will he go? Powell is not saying whether he'll stay on Fed board when chair term ends",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "增加了未来美联储领导层的政治不确定性，但目前影响市场预期的是现有的鸽派倾向。",
-      "reason_en": "Adds political uncertainty regarding future Fed leadership, but current market expectation is driven by existing dovish trends."
-    },
-    {
-      "title_cn": "[USD] FOMC成员保尔森讲话",
-      "title_en": "[USD] FOMC Member Paulson Speaks (Low)",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "常规事件，如果发言未包含意外的鹰派或鸽派信号，则影响低。",
-      "reason_en": "Routine event; low impact unless unexpected hawkish or dovish signals are provided."
-    },
-    {
-      "title_cn": "[CHF] 银行假日",
-      "title_en": "[CHF] Bank Holiday (Holiday)",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "预计市场流动性在特定时段和区域会降低。",
-      "reason_en": "Expects lower market liquidity during specific times and regions."
-    },
-    {
-      "title_cn": "[CNY] 银行假日",
-      "title_en": "[CNY] Bank Holiday (Holiday)",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "亚洲市场流动性降低。",
-      "reason_en": "Lower liquidity in Asian markets."
-    },
-    {
-      "title_cn": "[JPY] 银行假日",
-      "title_en": "[JPY] Bank Holiday (Holiday)",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "日本市场流动性降低，对日元套利交易的影响中性。",
-      "reason_en": "Lower liquidity in Japanese markets, neutral impact on JPY carry trade dynamics."
-    },
-    {
-      "title_cn": "币安下架FLOW/BTC交易对，在漏洞利用后标记代币",
-      "title_en": "Binance delists FLOW/BTC pair, flags token after exploit",
-      "news_sentiment": "Bearish",
-      "classification": "NEUTRAL",
-      "reason_cn": "对特定代币利空，市场层面反映安全隐患，但影响范围有限。",
-      "reason_en": "Bearish for the specific token. Reflects security concerns at the market level, but limited overall impact."
-    },
-    {
-      "title_cn": "CryptoQuant：鲸鱼并未大量积累比特币",
+      "title_cn": "鲸鱼没有大量积累比特币：CryptoQuant",
       "title_en": "No, whales are not accumulating massive amounts of Bitcoin: CryptoQuant",
       "news_sentiment": "Bearish",
       "classification": "DIVERGENCE",
-      "reason_cn": "与当前价格上涨和突破$90k的势头相悖。表明目前的上涨可能是由散户或短期交易者驱动，缺乏强大的鲸鱼支持，预示基础可能不稳定。",
-      "reason_en": "Contradicts the current upward momentum and break above $90k. Suggests the rally might be driven by retail or short-term traders without strong whale accumulation, indicating potentially unstable foundations."
+      "reason_cn": "尽管价格强劲上涨，但缺乏大户积累的证据，表明当前上涨可能由衍生品市场和零售FOMO驱动，结构基础不稳固，预示着潜在的分配或回调风险。",
+      "reason_en": "Lack of whale accumulation despite strong price rises suggests the current move is driven by derivatives and retail FOMO, lacking solid structural foundation, indicating potential distribution risk."
     },
     {
-      "title_cn": "比特币牛熊之战延续至2026年：关注的关键价格水平",
-      "title_en": "Battle between Bitcoin bulls and bears spills over into 2026: Here’s price levels to watch",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "常规市场评论，不提供新的催化剂。",
-      "reason_en": "Routine market commentary, provides no new catalyst."
-    },
-    {
-      "title_cn": "价格预测1/2：BTC, ETH, BNB, XRP, SOL, DOGE, ADA, BCH, LINK, ZEC",
-      "title_en": "Price predictions 1/2: BTC, ETH, BNB, XRP, SOL, DOGE, ADA, BCH, LINK, ZEC",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "常规的市场展望文章。",
-      "reason_en": "Standard market outlook article."
-    },
-    {
-      "title_cn": "比特币多头冲向9万美元，交易者关注CME缺口以寻求BTC价格回调",
-      "title_en": "Bitcoin bulls charge at $90K as traders eye CME gap for BTC price dip",
-      "news_sentiment": "Neutral",
-      "classification": "PRICED IN",
-      "reason_cn": "描述了当前的市场行为（已达$90k），同时提醒了技术回调的可能性。",
-      "reason_en": "Describes current market action (already hit $90k) while signaling potential technical pullback areas."
-    },
-    {
-      "title_cn": "为何摩根大通的链上基金对以太坊是一个重大信号",
+      "title_cn": "为什么摩根大通的链上基金是以太坊的重要信号",
       "title_en": "Why JPMorgan’s onchain fund is a big signal for Ethereum",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "大型金融机构明确的机构采用信号，强力支撑以太坊的叙事和价格。",
-      "reason_en": "Clear signal of institutional adoption by a major financial player, strongly supporting the Ethereum narrative and price."
-    },
-    {
-      "title_cn": "以太坊联合创始人提出DApps作为2025年Cloudflare中断的解决方案",
-      "title_en": "Ethereum co-founder pitches DApps as solution to 2025 Cloudflare outage",
-      "news_sentiment": "Bullish",
-      "classification": "NEUTRAL",
-      "reason_cn": "长期利好DApp的实用性和去中心化叙事。",
-      "reason_en": "Long-term bullish for the utility and decentralization narrative of DApps."
-    },
-    {
-      "title_cn": "2026年的加密隐私：合规友好的工具成为焦点",
-      "title_en": "Crypto privacy in 2026: Compliance-friendly tools take center stage",
-      "news_sentiment": "Bullish",
-      "classification": "NEUTRAL",
-      "reason_cn": "支持行业朝着更合规的方向发展，为机构资金流入铺平道路。",
-      "reason_en": "Supports the industry's shift towards compliance, paving the way for institutional capital inflow."
-    },
-    {
-      "title_cn": "BitMine董事长提议将公司授权股份增加1,000倍至500亿股",
-      "title_en": "BitMine chairman proposes 1,000x increase in company's authorized shares, to 50B",
-      "news_sentiment": "Bearish",
-      "classification": "NEUTRAL",
-      "reason_cn": "极度稀释现有股东权益的信号，对特定矿业股利空。",
-      "reason_en": "A signal of extreme dilution for existing shareholders, bearish for the specific mining stock."
-    },
-    {
-      "title_cn": "DeFi先驱因以太坊押注失误亏损5万美元",
-      "title_en": "DeFi pioneer coughs up $50K after making bad bet on Ether",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "提醒DeFi的高风险性，但对市场整体情绪影响不大。",
-      "reason_en": "A reminder of DeFi's high-risk nature, but minor impact on overall market sentiment."
-    },
-    {
-      "title_cn": "2026年最受期待的游戏",
-      "title_en": "The Most Anticipated Games of 2026",
-      "news_sentiment": "Bullish",
-      "classification": "NEUTRAL",
-      "reason_cn": "利好Web3和游戏代币生态的长期发展。",
-      "reason_en": "Bullish for the long-term development of the Web3 and gaming token ecosystems."
+      "reason_cn": "来自主要传统金融机构（JPMorgan）对以太坊基础设施的认可，为ETH提供了强大的叙事支持，推动了ETH近期的表现和空头挤压。",
+      "reason_en": "Validation of Ethereum infrastructure by a major traditional finance player (JPMorgan) provides strong narrative support for ETH, fueling its recent performance and short squeeze."
     },
     {
       "title_cn": "Pantera暗示2026年加密货币将爆发，因2025年市场已悄然去风险化",
       "title_en": "Pantera Signals 2026 Crypto Breakout After 2025 Quietly De-Risked Markets",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "知名基金对未来的高信心预测，增强了市场对长期牛市的信念。",
-      "reason_en": "High-conviction forecast from a prominent fund, strengthening market belief in a long-term bull run."
+      "reason_cn": "来自知名基金的强烈看涨年度预测，极大地提升了市场信心，支持了当前的风险偏好情绪和动量交易。",
+      "reason_en": "Strong bullish annual forecast from a prominent fund significantly boosts market confidence and supports the current risk-on sentiment and momentum trading."
     },
     {
-      "title_cn": "48个国家致力于加密透明度，新报告框架开始生效",
-      "title_en": "48 Countries Commit to Crypto Transparency as New Reporting Framework Takes Hold",
-      "news_sentiment": "Bullish",
-      "classification": "NEUTRAL",
-      "reason_cn": "全球范围内的合规化和监管透明度提高，对机构投资者长期进入是积极的。",
-      "reason_en": "Increased global compliance and regulatory transparency, positive for long-term entry by institutional investors."
-    },
-    {
-      "title_cn": "年度13个令人震惊的时刻：2025年加密货币版",
-      "title_en": "13 WTF Moments of the Year: 2025 Crypto Edition",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "回顾性文章，不影响短期价格。",
-      "reason_en": "Retrospective article, does not affect short-term pricing."
-    },
-    {
-      "title_cn": "反加密货币委员退出SEC，预示着数字资产监管向支持创新转变",
-      "title_en": "Anti-Crypto Commissioner Exits SEC, Signaling Pro-Innovation Shift for Digital Assets",
+      "title_cn": "加密货币社交热度在2026年初出现'非常积极'的开端",
+      "title_en": "Crypto social chatter has 'very positive' start to 2026",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "最强烈的正面监管信号。减少了未来的监管阻力，为更清晰的产品（如ETH ETF）铺平道路。",
-      "reason_en": "The strongest positive regulatory signal. Reduces future regulatory headwinds and paves the way for clearer product approvals (e.g., ETH ETFs)."
+      "reason_cn": "零售情绪高涨是当前山寨币狂热的关键驱动力，与DOGE等高波动资产的超买状况相符。",
+      "reason_en": "High retail engagement and sentiment are key drivers of the current altcoin frenzy, aligning with the overbought conditions seen in volatile assets like DOGE."
+    },
+    {
+      "title_cn": "NFT市场在2025年成熟：效用、游戏和RWA驱动增长",
+      "title_en": "NFT Market Matures in 2025: Utility, Gaming, and RWA Drive Growth",
+      "news_sentiment": "Bullish",
+      "classification": "NEUTRAL",
+      "reason_cn": "积极的山寨币和生态系统叙事（游戏、RWA）长期支持SOL等公链资产的增长，但属于中期主题而非短期价格驱动因素。",
+      "reason_en": "Positive altcoin and ecosystem narratives (Gaming, RWA) support long-term growth for assets like SOL, serving as a mid-term theme rather than a sharp short-term driver."
+    },
+    {
+      "title_cn": "学生贷款减免再次征税；Saks Global据报道准备破产；特朗普再次推迟家具关税",
+      "title_en": "Student loan forgiveness is taxable again; Saks Global reportedly prepares for bankruptcy; Trump delays furniture tariffs again",
+      "news_sentiment": "Bearish",
+      "classification": "NEUTRAL",
+      "reason_cn": "宏观消息喜忧参半。税务和破产消息对消费者和经济不利（熊市），但关税延迟提供了温和的乐观情绪。整体影响被加密市场的内部动量盖过。",
+      "reason_en": "Mixed macro signals. Tax and bankruptcy news are bearish for consumer health, but tariff delays offer mild relief. Overall market impact is neutralized by strong internal crypto momentum."
     }
   ],
   "fed_futures": {
-    "price": 96.51,
-    "implied_rate": 3.49,
-    "timestamp": "2026-01-03T02:23:02.879609+00:00",
+    "price": 96.368,
+    "implied_rate": 3.632,
+    "timestamp": "2026-01-03T06:23:42.585342+00:00",
     "trend": "Dovish (Rate expectations dropping)",
-    "change_5d_bps": -23.3,
+    "change_5d_bps": -9.0,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
     "price": 156.731,
-    "timestamp": "2026-01-03T02:23:02.928538+00:00",
+    "timestamp": "2026-01-03T06:23:42.633297+00:00",
     "trend": "Neutral",
     "change_5d_pct": 0.17,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 98.43,
-      "change_5d_pct": 0.4,
+      "price": 98.42,
+      "change_5d_pct": 0.39,
       "trend": "Stronger (Risk Off)"
     },
     "us10y": {
@@ -231,63 +87,63 @@
   "coins": [
     {
       "symbol": "BTC",
-      "price": 90219.0,
-      "change_24h": 1.9942343564524334,
-      "rsi_4h": 67.64940947110483,
-      "funding_rate": -0.0068626349499799994,
-      "open_interest": 2631921.150000011,
+      "price": 90052.1,
+      "change_24h": 1.3153246402574237,
+      "rsi_4h": 64.38958525438119,
+      "funding_rate": 0.00105427096937,
+      "open_interest": 2659412.34000001,
       "sentiment": "Bullish",
-      "score": 85,
-      "comment_cn": "价格突破9万美元，势头强劲。资金费率轻微负值表明空头被挤压，但RSI健康，尚未极端超买。关注宏观流动性是否允许价格巩固。",
-      "comment_en": "Price broke above $90k with strong momentum. Slightly negative funding suggests short pressure, but RSI is healthy (not extremely overbought). Focus on whether macro liquidity allows for price consolidation."
+      "score": 75,
+      "comment_cn": "价格坚挺，但OI/交易量不如山寨币活跃。保持核心地位，但短期表现可能受山寨币抛售影响。",
+      "comment_en": "Price is firm, but OI/volume activity trails altcoins. Retains core position, but short-term performance might be subject to altcoin selling pressure."
     },
     {
       "symbol": "ETH",
-      "price": 3123.99,
-      "change_24h": 4.312069051872377,
-      "rsi_4h": 78.26658215226874,
-      "funding_rate": -0.0043742908622,
-      "open_interest": 6991021.6200000355,
-      "sentiment": "Cautious Bullish",
-      "score": 75,
-      "comment_cn": "受到JPM新闻和监管乐观情绪的推动，但RSI高达78.3，处于超买临界点。负资金费率表明空头损失惨重，但短期回调风险极高。",
-      "comment_en": "Driven by JPM news and regulatory optimism, but RSI at 78.3 is critically overbought. Negative funding shows shorts are severely squeezed, but short-term correction risk is very high."
+      "price": 3112.5,
+      "change_24h": 3.023342027565576,
+      "rsi_4h": 73.69555136363945,
+      "funding_rate": -0.00071767910606,
+      "open_interest": 7093144.540000024,
+      "sentiment": "Strong Bullish",
+      "score": 88,
+      "comment_cn": "受到JPM新闻和强劲的基本面叙事支撑。负融资利率伴随价格上涨，强烈暗示空头挤压是主要驱动力。",
+      "comment_en": "Supported by JPM news and strong fundamental narratives. Negative funding rate with rising price strongly suggests a short squeeze is the primary driver."
     },
     {
       "symbol": "SOL",
-      "price": 132.43,
-      "change_24h": 5.103174603174609,
-      "rsi_4h": 74.89179971472805,
-      "funding_rate": -0.0027914649608099997,
-      "open_interest": 3140740.9900000044,
+      "price": 132.01,
+      "change_24h": 3.6022602417202862,
+      "rsi_4h": 70.53021651739593,
+      "funding_rate": 0.00115202665476,
+      "open_interest": 3163648.110000005,
       "sentiment": "Cautious Bullish",
-      "score": 70,
-      "comment_cn": "涨幅强劲，RSI 74.9，接近超买。与ETH类似，由市场情绪推动。若ETH和BTC回调，SOL将面临较大压力。",
-      "comment_en": "Strong rally, RSI 74.9, nearing overbought. Similar sentiment-driven rally to ETH. High pressure risk if ETH or BTC corrects."
+      "score": 80,
+      "comment_cn": "RSI高企，处于超买状态，反映出高风险偏好。在强劲的叙事驱动下，短期动量强劲，但回调风险增加。",
+      "comment_en": "High RSI indicates overbought condition, reflecting high risk appetite. Strong short-term momentum driven by narratives, but increased risk of reversal."
     },
     {
       "symbol": "BNB",
-      "price": 877.3,
-      "change_24h": 2.0709714950552596,
-      "rsi_4h": 63.63490965430359,
+      "price": 877.0,
+      "change_24h": 1.2819032220810744,
+      "rsi_4h": 63.00481346736386,
       "funding_rate": 0.01,
-      "open_interest": 7393054.0,
+      "open_interest": 7527122.0,
       "sentiment": "Bullish",
-      "score": 90,
-      "comment_cn": "涨势稳健，RSI 63.6未超买，且资金费率转正（多头支付）。这表明上涨的基础更稳固，投机程度低于其他头部山寨币。",
-      "comment_en": "Solid, sustainable rally. RSI 63.6 is not overbought, and positive funding (longs paying) indicates a healthier foundation for the move, less speculative than peers."
+      "score": 78,
+      "comment_cn": "融资费率极高，显示市场对价格突破的信心极度拥挤。动量强大，但面临潜在的资金费用重置风险。",
+      "comment_en": "Extremely high funding rate suggests crowded confidence in the breakout. Powerful momentum, but faces potential funding rate reset risk."
     },
     {
       "symbol": "DOGE",
-      "price": 0.1421,
-      "change_24h": 12.42088607594936,
-      "rsi_4h": 82.0943330222953,
+      "price": 0.14334,
+      "change_24h": 11.453230697457425,
+      "rsi_4h": 81.08290947321235,
       "funding_rate": 0.01,
-      "open_interest": 796146.5899999997,
-      "sentiment": "Extreme Overbought",
-      "score": 55,
-      "comment_cn": "单日涨幅超12%，RSI 82.1。极端投机性买盘，资金费率强劲为正。极高风险，预计短期内将出现剧烈修正。",
-      "comment_en": "Over 12% gain in 24h, RSI 82.1. Extremely speculative buying confirmed by strong positive funding. Very high risk; expect a sharp correction in the immediate short term."
+      "open_interest": 824291.3599999992,
+      "sentiment": "Extreme Bullish",
+      "score": 92,
+      "comment_cn": "相对强度指数(RSI 81.1)和涨幅均显示处于狂热状态。这是最拥挤的交易之一，短期风险极高，但动量仍在推动。",
+      "comment_en": "Frenzy status confirmed by both relative strength (RSI 81.1) and massive gain. One of the most crowded trades, extremely high short-term risk, but momentum remains dominant."
     }
   ]
 }
