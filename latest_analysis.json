@@ -1,100 +1,148 @@
 {
-  "timestamp": "2026-01-07T02:37:03.137218",
-  "global_summary_cn": "流动性状态：受DXY走强影响，宏观流动性略显紧张，但美联储鸽派预期限制了风险资产的下行空间。加密市场正处于一个强劲的叙事驱动阶段。来自ETF的资金流入势不可挡（两天内$12亿），构成了强大的基本面支撑。\n\n**分析总结**: 市场处于“叙事驱动型背离”状态（流动性紧张但消息面极好）。ETF资金的强大需求正在抵消宏观阻力。比特币面临95,000美元的阻力墙，但只要机构资金持续流入，突破只是时间问题。以太坊因质押（Staking）和灰度ETF分红的消息而表现强劲，引领着山寨币的轮动。整体市场情绪为极度看涨，任何宏观抛售都被视为绝佳的买入机会。",
-  "global_summary_en": "Liquidity Status: Macro liquidity is slightly constrained due to a strengthening DXY, although dovish Fed expectations limit downside risks for assets. The crypto market is in a phase of strong narrative drive. ETF inflows are overwhelming ($1.2B in two days), providing robust fundamental support.\n\n**Analysis Summary**: The market is experiencing a 'Narrative-Driven Divergence' (Liquidity Tight but News Extremely Good). The immense demand from ETFs is effectively counteracting macro headwinds. Bitcoin faces significant resistance at $95,000, but a breakthrough is likely imminent given sustained institutional demand. Ethereum is performing strongly, fueled by positive staking and Grayscale ETF payout news, leading the altcoin rotation. Overall sentiment is extremely bullish, with any macro-induced dip viewed as a prime buying opportunity.",
+  "timestamp": "2026-01-07T06:37:38.672801",
+  "global_summary_cn": "流动性状态：全球流动性信号复杂，美元指数走强暗示风险偏向收紧，但VIX指数低迷（贪婪上升），整体宏观环境定性为**混合/小幅收紧**。\n\n市场合成分析显示，加密市场正处于叙事驱动力对抗宏观阻力的阶段。虽然美元走强本应抑制风险资产，但现货比特币ETF的爆炸性资金流入（单日$6.97亿）和$100K的牛市预期，构成了强劲的看涨叙事。这种**背离**（流动性紧缩+利好消息）使得BTC在$95K阻力位下挣扎。然而，以太坊受益于成功的扩容升级（Blob限制提升）和首次ETF质押收益分配，表现出相对强势。市场短期内或在宏观事件（如UoM通胀预期）影响下震荡，但ETF持续流入为长期提供了坚实的底部支撑。",
+  "global_summary_en": "Liquidity Status: Global liquidity signals are complex. The strengthening DXY suggests a slightly tighter macro environment, yet the VIX is low (rising greed), leading to a classification of **Mixed/Leaning Tight**.\n\nSynthesis shows the crypto market is in a phase where strong narrative is battling macro headwinds. While DXY strength usually curbs risk assets, the explosive capital inflows into Bitcoin spot ETFs ($697M in a day) and the strong $100K bullish narratives create immense buying pressure. This **Divergence** (Tight Liquidity + Good News) explains why BTC is struggling slightly beneath the $95K resistance. Ethereum, however, shows relative strength, benefiting from successful scaling upgrades (Blob limit bump) and the first-ever ETF staking yield distribution. The market may face short-term volatility based on macro events (like UoM Inflation Expectations), but sustained ETF flows provide a robust floor.",
   "news_analysis": [
     {
-      "title_cn": "分析师称，比特币清算数据显示潜在的$100K反弹是“荒谬的”",
+      "title_cn": "黄金、白银在不确定性中短暂夺回市值榜首",
+      "title_en": "Gold, silver briefly reclaim top spot by market cap amid uncertainty",
+      "news_sentiment": "Bearish",
+      "classification": "NEUTRAL",
+      "reason_cn": "传统避险资产走强，分散了对加密货币作为“数字黄金”的关注，对BTC叙事构成轻微压力。",
+      "reason_en": "Traditional safe-haven assets gaining strength slightly undermines the 'digital gold' narrative for Bitcoin."
+    },
+    {
+      "title_cn": "对比特币的量子威胁超出钱包黑客攻击：Coinbase分析师",
+      "title_en": "Quantum threat to Bitcoin extends past wallet hacks: Coinbase analyst",
+      "news_sentiment": "Bearish",
+      "classification": "NEUTRAL",
+      "reason_cn": "长期结构性风险，对当前价格行为没有直接影响。",
+      "reason_en": "Long-term structural risk assessment, irrelevant to immediate price action."
+    },
+    {
+      "title_cn": "比特币ETF以“狮子般”的姿态进入本年度：按当前速度计算将有600%的涨幅",
+      "title_en": "Bitcoin ETFs come into year 'like a lion’: 600% surge at current pace",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "极度乐观的增长预测，强化了牛市预期和市场信念。",
+      "reason_en": "Extremely optimistic growth projection, strongly reinforces bullish expectations and market conviction."
+    },
+    {
+      "title_cn": "比特币清算数据指向‘荒谬’的$100K潜在上涨：分析师",
       "title_en": "Bitcoin liquidation data points to ‘absurd’ potential rally to $100K: Analyst",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "新的分析师预测根据市场结构设定了更高的目标，直接推动了看涨情绪和市场关注点。",
-      "reason_en": "New analyst prediction based on market structure sets a higher target, directly boosting bullish sentiment and focus."
+      "reason_cn": "技术分析支持高位目标，进一步推动市场情绪。",
+      "reason_en": "Technical analysis supporting an extreme high target, fueling market sentiment."
     },
     {
-      "title_cn": "比特币在$95K面临“大卖墙”，BTC价格相对于黄金表现挣扎",
-      "title_en": "Bitcoin faces 'big boy sell wall' at $95K as BTC price struggles vs. gold",
-      "news_sentiment": "Bearish",
+      "title_cn": "比特币在$95K面临‘巨量抛售墙’，BTC价格相对于黄金挣扎",
+      "title_en": "Bitcoin faces ‘big boy sell wall’ at $95K as BTC price struggles vs. gold",
+      "news_sentiment": "Neutral",
       "classification": "PRICED IN",
-      "reason_cn": "确认了近期的$95K关键阻力区域，解释了当前价格停滞的原因。阻力是当前市场已经消化的事实。",
-      "reason_en": "Confirms the critical $95K resistance area, explaining the current price stagnation. The resistance is a fact already digested by the current market movement."
+      "reason_cn": "证实了BTC在$95K附近的抛售阻力，与当前价格停滞相符。",
+      "reason_en": "Confirms strong selling resistance near $95K, consistent with current price stagnation."
     },
     {
-      "title_cn": "比特币ETF在2026年第二个交易日吸引了$697M / 两天内达到$1.2B",
-      "title_en": "Bitcoin ETFs attract $697M / $1.2B in second trading day of 2026",
+      "title_cn": "以太坊Blob限制提升至21，提高了网络可扩展性",
+      "title_en": "Ethereum blob limit bumps up to 21, boosting network scalability",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "这是当前市场的核心驱动力。量化了大规模、持续的机构需求，为价格上涨提供了强大的基本面依据。",
-      "reason_en": "The core driver of the current market. Quantifies massive, sustained institutional demand, providing strong fundamental justification for higher prices."
+      "reason_cn": "基本面利好，提高网络性能和降低交易成本，直接利好ETH。",
+      "reason_en": "Strong fundamental positive, improves network performance and reduces costs, directly benefiting ETH."
     },
     {
-      "title_cn": "机构刚刚拨动了开关：华尔街正全速冲向加密货币",
-      "title_en": "Institutions Just Flipped the Switch: Wall Street Is Charging Full-Speed Into Crypto",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "高层面的采用叙事，确认了机构加速进入，引发FOMO情绪。",
-      "reason_en": "High-level adoption narrative confirming institutional acceleration, triggering FOMO sentiment."
-    },
-    {
-      "title_cn": "ETH价格触及$3.3K：要实现另一次20%的反弹需要发生什么",
+      "title_cn": "ETH价格触及$3.3K：要实现再20%的上涨需要发生什么",
       "title_en": "ETH price taps $3.3K: Here’s what must happen for another 20% rally",
       "news_sentiment": "Bullish",
       "classification": "NEUTRAL",
-      "reason_cn": "在强劲上涨后定义了技术目标和条件，虽然看涨，但更多是基于技术分析而非新的催化剂。",
-      "reason_en": "Defines technical targets and conditions following recent strength; while bullish, it is based on technical analysis rather than a fresh catalyst."
+      "reason_cn": "技术性分析和目标设定，没有新的基本面驱动。",
+      "reason_en": "Technical analysis and target setting, no new fundamental driver."
     },
     {
-      "title_cn": "以太坊质押出现潮汐变化，验证者退出队列清除",
+      "title_cn": "比特币ETF在2026年第二个交易日吸引了$6.97亿资金",
+      "title_en": "Bitcoin ETFs attract $697M in second trading day of 2026",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "具体的资金流入数据，显示出巨大的机构需求，是当前市场最强劲的驱动力。",
+      "reason_en": "Concrete capital flow data showing immense institutional demand, the strongest market driver currently."
+    },
+    {
+      "title_cn": "以太坊质押出现潮汐变化，验证者退出队列清理完毕",
       "title_en": "Ethereum staking sees tidal shift as validator exit queue clears out",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "清除了结构性的卖压，表明网络健康，这对ETH的供应动态和长期持有者非常有利。",
-      "reason_en": "Removes structural selling pressure, indicating network health and is highly favorable for ETH supply dynamics and long-term holders."
+      "reason_cn": "提高了网络的健康度和流动性，消除了对拥堵的担忧。",
+      "reason_en": "Improves network health and liquidity, removing concerns over congestion."
     },
     {
-      "title_cn": "灰度宣布对美国上市ETF进行首次以太坊质押派息",
+      "title_cn": "灰度宣布首次向美国上市ETF支付以太坊质押收益",
       "title_en": "Grayscale declares first Ethereum staking payout for US-listed ETF",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "直接证据表明传统金融通过ETF提供ETH收益，合法化了ETH作为生息资产的地位。",
-      "reason_en": "Direct evidence of traditional finance providing ETH yield through ETFs, legitimizing ETH as an income-generating asset."
+      "reason_cn": "将质押收益引入传统投资产品，开启了加密EFT的新阶段，对ETH构成重大利好。",
+      "reason_en": "Integrates staking yield into traditional investment products, opening a new phase for crypto ETPs and significantly bullish for ETH."
     },
     {
-      "title_cn": "MSCI将加密金库公司保留在指数中，为救济反弹扫清道路",
-      "title_en": "MSCI Keeps Crypto Treasury Companies Alive in Indexes, Clearing the Path for a Relief Rally",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "避免了机构资金对加密货币相关股票的被迫抛售，是加密货币基础设施板块的重大救济催化剂。",
-      "reason_en": "Prevents forced selling of crypto-related stocks by institutional funds, serving as a significant relief catalyst for the crypto infrastructure sector."
-    },
-    {
-      "title_cn": "伊朗货币崩溃表明为什么比特币被视为退出选择",
-      "title_en": "Iran’s currency collapse shows why Bitcoin is seen as an exit option",
+      "title_cn": "YZi Labs和Certik启动$1M安全基金，用于孵化计划",
+      "title_en": "YZi Labs and Certik Launch $1M Security Grant for Startup Incubation Program",
       "news_sentiment": "Bullish",
       "classification": "NEUTRAL",
-      "reason_cn": "强化了比特币的长期价值叙事（避险/储值），但对短期市场价格影响有限。",
-      "reason_en": "Reinforces Bitcoin’s long-term value narrative (safe haven/store of value) but has limited impact on immediate short-term market price."
+      "reason_cn": "生态系统内的积极发展和安全投资，是长期利好。",
+      "reason_en": "Positive development and security investment within the ecosystem, long-term bullish."
+    },
+    {
+      "title_cn": "以太坊在最新扩展调整中提高了数据容量",
+      "title_en": "Ethereum Raises Data Capacity in Latest Scaling Tweak",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "确认了成功的扩容，直接利好网络效率。",
+      "reason_en": "Confirmation of successful scaling, directly benefiting network efficiency."
+    },
+    {
+      "title_cn": "大锁定：为什么隐私链可能在今年悄悄占领大部分加密领域",
+      "title_en": "The Great Lock-in: Why Privacy Chains Could Quietly Capture Most of Crypto This Year",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "关于细分赛道趋势的评论，不影响当前主流资产价格。",
+      "reason_en": "Commentary on sector rotation trends, does not affect current major asset prices."
+    },
+    {
+      "title_cn": "马斯克的xAI在Nvidia和Cisco的支持下融资$200亿",
+      "title_en": "Musk's xAI Raises $20 Billion With Backing From Nvidia and Cisco",
+      "news_sentiment": "Bullish",
+      "classification": "NEUTRAL",
+      "reason_cn": "对高风险科技资产和AI领域的巨大投资，间接提振了整体风险偏好。",
+      "reason_en": "Huge investment in high-risk tech and AI sectors, indirectly boosts overall risk appetite."
+    },
+    {
+      "title_cn": "收益率冲击以太坊ETF：灰度ETHE首次在美国加密ETP中分发质押奖励",
+      "title_en": "Yield Hits Ethereum ETFs: Grayscale ETHE Distributes Staking Rewards in First-Ever US Crypto ETP Move",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "重复强调了以太坊ETF收益分配的里程碑意义。",
+      "reason_en": "Reiterates the milestone significance of Ethereum ETF yield distribution."
     }
   ],
   "fed_futures": {
     "price": 96.363,
     "implied_rate": 3.637,
-    "timestamp": "2026-01-07T02:36:45.997176+00:00",
-    "trend": "Dovish (Rate expectations dropping)",
-    "change_5d_bps": -8.5,
+    "timestamp": "2026-01-07T06:37:14.789416+00:00",
+    "trend": "Neutral (Stable expectations)",
+    "change_5d_bps": 0.5,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 156.705,
-    "timestamp": "2026-01-07T02:36:46.085989+00:00",
+    "price": 156.326,
+    "timestamp": "2026-01-07T06:37:14.834383+00:00",
     "trend": "Neutral",
-    "change_5d_pct": -0.02,
+    "change_5d_pct": -0.26,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
       "price": 98.54,
-      "change_5d_pct": 0.27,
+      "change_5d_pct": 0.12,
       "trend": "Stronger (Risk Off)"
     },
     "us10y": {
@@ -111,63 +159,63 @@
   "coins": [
     {
       "symbol": "BTC",
-      "price": 92740.9,
-      "change_24h": -0.9510698334105866,
-      "rsi_4h": 54.44689140493515,
+      "price": 92701.9,
+      "change_24h": -1.1885905539507828,
+      "rsi_4h": 54.13446923178446,
       "funding_rate": 0.01,
-      "open_interest": 2707592.900000016,
-      "sentiment": "Bullish",
-      "score": 85,
-      "comment_cn": "受ETF资金流入的强大叙事支撑，但$95K阻力巨大。DXY走强是短期制约因素，一旦宏观稳定，将爆发突破。",
-      "comment_en": "Supported by the powerful ETF inflow narrative, but facing massive $95K resistance. DXY strength is a short-term constraint; expecting an explosive breakout once macro stabilizes."
+      "open_interest": 2699575.6100000157,
+      "sentiment": "Neutral",
+      "score": 65,
+      "comment_cn": "尽管ETF流入强劲且叙事看涨，但价格受制于$95K的抛压，显示出在宏观流动性偏紧下的抵抗。高OI和正费率意味着上涨前可能需要一次小的清洗。",
+      "comment_en": "Despite strong ETF inflows and bullish narratives, price is capped by resistance at $95K, showing strain under tighter macro conditions. High OI and positive funding suggest a minor shakeout might be necessary before breaking resistance."
     },
     {
       "symbol": "ETH",
-      "price": 3255.29,
-      "change_24h": 1.3004512214096768,
-      "rsi_4h": 63.63372084047265,
-      "funding_rate": 0.00623013642335,
-      "open_interest": 5762494.330000011,
-      "sentiment": "Strong Bullish",
-      "score": 90,
-      "comment_cn": "拥有多个正面催化剂（质押、灰度派息、ETF预期），表现优于BTC。RSI强劲，处于积极的轮动中。",
-      "comment_en": "Outperforming BTC, driven by multiple positive catalysts (Staking, Grayscale payout, ETF anticipation). Strong RSI indicates it is leading the positive rotation."
+      "price": 3251.6,
+      "change_24h": 0.6811989100817438,
+      "rsi_4h": 62.61843766022652,
+      "funding_rate": 0.00839803040892,
+      "open_interest": 5905227.940000013,
+      "sentiment": "Bullish",
+      "score": 85,
+      "comment_cn": "拥有强大的独立基本面催化剂（扩容成功和ETF质押收益）。RSI和相对表现优于BTC，动能强劲，是当前市场领导者。",
+      "comment_en": "Possesses strong independent fundamental catalysts (successful scaling and ETF staking yield). Superior RSI and relative performance vs. BTC, demonstrating robust momentum. Currently a market leader."
     },
     {
       "symbol": "SOL",
-      "price": 139.04,
-      "change_24h": 1.0024698532616558,
-      "rsi_4h": 59.09410856364484,
-      "funding_rate": 0.00840137987936,
-      "open_interest": 3107362.5900000026,
-      "sentiment": "Bullish",
-      "score": 80,
-      "comment_cn": "随ETH和L1板块同步上涨，RSI健康。市场焦点仍在其生态系统增长上。",
-      "comment_en": "Moving in lockstep with ETH and the L1 sector, healthy RSI. Market focus remains on its ecosystem growth."
+      "price": 138.77,
+      "change_24h": -0.28741826543075183,
+      "rsi_4h": 58.28982325009703,
+      "funding_rate": 0.0024848819436699998,
+      "open_interest": 3130674.720000004,
+      "sentiment": "Neutral",
+      "score": 60,
+      "comment_cn": "健康跟随主流币种波动，缺乏新的直接催化剂，处于整理阶段，等待方向指引。",
+      "comment_en": "Healthy consolidation, tracking majors without fresh direct catalysts. In a neutral holding pattern awaiting direction."
     },
     {
       "symbol": "BNB",
-      "price": 909.5,
-      "change_24h": 0.37523452157598247,
-      "rsi_4h": 58.65887086104507,
-      "funding_rate": 0.00829888070047,
-      "open_interest": 8326175.0,
+      "price": 915.1,
+      "change_24h": 0.7708402158352604,
+      "rsi_4h": 61.53497356594927,
+      "funding_rate": 0.01,
+      "open_interest": 8446211.0,
       "sentiment": "Bullish",
       "score": 75,
-      "comment_cn": "表现稳健，资金费率高，市场情绪积极。跟随大盘趋势。",
-      "comment_en": "Solid performance and high funding rates reflect positive market sentiment. Following general market momentum."
+      "comment_cn": "相对强势明显，RSI高企，受益于更广泛的风险偏好。在主要币种中表现良好。",
+      "comment_en": "Clear relative strength and high RSI, benefiting from broader risk appetite and ecosystem stability. Performing well among major altcoins."
     },
     {
       "symbol": "DOGE",
-      "price": 0.14762,
-      "change_24h": -3.009198423127464,
-      "rsi_4h": 53.49304645449389,
+      "price": 0.14794,
+      "change_24h": -2.414248021108195,
+      "rsi_4h": 54.12079549046432,
       "funding_rate": 0.01,
-      "open_interest": 795257.6699999997,
-      "sentiment": "Neutral",
-      "score": 50,
-      "comment_cn": "市场热点集中在L1和机构流入，DOGE相对跑输大盘，出现小幅获利了结。",
-      "comment_en": "Market focus is centered on L1s and institutional flows; DOGE is underperforming slightly, indicating minor profit-taking or rotation out of meme coins."
+      "open_interest": 805343.7299999996,
+      "sentiment": "Bearish",
+      "score": 40,
+      "comment_cn": "当前市场中表现最弱，在缺乏特定叙事支持下，容易成为获利回吐的目标。",
+      "comment_en": "The weakest performer among majors today. Lacking specific narrative support, it is susceptible to profit-taking."
     }
   ]
 }
