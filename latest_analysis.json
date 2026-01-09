@@ -1,100 +1,100 @@
 {
-  "timestamp": "2026-01-08T22:43:31.459691",
-  "global_summary_cn": "流动性状态：宏观流动性信号偏向收紧，美元指数(DXY)走强，但核心加密货币市场因机构资金强劲流入而表现出结构性韧性。\n\n宏观流动性层面，美元指数(DXY)走强，VIX小幅上升，显示全球风险偏好正在收紧（Risk Off）。然而，加密货币的叙事层面极其强劲：贝莱德(BlackRock)增持9亿美元BTC，BitMine购买1.05亿美元ETH，以及大量的ETH质押活动，反映出机构资本持续大举进入市场。这种“流动性紧缩+机构买入”的组合造成了明显的**分歧**。尽管宏观逆风存在，BTC价格仍维持在91,000美元上方，表明机构需求正在消化所有抛售压力。短期内，市场可能会等待本周五的就业报告，操作上应倾向于在重大回调时买入，而非追高。SOL表现出相对强势，而ETH和DOGE则表现出暂时的疲软。",
-  "global_summary_en": "Liquidity Status: Macro liquidity signals are mildly tightening due to DXY strength, but the core crypto market exhibits structural resilience driven by robust institutional inflows.\n\nThe Macro Liquidity Layer shows tightening conditions, evidenced by a stronger DXY (Risk Off) and a slightly rising VIX. However, the Crypto Narrative Layer is overwhelmingly bullish: BlackRock added $900M BTC, BitMine purchased $105M ETH, and substantial ETH staking is occurring, indicating massive sustained institutional capital deployment. This \"Tight Liquidity + Strong Institutional Buying\" creates a significant **Divergence**. Despite macro headwinds, BTC is holding above $91,000, suggesting institutional demand is currently absorbing selling pressure. The market is likely pausing ahead of Friday's high-impact jobs report. The recommended strategy is to \"Buy the Dip\" on significant pullbacks rather than chasing immediate highs. SOL shows relative strength, while ETH and DOGE display temporary weakness.",
+  "timestamp": "2026-01-09T02:44:03.534286",
+  "global_summary_cn": "宏观流动性状况显示出谨慎信号，美元指数（DXY）走强至98.95，VIX指数略有上升，表明全球风险偏好正在收紧。这通常是“避险”信号。然而，加密货币新闻叙事却极其乐观：包括贝莱德增持9亿美元BTC、BitMine购入ETH，以及有关加密法案取得积极进展的消息。这种宏观紧缩（流动性收紧）与机构强劲需求（叙事看涨）之间的严重分歧是当前市场的核心特征。机构性购买正在抵消宏观阻力，使BTC维持在91,000美元上方。如果DXY继续走强，市场将面临回调压力，但目前强大的现货流入使其保持在看涨区域。当前策略是看涨，但需警惕即将到来的美国就业数据（周五）和流动性风险。",
+  "global_summary_en": "Macro liquidity conditions signal caution, with the DXY strengthening to 98.95 and VIX slightly rising, indicating global risk appetite is tightening. This is typically a 'Risk Off' signal. However, the crypto news narrative is overwhelmingly bullish: including BlackRock adding $900M BTC, BitMine buying ETH, and positive progress on the Crypto Bill. This strong divergence between macro tightening (Liquidity Tight) and robust institutional demand (Bullish Narrative) is the core characteristic of the current market. Institutional buying is overriding macro friction, keeping BTC above $91,000. If the DXY continues to strengthen, the market faces downside pressure, but current powerful spot inflows keep it in a bullish territory. The current stance is bullish, but highly alert to upcoming US job data (Friday) and liquidity risks.",
   "news_analysis": [
     {
-      "title_cn": "特朗普指示'代表'购买2000亿美元抵押贷款债券，旨在降低利率",
-      "title_en": "Trump instructs 'representatives' to buy $200 billion in mortgage bonds, aiming to lower rates",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "此举旨在宽松金融环境（利好），但目前仅是政治指示，执行可能性和时间表不确定，对当前市场影响有限。",
-      "reason_en": "The intent is to loosen financial conditions (bullish for risk), but this is a political instruction with uncertain execution probability and timeline, limiting its immediate market impact."
+      "title_cn": "特朗普称他正在指示其“代表”购买2000亿美元抵押贷款债券，声称这将降低利率",
+      "title_en": "Trump says he's instructing his 'Representatives' to buy $200 billion in mortgage bonds, claiming it will lower rates",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "虽然此言论的实际执行力存疑，但它代表了对宽松货币政策的渴望，这对风险资产理论上是利好。",
+      "reason_en": "Although the actual execution is questionable, the statement signals a desire for looser monetary conditions, which is theoretically bullish for risk assets."
     },
     {
-      "title_cn": "贝莱德增持9亿美元BTC，比特币长期抛售降至2017年低点",
+      "title_cn": "Saks Global 难以获得融资，潜在破产申请迫在眉睫",
+      "title_en": "Saks Global struggles to line up financing as potential bankruptcy filing looms",
+      "news_sentiment": "Bearish",
+      "classification": "NEUTRAL",
+      "reason_cn": "公司财务压力和潜在破产是宏观经济疲软的信号，尽管对加密市场影响间接，但增加了整体风险情绪。",
+      "reason_en": "Corporate financial stress and potential bankruptcy signal broader economic weakness. While the impact on crypto is indirect, it adds to overall risk sentiment."
+    },
+    {
+      "title_cn": "黑石增持9亿美元BTC，比特币长期抛售降至2017年低点",
       "title_en": "BlackRock adds $900M BTC as Bitcoin long-term selling falls to 2017 lows",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "明确且巨大的机构资本流入信号，证实了比特币的结构性需求，这是市场上最强劲的看涨驱动力。",
-      "reason_en": "A clear signal of massive institutional capital inflow, confirming structural demand for BTC. This is one of the strongest bullish drivers in the market."
+      "reason_cn": "强大的现货ETF流入是当前价格的关键驱动力，直接证实了机构需求的持续性，并支撑了91K美元的价格水平。",
+      "reason_en": "Powerful spot ETF inflow is the key driver of current prices, directly confirming sustained institutional demand and supporting the $91K price level."
     },
     {
-      "title_cn": "$50K 或 $250K？顶级加密公司对2026年比特币轨迹看法不一",
-      "title_en": "$50K or $250K? Top crypto companies are divided on Bitcoin's trajectory in 2026",
-      "news_sentiment": "Neutral",
+      "title_cn": "比特币多头追逐91K美元，早期2026年反弹保持持续成交量",
+      "title_en": "Bitcoin bulls chase $91K as early 2026 rally finds sustained volume",
+      "news_sentiment": "Bullish",
       "classification": "PRICED IN",
-      "reason_cn": "反映了市场在当前高位上的长期分歧，属于正常的市场评论，而非价格驱动因素。",
-      "reason_en": "Reflects the normal long-term divergence among market participants at high price levels. This is general commentary rather than a price driver."
+      "reason_cn": "这是一项市场观察，确认了当前价格上涨具有成交量支持，但信息本身已反映在当前价格中。",
+      "reason_en": "This is a market observation confirming the current rally is volume-backed, but the information itself is already reflected in the current price."
     },
     {
-      "title_cn": "比特币交易员维持7.6万美元BTC价格目标，2026年反弹消退",
-      "title_en": "Bitcoin trader maintains $76K BTC price target as 2026 comeback fizzles",
+      "title_cn": "VanEck：比特币将在2050年达到290万美元，融入全球贸易",
+      "title_en": "Bitcoin to hit $2.9M by 2050 as it muscles into global trade: VanEck",
+      "news_sentiment": "Bullish",
+      "classification": "NEUTRAL",
+      "reason_cn": "极端的长期价格预测，用于设定情绪和叙事，但对短期价格行动影响较小。",
+      "reason_en": "Extreme long-term price predictions used for setting sentiment and narrative, but with minimal impact on immediate price action."
+    },
+    {
+      "title_cn": "Truebit 代币价格在报道称发生2600万美元漏洞后下跌99%",
+      "title_en": "Truebit token price falls 99% after reports of $26M exploit",
       "news_sentiment": "Bearish",
-      "classification": "DIVERGENCE",
-      "reason_cn": "当前价格已达9.1万美元，但仍有交易员维持较低目标，表明空头在历史高位上维持谨慎，但其观点与市场实际走势存在分歧。",
-      "reason_en": "The current price is $91K, yet some traders maintain lower targets ($76K). This suggests short-term bearish caution among some players, diverging significantly from current price action."
+      "classification": "IMPULSE",
+      "reason_cn": "负面的安全事件，虽然针对特定项目，但增加了山寨币领域的普遍风险和不确定性。",
+      "reason_en": "Negative security event. While project-specific, it increases general risk and uncertainty in the altcoin space."
+    },
+    {
+      "title_cn": "华尔街、加密货币领导者在私人会议上就加密法案取得“进展”：消息人士",
+      "title_en": "Wall Street, Crypto Leaders Make 'Progress' on Crypto Bill in Private Meeting: Sources",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "监管清晰度对机构采用至关重要。这是一个积极的结构性发展，有利于长期和短期信心。",
+      "reason_en": "Regulatory clarity is crucial for institutional adoption. This is a positive structural development that benefits long-term and short-term confidence."
     },
     {
       "title_cn": "BitMine购买1.05亿美元以太币以开启2026年，仍持有9.15亿美元现金",
       "title_en": "BitMine buys $105M Ether to kick off 2026, still holds $915M in cash",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "明确的机构对ETH的购买行为，表明资本正在多元化配置至主要的L1资产，支撑ETH基本面。",
-      "reason_en": "Direct institutional purchase of ETH, indicating capital diversification into major L1 assets and providing fundamental support for ETH."
+      "reason_cn": "强劲的企业资产负债表购买，显示出机构对ETH的信心，有助于抵消ETH近期的价格疲软。",
+      "reason_en": "Strong corporate balance sheet purchase, showing institutional confidence in ETH and helping counteract recent ETH price weakness."
     },
     {
-      "title_cn": "Truebit代币在2600万美元漏洞报告后价格下跌99%",
-      "title_en": "Truebit token price falls 99% after reports of $26M exploit",
-      "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "典型的项目级负面事件，导致市场对山寨币领域的投机风险提高，但对BTC/ETH影响有限。",
-      "reason_en": "A typical project-specific negative event, raising speculation risk in the altcoin sector, but the impact on BTC/ETH is limited."
-    },
-    {
-      "title_cn": "以太坊是区块链领域的Linux，联合创始人Vitalik Buterin说",
+      "title_cn": "以太坊是区块链的Linux，联合创始人Vitalik Buterin说",
       "title_en": "Ethereum is the Linux of blockchain, says co-founder Vitalik Buterin",
       "news_sentiment": "Bullish",
       "classification": "NEUTRAL",
-      "reason_cn": "乐观的生态系统和技术哲学评论，强化了ETH的长期叙事，但影响已计入价格。",
-      "reason_en": "Positive commentary on ecosystem and technical philosophy, reinforcing the long-term narrative of ETH. Generally priced into the current structure."
-    },
-    {
-      "title_cn": "以太坊财政公司SharpLink在Linea上质押1.7亿美元ETH",
-      "title_en": "Ethereum Treasury Firm SharpLink Stakes $170 Million of ETH on Linea",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "机构级别的质押行为锁定了大量的ETH供应，降低了流动性，对ETH价格具有长期支撑作用。",
-      "reason_en": "Institutional-grade staking action locks up a significant amount of ETH supply, reducing liquidity and providing long-term structural support for ETH price."
-    },
-    {
-      "title_cn": "币安推出USDT结算的黄金和白银合约",
-      "title_en": "Binance Rolls out USDT-Settled Gold and Silver Contracts",
-      "news_sentiment": "Bullish",
-      "classification": "NEUTRAL",
-      "reason_cn": "有助于提升BNB生态系统及平台的交易量和实用性，但影响相对温和。",
-      "reason_en": "Helps increase trading volume and utility for the BNB ecosystem and platform, though the impact is relatively modest."
+      "reason_cn": "结构性、哲学性的言论，加强了以太坊的核心价值主张，但并非即时的价格催化剂。",
+      "reason_en": "A structural, philosophical comment reinforcing Ethereum's core value proposition, but not an immediate price catalyst."
     }
   ],
   "fed_futures": {
-    "price": 96.39,
-    "implied_rate": 3.61,
-    "timestamp": "2026-01-08T22:43:12.159101+00:00",
+    "price": 96.395,
+    "implied_rate": 3.605,
+    "timestamp": "2026-01-09T02:43:45.411578+00:00",
     "trend": "Neutral (Stable expectations)",
-    "change_5d_bps": -2.2,
+    "change_5d_bps": -2.7,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 156.823,
-    "timestamp": "2026-01-08T22:43:12.203905+00:00",
+    "price": 157.216,
+    "timestamp": "2026-01-09T02:43:45.455685+00:00",
     "trend": "Neutral",
-    "change_5d_pct": 0.06,
+    "change_5d_pct": 0.14,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 98.87,
-      "change_5d_pct": 0.61,
+      "price": 98.95,
+      "change_5d_pct": 0.7,
       "trend": "Stronger (Risk Off)"
     },
     "us10y": {
@@ -111,63 +111,63 @@
   "coins": [
     {
       "symbol": "BTC",
-      "price": 91114.1,
-      "change_24h": 0.053587919877278074,
-      "rsi_4h": 46.58396389081686,
-      "funding_rate": -0.00471334860792,
-      "open_interest": 2611067.8900000104,
+      "price": 91177.9,
+      "change_24h": 0.31675651886895606,
+      "rsi_4h": 47.19202611944269,
+      "funding_rate": -0.00255239486416,
+      "open_interest": 2621940.8600000115,
       "sentiment": "Bullish",
-      "score": 85,
-      "comment_cn": "机构（贝莱德）强劲买盘支撑着9.1万美元的高位。尽管宏观流动性收紧，但结构性需求使其表现出极强的韧性。",
-      "comment_en": "Strong institutional buying (BlackRock) supports the $91K level. Extreme resilience against macro tightening driven by structural demand."
+      "score": 80,
+      "comment_cn": "尽管宏观流动性收紧（DXY走强），但大量现货ETF流入（贝莱德增持）支撑价格在91K美元。资金费率略为负值，表明存在做空压力，但价格仍能维持高位，显示出强大的现货需求。",
+      "comment_en": "Despite macro liquidity tightening (strong DXY), massive spot ETF inflows (BlackRock addition) support the price at $91K. Slightly negative funding suggests short pressure, but the price holds high, indicating strong spot demand."
     },
     {
       "symbol": "ETH",
-      "price": 3112.77,
-      "change_24h": -1.2458598241139067,
-      "rsi_4h": 41.31628177623239,
-      "funding_rate": 0.0039555504809600005,
-      "open_interest": 5935218.30000002,
+      "price": 3114.26,
+      "change_24h": -1.2793933976199883,
+      "rsi_4h": 42.06974830906683,
+      "funding_rate": 0.007585319376759999,
+      "open_interest": 5939232.570000023,
       "sentiment": "Neutral",
-      "score": 75,
-      "comment_cn": "价格小幅下跌，但机构买入和大量质押消息提供了强大的基本面支持，短期震荡后有望继续跟随大盘。",
-      "comment_en": "Slight price dip, but strong fundamental support from institutional buying and staking. Expected to follow BTC after short-term consolidation."
+      "score": 65,
+      "comment_cn": "价格下跌1.28%，跑输大盘，RSI偏弱。尽管有BitMine和SharpLink的大额机构购买新闻支撑，但仍未能大幅上涨，处于追赶BTC的模式。",
+      "comment_en": "Underperforming with a 1.28% drop and weak RSI. Despite strong institutional buying news (BitMine, SharpLink), it struggles to rally significantly and is in 'catch-up' mode relative to BTC."
     },
     {
       "symbol": "SOL",
-      "price": 138.7,
-      "change_24h": 1.730966700894811,
-      "rsi_4h": 57.866405681934005,
-      "funding_rate": 0.00789860502447,
-      "open_interest": 3104081.3600000027,
-      "sentiment": "Bullish",
-      "score": 80,
-      "comment_cn": "在主要资产盘整时，SOL表现出相对强势和动量。RSI高位运行且资金费率转正，市场热情较高。",
-      "comment_en": "Displays relative strength and momentum while majors consolidate. High RSI and positive funding indicate high current market enthusiasm."
+      "price": 139.08,
+      "change_24h": 1.3628744260622436,
+      "rsi_4h": 58.9165429366079,
+      "funding_rate": -0.00238988948169,
+      "open_interest": 3083330.660000002,
+      "sentiment": "Strong Bullish",
+      "score": 85,
+      "comment_cn": "在主要币种中表现最强劲（+1.36%），RSI处于58.9的强劲动量区。负资金费率与上涨价格结合，表明强劲的空头挤压正在发生。",
+      "comment_en": "Strongest performer among majors (+1.36%) with strong momentum (RSI 58.9). Negative funding combined with rising price suggests a robust short squeeze is taking place."
     },
     {
       "symbol": "BNB",
-      "price": 891.2,
-      "change_24h": -0.7682886092862684,
-      "rsi_4h": 46.59618023950699,
-      "funding_rate": -0.00598322105123,
-      "open_interest": 8151458.0,
+      "price": 892.5,
+      "change_24h": -0.25704067948144327,
+      "rsi_4h": 47.7348503581646,
+      "funding_rate": 0.0034810830276299997,
+      "open_interest": 8195978.0,
       "sentiment": "Neutral",
-      "score": 60,
-      "comment_cn": "跟随大盘小幅回调，资金费率略负。新合约的推出提供温和利好，但在当前市场中表现中性。",
-      "comment_en": "Slight pullback mirroring the broader market, with mildly negative funding. New contract rollout offers moderate support, but performance is neutral."
+      "score": 70,
+      "comment_cn": "价格稳定，OI高，资金费率略正。币安推出新的金银合约是利好，支持其平台效用，价格继续与市场横向波动。",
+      "comment_en": "Stable price, high OI, slightly positive funding. Binance rolling out new gold/silver contracts is positive for platform utility. Price continues to consolidate sideways with the broader market."
     },
     {
       "symbol": "DOGE",
-      "price": 0.1421,
-      "change_24h": -3.003412969283268,
-      "rsi_4h": 42.387258089914724,
-      "funding_rate": -0.00496515635778,
-      "open_interest": 807778.1899999998,
+      "price": 0.14231,
+      "change_24h": -2.5006851192107526,
+      "rsi_4h": 43.11476185000991,
+      "funding_rate": 0.00442855174576,
+      "open_interest": 807857.9299999998,
       "sentiment": "Bearish",
-      "score": 30,
-      "comment_cn": "回调幅度最大，显示高贝塔资产在宏观流动性收紧时的脆弱性。表现出明显的风险厌恶。",
-      "comment_en": "Experienced the largest drop, showing the vulnerability of high-beta assets when macro liquidity tightens. Clear indication of risk aversion."
+      "score": 40,
+      "comment_cn": "表现疲软，下跌2.50%，RSI较低。缺乏特定的催化剂，且在市场巩固时，投机性资产首先被抛售。",
+      "comment_en": "Weak performance, down 2.50% with low RSI. Lacks specific catalysts and speculative assets are sold off first during market consolidation."
     }
   ]
 }
