@@ -1,150 +1,166 @@
 {
-  "timestamp": "2026-01-11T18:53:30.817116",
-  "global_summary_cn": "流动性状态：全球宏观流动性处于中性偏紧的背离状态。尽管日元走弱（利好风险资产）提供了部分支持，但DXY（美元指数）的走强（目前99.14）表明美元流动性正在收紧，对风险资产构成压力。\n\n在新闻叙事层面，以太坊（ETH）及其L2生态系统展现出极度强劲的看涨信号，包括大规模质押和积极的乐观情绪。然而，比特币（BTC）则面临短期抛售压力和鲸鱼减仓的报道，使得其价格在9万美元的关键位置陷入僵局。市场目前处于叙事驱动的韧性与宏观压力之间的分歧状态。SOL作为高性能L1，继续受益于此轮乐观情绪，录得最高涨幅。整体而言，我们看到'买入以太坊系'的倾向。",
-  "global_summary_en": "Liquidity Status: Global macro liquidity shows a Neutral/Slightly Tight divergence. While Yen weakness supports risk assets via the carry trade, the strengthening DXY (currently 99.14) signals tightening dollar liquidity, creating macro resistance.\n\nThe News Narrative is robustly Bullish for Ethereum (ETH) and its L2 ecosystem, driven by massive institutional staking commitments and strongly positive sentiment. However, Bitcoin (BTC) faces immediate selling pressure and whale long liquidation reports, causing it to stall around the $90K mark. The market is currently in a state of divergence: narrative-driven resilience clashing with macro headwinds. SOL, as a high-performance L1, benefits significantly from this positive altcoin rotation, showing the highest gains. Overall, the market exhibits a strong 'Buy the Ethereum Ecosystem' bias.",
+  "timestamp": "2026-01-11T22:54:06.425484",
+  "global_summary_cn": "宏观流动性与叙事动能当前出现分歧。流动性层面，虽然日元疲软（日元走弱）暗示风险偏好仍在，但美元指数（DXY 99.14）走强，表明全球流动性正在小幅收紧，构成轻微的风险厌恶（Risk Off）信号。\n\n然而，叙事层面则表现出强劲的看涨情绪：以太坊（ETH）因质押量突破里程碑以及分析师看好ETH/BTC汇率触底而受益最大。此外，美国加密货币监管框架的推进提供了结构性利好。尽管比特币面临短期技术警告（例如鲸鱼平仓和6.5万美元的“生死线”预测），但市场整体开仓量（OI）高企且价格稳定在高位，显示出强劲的市场信念正在吸收宏观阻力。当前策略应为逢低买入，特别关注基本面强劲的ETH和SOL。",
+  "global_summary_en": "The market is currently showing a divergence between tightening macro liquidity and strong narrative momentum. On Layer 1, while Yen weakness (USD/JPY 158) suggests persistent risk appetite, DXY strength (99.14) indicates mild tightening of global liquidity, posing a slight Risk-Off signal.\n\nHowever, Layer 2 narratives are strongly bullish: Ethereum (ETH) is benefiting significantly from staking milestones and analyst calls confirming the ETH/BTC ratio has bottomed. Furthermore, the advancement of the US crypto regulatory framework provides structural support. Although Bitcoin faces short-term technical warnings (whale long dumping, $65K 'do-or-die' prediction), the overall high Open Interest (OI) and stable high price suggest strong market conviction is absorbing the macro headwinds. The strategy remains 'Buy the Dip,' favoring fundamentally strong assets like ETH and SOL.",
   "news_analysis": [
     {
-      "title_cn": "美国的加密货币ATM机可能时日无多",
+      "title_cn": "美国加密货币自动取款机的日子可能屈指可数",
       "title_en": "The crypto ATM's days in America may be numbered",
       "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "对零售用户的法币入口造成直接摩擦，短期负面影响。尽管长期可能支持规范化交易所，但短期不利于广泛采用。",
-      "reason_en": "Creates immediate friction for retail fiat access and adoption. While potentially favoring regulated exchanges long-term, it's negative for widespread immediate access."
+      "classification": "NEUTRAL",
+      "reason_cn": "监管层面对零售渠道的潜在打压，但目前只是提议，尚未对市场产生直接影响。",
+      "reason_en": "Potential regulatory crackdown on retail crypto channels, but this is only a proposal and hasn't directly impacted market sentiment yet."
     },
     {
-      "title_cn": "立法者准备再次尝试通过主要的加密货币法案",
+      "title_cn": "立法者准备再次尝试通过重大加密货币法案",
       "title_en": "Lawmakers are preparing to try again on major crypto bill. Why it matters and what happens next",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "对市场结构监管的推进提供急需的明确性，有利于机构投资者进入。",
-      "reason_en": "Progress toward regulatory clarity regarding market structure is a crucial step for institutional adoption."
+      "reason_cn": "监管清晰度对机构采用至关重要，此举是结构性利好。市场正缓慢吸收此正面进展。",
+      "reason_en": "Regulatory clarity is crucial for institutional adoption, making this a structural positive. The market is slowly absorbing this constructive development."
     },
     {
-      "title_cn": "比特币熊市仍在发挥作用，根据幂律模型，6.5万美元是“成败”价格",
-      "title_en": "Bitcoin bear market still in play as power law sees $65K 'do-or-die' price",
+      "title_cn": "经济学家称我们正处于“招聘衰退”——求职者如何脱颖而出",
+      "title_en": "We're in a 'hiring recession,' economist says — how job seekers can stand out",
       "news_sentiment": "Bearish",
       "classification": "NEUTRAL",
-      "reason_cn": "技术分析警告，但鉴于价格仍在9万美元上方，该警告影响有限，更多是制造短期FUD。",
-      "reason_en": "Technical analysis warning. Given the price stability near $90K, the impact is limited, primarily generating short-term FUD."
+      "reason_cn": "宏观经济负面信号，可能抑制消费者支出，但对加密市场影响间接。",
+      "reason_en": "Negative macro economic signal that could dampen consumer spending, but its impact on the crypto market is indirect."
     },
     {
-      "title_cn": "Samson Mow预测埃隆·马斯克将在2026年“全力投入”比特币",
+      "title_cn": "比特币熊市仍在继续，幂律模型显示6.5万美元是“生死线”价格",
+      "title_en": "Bitcoin bear market still in play as power law sees $65K 'do-or-die' price",
+      "news_sentiment": "Bearish",
+      "classification": "DIVERGENCE",
+      "reason_cn": "价格目前在9万美元以上，完全无视这一看跌技术警告，表明短期信念强于模型。",
+      "reason_en": "The current price above $90k completely ignores this bearish technical warning, indicating that short-term conviction is stronger than the model."
+    },
+    {
+      "title_cn": "Samson Mow预测埃隆·马斯克将在2026年“大力”投资比特币",
       "title_en": "Samson Mow tips Elon Musk will ‘go hard’ into Bitcoin in 2026",
       "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "长期的叙事驱动因素，而非短期价格催化剂。Mow一贯看涨的言论通常已被市场消化。",
-      "reason_en": "Long-term narrative driver, not a short-term catalyst. Mow's typically bullish statements are often already digested."
+      "classification": "NEUTRAL",
+      "reason_cn": "远期看涨叙事，尽管消息与当前价格行动关联不大，但增强了长期乐观情绪。",
+      "reason_en": "Forward-looking bullish narrative. Though not directly tied to current price action, it reinforces long-term optimism."
     },
     {
-      "title_cn": "比特币挖矿难度在2026年第一次调整中下降",
+      "title_cn": "2026年首次调整，比特币挖矿难度下降",
       "title_en": "Bitcoin mining difficulty falls in first adjustment of 2026",
       "news_sentiment": "Neutral",
       "classification": "NEUTRAL",
-      "reason_cn": "挖矿难度下降是常规调整，对矿工利润略有帮助，但对市场价格影响甚微。",
-      "reason_en": "Routine adjustment in mining difficulty. Slightly helps miners' margins but has minimal direct market price impact."
+      "reason_cn": "对矿工盈利能力有利，但属于市场正常的技术调整，对价格影响较小。",
+      "reason_en": "Positive for miner profitability, but this is a standard technical adjustment in the market with minimal direct price impact."
     },
     {
-      "title_cn": "Bitfinex巨鲸抛售BTC多头，13.5万美元的比特币价格目标重新浮现",
+      "title_cn": "Bitfinex鲸鱼抛售BTC多头，13.5万美元比特币价格目标重新浮现",
       "title_en": "Bitfinex whales dump BTC longs as $135K Bitcoin price target reemerges",
-      "news_sentiment": "Bearish",
-      "classification": "DIVERGENCE",
-      "reason_cn": "短期看跌信号：大户正在减仓。然而，价格仍稳定在9万美元，表明零售买盘或现货积累正在抵消巨鲸的抛压。",
-      "reason_en": "Short-term bearish signal: whales are de-risking. However, BTC holding $90K suggests retail buying or spot accumulation is absorbing the selling pressure."
+      "news_sentiment": "Mixed",
+      "classification": "PRICED IN",
+      "reason_cn": "鲸鱼平仓显示短期顶部阻力存在抛压，但价格保持稳定，表明抛压被现货买盘吸收。",
+      "reason_en": "Whale long dumping suggests selling pressure near resistance, but the price remains stable, indicating spot buying is absorbing the pressure."
     },
     {
-      "title_cn": "以太坊财务公司BitMine质押ETH里程碑突破100万枚",
+      "title_cn": "分析师：ETH-BTC汇率已在四月触底，与2019年周期相似",
+      "title_en": "ETH-BTC ratio bottomed in April, mirrors 2019 cycle: Analyst",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "ETH在过去24小时表现强劲（+1.01%），这一消息支撑了资本轮动至ETH的叙事，构成明确的积极信号。",
+      "reason_en": "ETH shows strong performance (+1.01% in 24h). This news supports the capital rotation narrative towards ETH, acting as a clear positive impulse."
+    },
+    {
+      "title_cn": "以太坊财务公司BitMine跨越100万枚质押ETH里程碑",
       "title_en": "Ethereum treasury company BitMine crosses 1 million staked ETH milestone",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "强大的机构信心和持续的供应锁定，直接支持ETH的通缩和价值累积模型。",
-      "reason_en": "Strong institutional commitment and continuous supply locking, directly supporting ETH's deflationary and value accrual model."
+      "reason_cn": "表明机构对ETH长期价值和质押回报的信心增强，直接利好ETH基本面。",
+      "reason_en": "Indicates growing institutional confidence in ETH's long-term value and staking returns. A direct positive for ETH fundamentals."
     },
     {
-      "title_cn": "Santiment：以太坊情绪与“重大运行”前的水平相似",
+      "title_cn": "Santiment：以太坊情绪水平与“重大上涨”前的水平相似",
       "title_en": "Ethereum sentiment mirrors levels seen before ‘major run’: Santiment",
       "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "确认了ETH价格上涨背后的情绪基础，但价格已开始反应（+1.13%）。",
-      "reason_en": "Confirms the fundamental bullish sentiment driving the recent ETH price rise (+1.13%); the market is responding to this underlying strength."
+      "classification": "IMPULSE",
+      "reason_cn": "情绪分析支持ETH当前的反弹和轮动叙事，市场情绪积极。",
+      "reason_en": "Sentiment analysis supports ETH's current rally and rotation narrative; market sentiment is positive."
     },
     {
-      "title_cn": "Sharplink从以太坊质押中获利3300万美元，并部署了额外的1.7亿美元ETH",
-      "title_en": "Sharplink pockets $33M from Ether staking, deploys another $170M ETH",
+      "title_cn": "门罗币价格突破历史新高，目标进入前十",
+      "title_en": "Monero Blows Past Its All-Time Price High as It Eyes a Top 10 Position",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "大规模机构资金将流动性ETH锁定用于长期收益，进一步收紧ETH的流通供应。",
-      "reason_en": "Major institutional money locking up liquid ETH for long-term yields, further tightening the circulating supply of ETH."
+      "reason_cn": "隐私币板块的强势信号，表明在监管关注下，市场对隐私特性的需求增加。",
+      "reason_en": "Strong signal for the privacy coin sector, indicating increased market demand for privacy features amid regulatory scrutiny."
     },
     {
-      "title_cn": "Optimism提议使用Superchain收入回购OP代币",
-      "title_en": "Optimism floats OP buyback proposal using Superchain revenue",
+      "title_cn": "在全国互联网中断期间，Bitchat在伊朗被迅速采用",
+      "title_en": "Bitchat Sees Rapid Uptake in Iran During Nationwide Internet Blackout",
       "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "强大的L2生态系统价值累积机制，利好整个ETH Layer 2赛道。",
-      "reason_en": "A strong value accrual mechanism proposed by a leading L2, highly positive for the entire Ethereum Layer 2 sector."
+      "classification": "NEUTRAL",
+      "reason_cn": "突出了加密货币在抗审查通信中的作用，加强了加密技术的实用性叙事。",
+      "reason_en": "Highlights crypto's role in censorship-resistant communication, reinforcing the utility narrative of crypto technology."
     },
     {
-      "title_cn": "参议院银行委员会安排市场结构标记，美国加密货币框架推进",
+      "title_cn": "美国加密框架取得进展，参议院银行委员会安排市场结构审议",
       "title_en": "US Crypto Framework Advances as Senate Banking Schedules Market Structure Markup",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "具体立法程序的推进，表明监管框架即将落地，减少长期不确定性。",
-      "reason_en": "Advancement in specific legislative procedures signals concrete progress toward establishing a regulatory framework, reducing long-term uncertainty."
+      "reason_cn": "具体立法程序的推进，为机构资金流入设定了更清晰的路径。",
+      "reason_en": "The advancement of concrete legislative procedure sets a clearer path for institutional capital inflow."
     },
     {
-      "title_cn": "“大橙子”——Saylor再次暗示，让市场关注其下一步的BTC购买策略",
+      "title_cn": "“大橙子”——又一个Saylor预告让市场关注其下一步BTC购买策略",
       "title_en": "‘Big Orange’ — Another Saylor Teaser Puts Markets on Watch for Strategy’s Next BTC Buy",
       "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "重申了机构持续的积累叙事，但市场已习惯Saylor的宣布，影响更多是叙事支持而非价格冲击。",
-      "reason_en": "Reaffirms the narrative of continuous institutional accumulation, but the market is accustomed to Saylor's teasers; impact is primarily narrative support."
-    },
-    {
-      "title_cn": "X计划推出智能现金标签，旨在清理互联网上最混乱的金钱话题",
-      "title_en": "X Aims to Roll out Smart Cashtags, Aiming to Clean up the Internet’s Messiest Money Talk",
-      "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "大型社交媒体平台直接集成加密货币支付/识别功能，极大利好采用。",
-      "reason_en": "Major social media platform integrating cryptocurrency payment/identification features directly, highly positive for adoption."
+      "reason_cn": "市场预期机构将继续买入，尤其是在当前高价位上的增持预期，提振了信心。",
+      "reason_en": "Market anticipates continued institutional buying. Expectation of accumulation, even at high prices, boosts confidence."
     },
     {
-      "title_cn": "以太坊着眼于通过分布式区块构建愿景实现抗审查性",
-      "title_en": "Ethereum Eyes Censorship Resistance With Distributed Block Building Vision",
-      "news_sentiment": "Bullish",
+      "title_cn": "比特币拥护者庆祝Hal Finney的比特币帖子发布17周年",
+      "title_en": "Bitcoiners celebrate 17th anniversary of Hal Finney's Bitcoin post",
+      "news_sentiment": "Neutral",
       "classification": "NEUTRAL",
-      "reason_cn": "技术和去中心化理念的长期提升，支持核心价值主张，但非短期价格驱动因素。",
-      "reason_en": "Long-term improvement of core decentralization and technical ideals, supporting the fundamental value proposition, but not a short-term price driver."
+      "reason_cn": "历史纪念日，情感价值高，但对即时市场价格无影响。",
+      "reason_en": "Historical anniversary, high emotional value but no impact on immediate market price."
+    },
+    {
+      "title_cn": "这里是今天加密货币发生的事情",
+      "title_en": "Here’s what happened in crypto today",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "新闻汇总，无独立分析价值。",
+      "reason_en": "News compilation, no independent analytical value."
     },
     {
       "title_cn": "以太坊联合创始人重申对Roman Storm的支持，引用隐私问题",
       "title_en": "Ethereum co-founder reiterates support for Roman Storm, citing privacy",
-      "news_sentiment": "Bullish",
-      "classification": "NEUTRAL",
-      "reason_cn": "社区团结和对隐私技术的支持，对生态系统士气有利。",
-      "reason_en": "Shows community solidarity and support for privacy technology, positive for ecosystem morale."
-    },
-    {
-      "title_cn": "动能减弱，戏剧性增加：比特币陷入9万美元的交火区",
-      "title_en": "Momentum Wanes, Drama Builds: Bitcoin Stuck in the $90K Crossfire",
       "news_sentiment": "Neutral",
       "classification": "NEUTRAL",
-      "reason_cn": "对当前价格走势的描述，确认了RSI所示的中性动能。",
-      "reason_en": "A description of current price action, confirming the neutral momentum shown by the RSI."
+      "reason_cn": "法律和隐私讨论，虽然重要，但不是价格驱动因素。",
+      "reason_en": "Legal and privacy discussion. Important, but not a price driver."
+    },
+    {
+      "title_cn": "拉丁美洲洞察：委内瑞拉的加密货币上涨，哥伦比亚改革VASP报告",
+      "title_en": "Latam Insights: Venezuela’s Crypto Rally, Colombia Overhauls VASP Reporting",
+      "news_sentiment": "Bullish",
+      "classification": "NEUTRAL",
+      "reason_cn": "区域性采用和监管清晰度（哥伦比亚），支持全球采用叙事。",
+      "reason_en": "Regional adoption and regulatory clarity (Colombia) supporting the global adoption narrative."
     }
   ],
   "fed_futures": {
     "price": 96.37,
     "implied_rate": 3.63,
-    "timestamp": "2026-01-11T18:53:07.543126+00:00",
+    "timestamp": "2026-01-11T22:53:42.302528+00:00",
     "trend": "Neutral (Stable expectations)",
     "change_5d_bps": -1.0,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 158.063,
-    "timestamp": "2026-01-11T18:53:07.580398+00:00",
+    "price": 158.013,
+    "timestamp": "2026-01-11T22:53:42.347285+00:00",
     "trend": "Yen Weakness (Risk On)",
-    "change_5d_pct": 0.68,
+    "change_5d_pct": 0.65,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
@@ -167,63 +183,63 @@
   "coins": [
     {
       "symbol": "BTC",
-      "price": 90853.0,
-      "change_24h": 0.30050518432161905,
-      "rsi_4h": 48.4389670316079,
-      "funding_rate": 0.00448823304075,
-      "open_interest": 2606683.170000015,
+      "price": 90621.2,
+      "change_24h": 0.15118628183421995,
+      "rsi_4h": 45.31146853613144,
+      "funding_rate": 0.0033570878966599996,
+      "open_interest": 2598273.020000014,
       "sentiment": "Neutral",
-      "score": 55,
-      "comment_cn": "宏观压力和巨鲸抛售报告使其动能减弱，但价格仍顽强守住9万美元，显示出现货买盘的韧性。",
-      "comment_en": "Momentum is waning due to macro pressure and whale selling reports, but the price is resiliently holding $90K, suggesting strong spot accumulation."
+      "score": 65,
+      "comment_cn": "价格坚守在9万美元上方，OI高企表明多头有信心。需警惕DXY带来的宏观流动性紧缩压力，以及短期鲸鱼平仓带来的抛压。价格行为稳健但缺乏向上动能。",
+      "comment_en": "Price holds firm above $90k, high OI shows confident longs. Needs caution regarding DXY-driven macro liquidity pressure and short-term whale selling. Price action is solid but lacks immediate upward impulse."
     },
     {
       "symbol": "ETH",
-      "price": 3127.05,
-      "change_24h": 1.1329163459486096,
-      "rsi_4h": 53.205758937836684,
-      "funding_rate": 0.00980993710488,
-      "open_interest": 6326828.310000031,
+      "price": 3113.86,
+      "change_24h": 1.0058874093776933,
+      "rsi_4h": 49.11985670771602,
+      "funding_rate": 0.00667834226006,
+      "open_interest": 6127061.810000027,
       "sentiment": "Bullish",
       "score": 85,
-      "comment_cn": "叙事驱动力极强。大规模机构质押锁定供应，加上看涨情绪报告，使其成为当前市场焦点。",
-      "comment_en": "Extremely narrative-driven. Massive institutional staking locks up supply. Strong sentiment reports make it the current market focus."
+      "comment_cn": "在叙事层面占据主导地位（质押、ETH/BTC汇率触底），资金费率高企，显示杠杆多头积极。在当前市场结构中，ETH是首选的买入资产。",
+      "comment_en": "Dominant on the narrative front (staking, ETH/BTC ratio bottoming). High funding suggests aggressive leveraged long interest. ETH is the preferred asset for buying into this market structure."
     },
     {
       "symbol": "SOL",
-      "price": 139.85,
-      "change_24h": 2.7025042226628533,
-      "rsi_4h": 62.59743537676613,
+      "price": 138.44,
+      "change_24h": 2.026678458250424,
+      "rsi_4h": 56.27840713315558,
       "funding_rate": 0.01,
-      "open_interest": 2969034.430000002,
+      "open_interest": 2898832.280000001,
       "sentiment": "Bullish",
-      "score": 75,
-      "comment_cn": "受益于以太坊系的乐观情绪和更广泛的山寨币轮动，表现最佳。RSI偏高，需警惕短期过热。",
-      "comment_en": "Best performer, benefiting from the ETH ecosystem's optimism and broader altcoin rotation. RSI is high, signaling potential short-term overheating."
+      "score": 80,
+      "comment_cn": "表现出强劲的相对强度（+2.03%），最高的资金费率（0.0100%）表明市场追涨情绪高昂。RSI处于健康区间，适合继续上涨。",
+      "comment_en": "Showing strong relative strength (+2.03%). The highest funding rate (0.0100%) indicates strong FOMO and chase momentum. RSI is healthy, supporting further upside potential."
     },
     {
       "symbol": "BNB",
-      "price": 905.9,
-      "change_24h": -0.690638017978521,
-      "rsi_4h": 52.71772045465812,
-      "funding_rate": 0.01,
-      "open_interest": 8841145.0,
+      "price": 903.6,
+      "change_24h": -0.011065619121392357,
+      "rsi_4h": 50.70099234880929,
+      "funding_rate": 0.00187257531306,
+      "open_interest": 8618993.0,
       "sentiment": "Neutral",
       "score": 60,
-      "comment_cn": "表现相对平稳，跟随主流币的整体情绪，缺乏独立的即时叙事催化剂。",
-      "comment_en": "Relatively stable performance, tracking general major coin sentiment but lacking immediate independent narrative catalysts."
+      "comment_cn": "价格横盘震荡，尽管OI极高，但资金费率偏低，表明市场对后续大涨预期相对克制，等待催化剂。",
+      "comment_en": "Price is consolidating sideways. Despite extremely high OI, funding is low, suggesting relatively restrained expectations for a major breakout, awaiting a catalyst."
     },
     {
       "symbol": "DOGE",
-      "price": 0.13839,
-      "change_24h": -1.121749071163181,
-      "rsi_4h": 37.935790715943085,
-      "funding_rate": 0.01,
-      "open_interest": 852633.9799999999,
-      "sentiment": "Bearish",
-      "score": 35,
-      "comment_cn": "表现最弱，在市场分歧和强势币主导下遭受抛压，RSI已接近超卖区域。",
-      "comment_en": "Weakest performance, suffering selling pressure amidst market divergence and stronger coins dominating. RSI approaching oversold territory."
+      "price": 0.13728,
+      "change_24h": -1.5278674413600122,
+      "rsi_4h": 34.839068547791655,
+      "funding_rate": -0.0013184317642699998,
+      "open_interest": 823897.5599999999,
+      "sentiment": "Bullish",
+      "score": 70,
+      "comment_cn": "RSI跌至超卖边缘(34.8)，资金费率转负，但价格跌幅有限。这为潜在的空头挤压创造了教科书式的机会，具备反弹潜力。",
+      "comment_en": "RSI nearing oversold (34.8) and funding turned negative, yet the price drop was limited. This creates a textbook opportunity for a potential short squeeze, carrying rebound potential."
     }
   ]
 }
