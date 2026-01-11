@@ -1,172 +1,82 @@
 {
-  "timestamp": "2026-01-11T02:51:20.742205",
-  "global_summary_cn": "流动性状态：全球宏观流动性正在收紧，美元指数走强，风险偏好消退。\n\n宏观方面，DXY走强显示资金回流美元，属于风险规避（Risk Off）环境。新闻叙事方面，短期压力显著：现货比特币ETF流出6.81亿美元，且Bitfinex鲸鱼正在抛售多头头寸。尽管长期叙事（XRP机构化、ETH质押资本流入）积极，但短期资金流出主导市场情绪。\n\n综合判断，市场处于分歧状态。流动性紧缩与资金流出相互印证，构成了短期抛售压力。BTC当前守住$90K的关键支撑，但面临下行风险。如果今晚的美国通胀预期数据高于预期，可能会加速市场调整。当前策略应保持谨慎，警惕跌破关键支撑后出现的“逢高卖出”行情。BNB逆势走强，但整体市场情绪偏弱。",
-  "global_summary_en": "Liquidity Status: Global macro liquidity is tightening, driven by a strengthening DXY and subsiding risk appetite.\n\nThe macro environment shows capital flowing back into the USD (stronger DXY), signaling a Risk Off environment. The news narrative is dominated by short-term pressure: Spot BTC ETFs saw $681M in outflows, and Bitfinex whales are dumping long positions. While long-term narratives (XRP institutionalization, ETH staking capital inflow) remain positive, immediate capital outflows dictate sentiment.\n\nSynthesis: The market is in a divergence state. Tightening liquidity combined with active outflows confirms short-term selling pressure. BTC is currently holding the critical $90K support but faces downside risk. If the US inflation expectations data tonight comes in hot, it could accelerate market correction. The current strategy should be cautious, anticipating a \"Sell the Rally\" scenario if key support fails. BNB shows independent strength, but overall market sentiment is weak.",
+  "timestamp": "2026-01-11T06:51:51.318281",
+  "global_summary_cn": "全球流动性状况目前偏紧/避险，DXY走强至99.14，发出轻微的避险信号。尽管宏观环境承压，但加密市场表现出强大的弹性。叙事层面出现明显分歧：一方面，现货ETF在2026年第一周流出6.81亿美元，表明短期风险胃纳下降；另一方面，顶级机构如美银和高盛升级了Coinbase股票评级，并重申了看涨的市场前景和全球流动性加速的预期。这种强劲的机构叙事正在吸收ETF流出的抛压。市场处于关键的“分歧”状态：流动性紧缩和利空数据（ETF流出）被强大的结构性乐观情绪所抵消。比特币在9万美元上方横盘整理，表明卖压不足。交易者应关注市场对即将到来的FOMC发言的反应，短期内市场走势可能保持区间震荡。",
+  "global_summary_en": "Global liquidity is currently slightly tight/risk-off, driven by a strengthening DXY at 99.14, signaling a mild flight to safety. Despite this challenging macro backdrop, the crypto market is showing strong resilience. A narrative divergence is observed: while Spot ETFs saw $681M in outflows in the first week of 2026, indicating fading short-term risk appetite, this selling pressure is being absorbed by strong institutional narratives. Major banks like BofA and Goldman Sachs upgraded Coinbase stock, confirming a bullish structural outlook based on accelerating global liquidity. The market is in a crucial \"Divergence\" phase where tight liquidity and bearish news (ETF outflows) are offset by powerful structural confidence. BTC is consolidating above $90k, suggesting a lack of bearish momentum. Traders should monitor reactions to upcoming FOMC speeches; short-term price action is likely range-bound.",
   "news_analysis": [
     {
-      "title_cn": "[CHF] 失业率 (低)",
-      "title_en": "[CHF] Unemployment Rate (Low)",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "瑞士失业率数据，对加密市场影响极低。",
-      "reason_en": "Swiss unemployment data, extremely low impact on the crypto market."
-    },
-    {
-      "title_cn": "[USD] FOMC 成员巴尔金讲话 (低)",
-      "title_en": "[USD] FOMC Member Barkin Speaks (Low)",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "低影响力事件，市场将等待更高阶的FOMC言论来判断政策走向。",
-      "reason_en": "Low impact event; the market awaits higher-tier FOMC comments for policy direction."
-    },
-    {
-      "title_cn": "[USD] 密歇根大学通胀预期初值 (高)",
-      "title_en": "[USD] Prelim UoM Inflation Expectations (High)",
-      "news_sentiment": "Neutral",
+      "title_cn": "美国银行、高盛将Coinbase（COIN）股票评级上调至“买入”",
+      "title_en": "Bank of America, Goldman Sachs Upgrade Coinbase (COIN) Stock to ‘Buy’",
+      "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "高影响力事件。若数据高于预期，将强化美联储限制性立场，对风险资产构成压力。",
-      "reason_en": "High impact event. If the data is hotter than expected, it will reinforce the Fed's restrictive stance, pressuring risk assets."
+      "reason_cn": "顶级机构的升级是强烈的信心票，尽管流动性偏紧，这为加密货币市场提供了结构性支持和看涨的机构叙事。",
+      "reason_en": "Top-tier institutional upgrades signal strong confidence. This provides structural support and a strong bullish institutional narrative, counteracting the slightly tight liquidity conditions.",
+      "title": "Bank of America, Goldman Sachs Upgrade Coinbase (COIN) Stock to ‘Buy’"
     },
     {
-      "title_cn": "[USD] FOMC 成员卡什卡利讲话 (低)",
-      "title_en": "[USD] FOMC Member Kashkari Speaks (Low)",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "低影响力事件，关注其对通胀和劳动力市场的措辞。",
-      "reason_en": "Low impact event, focusing on his comments regarding inflation and the labor market."
-    },
-    {
-      "title_cn": "[CAD] 失业率 (高)",
-      "title_en": "[CAD] Unemployment Rate (High)",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "高影响力事件，但影响主要限于CAD/USD货币对，对全球风险资产影响间接。",
-      "reason_en": "High impact event, but its influence is primarily restricted to the CAD/USD pair, indirect impact on global risk assets."
-    },
-    {
-      "title_cn": "抵押贷款利率降至近三年最低水平，特朗普命令购买 2000 亿美元抵押贷款债券",
-      "title_en": "Mortgage rates drop to lowest level in nearly 3 years as Trump orders buying of $200 billion in mortgage bonds",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "特定的住房市场刺激，虽释放流动性，但并非广泛的宏观宽松，对加密市场影响有限。",
-      "reason_en": "Specific housing market stimulus. While it releases liquidity, it is not broad macro easing and has limited impact on crypto."
-    },
-    {
-      "title_cn": "比特币挖矿难度在 2026 年首次调整中下降",
-      "title_en": "Bitcoin mining difficulty falls in first adjustment of 2026",
+      "title_cn": "Samson Mow预测埃隆·马斯克将在2026年“大举”进入比特币领域",
+      "title_en": "Samson Mow tips Elon Musk will 'go hard' into Bitcoin in 2026",
       "news_sentiment": "Bullish",
       "classification": "NEUTRAL",
-      "reason_cn": "难度下降利好矿工利润率，但通常被视为网络健康的周期性调整，短期价格影响有限。",
-      "reason_en": "Falling difficulty favors miner profitability but is a cyclical adjustment for network health, limited short-term price impact."
+      "reason_cn": "长期猜测性利好消息，没有即时市场影响，但有助于维持长期的牛市叙事。",
+      "reason_en": "Long-term speculative bullish news. No immediate market impact but supports the continued long-term bull market narrative.",
+      "title": "Samson Mow tips Elon Musk will 'go hard' into Bitcoin in 2026"
     },
     {
-      "title_cn": "比特币爱好者庆祝 Hal Finney 比特币帖子 17 周年",
-      "title_en": "Bitcoiners celebrate 17th anniversary of Hal Finney's Bitcoin post",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "社区里程碑事件，对市场情绪有轻微支撑作用，但无直接交易影响。",
-      "reason_en": "Community milestone event, slight support for sentiment but no direct trading impact."
-    },
-    {
-      "title_cn": "Bitfinex 鲸鱼抛售 BTC 多头，因 13.5 万美元比特币价格目标再次出现",
-      "title_en": "Bitfinex whales dump BTC longs as $135K Bitcoin price target reemerges",
-      "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "表明主要参与者在当前价格附近获利了结，是重要的短期抛压信号。",
-      "reason_en": "Indicates major players are taking profit near the current price, a significant signal of short-term selling pressure."
-    },
-    {
-      "title_cn": "现货比特币 ETF 在 2026 年第一周损失 6.81 亿美元，风险偏好减弱",
+      "title_cn": "现货比特币ETF在2026年第一周损失6.81亿美元，风险偏好减弱",
       "title_en": "Spot Bitcoin ETFs lose $681M in first week of 2026 as risk appetite fades",
       "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "关键的负面资金流数据，证实了风险偏好正在消退，是当前价格压力的直接原因。",
-      "reason_en": "Critical negative flow data confirming fading risk appetite, the direct cause of current price pressure."
-    },
-    {
-      "title_cn": "比特币测试关键支撑，多头重整旗鼓，准备迎接期货主导的反弹至 10.15 万美元",
-      "title_en": "Bitcoin tests key support as bulls reset to prepare for futures-led rally to $101.5K",
-      "news_sentiment": "Neutral",
       "classification": "PRICED IN",
-      "reason_cn": "这是对当前价格走势的描述，目标价位较高，但需要确认支撑稳固。",
-      "reason_en": "A description of current price action; the target is high, but confirmation of solid support is needed."
+      "reason_cn": "这是重大的抛售压力数据，但市场价格保持稳定（未崩盘）。这表明强大的买盘吸收了流出，因此可以视为已消化。",
+      "reason_en": "Significant selling pressure data. However, the market price has remained stable (no crash), suggesting strong hands absorbed the outflows. Hence, it is likely priced in.",
+      "title": "Spot Bitcoin ETFs lose $681M in first week of 2026 as risk appetite fades"
     },
     {
-      "title_cn": "Truebit 代币价格在 2600 万美元漏洞报告后下跌 99%",
-      "title_en": "Truebit token price falls 99% after reports of $26M exploit",
-      "news_sentiment": "Bearish",
-      "classification": "PRICED IN",
-      "reason_cn": "特定项目的灾难性事件，对市场信心有轻微拖累，但影响已局限于该代币。",
-      "reason_en": "Catastrophic project-specific event, slight drag on confidence, but impact is confined to the token."
+      "title_cn": "以太坊情绪反映了“主要上涨”前的水平：Santiment",
+      "title_en": "Ethereum sentiment mirrors levels seen before ‘major run’: Santiment",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "直接的链上/情绪指标利好，预示以太坊可能跑赢大盘，支撑ETH近期的看涨叙事。",
+      "reason_en": "Directly bullish on-chain/sentiment indicator, suggesting potential ETH outperformance and supporting the recent ETH bullish narrative.",
+      "title": "Ethereum sentiment mirrors levels seen before ‘major run’: Santiment"
     },
     {
-      "title_cn": "5 万美元还是 25 万美元？顶级加密公司对比特币 2026 年的轨迹存在分歧",
-      "title_en": "$50K or $250K? Top crypto companies are divided on Bitcoin's trajectory in 2026",
+      "title_cn": "Bitfinex巨鲸在13.5万美元比特币价格目标重新出现时抛售BTC多头",
+      "title_en": "Bitfinex whales dump BTC longs as $135K Bitcoin price target reemerges",
       "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "体现了市场固有的长期波动性和预测分歧，属于长期噪音。",
-      "reason_en": "Reflects inherent long-term volatility and forecasting divergence in the market; long-term noise."
+      "classification": "DISTRIBUTION",
+      "reason_cn": "巨鲸抛售多头（获利了结/短期看跌），但极高的价格目标（13.5万美元）限制了长期悲观情绪。表明短期出现分配。",
+      "reason_en": "Whales dumping longs (profit-taking/short-term bearish positioning), but the high price target (135K) limits long-term pessimism. Indicates short-term distribution.",
+      "title": "Bitfinex whales dump BTC longs as $135K Bitcoin price target reemerges"
     },
     {
-      "title_cn": "以太坊联合创始人重申对 Roman Storm 的支持，并强调隐私重要性",
-      "title_en": "Ethereum co-founder reiterates support for Roman Storm, citing privacy",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "道德和监管叙事支持，有助于 ETH 社区凝聚力，但无直接价格催化作用。",
-      "reason_en": "Moral and regulatory narrative support, helping ETH community cohesion, but no direct price catalyst."
-    },
-    {
-      "title_cn": "Sharplink 从以太坊质押中获利 3300 万美元，并部署了另外 1.7 亿美元的 ETH",
-      "title_en": "Sharplink pockets $33M from Ether staking, deploys another $170M ETH",
+      "title_cn": "抵押贷款利率降至近三年最低水平，特朗普下令购买2000亿美元抵押贷款债券",
+      "title_en": "Mortgage rates drop to lowest level in nearly 3 years as Trump orders buying of $200 billion in mortgage bonds",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "明确显示大量资本正在积极投入 ETH 质押生态系统，是强大的资本流入信号。",
-      "reason_en": "Clear signal of significant capital actively flowing into the ETH staking ecosystem, a strong capital inflow indicator."
-    },
-    {
-      "title_cn": "Optimism 提出使用 Superchain 收入回购 OP 的提案",
-      "title_en": "Optimism floats OP buyback proposal using Superchain revenue",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "看涨的代币经济学提案，若通过将增加 OP 的通缩压力和价值捕捉。",
-      "reason_en": "Bullish tokenomic proposal; if passed, it will increase OP's deflationary pressure and value accrual."
-    },
-    {
-      "title_cn": "正在发生：Ripple 称 XRP 是价值互联网的心跳",
-      "title_en": "It’s Happening: Ripple Says XRP Is the Heartbeat of the Internet of Value",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "Ripple 积极的营销和定位，为 XRP 提供持续的叙事支撑。",
-      "reason_en": "Aggressive marketing and positioning by Ripple, providing continuous narrative support for XRP."
-    },
-    {
-      "title_cn": "两年内，比特币 ETF 的采用速度比黄金快 600%",
-      "title_en": "Bitcoin ETFs Outpace Gold Adoption by 600% Two Years Into TradFi",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "提供了比特币作为资产类别的长期比较优势，强化了机构叙事。",
-      "reason_en": "Provides a long-term comparative advantage for BTC as an asset class, strengthening the institutional narrative."
+      "reason_cn": "政府主导的流动性/刺激措施，尽管针对特定资产类别，但总体上对风险资产情绪有利，且反映出宽松政策的倾向。",
+      "reason_en": "Government-led liquidity/stimulus measures. While targeted, it generally improves sentiment for risk assets and reflects a bias toward easing.",
+      "title": "Mortgage rates drop to lowest level in nearly 3 years as Trump orders buying of $200 billion in mortgage bonds"
     }
   ],
   "fed_futures": {
-    "price": 96.36,
-    "implied_rate": 3.64,
-    "timestamp": "2026-01-11T02:50:55.533809+00:00",
+    "price": 96.37,
+    "implied_rate": 3.63,
+    "timestamp": "2026-01-11T06:51:32.429628+00:00",
     "trend": "Neutral (Stable expectations)",
-    "change_5d_bps": 0.7,
+    "change_5d_bps": -1.0,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
     "price": 156.88,
-    "timestamp": "2026-01-11T02:50:55.583476+00:00",
+    "timestamp": "2026-01-11T06:51:32.478291+00:00",
     "trend": "Neutral",
     "change_5d_pct": -0.07,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 99.13,
-      "change_5d_pct": 0.88,
+      "price": 99.14,
+      "change_5d_pct": 0.57,
       "trend": "Stronger (Risk Off)"
     },
     "us10y": {
@@ -183,63 +93,63 @@
   "coins": [
     {
       "symbol": "BTC",
-      "price": 90695.0,
-      "change_24h": 0.04301976703141546,
-      "rsi_4h": 46.208950921305814,
-      "funding_rate": 0.00068028752404,
-      "open_interest": 2637728.1900000107,
+      "price": 90675.9,
+      "change_24h": 0.13572162159176854,
+      "rsi_4h": 46.02579568695205,
+      "funding_rate": 0.00743709742942,
+      "open_interest": 2647187.750000012,
       "sentiment": "Neutral",
-      "score": 50,
-      "comment_cn": "价格稳定在$90k，但ETF流出和鲸鱼抛售造成短期压力。RSI中性，等待宏观数据指引。",
-      "comment_en": "Price stable around $90k, but ETF outflows and whale dumping create short-term pressure. RSI is neutral, awaiting macro data direction."
+      "score": 65,
+      "comment_cn": "在流动性趋紧和ETF流出后，价格仍能维持在9万美元以上，显示出强大的韧性。处于关键盘整阶段，等待宏观指引。",
+      "comment_en": "Strong resilience holding above $90k after tight liquidity and ETF outflows. In a key consolidation phase, awaiting clearer macro direction."
     },
     {
       "symbol": "ETH",
-      "price": 3094.02,
-      "change_24h": 0.22902865287744095,
-      "rsi_4h": 42.90198548735768,
-      "funding_rate": 0.009743024036809999,
-      "open_interest": 6168978.510000026,
-      "sentiment": "Neutral",
-      "score": 55,
-      "comment_cn": "受到 $170M 质押资本部署的消息支撑，表现略强于BTC。但整体流动性环境限制了上涨空间。",
-      "comment_en": "Slightly stronger than BTC, supported by news of $170M staking capital deployment. Overall liquidity environment limits upside."
+      "price": 3095.13,
+      "change_24h": 0.20785376419282073,
+      "rsi_4h": 43.331077584971375,
+      "funding_rate": 0.00474611994185,
+      "open_interest": 6245825.360000024,
+      "sentiment": "Bullish",
+      "score": 70,
+      "comment_cn": "情绪分析显示即将迎来“主要上涨”。Sharplink大量质押ETH，基本面健康，看好后续表现。",
+      "comment_en": "Sentiment analysis suggests a 'major run' is imminent. Strong fundamentals supported by large ETH staking, suggesting potential outperformance."
     },
     {
       "symbol": "SOL",
-      "price": 136.14,
-      "change_24h": -0.04405286343612502,
-      "rsi_4h": 47.781688513541695,
-      "funding_rate": 0.00316021275875,
-      "open_interest": 3083855.3100000033,
+      "price": 136.11,
+      "change_24h": -0.05140255544132265,
+      "rsi_4h": 47.867445559161304,
+      "funding_rate": 0.01,
+      "open_interest": 3074029.350000002,
       "sentiment": "Neutral",
-      "score": 45,
-      "comment_cn": "在当前流动性紧缩环境中保持中性，缺乏独立叙事支撑，表现平稳。",
-      "comment_en": "Neutral in the tightening liquidity environment, lacking independent narrative support, exhibiting flat performance."
+      "score": 55,
+      "comment_cn": "跟随大盘横盘整理，RSI中性。缺乏新的独立叙事来突破盘整区间。",
+      "comment_en": "Consolidating with the general market, neutral RSI. Lacks a new, independent narrative to break the current range."
     },
     {
       "symbol": "BNB",
-      "price": 910.5,
-      "change_24h": 1.1891531451433703,
-      "rsi_4h": 58.014188901472515,
+      "price": 913.2,
+      "change_24h": 0.7391064533921727,
+      "rsi_4h": 59.671473277853316,
       "funding_rate": 0.01,
-      "open_interest": 8747969.0,
+      "open_interest": 9202493.0,
       "sentiment": "Bullish",
       "score": 75,
-      "comment_cn": "独立强势，RSI 高企且有可观涨幅，可能是平台特定需求或杠杆活动推动。",
-      "comment_en": "Independent strength, high RSI and significant gains, likely driven by platform-specific demand or leveraged activity."
+      "comment_cn": "RSI接近60，日内表现强劲。资金费率和OI高，显示出强劲的链上和投机需求。",
+      "comment_en": "RSI near 60 and strong intraday performance. High funding and OI indicate strong chain-specific and speculative demand."
     },
     {
       "symbol": "DOGE",
-      "price": 0.13915,
-      "change_24h": -0.7347695819660459,
-      "rsi_4h": 38.89563728433407,
+      "price": 0.13946,
+      "change_24h": -0.4354965374455625,
+      "rsi_4h": 40.332791583117896,
       "funding_rate": 0.01,
-      "open_interest": 839481.4099999998,
-      "sentiment": "Bearish",
-      "score": 35,
-      "comment_cn": "风险资产表现不佳的典型代表，RSI 偏弱，在风险规避环境中承受压力。",
-      "comment_en": "Typical underperformer in risk-off environments. Weak RSI and pressure due to prevailing risk-averse conditions."
+      "open_interest": 850296.0199999999,
+      "sentiment": "Neutral",
+      "score": 50,
+      "comment_cn": "RSI较低，走势疲软。虽然有马斯克的长期叙事支持，但短期缺乏动力。",
+      "comment_en": "Weak momentum with lower RSI. Although supported by long-term Musk narratives, short-term momentum is lacking."
     }
   ]
 }
