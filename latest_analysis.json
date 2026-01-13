@@ -1,100 +1,156 @@
 {
-  "timestamp": "2026-01-13T06:58:27.638428",
-  "global_summary_cn": "流动性状态：全球流动性保持适度宽松（Risk On），主要受美联储降息预期下降（鸽派倾向）和日元疲软（利于套利交易）的支持。宏观叙事层面，对美联储主席鲍威尔的政治调查带来了不确定性，但市场普遍将其视为对非主权资产（如比特币）的潜在支撑。加密货币叙事方面，机构乐观情绪浓厚（Binance报告、A16z预测、Bitmine增持ETH），尽管短期内鲸鱼抛售和监管担忧（Fitch, 迪拜限制隐私币）造成压力。整体市场处于有利的流动性环境中，但短期价格走势因鲸鱼抛售和政治不确定性而出现巩固。这是流动性宽松遇到混合新闻叙事的经典分化情景，倾向于在短期回调后逢低买入。",
-  "global_summary_en": "Liquidity Status: Global liquidity remains Mildly Loose (Risk On), supported by easing Fed rate cut expectations (Dovish bias) and continued JPY weakness, favoring the global carry trade. Macro narratives center on the political investigation into Fed Chair Powell, which introduces uncertainty but is generally interpreted as potential support for non-sovereign assets like Bitcoin. Crypto narratives show strong institutional optimism (Binance report, A16z predictions, Bitmine expanding ETH holdings), balanced against short-term pressure from whale selling and regulatory concerns (Fitch, Dubai privacy coin restrictions). The market is consolidating its high position despite favorable liquidity, indicating a divergence between supportive macro flow and short-term selling/political hesitation. The bias leans towards buying the dip following any short-term retracements.",
+  "timestamp": "2026-01-13T10:59:02.912953",
+  "global_summary_cn": "流动性状态：全球流动性保持稳定支撑（温和风险偏好）。尽管美联储利率预期稳定，但日元持续的极度疲软（USD/JPY 158.808）暗示套利交易仍在继续为风险资产提供资金支持。叙事层面，加密市场表现出韧性，主流币（BTC/ETH）的价格目标（10万美元/4000美元）占据主导地位，显示出强烈的看涨情绪。然而，鲸鱼抛售（2.86亿美元）和机构警告（惠誉评级）构成潜在的结构性阻力。\n\n**综合分析**：市场处于「看涨分歧」状态。在稳定且略微宽松的全球流动性支持下，市场无视地缘政治和监管方面的负面消息，继续攀升。BTC 和 SOL 表现出强劲的技术势头。BNB的负资金费率暗示可能存在空头挤压机会。",
+  "global_summary_en": "Liquidity Status: Global liquidity remains steadily supportive (Mild Risk On). Although Fed rate expectations are stable, the continued extreme weakness of the JPY (USD/JPY 158.808) suggests the carry trade is ongoing, funding risk assets. On the narrative layer, crypto shows resilience, with strong bullish sentiment driven by high price targets for majors ($100K BTC, $4K ETH).\n\nHowever, whale distribution ($286M selling) and institutional warnings (Fitch Ratings) pose potential structural resistance. **Synthesis**: The market is in a 'Bullish Divergence' state. Supported by stable to slightly loose global liquidity, the market continues to climb, ignoring negative geopolitical and regulatory news. BTC and SOL show strong technical momentum. BNB's negative funding rate hints at a potential short squeeze opportunity.",
   "news_analysis": [
     {
-      "title_cn": "日本日经225指数跳涨超3%，因预期执政党将选择提前大选",
-      "title_en": "Japan's Nikkei 225 jumps over 3% as expectations that ruling party will opt for a snap vote rise",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "亚洲风险偏好强烈，推动股市大涨，进一步巩固了日元疲软和全球套利交易的'风险偏好'环境。",
-      "reason_en": "Strong risk appetite signal from Asia, supporting the 'Risk On' environment driven by JPY weakness and global carry trades."
-    },
-    {
-      "title_cn": "鲍威尔调查：国会山上共和党反对声浪渐增",
-      "title_en": "Powell investigation: Drumbeat of Republican opposition grows on Capitol Hill",
+      "title_cn": "全球央行行长团结一致，捍卫美联储主席杰罗姆·鲍威尔",
+      "title_en": "Global central bankers unite in defense of Fed Chair Jerome Powell",
       "news_sentiment": "Neutral",
-      "classification": "IMPULSE",
-      "reason_cn": "政治不确定性往往利好作为替代价值存储的资产。调查本身是市场不稳定的驱动因素，可能迫使美联储保持鸽派，但短期内造成市场犹豫。",
-      "reason_en": "Political uncertainty often favors non-sovereign assets. The investigation creates Fed instability, potentially forcing a dovish stance, but causes short-term market hesitation."
+      "classification": "NEUTRAL",
+      "reason_cn": "表明全球金融体系对美联储领导层的支持，这有助于短期内的市场稳定性，但缺乏直接的流动性影响。",
+      "reason_en": "Indicates global financial system support for Fed leadership, contributing to short-term market stability but lacking direct liquidity impact."
     },
     {
-      "title_cn": "比特币在美国司法部考虑调查美联储主席时显示出韧性：BTC价格会保持住吗？",
-      "title_en": "Bitcoin shows strength as US DOJ mulls Fed chair investigation: Will BTC price hold?",
+      "title_cn": "特朗普对伊朗的关税策略可能破坏美中贸易协议",
+      "title_en": "Trump’s tariff gambit over Iran risks derailing U.S.–China trade deal",
+      "news_sentiment": "Bearish",
+      "classification": "DIVERGENCE",
+      "reason_cn": "地缘政治风险增加，可能导致贸易紧张局势升级。市场当前无视此风险，是流动性驱动的表现。",
+      "reason_en": "Increased geopolitical risk and potential escalation of trade tensions. The market is currently ignoring this risk, driven by liquidity."
+    },
+    {
+      "title_cn": "共和党参议员汤姆·蒂利斯发誓阻止特朗普对鲍威尔调查后的美联储提名人选",
+      "title_en": "Republican Sen. Thom Tillis vows to block Trump's Fed nominees following Powell probe",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "美国的国内政治噪音，对当前货币政策影响较小。",
+      "reason_en": "Domestic political noise in the US with minimal impact on current monetary policy settings."
+    },
+    {
+      "title_cn": "税收效率型投资如何能在 2026 年及以后提高您的投资组合回报",
+      "title_en": "How tax-efficient investing could boost your portfolio returns in 2026 and beyond",
+      "news_sentiment": "Bullish",
+      "classification": "NEUTRAL",
+      "reason_cn": "长期结构性乐观情绪，促进资产配置。",
+      "reason_en": "Long-term structural optimism that encourages asset allocation."
+    },
+    {
+      "title_cn": "特朗普表示，与伊朗有业务往来的任何国家都将面临 25% 的美国关税",
+      "title_en": "Trump says any country doing business with Iran will face 25% U.S. tariff",
+      "news_sentiment": "Bearish",
+      "classification": "DIVERGENCE",
+      "reason_cn": "直接的地缘政治和贸易风险，可能损害全球供应链。市场反应平淡，表明短期内流动性大于风险。",
+      "reason_en": "Direct geopolitical and trade risk that could harm global supply chains. The muted market reaction suggests liquidity outweighs immediate risk."
+    },
+    {
+      "title_cn": "尽管鲍威尔面临司法部调查，比特币仍显示出韧性：BTC 价格能否守住？",
+      "title_en": "Bitcoin shows resilience amid Powell DOJ probe: Will BTC price hold?",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "证实了比特币作为政治不确定性对冲工具的叙事，显示出市场在宏观动荡中对高价位的接受度。",
-      "reason_en": "Confirms the narrative of Bitcoin acting as a hedge against political uncertainty, demonstrating market acceptance of higher price levels amid macro turmoil."
+      "reason_cn": "积极的叙事，强调比特币作为去中心化资产的弹性，支撑当前价格上涨。",
+      "reason_en": "Positive narrative emphasizing Bitcoin's resilience as a decentralized asset, supporting the current price action."
     },
     {
-      "title_cn": "惠誉评级警告比特币支持的证券存在“高市场价值风险”",
+      "title_cn": "惠誉评级警告比特币支持的证券存在“高市值风险”",
       "title_en": "Fitch Ratings flags Bitcoin-backed securities for ‘high market value risk’",
       "news_sentiment": "Bearish",
-      "classification": "NEUTRAL",
-      "reason_cn": "典型的评级机构风险警告。虽然是监管/风险提示，但影响往往是渐进的，而非直接导致价格暴跌。",
-      "reason_en": "Typical rating agency risk warning. While regulatory cautionary, the impact is usually gradual rather than causing immediate sharp declines."
+      "classification": "PRICED IN",
+      "reason_cn": "机构对波动性的常规警告。市场已消化加密资产的高风险性质。",
+      "reason_en": "Routine institutional warning about volatility. The market has priced in the high-risk nature of crypto assets."
     },
     {
-      "title_cn": "比特币“OG鲸鱼”抛售2.86亿美元，但BTC价格达到10万美元的几率仍高",
+      "title_cn": "比特币‘OG 鲸鱼’抛售 2.86 亿美元，但 BTC 达到 10 万美元的几率仍然很高",
       "title_en": "Bitcoin ‘OG whales’ sell $286M, but odds of $100K BTC remain high",
-      "news_sentiment": "Bearish",
+      "news_sentiment": "Divergence",
       "classification": "DISTRIBUTION",
-      "reason_cn": "显示大额抛售正在发生，这解释了价格在高位巩固的原因。然而，市场认为该抛售已被机构需求吸收。",
-      "reason_en": "Indicates significant selling pressure (distribution) occurring, explaining price consolidation. However, the accompanying commentary suggests institutional demand is absorbing the supply."
+      "reason_cn": "鲸鱼抛售（负面）与强烈看涨的长期价格目标（正面）并存，表明顶部区域存在分配行为。",
+      "reason_en": "Coexistence of whale selling (negative) and strong bullish long-term price targets (positive), suggesting distribution near the top area."
     },
     {
-      "title_cn": "以太坊必须通过“脱离测试”才能持续百年：Buterin",
-      "title_en": "Ethereum must pass 'walkaway test' to endure for 100 years: Buterin",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "V神的长远观点，关注以太坊的结构完整性和去中心化，对短期价格没有直接影响。",
-      "reason_en": "Buterin's long-term philosophical comments focusing on structural integrity and decentralization, irrelevant for short-term price action."
+      "title_cn": "比特币在贬值交易中输给黄金，BTC 处于两年低点：分析",
+      "title_en": "Bitcoin loses to gold as debasement trade with BTC at 2-year lows: Analysis",
+      "news_sentiment": "Bearish",
+      "classification": "PRICED IN",
+      "reason_cn": "侧重于比特币在特定对冲环境下的相对表现。市场正在关注绝对价格而非相对表现。",
+      "reason_en": "Focuses on Bitcoin's relative performance in a specific hedging environment. The market is focused on absolute price rather than relative performance."
     },
     {
-      "title_cn": "Bitmine的以太坊持仓达到417万枚，董事长推动扩大加密货币战略",
+      "title_cn": "以太坊必须通过“自由放任测试”才能持续 100 年：Buterin",
+      "title_en": "Ethereum must pass ‘walkaway test’ to endure for 100 years: Buterin",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "来自创始人对协议去中心化和长期生命力的信心声明，增强了 ETH 的叙事。",
+      "reason_en": "A statement of confidence from the founder regarding the protocol's decentralization and long-term viability, strengthening the ETH narrative."
+    },
+    {
+      "title_cn": "随着董事长推动扩大加密战略，Bitmine 的以太坊持有量达到 417 万",
       "title_en": "Bitmine’s Ether holdings reach 4.17M as chairman pushes expanded crypto strategy",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "具体的机构增持证据，强调了ETH持续的机构认可和需求。",
-      "reason_en": "Concrete evidence of institutional accumulation of ETH, highlighting continued institutional validation and demand."
+      "reason_cn": "来自大型机构的强劲累积信号，为 ETH 价格提供了坚实的基础。",
+      "reason_en": "Strong accumulation signal from a major institution, providing a solid floor for ETH pricing."
     },
     {
-      "title_cn": "币安：随着机构锁定长期敞口，加密货币突破散户时代",
-      "title_en": "Binance: Crypto Breaks out of Retail Era as Institutions Lock in Long-Term Exposure",
+      "title_cn": "三张 ETH 价格图表表明可能正在酝酿向 4000 美元迈进的走势",
+      "title_en": "Three ETH price charts suggest a move toward $4K may be brewing",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "来自主要交易所的强劲叙事支持，肯定了机构资本对市场长期结构性转变的作用。",
-      "reason_en": "Strong narrative support from a major exchange, confirming the structural long-term shift towards institutional capital locking in exposure."
+      "reason_cn": "技术分析乐观，支持 ETH 现有的上行动能。",
+      "reason_en": "Optimistic technical analysis supporting existing upward momentum for ETH."
     },
     {
-      "title_cn": "为什么比特币可能低估了1月降息的几率",
-      "title_en": "Why Bitcoin May Be Underpricing January Rate Cut Odds",
+      "title_cn": "如果 ETH 价值崩溃，意大利银行将对以太坊风险进行建模",
+      "title_en": "Bank of Italy models Ethereum risks if ETH value collapsed",
+      "news_sentiment": "Bearish",
+      "classification": "PRICED IN",
+      "reason_cn": "监管机构对潜在风险的例行尽职调查，并未构成迫在眉睫的威胁。",
+      "reason_en": "Routine regulatory due diligence on potential risks; does not pose an imminent threat."
+    },
+    {
+      "title_cn": "如果政府征收稳定币税，巴西加密行业将提起诉讼",
+      "title_en": "Brazilian Crypto Industry to Sue if Government Pursues Stablecoin Taxation",
+      "news_sentiment": "Bearish",
+      "classification": "DIVERGENCE",
+      "reason_cn": "监管摩擦和司法行动威胁，这是负面消息。市场目前选择忽略新兴市场监管风险。",
+      "reason_en": "Regulatory friction and threat of judicial action, which is negative news. The market is currently choosing to overlook emerging market regulatory risks."
+    },
+    {
+      "title_cn": "银行赢得关键胜利，加密法案禁止稳定币利息支付",
+      "title_en": "Banks Win Key Battle as Crypto Bill Bars Stablecoin Interest Payments",
+      "news_sentiment": "Bearish",
+      "classification": "DISTRIBUTION",
+      "reason_cn": "对 DeFi 和稳定币收益的直接监管限制，抑制了收益率潜力。",
+      "reason_en": "Direct regulatory curb on DeFi and stablecoin yields, dampening yield potential."
+    },
+    {
+      "title_cn": "VelaFi 获得 2000 万美元 B 轮融资，以扩展稳定币基础设施",
+      "title_en": "VelaFi Secures $20 Million Series B to Expand Stablecoin Infrastructure",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "将加密货币表现与有利的宏观货币政策直接挂钩，支持未来的价格上涨。",
-      "reason_en": "Directly links crypto performance to favorable macro monetary policy expectations, supporting future price appreciation."
+      "reason_cn": "积极的资本流入，表明基础设施建设正在积极推进。",
+      "reason_en": "Positive capital inflow, indicating active progress in infrastructure building."
     }
   ],
   "fed_futures": {
-    "price": 96.435,
-    "implied_rate": 3.565,
-    "timestamp": "2026-01-13T06:58:10.055368+00:00",
-    "trend": "Dovish (Rate expectations dropping)",
-    "change_5d_bps": -7.5,
+    "price": 96.36,
+    "implied_rate": 3.64,
+    "timestamp": "2026-01-13T10:58:40.243067+00:00",
+    "trend": "Neutral (Stable expectations)",
+    "change_5d_bps": 0.0,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 158.764,
-    "timestamp": "2026-01-13T06:58:10.103637+00:00",
+    "price": 158.808,
+    "timestamp": "2026-01-13T10:58:40.292044+00:00",
     "trend": "Yen Weakness (Risk On)",
-    "change_5d_pct": 1.33,
+    "change_5d_pct": 1.36,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 99.02,
-      "change_5d_pct": 0.09,
+      "price": 98.96,
+      "change_5d_pct": 0.03,
       "trend": "Neutral"
     },
     "us10y": {
@@ -103,71 +159,71 @@
       "trend": "Neutral"
     },
     "vix": {
-      "price": 15.12,
-      "change_5d_pct": 2.51,
+      "price": 15.41,
+      "change_5d_pct": 4.47,
       "trend": "Normal Rising"
     }
   },
   "coins": [
     {
       "symbol": "BTC",
-      "price": 92265.9,
-      "change_24h": 0.45936588127694156,
-      "rsi_4h": 59.92479725715453,
-      "funding_rate": 0.0049248301184099995,
-      "open_interest": 2677343.2800000138,
+      "price": 92117.5,
+      "change_24h": 1.896395145741677,
+      "rsi_4h": 58.93742740580193,
+      "funding_rate": 0.00808914363124,
+      "open_interest": 2707292.030000014,
       "sentiment": "Bullish",
-      "score": 78,
-      "comment_cn": "在有利的流动性和政治不确定性对冲叙事的推动下，处于高位巩固。RSI健康，资金费率积极，表明多头控制局面。",
-      "comment_en": "Consolidating at high levels, driven by favorable liquidity and the political uncertainty hedge narrative. Healthy RSI and positive funding suggest bulls remain in control."
+      "score": 85,
+      "comment_cn": "价格坚挺，RSI适中。叙事集中在 10 万美元的目标上，但高资金费率和鲸鱼抛售表明杠杆做多拥挤，存在回调风险。",
+      "comment_en": "Price remains firm with moderate RSI. Narrative centers on the $100K target, but high funding and whale selling suggest crowded leverage and a risk of pullback."
     },
     {
       "symbol": "ETH",
-      "price": 3136.51,
-      "change_24h": -0.5718723748236663,
-      "rsi_4h": 54.16410739502113,
-      "funding_rate": 0.00279716636859,
-      "open_interest": 6058550.190000027,
+      "price": 3134.11,
+      "change_24h": 0.9170442068115009,
+      "rsi_4h": 53.832292831240295,
+      "funding_rate": 0.00485362074254,
+      "open_interest": 6054064.690000023,
       "sentiment": "Bullish",
-      "score": 75,
-      "comment_cn": "机构需求强劲（Bitmine增持），技术面暗示潜在的$4K走势。目前略微滞后于BTC，存在追赶潜力。",
-      "comment_en": "Strong institutional demand (Bitmine accumulation) and technical indicators point toward a potential move to $4K. Currently lagging BTC slightly, indicating catch-up potential."
+      "score": 88,
+      "comment_cn": "基本面叙事强劲（Bitmine 累积、Buterin 信心），技术目标指向 4000 美元。当前价格行动显示出领先于 BTC 的潜力。",
+      "comment_en": "Strong fundamental narrative (Bitmine accumulation, Buterin confidence) and technical targets pointing towards $4K. Price action shows potential to lead BTC."
     },
     {
       "symbol": "SOL",
-      "price": 140.65,
-      "change_24h": -0.9367516551626879,
-      "rsi_4h": 56.43171053220494,
-      "funding_rate": -0.00884261555403,
-      "open_interest": 3000528.710000002,
-      "sentiment": "Neutral",
-      "score": 55,
-      "comment_cn": "资金费率转为负值，显示短期有积极的空头或获利了结。需要观察价格是否能保持在$140以上。",
-      "comment_en": "Funding turned slightly negative, indicating aggressive shorting or profit-taking pressure. Needs to hold above $140 for continued momentum."
+      "price": 142.09,
+      "change_24h": 2.076149425287367,
+      "rsi_4h": 60.181701052261424,
+      "funding_rate": 0.00134104101996,
+      "open_interest": 3015871.1900000046,
+      "sentiment": "Bullish",
+      "score": 90,
+      "comment_cn": "RSI 处于最高位，显示出强大的动量和相对强度。资金费率健康，没有过度拥挤的杠杆迹象。",
+      "comment_en": "Highest RSI, indicating strong momentum and relative strength. Funding rates are healthy, suggesting less excessive leveraged crowding."
     },
     {
       "symbol": "BNB",
-      "price": 911.8,
-      "change_24h": 0.5070546737213303,
-      "rsi_4h": 58.4001215461646,
-      "funding_rate": 0.009223033307029999,
-      "open_interest": 8508510.0,
+      "price": 908.9,
+      "change_24h": 1.1237205162438832,
+      "rsi_4h": 55.286500447324975,
+      "funding_rate": -0.00615203433709,
+      "open_interest": 8441437.0,
       "sentiment": "Bullish",
-      "score": 85,
-      "comment_cn": "表现相对强劲，24小时上涨且资金费率高。反映出强大的内在平台活动和风险偏好。",
-      "comment_en": "Strong relative performance with positive 24h gain and high funding. Reflects robust underlying platform activity and risk appetite."
+      "score": 75,
+      "comment_cn": "负资金费率与上涨价格形成独特组合，可能预示着短期内会引发空头挤压。",
+      "comment_en": "Unique combination of negative funding rate and rising price, potentially setting the stage for a short squeeze in the near term."
     },
     {
       "symbol": "DOGE",
-      "price": 0.13909,
-      "change_24h": -0.3653295128939903,
-      "rsi_4h": 48.08398474774768,
-      "funding_rate": 0.00185983520808,
-      "open_interest": 827661.0599999998,
+      "price": 0.13939,
+      "change_24h": 2.252053990610321,
+      "rsi_4h": 49.20980236804537,
+      "funding_rate": 0.01,
+      "open_interest": 834948.3099999997,
       "sentiment": "Neutral",
-      "score": 45,
-      "comment_cn": "RSI和价格走势均显示疲软，缺乏强烈的叙事推动。市场资金主要流向蓝筹股。",
-      "comment_en": "Weak price action and RSI, lacking strong narrative catalyst. Capital flow concentrated primarily in blue-chip assets."
+      "score": 60,
+      "comment_cn": "高资金费率表明零售情绪高涨，但 RSI 中性。价格走势依赖于主要加密货币的持续上涨。",
+      "comment_en": "High funding rate indicates elevated retail sentiment, but RSI is neutral. Price action is dependent on the continued upward movement of the majors."
     }
   ]
 }
