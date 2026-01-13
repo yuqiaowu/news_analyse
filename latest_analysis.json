@@ -1,101 +1,101 @@
 {
-  "timestamp": "2026-01-13T02:57:55.096503",
-  "global_summary_cn": "流动性状态：全球流动性处于短期收紧（美元走强）与长期宽松（鸽派美联储预期和日元疲软）的混合状态。市场正处于流动性紧缩（美元指数DXY走强）与极端利好叙事（美联储主席鲍威尔受调查、避险需求飙升）的严重背离中。\n\n**叙事分析**：围绕鲍威尔调查和美联储独立性危机的宏观新闻，推动了黄金和白银飙升至历史新高，形成了完美的避险叙事，理论上极利好比特币。然而，尽管有如此强劲的看涨新闻流，BTC/ETH在过去24小时内仍出现小幅回调。这表明短期内，抛售压力或获利了结（鲸鱼卖出2.86亿美元）正在压倒叙事带来的买入冲动，构成市场分配(Distribution)阶段。短期内，如果美元指数回调，数字资产可能迅速补涨。",
-  "global_summary_en": "Liquidity Status: Global liquidity is mixed, characterized by short-term tightening (Strong DXY) clashing with long-term easing signals (Dovish Fed expectations and Weak JPY carry trade). The market is experiencing a significant **Divergence** between tight liquidity and an extremely bullish narrative (Powell investigation, safe-haven demand spike).\n\n**Narrative Analysis**: Macro news surrounding the investigation of Fed Chair Powell and the crisis of Fed independence has caused Gold and Silver to explode to record highs, creating a perfect safe-haven narrative that theoretically strongly favors Bitcoin. Despite this intensely bullish news flow, BTC/ETH have pulled back slightly over the past 24 hours. This suggests that short-term selling pressure or profit-taking (whales selling $286M) is currently overriding the narrative impulse, indicating a phase of **Distribution**. Digital assets are poised for a sharp catch-up rally if the DXY reverses.",
+  "timestamp": "2026-01-13T06:58:27.638428",
+  "global_summary_cn": "流动性状态：全球流动性保持适度宽松（Risk On），主要受美联储降息预期下降（鸽派倾向）和日元疲软（利于套利交易）的支持。宏观叙事层面，对美联储主席鲍威尔的政治调查带来了不确定性，但市场普遍将其视为对非主权资产（如比特币）的潜在支撑。加密货币叙事方面，机构乐观情绪浓厚（Binance报告、A16z预测、Bitmine增持ETH），尽管短期内鲸鱼抛售和监管担忧（Fitch, 迪拜限制隐私币）造成压力。整体市场处于有利的流动性环境中，但短期价格走势因鲸鱼抛售和政治不确定性而出现巩固。这是流动性宽松遇到混合新闻叙事的经典分化情景，倾向于在短期回调后逢低买入。",
+  "global_summary_en": "Liquidity Status: Global liquidity remains Mildly Loose (Risk On), supported by easing Fed rate cut expectations (Dovish bias) and continued JPY weakness, favoring the global carry trade. Macro narratives center on the political investigation into Fed Chair Powell, which introduces uncertainty but is generally interpreted as potential support for non-sovereign assets like Bitcoin. Crypto narratives show strong institutional optimism (Binance report, A16z predictions, Bitmine expanding ETH holdings), balanced against short-term pressure from whale selling and regulatory concerns (Fitch, Dubai privacy coin restrictions). The market is consolidating its high position despite favorable liquidity, indicating a divergence between supportive macro flow and short-term selling/political hesitation. The bias leans towards buying the dip following any short-term retracements.",
   "news_analysis": [
     {
-      "title_cn": "鲍威尔调查：国会山共和党反对声音日益高涨",
-      "title_en": "Powell investigation: Drumbeat of Republican opposition grows on Capitol Hill",
+      "title_cn": "日本日经225指数跳涨超3%，因预期执政党将选择提前大选",
+      "title_en": "Japan's Nikkei 225 jumps over 3% as expectations that ruling party will opt for a snap vote rise",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "针对美联储主席的调查直接威胁到美联储独立性，加剧宏观不确定性，极大地支持了比特币作为非主权资产的避险叙事。",
-      "reason_en": "The investigation targeting the Fed Chair directly threatens the Fed's independence, fueling macro uncertainty and strongly supporting the narrative of Bitcoin as a non-sovereign safe-haven asset."
+      "reason_cn": "亚洲风险偏好强烈，推动股市大涨，进一步巩固了日元疲软和全球套利交易的'风险偏好'环境。",
+      "reason_en": "Strong risk appetite signal from Asia, supporting the 'Risk On' environment driven by JPY weakness and global carry trades."
     },
     {
-      "title_cn": "日本日经225指数跳涨超3%，因对执政党提前大选的预期升温",
-      "title_en": "Japan's Nikkei 225 jumps over 3% as expectations that ruling party will opt for a snap vote rise",
+      "title_cn": "鲍威尔调查：国会山上共和党反对声浪渐增",
+      "title_en": "Powell investigation: Drumbeat of Republican opposition grows on Capitol Hill",
       "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "反映日本国内风险偏好情绪高涨，与日元疲软的风险偏好环境一致，间接支持全球风险资产。",
-      "reason_en": "Reflects elevated domestic risk appetite in Japan, aligning with the weak JPY carry trade environment which is indirectly supportive of global risk assets."
+      "classification": "IMPULSE",
+      "reason_cn": "政治不确定性往往利好作为替代价值存储的资产。调查本身是市场不稳定的驱动因素，可能迫使美联储保持鸽派，但短期内造成市场犹豫。",
+      "reason_en": "Political uncertainty often favors non-sovereign assets. The investigation creates Fed instability, potentially forcing a dovish stance, but causes short-term market hesitation."
     },
     {
-      "title_cn": "黄金和白银暴涨至历史新高，因美联储独立性担忧引发避险恐慌",
-      "title_en": "Gold and Silver Explode to Record Highs as Fed Independence Fears Ignite Safe-Haven Panic",
-      "news_sentiment": "Bullish",
-      "classification": "DIVERGENCE",
-      "reason_cn": "确认市场已进入避险模式，但加密货币价格（下跌1-3%）未能跟随黄金的强劲走势，表明存在背离，加密货币等待补涨。",
-      "reason_en": "Confirms the market is in safe-haven panic mode. However, crypto prices (down 1-3%) are failing to follow Gold's strong move, suggesting a divergence where crypto is poised to catch up."
-    },
-    {
-      "title_cn": "美司法部考虑调查美联储主席，比特币展现韧性：BTC价格能维持吗？",
+      "title_cn": "比特币在美国司法部考虑调查美联储主席时显示出韧性：BTC价格会保持住吗？",
       "title_en": "Bitcoin shows strength as US DOJ mulls Fed chair investigation: Will BTC price hold?",
       "news_sentiment": "Bullish",
-      "classification": "DISTRIBUTION",
-      "reason_cn": "尽管新闻面极度利好，但BTC在过去24小时内实际价格是下跌的，表明当前叙事驱动的冲动正在被短期获利了结（分配）所消化。",
-      "reason_en": "Despite the extremely bullish headline, BTC's actual price movement over 24h is negative, suggesting that the narrative-driven impulse is being absorbed by short-term profit-taking (distribution)."
+      "classification": "IMPULSE",
+      "reason_cn": "证实了比特币作为政治不确定性对冲工具的叙事，显示出市场在宏观动荡中对高价位的接受度。",
+      "reason_en": "Confirms the narrative of Bitcoin acting as a hedge against political uncertainty, demonstrating market acceptance of higher price levels amid macro turmoil."
     },
     {
-      "title_cn": "比特币输给黄金，作为价值贬值交易工具的BTC处于两年低位：分析",
-      "title_en": "Bitcoin loses to gold as debasement trade with BTC at 2-year lows: Analysis",
+      "title_cn": "惠誉评级警告比特币支持的证券存在“高市场价值风险”",
+      "title_en": "Fitch Ratings flags Bitcoin-backed securities for ‘high market value risk’",
+      "news_sentiment": "Bearish",
+      "classification": "NEUTRAL",
+      "reason_cn": "典型的评级机构风险警告。虽然是监管/风险提示，但影响往往是渐进的，而非直接导致价格暴跌。",
+      "reason_en": "Typical rating agency risk warning. While regulatory cautionary, the impact is usually gradual rather than causing immediate sharp declines."
+    },
+    {
+      "title_cn": "比特币“OG鲸鱼”抛售2.86亿美元，但BTC价格达到10万美元的几率仍高",
+      "title_en": "Bitcoin ‘OG whales’ sell $286M, but odds of $100K BTC remain high",
       "news_sentiment": "Bearish",
       "classification": "DISTRIBUTION",
-      "reason_cn": "此分析与当前价格走势一致，反映出在纯粹的避险恐慌中，部分资金暂时优先选择了黄金而不是BTC。",
-      "reason_en": "This analysis aligns with current price action, reflecting that during pure safe-haven panic, some capital is temporarily prioritizing Gold over BTC."
+      "reason_cn": "显示大额抛售正在发生，这解释了价格在高位巩固的原因。然而，市场认为该抛售已被机构需求吸收。",
+      "reason_en": "Indicates significant selling pressure (distribution) occurring, explaining price consolidation. However, the accompanying commentary suggests institutional demand is absorbing the supply."
     },
     {
-      "title_cn": "比特币“OG巨鲸”抛售2.86亿美元，但BTC突破10万美元的可能性仍然很高",
-      "title_en": "Bitcoin ‘OG whales’ sell $286M, but odds of $100K BTC remain high",
-      "news_sentiment": "Neutral",
-      "classification": "PRICED IN",
-      "reason_cn": "巨鲸抛售是高位市场健康的获利了结信号，已被市场消化，但对长期看涨目标没有根本影响。",
-      "reason_en": "Whale selling is a sign of healthy profit-taking at elevated prices and is largely priced in, but it does not fundamentally undermine long-term bullish targets."
-    },
-    {
-      "title_cn": "以太坊必须通过“退出测试”才能持续100年：Buterin",
+      "title_cn": "以太坊必须通过“脱离测试”才能持续百年：Buterin",
       "title_en": "Ethereum must pass 'walkaway test' to endure for 100 years: Buterin",
-      "news_sentiment": "Bullish",
-      "classification": "ACCUMULATION",
-      "reason_cn": "来自创始人对ETH长期韧性和去中心化承诺的信心言论，支持了在回调时积累ETH的理由。",
-      "reason_en": "Confidence comments from the founder regarding ETH's long-term resilience and decentralization commitment, supporting the thesis of accumulating ETH during dips."
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "V神的长远观点，关注以太坊的结构完整性和去中心化，对短期价格没有直接影响。",
+      "reason_en": "Buterin's long-term philosophical comments focusing on structural integrity and decentralization, irrelevant for short-term price action."
     },
     {
-      "title_cn": "Bitmine ETH持仓攀升至410万，主席寻求扩大加密策略",
-      "title_en": "Bitmine ETH holdings climb to 4.1M as chairman seeks to expand crypto strategy",
+      "title_cn": "Bitmine的以太坊持仓达到417万枚，董事长推动扩大加密货币战略",
+      "title_en": "Bitmine’s Ether holdings reach 4.17M as chairman pushes expanded crypto strategy",
       "news_sentiment": "Bullish",
-      "classification": "ACCUMULATION",
-      "reason_cn": "机构对ETH的大规模积累和扩张计划表明强劲的机构需求，即使价格短期下跌。",
-      "reason_en": "Large-scale institutional accumulation and expansion plans for ETH suggest strong underlying institutional demand, despite short-term price weakness."
+      "classification": "IMPULSE",
+      "reason_cn": "具体的机构增持证据，强调了ETH持续的机构认可和需求。",
+      "reason_en": "Concrete evidence of institutional accumulation of ETH, highlighting continued institutional validation and demand."
     },
     {
-      "title_cn": "三张ETH价格图表预测正在酝酿一次向4000美元的急剧上涨",
-      "title_en": "Three ETH price charts predict a sharp move to $4K is brewing",
+      "title_cn": "币安：随着机构锁定长期敞口，加密货币突破散户时代",
+      "title_en": "Binance: Crypto Breaks out of Retail Era as Institutions Lock in Long-Term Exposure",
       "news_sentiment": "Bullish",
-      "classification": "ACCUMULATION",
-      "reason_cn": "技术分析师普遍看涨，支持在当前下跌期间逢低买入ETH的策略。",
-      "reason_en": "Widespread bullish technical analysis supports the strategy of buying the dip in ETH during the current pullback."
+      "classification": "IMPULSE",
+      "reason_cn": "来自主要交易所的强劲叙事支持，肯定了机构资本对市场长期结构性转变的作用。",
+      "reason_en": "Strong narrative support from a major exchange, confirming the structural long-term shift towards institutional capital locking in exposure."
+    },
+    {
+      "title_cn": "为什么比特币可能低估了1月降息的几率",
+      "title_en": "Why Bitcoin May Be Underpricing January Rate Cut Odds",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "将加密货币表现与有利的宏观货币政策直接挂钩，支持未来的价格上涨。",
+      "reason_en": "Directly links crypto performance to favorable macro monetary policy expectations, supporting future price appreciation."
     }
   ],
   "fed_futures": {
     "price": 96.435,
     "implied_rate": 3.565,
-    "timestamp": "2026-01-13T02:57:35.989673+00:00",
+    "timestamp": "2026-01-13T06:58:10.055368+00:00",
     "trend": "Dovish (Rate expectations dropping)",
-    "change_5d_bps": -7.2,
+    "change_5d_bps": -7.5,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 158.658,
-    "timestamp": "2026-01-13T02:57:36.037149+00:00",
+    "price": 158.764,
+    "timestamp": "2026-01-13T06:58:10.103637+00:00",
     "trend": "Yen Weakness (Risk On)",
-    "change_5d_pct": 1.26,
+    "change_5d_pct": 1.33,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 98.97,
-      "change_5d_pct": 0.29,
-      "trend": "Stronger (Risk Off)"
+      "price": 99.02,
+      "change_5d_pct": 0.09,
+      "trend": "Neutral"
     },
     "us10y": {
       "price": 4.19,
@@ -111,63 +111,63 @@
   "coins": [
     {
       "symbol": "BTC",
-      "price": 91228.4,
-      "change_24h": -1.1510368867068976,
-      "rsi_4h": 51.012928790036014,
-      "funding_rate": 0.0033761285448499997,
-      "open_interest": 2611820.290000013,
-      "sentiment": "Neutral",
-      "score": 65,
-      "comment_cn": "在91k面临短期分配压力，但宏观避险叙事提供了极强的下方支撑，等待美元指数疲软时启动。",
-      "comment_en": "Facing short-term distribution pressure at $91k. However, the macro safe-haven narrative provides extremely strong floor support, awaiting DXY weakness for lift-off."
+      "price": 92265.9,
+      "change_24h": 0.45936588127694156,
+      "rsi_4h": 59.92479725715453,
+      "funding_rate": 0.0049248301184099995,
+      "open_interest": 2677343.2800000138,
+      "sentiment": "Bullish",
+      "score": 78,
+      "comment_cn": "在有利的流动性和政治不确定性对冲叙事的推动下，处于高位巩固。RSI健康，资金费率积极，表明多头控制局面。",
+      "comment_en": "Consolidating at high levels, driven by favorable liquidity and the political uncertainty hedge narrative. Healthy RSI and positive funding suggest bulls remain in control."
     },
     {
       "symbol": "ETH",
-      "price": 3102.65,
-      "change_24h": -1.842519037359724,
-      "rsi_4h": 45.578331657549235,
-      "funding_rate": 0.0024880615389299998,
-      "open_interest": 6024322.390000026,
+      "price": 3136.51,
+      "change_24h": -0.5718723748236663,
+      "rsi_4h": 54.16410739502113,
+      "funding_rate": 0.00279716636859,
+      "open_interest": 6058550.190000027,
       "sentiment": "Bullish",
       "score": 75,
-      "comment_cn": "基本面新闻极其积极（Buterin/机构积累），回调幅度较BTC深，是典型的逢低买入机会。",
-      "comment_en": "Fundamentals are extremely positive (Buterin/Institutional accumulation). The deeper pullback than BTC suggests a classic buy-the-dip opportunity fueled by strong narratives."
+      "comment_cn": "机构需求强劲（Bitmine增持），技术面暗示潜在的$4K走势。目前略微滞后于BTC，存在追赶潜力。",
+      "comment_en": "Strong institutional demand (Bitmine accumulation) and technical indicators point toward a potential move to $4K. Currently lagging BTC slightly, indicating catch-up potential."
     },
     {
       "symbol": "SOL",
-      "price": 138.53,
-      "change_24h": -2.772318921953951,
-      "rsi_4h": 50.113261353881015,
-      "funding_rate": -0.00422233510685,
-      "open_interest": 2947092.680000002,
+      "price": 140.65,
+      "change_24h": -0.9367516551626879,
+      "rsi_4h": 56.43171053220494,
+      "funding_rate": -0.00884261555403,
+      "open_interest": 3000528.710000002,
       "sentiment": "Neutral",
-      "score": 50,
-      "comment_cn": "跌幅最大，出现负资金费率，市场对风险资产保持谨慎。等待ETH或BTC企稳。",
-      "comment_en": "Largest drop with negative funding rate. The market remains cautious on risk assets. Awaiting stability from ETH or BTC."
+      "score": 55,
+      "comment_cn": "资金费率转为负值，显示短期有积极的空头或获利了结。需要观察价格是否能保持在$140以上。",
+      "comment_en": "Funding turned slightly negative, indicating aggressive shorting or profit-taking pressure. Needs to hold above $140 for continued momentum."
     },
     {
       "symbol": "BNB",
-      "price": 904.7,
-      "change_24h": -0.4292317851639861,
-      "rsi_4h": 51.60414400586484,
-      "funding_rate": 0.01,
-      "open_interest": 8320495.0,
+      "price": 911.8,
+      "change_24h": 0.5070546737213303,
+      "rsi_4h": 58.4001215461646,
+      "funding_rate": 0.009223033307029999,
+      "open_interest": 8508510.0,
       "sentiment": "Bullish",
-      "score": 80,
-      "comment_cn": "相对抗跌，资金费率最高。表现出独立需求和强势。",
-      "comment_en": "Showing strong relative resilience and the highest funding rate. Exhibits independent demand and strength."
+      "score": 85,
+      "comment_cn": "表现相对强劲，24小时上涨且资金费率高。反映出强大的内在平台活动和风险偏好。",
+      "comment_en": "Strong relative performance with positive 24h gain and high funding. Reflects robust underlying platform activity and risk appetite."
     },
     {
       "symbol": "DOGE",
-      "price": 0.13703,
-      "change_24h": -3.2137307529312036,
-      "rsi_4h": 40.795261752278876,
-      "funding_rate": 0.00906798037542,
-      "open_interest": 832486.4299999997,
-      "sentiment": "Bearish",
-      "score": 35,
-      "comment_cn": "迷因币对市场风险偏好最为敏感，跌幅最深，反映市场整体风险偏好在收紧。",
-      "comment_en": "Memecoins are the most sensitive to market risk appetite. Deepest drop reflects overall tightening risk sentiment."
+      "price": 0.13909,
+      "change_24h": -0.3653295128939903,
+      "rsi_4h": 48.08398474774768,
+      "funding_rate": 0.00185983520808,
+      "open_interest": 827661.0599999998,
+      "sentiment": "Neutral",
+      "score": 45,
+      "comment_cn": "RSI和价格走势均显示疲软，缺乏强烈的叙事推动。市场资金主要流向蓝筹股。",
+      "comment_en": "Weak price action and RSI, lacking strong narrative catalyst. Capital flow concentrated primarily in blue-chip assets."
     }
   ]
 }
