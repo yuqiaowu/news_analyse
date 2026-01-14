@@ -1,221 +1,100 @@
 {
-  "timestamp": "2026-01-14T11:02:37.589997",
-  "global_summary_cn": "流动性状态：全球流动性处于宽松的“风险偏好”状态，主要由日元兑美元持续走弱（USD/JPY 158.683）和美元指数（DXY 99.03）疲软驱动。\n\n分析：当前市场处于“完美风暴”的牛市结构中。宏观流动性宽松为风险资产提供了充足燃料，而叙事层面则充斥着极度看涨的消息——机构/财政部买入速度是比特币供应的3倍、以太坊网络指标（新钱包、质押）创纪录激增，以及价格火箭般突破96K并引发大规模空头清算。尽管比特币和以太坊的4小时RSI均触及70，显示短期超买，但在强大的现货需求和流动性支撑下，市场预计将继续向上挑战10万美元的关键心理关口。",
-  "global_summary_en": "Liquidity Status: Global liquidity is currently in a loose, \"Risk On\" state, primarily driven by the continuous weakening of the Japanese Yen (USD/JPY 158.683) and a softer US Dollar Index (DXY 99.03).\n\nAnalysis: The market is currently experiencing a \"Perfect Storm\" bullish structure. Loose macro liquidity provides ample fuel for risk assets, while the narrative layer is overwhelmingly bullish—institutional/treasury buying is outpacing Bitcoin supply by 3-to-1, Ethereum network metrics (new wallets, staking) are surging, and the price rocketed past $96K, triggering a massive short squeeze. Although the 4H RSI for both BTC and ETH hit 70, suggesting short-term overbought conditions, the strong spot demand and liquidity support suggest continued momentum targeting the critical $100,000 psychological level.",
-  "news_analysis": [
-    {
-      "title_cn": "世界经济论坛称，关税和人工智能的负面影响是全球企业面临的首要风险",
-      "title_en": "Tariffs and AI's downside pose top global risks for business, World Economic Forum says",
-      "news_sentiment": "Bearish",
-      "classification": "NEUTRAL",
-      "reason_cn": "宏观长期风险评估，对加密货币市场的直接即时影响有限。",
-      "reason_en": "Long-term macroeconomic risk assessment. Has limited immediate impact on cryptocurrency market flows."
-    },
-    {
-      "title_cn": "奢侈品百货长期领导者Saks Global申请破产保护",
-      "title_en": "Saks Global, the longtime leader of luxury department stores, files for bankruptcy protection",
-      "news_sentiment": "Bearish",
-      "classification": "NEUTRAL",
-      "reason_cn": "反映出消费者支出疲软，与全球经济放缓担忧相关，但对加密货币影响间接。",
-      "reason_en": "Reflects weak consumer spending and broader economic slowdown concerns, but the impact on crypto is indirect."
-    },
-    {
-      "title_cn": "特朗普再次攻击鲍威尔，引发美联储独立性担忧：“那个蠢货很快就会滚蛋”",
-      "title_en": "Trump attacks Powell again amid Fed independence fears: 'That jerk will be gone soon'",
-      "news_sentiment": "Neutral",
-      "classification": "IMPULSE",
-      "reason_cn": "引发政治不确定性和波动性。如果市场解读为未来要求宽松货币政策的压力，长期可能偏向看涨。",
-      "reason_en": "Creates political uncertainty and volatility. If interpreted as pressure for future easier monetary policy, it could be long-term bullish, but currently adds uncertainty."
-    },
-    {
-      "title_cn": "特朗普与美联储的矛盾将在下周的最高法院迎来重大进展",
-      "title_en": "A major development in Trump's Fed feud is set to happen next week in the Supreme Court",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "前瞻性事件，短期内增加市场对政策走向的关注。",
-      "reason_en": "Forward-looking calendar event, increasing market focus on policy direction in the near term."
-    },
-    {
-      "title_cn": "微软表示，社区不会因数据中心附近的公用事业成本上升而面临能源价格上涨",
-      "title_en": "Microsoft says communities won't see energy price hikes near data centers as utility costs rise",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "微观层面，与加密货币市场关联度低。",
-      "reason_en": "Micro-level news, low relevance to the overall crypto market dynamics."
-    },
-    {
-      "title_cn": "加密货币财政部购买速度以3比1的比例超过比特币供应",
-      "title_en": "Crypto treasury buying outpaces Bitcoin supply at 3-to-1",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "直接证据表明强劲且持续的机构需求，正在迅速消耗流通中的比特币供应，是推动近期上涨的主要动力。",
-      "reason_en": "Direct evidence of strong, persistent institutional demand rapidly absorbing circulating BTC supply. This is a key catalyst for the recent surge."
-    },
-    {
-      "title_cn": "现货流动推动比特币飙升，分析师预计下一步将冲击10万美元",
-      "title_en": "Spot flows drive Bitcoin surge as analysts tip $100K run next",
-      "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "确认当前的上涨是由现货购买驱动，而非纯粹的衍生品投机。强化了市场对10万美元目标的预期。",
-      "reason_en": "Confirms the current price action is driven by genuine spot buying, validating the rally and reinforcing expectations for the $100K target."
-    },
-    {
-      "title_cn": "比特币无视CLARITY法案延迟，反弹至93K美元以上",
-      "title_en": "Bitcoin shrugs off CLARITY Act delay by rallying above $93K",
-      "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "市场对监管阻力表现出韧性，表明潜在需求异常强大，能够消化负面消息。",
-      "reason_en": "Market resilience against regulatory friction, demonstrating strong underlying demand that absorbs negative news."
-    },
-    {
-      "title_cn": "比特币与黄金的相关性预示着到3月份BTC价格将至少上涨50%",
-      "title_en": "Bitcoin-gold correlation signals at least 50% BTC price gains by March",
-      "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "结构性看涨评估，支持将比特币视为重要的宏观价值储存资产的叙事。",
-      "reason_en": "Structural bullish assessment, supporting the narrative of Bitcoin as a significant macro store of value asset."
-    },
-    {
-      "title_cn": "增强以太坊的努力正在用户指标上得到回报",
-      "title_en": "Efforts to bulletproof Ethereum are paying off in user metrics",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "支持以太坊生态系统强劲增长和基本面改善的叙事，为ETH的强劲价格表现提供支撑。",
-      "reason_en": "Supports the narrative of strong Ethereum ecosystem growth and fundamental improvement, justifying ETH's robust price performance."
-    },
-    {
-      "title_cn": "BitMine质押的以太坊达到1.5M，占总质押量的4%",
-      "title_en": "BitMine’s staked Ether reaches 1.5M, equating to 4% of total staked",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "显示大型机构继续锁定ETH供应，增加网络安全性和稀缺性，直接推动ETH上涨。",
-      "reason_en": "Indicates large institutions continue locking up ETH supply, increasing network security and scarcity, directly fueling the ETH rally."
-    },
-    {
-      "title_cn": "活动的完美风暴导致新以太坊钱包数量创纪录激增",
-      "title_en": "Perfect storm of activity sees record surge in new Ethereum wallets",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "关键的采用指标，表明新的用户和资本正在涌入生态系统，是ETH爆发性增长的坚实基础。",
-      "reason_en": "Crucial adoption metric showing new users and capital entering the ecosystem, providing a solid foundation for ETH's explosive growth."
-    },
-    {
-      "title_cn": "比特币突破96K美元，5.9亿美元空头被清算，特朗普与美联储的冲突加剧市场波动",
-      "title_en": "Bitcoin Rockets Past $96K, $590M Shorts Wiped Out Amid Trump vs. Fed Clash",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "价格行为和市场清算的直接确认。表明价格上涨是由短期轧空驱动，流动性推高效应显著。",
-      "reason_en": "Direct confirmation of price action and market liquidation. Indicates the move was driven by a short squeeze effect, amplified by liquidity."
-    },
-    {
-      "title_cn": "Clearbank选择Taurus-Protect支持稳定币服务",
-      "title_en": "Clearbank Selects Taurus-Protect to Support Stablecoin Services",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "基础设施和传统金融对稳定币服务的采用，有利于扩大加密货币在主流金融中的应用。",
-      "reason_en": "Adoption of stablecoin services by traditional financial infrastructure, broadening crypto use in mainstream finance."
-    },
-    {
-      "title_cn": "谷歌寻求驳回出版商就AI搜索摘要提起的诉讼",
-      "title_en": "Google Seeks Dismissal of Publisher Lawsuit Over AI Search Summaries",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "与AI/大型科技公司相关的法律新闻，与加密市场相关性较低。",
-      "reason_en": "Legal news concerning AI/Big Tech, low relevance to the crypto market."
-    }
-  ],
+  "timestamp": "2026-01-14T15:03:06.076889",
+  "global_summary_cn": "分析失败: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\nPlease retry in 53.975112635s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 53\n}\n]",
+  "global_summary_en": "分析失败: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\nPlease retry in 53.975112635s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 53\n}\n]",
+  "news_analysis": [],
   "fed_futures": {
     "price": 96.37,
     "implied_rate": 3.63,
-    "timestamp": "2026-01-14T11:02:13.268384+00:00",
+    "timestamp": "2026-01-14T15:02:53.096916+00:00",
     "trend": "Neutral (Stable expectations)",
     "change_5d_bps": -1.0,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 158.683,
-    "timestamp": "2026-01-14T11:02:13.334057+00:00",
+    "price": 158.259,
+    "timestamp": "2026-01-14T15:02:53.156226+00:00",
     "trend": "Yen Weakness (Risk On)",
-    "change_5d_pct": 1.25,
+    "change_5d_pct": 0.97,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 99.03,
-      "change_5d_pct": -0.1,
+      "price": 98.98,
+      "change_5d_pct": -0.15,
       "trend": "Weaker (Risk On)"
     },
     "us10y": {
-      "price": 4.17,
-      "change_5d_pct": 0.8,
-      "trend": "Neutral Rising"
+      "price": 4.15,
+      "change_5d_pct": -0.79,
+      "trend": "Neutral Falling"
     },
     "vix": {
-      "price": 17.02,
-      "change_5d_pct": 10.16,
+      "price": 17.51,
+      "change_5d_pct": 13.33,
       "trend": "Normal Rising"
     }
   },
   "coins": [
     {
       "symbol": "BTC",
-      "price": 95025.1,
-      "change_24h": 3.2058118848657826,
-      "rsi_4h": 69.85276135491517,
+      "price": 96241.4,
+      "change_24h": 4.361790954141765,
+      "rsi_4h": 73.4566942022069,
       "funding_rate": 0.01,
-      "open_interest": 2859375.8000000133,
-      "sentiment": "Bullish",
-      "score": 90,
-      "comment_cn": "在强大的现货购买和宽松宏观流动性的推动下，势头强劲。尽管RSI接近70，但短期目标直指10万美元。",
-      "comment_en": "Strong momentum driven by powerful spot buying and loose macro liquidity. Despite the RSI near 70, the immediate target is $100K."
+      "open_interest": 2881704.7100000144,
+      "sentiment": "Neutral",
+      "score": 50,
+      "comment_cn": "",
+      "comment_en": ""
     },
     {
       "symbol": "ETH",
-      "price": 3309.41,
-      "change_24h": 5.626996817858285,
-      "rsi_4h": 70.43846237349186,
+      "price": 3330.75,
+      "change_24h": 6.159362549800797,
+      "rsi_4h": 69.91572529570907,
       "funding_rate": 0.01,
-      "open_interest": 6191519.300000016,
-      "sentiment": "Highly Bullish",
-      "score": 95,
-      "comment_cn": "表现优于BTC，受基本面（钱包、质押）和乐观叙事的推动。RSI已触及超买区，但趋势非常强劲。",
-      "comment_en": "Outperforming BTC, fueled by strong fundamentals (wallets, staking) and optimistic narratives. RSI is hitting overbought territory, but the trend is exceptionally strong."
+      "open_interest": 6125488.830000011,
+      "sentiment": "Neutral",
+      "score": 50,
+      "comment_cn": "",
+      "comment_en": ""
     },
     {
       "symbol": "SOL",
-      "price": 144.59,
-      "change_24h": 1.8669860504438536,
-      "rsi_4h": 62.2462575926576,
-      "funding_rate": 0.0091290551327,
-      "open_interest": 3126414.750000003,
-      "sentiment": "Bullish",
-      "score": 75,
-      "comment_cn": "稳步上涨，RSI相对健康，表明仍有追赶大盘的空间。伴随山寨币季节的乐观情绪。",
-      "comment_en": "Steady upward movement with a relatively healthy RSI, suggesting room to catch up with majors. Supported by general altcoin optimism."
+      "price": 146.18,
+      "change_24h": 3.2636337948573075,
+      "rsi_4h": 64.64358159343772,
+      "funding_rate": 0.004576693164,
+      "open_interest": 3117159.800000003,
+      "sentiment": "Neutral",
+      "score": 50,
+      "comment_cn": "",
+      "comment_en": ""
     },
     {
       "symbol": "BNB",
-      "price": 934.9,
-      "change_24h": 2.939881083461785,
-      "rsi_4h": 63.0729163860129,
-      "funding_rate": 0.01,
-      "open_interest": 8895936.0,
-      "sentiment": "Bullish",
-      "score": 80,
-      "comment_cn": "随着市场整体上涨而保持强势。高资金费率反映了积极的杠杆头寸，关注能否突破历史高点。",
-      "comment_en": "Maintains strength as the overall market rallies. High funding reflects aggressive leveraged positioning. Focus remains on breaking all-time high levels."
+      "price": 939.2,
+      "change_24h": 3.299604047514298,
+      "rsi_4h": 63.3871743581276,
+      "funding_rate": 0.00790257931793,
+      "open_interest": 8568320.0,
+      "sentiment": "Neutral",
+      "score": 50,
+      "comment_cn": "",
+      "comment_en": ""
     },
     {
       "symbol": "DOGE",
-      "price": 0.14709,
-      "change_24h": 5.6301615798922695,
-      "rsi_4h": 62.98405625078473,
+      "price": 0.14759,
+      "change_24h": 5.42142857142856,
+      "rsi_4h": 62.68585450877379,
       "funding_rate": 0.01,
-      "open_interest": 867839.1799999999,
-      "sentiment": "Bullish",
-      "score": 85,
-      "comment_cn": "伴随大盘上涨和投机情绪回归，涨幅巨大。高资金费率表明短线投机活动升温。",
-      "comment_en": "Large gains driven by broad market rally and returning speculative interest. High funding rates indicate heated short-term speculative activity."
+      "open_interest": 867816.59,
+      "sentiment": "Neutral",
+      "score": 50,
+      "comment_cn": "",
+      "comment_en": ""
     }
   ]
 }
