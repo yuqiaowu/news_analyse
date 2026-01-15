@@ -1,149 +1,93 @@
 {
-  "timestamp": "2026-01-15T03:04:47.916335",
-  "global_summary_cn": "流动性状态：宽松/风险偏好上升。宏观层面，日元持续疲软（USD/JPY 158.539）表明套利交易活跃，全球资金流动偏向风险资产。同时，美国10年期国债收益率的下跌趋势也为加密市场提供了支撑。\n\n叙事层面极其乐观，比特币价格触及$97K高点，且市场数据（如ETF强劲流入和高OI）显示上涨动能充足。尽管存在如Sui宕机和Coinbase退出法案支持等负面消息，但市场选择性忽视了这些摩擦，专注于机构采用（DZ Bank获MiCA牌照）和价格突破。目前市场处于“完美风暴（看涨）”阶段，宏观流动性与利好消息协同作用，推动资产价格上行。",
-  "global_summary_en": "Liquidity Status: Loose/Risk On. Macro conditions show sustained Yen weakness (USD/JPY 158.539), indicating active carry trades and global capital flowing into risk assets. The falling trend in the US 10-year Treasury yield also provides a supportive backdrop for the crypto market.\n\nThe narrative layer is highly bullish, with Bitcoin hitting the $97K mark, and market data (strong ETF inflows, high OI) suggesting sufficient upward momentum. Despite minor friction points like the Sui outage and Coinbase regulatory withdrawal, the market is selectively focusing on positive catalysts, such as institutional adoption (DZ Bank MiCA license) and price breakthroughs. The market is currently experiencing a \"Perfect Storm (Bullish)\" setup, where favorable macro liquidity aligns perfectly with strong positive news flow, driving asset prices higher.",
+  "timestamp": "2026-01-15T07:05:19.288875",
+  "global_summary_cn": "宏观流动性状态为**受限收紧**。尽管日元疲软的套利交易仍在继续，但美元指数（DXY）走强和VIX上升表明全球流动性正在收紧，市场焦虑增加，构成宏观阻力（Risk Off）。然而，加密货币的**新闻叙事极度看涨**，比特币现货ETF资金流入激增，价格突破$96,000创下新高，机构（如Semler和DZ银行）持续采用。目前的市场处于**叙事驱动下的分化状态**：结构性需求（ETF/机构）正在克服不利的宏观流动性环境。鉴于流动性收紧但价格处于高位（RSI 66.6，高资金费率），市场已过度延伸，短期内可能需要盘整或回调以消化风险，但长期机构牛市结构不变。",
+  "global_summary_en": "The Macro Liquidity status is characterized by **Contained Tightness**. Despite the continued Yen weakness supporting the carry trade (Risk On), the strengthening DXY and rising VIX signal tighter global liquidity and increasing market anxiety, posing macro headwinds (Risk Off). However, the **News Narrative is strongly Bullish**, fueled by surging Bitcoin spot ETF inflows, a price breakout above $96,000, and persistent institutional adoption (Semler, DZ Bank). The market is currently in a state of **Narrative-Driven Divergence**: structural demand (ETFs/institutions) is overcoming unfavorable macro liquidity conditions. Given the tightness in liquidity combined with high prices (RSI 66.6, high funding rates), the market appears stretched and may require a short-term consolidation or pullback to digest risk, though the long-term institutional bullish structure remains intact.",
   "news_analysis": [
     {
-      "title_cn": "比特币上涨，现货ETF流入飙升，但$105K似乎难以企及",
+      "title_cn": "在特朗普的威胁下，华尔街银行赌定能够抵御信用卡价格管制",
+      "title_en": "Under threat from Trump, Wall Street banks wager they can fend off credit card price controls",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "宏观新闻，主要影响传统金融业的利润结构，与加密货币直接关联性低。",
+      "reason_en": "Macro news, primarily affecting the profit structure of traditional finance. Low direct relevance to crypto."
+    },
+    {
+      "title_cn": "美元因日元疲软和美联储鹰派言论走高",
+      "title_en": "Dollar Pushes Higher on Yen Weakness and Hawkish Fed Comments",
+      "news_sentiment": "Bearish",
+      "classification": "IMPULSE",
+      "reason_cn": "美元走强（DXY上升）代表流动性收紧和风险情绪下降，对风险资产形成直接的宏观阻力。",
+      "reason_en": "Stronger USD (rising DXY) represents tighter liquidity and declining risk appetite, forming a direct macro headwind for risk assets."
+    },
+    {
+      "title_cn": "比特币上涨，因现货ETF资金流入飙升，但$105K似乎遥不可及",
       "title_en": "Bitcoin rallies as spot ETF inflows soar, but $105K looks out of reach",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "确认了上涨的驱动力是机构ETF的持续强劲流入，为当前价格上涨提供基本面支撑。",
-      "reason_en": "Confirms that the rally is driven by strong, persistent institutional ETF inflows, providing fundamental support for the current price appreciation."
+      "reason_cn": "直接确认ETF是当前上涨的主要驱动力。虽然引入了短期价格上限，但整体情绪和资金流向极其乐观。",
+      "reason_en": "Directly confirms ETFs as the primary driver of the current rally. While it introduces a short-term price ceiling, the overall sentiment and capital flow remain highly optimistic."
     },
     {
-      "title_cn": "价格预测 1/14: BTC, ETH, XRP, BNB, SOL, DOGE, ADA, XMR, BCH, LINK",
-      "title_en": "Price predictions 1/14: BTC, ETH, XRP, BNB, SOL, DOGE, ADA, XMR, BCH, LINK",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "常规市场分析，本身不提供新的驱动或情绪变化。",
-      "reason_en": "Standard daily market commentary; does not provide new catalysts or sentiment shifts."
-    },
-    {
-      "title_cn": "比特币触及2026年高点9.7万美元上方，数据显示有足够燃料进一步上涨",
-      "title_en": "Bitcoin hits 2026 high above $97K, data shows sufficient fuel for higher prices",
+      "title_cn": "比特币达到2026年高点$96K以上，链上和衍生品指标走强",
+      "title_en": "Bitcoin hits 2026 high above $96K as onchain and derivatives metrics strengthen",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "直接确认了市场的强势价格动能和健康的持仓数据（OI），是看涨的直接信号。",
-      "reason_en": "Directly confirms strong price momentum, hitting a new high, and healthy positioning data (OI), signaling bullish continuation."
+      "reason_cn": "价格突破的关键消息，证实了市场结构（衍生品和链上活动）支持当前的高价，进一步强化看涨动能。",
+      "reason_en": "Key price breakout news, confirming that market structure (derivatives and on-chain activity) supports the current high price, further reinforcing bullish momentum."
     },
     {
-      "title_cn": "尽管生产者价格通胀较高，且美国关税裁决不确定，比特币价格仍达到9.7万美元",
-      "title_en": "Bitcoin price tags $97K despite high producer price inflation, no US tariff ruling",
+      "title_cn": "比特币未平仓合约下降30%，为看涨复苏做准备：分析师",
+      "title_en": "Bitcoin open interest falls 30%, setting up bullish recovery: Analyst",
+      "news_sentiment": "Bullish",
+      "classification": "DIVERGENCE",
+      "reason_cn": "尽管价格高企，但OI下降（与数据矛盾，目前OI仍高），如果属实，表明杠杆清理完成，为后续更健康的上涨奠定基础。",
+      "reason_en": "Although prices are high, falling OI (contradictory to current high data) suggests leverage has been cleared, setting the stage for a healthier subsequent rally, if true."
+    },
+    {
+      "title_cn": "Strive锁定Semler批准，定位为12,798比特币金库",
+      "title_en": "Strive Locks in Semler Approval, Positioning for a 12,798 Bitcoin Treasury",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "显示出加密货币市场对传统宏观阻力的韧性，风险资产表现强劲。",
-      "reason_en": "Demonstrates the crypto market's resilience against traditional macro headwinds (inflation/regulatory uncertainty). Strong risk-on appetite."
+      "reason_cn": "明确的机构资本配置案例，代表了持续的机构采用和对比特币作为金库资产的认可。",
+      "reason_en": "A clear case of institutional capital allocation, representing continuous adoption and recognition of Bitcoin as a treasury asset."
     },
     {
-      "title_cn": "比特币在96.5K附近降温，市场对美国关税不确定性不以为然",
-      "title_en": "Bitcoin cools near $96.5K as markets shrug off US tariff uncertainty",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "市场对负面事件的忽视是看涨信号，但“降温”意味着短期动能有所放缓。",
-      "reason_en": "The market shrugging off negative events is bullish, but 'cooling' implies a temporary momentum slowdown after a run-up."
-    },
-    {
-      "title_cn": "以太坊价格与基本面差距可能预示着2026年的机会",
-      "title_en": "Ether’s price vs. fundamentals gap may signal a 2026 opportunity",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "暗示ETH相对于BTC或其自身技术发展存在低估，可能吸引后续资金流入。",
-      "reason_en": "Suggests ETH might be undervalued relative to BTC or its technological developments, potentially attracting capital rotation."
-    },
-    {
-      "title_cn": "比特币ETF经历过山车，传统基金在2026年吸引了460亿美元",
-      "title_en": "Bitcoin ETFs on rollercoaster as traditional funds pull in $46B in 2026",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "提供宏观背景，显示传统资金流动的规模，间接支持加密ETF的叙事。",
-      "reason_en": "Provides macro context, showing the scale of traditional fund flows, indirectly supporting the crypto ETF narrative."
-    },
-    {
-      "title_cn": "德国DZ银行获得MiCA牌照，推出‘meinKrypto’平台",
+      "title_cn": "德国DZ银行获得MiCA许可，用于其'meinKrypto'平台",
       "title_en": "Germany’s DZ Bank secures MiCA license for ‘meinKrypto’ platform",
       "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "这是欧洲主流金融机构采用加密货币服务的明确信号，推动机构合法化和采用。",
-      "reason_en": "A clear signal of mainstream European financial institution adoption under regulatory clarity (MiCA), boosting legitimacy and adoption."
+      "classification": "PRICED IN",
+      "reason_cn": "欧洲主流银行的监管进展，长期利好机构入场，但短期内影响已被市场部分消化。",
+      "reason_en": "Regulatory progress for a major European bank. Long-term positive for institutional entry, but the short-term impact has been partially priced in."
     },
     {
-      "title_cn": "增强以太坊的努力正在用户指标上得到回报",
-      "title_en": "Efforts to bulletproof Ethereum are paying off in user metrics",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "基本面持续改善，用户活动增加，为ETH的价格提供长期支撑。",
-      "reason_en": "Sustained improvement in fundamentals and increased user activity provide long-term support for ETH price."
-    },
-    {
-      "title_cn": "BitMine的质押以太坊达到150万，相当于总质押量的4%",
-      "title_en": "BitMine’s staked Ether reaches 1.5M, equating to 4% of total staked",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "显示网络锁定价值增加和参与者的长期承诺。",
-      "reason_en": "Shows increasing network locked value and long-term commitment from participants."
-    },
-    {
-      "title_cn": "白银获得重大升级：CME将推出新期货，零售需求创纪录",
-      "title_en": "Silver Gets a Major Upgrade: CME to Launch New Futures as Retail Demand Hits Record Levels",
-      "news_sentiment": "Neutral",
+      "title_cn": "参议院银行委员会推迟关键加密法案的标记，因行业支持减弱",
+      "title_en": "Senate Banking Committee Delays Markup of Key Crypto Bill as Industry Support Frays",
+      "news_sentiment": "Bearish",
       "classification": "NEUTRAL",
-      "reason_cn": "虽然与商品市场相关，但对加密货币的影响为中性。",
-      "reason_en": "Related to commodity markets, neutral impact on cryptocurrencies."
-    },
-    {
-      "title_cn": "AI和冒充行为导致2025年加密骗局损失达到创纪录的170亿美元",
-      "title_en": "AI, Impersonations Drove Crypto Scam Losses to Record $17 Billion in 2025: Chainalysis",
-      "news_sentiment": "Bearish",
-      "classification": "DIVERGENCE",
-      "reason_cn": "负面新闻，显示行业声誉风险和监管压力，但在市场狂热中被忽视。",
-      "reason_en": "Negative news highlighting reputational risk and regulatory pressure, ignored by the bullish market momentum (Divergence: bad news + price rising)."
-    },
-    {
-      "title_cn": "SEC对Zcash基金会的调查悄然结束",
-      "title_en": "SEC Investigation Into Zcash Foundation Ends Quietly",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "监管不确定性解除，为该隐私币项目带来积极信号。",
-      "reason_en": "Regulatory uncertainty removed, providing a positive signal for the privacy coin sector."
-    },
-    {
-      "title_cn": "Coinbase在关键参议院投票前夕撤回对加密法案的支持",
-      "title_en": "Coinbase Withdraws Support for Crypto Bill on Eve of Key Senate Vote",
-      "news_sentiment": "Bearish",
-      "classification": "DIVERGENCE",
-      "reason_cn": "监管摩擦和行业政治分裂，但市场在流动性驱动下忽略了这一阻力。",
-      "reason_en": "Regulatory friction and industry political division, yet the liquidity-driven market is ignoring this resistance."
-    },
-    {
-      "title_cn": "Sui在“网络停顿”导致六小时停机后恢复上线",
-      "title_en": "Sui Back Online After 'Network Stall' Leads to Six Hours of Downtime",
-      "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "重大的技术故障，损害了对高性能L1网络的信任。",
-      "reason_en": "A significant technical failure, damaging trust in high-performance Layer 1 networks."
+      "reason_cn": "监管进程延迟，增加了不确定性，但目前市场焦点在现货ETF，影响有限。",
+      "reason_en": "Regulatory process delay adds uncertainty, but the market focus is currently on spot ETFs, limiting the impact."
     }
   ],
   "fed_futures": {
     "price": 96.37,
     "implied_rate": 3.63,
-    "timestamp": "2026-01-15T03:04:26.134405+00:00",
+    "timestamp": "2026-01-15T07:05:00.589208+00:00",
     "trend": "Neutral (Stable expectations)",
     "change_5d_bps": -1.0,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 158.539,
-    "timestamp": "2026-01-15T03:04:26.179266+00:00",
+    "price": 158.578,
+    "timestamp": "2026-01-15T07:05:00.629999+00:00",
     "trend": "Yen Weakness (Risk On)",
-    "change_5d_pct": 1.06,
+    "change_5d_pct": 1.08,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 99.12,
-      "change_5d_pct": -0.01,
-      "trend": "Neutral"
+      "price": 99.18,
+      "change_5d_pct": 0.33,
+      "trend": "Stronger (Risk Off)"
     },
     "us10y": {
       "price": 4.14,
@@ -159,63 +103,63 @@
   "coins": [
     {
       "symbol": "BTC",
-      "price": 96323.1,
-      "change_24h": 0.9856054013818036,
-      "rsi_4h": 67.97115887026389,
-      "funding_rate": 0.00508071028458,
-      "open_interest": 2823354.2200000146,
+      "price": 96303.9,
+      "change_24h": 1.343083483114367,
+      "rsi_4h": 66.61425503102913,
+      "funding_rate": 0.00783149287712,
+      "open_interest": 2781185.3100000154,
       "sentiment": "Bullish",
       "score": 90,
-      "comment_cn": "价格触及$97K高位，RSI接近超买但资金费率和OI显示需求强劲，由ETF流入支撑，是市场的领头羊。",
-      "comment_en": "Price hit $97K high. RSI nearing overbought, but strong funding/OI indicate robust demand, supported by ETF inflows. The clear market leader."
+      "comment_cn": "在强劲的机构叙事推动下突破新高，但RSI处于超买区域且资金费率高，短期有回调压力，需警惕宏观流动性恶化。",
+      "comment_en": "Breaking new highs driven by strong institutional narrative, but high RSI and funding rates suggest short-term correction risk. Must watch for macro liquidity deterioration."
     },
     {
       "symbol": "ETH",
-      "price": 3313.71,
-      "change_24h": -0.4126295290072854,
-      "rsi_4h": 62.7375260631229,
-      "funding_rate": 0.00800652156608,
-      "open_interest": 5720820.850000014,
+      "price": 3318.89,
+      "change_24h": -0.6019784425829341,
+      "rsi_4h": 61.8253614708032,
+      "funding_rate": 0.00335792158557,
+      "open_interest": 5924431.410000014,
       "sentiment": "Bullish",
-      "score": 80,
-      "comment_cn": "基本面新闻强劲，技术指标健康（RSI 62.7），但价格相对BTC滞后，可能等待补涨机会。",
-      "comment_en": "Strong fundamental news and healthy technicals (RSI 62.7). Price is lagging BTC, suggesting potential for catch-up based on valuation gap narrative."
+      "score": 75,
+      "comment_cn": "表现略逊于BTC，但基本面（努力强化）和相对价值正在改善，在BTC盘整时可能跑赢。",
+      "comment_en": "Slightly underperforming BTC, but fundamentals and relative value are improving. Could outperform during a BTC consolidation phase."
     },
     {
       "symbol": "SOL",
-      "price": 144.37,
-      "change_24h": -0.9196348912222931,
-      "rsi_4h": 56.364172717997185,
-      "funding_rate": 0.0018396302984400002,
-      "open_interest": 3057410.430000003,
+      "price": 144.36,
+      "change_24h": -0.33140016570007574,
+      "rsi_4h": 55.91597653886395,
+      "funding_rate": 0.00070421919917,
+      "open_interest": 3022109.6100000036,
       "sentiment": "Neutral",
       "score": 55,
-      "comment_cn": "24小时跑输市场，且其竞争对手Sui出现技术故障（虽然是Sui自身问题），需关注是否有资金流出。",
-      "comment_en": "Underperformed the market in the last 24 hours. Given technical weakness in the L1 sector (Sui), caution is warranted. Funding rate is very low."
+      "comment_cn": "随大盘震荡，动能平稳，但未能突破关键阻力区。资金费率正常，等待明确的方向性指引。",
+      "comment_en": "Trading sideways with the broader market. Momentum is steady but failed to breach key resistance. Normal funding, awaiting clear directional guidance."
     },
     {
       "symbol": "BNB",
-      "price": 933.7,
-      "change_24h": -1.4460629090141368,
-      "rsi_4h": 56.48025225615853,
+      "price": 935.5,
+      "change_24h": -0.4575441583315551,
+      "rsi_4h": 57.07578093523354,
       "funding_rate": 0.01,
-      "open_interest": 8599404.0,
+      "open_interest": 8574058.0,
       "sentiment": "Neutral",
       "score": 60,
-      "comment_cn": "高资金费率但价格下跌，显示在主要市场上涨时存在获利了结或多头清算。",
-      "comment_en": "High funding rate coupled with price depreciation suggests profit-taking or long liquidation despite strong overall market conditions."
+      "comment_cn": "保持在强势区间，但高资金费率显示投机者过于拥挤，若大盘回调则面临高杠杆清算风险。",
+      "comment_en": "Holding strong range, but high funding rates indicate crowded speculators, posing a risk of high leverage liquidation if the market pulls back."
     },
     {
       "symbol": "DOGE",
-      "price": 0.14402,
-      "change_24h": -2.9056832737814204,
-      "rsi_4h": 51.57578176304375,
+      "price": 0.14335,
+      "change_24h": -3.545956129726818,
+      "rsi_4h": 50.19200380106931,
       "funding_rate": 0.01,
-      "open_interest": 898223.4499999997,
-      "sentiment": "Neutral/Bearish",
-      "score": 40,
-      "comment_cn": "大幅跑输，作为高波动性资产，资金正在轮动流出或被用于套期保值。",
-      "comment_en": "Significant underperformance. Capital rotation likely moving out of high-volatility meme assets during the primary asset run."
+      "open_interest": 920415.6900000001,
+      "sentiment": "Neutral",
+      "score": 45,
+      "comment_cn": "显著下跌（-3.55%），高资金费率和RSI接近中性，表明多头投机快速离场，短期存在抛压。",
+      "comment_en": "Significant drop (-3.55%). High funding rate and RSI nearing neutral suggest rapid exit of long speculators, indicating short-term selling pressure."
     }
   ]
 }
