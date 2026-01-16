@@ -1,92 +1,73 @@
 {
-  "timestamp": "2026-01-15T23:07:35.983544",
-  "global_summary_cn": "流动性状态：全球流动性信号混杂，强势美元指数（DXY）正在抵消鸽派的美联储利率预期，形成紧缩压力。\n\n尽管宏观流动性受限，但市场叙事仍保持结构性看涨，主要由机构需求推动比特币接近10万美元，并有高盛探索预测市场、SWIFT试点稳定币等基础设施利好消息支撑。然而，近期比特币在9.7万美元附近的突破失败，加上资金费率停滞和散户观望，表明市场缺乏足够的宏观燃料来维持即时的上行突破。目前的市场状态是典型的“流动性紧张但消息面良好”的分歧，预示着如果9.4万美元支撑位失守，可能会出现更深的调整。交易者需关注即将到来的美联储官员讲话，寻找宏观方向。",
-  "global_summary_en": "Liquidity Status: Global liquidity signals are mixed. The strengthening Dollar Index (DXY) is counteracting the dovish Fed rate expectations, creating a tightening pressure.\n\nDespite constrained macro liquidity, the market narrative remains structurally bullish, driven by institutional demand aiming for $100K BTC, supported by infrastructure positives like Goldman Sachs exploring prediction markets and SWIFT stablecoin trials. However, the recent failure of Bitcoin near $97K, coupled with stalled funding rates and retail inactivity, suggests the market lacks the necessary macro fuel for immediate upside continuation. The current state is a classic \"Liquidity Tight but News Good\" divergence, signaling potential for a deeper correction if the critical $94K support level fails. Traders should watch upcoming FOMC member speeches for clearer macro guidance.",
+  "timestamp": "2026-01-16T03:08:07.648160",
+  "global_summary_cn": "流动性状态：全球流动性正在收紧。尽管美联储降息预期略微鸽派，但美元指数（DXY）的持续走强构成明显的风险厌恶（Risk Off）信号，对以美元计价的加密资产形成了压力。当前市场处于“流动性紧缩，叙事看涨”的背离状态。\n\n新闻叙事层面极其看涨，主要由机构需求驱动：包括高盛探索预测市场、SWIFT测试欧元稳定币以及链上数据显示鲸鱼在抛售后迅速完成21%的余额反弹积累。然而，这种积极的叙事未能突破比特币的97,000美元阻力位，这表明宏观流动性压力正在阻止价格的冲动性上涨。市场正在巩固近期涨幅，倾向于在机构支撑位（即买入低点）附近盘整，而非迅速突破。",
+  "global_summary_en": "Liquidity Status: Global liquidity is tightening. Although Fed rate expectations show a slight dovish trend, the continuous strength of the US Dollar Index (DXY) poses a clear Risk Off signal, creating pressure on USD-denominated crypto assets. The current market is in a state of divergence: 'Liquidity Tight, Narrative Bullish.'\n\nThe news narrative is highly bullish, driven primarily by institutional demand: including Goldman Sachs exploring prediction markets, SWIFT testing a Euro stablecoin, and on-chain data showing whales quickly accumulated a 21% balance bounce after the latest sell-off. However, this positive narrative failed to break the $97,000 resistance for Bitcoin, indicating that macro liquidity pressure is capping impulsive price movements. The market is consolidating recent gains, favoring accumulation near institutional support levels (Buy the Dip) rather than rapid breakouts.",
   "news_analysis": [
     {
-      "title_cn": "高盛CEO正考虑华尔街银行如何参与预测市场",
-      "title_en": "Goldman Sachs CEO is looking at how the Wall Street bank can get involved in prediction markets",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "表明大型传统金融机构正在积极探索区块链集成和预测市场等新颖用例。对长期机构采用是一个积极信号。",
-      "reason_en": "Indicates major traditional finance institutions are actively exploring blockchain integration and novel use cases like prediction markets. A positive long-term signal for institutional adoption."
-    },
-    {
-      "title_cn": "MrBeast平台获得Tom Lee旗下Bitmine 2亿美元投资",
-      "title_en": "MrBeast platform gets $200 million investment from Tom Lee's Bitmine",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "大量风险投资流入与主流创作者相关的Web3平台，推动了真实世界的效用和大规模用户基础的拓展。",
-      "reason_en": "Significant VC investment flowing into Web3 platforms linked to mainstream creators, driving real-world utility and massive audience reach."
-    },
-    {
-      "title_cn": "比特币在9.7万美元处暴跌，因资金费率停滞，散户观望",
+      "title_cn": "比特币在97K美元处反弹失败，因资金费率停滞，散户观望",
       "title_en": "Bitcoin rally collapses at $97K as funding rate stalls, retail traders sit out",
       "news_sentiment": "Bearish",
       "classification": "PRICED IN",
-      "reason_cn": "证实了近期的技术性回调和短期缺乏信念，反映了在宏观阻力下的流动性受限环境。",
-      "reason_en": "Confirms the immediate technical rejection and short-term lack of conviction, reflecting the constrained liquidity environment under macro resistance."
+      "reason_cn": "这是当前价格走势的直接反映和解释，确认了在关键阻力位缺乏持续的买盘动力，尤其在散户兴趣不足的情况下。",
+      "reason_en": "This is a direct reflection and explanation of the current price action, confirming the lack of sustained buying momentum at a key resistance level, especially given low retail interest.",
+      "source": "Crypto News"
     },
     {
-      "title_cn": "新的机构需求引发比特币再次冲向10万美元的动力",
+      "title_cn": "在2023年以来最快的一次抛售后，比特币鲸鱼余额反弹21%",
+      "title_en": "Bitcoin whale balances see 21% bounce after fastest sell-off since 2023 ends",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "强烈的积累信号。鲸鱼在回调中积极买入，表明强烈的信心和高价格底线，为未来的上涨奠定基础。",
+      "reason_en": "Strong accumulation signal. Whales bought aggressively into the dip, indicating strong conviction and a higher price floor for future moves up.",
+      "source": "Crypto News"
+    },
+    {
+      "title_cn": "新的机构需求推动比特币重新冲向100K美元",
       "title_en": "Bitcoin’s renewed push to $100K sparked by fresh institutional demand",
       "news_sentiment": "Bullish",
-      "classification": "DIVERGENCE",
-      "reason_cn": "叙事上非常看涨，但价格在发稿后下跌，显示机构需求尚未强大到足以克服宏观阻力或短期的抛售压力。",
-      "reason_en": "Structurally very bullish narrative, but price declined post-publication, suggesting institutional demand is not yet strong enough to overcome macro headwinds or short-term profit-taking."
+      "classification": "IMPULSE",
+      "reason_cn": "虽然97K美元的尝试失败，但消息确认了潜在的机构买入压力，这是市场情绪的核心驱动力。",
+      "reason_en": "Although the attempt at $97K failed, the news confirms underlying institutional buying pressure, which remains the core driver of market sentiment.",
+      "source": "Crypto News"
     },
     {
-      "title_cn": "交易员称，在美股开盘时BTC价格下跌，比特币接下来必须守住9.4万美元",
-      "title_en": "Bitcoin must hold $94K next, says trader as BTC price dips at US open",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "在价格被拒绝后，强调了一个关键的技术支撑位（9.4万美元），为交易者设定了短期焦点。",
-      "reason_en": "Highlights a critical technical support level ($94K) following the price rejection, setting the immediate focus for traders."
+      "title_cn": "高盛CEO正在考虑华尔街银行如何参与预测市场",
+      "title_en": "Goldman Sachs CEO is looking at how the Wall Street bank can get involved in prediction markets",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "表明大型传统金融机构正在积极探索与区块链相关的领域，是机构接受度持续提高的信号。",
+      "reason_en": "Indicates that major Traditional Finance institutions are actively exploring blockchain-adjacent fields, signaling continuous high institutional acceptance.",
+      "source": "Macro / Calendar"
     },
     {
-      "title_cn": "SWIFT在代币化债券支付中试行欧元稳定币与SG-Forge合作",
+      "title_cn": "SWIFT在代币化债券支付中测试欧元稳定币",
       "title_en": "SWIFT trials euro stablecoin in tokenized bond payments with SG-Forge",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "强力验证了代币化和稳定币在传统银行基础设施中的效用，连接了中心化金融（CeFi）和去中心化金融（DeFi）。",
-      "reason_en": "Strong validation of tokenization and stablecoin utility within traditional banking infrastructure, bridging CeFi and DeFi rails."
-    },
-    {
-      "title_cn": "鲸鱼余额在2023年以来最快的抛售后反弹21%",
-      "title_en": "Bitcoin whale balances see 21% bounce after fastest sell-off since 2023 ends",
-      "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "表明在价格下跌后有明显的积累行为，鲸鱼利用回调进行买入。这是一个长期看涨的指标，但短期价格已反映其影响。",
-      "reason_en": "Indicates significant accumulation behavior after the price drop, with whales buying the dip. This is a long-term bullish indicator, but the short-term price reflects the recent consolidation."
-    },
-    {
-      "title_cn": "伊朗加密经济在2025年达到78亿美元，抗议活动推动比特币使用：Chainalysis",
-      "title_en": "Iran’s Crypto Economy Hit $7.8 Billion in 2025 as Protests Fueled Bitcoin Use: Chainalysis",
-      "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "强调了加密货币作为抵抗政府干预的工具的实际用例，增强了比特币作为主权货币的叙事。",
-      "reason_en": "Highlights the practical use case of crypto as a tool against government interference, strengthening the Bitcoin as 'Sovereign Money' narrative."
+      "reason_cn": "全球银行间信息传递巨头与代币化资产集成，这是稳定币和区块链技术在核心金融基础设施中应用的关键一步。",
+      "reason_en": "Integration of the global interbank messaging giant with tokenized assets. This is a crucial step for the adoption of stablecoins and blockchain tech in core financial infrastructure.",
+      "source": "Crypto News"
     }
   ],
   "fed_futures": {
-    "price": 96.42,
-    "implied_rate": 3.58,
-    "timestamp": "2026-01-15T23:07:16.947323+00:00",
+    "price": 96.415,
+    "implied_rate": 3.585,
+    "timestamp": "2026-01-16T03:07:51.552894+00:00",
     "trend": "Dovish (Rate expectations dropping)",
-    "change_5d_bps": -6.0,
+    "change_5d_bps": -5.5,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 158.624,
-    "timestamp": "2026-01-15T23:07:17.002602+00:00",
-    "trend": "Yen Weakness (Risk On)",
-    "change_5d_pct": 1.11,
+    "price": 158.245,
+    "timestamp": "2026-01-16T03:07:51.593806+00:00",
+    "trend": "Neutral",
+    "change_5d_pct": 0.06,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 99.36,
-      "change_5d_pct": 0.51,
+      "price": 99.32,
+      "change_5d_pct": 0.46,
       "trend": "Stronger (Risk Off)"
     },
     "us10y": {
@@ -103,63 +84,63 @@
   "coins": [
     {
       "symbol": "BTC",
-      "price": 95444.4,
-      "change_24h": -1.7960695544809195,
-      "rsi_4h": 57.40344090755683,
-      "funding_rate": 0.00271878425918,
-      "open_interest": 2689404.600000012,
+      "price": 95571.7,
+      "change_24h": -0.6678840879162513,
+      "rsi_4h": 58.136349074224356,
+      "funding_rate": 0.006982703798419999,
+      "open_interest": 2679295.9300000137,
       "sentiment": "Neutral",
-      "score": 65,
-      "comment_cn": "突破失败后正在盘整。在DXY走强和流动性受限的情况下，必须坚守9.4万美元的关键支撑位。",
-      "comment_en": "Consolidating after the failed breakout. Must hold the key $94K support level amidst DXY strength and liquidity constraints."
+      "score": 68,
+      "comment_cn": "在97K美元遭遇阻力，宏观流动性收紧，但机构积累和看涨叙事设定了高支撑位。倾向于在94K-96K美元区间盘整。",
+      "comment_en": "Met resistance at $97K due to tightening macro liquidity, but institutional accumulation sets a high floor. Expect consolidation in the $94K-$96K range."
     },
     {
       "symbol": "ETH",
-      "price": 3304.12,
-      "change_24h": -1.7195479977274941,
-      "rsi_4h": 57.251387501489816,
-      "funding_rate": 0.01,
-      "open_interest": 6072800.2200000165,
-      "sentiment": "Neutral",
-      "score": 70,
-      "comment_cn": "相对于BTC表现出韧性。SWIFT试验等机构消息支撑了其基础设施叙事，短期目标仍是4.1K美元。",
-      "comment_en": "Showing resilience relative to BTC. Institutional news (SWIFT trials) supports its infrastructure narrative. Short-term target remains $4.1K."
+      "price": 3307.67,
+      "change_24h": -0.10419435115609878,
+      "rsi_4h": 57.11307627788366,
+      "funding_rate": 0.00864792271195,
+      "open_interest": 6144728.640000012,
+      "sentiment": "Bullish",
+      "score": 75,
+      "comment_cn": "相对波动性较低，资金费率和RSI稳健。受SWIFT/稳定币新闻的积极影响，有明确的上涨目标，表现出比BTC更强的相对弹性。",
+      "comment_en": "Lower relative volatility, healthy funding and RSI. Benefiting from SWIFT/stablecoin news with clear upward targets, showing stronger relative resilience than BTC."
     },
     {
       "symbol": "SOL",
-      "price": 142.18,
-      "change_24h": -3.0943293347873446,
-      "rsi_4h": 49.00560676232032,
-      "funding_rate": -0.00056061425159,
-      "open_interest": 2976870.010000002,
+      "price": 142.34,
+      "change_24h": -1.392448908901968,
+      "rsi_4h": 49.305313802755556,
+      "funding_rate": -0.00445430363448,
+      "open_interest": 2981130.3400000026,
       "sentiment": "Bearish",
-      "score": 50,
-      "comment_cn": "跌幅大于主要资产。负资金费率表明局部空头压力或短期投机兴趣减弱。",
-      "comment_en": "Underperforming major assets with a larger daily drop. Negative funding suggests localized shorting pressure or diminished speculative interest."
+      "score": 40,
+      "comment_cn": "表现最差，高波动性风险资产被首先抛售。负资金费率表明空头或多头平仓压力仍在继续，需关注RSI是否跌破50。",
+      "comment_en": "Worst performer; high-beta risk asset sold off first. Negative funding suggests continued shorting or aggressive long liquidation. Watch if RSI drops below 50."
     },
     {
       "symbol": "BNB",
-      "price": 930.9,
-      "change_24h": -1.855561412756987,
-      "rsi_4h": 53.053619506548046,
-      "funding_rate": 0.00538551463254,
-      "open_interest": 8674839.0,
+      "price": 932.6,
+      "change_24h": -0.07500267866708794,
+      "rsi_4h": 54.0421179590069,
+      "funding_rate": 0.00474269869739,
+      "open_interest": 8699805.0,
       "sentiment": "Neutral",
-      "score": 60,
-      "comment_cn": "价格表现相对稳定，但缺乏独立叙事驱动力。正在消化整个市场的回调。",
-      "comment_en": "Relatively stable price action, lacking independent narrative drivers. Absorbing the general market pullback efficiently."
+      "score": 65,
+      "comment_cn": "表现稳定，价格相对坚挺。资金费率稳健，支撑了生态系统强劲的基本面叙事，但缺乏外部催化剂。",
+      "comment_en": "Stable performance with relative price firmness. Healthy funding supports the strong fundamental ecosystem narrative, but lacks external catalysts."
     },
     {
       "symbol": "DOGE",
-      "price": 0.13987,
-      "change_24h": -5.16002169785734,
-      "rsi_4h": 42.740053506132476,
-      "funding_rate": 0.00290048926567,
-      "open_interest": 884429.7699999998,
+      "price": 0.14027,
+      "change_24h": -2.475144267538071,
+      "rsi_4h": 43.63385088339079,
+      "funding_rate": 0.00262604204281,
+      "open_interest": 884426.2299999996,
       "sentiment": "Bearish",
-      "score": 40,
-      "comment_cn": "跌幅最重。在流动性受限和风险偏好下降的环境中，山寨币和Meme币波动性最大。",
-      "comment_en": "Suffered the heaviest drop. Meme coins are highly volatile during liquidity constraints and reduced risk appetite."
+      "score": 35,
+      "comment_cn": "跌幅最大。在市场缺乏明确方向时，投机性较强的资产首先回撤。短期看空。",
+      "comment_en": "Largest decline. Highly speculative assets retreat first when the market lacks clear direction. Bearish in the short term."
     }
   ]
 }
