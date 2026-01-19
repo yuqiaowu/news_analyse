@@ -1,188 +1,27 @@
 {
-  "timestamp": "2026-01-19T03:18:25.348495",
-  "global_summary_cn": "流动性状态：全球流动性因美国10年期国债收益率上升而收紧，正在形成“避险”（Risk Off）环境。尽管美联储降息预期偏向鸽派，但高企的收益率正在对风险资产构成压力。\n\n市场正处于明显的“分歧”阶段：基本面叙事非常乐观，上周现货比特币ETF流入额高达14.2亿美元，机构需求强劲，且监管环境似乎正在改善。然而，宏观流动性紧缩的影响暂时盖过了这些利好消息，导致加密货币市场在数据利好的背景下普遍下跌2%至7%以上。\n\n目前的价格下跌更像是由宏观去杠杆化驱动的抛售事件，而非基本面恶化。尤其是Solana（SOL）和狗狗币（DOGE）的RSI已跌至超卖区域（23-27），技术上存在强劲反弹需求。短期内市场受制于宏观压力，但鉴于强劲的机构需求，建议关注低位买入（Buy the Dip）机会，等待收益率稳定。",
-  "global_summary_en": "Liquidity Status: Global liquidity is tightening due to rising US 10-Year Treasury yields, creating a prevailing 'Risk Off' environment. Although Fed rate expectations are trending dovish, high yields are currently pressuring risk assets.\n\nThe market is currently in a state of distinct Divergence: The fundamental narrative is extremely bullish, highlighted by record Spot Bitcoin ETF inflows of $1.42 billion last week, strong institutional demand, and improving regulatory signals. However, the tightening macro liquidity is temporarily overwhelming this positive news flow, causing the crypto market to fall generally between 2% and over 7% despite the favorable data.\n\nThis price dip appears to be a macro-driven deleveraging event rather than a fundamental deterioration. Specifically, Solana (SOL) and Dogecoin (DOGE) RSIs have dropped into deeply oversold territory (23-27), suggesting strong technical rebound potential. While the market remains constrained by macro pressure in the short term, the robust underlying institutional demand suggests focusing on 'Buy the Dip' opportunities once yields stabilize.",
-  "news_analysis": [
-    {
-      "title_cn": "他十几岁时打四份蓝领工才勉强维持生计。如今，他的金融科技初创公司价值80亿美元",
-      "title_en": "He worked four blue-collar jobs in his teens to stay afloat. Today, his fintech startup is worth $8 billion",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "背景故事，支持创新叙事，但对加密货币价格影响中性。",
-      "reason_en": "A background story supporting the narrative of innovation, but neutral impact on immediate crypto prices."
-    },
-    {
-      "title_cn": "贝森特：最高法院不太可能推翻特朗普的关税，这是他‘标志性的经济政策’",
-      "title_en": "Supreme Court unlikely to overturn Trump tariffs, his ‘signature economic policy’: Bessent",
-      "news_sentiment": "Bearish",
-      "classification": "NEUTRAL",
-      "reason_cn": "关税摩擦增加了全球经济不确定性，对风险资产情绪不利。",
-      "reason_en": "Tariff friction increases global economic uncertainty, unfavorable for risk appetite."
-    },
-    {
-      "title_cn": "特朗普称，如果格陵兰岛不出售给美国，8个欧洲国家将面临关税上调至25%",
-      "title_en": "Trump says 8 European nations face tariffs rising to 25% if Greenland isn't sold to the U.S.",
-      "news_sentiment": "Bearish",
-      "classification": "NEUTRAL",
-      "reason_cn": "贸易战言论升级，加剧地缘政治风险，对全球流动性不利。",
-      "reason_en": "Escalating trade war rhetoric increases geopolitical risk, unfavorable for global liquidity."
-    },
-    {
-      "title_cn": "注册会计师称，新的6000美元老年人减税额度提供了‘令人难以置信、有价值的机会’：如何充分利用它",
-      "title_en": "New $6,000 senior deduction offers an ‘incredible, valuable opportunity,’ CPA says: How to make the most of it",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "国内财政政策，与加密市场直接关联度低。",
-      "reason_en": "Domestic fiscal policy with low direct correlation to the crypto market."
-    },
-    {
-      "title_cn": "在德克萨斯州、新罕布什尔州的带领下，美国各州争相证明它们可以将比特币纳入公共资产负债表",
-      "title_en": "Led by Texas, New Hampshire, U.S. states race to prove they can put bitcoin on public balance sheet",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "直接的国家/州级别机构采用，是长期的结构性利好。",
-      "reason_en": "Direct state-level institutional adoption, a long-term structural positive."
-    },
-    {
-      "title_cn": "Steak ’n Shake声称通过BTC销售使其比特币储备增加了1000万美元",
-      "title_en": "Steak ’n Shake claims $10M boost to Bitcoin reserve from BTC sales",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "企业采用和储备增加的消息，支持比特币作为储备资产的叙事。",
-      "reason_en": "Corporate adoption and reserve increase news, supporting the narrative of Bitcoin as a reserve asset."
-    },
-    {
-      "title_cn": "白宫加密理事会主任：‘模糊’的法律阻碍了比特币储备",
-      "title_en": "‘Obscure’ laws stall Bitcoin reserve: White House Crypto Council director",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "指出监管摩擦，但属于长期问题，目前影响中性。",
-      "reason_en": "Highlights regulatory friction, but it is a long-term issue, current impact is neutral."
-    },
-    {
-      "title_cn": "比特币‘真正突破’至10.7万美元的三个原因已经开始",
-      "title_en": "Three reasons why Bitcoin's 'real breakout' toward $107K has begun",
-      "news_sentiment": "Bullish",
-      "classification": "DISTRIBUTION",
-      "reason_cn": "价格目标炒作，但当前价格正在下跌，表明市场在宏观压力下正在派发。",
-      "reason_en": "Price target hype, but the current price is falling, indicating distribution under macro pressure."
-    },
-    {
-      "title_cn": "现货比特币ETF流入14.2亿美元，是10月初以来最强劲的一周",
-      "title_en": "Spot Bitcoin ETFs attract $1.42B in strongest week since early October",
-      "news_sentiment": "Bullish",
-      "classification": "DIVERGENCE",
-      "reason_cn": "结构性极大利好，但价格下跌。宏观流动性收紧正在暂时压倒基本面。",
-      "reason_en": "Extremely strong structural fundamental, yet the price is dropping. Macro liquidity tightening is temporarily overriding fundamentals."
-    },
-    {
-      "title_cn": "白宫顾问：司法部没有出售从Samourai案件中没收的比特币",
-      "title_en": "DOJ didn't sell Bitcoin forfeited from Samourai case: White House advisor",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "消除了潜在的强制性抛售担忧，减轻了市场供应压力。",
-      "reason_en": "Removes fear of potential forced selling, easing market supply pressure."
-    },
-    {
-      "title_cn": "Vitalik呼吁设置‘垃圾回收’功能来阻止以太坊膨胀",
-      "title_en": "Vitalik calls for a ‘garbage collection’ function to stop Ethereum bloat",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "长期网络健康的技术讨论，短期影响中性。",
-      "reason_en": "Technical discussion for long-term network health, neutral short-term impact."
-    },
-    {
-      "title_cn": "随着质押需求飙升，以太坊验证者退出队列降至零",
-      "title_en": "Ethereum validator exit queue falls to zero as staking demand soars",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "表明市场对ETH质押收益和网络健康的信心强劲。",
-      "reason_en": "Indicates strong confidence in ETH staking yields and network health."
-    },
-    {
-      "title_cn": "要么适应，要么死亡：Solana Labs首席执行官反对Buterin的区块链长寿方法",
-      "title_en": "Adapt or die: Solana Labs CEO opposes Buterin’s approach to blockchain longevity",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "竞争性言论，对市场情绪影响不大。",
-      "reason_en": "Competitive rhetoric, minimal impact on market sentiment."
-    },
-    {
-      "title_cn": "ETH价格达到3.4K美元，但专业交易员尚未看涨：原因如下",
-      "title_en": "ETH price hits $3.4K, but pro traders are not bullish yet: Here’s why",
-      "news_sentiment": "Neutral",
-      "classification": "PRICED IN",
-      "reason_cn": "反映了市场对前一轮高点的谨慎态度，与当前下跌趋势一致。",
-      "reason_en": "Reflects market caution at the previous high, aligning with the current downtrend."
-    },
-    {
-      "title_cn": "Vitalik Buterin警告称以太坊在去中心化和隐私方面有所‘倒退’",
-      "title_en": "Vitalik Buterin warns Ethereum has ‘backslid’ on decentralization and privacy",
-      "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "来自创始人对网络核心风险的警告，短期负面。",
-      "reason_en": "Warning from the founder about core network risks, short-term negative."
-    },
-    {
-      "title_cn": "众议院民主党人提出监管担忧，国会抨击SEC的加密货币退却行为",
-      "title_en": "Congress Slams SEC’s Crypto Retreat — Oversight Concerns Raised by House Democrats",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "政治压力推动SEC澄清监管，有利于提高市场确定性。",
-      "reason_en": "Political pressure pushing the SEC for regulatory clarity, favoring market certainty."
-    },
-    {
-      "title_cn": "币安恢复澳大利亚用户的实时银行转账服务",
-      "title_en": "Binance Restores Real-Time Bank Transfers for Australian Users",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "改善了重要地区的出入金流动性，对市场有利。",
-      "reason_en": "Improved deposit/withdrawal liquidity in a major region, positive for the market."
-    },
-    {
-      "title_cn": "道格拉斯·拉什科夫：AI乌托邦主义掩盖了科技亿万富翁的恐惧",
-      "title_en": "AI Utopianism Masks Tech Billionaires’ Fear: Douglas Rushkoff",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "哲学评论，与加密市场价格关联度低。",
-      "reason_en": "Philosophical commentary, low correlation with crypto market price."
-    },
-    {
-      "title_cn": "在广泛的加密货币抛售中，XRP因关键区域被突破而大幅下跌",
-      "title_en": "XRP Drops Hard as Key Zone Breaks During Broad Crypto Sell-Off",
-      "news_sentiment": "Bearish",
-      "classification": "PRICED IN",
-      "reason_cn": "描述了当前市场的普遍弱势和抛售情况。",
-      "reason_en": "Describes the general market weakness and sell-off currently underway."
-    },
-    {
-      "title_cn": "Ripple称‘我们非常接近’，参议院权衡加密市场结构框架",
-      "title_en": "Ripple Says ‘We Are So Close’ as Senate Weighs Crypto Market Structure Framework",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "监管乐观情绪，有利于Ripple和更广泛的代币市场。",
-      "reason_en": "Regulatory optimism, favorable for Ripple and the broader token market."
-    }
-  ],
+  "timestamp": "2026-01-19T07:19:09.635006",
+  "global_summary_cn": "分析失败: Illegal trailing comma before end of object: line 11 column 124 (char 1931)",
+  "global_summary_en": "分析失败: Illegal trailing comma before end of object: line 11 column 124 (char 1931)",
+  "news_analysis": [],
   "fed_futures": {
-    "price": 96.455,
-    "implied_rate": 3.545,
-    "timestamp": "2026-01-19T03:17:59.548542+00:00",
+    "price": 96.465,
+    "implied_rate": 3.535,
+    "timestamp": "2026-01-19T07:18:38.219258+00:00",
     "trend": "Dovish (Rate expectations dropping)",
-    "change_5d_bps": -9.5,
+    "change_5d_bps": -10.5,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 157.901,
-    "timestamp": "2026-01-19T03:17:59.590887+00:00",
+    "price": 157.77,
+    "timestamp": "2026-01-19T07:18:38.262397+00:00",
     "trend": "Neutral",
-    "change_5d_pct": -0.05,
+    "change_5d_pct": -0.14,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 99.23,
-      "change_5d_pct": 0.1,
+      "price": 99.1,
+      "change_5d_pct": -0.03,
       "trend": "Neutral"
     },
     "us10y": {
@@ -199,63 +38,63 @@
   "coins": [
     {
       "symbol": "BTC",
-      "price": 92776.5,
-      "change_24h": -2.396827935043788,
-      "rsi_4h": 33.283170138017724,
-      "funding_rate": -0.00132436069358,
-      "open_interest": 2637442.470000019,
+      "price": 92667.2,
+      "change_24h": -2.530989182053888,
+      "rsi_4h": 32.697602693443585,
+      "funding_rate": -0.00417990405985,
+      "open_interest": 2633373.620000017,
       "sentiment": "Neutral",
-      "score": 70,
-      "comment_cn": "宏观流动性紧缩导致回调，但$1.42B的ETF流入是极强的基本面支撑，关注90K附近支撑。",
-      "comment_en": "Pullback driven by macro liquidity tightening, but the $1.42B ETF inflow provides strong fundamental support. Watch for support near $90K."
+      "score": 50,
+      "comment_cn": "",
+      "comment_en": ""
     },
     {
       "symbol": "ETH",
-      "price": 3211.4,
-      "change_24h": -2.864402165693712,
-      "rsi_4h": 37.8499360020393,
-      "funding_rate": 0.0021704667725099998,
-      "open_interest": 5661253.630000017,
+      "price": 3202.57,
+      "change_24h": -3.168973628672845,
+      "rsi_4h": 36.795214784862196,
+      "funding_rate": -0.0035427076221099998,
+      "open_interest": 5979388.90000002,
       "sentiment": "Neutral",
-      "score": 65,
-      "comment_cn": "随大盘下跌。质押需求强劲，但V神关于去中心化的警告带来一定压力。RSI尚未超卖。",
-      "comment_en": "Following the market downtrend. Strong staking demand balanced by Vitalik's decentralization warning. RSI is not yet oversold."
+      "score": 50,
+      "comment_cn": "",
+      "comment_en": ""
     },
     {
       "symbol": "SOL",
-      "price": 134.08,
-      "change_24h": -5.954969488672218,
-      "rsi_4h": 26.500449221156458,
-      "funding_rate": 0.00351774381264,
-      "open_interest": 3108371.030000004,
-      "sentiment": "Bearish",
-      "score": 55,
-      "comment_cn": "跌幅最深（-5.95%），RSI跌至26.5，处于深度超卖状态。短期内存在强烈的技术性反弹需求。",
-      "comment_en": "Deepest drop (-5.95%), RSI plunged to 26.5, indicating deeply oversold conditions. Strong technical rebound potential in the short term."
+      "price": 133.5,
+      "change_24h": -6.243415970222619,
+      "rsi_4h": 25.639800087032185,
+      "funding_rate": 0.00185406806276,
+      "open_interest": 3152553.740000004,
+      "sentiment": "Neutral",
+      "score": 50,
+      "comment_cn": "",
+      "comment_en": ""
     },
     {
       "symbol": "BNB",
-      "price": 923.8,
-      "change_24h": -2.5835706000210905,
-      "rsi_4h": 40.68288479158097,
-      "funding_rate": -0.021194670010440002,
-      "open_interest": 8491276.0,
+      "price": 925.2,
+      "change_24h": -2.1987315010570776,
+      "rsi_4h": 40.964411272972235,
+      "funding_rate": -0.01142592568921,
+      "open_interest": 8521623.0,
       "sentiment": "Neutral",
-      "score": 60,
-      "comment_cn": "RSI相对稳定，但负资金费率极高。可能遭遇了一些抛售/空头挤压，但RSI显示抛售力度低于大盘。",
-      "comment_en": "RSI relatively stable, but extremely negative funding rate suggests heavy recent shorting. Selling pressure is less severe than the broader market based on RSI."
+      "score": 50,
+      "comment_cn": "",
+      "comment_en": ""
     },
     {
       "symbol": "DOGE",
-      "price": 0.12722,
-      "change_24h": -7.341587764020398,
-      "rsi_4h": 23.1374739633153,
-      "funding_rate": -0.00274466280809,
-      "open_interest": 899727.349999999,
-      "sentiment": "Bearish",
-      "score": 40,
-      "comment_cn": "跌幅最大（-7.34%），RSI 23.1，表明极度超卖。如果大盘稳定，具备最强烈的反弹潜力。",
-      "comment_en": "Largest drop (-7.34%), RSI 23.1, indicating extreme oversold. Possesses the strongest rebound potential if macro conditions stabilize."
+      "price": 0.12724,
+      "change_24h": -7.04266510812391,
+      "rsi_4h": 23.13891191116427,
+      "funding_rate": -0.00407304884986,
+      "open_interest": 923632.1299999993,
+      "sentiment": "Neutral",
+      "score": 50,
+      "comment_cn": "",
+      "comment_en": ""
     }
   ]
 }
