@@ -20,8 +20,8 @@ from price_fetcher import get_market_data
 
 load_dotenv()
 
-from contextlib import asynccontextmanager
-import subprocess
+# SCRIPT_DIR for absolute pathing
+SCRIPT_DIR = Path(__file__).parent.absolute()
 
 # Helper to clean NaN (Moved to top level)
 def clean_nan(obj):
@@ -81,19 +81,19 @@ else:
 
 @app.get("/", response_class=HTMLResponse)
 async def read_root():
-    return FileResponse("index.html")
+    return FileResponse(str(SCRIPT_DIR / "index.html"))
 
 @app.get("/script.js")
 async def read_script():
-    return FileResponse("script.js")
+    return FileResponse(str(SCRIPT_DIR / "script.js"))
 
 @app.get("/style.css")
 async def read_style():
-    return FileResponse("style.css")
+    return FileResponse(str(SCRIPT_DIR / "style.css"))
 
 @app.get("/latest_analysis.json")
 async def read_data():
-    return FileResponse("latest_analysis.json")
+    return FileResponse(str(SCRIPT_DIR / "latest_analysis.json"))
 
 async def call_gemini_global_analysis(market_data: List[dict], news_context: str, custom_prompt: Optional[str] = None):
     """
@@ -171,7 +171,6 @@ async def call_gemini_global_analysis(market_data: List[dict], news_context: str
         }
 
 # Global Cache
-SCRIPT_DIR = Path(__file__).parent.absolute()
 CACHE_FILE = str(SCRIPT_DIR / "latest_analysis.json")
 CACHE_EXPIRY = 4 * 60 * 60  # 4 hours
 
