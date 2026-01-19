@@ -1,92 +1,82 @@
 {
-  "timestamp": "2026-01-19T15:47:55.675760",
-  "global_summary_cn": "流动性状态：全球宏观流动性因美国10年期国债收益率和VIX指数上升而趋于收紧，叠加关税冲突引发的地缘政治风险，市场情绪偏向谨慎/避险。\n\n市场正处于结构性牛市需求（加密ETP流入22亿美元）与地缘政治冲击（特朗普关税威胁引发的全球市场避险抛售）的剧烈冲突中。短期来看，宏观避紧情绪占据上风，导致加密货币市场普遍下跌，其中SOL和DOGE等山寨币跌幅较大，RSI触及超卖区域。尽管价格回调，但ETF的持续强劲流入表明长期结构性需求未变。市场处于“逢低买入”的潜在区域，但需等待宏观风险缓和，以及即将公布的核心PCE数据。",
-  "global_summary_en": "Liquidity Status: Global macro liquidity is tightening due to rising US 10-Year Treasury yields and the VIX, compounded by geopolitical risks stemming from tariff conflicts, pushing market sentiment toward caution/risk-off.\n\nThe market is currently experiencing a fierce conflict between structural bullish demand (Crypto ETP inflows of $2.2B) and geopolitical shock (risk-off selling driven by Trump's tariff threats). In the short term, macro tightening sentiment prevails, leading to a broad cryptocurrency sell-off, with altcoins like SOL and DOGE seeing significant drops and hitting oversold RSI levels. Despite the pullback, sustained strong ETF inflows indicate that long-term structural demand remains intact. The market is in a potential 'Buy the Dip' zone, but requires macro risks to subside and favorable data from the upcoming Core PCE release.",
+  "timestamp": "2026-01-19T19:48:28.854937",
+  "global_summary_cn": "宏观流动性状态为**审慎收紧/混合压力**。尽管美联储利率预期趋于鸽派（为流动性提供了长期支撑），但美国10年期国债收益率的上升和VIX恐慌指数的抬高，共同创造了短期内风险资产的紧缩环境。\n\n新闻叙事主要集中在全球贸易保护主义（特朗普关税威胁）和经济不确定性，这为市场增添了负面情绪。加密货币市场经历了全线修正（跌幅2.35%至5.54%），RSI指标显示许多资产（尤其是SOL）已进入超卖区。市场处于**流动性收紧与负面宏观消息驱动的修正阶段**，尽管链上数据显示机构资金（ETPs）仍在流入。当前形势是：宏观风险占主导，迫使交易者关注“逢低买入”机会，但需要警惕本周核心PCE数据可能带来的波动。",
+  "global_summary_en": "The Macro Liquidity status is **Cautiously Tight/Mixed Pressure**. Although the Fed rate expectations trend dovish (offering long-term liquidity support), the rising US 10-Year yield and increasing VIX volatility are creating a tightening environment for risk assets in the short term.\n\nNews narratives are dominated by global trade protectionism (Trump tariff threats) and economic uncertainty, adding negative sentiment. The crypto market underwent a broad correction (down 2.35% to 5.54%), with RSI indicators showing several assets (especially SOL) entering oversold territory. The market is in a **correction phase driven by tightening liquidity and negative macro headlines**, even though on-chain data shows ongoing institutional inflows (ETPs). The current situation suggests macro risks are dominating, forcing traders to look for 'buy the dip' opportunities, but caution is warranted ahead of this week's Core PCE data.",
   "news_analysis": [
     {
-      "title_cn": "关税和人工智能的负面影响成为全球商业的头号风险，世界经济论坛称",
+      "title_cn": "关税和人工智能的负面影响被世界经济论坛列为全球商业面临的顶级风险",
       "title_en": "Tariffs and AI's downside pose top global risks for business, World Economic Forum says",
       "news_sentiment": "Bearish",
-      "classification": "NEUTRAL",
-      "reason_cn": "这是一项长期风险评估，反映了宏观环境的不确定性，对短期价格波动影响较小。",
-      "reason_en": "This is a long-term risk assessment, reflecting macro environmental uncertainty, with minimal impact on short-term price volatility."
-    },
-    {
-      "title_cn": "特朗普称八个欧洲国家若不向美国出售格陵兰岛，将面临关税升至25%的风险",
-      "title_en": "Trump says 8 European nations face tariffs rising to 25% if Greenland isn't sold to the U.S.",
-      "news_sentiment": "Bearish",
       "classification": "IMPULSE",
-      "reason_cn": "引发地缘政治和贸易冲突的即时宏观冲击，是导致全球市场风险资产抛售的主要催化剂之一。",
-      "reason_en": "Immediate macro shock triggering geopolitical and trade conflict, serving as one of the main catalysts for the risk-off sell-off in global markets."
+      "reason_cn": "宏观风险和地缘政治不确定性的增加，通常会导致避险情绪上升和VIX指数抬升，与当前价格下跌吻合。",
+      "reason_en": "Increased macro risk and geopolitical uncertainty typically lead to higher risk aversion and rising VIX, aligning with the current price drop.",
+      "related_coin": "GLOBAL"
     },
     {
-      "title_cn": "特朗普关税冲击全球市场，欧盟考虑采取报复行动",
-      "title_en": "Trump Tariff Shock Hits Global Markets as EU Mulls Retaliatory Action",
-      "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "确认了关税威胁对全球市场的即时负面影响，直接支撑了加密货币的避险回调。",
-      "reason_en": "Confirms the immediate negative impact of tariff threats on global markets, directly supporting the risk-off correction in crypto."
-    },
-    {
-      "title_cn": "加密ETPs持续升温，流入22亿美元，比特币占据主导地位",
-      "title_en": "Crypto ETPs gather steam with $2.2B inflows, Bitcoin dominates gains",
+      "title_cn": "比特币价格守住93K美元，证明多头看到了“逢低买入”的机会",
+      "title_en": "Bitcoin price holds $93K, proving bulls see a ‘buy the dip’ opportunity",
       "news_sentiment": "Bullish",
       "classification": "DIVERGENCE",
-      "reason_cn": "强劲的结构性需求和资金流入是长期看涨信号，但当前价格下跌显示宏观担忧暂时压倒了机构需求。",
-      "reason_en": "Strong structural demand and inflows are long-term bullish signals, but the current price drop indicates macro concerns are temporarily overriding institutional demand."
+      "reason_cn": "尽管价格正在下跌，但媒体报道强调了关键支撑位的购买兴趣，表明市场情绪正在寻求底部（与RSI低位相符）。",
+      "reason_en": "Despite the current drop, the headline emphasizes buying interest at a key support level, suggesting sentiment is seeking a bottom (consistent with low RSI readings).",
+      "related_coin": "BTC"
     },
     {
-      "title_cn": "美国比特币交易员转为看跌：BTC价格是否面临跌破9万美元的风险？",
+      "title_cn": "美国比特币交易员转为看跌：BTC价格是否存在跌破90K美元的风险？",
       "title_en": "US Bitcoin traders flip bearish: Is BTC price at risk of losing $90K?",
       "news_sentiment": "Bearish",
+      "classification": "IMPULSE",
+      "reason_cn": "反映了在价格修正期间，短期交易者的情绪迅速恶化，加剧了下行压力。",
+      "reason_en": "Reflects rapid deterioration in short-term trader sentiment during the price correction, compounding downward pressure.",
+      "related_coin": "BTC"
+    },
+    {
+      "title_cn": "加密货币ETP持续发力，流入22亿美元，比特币占据主导地位",
+      "title_en": "Crypto ETPs gather steam with $2.2B inflows, Bitcoin dominates gains",
+      "news_sentiment": "Bullish",
       "classification": "PRICED IN",
-      "reason_cn": "反映了当前价格修正后的市场情绪和短线恐慌，与价格下跌走势一致。",
-      "reason_en": "Reflects current market sentiment and short-term panic following the price correction, aligning with the downward movement."
+      "reason_cn": "机构资金流入是强劲的基本面信号，但目前的宏观驱动的抛售使其在短期内被市场消化。",
+      "reason_en": "Institutional inflow is a strong fundamental signal, but current macro-driven selling suggests it is being overshadowed in the short term.",
+      "related_coin": "BTC"
     },
     {
-      "title_cn": "比特币涨势消退——是否正在逼近跌破9.1万美元？",
-      "title_en": "Bitcoin’s Rally Fizzles—Is a Crash Below $91K Looming?",
-      "news_sentiment": "Bearish",
-      "classification": "PRICED IN",
-      "reason_cn": "反映了动量失败后的即时担忧和市场技术分析观点。",
-      "reason_en": "Reflects immediate concern and technical analysis views following the failure of upward momentum."
-    },
-    {
-      "title_cn": "比特币期货OI反弹13%，分析师认为风险偏好正谨慎回归",
-      "title_en": "Bitcoin futures OI rebounds 13% as analysts see cautious return of risk appetite",
-      "news_sentiment": "Neutral",
-      "classification": "DISTRIBUTION",
-      "reason_cn": "OI增加通常意味着杠杆投入增加。在价格下跌时，这暗示了空头正在积极做空或多头在平仓前试图抵抗，加剧短期波动。",
-      "reason_en": "Increased OI typically means higher leverage. During a price drop, this suggests active shorting or resistance before liquidation, escalating short-term volatility."
-    },
-    {
-      "title_cn": "Vitalik呼吁建立‘垃圾回收’功能以阻止以太坊膨胀",
+      "title_cn": "V神呼吁增加“垃圾收集”功能以阻止以太坊膨胀",
       "title_en": "Vitalik calls for a ‘garbage collection’ function to stop Ethereum bloat",
       "news_sentiment": "Bullish",
       "classification": "NEUTRAL",
-      "reason_cn": "积极的链上开发消息，但对短期价格影响有限，属于长期利好。",
-      "reason_en": "Positive on-chain development news, but with limited short-term price impact; it is a long-term catalyst."
+      "reason_cn": "长期的协议改进提案，有利于以太坊网络效率，但对即时价格影响有限。",
+      "reason_en": "Long-term protocol improvement proposal, beneficial for Ethereum network efficiency, but limited impact on immediate price action.",
+      "related_coin": "ETH"
+    },
+    {
+      "title_cn": "由于美元下滑，市场为动荡做准备，“卖出美国”交易卷土重来",
+      "title_en": "‘Sell America’ Trade Roars Back as US Dollar Slides and Markets Brace for Turbulence",
+      "news_sentiment": "DIVERGENCE",
+      "classification": "DIVERGENCE",
+      "reason_cn": "美元走软理论上利好风险资产（DXY 99.04），但加密货币下跌，表明风险偏好下降的主导因素是美债收益率上升而非单纯的美元走势。",
+      "reason_en": "Weaker USD theoretically benefits risk assets, but crypto is dropping, suggesting rising US10Y/VIX is the dominant risk factor over DXY movement.",
+      "related_coin": "GLOBAL"
     }
   ],
   "fed_futures": {
-    "price": 96.42,
-    "implied_rate": 3.58,
-    "timestamp": "2026-01-19T15:47:34.475560+00:00",
+    "price": 96.415,
+    "implied_rate": 3.585,
+    "timestamp": "2026-01-19T19:48:11.546321+00:00",
     "trend": "Dovish (Rate expectations dropping)",
-    "change_5d_bps": -6.0,
+    "change_5d_bps": -5.5,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 158.051,
-    "timestamp": "2026-01-19T15:47:34.526263+00:00",
+    "price": 158.084,
+    "timestamp": "2026-01-19T19:48:11.611930+00:00",
     "trend": "Neutral",
-    "change_5d_pct": 0.04,
+    "change_5d_pct": 0.06,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 99.1,
-      "change_5d_pct": -0.03,
+      "price": 99.04,
+      "change_5d_pct": -0.09,
       "trend": "Neutral"
     },
     "us10y": {
@@ -95,71 +85,71 @@
       "trend": "High Rising"
     },
     "vix": {
-      "price": 18.92,
-      "change_5d_pct": 18.4,
+      "price": 18.84,
+      "change_5d_pct": 17.9,
       "trend": "Normal Rising"
     }
   },
   "coins": [
     {
       "symbol": "BTC",
-      "price": 92979.1,
-      "change_24h": -2.2188686388541203,
-      "rsi_4h": 36.86475522023539,
-      "funding_rate": 0.00183458209956,
-      "open_interest": 2577567.2400000184,
+      "price": 93104.1,
+      "change_24h": -2.3504091977458725,
+      "rsi_4h": 37.91166759142749,
+      "funding_rate": 0.00295831061439,
+      "open_interest": 2558860.590000017,
       "sentiment": "Neutral",
-      "score": 55,
-      "comment_cn": "受到宏观避险冲击，但ETF需求强劲。RSI接近超卖，关注90,000美元支撑位，若宏观风险缓和，有反弹潜力。",
-      "comment_en": "Hit by macro risk-off shock, but supported by strong ETF demand. RSI approaching oversold. Watch the $90,000 support for a potential bounce if macro risks ease."
+      "score": 50,
+      "comment_cn": "价格修正至93K，受到宏观压力和交易员看跌情绪影响。RSI接近超卖，但整体高OI和正资金费率表明清算已发生。",
+      "comment_en": "Price corrected to $93K, pressured by macro tightening and bearish trader sentiment. RSI is near oversold, but high OI and positive funding suggest long liquidations occurred."
     },
     {
       "symbol": "ETH",
-      "price": 3214.23,
-      "change_24h": -3.5692427697107827,
-      "rsi_4h": 39.35170010407063,
-      "funding_rate": -0.0065828236682,
-      "open_interest": 5885856.800000016,
-      "sentiment": "Bearish",
-      "score": 45,
-      "comment_cn": "跌幅大于BTC，表明市场在风险环境中更倾向于逃离高Beta资产。负融资费率表明空头近期占优。",
-      "comment_en": "Dropped harder than BTC, indicating flight from higher Beta assets in a risk-off environment. Negative funding suggests shorts have been dominant recently."
+      "price": 3218.73,
+      "change_24h": -3.7823666919761156,
+      "rsi_4h": 40.185429277790604,
+      "funding_rate": -0.006231821649729999,
+      "open_interest": 5836840.440000015,
+      "sentiment": "Neutral",
+      "score": 55,
+      "comment_cn": "跌幅大于BTC，但资金费率为负，表明短期空头可能过于拥挤，潜在利于反弹。V神持续的协议讨论提供长期基本面支撑。",
+      "comment_en": "Dropped harder than BTC, but negative funding suggests short positions may be overcrowded, potentially setting up for a squeeze. Vitalik's ongoing protocol discussions offer long-term fundamental support."
     },
     {
       "symbol": "SOL",
-      "price": 133.48,
-      "change_24h": -5.993379815479977,
-      "rsi_4h": 27.367918991737213,
-      "funding_rate": -0.0008296496260099999,
-      "open_interest": 3234454.4800000032,
-      "sentiment": "Bullish",
-      "score": 30,
-      "comment_cn": "跌幅最大，RSI(4H)跌至27.4，处于严重超卖状态，伴随负融资费率。在风险回归时，具备强烈的空头挤压（Short Squeeze）反弹潜力。",
-      "comment_en": "Largest drop, RSI(4H) hits 27.4, critically oversold with negative funding. High potential for a sharp short squeeze rebound when risk appetite returns."
+      "price": 134.44,
+      "change_24h": -5.536818437324337,
+      "rsi_4h": 31.58995868139631,
+      "funding_rate": 0.00044817488857999997,
+      "open_interest": 3190990.4300000044,
+      "sentiment": "Bearish",
+      "score": 35,
+      "comment_cn": "跌幅最大（-5.54%），RSI达到31.6，处于严重超卖状态。在风险资产收紧环境下，其高波动性使其成为最脆弱的资产之一。",
+      "comment_en": "Suffered the largest drop (-5.54%), with RSI at 31.6, heavily oversold. Its high volatility makes it vulnerable in a tightening risk environment."
     },
     {
       "symbol": "BNB",
-      "price": 925.1,
-      "change_24h": -2.6620370370370323,
-      "rsi_4h": 41.9153031002594,
-      "funding_rate": 0.004650724076,
-      "open_interest": 8409216.0,
+      "price": 926.9,
+      "change_24h": -2.359633414094594,
+      "rsi_4h": 43.40634692199771,
+      "funding_rate": 0.01,
+      "open_interest": 8568171.0,
       "sentiment": "Neutral",
-      "score": 65,
-      "comment_cn": "相对抗跌，维持正融资费率，显示其生态系统内需求仍在。宏观抛售对其影响相对较小。",
-      "comment_en": "Relatively resilient, maintaining positive funding rates, indicating persistent internal ecosystem demand. Less impacted by macro sell-offs."
+      "score": 60,
+      "comment_cn": "相对抗跌（-2.36%），且资金费率最强劲。表现出相对强度，但仍受市场整体修正拖累。",
+      "comment_en": "Showed relative resilience (-2.36%) and maintained the strongest positive funding. Exhibits relative strength but is still dragged down by the overall market correction."
     },
     {
       "symbol": "DOGE",
-      "price": 0.12788,
-      "change_24h": -6.568276466720245,
-      "rsi_4h": 25.859447426715775,
-      "funding_rate": -0.007463916728169999,
-      "open_interest": 896973.1499999991,
-      "sentiment": "Bullish",
-      "score": 25,
-      "comment_cn": "作为高波动性资产，跌幅巨大，RSI(4H)低于26。处于极度超卖状态，是短期反弹的良好指标，但风险极高。",
-      "comment_en": "As a high-volatility asset, the drop is severe, with RSI(4H) below 26. Extremely oversold, indicating high potential for a short-term rebound, but risk remains elevated."
+      "price": 0.1299,
+      "change_24h": -5.154789719626176,
+      "rsi_4h": 34.301624120694015,
+      "funding_rate": 0.0027187450969399997,
+      "open_interest": 883530.2799999993,
+      "sentiment": "Bearish",
+      "score": 40,
+      "comment_cn": "大幅下跌（-5.15%），RSI进入超卖区。作为高贝塔系数的代币，在宏观流动性收紧时承担了更大的风险。",
+      "comment_en": "Significant drop (-5.15%), RSI moving into oversold territory. As a high-beta token, it carries amplified risk when macro liquidity tightens."
     }
   ]
 }
