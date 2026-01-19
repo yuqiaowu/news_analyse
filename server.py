@@ -20,6 +20,9 @@ from price_fetcher import get_market_data
 
 load_dotenv()
 
+from contextlib import asynccontextmanager
+import subprocess
+
 # SCRIPT_DIR for absolute pathing
 SCRIPT_DIR = Path(__file__).parent.absolute()
 
