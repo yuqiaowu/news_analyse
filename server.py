@@ -1,6 +1,8 @@
 import os
 import json
 import asyncio
+import sys
+from pathlib import Path
 from fastapi import FastAPI, Request
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import HTMLResponse, JSONResponse
@@ -38,9 +40,9 @@ async def run_scheduler():
     while True:
         print(f"[{datetime.now()}] ⏰ Scheduler waking up...")
         try:
-            # Run daily_update.py as a subprocess
+            # Use sys.executable instead of "python" to ensure the correct environment
             process = await asyncio.create_subprocess_exec(
-                "python", "daily_update.py",
+                sys.executable, str(SCRIPT_DIR / "daily_update.py"),
                 stdout=asyncio.subprocess.PIPE,
                 stderr=asyncio.subprocess.PIPE
             )
@@ -169,7 +171,8 @@ async def call_gemini_global_analysis(market_data: List[dict], news_context: str
         }
 
 # Global Cache
-CACHE_FILE = "latest_analysis.json"
+SCRIPT_DIR = Path(__file__).parent.absolute()
+CACHE_FILE = str(SCRIPT_DIR / "latest_analysis.json")
 CACHE_EXPIRY = 4 * 60 * 60  # 4 hours
 
 def load_cache():
@@ -376,7 +379,8 @@ async def analyze_all(force_refresh: bool = False):
         json.dump(response_data, f, indent=2, ensure_ascii=False)
         
     # Also save raw news for debugging
-    with open("latest_news_context.json", "w", encoding="utf-8") as f:
+    news_context_file = str(SCRIPT_DIR / "latest_news_context.json")
+    with open(news_context_file, "w", encoding="utf-8") as f:
         json.dump({"news_text": news_text}, f, indent=2, ensure_ascii=False)
         
     print(f"[{datetime.now().strftime('%H:%M:%S')}] 🏁 Request finished in {(datetime.now() - start_time).total_seconds():.2f}s")

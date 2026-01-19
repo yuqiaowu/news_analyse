@@ -112,4 +112,3 @@ def get_market_data(symbol: str) -> dict:
 
 if __name__ == "__main__":
     print(get_market_data("BTC"))
-    print(f"ETH: {get_current_price('ETH')}")

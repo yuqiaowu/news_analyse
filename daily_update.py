@@ -1,8 +1,7 @@
-import os
-import json
-
-from datetime import datetime
+from pathlib import Path
 from server import analyze_all, clean_nan
+
+SCRIPT_DIR = Path(__file__).parent.absolute()
 
 
 
@@ -17,9 +16,10 @@ async def main():
         data = clean_nan(data)
         
         # Save to file
-        with open("latest_analysis.json", "w", encoding="utf-8") as f:
+        analysis_file = str(SCRIPT_DIR / "latest_analysis.json")
+        with open(analysis_file, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
-        print("✅ Analysis saved to latest_analysis.json")
+        print(f"✅ Analysis saved to {analysis_file}")
         
     except Exception as e:
         print(f"❌ Analysis failed: {e}")
