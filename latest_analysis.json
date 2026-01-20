@@ -1,245 +1,245 @@
 {
-  "timestamp": "2026-01-21T01:57:13.773492",
-  "global_summary_cn": "流动性状态：全球流动性处于暂时性收紧（风险厌恶）状态，主要受日元走强预示的套利交易平仓风险和美国关税动荡导致的资本外逃推动。市场正经历一场“完美的看跌风暴”：宏观流动性收紧与地缘政治/贸易负面消息（特朗普关税威胁）同时发生，导致加密货币市场出现猛烈抛售。\n比特币跌破90,000美元的关键支撑，主要加密货币RSI跌至极度超卖区域（20附近）。尽管存在Saylor购入和Ray Dalio警告法币秩序崩溃等长期看涨叙事，但这些结构性利好被短期宏观恐慌完全压倒。短期焦点在于Core PCE数据发布及其对美联储未来利率路径的影响，但在市场过度抛售后，如果宏观恐慌稍有缓解，极度超卖的技术面可能会引发反弹。",
-  "global_summary_en": "Liquidity Status: Global liquidity is temporarily TIGHT (Risk Off), driven by JPY strength signaling carry trade unwind risk and capital flight due to US tariff turmoil. The market is experiencing a 'Perfect Storm (Bearish)': tight macro liquidity coincided with a strong negative geopolitical/trade narrative (Trump tariff threats), leading to a violent sell-off across crypto assets.\nBitcoin decisively broke the $90,000 key support, and major cryptocurrencies have dropped into severely oversold RSI territory (around 20). Long-term bullish narratives, such as Saylor’s accumulation and Ray Dalio’s warning of a cracking fiat order, were completely overshadowed by short-term macro panic. The immediate focus is on the upcoming Core PCE data, but the extremely oversold technical posture suggests a potential bounce if the macro fear slightly subsides following the aggressive washout.",
+  "timestamp": "2026-01-20T19:52:29.014639",
+  "global_summary_cn": "流动性状态：当前市场流动性趋紧，表现为VIX恐慌指数急剧上升至20.95，以及10年期美债收益率保持高位并继续上行，表明强烈的“避险”(Risk Off)情绪主导市场，压倒了美联储略微鸽派的长期利率预期。在消息面上，主流币遭遇“死亡交叉”和技术指标“强力卖出”的集体看空信号，形成了完美的看跌风暴，导致大规模去杠杆化。\n\n比特币（BTC）跌破9万美元关键支撑，带动所有主流币RSI跌至极度超卖区间（低于22）。尽管结构性利好消息（如Saylor再次购入、ETP资金流入）不断出现，但这些买盘被宏观驱动的抛售压力所消化。市场目前处于恐慌抛售后的技术反弹窗口，特别是ETH，由于其负资金费率和极度超卖，短期反弹潜力较大。然而，在PCE数据公布前，宏观不确定性将限制任何持续的上行。",
+  "global_summary_en": "Liquidity Status: Global liquidity is tightening, defined by the VIX fear index spiking above 20.95 and the US 10-Year yield remaining high and rising. This signals strong “Risk Off” sentiment, overriding mildly dovish Fed expectations. The narrative layer saw a confluence of bearish technical signals (BTC \"Death Cross,\" \"Strong Sell\" indicators) resulting in a Perfect Bearish Storm and massive deleveraging.\n\nBitcoin (BTC) broke the key $90,000 support, pushing the RSI for all major coins deep into panic/oversold territory (below 22). While structural bullish news (Saylor purchasing, ETP inflows) exists, it is currently being distributed into macro fear. The market is positioned for a technical bounce following panic selling, especially for ETH, given its negative funding rate and extreme oversold readings. However, macro uncertainty (upcoming PCE data, US debt concerns) limits potential upside until global fear subsides.",
   "news_analysis": [
     {
-      "title_cn": "“这是在抛售美国”——随着全球资本逃离美国资产，美元、国债价格暴跌，黄金飙升",
-      "title_en": "'This is sell America' — U.S. dollar, Treasury prices tumble and gold spikes as globe flees U.S. assets",
-      "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "表明全球市场不稳定和资本重新分配，直接推动风险厌恶情绪和加密货币的近期抛售。",
-      "reason_en": "Indicates global market instability and capital reallocation, directly driving Risk Off sentiment and the recent sell-off in crypto."
+      "title_cn": "最高法院关税决定：特朗普政府如何拖延退税时间",
+      "title_en": "Supreme Court tariff decision: How Trump administration could drag out timing of refund payments",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "主要关注美国贸易政策，对加密市场当前情绪影响较低。",
+      "reason_en": "Focuses on US trade policy uncertainty; low immediate impact on crypto sentiment."
     },
     {
-      "title_cn": "Bessent称特朗普对下一任美联储主席的挑选可能在下周发生",
+      "title_cn": "杰罗姆·鲍威尔即使被免去主席职务，也可能留在美联储。这意味着什么",
+      "title_en": "Jerome Powell could stay at the Fed even after being removed as chair. Here's what that means",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "关于美联储领导层的政治猜测，对即时市场流动性或政策路径没有明确影响。",
+      "reason_en": "Political speculation regarding Fed leadership; no clear impact on immediate market liquidity or policy path."
+    },
+    {
+      "title_cn": "Salesforce的Benioff呼吁对人工智能进行监管，称模型已成为‘自杀教练’",
+      "title_en": "Salesforce's Benioff calls for AI regulation, says models have become 'suicide coaches'",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "一般性的科技行业监管讨论，与当前加密货币价格走势无关。",
+      "reason_en": "General tech industry regulatory discussion, irrelevant to current cryptocurrency price action."
+    },
+    {
+      "title_cn": "丹麦养老基金将出售1亿美元国债，理由是美国政府财政‘糟糕’",
+      "title_en": "Danish pension fund to sell $100 million in Treasurys, citing 'poor' U.S. government finances",
+      "news_sentiment": "Bearish",
+      "classification": "IMPULSE",
+      "reason_cn": "反映了对美国财政健康的宏观结构性担忧，支持了美债收益率上升和避险（Risk Off）情绪。",
+      "reason_en": "Reflects structural macro concerns over US fiscal health, contributing to rising US10Y and Risk Off sentiment."
+    },
+    {
+      "title_cn": "Bessent表示特朗普对下一任美联储主席的任命可能下周发生",
       "title_en": "Bessent says Trump's pick for the next Fed chair could happen next week",
       "news_sentiment": "Neutral",
       "classification": "NEUTRAL",
-      "reason_cn": "前瞻性政治不确定性，潜在影响高，但不是当前市场抛售的直接驱动因素。",
-      "reason_en": "Forward-looking political uncertainty, potentially high impact but not the immediate driver of the current market sell-off."
+      "reason_cn": "政治不确定性，尚未形成明确的市场驱动力。",
+      "reason_en": "Political uncertainty without immediate, defined market impact."
     },
     {
-      "title_cn": "特朗普对格陵兰岛的关税威胁可能被最高法院的裁决推翻",
-      "title_en": "Trump's Greenland tariff threats could be upended by Supreme Court decision",
-      "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "突出引发当前加密市场抛售的“特朗普关税动荡”的源头，证实了主要的宏观驱动因素。",
-      "reason_en": "Highlights the source of the 'Trump Tariff Turmoil' causing the current crypto sell-off, confirming the primary macro driver."
-    },
-    {
-      "title_cn": "最高法院关税裁决：特朗普政府如何拖延退款时间",
-      "title_en": "Supreme Court tariff decision: How Trump administration could drag out timing of refund payments",
-      "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "强化贸易不稳定性和行政摩擦，加剧宏观不确定性。",
-      "reason_en": "Reinforces trade instability and administrative friction, compounding macro uncertainty."
-    },
-    {
-      "title_cn": "亚马逊CEO Jassy称特朗普的关税已开始“悄悄”渗透到价格中",
-      "title_en": "Amazon CEO Jassy says Trump's tariffs have started to 'creep' into prices",
-      "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "关税引发通胀压力的具体证据，推高美国国债收益率，助长整体风险厌恶情绪。",
-      "reason_en": "Concrete evidence of inflation pressure stemming from the tariffs, contributing to the high US10Y trend and overall risk aversion."
-    },
-    {
-      "title_cn": "[日元] 日本央行政策利率（高）",
-      "title_en": "[JPY] BOJ Policy Rate (High)",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "标准日历事件。日本央行政策通过USD/JPY间接相关，但不是今日抛售的直接催化剂。",
-      "reason_en": "Standard calendar item. BOJ policy is indirectly relevant via USD/JPY but not the immediate catalyst today."
-    },
-    {
-      "title_cn": "[美元] 密歇根大学通胀预期修正值（低）",
-      "title_en": "[USD] Revised UoM Inflation Expectations (Low)",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "日历事件，影响评级低。",
-      "reason_en": "Calendar item, low impact rating."
-    },
-    {
-      "title_cn": "[新西兰元] 消费者物价指数季率（高）",
-      "title_en": "[NZD] CPI q/q (High)",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "新西兰特定数据，对加密货币直接影响最小。",
-      "reason_en": "NZD specific, minimal direct crypto impact."
-    },
-    {
-      "title_cn": "[美元] 核心PCE物价指数月率（中）",
-      "title_en": "[USD] Core PCE Price Index m/m (Medium)",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "即将发布的关键通胀数据，可能在未来产生影响，但并未驱动今日的抛售。",
-      "reason_en": "Key inflation data upcoming, potential future impact, but not driving today's sell-off."
-    },
-    {
-      "title_cn": "[美元] 核心PCE物价指数月率（高）",
-      "title_en": "[USD] Core PCE Price Index m/m (High)",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "即将发布的关键通胀数据，可能在未来产生影响，但并未驱动今日的抛售。",
-      "reason_en": "Key inflation data upcoming, potential future impact, but not driving today's sell-off."
-    },
-    {
-      "title_cn": "比特币交易员维持10万美元目标，同时金价创下4,750美元的纪录",
+      "title_cn": "比特币交易员保持10万美元BTC目标，因金价创下4,750美元的纪录",
       "title_en": "Bitcoin trader keeps $100K BTC target as gold price hits record $4,750",
       "news_sentiment": "Bullish",
-      "classification": "DIVERGENCE",
-      "reason_cn": "强化长期宏观对冲论点，但市场正在抛售，表明短期力量（关税）盖过了长期目标。",
-      "reason_en": "Reinforces the long-term macro hedge thesis, but the market is currently selling off, suggesting short-term forces (tariffs) are outweighing long-term goals."
+      "classification": "PRICED IN",
+      "reason_cn": "长期看涨观点，但已被即时宏观抛售完全忽略，未能支撑价格。",
+      "reason_en": "Long-term bullish outlook, completely ignored by immediate macro selling pressure, indicating low relevance now."
     },
     {
-      "title_cn": "Michael Saylor的策略在购买了21亿美元后，持有的比特币超过700,000枚",
+      "title_cn": "迈克尔·塞勒的策略在购买21亿美元后，比特币总量超过70万枚",
       "title_en": "Michael Saylor’s Strategy tops 700,000 Bitcoin after $2.1B purchase",
       "news_sentiment": "Bullish",
       "classification": "PRICED IN",
-      "reason_cn": "证实了强劲的机构积累，但未能阻止即时下跌，表明其影响已计入当前估值，无法抵抗宏观抛压。",
-      "reason_en": "Confirms strong institutional accumulation but failed to prevent the immediate downturn, suggesting it is priced into the valuation floor and cannot resist macro pressure."
+      "reason_cn": "强大的结构性利好消息，但在市场抛售中价格反而下跌，表明宏观恐慌压倒了机构需求。",
+      "reason_en": "Strong structural bullish news; price dumped despite purchase, indicating macro panic is overriding institutional demand."
     },
     {
-      "title_cn": "比特币闪烁买入信号，9万美元成为关键支撑",
+      "title_cn": "比特币跌至9万美元关键支撑位时闪烁买入信号",
       "title_en": "Bitcoin flashes buy signals as $90K becomes key support",
       "news_sentiment": "Bullish",
       "classification": "DIVERGENCE",
-      "reason_cn": "技术分析显示存在支撑，但价格已果断跌破9万美元，证明技术分析被宏观抛售力量所超越。",
-      "reason_en": "Technical analysis suggesting support, but the price has now decisively dipped below $90K, proving the technicals were overpowered by macro forces."
+      "reason_cn": "$90K支撑已被打破，该新闻代表了被即时抛售的、受困的技术乐观情绪。",
+      "reason_en": "The $90K support was broken immediately after, representing trapped technical optimism that was sold off aggressively."
     },
     {
-      "title_cn": "随着BTC印出新的死亡交叉，比特币价格目标延伸至58,000美元",
+      "title_cn": "比特币价格目标下探至58K美元，因BTC印出新的死亡交叉",
       "title_en": "Bitcoin price targets extend down to $58K as BTC prints new death cross",
       "news_sentiment": "Bearish",
       "classification": "IMPULSE",
-      "reason_cn": "下跌后看跌价格结构的技术确认，加剧市场恐惧（VIX上升）。",
-      "reason_en": "Technical confirmation of bearish price structure following the drop, amplifying market fear (VIX rising)."
+      "reason_cn": "强烈的技术看跌指标，与当前恐慌性抛售和去杠杆化的价格走势完美吻合。",
+      "reason_en": "Strong technical bearish indicator aligning perfectly with the current panic selling and deleveraging price action."
     },
     {
-      "title_cn": "比特币持有者看到自2023年末以来首次持续30天的已实现亏损",
+      "title_cn": "比特币持有者遭遇自2023年底以来首次连续30天实现亏损",
       "title_en": "Bitcoin holders see first 30-day stretch of realized losses since late 2023",
       "news_sentiment": "Bearish",
       "classification": "IMPULSE",
-      "reason_cn": "表明存在显著的投降和已实现亏损，证实了在当前流动性紧缩阶段发生了大量抛售。",
-      "reason_en": "Indicates significant capitulation and realized losses, confirming heavy distribution during the current tight liquidity phase."
+      "reason_cn": "证实了短期持有者正在经历投降和恐慌性抛售。",
+      "reason_en": "Confirms capitulation and panic selling among short-term holders."
     },
     {
-      "title_cn": "以太坊L2 MegaETH在全球“压力测试”前达到47K TPS的峰值",
+      "title_cn": "ETH价格指标在3年卖方主导后闪烁买入信号",
+      "title_en": "ETH price metric flashes buy signal after 3 years of seller dominance",
+      "news_sentiment": "Bullish",
+      "classification": "DIVERGENCE",
+      "reason_cn": "在宏观抛售导致ETH暴跌7%时出现基本面看涨指标，显示出利好指标正在被市场恐慌所覆盖。",
+      "reason_en": "Fundamental bullish metric appearing during a 7% ETH crash driven by macro selling, showing positive signals being overridden by panic."
+    },
+    {
+      "title_cn": "以太坊L2 MegaETH在“全球压力测试”前达到47K TPS的峰值",
       "title_en": "Ethereum L2 MegaETH peaks at 47K TPS ahead of ‘global stress test’",
       "news_sentiment": "Bullish",
       "classification": "PRICED IN",
-      "reason_cn": "持续的开发和可扩展性进展，是一个积极的结构性叙事，通常已被定价。",
-      "reason_en": "Continued development/scalability progress, a positive structural narrative that is generally priced in."
+      "reason_cn": "积极的技术进步，但对宏观驱动的抛售无影响。",
+      "reason_en": "Positive technical progress, but irrelevant to macro-driven selling."
     },
     {
-      "title_cn": "Ray Dalio警告称，随着全球市场感受到压力，法定货币秩序正在瓦解",
-      "title_en": "Ray Dalio Warns of a Cracking Fiat Order as Global Markets Feel the Strain",
+      "title_cn": "加密货币ETP流入22亿美元，比特币占据主导地位",
+      "title_en": "Crypto ETPs gather steam with $2.2B inflows, Bitcoin dominates gains",
       "news_sentiment": "Bullish",
-      "classification": "DIVERGENCE",
-      "reason_cn": "对BTC价值主张的宏观肯定，但目前被即时的风险厌恶情绪所掩盖。",
-      "reason_en": "High-level macro affirmation for the BTC value proposition, but currently overshadowed by immediate risk-off panic."
+      "classification": "DISTRIBUTION",
+      "reason_cn": "尽管机构资金流入强劲，但市场价格仍在暴跌，表明机构买盘正在被用于对冲或满足抛售需求。",
+      "reason_en": "Despite strong institutional inflows, the market price crashed, suggesting institutional buying is being used to offset or meet massive selling demand."
     },
     {
-      "title_cn": "随着特朗普贸易战动荡加剧，加密股票暴跌，比特币跌破9万美元",
-      "title_en": "Bitcoin Dips Under $90K as Crypto Stocks Plunge Amid Fresh Trump Trade War Turmoil",
+      "title_cn": "比特币低于9万美元：技术指标闪烁‘强力卖出’，地缘政治恐惧抹去月度涨幅",
+      "title_en": "Bitcoin Below $90,000: Technicals Flash ‘Strong Sell’ as Geopolitical Fears Erase Monthly Gains",
       "news_sentiment": "Bearish",
       "classification": "IMPULSE",
-      "reason_cn": "直接将价格下跌（跌破9万美元）与宏观驱动因素（特朗普关税动荡）联系起来，证实了完美看跌风暴的主要催化剂。",
-      "reason_en": "Directly correlates the price drop (under $90K) with the macro driver (Trump Tariff Turmoil), confirming the primary catalyst of the perfect bearish storm."
+      "reason_cn": "直接确认了当前趋势的恐慌和下行压力。",
+      "reason_en": "Directly confirms the panic and downside pressure of the current trend."
+    },
+    {
+      "title_cn": "XRP重复2022年市场结构，压力在2美元以下积聚",
+      "title_en": "XRP Repeats 2022 Market Structure as Pressure Builds Below $2",
+      "news_sentiment": "Bearish",
+      "classification": "NEUTRAL",
+      "reason_cn": "关于XRP的历史性技术分析，非市场即时驱动力。",
+      "reason_en": "Historical technical analysis concerning XRP; not an immediate market driver."
+    },
+    {
+      "title_cn": "马萨诸塞州法官裁定可暂时禁止Kalshi体育市场",
+      "title_en": "Massachusetts Can Ban Kalshi Sports Markets for Now, Judge Rules",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "影响特定平台和地区的法律新闻，非主流市场驱动力。",
+      "reason_en": "Legal news affecting a specific platform and jurisdiction; not a major market driver."
+    },
+    {
+      "title_cn": "特朗普关税3：牛市回归！NYSE代币化，这对$Hype意味着什么！",
+      "title_en": "Trump Tariffs 3: Return of the Bull Market! NYSE Tokenising, what that means for $Hype! Claude Meme Meta!",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "涉及特朗普政策和代币化的一般评论和炒作，缺乏明确的市场影响。",
+      "reason_en": "General commentary and hype involving Trump policy and tokenization; lacks clear market impact."
+    },
+    {
+      "title_cn": "TRON网络集成Blockaid，提供实时链上安全保障",
+      "title_en": "TRON Network Integrated Into Blockaid, Delivering Real-Time On-Chain Security at Scale",
+      "news_sentiment": "Bullish",
+      "classification": "PRICED IN",
+      "reason_cn": "特定生态系统的积极发展，但在当前宏观恐慌下影响微弱。",
+      "reason_en": "Positive development for a specific ecosystem, but minimal impact during current macro panic."
     }
   ],
   "fed_futures": {
     "price": 96.42,
     "implied_rate": 3.58,
-    "timestamp": "2026-01-20T17:56:42.697370+00:00",
+    "timestamp": "2026-01-20T19:52:02.630552+00:00",
     "trend": "Dovish (Rate expectations dropping)",
     "change_5d_bps": -6.0,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 157.926,
-    "timestamp": "2026-01-20T17:56:42.938117+00:00",
+    "price": 158.232,
+    "timestamp": "2026-01-20T19:52:02.711847+00:00",
     "trend": "Yen Strength (Risk Off)",
-    "change_5d_pct": -0.79,
+    "change_5d_pct": -0.59,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 98.48,
-      "change_5d_pct": -0.65,
+      "price": 98.6,
+      "change_5d_pct": -0.53,
       "trend": "Weaker (Risk On)"
     },
     "us10y": {
       "price": 4.28,
-      "change_5d_pct": 3.26,
+      "change_5d_pct": 3.45,
       "trend": "High Rising"
     },
     "vix": {
-      "price": 19.45,
-      "change_5d_pct": 21.71,
-      "trend": "Normal Rising"
+      "price": 20.95,
+      "change_5d_pct": 25.07,
+      "trend": "High Fear Rising"
     }
   },
   "coins": [
     {
       "symbol": "BTC",
-      "price": 89691.0,
-      "change_24h": -3.7722488654285624,
-      "rsi_4h": 20.792837291075912,
-      "funding_rate": 0.00488871432447,
-      "open_interest": 2792431.130000018,
+      "price": 89529.8,
+      "change_24h": -3.8142417122456926,
+      "rsi_4h": 20.232287444236633,
+      "funding_rate": 0.00555780357713,
+      "open_interest": 2799481.0200000172,
       "sentiment": "Neutral",
       "score": 35,
-      "comment_cn": "价格因宏观冲击跌破关键的9万美元支撑，RSI处于极度超卖状态（20.8）。需要宏观不确定性消退以企稳。",
-      "comment_en": "Price broke key $90K support due to macro shock; RSI is severely oversold (20.8). Requires macro uncertainty to dissipate for stabilization."
+      "comment_cn": "跌破9万美元，RSI触及极度超卖(20.2)。技术上已进入恐慌性抛售，但宏观阻力强劲，反弹将受到限制。",
+      "comment_en": "Broke $90K, RSI hit extreme oversold (20.2). In technical panic selling, but strong macro headwinds limit immediate recovery potential."
     },
     {
       "symbol": "ETH",
-      "price": 2999.2,
-      "change_24h": -6.822997247438513,
-      "rsi_4h": 19.72278144152162,
-      "funding_rate": -0.00369261692259,
-      "open_interest": 6201458.84000001,
-      "sentiment": "Neutral",
-      "score": 30,
-      "comment_cn": "跌幅最大（-6.82%），RSI最低（19.7）。负资金费率表明本地化空头压力，短期内处于技术劣势。",
-      "comment_en": "Suffered the largest drop (-6.82%) and lowest RSI (19.7). Negative funding suggests localized short pressure, technically weaker in the short term."
+      "price": 2991.42,
+      "change_24h": -7.020504834814391,
+      "rsi_4h": 19.276394188729284,
+      "funding_rate": -0.00177250949524,
+      "open_interest": 6221698.62000001,
+      "sentiment": "Bullish",
+      "score": 45,
+      "comment_cn": "跌幅最大(-7.02%)，RSI最低(19.3)。资金费率转负，为短线空头挤压创造了最佳技术条件，有望出现强劲反弹。",
+      "comment_en": "Largest drop (-7.02%), lowest RSI (19.3). Funding flipped negative, creating the best technical setup for a short-term short squeeze and strong bounce."
     },
     {
       "symbol": "SOL",
-      "price": 127.05,
-      "change_24h": -5.426529700759272,
-      "rsi_4h": 21.659395849620353,
-      "funding_rate": 0.00159215446365,
-      "open_interest": 3178671.1200000043,
-      "sentiment": "Neutral",
-      "score": 35,
-      "comment_cn": "与大盘同步下跌，RSI超卖。关注在宏观反弹时是否能快速恢复。",
-      "comment_en": "Dropped in line with majors, RSI is oversold. Watch for rapid recovery if macro sentiment improves."
+      "price": 127.19,
+      "change_24h": -5.35049858609912,
+      "rsi_4h": 21.844727049924316,
+      "funding_rate": 0.0052073563618899995,
+      "open_interest": 3188949.8200000026,
+      "sentiment": "Bearish",
+      "score": 30,
+      "comment_cn": "尽管价格暴跌，但资金费率仍为正(0.0052%)，表明多头仓位尚未完全清理，存在进一步连锁清算的风险。",
+      "comment_en": "Funding rate remains positive (0.0052%) despite the crash, indicating longs are not fully cleared, risking further cascading liquidations."
     },
     {
       "symbol": "BNB",
-      "price": 891.0,
-      "change_24h": -4.049106181348269,
-      "rsi_4h": 26.198878572190836,
-      "funding_rate": 0.0008818536533000001,
-      "open_interest": 8316377.0,
+      "price": 895.1,
+      "change_24h": -3.3890987587695607,
+      "rsi_4h": 27.607862261146124,
+      "funding_rate": -0.00054578779723,
+      "open_interest": 8287617.0,
       "sentiment": "Neutral",
       "score": 40,
-      "comment_cn": "相对抗跌，RSI（26.2）略好于其他主要资产，显示出相对韧性。",
-      "comment_en": "Relatively resilient, with RSI (26.2) slightly better than other majors, showing comparative strength."
+      "comment_cn": "相对抗跌，RSI是主要币种中最高的(27.6)。但在宏观压力下，仍需观察是否能坚守当前区间。",
+      "comment_en": "Relatively resilient with the highest RSI among majors (27.6). Must hold current range under persistent macro pressure."
     },
     {
       "symbol": "DOGE",
-      "price": 0.12389,
-      "change_24h": -4.050495662949204,
-      "rsi_4h": 23.790818725674768,
-      "funding_rate": 0.00027336235636,
-      "open_interest": 873806.8799999995,
+      "price": 0.12396,
+      "change_24h": -4.47715188410264,
+      "rsi_4h": 23.833400144963747,
+      "funding_rate": -0.00582589806958,
+      "open_interest": 878686.9899999992,
       "sentiment": "Neutral",
-      "score": 30,
-      "comment_cn": "高贝塔资产，在风险厌恶环境中受重创。极度超卖，但缺乏催化剂。",
-      "comment_en": ""
+      "score": 35,
+      "comment_cn": "负资金费率，但OI相对较低。极度超卖，技术反弹可能受宏观风险限制。",
+      "comment_en": "Negative funding but relatively lower OI. Extremely oversold, but technical bounce will be limited by macro risk."
     }
   ]
 }
