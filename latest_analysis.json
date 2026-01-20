@@ -1,103 +1,85 @@
 {
-  "timestamp": "2026-01-19T23:49:02.497840",
-  "global_summary_cn": "全球流动性状况正在收紧，表现为美元指数（DXY）走强、美债收益率（US10Y）上升以及波动率指数（VIX）抬高，这整体预示着宏观环境处于“风险规避”状态。然而，加密市场内部叙事极为乐观：现货比特币（BTC）持续获得22亿美元的ETP资金流入，Tim Draper等知名投资人预测$250K，且市场普遍认为$92K是“逢低买入”的良机。当前市场处于明显的**分歧**状态（流动性收紧但新闻利好）。价格小幅下跌（BTC -1.22%, ETH -3.02%），但多数资产接近4H RSI超卖区（30-36），显示出宏观抛压主导短期价格，但市场结构强劲，存在潜在的“买入回调”机会。投资者应密切关注核心PCE数据，警惕宏观贸易战风险可能带来的进一步去风险化抛售。",
-  "global_summary_en": "Global liquidity conditions are tightening, evidenced by a stronger DXY, rising US10Y yields, and an elevated VIX, signaling a 'Risk Off' macro environment overall. However, the internal crypto narrative is extremely optimistic: Bitcoin continues to see strong ETP inflows ($2.2B), notable investors like Tim Draper predict $250K, and the market views the current $92K level as a 'buy the dip' opportunity. The market is currently in a clear state of **Divergence** (Tight Liquidity but Good News). Prices are seeing slight dips (BTC -1.22%, ETH -3.02%), but most assets are near 4H RSI oversold territory (30-36). This suggests that macro headwinds are driving short-term price action, but the market structure remains robust, presenting a potential 'buy the dip' scenario. Investors should watch the upcoming Core PCE data closely and be wary of further de-risking driven by geopolitical trade war risks.",
+  "timestamp": "2026-01-20T03:49:35.087132",
+  "global_summary_cn": "流动性状态：全球流动性正在收紧，市场处于避险模式。\n\n宏观分析显示，尽管美联储降息预期略微鸽派（5D内下降6个基点），但实际的金融环境却在收紧。美元指数（DXY）走强，十年期美债收益率上升，VIX波动率增加，以及日元走强（解除套利交易）共同构成了风险关闭环境。地缘政治风险，如特朗普的关税威胁，进一步打压了亚洲市场的风险情绪。\n\n加密叙事方面，消息面极其乐观，包括Glassnode声称内部状况改善，比特币坚守92K支撑位，以及ETP流入22亿美元的强劲资本需求。L2技术（MegaETH）进展迅速也提振了以太坊的叙事。然而，市场（BTC/ETH 24h微跌）未能对这些利好做出积极反应，形成了典型的“利好与紧缩宏观流动性”的**背离**。\n\n结论：市场处于结构性背离阶段。在宏观阻力解除之前，当前的价格弹性显示为“定价已反映”或“逢高抛售”的风险。短期来看，技术面RSI处于超卖边缘，但需警惕宏观抛压。",
+  "global_summary_en": "Liquidity Status: Global liquidity is tightening, pushing the market into risk-off mode.\n\nMacro analysis indicates that despite slightly dovish Fed rate expectations (down 6.0 bps in 5D), actual financial conditions are tightening. The strengthening DXY, rising US 10-year yield, increasing VIX, and Yen strength (carry trade unwinding) collectively create a Risk Off environment. Geopolitical risks, such as Trump's tariff threats, further subdue risk sentiment in Asia.\n\nThe crypto narrative is highly bullish, driven by Glassnode's report of improving internal conditions, Bitcoin holding the $92K support, and strong institutional demand signaled by $2.2 billion in ETP inflows. Ethereum's L2 progress (MegaETH) also boosts its fundamental story. However, the market (BTC/ETH 24h minor drop) failed to react positively to this good news, creating a classic **Divergence** between strong narratives and tightening macro liquidity.\n\nConclusion: The market is in a structural divergence phase. Until macro headwinds subside, the current price resilience suggests a risk of positive news being 'Priced In' or a 'Sell the Rally' scenario. Technically, RSI is nearing oversold levels, but investors must remain cautious of macro-driven selling pressure.",
   "news_analysis": [
     {
-      "title_cn": "关税和人工智能的负面影响是全球企业面临的主要风险，世界经济论坛称",
-      "title_en": "Tariffs and AI's downside pose top global risks for business, World Economic Forum says",
-      "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "地缘政治和经济不确定性增加，直接加剧了全球去风险情绪（Risk Off），对高风险资产不利。",
-      "reason_en": "Increases geopolitical and economic uncertainty, directly fueling global de-risking sentiment (Risk Off), negative for high-risk assets.",
-      "title_en_truncated": "Tariffs and AI's downside pose top global risks for business, World Economic Forum says"
+      "title_cn": "中国维持基准贷款利率不变，尽管经济增长放缓",
+      "title_en": "China keeps benchmark lending rates unchanged despite slowing economic growth",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "虽然暗示经济疲软，但未采取紧缩措施，对全球流动性的直接影响中性。",
+      "reason_en": "Implies weak economic demand but avoids explicit tightening measures. Neutral direct impact on global liquidity.",
+      "source": "Macro / Calendar"
     },
     {
-      "title_cn": "特朗普称，如果格陵兰不卖给美国，八个欧洲国家将面临关税上涨至25%的威胁",
-      "title_en": "Trump says 8 European nations face tariffs rising to 25% if Greenland isn't sold to the U.S.",
+      "title_cn": "亚洲市场表现低迷，因特朗普的关税威胁对风险情绪构成压力",
+      "title_en": "Asia markets trade subdued as Trump’s Greenland-linked tariff threats weigh on risk sentiment",
       "news_sentiment": "Bearish",
       "classification": "IMPULSE",
-      "reason_cn": "强烈的地缘政治摩擦和贸易战风险，直接利空全球市场情绪，导致资金流向安全资产。",
-      "reason_en": "Severe geopolitical friction and trade war risks, directly bearish for global market sentiment, causing flows toward safe haven assets.",
-      "title_en_truncated": "Trump says 8 European nations face tariffs rising to 25% if Greenland isn't sold to the U.S."
+      "reason_cn": "直接的地缘政治和贸易摩擦，强化了宏观环境的避险倾向（与DXY走强一致）。",
+      "reason_en": "Direct geopolitical and trade friction, reinforcing the Risk Off macro environment (consistent with DXY strength).",
+      "source": "Macro / Calendar"
     },
     {
-      "title_cn": "比特币在$92K显示出韧性，但底部是否已确定？",
-      "title_en": "Bitcoin shows strength at $92K, but is the bottom in?",
+      "title_cn": "比特币的“内部状况”正在改善：Glassnode",
+      "title_en": "Bitcoin’s ‘internal conditions’ are improving: Glassnode",
       "news_sentiment": "Bullish",
       "classification": "PRICED IN",
-      "reason_cn": "市场对关键支撑位$92K的普遍共识，反映了逢低买入的心态，但价格跌幅显示宏观抛压仍存。",
-      "reason_en": "General consensus on the key support level of $92K reflects a buy-the-dip mentality, but the price drop suggests macro pressure persists.",
-      "title_en_truncated": "Bitcoin shows strength at $92K, but is the bottom in?"
+      "reason_cn": "积极的链上指标，但价格未能上涨，显示乐观情绪可能已在现有价格中消化，或被宏观阻力压制。",
+      "reason_en": "Positive on-chain metrics, but price failed to lift, suggesting optimism is priced into the current level or suppressed by macro friction.",
+      "source": "Crypto News"
     },
     {
-      "title_cn": "加密ETP获得$2.2B流入，比特币占据主导地位",
+      "title_cn": "加密 ETP 势头强劲，流入 22 亿美元，比特币主导涨幅",
       "title_en": "Crypto ETPs gather steam with $2.2B inflows, Bitcoin dominates gains",
       "news_sentiment": "Bullish",
       "classification": "DIVERGENCE",
-      "reason_cn": "强劲的机构资金流入是长期基本面利好，但未能阻止短期价格下跌，表明宏观流动性紧缩的影响更大。",
-      "reason_en": "Strong institutional inflows are a long-term bullish fundamental, but failure to stop short-term price drop indicates macro liquidity tightening has a greater immediate effect.",
-      "title_en_truncated": "Crypto ETPs gather steam with $2.2B inflows, Bitcoin dominates gains"
+      "reason_cn": "强大的机构资金流入是基本面强劲信号。然而，价格停滞或下跌（-0.19%）与强劲流入形成背离，暗示宏观抛售压力巨大。",
+      "reason_en": "Strong signal of institutional capital flow and fundamental strength. Price stagnation/drop (-0.19%) despite huge inflows signals significant macro selling pressure (Divergence).",
+      "source": "Crypto News"
     },
     {
-      "title_cn": "Tokenized Assets突破$21B，RWA在2026年早期展示实力",
-      "title_en": "Tokenized Assets Cross $21B as RWAs Flex Early Muscle in 2026",
+      "title_cn": "以太坊 L2 MegaETH 在‘全球压力测试’前达到 47K TPS 的峰值",
+      "title_en": "Ethereum L2 MegaETH peaks at 47K TPS ahead of ‘global stress test’",
       "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "利好以太坊的技术进展，直接支持其作为可扩展平台的叙事。",
+      "reason_en": "Positive technical progress for Ethereum, directly supporting its narrative as a scalable platform.",
+      "source": "Crypto News"
+    },
+    {
+      "title_cn": "彼得·希夫认为比特币正在为大崩盘做准备，因为美元崩溃迫在眉睫",
+      "title_en": "Peter Schiff Sees Bitcoin Setting up for Major Crash as Dollar Collapse Looms",
+      "news_sentiment": "Bearish",
       "classification": "NEUTRAL",
-      "reason_cn": "积极的链上采用指标和新的叙事，支持行业长期增长，但短期价格影响中性。",
-      "reason_en": "Positive on-chain adoption metric and new narrative supporting long-term industry growth, but neutral for immediate price action.",
-      "title_en_truncated": "Tokenized Assets Cross $21B as RWAs Flex Early Muscle in 2026"
+      "reason_cn": "Schiff的观点是长期看空的标准叙事，对短期市场驱动力较弱。",
+      "reason_en": "Standard long-term bearish narrative from Schiff; weak short-term market driver.",
+      "source": "Crypto News"
     },
     {
-      "title_cn": "Tim Draper再次重仓押注，称比特币六个月内达到$250K",
-      "title_en": "Tim Draper Bets Big Again, Calls $250K Bitcoin in Six Months",
-      "news_sentiment": "Bullish",
-      "classification": "NEUTRAL",
-      "reason_cn": "高调的看涨预测提振市场情绪，但属于观点新闻，不构成即时交易信号。",
-      "reason_en": "High-profile bullish prediction boosts sentiment but is opinion-based news, not an immediate trading signal.",
-      "title_en_truncated": "Tim Draper Bets Big Again, Calls $250K Bitcoin in Six Months"
-    },
-    {
-      "title_cn": "Vitalik呼吁'垃圾回收'功能以阻止以太坊膨胀",
-      "title_en": "Vitalik calls for a ‘garbage collection’ function to stop Ethereum bloat",
-      "news_sentiment": "Bullish",
-      "classification": "NEUTRAL",
-      "reason_cn": "显示以太坊社区持续关注技术优化和可持续性，支持其长期基本面。",
-      "reason_en": "Shows continued focus on technical optimization and sustainability within the Ethereum community, supporting its long-term fundamentals.",
-      "title_en_truncated": "Vitalik calls for a ‘garbage collection’ function to stop Ethereum bloat"
-    },
-    {
-      "title_cn": "为什么以太坊的'弃走测试'和量子准备比以往任何时候都更重要",
-      "title_en": "Why Ethereum’s ‘walkaway test’ and quantum readiness matter more than ever",
-      "news_sentiment": "Bullish",
-      "classification": "NEUTRAL",
-      "reason_cn": "强调ETH的长期技术韧性，是对生态系统未来安全的积极信号。",
-      "reason_en": "Highlights ETH's long-term technical resilience, a positive signal for the future security of the ecosystem.",
-      "title_en_truncated": "Why Ethereum’s ‘walkaway test’ and quantum readiness matter more than ever"
-    },
-    {
-      "title_cn": "为什么以太坊价格保持在$3,000以上仍看涨的三个理由",
-      "title_en": "Three reasons Ether price remains bullish above $3,000",
-      "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "市场普遍乐观，但ETH价格正在下跌并测试$3,192的支撑，显示宏观抛售暂时压倒了技术乐观情绪。",
-      "reason_en": "General market optimism, but ETH price is dropping and testing support at $3,192, indicating macro selling temporarily outweighs technical optimism.",
-      "title_en_truncated": "Three reasons Ether price remains bullish above $3,000"
+      "title_cn": "1万美元比特币之路：策略师警告未能守住10万美元预示终局风险",
+      "title_en": "$10K Bitcoin Path: Strategist Warns Failure to Hold $100K Signals End-Game Risk",
+      "news_sentiment": "Bearish",
+      "classification": "IMPULSE",
+      "reason_cn": "在高位盘整阶段，针对关键心理价位（$100K）的明确警告，增加了投资者的谨慎情绪。",
+      "reason_en": "Specific warning tied to a major psychological level ($100K) during consolidation, increasing investor caution.",
+      "source": "Crypto News"
     }
   ],
   "fed_futures": {
-    "price": 96.415,
-    "implied_rate": 3.585,
-    "timestamp": "2026-01-19T23:48:43.798297+00:00",
+    "price": 96.42,
+    "implied_rate": 3.58,
+    "timestamp": "2026-01-20T03:49:15.865388+00:00",
     "trend": "Dovish (Rate expectations dropping)",
-    "change_5d_bps": -5.5,
+    "change_5d_bps": -6.0,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 158.159,
-    "timestamp": "2026-01-19T23:48:43.854020+00:00",
-    "trend": "Neutral",
-    "change_5d_pct": 0.11,
+    "price": 157.961,
+    "timestamp": "2026-01-20T03:49:15.916740+00:00",
+    "trend": "Yen Strength (Risk Off)",
+    "change_5d_pct": -0.77,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
@@ -120,63 +102,63 @@
   "coins": [
     {
       "symbol": "BTC",
-      "price": 92699.7,
-      "change_24h": -1.222627017776797,
-      "rsi_4h": 35.03416916448849,
-      "funding_rate": 0.00623466621819,
-      "open_interest": 2538379.0500000175,
-      "sentiment": "Bullish",
-      "score": 75,
-      "comment_cn": "虽然受宏观影响下跌，但机构流入强劲，RSI超卖。显示逢低买入强劲，继续关注$92K支撑。",
-      "comment_en": "Dipped due to macro pressure, but strong institutional inflows and oversold RSI suggest strong accumulation. Watch $92K support."
+      "price": 92468.3,
+      "change_24h": -0.19385220819898916,
+      "rsi_4h": 33.51351407948293,
+      "funding_rate": 0.00851496565902,
+      "open_interest": 2591319.6200000173,
+      "sentiment": "Neutral",
+      "score": 60,
+      "comment_cn": "宏观流动性紧缩与强劲的ETP流入形成背离。RSI接近超卖区域，技术上存在反弹需求，但价格在92K横盘，面临突破95K的阻力。",
+      "comment_en": "Divergence between macro liquidity tightening and strong ETP inflows. RSI nears oversold territory, suggesting technical bounce potential, but price is consolidating around $92K, facing resistance above $95K."
     },
     {
       "symbol": "ETH",
-      "price": 3192.61,
-      "change_24h": -3.0226723205715396,
-      "rsi_4h": 36.604964368337455,
-      "funding_rate": -0.00226116144765,
-      "open_interest": 5612508.0600000145,
-      "sentiment": "Neutral",
+      "price": 3190.41,
+      "change_24h": -0.5978938185443686,
+      "rsi_4h": 36.468832041145895,
+      "funding_rate": 0.00357043581658,
+      "open_interest": 5718703.430000016,
+      "sentiment": "Cautious Bullish",
       "score": 65,
-      "comment_cn": "跌幅大于BTC，且资金费率为负。技术叙事积极，但短期承压，需警惕短期做空风险。",
-      "comment_en": "Underperforming BTC with negative funding rate. Positive tech narrative but short-term pressure suggests caution against short risk."
+      "comment_cn": "技术面RSI处于低位，L2利好消息提振基本面叙事。虽然短期受宏观影响下跌，但$3,000上方的支撑稳固。",
+      "comment_en": "Technical RSI is low, and positive L2 news boosts the fundamental narrative. While slightly down due to macro factors, support remains firm above $3,000."
     },
     {
       "symbol": "SOL",
-      "price": 133.69,
-      "change_24h": -3.4798931485091287,
-      "rsi_4h": 30.066717513599613,
-      "funding_rate": -0.0022193767190600002,
-      "open_interest": 3127832.4000000036,
-      "sentiment": "Neutral",
-      "score": 55,
-      "comment_cn": "跌幅最大，RSI接近超卖（30.1），资金费率负，波动性高。投机性买入机会，但风险最高。",
-      "comment_en": "Largest drop, near oversold RSI (30.1) and negative funding. High volatility and highest risk. Speculative 'buy the dip' territory."
+      "price": 134.54,
+      "change_24h": 0.4779686333084289,
+      "rsi_4h": 34.45838282788357,
+      "funding_rate": 0.00201765393266,
+      "open_interest": 3152045.600000004,
+      "sentiment": "Bullish",
+      "score": 70,
+      "comment_cn": "在整体市场微跌时表现出相对强势，RSI接近超卖。在风险偏好暂时回落时，显示出一定的韧性。",
+      "comment_en": "Showed relative strength while the broader market dipped slightly, with RSI nearing oversold. Demonstrates resilience during temporary risk-off periods."
     },
     {
       "symbol": "BNB",
-      "price": 924.7,
-      "change_24h": -1.1333262054955533,
-      "rsi_4h": 41.84801847917199,
-      "funding_rate": 0.01,
-      "open_interest": 8536400.0,
+      "price": 928.6,
+      "change_24h": 0.5413598960588999,
+      "rsi_4h": 45.812133380650316,
+      "funding_rate": -0.00707544001629,
+      "open_interest": 8600860.0,
       "sentiment": "Bullish",
-      "score": 80,
-      "comment_cn": "表现相对强劲，跌幅小，RSI健康，资金费率高。显示出内部基本面和平台需求稳定。",
-      "comment_en": "Relatively strong performance, small drop, healthy RSI, high funding. Demonstrates stable internal fundamentals and platform demand."
+      "score": 75,
+      "comment_cn": "价格上涨，且资金费率为负（空头拥挤）。具备潜在的轧空动能，短期技术表现强劲。",
+      "comment_en": "Price moved positively while funding remains negative (crowded shorts). Potential for a short squeeze, indicating strong short-term technical performance."
     },
     {
       "symbol": "DOGE",
-      "price": 0.1294,
-      "change_24h": -1.8283893483043951,
-      "rsi_4h": 33.05455875262665,
-      "funding_rate": -0.0005894822206,
-      "open_interest": 852233.3299999991,
-      "sentiment": "Neutral",
-      "score": 40,
-      "comment_cn": "完全跟随风险资产情绪，RSI超卖。缺乏独立叙事，需等待市场整体风险偏好改善。",
-      "comment_en": "Fully tracking risk sentiment, RSI oversold. Lacks independent narrative; requires broader market risk appetite improvement."
+      "price": 0.12824,
+      "change_24h": 0.7700770077007549,
+      "rsi_4h": 30.884156944984653,
+      "funding_rate": 0.0031617791417700002,
+      "open_interest": 854275.3299999991,
+      "sentiment": "Technical Bullish",
+      "score": 55,
+      "comment_cn": "RSI位于30.9，处于超卖状态。虽然风险资产环境不佳，但技术超卖有望引发短期反弹。",
+      "comment_en": "RSI is at 30.9, deeply oversold. Despite poor risk asset conditions, the technical oversold status suggests potential for a short-term relief rally."
     }
   ]
 }
