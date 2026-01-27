@@ -1,36 +1,76 @@
 {
-  "timestamp": "2026-01-27T04:16:47.120784",
-  "global_summary_cn": "流动性状态：宽松且风险偏好上升。宏观层面，全球流动性环境正在改善。美联储利率预期下降，美元指数(DXY)和美国10年期国债收益率均呈下降趋势，这为风险资产提供了强劲的支撑。市场正从近期低点反弹。\n\n叙事层面，消息面喜忧参半，但积极信号占上风：MicroStrategy的Michael Saylor在市场抛售期间买入大量比特币，确立了机构支撑。同时，有报道指出以太坊与有利的全球流动性信号相关联，进一步提振了情绪。尽管稳定币流出和黄金创新高表明部分资金仍倾向于避险，但流动性宽松与关键的机构买入形成了“逢低买入”的结构性背离。预计在流动性持续放松的背景下，市场将继续震荡走高。",
-  "global_summary_en": "Liquidity Status: Loosening and Risk-On. The macro liquidity environment is improving significantly. The trend of falling Fed rate expectations, a weaker DXY, and decreasing US 10-year yields provide strong tailwinds for risk assets. The market is currently bouncing off recent lows.\n\nThe narrative layer is mixed but leaning positive: Institutional support is confirmed by Michael Saylor's substantial Bitcoin purchase during the sell-off. Furthermore, specific news links Ethereum’s potential for a 200% gain to the current favorable global liquidity signal. While stablecoin outflows and Gold hitting records suggest some capital remains cautious, the combination of loose liquidity and critical institutional buying creates a structural \"Buy the Dip\" divergence. We expect continued upward volatility supported by macro easing.",
+  "timestamp": "2026-01-27T08:17:25.269510",
+  "global_summary_cn": "流动性状况：宽松。宏观信号显示全球资金水龙头正在打开。美联储降息预期下降（鸽派），美元指数和美债收益率均下跌，VIX指数也处于低位，这些都是明确的“风险偏好”信号。尽管日元近期走强带来一丝不确定性，但整体宏观环境对风险资产极其有利。叙事层面，消息面喜忧参半。负面消息包括地缘政治紧张局势（关税威胁）和投资者情绪冷却，以及黄金创纪录高位对BTC避险叙事的挑战。然而，基本面支撑强劲：微策略（Saylor）战略性买入比特币，以太坊流动性信号闪烁，以及Chainlink在RWA领域的积极进展。当前市场处于“宽松流动性 + 负面情绪”的背离状态，这意味着市场正在经历一次逢低买入的积累阶段。预计随着流动性传导，价格将突破近期阻力。",
+  "global_summary_en": "Liquidity Status: Loose. Macro signals indicate that global money taps are opening. Falling Fed rate expectations (Dovish), declining DXY and US Treasury yields, and a subsiding VIX all point to a clear \"Risk On\" environment. Although recent Yen strength introduces minor caution, the overall macro context is highly favorable for risk assets. The narrative layer is mixed. Negative news includes geopolitical tensions (tariff threats) and cooling investor sentiment, along with gold hitting record highs challenging BTC's inflation hedge narrative. However, fundamental support is strong: Michael Saylor strategically bought BTC, a major global liquidity signal flashed for ETH, and Chainlink made positive strides in the RWA space. The market is currently in a \"Loose Liquidity + Negative Sentiment\" divergence, suggesting an accumulation phase characterized by \"Buy the Dip.\" Prices are expected to rise as the liquidity impulse fully transmits.",
   "news_analysis": [
     {
-      "title_cn": "TikTok反弹推动鲜为人知的澳大利亚社交应用突然飙升",
-      "title_en": "TikTok Backlash Fuels Sudden Surge in Little-Known Australian Social App",
-      "news_sentiment": "Neutral",
+      "title_cn": "比特币投资者情绪在美国停摆担忧和美联储政策紧张局势中降温",
+      "title_en": "Bitcoin investor sentiment cools amid US shutdown fears, Fed policy jitters",
+      "news_sentiment": "Bearish",
+      "classification": "DIVERGENCE",
+      "reason_cn": "情绪冷却与宽松的宏观流动性环境（DXY和10Y下降）形成背离。这是机构逢低买入（如Saylor）而散户 FUD 的典型信号。",
+      "reason_en": "Cooling sentiment diverges from the loose macro liquidity environment (falling DXY and 10Y). This is a classic sign of institutional accumulation (e.g., Saylor) while retail FUD remains."
+    },
+    {
+      "title_cn": "迈克尔·赛勒的策略在市场抛售中购买了2,932枚比特币",
+      "title_en": "Michael Saylor’s Strategy buys 2,932 Bitcoin amid market sell-off",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "机构在价格疲软时进行战略性积累，确认了当前的支撑位和长期看涨的信念。",
+      "reason_en": "Strategic accumulation by institutions during price weakness confirms the current support level and long-term bullish conviction."
+    },
+    {
+      "title_cn": "上一次全球流动性信号闪烁时，以太坊价格上涨了200%",
+      "title_en": "Ether price gained 200% the last time this global liquidity signal flashed",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "直接将当前的宽松流动性环境与ETH的潜在强劲表现联系起来，为ETH提供了有力的看涨催化剂。",
+      "reason_en": "Directly links the current loose liquidity environment to potential strong ETH performance, providing a strong bullish catalyst for Ethereum."
+    },
+    {
+      "title_cn": "黄金触及5000美元以上的历史新高，与比特币进一步分化",
+      "title_en": "Gold hits record high over $5K, further diverging from Bitcoin",
+      "news_sentiment": "Bearish",
+      "classification": "DIVERGENCE",
+      "reason_cn": "比特币作为数字黄金和通胀对冲工具的叙事受到挑战，表明资金更多地流向传统避险资产。",
+      "reason_en": "Challenges the narrative of BTC as digital gold and an inflation hedge, suggesting flows are favoring traditional safe-haven assets currently."
+    },
+    {
+      "title_cn": "Chainlink 开启了对美国股票的 24/5 链上访问",
+      "title_en": "Chainlink Unlocks Onchain Access to US Stocks 24/5",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "大力推动现实世界资产（RWA）代币化，增强了DeFi的基础设施效用和市场整合潜力。",
+      "reason_en": "A major push into Real World Assets (RWA) tokenization, enhancing DeFi infrastructure utility and potential market integration."
+    },
+    {
+      "title_cn": "韩国在美国投资法案方面陷入困境，此前特朗普威胁提高关税",
+      "title_en": "South Korea scrambles to pass U.S. investment bill after Trump threatens higher tariffs",
+      "news_sentiment": "Bearish",
       "classification": "NEUTRAL",
-      "reason_cn": "对TikTok宏观故事的微小特定效应。",
-      "reason_en": "Minor specific effect of the TikTok macro story."
+      "reason_cn": "宏观地缘政治风险，但主要影响传统市场和特定行业，对加密货币的直接影响较弱。",
+      "reason_en": "Macro geopolitical risk, but primarily affects traditional markets and specific sectors, having a weak direct impact on crypto."
     }
   ],
   "fed_futures": {
     "price": 96.435,
     "implied_rate": 3.565,
-    "timestamp": "2026-01-27T04:16:24.096874+00:00",
+    "timestamp": "2026-01-27T08:17:06.643561+00:00",
     "trend": "Dovish (Rate expectations dropping)",
     "change_5d_bps": -7.5,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 154.545,
-    "timestamp": "2026-01-27T04:16:24.214257+00:00",
+    "price": 154.716,
+    "timestamp": "2026-01-27T08:17:06.694869+00:00",
     "trend": "Yen Strength (Risk Off)",
-    "change_5d_pct": -2.29,
+    "change_5d_pct": -2.18,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 97.07,
-      "change_5d_pct": -1.71,
+      "price": 97.2,
+      "change_5d_pct": -1.18,
       "trend": "Weaker (Risk On)"
     },
     "us10y": {
@@ -40,70 +80,70 @@
     },
     "vix": {
       "price": 16.15,
-      "change_5d_pct": -19.61,
+      "change_5d_pct": -4.44,
       "trend": "Normal Subsiding"
     }
   },
   "coins": [
     {
       "symbol": "BTC",
-      "price": 88850.9,
-      "change_24h": 1.5485279327054884,
-      "rsi_4h": 50.52395365708903,
-      "funding_rate": 0.00234095713737,
-      "open_interest": 2506556.9700000104,
+      "price": 88373.8,
+      "change_24h": 0.5711723543021248,
+      "rsi_4h": 46.40283386215243,
+      "funding_rate": 0.00701148311866,
+      "open_interest": 2523628.9500000114,
       "sentiment": "Bullish",
       "score": 75,
-      "comment_cn": "受益于宽松的宏观流动性和Michael Saylor的机构买入支撑。88k区域具有强劲的底部支撑。",
-      "comment_en": "Benefiting from loose macro liquidity and institutional support from Michael Saylor's buying. Strong floor established around the $88k zone."
+      "comment_cn": "处于积累阶段。流动性宽松和 Saylor 购买提供了坚实的结构性支持，预计将测试更高阻力。",
+      "comment_en": "In an accumulation phase. Loose liquidity and Saylor buying provide strong structural support; expected to test higher resistance."
     },
     {
       "symbol": "ETH",
-      "price": 2952.79,
-      "change_24h": 3.2852140880837557,
-      "rsi_4h": 52.40434454259543,
-      "funding_rate": 0.00453134964094,
-      "open_interest": 5811956.310000011,
-      "sentiment": "Strongly Bullish",
-      "score": 85,
-      "comment_cn": "在主要资产中表现最佳（+3.29%），并有新闻直接将价格前景与当前的全球流动性信号挂钩。基本面和动量强劲。",
-      "comment_en": "Best performer among majors (+3.29%), with news directly linking price prospects to current global liquidity signals. Strong fundamentals and momentum."
+      "price": 2930.2,
+      "change_24h": 1.0765818440215398,
+      "rsi_4h": 48.184238738061914,
+      "funding_rate": 0.006752628262880001,
+      "open_interest": 5868665.65000001,
+      "sentiment": "Bullish",
+      "score": 80,
+      "comment_cn": "受益于明确的全球流动性催化剂，可能在牛市中引领表现。基本面强劲。",
+      "comment_en": "Benefiting from explicit global liquidity catalysts and positioned to lead performance in this upswing. Strong fundamentals."
     },
     {
       "symbol": "SOL",
-      "price": 124.94,
-      "change_24h": 2.116877809562733,
-      "rsi_4h": 47.442311909371014,
-      "funding_rate": 0.00308037585703,
-      "open_interest": 3036961.170000005,
-      "sentiment": "Neutral",
-      "score": 60,
-      "comment_cn": "跟随大盘上涨，但RSI相对较低，且缺乏独特的利好叙事驱动。表现稳健，但略逊于BTC和ETH。",
-      "comment_en": "Following the broader market recovery. RSI is relatively lower, lacking a unique bullish narrative driver. Solid performance, but slightly lagging BTC and ETH."
+      "price": 124.74,
+      "change_24h": 1.9784172661870518,
+      "rsi_4h": 46.813344056985265,
+      "funding_rate": 0.00309933687987,
+      "open_interest": 3048866.690000004,
+      "sentiment": "Bullish",
+      "score": 78,
+      "comment_cn": "高风险贝塔资产正在引领反弹，显示市场风险偏好回归。",
+      "comment_en": "High-beta asset leading the recovery, indicating renewed risk appetite across the market."
     },
     {
       "symbol": "BNB",
-      "price": 887.8,
-      "change_24h": 2.092916283348658,
-      "rsi_4h": 54.45019786141414,
-      "funding_rate": 0.00794829961521,
-      "open_interest": 7996483.0,
+      "price": 884.3,
+      "change_24h": 1.2595900606893393,
+      "rsi_4h": 51.47606334882416,
+      "funding_rate": 0.00830538870375,
+      "open_interest": 8047204.0,
       "sentiment": "Bullish",
-      "score": 70,
-      "comment_cn": "价格表现和资金费率高企，表明生态系统内部需求旺盛。在牛市中通常具有韧性。",
-      "comment_en": "Strong price action and high funding rates indicate robust demand within its native ecosystem. Typically resilient in risk-on environments."
+      "score": 72,
+      "comment_cn": "稳定表现，高资金费率和高未平仓合约显示内部力量和基础设施信心。",
+      "comment_en": "Stable performance with high funding/OI suggesting underlying strength and infrastructure confidence."
     },
     {
       "symbol": "DOGE",
-      "price": 0.12327,
-      "change_24h": 1.2235178190179055,
-      "rsi_4h": 49.304736768271255,
-      "funding_rate": 0.0062521854819400004,
-      "open_interest": 835383.9999999998,
+      "price": 0.12237,
+      "change_24h": 0.7990115321252163,
+      "rsi_4h": 45.28363582474343,
+      "funding_rate": 0.0080176448779,
+      "open_interest": 836444.7899999997,
       "sentiment": "Neutral",
-      "score": 55,
-      "comment_cn": "波动性较小，涨幅相对落后于蓝筹股。其表现主要取决于整体市场风险情绪的提升。",
-      "comment_en": "Lower volatility and lagging returns compared to blue-chips. Performance depends primarily on broad market risk appetite improving."
+      "score": 65,
+      "comment_cn": "跟随市场上涨，但势头相对较弱。缺乏直接催化剂。",
+      "comment_en": "Following the market upward but with comparatively weaker momentum. Lacks direct catalysts."
     }
   ]
 }
