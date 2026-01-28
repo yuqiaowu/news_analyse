@@ -1,76 +1,164 @@
 {
-  "timestamp": "2026-01-28T08:21:25.034997",
-  "global_summary_cn": "宏观流动性信号复杂，美元指数（DXY）和10年期美债收益率下降，通常利好风险资产（风险偏好）。然而，日元近期大幅走强（USD/JPY 5日内下跌3.73%）暗示着潜在的避险情绪或套利交易平仓压力，这在全球流动性中构成了阻力。尽管宏观存在谨慎情绪，加密新闻叙事却异常强劲：企业采用（Steak ‘n Shake增持比特币）和机构布局（Bitwise拟议Uniswap ETF）是主要驱动力。分析师亚瑟·海耶斯关于美联储可能介入支持日本债券从而释放流动性的论断，为比特币提供了强大的长期叙事支撑。当前市场处于“新闻驱动的弹性”状态，正在消化宏观阻力，整体倾向于在任何回调中寻找买入机会，多头目标直指95,000美元期权到期价格。",
-  "global_summary_en": "Macro liquidity signals are mixed. The weakening DXY and falling US 10Y yield typically support risk assets (Risk On). However, the significant recent strengthening of the Yen (USD/JPY dropping 3.73% in 5 days) suggests potential risk-off sentiment or the unwinding of the carry trade, acting as a global drag. Despite this macro caution, the crypto news narrative is overwhelmingly bullish: corporate adoption (Steak ‘n Shake increasing BTC reserves) and institutional maneuvering (Bitwise's proposed Uniswap ETF) are key drivers. Arthur Hayes' thesis regarding the Fed potentially backstopping Japanese bonds and boosting Bitcoin provides a powerful long-term liquidity narrative. The current market is in a state of 'News-Driven Resilience,' absorbing macro headwinds. The overall bias is to buy the dips, with strong momentum aiming for the $95,000 options expiry target.",
+  "timestamp": "2026-01-28T12:22:04.649548",
+  "global_summary_cn": "流动性状态：全球流动性略微宽松，风险偏好适度。DXY和美国10年期国债收益率的下跌为风险资产提供了温和的支撑。然而，日元快速走强（USD/JPY 5日跌幅较大）表明套利交易可能正在解除，这引入了潜在的宏观不稳定因素，需要保持警惕。\n\n叙事方面，加密市场极其乐观。所有焦点都集中在比特币突破9万美元和以太坊的强劲基本面（AI Agent标准即将上线）。机构资金流入报告（来自美国券商）和企业采用（Steak ‘n Shake）正在提供直接的看涨推动力。市场表现出强劲的上涨冲动，看涨叙事完全压倒了宏观经济中关于裁员和高利率导致的住房需求疲软的负面信号。整体市场结构稳固，短期看涨趋势明确。",
+  "global_summary_en": "Liquidity Status: Global liquidity is slightly easing, providing moderate risk appetite. The falling DXY and US 10-Year Treasury yields offer a gentle tailwind for risk assets. However, rapid Yen strength (significant 5-day drop in USD/JPY) suggests potential unwinding of the carry trade, introducing a structural macro risk that warrants caution.\n\nThe narrative layer is highly bullish. The market is focused squarely on Bitcoin breaking $90K and Ethereum's strong fundamentals (AI agent standard coming soon). Reports of institutional inflows (US wirehouses) and corporate adoption (Steak ‘n Shake) provide direct bullish momentum. Price action shows strong impulsive buying, with the bullish narrative fully overshadowing negative macro signals regarding job cuts and weakening housing demand due to high rates. The overall market structure is robust, and the short-term trajectory is clearly upward.",
   "news_analysis": [
     {
-      "title_cn": "亚瑟·海耶斯：美联储支持日本债券的举措可能提振比特币",
-      "title_en": "A Fed move to backstop Japan bonds could boost Bitcoin: Arthur Hayes",
+      "title_cn": "在有报道称美国券商资金涌入之际，比特币ETF 8.6万美元的盈亏平衡点成为焦点",
+      "title_en": "Bitcoin ETF $86K break-even level in focus amid US wirehouse influx reports",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "这一消息来自有影响力的分析师，直接将全球宏观流动性（日本央行/美联储）与比特币的潜在上涨联系起来，为流动性宽松的未来提供了强大的叙事基础。",
-      "reason_en": "This news, coming from an influential analyst, directly links global macro liquidity (BOJ/Fed interaction) to potential BTC upside, providing a strong narrative foundation for future liquidity expansion."
+      "reason_cn": "美国主要券商报告的流入证实了新鲜的机构资金正在进入，这是直接推高价格的催化剂。",
+      "reason_en": "Reported inflows from major US wirehouses confirm fresh institutional capital entering the market, acting as a direct catalyst pushing prices higher."
     },
     {
-      "title_cn": "Steak ‘n Shake将比特币敞口增加到1500万美元，扩大战略储备",
-      "title_en": "Steak ‘n Shake Increases Bitcoin Exposure to $15 Million, Expands Strategic Reserve",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "这是企业持续采用的明确信号，将比特币视为战略资产，直接增强了企业资产负债表（MicroStrategy效应）的叙事，具有即时积极影响。",
-      "reason_en": "A clear signal of continuous corporate adoption, treating Bitcoin as a strategic asset. This directly reinforces the corporate balance sheet narrative (MicroStrategy effect) and has an immediate positive impact."
-    },
-    {
-      "title_cn": "本周108亿美元比特币期权将到期：多头是否会在到期后追逐95K美元？",
-      "title_en": "$10.8B in Bitcoin options expire this week: Will bulls chase $95K after expiry?",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "期权到期事件是短期内重要的价格催化剂。文章强调了95,000美元的关键目标，表明市场预期短期内将出现高波动性和多头挤压。",
-      "reason_en": "The options expiry event is a significant short-term price catalyst. The article highlights the crucial $95,000 target, suggesting high volatility and potential bullish pursuit in the near term."
-    },
-    {
-      "title_cn": "上市公司增加比特币持有量，尽管价格处于区间波动",
-      "title_en": "Public companies increase Bitcoin holdings despite range-bound prices",
+      "title_cn": "在FOMC会议前比特币瞄准9万美元：关注接下来的这些BTC价格水平",
+      "title_en": "Bitcoin eyes $90K ahead of FOMC: Watch these BTC price levels next",
       "news_sentiment": "Bullish",
       "classification": "PRICED IN",
-      "reason_cn": "确认了持续的机构积累趋势。尽管这是积极的，但由于这种趋势一直在发生，因此其影响被视为‘已定价’，它提供了支撑而非新的价格爆发力。",
-      "reason_en": "Confirms the ongoing institutional accumulation trend. While positive, the impact is considered 'priced in' since this trend is continuous, providing support rather than new explosive pricing power."
+      "reason_cn": "市场价格已经达到8.99万美元，这条新闻正在确认短期目标，但价格走势已经反映了这一预期。",
+      "reason_en": "The market is already trading near $89.9K. This news confirms the immediate target, but the price action has already reflected this expectation."
     },
     {
-      "title_cn": "Bitwise在潜在备案的早期步骤中注册Uniswap ETF信托",
-      "title_en": "Bitwise Registers Uniswap ETF Trust in Early Step Toward Potential Filing",
+      "title_cn": "美联储为日本债券提供支持的举措可能提振比特币：Arthur Hayes",
+      "title_en": "A Fed move to backstop Japan bonds could boost Bitcoin: Arthur Hayes",
+      "news_sentiment": "Bullish",
+      "classification": "NEUTRAL",
+      "reason_cn": "这是一个基于未来宏观流动性干预的结构性看涨论点，而不是即时的市场驱动因素。",
+      "reason_en": "This is a structural bullish argument based on potential future macro liquidity intervention, not an immediate market driver."
+    },
+    {
+      "title_cn": "随着店内销售增长18%，Steak ‘n Shake向储备金中增加500万美元比特币",
+      "title_en": "Steak ‘n Shake adds $5M in Bitcoin to reserve as in-store sales grow 18%",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "这是机构对山寨币领域兴趣扩展的明确信号。它为山寨币（特别是DeFi领域）提供了新的结构性看涨催化剂。",
-      "reason_en": "A clear signal of expanding institutional interest into the altcoin landscape. This provides a new structural bullish catalyst for altcoins, specifically in the DeFi sector."
+      "reason_cn": "新的企业资产负债表采用是强劲的基本面信号，表明企业接受度正在提高。",
+      "reason_en": "Fresh corporate balance sheet adoption is a strong fundamental signal indicating growing enterprise acceptance."
     },
     {
-      "title_cn": "加密市场疲软持续，但以太坊指标暗示可能反弹至3.3K美元",
+      "title_cn": "本周将有108亿美元的比特币期权到期：牛市会在到期后追逐9.5万美元吗？",
+      "title_en": "$10.8B in Bitcoin options expire this week: Will bulls chase $95K after expiry?",
+      "news_sentiment": "Bullish",
+      "classification": "NEUTRAL",
+      "reason_cn": "期权到期是计划内的事件，9.5万美元的目标属于当前的看涨叙事范围，但本身不是驱动价格的即时催化剂。",
+      "reason_en": "Options expiry is a scheduled event; the $95K target fits the current bullish narrative but is not an immediate price catalyst itself."
+    },
+    {
+      "title_cn": "可信赖的AI代理标准可能于周四登陆以太坊主网",
+      "title_en": "Trustless AI agent standard could hit Ethereum mainnet on Thursday",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "以太坊生态系统即将迎来的具体、正面的基础设施升级，为ETH提供了额外的上涨动力。",
+      "reason_en": "Specific, imminent positive infrastructure upgrade for the Ethereum ecosystem, providing additional upside momentum for ETH."
+    },
+    {
+      "title_cn": "尽管加密市场持续疲软，但以太坊指标暗示可能反弹至3.3千美元",
       "title_en": "Crypto market weakness persists, but Ethereum metrics hint at rally to $3.3K",
       "news_sentiment": "Bullish",
-      "classification": "DIVERGENCE",
-      "reason_cn": "承认当前市场的盘整或疲软状态，但强调链上和技术指标的潜在强度，暗示在价格下跌时存在积累活动。",
-      "reason_en": "Acknowledges the current consolidation or weakness but emphasizes underlying strength from on-chain and technical metrics, suggesting accumulation activity during price lulls."
+      "classification": "PRICED IN",
+      "reason_cn": "这条新闻确认了看涨技术目标，但鉴于价格已上涨，这更多是确认而非推动力。",
+      "reason_en": "The news confirms bullish technical targets ($3.3K), but given the price is already rising, this acts more as confirmation than a fresh impulse."
+    },
+    {
+      "title_cn": "交易员表示，以太坊1万美元的价格仍在考虑范围内的原因",
+      "title_en": "Here’s why traders say $10K Ethereum price is still on the table",
+      "news_sentiment": "Bullish",
+      "classification": "NEUTRAL",
+      "reason_cn": "支持以太坊长期叙事健康度的远期目标，不是短期驱动因素。",
+      "reason_en": "Long-term aspirational target supporting the overall health of the Ethereum narrative; not a short-term driver."
+    },
+    {
+      "title_cn": "以太坊已经实现了20%的量子弹性目标：采访",
+      "title_en": "Ethereum already ‘20%’ of the way toward quantum resilience: Interview",
+      "news_sentiment": "Bullish",
+      "classification": "NEUTRAL",
+      "reason_cn": "积极的基础设施研究进展，但属于长期技术改进，对当前价格影响不大。",
+      "reason_en": "Positive infrastructure research progress, but pertains to long-term technical improvement with little impact on current price."
+    },
+    {
+      "title_cn": "Fundstrat的Lee认为一旦贵金属降温，加密货币将会卷土重来",
+      "title_en": "Fundstrat’s Lee sees a crypto comeback once precious metals cool",
+      "news_sentiment": "Bullish",
+      "classification": "NEUTRAL",
+      "reason_cn": "宏观关联观点，不提供即时行动信号。",
+      "reason_en": "Macro correlation view, does not provide an immediate action signal."
+    },
+    {
+      "title_cn": "亚马逊在最新的反官僚主义行动中裁减约16,000名公司员工",
+      "title_en": "Amazon laying off about 16,000 corporate workers in latest anti-bureaucracy push",
+      "news_sentiment": "Bearish",
+      "classification": "NEUTRAL",
+      "reason_cn": "反映出结构性经济调整和失业，对传统经济不利，但可能支持美联储未来降息的叙事。",
+      "reason_en": "Reflects structural economic adjustment and job losses, negative for the traditional economy but potentially supportive of the Fed's future disinflation narrative."
+    },
+    {
+      "title_cn": "抵押贷款需求下降8.5%，利率飙升至三周以来的最高水平",
+      "title_en": "Mortgage demand drops 8.5%, as interest rates swell to the highest level in 3 weeks",
+      "news_sentiment": "Bearish",
+      "classification": "IMPULSE",
+      "reason_cn": "直接确认了对消费者而言收紧的金融状况和高利率的负面影响，是即时的负面宏观数据点。",
+      "reason_en": "Directly confirms tighter financial conditions and the negative impact of high rates on consumers, an immediate negative macro data point."
+    },
+    {
+      "title_cn": "Anthropic首席执行官Dario Amodei警告称，人工智能可能导致“异常痛苦”的就业中断",
+      "title_en": "Anthropic CEO Dario Amodei warns AI may cause ‘unusually painful’ disruption to jobs",
+      "news_sentiment": "Bearish",
+      "classification": "NEUTRAL",
+      "reason_cn": "长期结构性风险评估，不是即时的市场驱动因素。",
+      "reason_en": "Long-term structural risk assessment, not an immediate market mover."
+    },
+    {
+      "title_cn": "Pinterest将在AI驱动的重组中裁员近15%",
+      "title_en": "Pinterest to Slash Nearly 15% of Workforce in AI-Powered Restructuring",
+      "news_sentiment": "Bearish",
+      "classification": "IMPULSE",
+      "reason_cn": "确认了由效率/AI驱动的宏观裁员趋势，是负面的经济健康指标。",
+      "reason_en": "Confirms the macro layoff trend driven by efficiency/AI. A negative indicator for economic health."
+    },
+    {
+      "title_cn": "Rootstock Labs和Animoca Brands Japan合作构建比特币原生机构工具",
+      "title_en": "Rootstock Labs and Animoca Brands Japan Partner to Build Bitcoin‑Native Institutional Tools",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "专注于比特币的机构DeFi和实用性，是BTC长期价值的强大基本驱动力。",
+      "reason_en": "Focuses on institutional DeFi and utility for Bitcoin, a strong fundamental driver for BTC long-term value."
+    },
+    {
+      "title_cn": "在比特币逼近9万美元之际，山寨币Hyperliquid、Pump.fun周涨幅达两位数",
+      "title_en": "Altcoins Hyperliquid, Pump.fun Post Double-Digit Weekly Gains as Bitcoin Nears $90K",
+      "news_sentiment": "Bullish",
+      "classification": "PRICED IN",
+      "reason_cn": "确认了更广泛的山寨币市场的看涨情绪和强劲动能。",
+      "reason_en": "Confirms the bullish sentiment and strong momentum in the broader altcoin market."
+    },
+    {
+      "title_cn": "Bitget任命Oliver Stauber为欧盟首席执行官，着手在奥地利设立总部",
+      "title_en": "Bitget Appoints Oliver Stauber as EU CEO, Sets Course to Establish Headquarters in Austria",
+      "news_sentiment": "Bullish",
+      "classification": "NEUTRAL",
+      "reason_cn": "交易所扩张从基本面来看是积极的，但不是主要代币的直接价格驱动因素。",
+      "reason_en": "Exchange expansion is fundamentally positive but not a direct price driver for major coins."
     }
   ],
   "fed_futures": {
-    "price": 96.37,
-    "implied_rate": 3.63,
-    "timestamp": "2026-01-28T08:21:07.426909+00:00",
+    "price": 96.405,
+    "implied_rate": 3.595,
+    "timestamp": "2026-01-28T12:21:39.438775+00:00",
     "trend": "Neutral (Stable expectations)",
-    "change_5d_bps": -1.0,
+    "change_5d_bps": -4.5,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 152.547,
-    "timestamp": "2026-01-28T08:21:07.476783+00:00",
+    "price": 152.446,
+    "timestamp": "2026-01-28T12:21:39.495204+00:00",
     "trend": "Yen Strength (Risk Off)",
-    "change_5d_pct": -3.73,
+    "change_5d_pct": -3.79,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 96.07,
-      "change_5d_pct": -1.57,
+      "price": 96.21,
+      "change_5d_pct": -1.42,
       "trend": "Weaker (Risk On)"
     },
     "us10y": {
@@ -79,71 +167,71 @@
       "trend": "High Falling"
     },
     "vix": {
-      "price": 16.35,
-      "change_5d_pct": 4.54,
+      "price": 16.26,
+      "change_5d_pct": 3.96,
       "trend": "Normal Rising"
     }
   },
   "coins": [
     {
       "symbol": "BTC",
-      "price": 89095.8,
-      "change_24h": 0.8315885967791253,
-      "rsi_4h": 53.68132678104693,
-      "funding_rate": 0.00686221550465,
-      "open_interest": 2533075.130000008,
+      "price": 89922.0,
+      "change_24h": 2.0128715780445807,
+      "rsi_4h": 60.04456574690836,
+      "funding_rate": 0.00871282532596,
+      "open_interest": 2544171.0400000075,
       "sentiment": "Bullish",
-      "score": 85,
-      "comment_cn": "受到强劲的企业采用和流动性叙事驱动。期权到期目标95K美元为短期上涨提供了强大的结构性基础。",
-      "comment_en": "Driven by strong corporate adoption and liquidity narratives. The $95K options expiry target provides a powerful structural basis for near-term upside."
+      "score": 90,
+      "comment_cn": "价格坚决挑战9万美元心理关口。宏观流动性配合积极的ETF流入叙事。关注是否能成功转化为对9.5万美元期权水平的追逐。",
+      "comment_en": "Price is challenging the $90K psychological level decisively. Macro liquidity aligns with positive ETF inflow narratives. Focus on converting momentum into a pursuit of the $95K options level."
     },
     {
       "symbol": "ETH",
-      "price": 2996.81,
-      "change_24h": 2.2181064063469886,
-      "rsi_4h": 57.650538753330466,
-      "funding_rate": 0.009225657329509999,
-      "open_interest": 5859285.660000016,
-      "sentiment": "Strong Bullish",
-      "score": 90,
-      "comment_cn": "24小时表现跑赢大盘，技术指标和链上数据暗示突破3,000美元阻力位后将迅速上行至3,300美元。",
-      "comment_en": "Outperforming majors in 24h performance. Technicals and on-chain data suggest rapid upside toward $3,300 once the $3,000 resistance is definitively broken."
+      "price": 3031.24,
+      "change_24h": 3.667224120300531,
+      "rsi_4h": 62.22402699442409,
+      "funding_rate": 0.01,
+      "open_interest": 5849724.180000016,
+      "sentiment": "Bullish",
+      "score": 92,
+      "comment_cn": "表现优于BTC，技术指标和基本面（AI Agent标准）强劲。目标是迅速突破3.3千美元，显示出巨大的结构性实力。",
+      "comment_en": "Outperforming BTC, backed by strong technicals and fundamentals (AI Agent standard). Targeting a quick break above $3.3K, showing significant structural strength."
     },
     {
       "symbol": "SOL",
-      "price": 127.14,
-      "change_24h": 1.9894111984598137,
-      "rsi_4h": 56.15043100693031,
-      "funding_rate": 0.0035703976420199996,
-      "open_interest": 2953221.5800000033,
+      "price": 127.55,
+      "change_24h": 2.65593561368209,
+      "rsi_4h": 56.79313083860642,
+      "funding_rate": 0.0086515829048,
+      "open_interest": 2936128.2000000025,
       "sentiment": "Bullish",
-      "score": 75,
-      "comment_cn": "跟随以太坊的强劲势头，市场情绪乐观，但需要更强的独立催化剂来维持领跑。",
-      "comment_en": "Following Ethereum's strong momentum. Sentiment is optimistic, but requires stronger independent catalysts to sustain market leadership."
+      "score": 85,
+      "comment_cn": "参与更广泛的山寨币上涨。RSI健康，资金费率积极，表明对价格可持续性的信心。",
+      "comment_en": "Participating in the broader altcoin uplift. Healthy RSI and positive funding rates indicate confidence in price sustainability."
     },
     {
       "symbol": "BNB",
-      "price": 904.6,
-      "change_24h": 2.307170323456229,
-      "rsi_4h": 65.9906149426566,
+      "price": 906.6,
+      "change_24h": 2.8707591058663415,
+      "rsi_4h": 66.24730588477726,
       "funding_rate": 0.01,
-      "open_interest": 8296545.0,
-      "sentiment": "Strong Bullish",
+      "open_interest": 8349318.0,
+      "sentiment": "Bullish",
       "score": 95,
-      "comment_cn": "在主要资产中涨幅最大，RSI高企，显示出极强的内部技术势头。处于短期超买区域，但趋势坚固。",
-      "comment_en": "The largest gainer among majors with high RSI, indicating extremely strong internal technical momentum. Nearing short-term overbought levels, but the trend is robust."
+      "comment_cn": "动能最强（RSI 66.2），反映了交易所代币的强势和积极的基本面消息。需要注意短期内过热的可能性。",
+      "comment_en": "Highest momentum (RSI 66.2), reflecting exchange token strength and positive fundamental news. Watch for potential short-term overheating."
     },
     {
       "symbol": "DOGE",
-      "price": 0.12586,
-      "change_24h": 2.877227399051819,
-      "rsi_4h": 58.7331747964792,
-      "funding_rate": 0.00491104506196,
-      "open_interest": 792620.8999999994,
+      "price": 0.12659,
+      "change_24h": 3.0863192182410435,
+      "rsi_4h": 60.105929051767184,
+      "funding_rate": 0.0089409392527,
+      "open_interest": 842156.0799999996,
       "sentiment": "Bullish",
-      "score": 70,
-      "comment_cn": "涨幅最高，表明市场风险偏好回归，meme币领域情绪积极。OI处于健康水平。",
-      "comment_en": "Highest percentage gain, signaling a return of risk appetite and positive sentiment in the meme sector. OI is at a healthy level."
+      "score": 80,
+      "comment_cn": "跟随整体风险偏好和市场涨势。技术面稳固，如果市场情绪保持高涨，有进一步上涨空间。",
+      "comment_en": "Following overall risk appetite and market uplift. Technicals are solid, with room for further movement if sentiment remains elevated."
     }
   ]
 }
