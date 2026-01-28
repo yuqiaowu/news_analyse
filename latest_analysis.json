@@ -1,100 +1,188 @@
 {
-  "timestamp": "2026-01-28T00:20:08.744242",
-  "global_summary_cn": "宏观流动性状态目前倾向于**宽松/风险偏好**。DXY走弱、美债10年期收益率下跌以及VIX指数维持低位，共同为风险资产提供了有利的外部环境。尽管日元短期走强可能引发套利交易平仓担忧，但整体流动性信号仍占主导地位。\n\n叙事层面，市场情绪偏向**温和看涨**。以太坊因关键指标闪烁（与历史流动性信号相关）和机构合作消息（日本DeFi）而表现突出。比特币尽管面临短期筑底的警告（低于$85K或$80K），但在企业持续积累和整体看涨预期（2月启动）的支撑下，价格保持稳定。\n\n**综合判断**：当前处于流动性支持价格上涨（逢低买入）但叙事层面存在技术性担忧的背离状态。在宽松的流动性主导下，市场可能会无视短期的看跌预测，继续震荡上行，尤其是在ETH的带领下。",
-  "global_summary_en": "Macro liquidity status currently leans towards **Loose / Risk On**. The weakening DXY, falling US 10Y yields, and subdued VIX collectively provide a favorable environment for risk assets. Although the short-term strengthening of the Yen might raise concerns about carry trade unwinding, the overall liquidity signal remains dominant.\n\nIn terms of narrative, market sentiment is **Mildly Bullish**. Ethereum is performing strongly due to key metrics flashing (linked to historical liquidity signals) and news of institutional partnerships (Japan DeFi). Bitcoin prices remain stable, supported by continued corporate accumulation and overall bullish anticipation (February start), despite short-term bottoming warnings (below $85K or $80K).\n\n**Synthesis**: The market is in a state of divergence where liquidity supports price increases (Buy the Dip), but tactical/technical concerns persist in the narrative. Dominated by loose liquidity, the market is likely to ignore short-term bearish predictions and continue its upward volatility, particularly led by ETH.",
+  "timestamp": "2026-01-28T04:20:52.643499",
+  "global_summary_cn": "全球流动性分析显示宏观环境正转向“风险偏好”（Risk On）：美元指数（DXY）走弱，美国10年期国债收益率下降，且VIX恐慌指数保持低位。虽然日元近期走强（理论上不利于Carry Trade），但整体宽松信号占据主导。\n\n新闻叙事层面则高度看涨：企业（如Steak ‘n Shake）持续增持比特币，以太坊的技术升级和高目标价（$3.3K至$10K）获得关注。关键在于，分析师认为黄金和白银的强劲表现（暗示对美元和通胀的担忧）将预示着下一波资金轮动进入加密市场。\n\n**总结：** 宏观流动性宽松与市场看涨叙事形成完美契合（Perfect Storm Bullish）。在周三美联储利率决议前，市场处于高位盘整，期待流动性推动突破。当前BTC和ETH均维持强势，且衍生品数据显示资金持续流入。",
+  "global_summary_en": "Global liquidity analysis indicates a shift toward 'Risk On' conditions: the US Dollar Index (DXY) is weakening, the US 10-Year yield is falling, and the VIX remains subdued. Although the Yen has recently strengthened (theoretically hindering the Carry Trade), overall easing signals prevail.\n\nThe news narrative is highly bullish: corporate adoption (Steak ‘n Shake) continues, and Ethereum's technical upgrades and high price targets ($3.3K to $10K) are gaining traction. Critically, analysts believe the strong performance of Gold and Silver (suggesting fears about the dollar and inflation) will precede the next major capital rotation into the crypto market.\n\n**Synthesis:** Loose macro liquidity aligns perfectly with the bullish market narrative, creating a 'Perfect Storm Bullish' scenario. The market is consolidating at high levels ahead of Wednesday's FOMC decision, anticipating a liquidity-driven breakout. Both BTC and ETH maintain strength, and derivatives data suggests sustained capital inflow.",
   "news_analysis": [
     {
-      "title_cn": "上市公司在价格持平之际悄悄增加比特币持有量",
+      "title_cn": "澳大利亚通胀率达到 3.6%，符合预期，创下六个季度新高",
+      "title_en": "Australia inflation meets expectations at 3.6%, reaching a six-quarter high",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "澳大利亚本地的通胀数据。虽然高通胀可能在全球范围内收紧政策预期，但对加密货币市场的直接影响有限，关注点仍在美国FOMC。",
+      "reason_en": "Local Australian inflation data. While high inflation could tighten global policy expectations, the direct impact on crypto is limited, as the focus remains on the US FOMC."
+    },
+    {
+      "title_cn": "标准普尔 500 指数创纪录后，亚洲市场涨跌不一，韩国创下新高",
+      "title_en": "Asia markets mixed after S&P 500 hits record, South Korea pushes fresh highs",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "美股的记录支持风险偏好，但亚洲市场的表现不一，信号混合。整体上不构成明确的推动力。",
+      "reason_en": "US stock records support risk appetite, but mixed performance in Asian markets provides a mixed signal. Not a definitive catalyst."
+    },
+    {
+      "title_cn": "市场认为贝莱德的里克·里德将成为下一任美联储主席。这其中的利害关系是什么",
+      "title_en": "The market thinks BlackRock's Rick Rieder will be the next Fed chair. Here's what's at stake",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "关于未来美联储领导层的猜测。这是长期的政策不确定性，对当前市场流动性影响不大。",
+      "reason_en": "Speculation regarding future Fed leadership. This introduces long-term policy uncertainty but has minimal impact on current market liquidity."
+    },
+    {
+      "title_cn": "购房者退出交易的速度达到近十年来的最快水平",
+      "title_en": "Homebuyers are backing out of deals at the fastest pace in nearly a decade",
+      "news_sentiment": "Bearish",
+      "classification": "NEUTRAL",
+      "reason_cn": "表明宏观经济疲软和高利率环境对房市的压力，潜在的经济衰退信号。对加密市场的间接影响偏负面。",
+      "reason_en": "Indicates macro economic weakness and pressure on the housing market due to high interest rates, signaling potential recession. Indirectly negative for crypto."
+    },
+    {
+      "title_cn": "美联储将于周三发布最新的利率决议。这是需要关注的",
+      "title_en": "The Fed releases its latest interest rate decision Wednesday. Here's what to expect",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "关键的宏观日历事件。市场正在等待，这将是短期内最大的波动性驱动因素，目前不含倾向性。",
+      "reason_en": "A critical macro calendar event. The market is waiting; this will be the biggest short-term volatility driver, currently without bias."
+    },
+    {
+      "title_cn": "Steak ‘n Shake 在储备中增加 500 万美元比特币，店内销售额增长 18%",
+      "title_en": "Steak ‘n Shake adds $5M in Bitcoin to reserve as in-store sales grow 18%",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "明确的公司将现金流投入比特币的案例，为机构采用叙事提供了新的、积极的推动力。",
+      "reason_en": "A clear case of a company allocating cash flow into Bitcoin reserves, providing a fresh, positive impulse to the institutional adoption narrative."
+    },
+    {
+      "title_cn": "本周 108 亿美元比特币期权到期：多头会在到期后追逐 9.5 万美元吗？",
+      "title_en": "$10.8B in Bitcoin options expire this week: Will bulls chase $95K after expiry?",
+      "news_sentiment": "Bullish",
+      "classification": "NEUTRAL",
+      "reason_cn": "期权市场焦点集中在 $95K，表明普遍乐观的预期。但当前价格仍盘整，故定位为中性观察。",
+      "reason_en": "The options market focus is on $95K, indicating widely optimistic expectations. However, the current price is still consolidating, classified as neutral observation until realized."
+    },
+    {
+      "title_cn": "随着价格保持平稳，上市公司悄悄增加比特币持有量",
       "title_en": "Public companies quietly grow Bitcoin holdings as prices stay flat",
       "news_sentiment": "Bullish",
       "classification": "PRICED IN",
-      "reason_cn": "显示持续的机构积累正在幕后进行，为价格提供了结构性支撑，但并非突发性拉升事件。",
-      "reason_en": "Indicates ongoing institutional accumulation happening quietly, providing structural support for the price, but not acting as a sudden pump catalyst."
+      "reason_cn": "确认了在盘整期持续的机构积累行为。这支持了当前高价位的坚固性，属于已经计入价格的结构性利好。",
+      "reason_en": "Confirms ongoing institutional accumulation during consolidation. Supports the robustness of current high prices, a structural positive that is largely priced in."
     },
     {
-      "title_cn": "比特币真正的‘十月上涨’可能在二月开始：原因在此",
+      "title_cn": "比特币真正的“十月大涨”时刻可能从二月开始：原因在此",
       "title_en": "Bitcoin’s real ‘Uptober’ moment might start in February: Here’s why",
       "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "这是一个前瞻性的看涨预测，有助于巩固当前的价格上涨和市场乐观情绪。",
-      "reason_en": "This is a forward-looking bullish prediction that helps solidify the current price increase and market optimism."
+      "classification": "PRICED IN",
+      "reason_cn": "长期的乐观预测，支持了市场等待下一个上涨催化剂的普遍情绪。",
+      "reason_en": "Long-term optimistic forecast, supporting the general sentiment that the market is waiting for the next upward catalyst."
     },
     {
-      "title_cn": "新的怀科夫预测暗示本周比特币价格将跌至8万美元以下",
+      "title_cn": "新的 Wyckoff 预测暗示比特币价格本周将跌至 8 万美元以下",
       "title_en": "Bitcoin price due sub-$80K bottom this week, hints new Wyckoff forecast",
       "news_sentiment": "Bearish",
       "classification": "DIVERGENCE",
-      "reason_cn": "价格目前正在上涨，与此特定的战术看跌预测相悖。流动性似乎正在压倒战术分析。",
-      "reason_en": "Price is currently rising, contradicting this specific tactical bearish forecast. Liquidity appears to be overriding tactical analysis."
+      "reason_cn": "在一个整体宽松流动性环境和积极叙事中出现的看跌技术分析。形成叙事上的分歧。",
+      "reason_en": "A bearish technical analysis emerging within an overall loose liquidity environment and positive narrative, creating a narrative divergence."
     },
     {
-      "title_cn": "Animoca、RootstockLabs合作将比特币DeFi带给日本机构",
-      "title_en": "Animoca, RootstockLabs partner to bring Bitcoin DeFi to Japanese institutions",
+      "title_cn": "去信任化 AI 代理标准可能于周四登陆以太坊主网",
+      "title_en": "Trustless AI agent standard could hit Ethereum mainnet on Thursday",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "积极的机构结构性新闻，针对亚洲市场和DeFi，有助于长期乐观情绪。",
-      "reason_en": "Positive institutional structural news targeting the Asian market and DeFi, contributing to long-term optimism."
+      "reason_cn": "对以太坊而言，这是即将到来的具体技术升级，结合了市场热点 AI，为 ETH 提供了直接的催化剂。",
+      "reason_en": "A specific, imminent technical upgrade for Ethereum, combining with the hot AI sector, providing a direct catalyst for ETH."
     },
     {
-      "title_cn": "加密市场疲软持续，但以太坊指标暗示可能反弹至3.3K美元",
+      "title_cn": "加密市场疲软持续，但以太坊指标暗示将反弹至 3.3K 美元",
       "title_en": "Crypto market weakness persists, but Ethereum metrics hint at rally to $3.3K",
       "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "直接催化剂，解释了以太坊在过去24小时内表现强劲（+3.31%）的原因，属于代币特定的利好。",
-      "reason_en": "Direct catalyst explaining Ethereum's strong performance (+3.31%) over the last 24 hours; token-specific bullish signal."
+      "classification": "PRICED IN",
+      "reason_cn": "承认了近期盘整但立即将焦点引向强大的基本面支撑和更高的价格目标，是巩固看涨信心的常用叙事。",
+      "reason_en": "Acknowledges recent consolidation but immediately shifts focus to strong fundamentals and higher targets, a common narrative used to solidify bullish conviction."
     },
     {
-      "title_cn": "交易员称1万美元的以太坊价格仍有可能实现的原因",
+      "title_cn": "这就是为什么交易者说 1 万美元的以太坊价格仍然在讨论范围内的原因",
       "title_en": "Here’s why traders say $10K Ethereum price is still on the table",
       "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "高目标价增强了市场的高信念看涨情绪，有助于在流动性宽松的环境下推高价格。",
-      "reason_en": "High price targets reinforce high-conviction bullish sentiment, helping to push prices higher in a loose liquidity environment."
+      "classification": "PRICED IN",
+      "reason_cn": "高目标价强化了以太坊的长期结构性看涨前景。",
+      "reason_en": "High price targets reinforce the long-term structural bullish outlook for Ethereum."
     },
     {
-      "title_cn": "上次全球流动性信号闪烁时，以太坊价格上涨了200%",
-      "title_en": "Ether price gained 200% the last time this global liquidity signal flashed",
+      "title_cn": "以太坊已朝量子弹性迈进了 ‘20%’：采访",
+      "title_en": "Ethereum already ‘20%’ of the way toward quantum resilience: Interview",
+      "news_sentiment": "Bullish",
+      "classification": "PRICED IN",
+      "reason_cn": "长期的技术进展和网络安全叙事，支持了 ETH 的价值主张。",
+      "reason_en": "Long-term technological progress and network security narrative, supporting ETH's value proposition."
+    },
+    {
+      "title_cn": "Fundstrat 的 Lee 认为，一旦贵金属降温，加密货币就会卷土重来",
+      "title_en": "Fundstrat’s Lee sees a crypto comeback once precious metals cool",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "将以太坊的叙事直接与当前宽松的宏观流动性层联系起来，这是一个强大的推动力。",
-      "reason_en": "Directly links the Ethereum narrative to the current loose macro liquidity layer, acting as a powerful driving force."
+      "reason_cn": "将黄金/白银的宏观资金流与加密货币轮动联系起来，这是当前宏观叙事中的强大看涨驱动因素。",
+      "reason_en": "Links macro capital flows from Gold/Silver directly to crypto rotation, a powerful bullish driver in the current macro narrative."
     },
     {
-      "title_cn": "Coinbase和Glassnode称比特币正进入一个更稳定的阶段",
-      "title_en": "Bitcoin Seen Entering a More Stable Phase, Coinbase and Glassnode Say",
-      "news_sentiment": "Neutral",
+      "title_cn": "花旗上调白银目标价至 150 美元，因价格以创纪录的速度飙升",
+      "title_en": "Citi Raises Silver Target to $150 as Prices Rip Past Forecasts at Record Speed",
+      "news_sentiment": "Bullish",
       "classification": "NEUTRAL",
-      "reason_cn": "描述了持续的市场盘整，与当前小幅上涨的市场动态吻合。",
-      "reason_en": "Describes continued market consolidation, consistent with current slightly rising market dynamics."
+      "reason_cn": "反映了贵金属市场的强大势头，支持资金轮动到加密货币的理论基础。",
+      "reason_en": "Reflects strong momentum in the precious metals market, supporting the underlying theory for capital rotation into crypto."
     },
     {
-      "title_cn": "比特币8.5万美元底线：研究指出可能迫使其跌破的4个因素",
-      "title_en": "Bitcoin’s $85K Floor: Research Flags 4 Factors That Could Force a Break",
-      "news_sentiment": "Bearish",
-      "classification": "DIVERGENCE",
-      "reason_cn": "与当前的上涨趋势（价格$89,224）相悖，尽管存在技术性警告，但市场正在保持该底线之上。",
-      "reason_en": "Contradicts the current upward trend (price at $89,224). The market is holding above this floor despite technical warnings."
+      "title_cn": "Peter Schiff 表示，黄金飙升 170 美元预示着美元危机迫在眉睫",
+      "title_en": "Peter Schiff Says Gold’s $170 Surge Signals Imminent US Dollar Crisis",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "主流论调将黄金的表现与美元危机联系起来，这通常是将比特币视为硬通货和对冲工具的看涨叙事。",
+      "reason_en": "A mainstream voice linking Gold's performance to a Dollar crisis, which is a bullish narrative for Bitcoin as a hard money and hedge asset."
+    },
+    {
+      "title_cn": "Tom Lee：黄金和白银的 FOMO 正在为下一轮加密货币轮动做准备",
+      "title_en": "Tom Lee: Gold and Silver FOMO Is Setting up Next Crypto Rotation",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "明确指出当前的贵金属狂热将直接转化为加密货币的购买力，是近期最强的资金流动叙事。",
+      "reason_en": "Explicitly states that current precious metal euphoria will translate directly into crypto buying power, the strongest recent narrative regarding capital flow."
+    },
+    {
+      "title_cn": "Ripple Treasury 启动，XRP 和 RLUSD 在真正的机构效用中迈向规模化",
+      "title_en": "Ripple Treasury Launches as XRP and RLUSD Step Into Real Institutional Utility at Scale",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "为非 BTC/ETH 市场带来了具体的、大规模的机构效用新闻，支持了整个加密生态系统的成熟。",
+      "reason_en": "Brings specific, large-scale institutional utility news to the non-BTC/ETH market, supporting the overall maturation of the crypto ecosystem."
+    },
+    {
+      "title_cn": "Coinbase 和 Glassnode 表示，比特币正进入一个更稳定的阶段",
+      "title_en": "Bitcoin Seen Entering a More Stable Phase, Coinbase and Glassnode Say",
+      "news_sentiment": "Bullish",
+      "classification": "PRICED IN",
+      "reason_cn": "确认了价格稳定和机构积累，暗示市场正在为下一波上涨积蓄能量。",
+      "reason_en": "Confirms price stability and institutional accumulation, implying the market is building energy for the next upward move."
     }
   ],
   "fed_futures": {
     "price": 96.365,
     "implied_rate": 3.635,
-    "timestamp": "2026-01-28T00:19:52.374839+00:00",
+    "timestamp": "2026-01-28T04:20:25.177666+00:00",
     "trend": "Neutral (Stable expectations)",
     "change_5d_bps": -0.5,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 152.524,
-    "timestamp": "2026-01-28T00:19:52.424840+00:00",
+    "price": 152.764,
+    "timestamp": "2026-01-28T04:20:25.223206+00:00",
     "trend": "Yen Strength (Risk Off)",
-    "change_5d_pct": -3.74,
+    "change_5d_pct": -3.59,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 95.82,
-      "change_5d_pct": -2.59,
+      "price": 96.12,
+      "change_5d_pct": -2.28,
       "trend": "Weaker (Risk On)"
     },
     "us10y": {
@@ -111,63 +199,63 @@
   "coins": [
     {
       "symbol": "BTC",
-      "price": 89224.5,
-      "change_24h": 1.0288068173454676,
-      "rsi_4h": 55.06984399410565,
-      "funding_rate": 0.0058753702020900005,
-      "open_interest": 2540291.55000001,
-      "sentiment": "Neutral",
-      "score": 65,
-      "comment_cn": "受到宏观流动性支持，但上方抛压和战术性筑底警告使其动量弱于ETH。需关注$90K阻力。",
-      "comment_en": "Supported by macro liquidity, but overhead resistance and tactical bottoming warnings make its momentum weaker than ETH. Watch the $90K resistance."
+      "price": 88880.9,
+      "change_24h": 0.03714212716338822,
+      "rsi_4h": 51.55684683326708,
+      "funding_rate": 0.00760995765661,
+      "open_interest": 2533331.6300000087,
+      "sentiment": "Bullish",
+      "score": 85,
+      "comment_cn": "流动性宽松和机构叙事强劲。高 OI 和正 Funding 意味着多头情绪高涨，价格需突破 $89K 才能确认下一阶段的上涨。",
+      "comment_en": "Strong tailwinds from loose liquidity and institutional narratives. High OI and positive Funding suggest aggressive long positioning. Price needs to breach $89K to confirm the next upward phase."
     },
     {
       "symbol": "ETH",
-      "price": 3021.45,
-      "change_24h": 3.3069719256136394,
-      "rsi_4h": 62.85006795980236,
-      "funding_rate": 0.0001606415093,
-      "open_interest": 5743626.420000013,
-      "sentiment": "Bullish",
-      "score": 85,
-      "comment_cn": "拥有最强劲的叙事和技术指标（RSI高，价格涨幅大），直接受到流动性信号的催化。",
-      "comment_en": "Possesses the strongest narrative and technicals (high RSI, significant price gain), directly catalyzed by liquidity signals."
+      "price": 2995.49,
+      "change_24h": 1.5237940302250639,
+      "rsi_4h": 57.5279860207436,
+      "funding_rate": 0.00419647075807,
+      "open_interest": 5823061.830000015,
+      "sentiment": "Strongly Bullish",
+      "score": 90,
+      "comment_cn": "表现优于 BTC，受到 AI 集成和 $3.3K/$10K 高目标价的强劲叙事推动。RSI 位于 57.5，具备继续上涨的空间。",
+      "comment_en": "Outperforming BTC, driven by strong narratives around AI integration and high price targets ($3.3K/$10K). RSI at 57.5 indicates room for further momentum."
     },
     {
       "symbol": "SOL",
-      "price": 126.94,
-      "change_24h": 2.197890669028262,
-      "rsi_4h": 55.399128177262966,
-      "funding_rate": 0.00630362262834,
-      "open_interest": 2943386.720000004,
-      "sentiment": "Neutral",
-      "score": 68,
-      "comment_cn": "表现稳定，但在当前的ETH主导叙事中缺乏独立催化剂。RSI健康。",
-      "comment_en": "Stable performance, but lacks independent catalysts in the current ETH-dominant narrative. Healthy RSI."
+      "price": 126.68,
+      "change_24h": 1.4576325484542747,
+      "rsi_4h": 54.15447140349983,
+      "funding_rate": 0.0033462184209699995,
+      "open_interest": 2937758.610000004,
+      "sentiment": "Bullish",
+      "score": 75,
+      "comment_cn": "跟随 ETH 和大盘走强，Funding 略低但 RSI 健康。短期内将受益于整体市场风险偏好。",
+      "comment_en": "Following ETH and the broader market strength. Funding is slightly lower but RSI is healthy. Will benefit from overall market risk appetite in the short term."
     },
     {
       "symbol": "BNB",
-      "price": 900.0,
-      "change_24h": 2.494021182097708,
-      "rsi_4h": 63.416200276796715,
+      "price": 896.2,
+      "change_24h": 0.9802816901408502,
+      "rsi_4h": 59.93617955361687,
       "funding_rate": 0.01,
-      "open_interest": 8091805.0,
-      "sentiment": "Bullish",
-      "score": 75,
-      "comment_cn": "强势反弹，资金费率高，显示市场对其需求强劲，可能与生态系统活动相关。",
-      "comment_en": "Strong rebound, high funding rate indicates robust market demand, potentially linked to ecosystem activities."
+      "open_interest": 8124968.0,
+      "sentiment": "Strongly Bullish",
+      "score": 88,
+      "comment_cn": "Funding Rate 极高，表明交易者对价格走高采取激进的杠杆多头押注。技术面强劲，接近历史高点。",
+      "comment_en": "Extremely high Funding Rate signals aggressive leveraged long bets on further price appreciation. Technically strong, trading near its all-time high zone."
     },
     {
       "symbol": "DOGE",
-      "price": 0.12615,
-      "change_24h": 3.1479967293540523,
-      "rsi_4h": 61.70917325661392,
-      "funding_rate": 0.00569774698921,
-      "open_interest": 802591.1299999995,
-      "sentiment": "Bullish",
-      "score": 70,
-      "comment_cn": "山寨币风险偏好的良好代表，RSI高，跟随主要加密货币上涨。",
-      "comment_en": "A good representative of altcoin risk appetite, high RSI, following major crypto price increases."
+      "price": 0.12428,
+      "change_24h": 0.9093861643390679,
+      "rsi_4h": 52.866873089403214,
+      "funding_rate": 0.0051078994163900006,
+      "open_interest": 799840.7699999997,
+      "sentiment": "Neutral",
+      "score": 60,
+      "comment_cn": "维持中性偏多的势头，但缺乏自身的叙事推动力。主要依赖整体市场的流动性驱动。",
+      "comment_en": "Maintains a neutral-to-bullish momentum, but lacks specific narrative drive. Primarily reliant on overall market liquidity inflow."
     }
   ]
 }
