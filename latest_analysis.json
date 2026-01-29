@@ -1,149 +1,157 @@
 {
-  "timestamp": "2026-01-29T12:25:49.181329",
-  "global_summary_cn": "当前宏观流动性呈**谨慎/略紧**态势。尽管美元指数（DXY）走弱带来风险偏好，但高企的美国10年期国债收益率、上涨的VIX和日元走强（风险回避信号）共同施压，导致资产普遍回调。市场正在消化美联储维持利率不变的决定。然而，加密货币的基本面新闻极度看涨：Metaplanet的大额购入比特币、瑞士银行Sygnum设立比特币基金，以及Laser Digital申请美国信托银行执照，均显示出强大的机构资金流入。目前市场处于流动性收紧与叙事利好之间的**分歧**状态。鉴于现货价格在利好消息下回调，这可能是一个潜在的“逢低买入”机会，前提是市场能够有效清除$90,000附近的阻力并吸收短期抛压。",
-  "global_summary_en": "Current macro liquidity is **Cautionary/Slightly Tight**. While DXY weakness supports risk appetite, high US 10Y yields, rising VIX, and Yen strength (a risk-off signal) are collectively pressuring assets, leading to a broad correction. The market is processing the Fed's decision to hold rates steady. However, the fundamental crypto news remains extremely bullish: Metaplanet's large BTC purchase, Swiss bank Sygnum setting up a BTC fund, and Laser Digital applying for a US National Trust Bank license all indicate robust institutional capital inflow. The market is currently experiencing a **Divergence** between tightening liquidity and bullish narrative. Given the price pullback despite good news, this suggests a potential \"Buy the Dip\" scenario, provided the market can clear the $90,000 resistance and absorb short-term selling pressure.",
+  "timestamp": "2026-01-29T16:26:29.495208",
+  "global_summary_cn": "流动性状态：全球流动性正在收紧，主要是受到日元走强（USD/JPY大幅下跌3.5%）引发的套利交易平仓以及美国10年期国债收益率保持高位的压力。这造成了短期宏观层面的逆风。\n\n市场正处于强大的“分歧”状态。尽管有强劲的机构利好消息（Metaplanet批准1.37亿美元用于购买比特币）和以太坊基本面改善（供应萎缩、技术升级），但宏观流动性紧缩触发了加密货币市场的血洗，导致超过7.96亿美元的清算。所有主要资产的RSI均处于严重超卖区间（26-33），表明市场情绪已达短期极点。短期内仍需警惕波动性，但鉴于超卖情况和基本面利好，这是一个由宏观冲击驱动的“逢低买入”机会。",
+  "global_summary_en": "Liquidity Status: Global liquidity is tightening, primarily driven by the sharp appreciation of the Yen (USD/JPY dropping 3.5% signaling Carry Unwind) and persistently high US 10-Year yields, creating short-term macro headwinds.\n\nThe market is experiencing a significant 'Divergence.' Despite strong institutional bullish news (Metaplanet approving $137M to buy Bitcoin) and improving Ethereum fundamentals (shrinking supply, tech upgrades), macro liquidity stress triggered a massive crypto market bloodbath, resulting in over $796M in liquidations. RSIs across all major assets are deep in oversold territory (26-33), indicating a short-term sentiment extreme. While volatility remains a concern, the confluence of oversold conditions and strong fundamentals suggests this is a macro-shock driven 'Buy the Dip' opportunity.",
   "news_analysis": [
     {
-      "title_cn": "Metaplanet 批准 1.37 亿美元海外融资，用于购买比特币和偿还债务",
+      "title_cn": "加密货币血洗：比特币跌破$85K，7.96亿美元遭清算，交易者被迫出局",
+      "title_en": "Crypto Bloodbath: Bitcoin Slips Below $85K, $796M Liquidated as Traders Get Forced Out",
+      "news_sentiment": "Bearish",
+      "classification": "IMPULSE",
+      "reason_cn": "这是当前价格暴跌的主要结果和信号。大量的清算证实了抛售是由去杠杆化驱动，释放了短期看跌的冲量。",
+      "reason_en": "This is the primary outcome and signal of the current price crash. Massive liquidation confirms the sell-off was driven by deleveraging, establishing a strong short-term bearish impulse."
+    },
+    {
+      "title_cn": "Metaplanet批准1.37亿美元海外融资以购买比特币并偿还债务",
       "title_en": "Metaplanet approves $137M overseas raise to buy Bitcoin and repay debt",
       "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "这是直接的、大规模的机构资金流入，专门用于囤积比特币，对市场信心构成强劲支撑。",
-      "reason_en": "This is a direct, large-scale institutional capital inflow specifically earmarked for BTC accumulation, providing strong support for market confidence."
+      "classification": "DIVERGENCE",
+      "reason_cn": "强劲的机构需求（微策略模式）在价格暴跌期间被忽视，表明宏观流动性压力压倒了积极的基本面消息。",
+      "reason_en": "Strong institutional demand (MicroStrategy playbook) is being ignored during the crash, indicating that macro liquidity pressure is overwhelming positive fundamental news."
     },
     {
-      "title_cn": "瑞士银行 Sygnum 为市场中性基金筹集了超过 750 BTC",
-      "title_en": "Swiss bank Sygnum raises over 750 BTC for market-neutral fund",
+      "title_cn": "单一大户实体将BTC价格“压制”在9万美元以下：分析",
+      "title_en": "Single Bitcoin entity keeping BTC price 'suppressed' below $90K: Analysis",
+      "news_sentiment": "Bearish",
+      "classification": "NEUTRAL",
+      "reason_cn": "解释了近期在9万美元附近遇到的抛售压力，与宏观流动性收紧共同导致了价格下跌。",
+      "reason_en": "Explains the consistent selling pressure encountered near $90K, combining with tightening macro liquidity to fuel the recent drop."
+    },
+    {
+      "title_cn": "Citrea ZK-rollup推出，重新点燃比特币区块空间辩论",
+      "title_en": "Citrea ZK-rollup launch reignites Bitcoin block space debate",
       "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "表明复杂的机构投资者对比特币的需求正在增长，专注于提供市场中性回报的策略。",
-      "reason_en": "Indicates growing sophisticated institutional demand for Bitcoin and strategies focused on delivering market-neutral returns."
+      "classification": "NEUTRAL",
+      "reason_cn": "比特币生态系统的积极技术发展，长期利好，但对短期价格走势影响不大。",
+      "reason_en": "Positive technological development for the Bitcoin ecosystem, bullish long-term but neutral on immediate price action."
     },
     {
-      "title_cn": "比特币价格再次在 9 万美元被拒绝：什么将引发突破？",
-      "title_en": "Bitcoin price rejected at $90K again: What will trigger a breakout?",
+      "title_cn": "软件股因对人工智能颠覆的担忧进入熊市，ServiceNow周四暴跌11%",
+      "title_en": "Software stocks enter bear market on AI disruption fear with ServiceNow plunging 11% Thursday",
+      "news_sentiment": "Bearish",
+      "classification": "IMPULSE",
+      "reason_cn": "证实了更广泛的风险资产（包括高贝塔值的科技股）正在经历流动性退出和风险规避。",
+      "reason_en": "Confirms that broader risk assets, including high-beta tech, are experiencing liquidity withdrawal and risk aversion, linking crypto price action to traditional markets."
+    },
+    {
+      "title_cn": "美联储利率决定五大要点",
+      "title_en": "Here are the five key takeaways from Wednesday's Fed rate decision",
       "news_sentiment": "Neutral",
       "classification": "PRICED IN",
-      "reason_cn": "确认了短期技术阻力位的存在，解释了当前的抛售压力。这是一次意料之中的技术性回调。",
-      "reason_en": "Confirms the existence of short-term technical resistance, explaining the current selling pressure. This is an expected technical pullback."
+      "reason_cn": "美联储的总体态度已通过DXY和收益率的走势被市场吸收；其直接影响已不是当前暴跌的主要驱动力。",
+      "reason_en": "The general Fed stance has been absorbed by the market via DXY and yield movements; its direct influence is not the primary driver of the current crash."
     },
     {
-      "title_cn": "ETH 交易所供应量减少，质押量增长，价格横盘整理",
+      "title_cn": "以太坊交易所供应萎缩，质押增长，尽管价格横盘",
       "title_en": "ETH exchange supply shrinks as staking grows amid sideways price",
       "news_sentiment": "Bullish",
       "classification": "PRICED IN",
-      "reason_cn": "以太坊的长期基本面非常强劲，供应冲击叙事持续，为未来价格上涨提供结构性支撑。",
-      "reason_en": "Long-term Ethereum fundamentals remain very strong, with the supply shock narrative persisting, providing structural support for future price appreciation."
-    },
-    {
-      "title_cn": "Laser Digital 提交 OCC 申请成立美国国家信托银行",
-      "title_en": "Laser Digital Files OCC Application to Form US National Trust Bank",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "监管和机构整合的积极进展，为加密资产在美国市场提供更广阔的合法渠道。",
-      "reason_en": "Positive progress in regulatory and institutional integration, providing broader legitimate channels for crypto assets in the US market."
-    },
-    {
-      "title_cn": "美联储维持关键利率不变，经济前景改善",
-      "title_en": "Fed holds key interest rate steady as economic view improves",
-      "news_sentiment": "Neutral",
-      "classification": "PRICED IN",
-      "reason_cn": "符合市场普遍预期，美联储维持利率不变，对流动性影响中性。",
-      "reason_en": "In line with general market expectations, the Fed holding rates steady has a neutral impact on immediate liquidity."
+      "reason_cn": "强劲的基本面信号，表明供应稀缺，但未能阻止价格暴跌，表明宏观压力更大。",
+      "reason_en": "Strong fundamental signal indicating supply scarcity, but failed to prevent the drop, confirming overwhelming macro pressure."
     }
   ],
   "fed_futures": {
-    "price": 96.395,
-    "implied_rate": 3.605,
-    "timestamp": "2026-01-29T12:25:30.863467+00:00",
-    "trend": "Neutral (Stable expectations)",
-    "change_5d_bps": -3.5,
+    "price": 96.41,
+    "implied_rate": 3.59,
+    "timestamp": "2026-01-29T16:26:08.447263+00:00",
+    "trend": "Dovish (Rate expectations dropping)",
+    "change_5d_bps": -5.0,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 153.415,
-    "timestamp": "2026-01-29T12:25:30.938581+00:00",
+    "price": 152.956,
+    "timestamp": "2026-01-29T16:26:08.519106+00:00",
     "trend": "Yen Strength (Risk Off)",
-    "change_5d_pct": -3.21,
+    "change_5d_pct": -3.5,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 96.38,
-      "change_5d_pct": -0.69,
+      "price": 96.4,
+      "change_5d_pct": -0.66,
       "trend": "Weaker (Risk On)"
     },
     "us10y": {
-      "price": 4.25,
-      "change_5d_pct": 0.05,
+      "price": 4.24,
+      "change_5d_pct": 0.0,
       "trend": "High"
     },
     "vix": {
-      "price": 16.61,
-      "change_5d_pct": 3.23,
+      "price": 19.31,
+      "change_5d_pct": 20.01,
       "trend": "Normal Rising"
     }
   },
   "coins": [
     {
       "symbol": "BTC",
-      "price": 88003.1,
-      "change_24h": -2.0664366792788718,
-      "rsi_4h": 43.3405545035154,
-      "funding_rate": 0.00257382717845,
-      "open_interest": 2624377.309999998,
+      "price": 84578.1,
+      "change_24h": -5.568965902239683,
+      "rsi_4h": 26.24753895112603,
+      "funding_rate": 0.007160790327620001,
+      "open_interest": 2924142.0100000096,
       "sentiment": "Neutral",
       "score": 65,
-      "comment_cn": "机构叙事强劲，但宏观流动性紧缩和 $90k 阻力导致短期承压。价格正在清理弱势多头。",
-      "comment_en": "Strong institutional narrative, but macro liquidity and $90k resistance cause short-term pressure. Price is currently flushing weak longs."
+      "comment_cn": "价格遭遇宏观冲击引发的清算，RSI极度超卖（26.2）。尽管有机构购买（Metaplanet），但短期情绪已崩溃。等待超卖反弹。",
+      "comment_en": "Price suffered a macro-shock induced liquidation. RSI is extremely oversold (26.2). Short-term sentiment has collapsed despite institutional buying (Metaplanet). A bounce from oversold levels is likely."
     },
     {
       "symbol": "ETH",
-      "price": 2932.89,
-      "change_24h": -3.165641498033859,
-      "rsi_4h": 44.40156713485517,
-      "funding_rate": 0.006596807333729999,
-      "open_interest": 5747010.660000012,
-      "sentiment": "Bullish",
-      "score": 75,
-      "comment_cn": "基本面指标（供应收缩、质押增长）极其健康，价格回调主要受宏观风险情绪驱动，而非自身弱点。",
-      "comment_en": "Fundamental metrics (supply crunch, staking growth) are extremely healthy. The pullback is primarily macro-risk driven, not due to inherent weakness."
+      "price": 2809.76,
+      "change_24h": -6.5167701946014605,
+      "rsi_4h": 31.0559096421091,
+      "funding_rate": 0.004635567664160001,
+      "open_interest": 6243792.350000022,
+      "sentiment": "Neutral",
+      "score": 60,
+      "comment_cn": "跌幅大于比特币，失去3000美元关键位。然而，链上基本面和技术叙事仍强劲，支撑了长期积累。需确认能否收复关键支撑。",
+      "comment_en": "Suffered a deeper drop than BTC, losing the critical $3K level. However, strong on-chain fundamentals and technological narratives support long-term accumulation. Needs confirmation of reclaiming key support."
     },
     {
       "symbol": "SOL",
-      "price": 122.89,
-      "change_24h": -3.47184038960019,
-      "rsi_4h": 40.05717807296378,
-      "funding_rate": 0.00127348821664,
-      "open_interest": 2970759.370000003,
-      "sentiment": "Neutral",
-      "score": 55,
-      "comment_cn": "回调幅度较大 (-3.47%)，显示出在风险规避环境下的高波动性。需要更强的市场稳定才能企稳。",
-      "comment_en": "Showed a larger correction (-3.47%), indicating high volatility during risk-off environments. Requires broader market stability to firm up."
+      "price": 117.64,
+      "change_24h": -6.708961141950828,
+      "rsi_4h": 27.97123040084739,
+      "funding_rate": -0.00512280269298,
+      "open_interest": 3171374.9100000034,
+      "sentiment": "Bearish",
+      "score": 50,
+      "comment_cn": "高贝塔资产，在流动性紧缩中承受巨大压力。RSI深度超卖（28.0），资金费率转负，显示空头开始聚集，警惕进一步波动。",
+      "comment_en": "High-beta asset suffering significant pressure during liquidity tightening. Deeply oversold (RSI 28.0) with negative funding, indicating shorts are gathering. Caution needed for high volatility."
     },
     {
       "symbol": "BNB",
-      "price": 891.5,
-      "change_24h": -1.6004415011037527,
-      "rsi_4h": 49.157141348299305,
-      "funding_rate": 0.007746244803369999,
-      "open_interest": 8557041.0,
-      "sentiment": "Neutral/Bullish",
+      "price": 859.0,
+      "change_24h": -4.6085508051082735,
+      "rsi_4h": 32.916710471783304,
+      "funding_rate": -0.0010068866683299999,
+      "open_interest": 8295953.0,
+      "sentiment": "Neutral",
       "score": 70,
-      "comment_cn": "相对强势，回调幅度最小 (-1.60%)，RSI 保持在较高水平，可能受益于其生态系统事件或相对脱钩。",
-      "comment_en": "Showing relative strength with the smallest correction, RSI remaining higher. Likely benefiting from ecosystem-specific events or relative decoupling."
+      "comment_cn": "相对抗跌（跌幅最小，RSI最高32.9）。相对强劲的表现表明其具有特定的弹性，可能受益于避险资金流向。结构保持稳定。",
+      "comment_en": "Relative resilience (lowest drop, highest RSI 32.9). Its relative strength suggests specific resilience, possibly benefiting from local capital flows. Structure remains stable."
     },
     {
       "symbol": "DOGE",
-      "price": 0.12104,
-      "change_24h": -4.270800379626702,
-      "rsi_4h": 40.20404372312747,
-      "funding_rate": 0.004369721452150001,
-      "open_interest": 858229.7199999995,
+      "price": 0.11567,
+      "change_24h": -7.204171680705978,
+      "rsi_4h": 28.8063799530305,
+      "funding_rate": -0.010162111588160001,
+      "open_interest": 918071.2099999994,
       "sentiment": "Bearish",
-      "score": 40,
-      "comment_cn": "作为风险最高的资产之一，回调幅度最大 (-4.27%)，确认在流动性趋紧时投机性头寸正在被削减。",
-      "comment_en": "One of the riskiest assets, suffered the largest correction, confirming speculative positions are being trimmed during tight liquidity."
+      "score": 45,
+      "comment_cn": "跌幅最大，资金费率最负。典型的投机资产在去杠杆化中首当其冲。需等待宏观情绪稳定后才能尝试反弹。",
+      "comment_en": "Highest drop and most negative funding rate. A typical speculative asset hit hardest by deleveraging. Must wait for macro sentiment stabilization before attempting a sustained rebound."
     }
   ]
 }
