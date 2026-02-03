@@ -1,100 +1,100 @@
 {
-  "timestamp": "2026-02-03T04:43:59.642469",
-  "global_summary_cn": "宏观流动性分析显示，美元指数（DXY）和美债收益率（US10Y）走强，表明全球流动性趋于收紧（风险厌恶），但日元疲软（USD/JPY 155.384）维持了套利交易的风险偏好基础。在叙事层面，市场经历了剧烈分化：虽然此前出现大规模抛售（MTH无利可图、ETH/SOL深度暴跌），但关键利好消息（ISM制造业PMI高企、币安启动10亿美元BTC购买计划）正与极度看跌的情绪（“贱卖”估值）形成叠加。这构成了典型的“利空出尽，逢低买入”的局面。尽管流动性紧缩，市场仍强势反弹（BTC +3.71%, ETH +4.34%），尤其ETH/SOL的负融资利率预示着强烈的空头挤压潜力。整体判断为流动性压力下的技术性反弹和抄底行为。",
-  "global_summary_en": "Macro liquidity analysis shows tightening conditions globally, driven by a stronger DXY (97.42) and rising US10Y (4.28), indicating a Risk Off environment. However, JPY weakness (155.384) maintains the foundation for carry trade/Risk On behavior. The News Narrative layer shows significant divergence: Extreme bearish sentiment (MTH turning unprofitable, deep ETH/SOL slumps) is being met with major bullish catalysts (High ISM PMI, Binance launching a $1B BTC buying plan). This suggests a classic 'buy the dip' scenario following a capitulation event. Despite the tight liquidity, the market is showing strong rebounds (BTC +3.71%, ETH +4.34%). Deeply negative funding rates for ETH/SOL indicate strong potential for a short squeeze. Overall assessment: Technical rebound and accumulation occurring despite macro liquidity headwinds.",
+  "timestamp": "2026-02-03T08:44:37.288212",
+  "global_summary_cn": "流动性状态：全球流动性环境目前偏向紧缩（美元指数和美债收益率上升），但美联储降息预期的下降提供了结构性支持。市场正在经历流动性紧缩与结构性利好叙事之间的分歧。\n\n**分析总结**：尽管宏观环境受DXY和10年期国债收益率走强而承压，但加密货币市场正经历超卖反弹。价格上涨是由于RSI处于低位（例如ETH RSI 34.4）以及机构利好消息（如ING ETP扩展、PayPal采用研究）的推动。负资金费率表明空头头寸可能过度拥挤。当前的涨势属于结构性看涨下的短期“逢低买入”反弹，但由于宏观流动性风险（如即将公布的UoM通胀预期），这一反弹可能会受限。",
+  "global_summary_en": "Liquidity Status: The global liquidity environment is currently tight (strong DXY and rising US10Y yields), yet the downward trend in Fed rate expectations offers structural support. The market is experiencing a divergence between tight liquidity and structurally bullish narratives.\n\n**Synthesis**: Despite macro headwinds from tightening USD conditions (DXY, 10Y), the crypto market is undergoing an oversold bounce. Price recovery is driven by low RSI levels (e.g., ETH RSI 34.4) and fresh institutional adoption news (ING ETP expansion, PayPal study). Negative funding rates suggest shorts may be crowded after the recent dip. This rally is a tactical \"Buy the Dip\" move fueled by structural optimism, but it remains constrained by macro liquidity risks, particularly the upcoming UoM Inflation Expectations.",
   "news_analysis": [
     {
-      "title_cn": "印度Nifty 50指数飙升5%，美印贸易协议提振股市",
-      "title_en": "India's Nifty 50 skyrockets 5% as U.S.-India trade deal turbocharges stocks",
+      "title_cn": "德国ING银行扩大与Bitwise、VanEck的加密ETP和ETN产品线",
+      "title_en": "Bank ING Germany expands crypto ETPs and ETNs with Bitwise, VanEck",
       "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "表明全球特定新兴市场风险情绪良好，但对加密货币影响间接，已被市场消化。",
-      "reason_en": "Indicates strong risk appetite in specific emerging markets, but the impact on crypto is indirect and likely priced in."
+      "classification": "IMPULSE",
+      "reason_cn": "大型欧洲银行扩大加密投资产品，表明机构对数字资产的兴趣和接入渠道正在稳步增加，是长期结构性利好。",
+      "reason_en": "A major European bank expanding access to crypto investment products signals increasing institutional interest and access, representing long-term structural bullishness."
     },
     {
-      "title_cn": "澳大利亚自2023年末以来首次加息，因通胀触及六个季度高点",
-      "title_en": "Australia raises rates for first time since late 2023 as inflation hits six-quarter high",
+      "title_cn": "现货加密货币交易量跌至2024年低点，投资者需求减弱",
+      "title_en": "Spot crypto volumes plunge to 2024 lows amid investor demand weakens",
       "news_sentiment": "Bearish",
-      "classification": "NEUTRAL",
-      "reason_cn": "全球范围内的紧缩信号，但影响低于美联储，属于间接宏观压力。",
-      "reason_en": "A signal of tightening monetary policy globally, but its impact is secondary to the Fed, classified as indirect macro pressure."
+      "classification": "DISTRIBUTION",
+      "reason_cn": "交易量低迷证实了近期价格下跌缺乏买盘支撑，表明当前市场情绪疲软和需求不足。价格反弹缺乏成交量基础。",
+      "reason_en": "Low volumes confirm the lack of buying interest supporting the recent downturn, signaling weak current sentiment and demand. Price recovery lacks volume conviction."
     },
     {
-      "title_cn": "策略在比特币短暂跌破加密公司关键盈亏平衡水平后下滑",
-      "title_en": "Strategy slides after bitcoin briefly dips below crypto firm's key breakeven level",
+      "title_cn": "Galaxy称比特币可能跌至56000美元，因上涨理由“难以找到”",
+      "title_en": "Bitcoin may fall to $56K as reasons for gains ‘remain hard to find’: Galaxy",
       "news_sentiment": "Bearish",
-      "classification": "PRICED IN",
-      "reason_cn": "确认了近期的下跌压力和市场情绪低落，反映了已经发生的价格走势。",
-      "reason_en": "Confirms recent downward pressure and low sentiment, reflecting price action that has already occurred."
+      "classification": "IMPULSE",
+      "reason_cn": "顶级机构发出的悲观价格预测加剧了市场恐慌，影响短期交易者情绪。",
+      "reason_en": "Bearish price predictions from a major institution heighten market fear and impact short-term trader sentiment."
     },
     {
-      "title_cn": "Tether发布比特币挖矿开源操作系统",
-      "title_en": "Tether releases open-source operating system for Bitcoin mining",
+      "title_cn": "PayPal研究强调加密货币支付在美国的增长",
+      "title_en": "Paypal Study Highlights Growth of Cryptocurrency Payments in the US",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "利好比特币生态系统的基础设施发展，长期积极。",
-      "reason_en": "Positive for Bitcoin ecosystem infrastructure development, providing long-term support."
-    },
-    {
-      "title_cn": "ISM制造业PMI达到40个月高点：分析师称BTC可能受益",
-      "title_en": "ISM Manufacturing PMI at 40-month high: Analysts say BTC could benefit",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "宏观经济数据强劲，通常支持风险资产，为市场反弹提供基本面支撑。",
-      "reason_en": "Strong macroeconomic data often supports risk assets, providing fundamental support for market recovery."
-    },
-    {
-      "title_cn": "比特币在资本流出投降时触及“贱卖”估值：Bitwise",
-      "title_en": "Bitcoin hits ‘fire-sale’ value as capital flows capitulate: Bitwise",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "极度看跌的措辞反而构成强烈的反向指标，标志着潜在的触底和抄底机会。",
-      "reason_en": "Extreme bearish language acts as a strong contrarian indicator, signaling potential bottoming and accumulation opportunity."
-    },
-    {
-      "title_cn": "币安开始执行10亿美元的比特币购买计划",
-      "title_en": "First Batch Complete: Binance Starts Executing a $1B Bitcoin Buying Plan",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "直接的机构级购买需求，是当前价格强势反弹的关键驱动力。",
-      "reason_en": "Direct institutional buying demand. This is a crucial impulse driver for the current strong price rebound."
-    },
-    {
-      "title_cn": "比特币进入危险区，因中期持有者集体转为无利可图",
-      "title_en": "Bitcoin Enters Danger Zone as Medium-Term Holders Turn Unprofitable En Masse",
-      "news_sentiment": "Neutral",
-      "classification": "DIVERGENCE",
-      "reason_cn": "这是投降的特征（极端负面情绪），但市场正在反弹，表明坏消息正在被鲸鱼或机构吸收。",
-      "reason_en": "This is characteristic of capitulation (extreme negative sentiment), but the price is rallying, indicating bad news is being absorbed by whales/institutions."
+      "reason_cn": "来自主流支付平台的正面数据表明加密货币在实际应用和零售采用方面持续取得进展。",
+      "reason_en": "Positive data from a mainstream payment platform indicates continued progress in real-world utility and retail adoption for cryptocurrencies."
     },
     {
       "title_cn": "SOL跌至2025年4月低点，因比特币、AI股票和金属回调",
       "title_en": "SOL sinks to April 2025 lows as Bitcoin, AI stocks and metals unwind",
       "news_sentiment": "Bearish",
+      "classification": "PRICED IN",
+      "reason_cn": "SOL价格行为反映了近期市场的广泛抛售和风险资产的回调，该消息强化了熊市情绪但已反映在数据中（低RSI）。",
+      "reason_en": "SOL's price action reflects the recent broad market sell-off across risk assets. This news reinforces bearish sentiment but is largely priced into current low data (low RSI)."
+    },
+    {
+      "title_cn": "BitMine因以太坊低迷，未实现损失接近70亿美元，给财务公司带来压力",
+      "title_en": "BitMine nears $7B in unrealized losses as Ether downturn pressures treasury firms",
+      "news_sentiment": "Bearish",
+      "classification": "DISTRIBUTION",
+      "reason_cn": "大型加密公司的财务压力和巨额未实现亏损引发了对潜在抛售和市场信心的担忧。",
+      "reason_en": "Financial pressure and massive unrealized losses at a large crypto firm raise concerns about potential forced selling and broader market confidence."
+    },
+    {
+      "title_cn": "IG集团在获得新加坡监管批准后完成对Independent Reserve的收购",
+      "title_en": "IG Group Completes Purchase of Independent Reserve Following Singapore Regulatory Approval",
+      "news_sentiment": "Bullish",
+      "classification": "NEUTRAL",
+      "reason_cn": "机构在关键监管区域的扩张（亚洲）对长期市场结构有利，但当前价格反应不明显。",
+      "reason_en": "Institutional expansion in a key regulated zone (Asia) is beneficial for long-term market structure but has a neutral short-term price impact."
+    },
+    {
+      "title_cn": "美国密歇根大学通胀预期初值 (高影响)",
+      "title_en": "Prelim UoM Inflation Expectations (High Impact)",
+      "news_sentiment": "Neutral",
       "classification": "DIVERGENCE",
-      "reason_cn": "证实了山寨币的深度痛苦，但SOL/ETH价格正在强劲反弹，伴随负融资利率，暗示空头被困。",
-      "reason_en": "Confirms deep altcoin pain, yet SOL/ETH prices are rebounding strongly with negative funding, trapping short sellers."
+      "reason_cn": "这是一个高影响力的宏观事件。若通胀预期上升，将导致流动性收紧，压制当前的反弹。市场正处于对这一数据的观望情绪。",
+      "reason_en": "This is a high-impact macro event. If inflation expectations rise, it would tighten liquidity and suppress the current bounce. The market is in a wait-and-see mode regarding this data."
+    },
+    {
+      "title_cn": "澳大利亚加息，因通胀达到六个季度以来的高点",
+      "title_en": "Australia raises rates for first time since late 2023 as inflation hits six-quarter high",
+      "news_sentiment": "Bearish",
+      "classification": "NEUTRAL",
+      "reason_cn": "确认了全球通胀压力仍在，并导致央行继续采取紧缩政策，对全球风险资产流动性构成持续压力。",
+      "reason_en": "Confirms persistent global inflationary pressure leading to continued tightening from central banks, sustaining pressure on global risk asset liquidity."
     }
   ],
   "fed_futures": {
-    "price": 96.363,
-    "implied_rate": 3.637,
-    "timestamp": "2026-02-03T04:43:41.782911+00:00",
-    "trend": "Neutral (Stable expectations)",
-    "change_5d_bps": 0.0,
+    "price": 96.54,
+    "implied_rate": 3.46,
+    "timestamp": "2026-02-03T08:44:15.634093+00:00",
+    "trend": "Dovish (Rate expectations dropping)",
+    "change_5d_bps": -18.0,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 155.384,
-    "timestamp": "2026-02-03T04:43:41.830689+00:00",
+    "price": 155.46,
+    "timestamp": "2026-02-03T08:44:15.690709+00:00",
     "trend": "Yen Weakness (Risk On)",
-    "change_5d_pct": 1.92,
+    "change_5d_pct": 1.97,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 97.42,
-      "change_5d_pct": 1.01,
+      "price": 97.48,
+      "change_5d_pct": 1.24,
       "trend": "Stronger (Risk Off)"
     },
     "us10y": {
@@ -103,71 +103,71 @@
       "trend": "High Rising"
     },
     "vix": {
-      "price": 16.34,
-      "change_5d_pct": -0.06,
+      "price": 16.2,
+      "change_5d_pct": -0.92,
       "trend": "Normal"
     }
   },
   "coins": [
     {
       "symbol": "BTC",
-      "price": 78992.3,
-      "change_24h": 3.7097576762548536,
-      "rsi_4h": 41.848034473583546,
-      "funding_rate": 0.00265921172199,
-      "open_interest": 2362498.6900000074,
+      "price": 79001.9,
+      "change_24h": 2.7256757301474366,
+      "rsi_4h": 42.02213619568189,
+      "funding_rate": -0.00048156118394,
+      "open_interest": 2408128.83000001,
       "sentiment": "Bullish",
-      "score": 75,
-      "comment_cn": "在触及极度恐慌和投降水平后，受到币安10亿美元购买计划的直接驱动而反弹。RSI低位，存在进一步回升空间。",
-      "comment_en": "Rebounding strongly after hitting extreme fear/capitulation levels, directly driven by Binance's $1B buying plan. Low RSI suggests room for further recovery."
+      "score": 65,
+      "comment_cn": "处于超卖区域（RSI 42.0）的反弹，负资金费率暗示空头可能被挤压。短期受机构消息驱动，但需警惕宏观流动性风险。",
+      "comment_en": "Bouncing from oversold territory (RSI 42.0). Negative funding suggests potential short squeeze. Driven by institutional news, but cautious due to macro liquidity risks."
     },
     {
       "symbol": "ETH",
-      "price": 2354.22,
-      "change_24h": 4.34401053093461,
-      "rsi_4h": 36.42517756993126,
-      "funding_rate": -0.00610216462751,
-      "open_interest": 5767345.830000011,
-      "sentiment": "Highly Bullish",
-      "score": 80,
-      "comment_cn": "价格跌幅最大，但反弹强劲 (+4.34%)。极度负的融资利率 (-0.0061%) 预示着强烈的空头挤压，是反弹的潜在领跑者。",
-      "comment_en": "Suffered one of the deepest slumps but showing strong recovery (+4.34%). Deeply negative funding rate suggests a high likelihood of a powerful short squeeze, positioning it as a potential leader in the relief rally."
+      "price": 2328.25,
+      "change_24h": 3.5993343300583733,
+      "rsi_4h": 34.35496445038932,
+      "funding_rate": 0.00075851456024,
+      "open_interest": 5803549.600000015,
+      "sentiment": "Bullish",
+      "score": 70,
+      "comment_cn": "RSI最低（34.4），反弹力度强劲。结合近期抛售后空头缺乏杠杆的叙事，ETH的反弹弹性最高。",
+      "comment_en": "Lowest RSI (34.4) indicates strongest oversold condition and potential bounce. High elasticity in recovery, supported by narrative of recent leverage flush out."
     },
     {
       "symbol": "SOL",
-      "price": 104.96,
-      "change_24h": 3.9516688125185646,
-      "rsi_4h": 40.583175384485386,
-      "funding_rate": -0.014582824012080001,
-      "open_interest": 3286137.170000001,
-      "sentiment": "Highly Bullish",
-      "score": 78,
-      "comment_cn": "新闻确认了其近期的大幅下跌。但负融资利率是空头拥挤的信号，一旦市场情绪稳定，易触发强力挤压。",
-      "comment_en": "News confirms its massive recent slump. Negative funding indicates a crowded short trade setup, highly prone to a strong squeeze once stability returns."
+      "price": 104.81,
+      "change_24h": 2.8456481208909876,
+      "rsi_4h": 40.04324541229685,
+      "funding_rate": -0.00882205715807,
+      "open_interest": 3297831.8800000004,
+      "sentiment": "Neutral",
+      "score": 55,
+      "comment_cn": "价格接近历史低点，尽管有所反弹，但负资金费率和较低RSI表明市场仍充满恐慌情绪，面临较大上行阻力。",
+      "comment_en": "Price near recent lows. Despite the bounce, negative funding and low RSI suggest persistent fear. Faces significant resistance on the upside."
     },
     {
       "symbol": "BNB",
-      "price": 778.8,
-      "change_24h": 3.0431331039957663,
-      "rsi_4h": 40.96513560542598,
-      "funding_rate": 0.006149625794549999,
-      "open_interest": 7366941.0,
-      "sentiment": "Neutral/Bullish",
-      "score": 65,
-      "comment_cn": "跟随市场整体反弹，表现稳健。RSI尚处于健康区间，等待突破。",
-      "comment_en": "Following the overall market rebound with solid performance. RSI is healthy, awaiting a decisive breakout."
+      "price": 781.2,
+      "change_24h": 2.952029520295215,
+      "rsi_4h": 42.383696990780784,
+      "funding_rate": 0.0032414857444699996,
+      "open_interest": 7463938.0,
+      "sentiment": "Neutral",
+      "score": 60,
+      "comment_cn": "RSI处于中性，跟随市场波动，资金费率为正，表明内部需求相对稳定，但缺乏独立叙事。",
+      "comment_en": "RSI is neutral, following general market moves. Positive funding suggests relatively stable internal demand, but lacks an independent driving narrative."
     },
     {
       "symbol": "DOGE",
-      "price": 0.10823,
-      "change_24h": 3.6189564384873196,
-      "rsi_4h": 46.492822916347464,
-      "funding_rate": 0.00137923813688,
-      "open_interest": 801872.2599999994,
-      "sentiment": "Neutral/Bullish",
-      "score": 60,
-      "comment_cn": "表现略逊于主要币种，但仍处于恢复模式。缺乏催化剂，更多是市场情绪的指标。",
-      "comment_en": "Slightly underperforming majors but still in recovery mode. Lacking specific catalysts, acts primarily as a general market sentiment indicator."
+      "price": 0.10889,
+      "change_24h": 4.711991537647852,
+      "rsi_4h": 48.26217130768406,
+      "funding_rate": -0.0066957423842300004,
+      "open_interest": 823743.9199999995,
+      "sentiment": "Neutral",
+      "score": 50,
+      "comment_cn": "波动性最大，RSI最高，价格在技术上处于盘整区间，受市场情绪和整体反弹影响。",
+      "comment_en": "Highest volatility and RSI. Technically consolidating, driven primarily by overall market sentiment and the current oversold bounce."
     }
   ]
 }
