@@ -1,132 +1,100 @@
 {
-  "timestamp": "2026-02-03T20:46:57.904229",
-  "global_summary_cn": "当前流动性状态处于矛盾期：尽管美联储降息预期下调暗示着长期流动性宽松（鸽派），但短期市场指标（美元指数DXY、10年期美债收益率和VIX上升）明确指示着金融环境正在收紧（风险规避）。这种即时流动性紧缩与主导市场的看跌叙事（BTC跌破73K，加密货币和美股同步抛售）形成了完美的共振，即“熊市完美风暴”。高风险资产如SOL跌幅居前，而BNB和DOGE则表现出惊人的逆势上涨，可能反映了资金正在从主流行情转向特定的生态系统或投机性头寸。市场处于派发阶段，RSI指标正在逼近超卖区，但除非短期宏观指标（如DXY和10年期美债）的涨势停止，否则下行压力仍将持续。",
-  "global_summary_en": "The current liquidity status is contradictory: while dropping Fed rate expectations suggest long-term liquidity easing (Dovish), immediate market indicators (rising DXY, US 10Y yields, and VIX) clearly signal tightening financial conditions (Risk Off). This immediate liquidity crunch perfectly aligns with the dominant bearish narrative (BTC losing $73K, synchronized crypto and stock sell-off), forming a 'Bearish Perfect Storm.' High-beta assets like SOL are leading the decline, while BNB and DOGE show surprising counter-trend strength, potentially reflecting capital rotation into specific ecosystems or speculative positions. The market is in a distribution phase, with RSI approaching oversold territory, but downside pressure will persist unless the short-term macro indicators (DXY and 10Y) reverse their upward trend.",
+  "timestamp": "2026-02-04T00:47:32.526794",
+  "global_summary_cn": "流动性状态：全球流动性处于收紧/风险厌恶状态。宏观指标（DXY走强，美债10年期收益率上升，VIX上升）一致指向风险资产承压，尽管对美联储未来降息的预期略微下降。\n\n市场正处于由宏观流动性驱动的“完美风暴（看跌）”之中，主要资产（BTC, ETH, SOL）均录得大幅下跌（-3.5%至-5.3%），跌破关键支撑位。尽管存在企业采用（Tian Ruixiang）和ETF资金回流的积极消息，但这些利好被紧缩的宏观环境所压倒。ETH和SOL的负资金费率表明去杠杆化正在积极进行。短期看，市场处于超卖状态（RSI 30-35），可能出现技术性反弹，但只要DXY和美债收益率保持强势，抛售压力就难以缓解。操作上，应警惕进一步的宏观风险（如即将公布的通胀预期数据）。",
+  "global_summary_en": "Liquidity Status: Global liquidity is in a tightening/Risk Off state. Macro indicators (Stronger DXY, rising US10Y yields, rising VIX) collectively point to pressure on risk assets, despite a marginal dip in future Fed rate cut expectations.\n\nThe market is experiencing a 'Perfect Storm (Bearish)' driven by macro liquidity constraints, with major assets (BTC, ETH, SOL) posting significant drops (-3.5% to -5.3%) and breaking key support levels. Although there is positive news regarding corporate adoption (Tian Ruixiang) and ETF inflows, these bullish factors are overwhelmed by the tightening macro environment. Negative funding rates in ETH and SOL indicate active deleveraging. In the short term, the market is deeply oversold (RSI 30-35), suggesting a technical bounce is possible, but selling pressure will likely persist as long as DXY and US yields remain strong. Caution is advised regarding upcoming macro risks (e.g., UoM Inflation Expectations).",
   "news_analysis": [
     {
-      "title_cn": "比特币跌破7.3万美元，美股抛售：分析师称BTC价格走势并非“异常”",
-      "title_en": "Bitcoin loses $73K as US stocks sell off: Analyst says BTC price action is not ‘abnormal’",
+      "title_cn": "美联储的斯蒂芬·米兰辞去白宫职务",
+      "title_en": "Fed's Stephen Miran resigns from White House post",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "行政和人事变动，对当前流动性或市场情绪没有直接影响。",
+      "reason_en": "Administrative and personnel change, no immediate impact on current liquidity or market sentiment."
+    },
+    {
+      "title_cn": "参议院银行民主党人要求推迟沃什的提名，直到鲍威尔和库克的调查结束",
+      "title_en": "Senate Banking Democrats demand delay on Warsh nomination until Powell and Cook investigations end",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "增加政治和监管不确定性，但不是市场的直接驱动因素。",
+      "reason_en": "Increases political and regulatory uncertainty, but not a primary market driver."
+    },
+    {
+      "title_cn": "比特币短暂跌破 73,000 美元，创下 2024 年 11 月以来的最低点，因抛售再次加剧",
+      "title_en": "Bitcoin briefly breaks below $73,000 to lowest since November 2024 as heavy selling resumes",
       "news_sentiment": "Bearish",
       "classification": "IMPULSE",
-      "reason_cn": "直接确认了风险资产的联动抛售，是引发当前价格下跌的关键推动力，增强了短期恐慌情绪。",
-      "reason_en": "Directly confirms the synchronized sell-off in risk assets, acting as a key impulse driving the current price drop and intensifying short-term fear."
+      "reason_cn": "证实了当前强劲的看跌动量和流动性驱动的抛售压力。",
+      "reason_en": "Confirms the current strong bearish momentum and liquidity-driven selling pressure."
     },
     {
-      "title_cn": "VistaShares推出带有期权化比特币敞口的国债ETF",
-      "title_en": "VistaShares launches Treasury ETF with options-based Bitcoin exposure",
-      "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "积极的金融产品创新和采用消息，但当前流动性压力过大，价格仍在下跌，表明好消息被市场忽略。",
-      "reason_en": "Positive news regarding financial product innovation and adoption, but the overwhelming liquidity pressure means the price is still dropping, indicating the good news is being ignored."
-    },
-    {
-      "title_cn": "BitWise高管表示加密货币“寒冬”即将结束，黄金目标价将达5000美元",
-      "title_en": "Bitcoin, crypto 'winter' soon over, says BitWise exec as gold retargets $5K",
+      "title_cn": "天瑞祥计划通过股权挂钩交易收购高达 15K 枚比特币",
+      "title_en": "Tian Ruixiang plans to acquire up to 15K Bitcoin in equity-linked deal",
       "news_sentiment": "Bullish",
       "classification": "DIVERGENCE",
-      "reason_cn": "长期乐观主义言论与当前极度悲观的短期价格走势形成鲜明对比。在下跌中传递希望，但无法抵消即时抛压。",
-      "reason_en": "Long-term bullish sentiment starkly contrasts with immediate bearish price action. Offers hope during the drop but fails to offset instant selling pressure."
+      "reason_cn": "长期的企业看涨采用新闻，但在宏观抛售环境下被市场忽略，导致价格下跌，属于背离。",
+      "reason_en": "Long-term bullish corporate adoption news, but ignored by the market amid macro selling, leading to divergence (price falling despite good news)."
     },
     {
-      "title_cn": "Xapo：比特币借贷正在从短期流动性转向长期规划",
-      "title_en": "Bitcoin borrowing shifts from short-term liquidity to long-term planning: Xapo",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "关于市场结构变化的长期趋势性分析，对短期市场情绪影响有限。",
-      "reason_en": "Long-term trend analysis regarding market structure changes, limited impact on immediate market sentiment."
-    },
-    {
-      "title_cn": "美国PMI突破三年阻力后，比特币“再通胀”押注出现分歧",
-      "title_en": "Bitcoin ‘reflation’ bets diverge after US PMI breaks three-year resistance",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "讨论宏观经济的不确定性，反映了当前市场对经济前景和政策走向的分歧。",
-      "reason_en": "Discusses macroeconomic uncertainty, reflecting the current market divergence regarding economic outlook and policy direction."
-    },
-    {
-      "title_cn": "MetaMask通过Ondo增加代币化美股、ETF和商品",
-      "title_en": "MetaMask adds tokenized US stocks, ETFs, commodities via Ondo",
-      "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "重要的DeFi/传统金融整合利好，但在当前抛售环境中被忽略，市场焦点仍在风险规避。",
-      "reason_en": "Significant DeFi/TradFi integration news, but overshadowed by the current sell-off environment. Market focus remains on risk aversion."
-    },
-    {
-      "title_cn": "比特币ETF在15亿美元抛售后面临5.62亿美元的反弹，但阻力犹存",
-      "title_en": "Bitcoin ETFs bounce $562M after $1.5B sell-off, as headwinds linger",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "突显了机构资金流动的极端波动性，证实了近期的巨额抛售压力，市场情绪高度不稳定。",
-      "reason_en": "Highlights extreme volatility in institutional flows, confirming massive recent selling pressure, indicating high market instability."
-    },
-    {
-      "title_cn": "德国ING银行扩大与Bitwise和VanEck合作的加密ETP和ETN产品",
-      "title_en": "ING Germany expands crypto ETP and ETN offerings with Bitwise, VanEck",
-      "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "欧洲机构采用的积极信号，但无法抵抗全球流动性紧缩带来的抛压。",
-      "reason_en": "Positive signal for European institutional adoption, but unable to resist selling pressure caused by global liquidity tightening."
-    },
-    {
-      "title_cn": "Tom Lee将以太坊21%的暴跌归咎于缺乏杠杆和黄金“漩涡”",
-      "title_en": "Tom Lee tips lack of leverage and gold ‘vortex’ for Ether’s 21% slump",
-      "news_sentiment": "Bearish",
-      "classification": "NEUTRAL",
-      "reason_cn": "对ETH近期弱势的解释性分析，虽然是回顾性消息，但强化了市场对高波动资产的担忧。",
-      "reason_en": "An explanatory analysis of ETH's recent weakness. Although retrospective, it reinforces market concerns about high-volatility assets."
-    },
-    {
-      "title_cn": "法国考虑限制VPN以支持15岁以下社交媒体禁令",
-      "title_en": "France Considers Restricting VPNs to Support Under-15 Social Media Ban",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "区域性监管新闻，对加密货币市场的直接影响较低。",
-      "reason_en": "Regional regulatory news with low immediate direct impact on the cryptocurrency market."
-    },
-    {
-      "title_cn": "杰弗里·爱泼斯坦投资了比特币公司Blockstream，并邀请创始人Adam Back上岛",
-      "title_en": "Jeffrey Epstein Invested in Bitcoin Firm Blockstream, Invited Founder Adam Back to Island",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "历史和丑闻相关新闻，不影响当前市场价格走势。",
-      "reason_en": "Historical and scandal-related news, irrelevant to current market price action."
-    },
-    {
-      "title_cn": "比特币在短暂反弹后遭遇重抛，跌至72,863美元低点",
-      "title_en": "Bitcoin Drops to $72,863 Low After Short‑Lived Bounce Meets Heavy Selling",
+      "title_cn": "以太坊资金费率转为负值，但美国宏观条件削弱了买入信号",
+      "title_en": "ETH funding rate turns negative, but US macro conditions mute the buy signal",
       "news_sentiment": "Bearish",
       "classification": "IMPULSE",
-      "reason_cn": "最新的价格行为报告，确认了空头力量强大，任何反弹都被迅速抛售，进一步巩固了短期看跌情绪。",
-      "reason_en": "Latest price action report confirming strong selling pressure and rapid distribution on bounces, further solidifying short-term bearish sentiment."
+      "reason_cn": "负资金费率标志着去杠杆化和空头聚集，但宏观环境（DXY/US10Y）使潜在的多头挤压难以实现。",
+      "reason_en": "Negative funding signals deleveraging and short accumulation, but the macro environment (DXY/US10Y) mutes the potential for a short squeeze."
     },
     {
-      "title_cn": "预测市场预计2026年政府将短暂关门",
-      "title_en": "Prediction Markets Price a Short 2026 Government Shutdown",
+      "title_cn": "比特币矿工遭遇 '关机价格'，盈利能力暴跌至数月低点",
+      "title_en": "Bitcoin Miners Hit ‘Shutdown Prices’ as Profitability Slumps to Multi-Month Low",
+      "news_sentiment": "Bearish",
+      "classification": "IMPULSE",
+      "reason_cn": "直接反映了价格下跌对生态系统基本面的严重压力。",
+      "reason_en": "Directly reflects severe pressure on the ecosystem fundamentals due to the price drop."
+    },
+    {
+      "title_cn": "埃隆·马斯克重提狗狗币登月言论，但 DOGE 仍在下跌",
+      "title_en": "Elon Musk Revives Dogecoin Moon Talk, but DOGE Keeps Falling",
+      "news_sentiment": "Bearish",
+      "classification": "DISTRIBUTION",
+      "reason_cn": "尽管有马斯克的利好言论，价格仍在下跌，表明牛市叙事被当前的抛售压力所压倒。",
+      "reason_en": "Despite bullish commentary from Musk, the price continues to fall, indicating the bullish narrative is overpowered by current selling pressure."
+    },
+    {
+      "title_cn": "比特币 ETF 在 15 亿美元抛售后反弹 5.62 亿美元，但不利因素依然存在",
+      "title_en": "Bitcoin ETFs bounce $562M after $1.5B sell-off, as headwinds linger",
       "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "美国政治风险，通常在短期内给市场带来轻微压力，但不是加密市场的主要驱动因素。",
-      "reason_en": "US political risk, usually exerting minor short-term pressure but not a major crypto market driver."
+      "classification": "DIVERGENCE",
+      "reason_cn": "ETF净流入是积极的，但价格继续疲软表明不利的宏观流动性主导了资金流动的短期影响。",
+      "reason_en": "Positive ETF inflows, but persistent price weakness suggests adverse macro liquidity dominates the short-term impact of capital flows."
+    },
+    {
+      "title_cn": "以太坊创始人 Vitalik Buterin 撕毁了 L2 重点路线图，称“我们需要一条新道路”",
+      "title_en": "'We Need a New Path': Ethereum Founder Vitalik Buterin Rips Up L2-Focused Roadmap",
+      "news_sentiment": "Bearish",
+      "classification": "IMPULSE",
+      "reason_cn": "关键开发者改变路线图，为 ETH 生态系统的未来发展带来了不确定性。",
+      "reason_en": "Key developer changing the roadmap introduces uncertainty regarding the future development path of the ETH ecosystem."
     }
   ],
   "fed_futures": {
     "price": 96.43,
     "implied_rate": 3.57,
-    "timestamp": "2026-02-03T20:46:35.270321+00:00",
+    "timestamp": "2026-02-04T00:47:14.286207+00:00",
     "trend": "Dovish (Rate expectations dropping)",
     "change_5d_bps": -7.0,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 155.723,
-    "timestamp": "2026-02-03T20:46:35.345376+00:00",
+    "price": 155.951,
+    "timestamp": "2026-02-04T00:47:14.369915+00:00",
     "trend": "Yen Weakness (Risk On)",
-    "change_5d_pct": 2.14,
+    "change_5d_pct": 1.86,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 97.39,
-      "change_5d_pct": 1.15,
+      "price": 97.38,
+      "change_5d_pct": 1.14,
       "trend": "Stronger (Risk Off)"
     },
     "us10y": {
@@ -135,71 +103,71 @@
       "trend": "High Rising"
     },
     "vix": {
-      "price": 18.48,
-      "change_5d_pct": 13.03,
+      "price": 18.0,
+      "change_5d_pct": 10.09,
       "trend": "Normal Rising"
     }
   },
   "coins": [
     {
       "symbol": "BTC",
-      "price": 76469.7,
-      "change_24h": -2.1626151484135145,
-      "rsi_4h": 36.23714629812175,
-      "funding_rate": 0.00506858162393,
-      "open_interest": 2404349.3500000075,
+      "price": 76107.9,
+      "change_24h": -3.591813881844461,
+      "rsi_4h": 34.39660426420335,
+      "funding_rate": 0.00370890173907,
+      "open_interest": 2379785.970000009,
       "sentiment": "Bearish",
-      "score": 40,
-      "comment_cn": "价格大幅下跌，证实了风险规避情绪，RSI接近超卖。关注72K附近的支撑。",
-      "comment_en": "Significant price drop confirms risk-off sentiment, RSI nearing oversold territory. Watching support around $72K."
+      "score": 35,
+      "comment_cn": "受到宏观流动性紧缩和价格跌破 73k 的影响，市场处于看跌冲动中。RSI 接近超卖区域，可能在短期内寻求反弹。",
+      "comment_en": "In a bearish impulse driven by tight macro liquidity and the break below $73k. RSI is nearing oversold territory, suggesting a potential bounce may be sought short-term."
     },
     {
       "symbol": "ETH",
-      "price": 2303.51,
-      "change_24h": -0.6058121723371648,
-      "rsi_4h": 39.5751236754234,
-      "funding_rate": 0.00157284137295,
-      "open_interest": 5168492.220000008,
-      "sentiment": "Neutral",
-      "score": 50,
-      "comment_cn": "跌幅小于BTC和SOL，显示出相对韧性。在抛售中表现相对抗跌。",
-      "comment_en": "Declined less than BTC and SOL, showing relative resilience. Holding up comparatively well during the broad sell-off."
+      "price": 2250.53,
+      "change_24h": -4.145885419550473,
+      "rsi_4h": 34.074866084415504,
+      "funding_rate": -0.00439639905498,
+      "open_interest": 5178079.560000003,
+      "sentiment": "Bearish",
+      "score": 30,
+      "comment_cn": "价格下跌，负资金费率表明去杠杆化严重。Vitalik 的路线图变更增加了基本面不确定性。",
+      "comment_en": "Price drop compounded by negative funding rate signals heavy deleveraging. Vitalik's roadmap change adds fundamental uncertainty."
     },
     {
       "symbol": "SOL",
-      "price": 100.9,
-      "change_24h": -2.502657261571156,
-      "rsi_4h": 36.118024836388614,
-      "funding_rate": -0.00733782335289,
-      "open_interest": 3348767.560000003,
+      "price": 98.6,
+      "change_24h": -5.328852616418637,
+      "rsi_4h": 30.32205687603316,
+      "funding_rate": -0.022708629474730003,
+      "open_interest": 3570408.110000003,
       "sentiment": "Bearish",
-      "score": 35,
-      "comment_cn": "高风险资产领跌，负资金费率与高未平仓量预示着潜在的空头挤压，但短期内压力最大。",
-      "comment_en": "High-beta asset leading the sell-off. Negative funding with high OI suggests potential short squeeze, but currently under maximum pressure."
+      "score": 30,
+      "comment_cn": "跌幅最大，RSI 接近 30，资金费率显著为负，是去杠杆化最剧烈的资产。极度超卖，短期有空头挤压的风险。",
+      "comment_en": "Highest drop with RSI near 30 and significantly negative funding, marking the most aggressive deleveraging. Extremely oversold, carrying short-squeeze risk."
     },
     {
       "symbol": "BNB",
-      "price": 770.9,
-      "change_24h": 0.32535137948984905,
-      "rsi_4h": 42.35748826452773,
-      "funding_rate": 0.01,
-      "open_interest": 7120158.0,
-      "sentiment": "Bullish",
-      "score": 75,
-      "comment_cn": "逆势上涨，正资金费率和高OI显示多头情绪强烈，与大盘脱钩。",
-      "comment_en": "Rallying against the market trend. Positive funding and high OI show strong long sentiment, indicating decoupling from the major caps."
+      "price": 755.5,
+      "change_24h": -2.2386128364389175,
+      "rsi_4h": 35.438785300036415,
+      "funding_rate": 0.00307677044001,
+      "open_interest": 7026363.0,
+      "sentiment": "Neutral",
+      "score": 45,
+      "comment_cn": "相对抗跌，跌幅小于大盘，表明其生态系统拥有一定的相对韧性。",
+      "comment_en": "Relatively resilient, dropping less than the majors, suggesting comparative strength within its ecosystem."
     },
     {
       "symbol": "DOGE",
-      "price": 0.10919,
-      "change_24h": 1.894363568495698,
-      "rsi_4h": 50.290898175056704,
-      "funding_rate": -0.0051207377118,
-      "open_interest": 782215.9999999994,
-      "sentiment": "Bullish",
-      "score": 70,
-      "comment_cn": "涨幅最大，RSI健康，负资金费率表明空头是推动力，存在轧空风险。",
-      "comment_en": "Leading the bounce with healthy RSI. Negative funding suggests short interest is fueling the rally, presenting a squeeze risk."
+      "price": 0.10671,
+      "change_24h": -1.2127383817811568,
+      "rsi_4h": 44.692138193278595,
+      "funding_rate": -0.00362619304711,
+      "open_interest": 780348.4399999996,
+      "sentiment": "Neutral",
+      "score": 40,
+      "comment_cn": "跌幅最小，但马斯克言论未能阻止价格下跌，显示市场情绪脆弱。RSI 相对健康。",
+      "comment_en": "Smallest drop, but Musk's comments failed to halt the decline, indicating fragile sentiment. RSI is relatively healthier."
     }
   ]
 }
