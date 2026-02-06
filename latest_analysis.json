@@ -1,116 +1,84 @@
 {
-  "timestamp": "2026-02-06T08:55:55.182081",
-  "global_summary_cn": "流动性状态：即时风险正在规避 (Risk Off)。宏观层面，尽管美联储利率预期趋于鸽派（长期利好），但即期市场指标显示出强烈的避险情绪：DXY走强，VIX飙升至高恐慌区。这构成了即时的流动性紧缩。\n\n新闻叙事与流动性形成了“完美风暴”：全球恐慌情绪达到2022年熊市以来的最低点，比特币价格暴跌超过15%，大型持有者正在抛售。然而，巨大的分歧在于，机构（如BlackRock IBIT）在抛售期间录得了创纪录的100亿美元交易量，暗示着恐慌抛售中存在大规模机构抄底。技术面看，所有主流币种均处于极度超卖状态（RSI < 30）。\n\n**结论**：短期内，市场仍可能因流动性收紧和极度恐慌而波动。但深度超卖和机构吸筹为未来几日的强劲反弹奠定了基础，但必须等待VIX和DXY出现缓解信号。",
-  "global_summary_en": "Liquidity Status: Immediate Risk Off / Tightening. On the macro front, despite dovish Fed rate expectations (long-term positive), immediate market indicators signal strong risk aversion: DXY strengthens, and VIX surges into high-fear territory. This creates an immediate liquidity squeeze.\n\nThe news narrative combined with liquidity forms a 'Perfect Storm (Bearish)': Global sentiment has hit its lowest point since the 2022 crash, with Bitcoin plummeting over 15% and large holders distributing. The critical divergence lies in institutional behavior; BlackRock's IBIT recorded a monumental $10 billion volume during the sell-off, suggesting massive institutional dip-buying amid retail panic. Technically, all major cryptocurrencies are in deeply oversold territory (RSI < 30).\n\n**Conclusion**: Short-term volatility remains high due to tightening liquidity and extreme fear. However, deep oversold conditions and institutional accumulation lay the groundwork for a strong relief bounce in the coming days, pending confirmation of relief in the VIX and DXY.",
+  "timestamp": "2026-02-06T12:56:29.379380",
+  "global_summary_cn": "流动性状态：**收紧/风险厌恶**。宏观层面，尽管美联储降息预期略微鸽派，但核心风险指标如美元指数(DXY)走强和VIX恐慌指数飙升至高位，明确指向全球风险情绪收紧。在叙事层面，市场正经历一场**完美风暴（熊市）**。关键新闻包括比特币ETF单日流出4.34亿美元、加密货币情绪达到2022年崩溃以来的最低点，以及Vitalik等高层抛售。价格暴跌导致大部分资产RSI跌入超卖区（尤其山寨币）。短期来看，技术面超卖可能带来反弹（逢低买入/空头回补），但鉴于ETF持续流出和宏观流动性紧缩，市场结构仍极度脆弱，不宜追高。",
+  "global_summary_en": "Liquidity Status: **Tight / Risk Off**. Although Fed rate expectations show a slight dovish trend, core risk indicators—a strengthening DXY and a rising VIX (high fear)—clearly signal tightening global risk appetite. The narrative layer confirms a **Perfect Storm (Bearish)**. Key headlines include a massive $434M outflow from Bitcoin ETFs, crypto sentiment hitting its lowest point since the 2022 crash, and selling pressure from key figures like Vitalik. The sharp price drop pushed most assets, especially altcoins, deep into oversold RSI territory. While the technical oversold status suggests an imminent bounce (Buy the Dip/Short Squeeze potential), the fundamental structure remains extremely fragile due to persistent ETF outflows and tight macro liquidity. Caution against chasing any rally is advised.",
   "news_analysis": [
     {
-      "title_cn": "参议员布兹曼称，加密货币法案谈判在关键投票通过后正在参议院加快推进",
+      "title_cn": "参议员Boozman表示，在通过关键投票后，加密法案的谈判正在参议院升温",
       "title_en": "Crypto bill talks picking up in Senate after clearing a key vote, Sen. Boozman says",
       "news_sentiment": "Bullish",
       "classification": "DIVERGENCE",
-      "reason_cn": "积极的监管进展提供了长期结构性利好，但被当前的恐慌抛售所忽略。这是结构性利好与短期价格行为之间的分歧。",
-      "reason_en": "Positive regulatory progress provides long-term structural tailwinds, currently being ignored by the immediate panic selling. This is a divergence between structural good news and short-term price action."
+      "reason_cn": "监管清晰度对长期是利好，但市场当前处于恐慌抛售状态，导致价格未能反映此利好。",
+      "reason_en": "Regulatory clarity is positive for the long term, but the market is currently in panic selling, preventing the price from reflecting this positive news."
     },
     {
-      "title_cn": "比特币暴跌15%，短暂跌破61,000美元，抛售加剧，对加密货币的怀疑增加",
-      "title_en": "Bitcoin drops 15%, briefly breaking below $61,000 as sell-off intensifies, doubts about crypto grow",
+      "title_cn": "比特币ETF流出4.34亿美元，BTC短暂触及6万美元，资产接近800亿美元",
+      "title_en": "Bitcoin ETFs shed $434M as BTC briefly touches $60K, assets near $80B",
       "news_sentiment": "Bearish",
       "classification": "IMPULSE",
-      "reason_cn": "直接确认了当前的剧烈抛售和市场恐慌，是价格崩溃的主要驱动力。",
-      "reason_en": "Directly confirms the current intense sell-off and market panic, acting as the main impulse driving the price collapse."
+      "reason_cn": "这是造成近期价格暴跌的主要直接驱动力，证实了机构资金正在大规模离场。",
+      "reason_en": "This is the primary immediate driver of the recent price slump, confirming massive institutional capital flight."
     },
     {
-      "title_cn": "Strategy第四季度录得124亿美元亏损，随着比特币暴跌，股价下跌17%",
-      "title_en": "Strategy records $12.4B loss in Q4, shares dip 17% as Bitcoin tumbles",
-      "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "突显了持有比特币的上市公司的巨大财务压力，加剧了市场负面情绪。",
-      "reason_en": "Highlights significant financial pressure on publicly traded companies holding Bitcoin, intensifying negative market sentiment."
-    },
-    {
-      "title_cn": "随着价格下跌，大型比特币持有者供应份额降至9个月低点",
+      "title_cn": "大型比特币持有者的供应份额在价格下跌中达到9个月低点",
       "title_en": "Large Bitcoin holders’ share of supply hits 9-month low amid price drop",
       "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "确认了鲸鱼或机构在当前价格水平上正在进行派发或大规模止损，这是结构性疲软的信号。",
-      "reason_en": "Confirms that whales or institutions are distributing or realizing large losses at current prices, signaling structural weakness."
+      "classification": "PRICED IN",
+      "reason_cn": "这解释了价格下跌背后的抛售动态：老旧的大户头寸正在减持或被震出。",
+      "reason_en": "This explains the selling dynamics behind the price drop: large, established holder positions are being reduced or shaken out."
     },
     {
-      "title_cn": "随着收益不及预期，比特币矿商IREN、CleanSpark股价暴跌",
-      "title_en": "Bitcoin miners IREN, CleanSpark shares plunge as earnings fall short",
-      "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "矿业公司股价的下跌表明加密生态系统内部的盈利压力正在增加，加剧了看跌情绪。",
-      "reason_en": "Plunge in miner stocks indicates growing profitability stress within the crypto ecosystem, exacerbating bearish sentiment."
-    },
-    {
-      "title_cn": "随着比特币跌至6万美元，加密货币情绪降至2022年崩盘以来的最低点",
+      "title_cn": "加密货币情绪跌至2022年崩盘以来的最低点，比特币跌至6万美元",
       "title_en": "Crypto sentiment at lowest point since 2022 crash as Bitcoin tanks to $60K",
       "news_sentiment": "Bearish",
       "classification": "IMPULSE",
-      "reason_cn": "极度恐惧的读数，确认了当前市场的抛售压力，但从反向角度看，也预示着潜在的底部临近。",
-      "reason_en": "Extreme fear reading that confirms the current selling pressure, but also suggests a potential bottom from a contrarian perspective."
+      "reason_cn": "证实了市场处于极度恐慌和投降状态，与VIX上升的宏观环境一致。",
+      "reason_en": "Confirms the market is in a state of extreme panic and capitulation, consistent with the rising VIX macro environment."
     },
     {
-      "title_cn": "在比特币暴跌期间，BlackRock的IBIT日交易量创下100亿美元的纪录",
-      "title_en": "BlackRock’s IBIT hits daily volume record of $10B amid Bitcoin crash",
-      "news_sentiment": "Bullish",
-      "classification": "DIVERGENCE",
-      "reason_cn": "关键分歧：巨大的交易量表明机构买家在抛售期间积极介入，在恐慌中进行了大规模的抄底吸筹。",
-      "reason_en": "Crucial divergence: Massive volume indicates institutional buyers aggressively stepped in during the sell-off, engaging in large-scale accumulation amid panic."
-    },
-    {
-      "title_cn": "随着ETH持有者信心面临重大压力测试，以太坊跌破2000美元",
+      "title_cn": "以太坊跌破2000美元，ETH持有者信心面临重大压力测试",
       "title_en": "Ether slips below $2K as ETH holder confidence faces major stress test",
       "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "直接确认了ETH的关键心理和技术支撑位失效，增加了卖压。",
-      "reason_en": "Directly confirms the failure of a critical psychological and technical support level for ETH, adding to selling pressure."
+      "classification": "PRICED IN",
+      "reason_cn": "描述了ETH关键心理支撑位失守的状况，反映在ETH的大幅下跌中。",
+      "reason_en": "Describes the loss of a critical psychological support level for ETH, reflected in the steep drop."
     },
     {
-      "title_cn": "Vitalik Buterin在标记计划提款后出售660万美元的ETH",
+      "title_cn": "Vitalik Buterin在预警计划提款后出售了价值660万美元的ETH",
       "title_en": "Vitalik Buterin sells $6.6M in ETH after flagging planned withdrawals",
       "news_sentiment": "Bearish",
       "classification": "IMPULSE",
-      "reason_cn": "创始人的抛售，尤其是在市场低迷时期，会带来负面光学效应并加剧看跌情绪。",
-      "reason_en": "Founder selling, especially during a downturn, creates negative optics and exacerbates bearish sentiment."
+      "reason_cn": "关键影响者的高调抛售行为在市场情绪低迷时加剧了恐慌和负面光学影响。",
+      "reason_en": "High-profile selling by a key influencer exacerbates panic and negative optics during low market sentiment."
     },
     {
-      "title_cn": "Tether投资1.5亿美元于Gold.com以扩大代币化黄金接入",
-      "title_en": "Tether Invests $150 Million in Gold.com to Expand Tokenized Gold Access",
-      "news_sentiment": "Bullish",
-      "classification": "DIVERGENCE",
-      "reason_cn": "展示了稳定币发行方持续投资基础设施，这与加密货币价格波动脱钩，对生态系统的长期稳健性是利好。",
-      "reason_en": "Shows continued infrastructure investment by the stablecoin issuer, decoupled from crypto price volatility, which is bullish for the long-term robustness of the ecosystem."
-    },
-    {
-      "title_cn": "分析师：委内瑞拉石油业复苏可能先于火炬气比特币挖矿热潮",
-      "title_en": "Analysts: Venezuela’s Oil Industry Resurgence May Precede a Flared-Gas Bitcoin Mining Boom",
-      "news_sentiment": "Bullish",
-      "classification": "NEUTRAL",
-      "reason_cn": "长期和结构性利好，与即期价格行动无关，但展示了比特币采用和能源整合的持续趋势。",
-      "reason_en": "Long-term and structural positive, irrelevant to immediate price action, but shows continuing trend of Bitcoin adoption and energy integration."
+      "title_cn": "Strategy报告第四季度运营亏损174亿美元，因比特币价格修正",
+      "title_en": "Strategy Reports $17.4 Billion Q4 Operating Loss Amid Bitcoin Price Correction",
+      "news_sentiment": "Bearish",
+      "classification": "PRICED IN",
+      "reason_cn": "大型机构报告巨额损失，进一步打击了市场对持有比特币的企业信心的。",
+      "reason_en": "A large institution reporting massive losses further dampens market confidence in corporate Bitcoin holders."
     }
   ],
   "fed_futures": {
-    "price": 96.475,
-    "implied_rate": 3.525,
-    "timestamp": "2026-02-06T08:55:34.327483+00:00",
+    "price": 96.455,
+    "implied_rate": 3.545,
+    "timestamp": "2026-02-06T12:56:13.839680+00:00",
     "trend": "Dovish (Rate expectations dropping)",
-    "change_5d_bps": -11.2,
+    "change_5d_bps": -9.2,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 156.935,
-    "timestamp": "2026-02-06T08:55:34.371927+00:00",
+    "price": 157.091,
+    "timestamp": "2026-02-06T12:56:13.891931+00:00",
     "trend": "Yen Weakness (Risk On)",
-    "change_5d_pct": 1.12,
+    "change_5d_pct": 1.22,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 97.85,
-      "change_5d_pct": 0.25,
+      "price": 97.83,
+      "change_5d_pct": 0.23,
       "trend": "Stronger (Risk Off)"
     },
     "us10y": {
@@ -119,71 +87,71 @@
       "trend": "High Falling"
     },
     "vix": {
-      "price": 21.45,
-      "change_5d_pct": 22.99,
+      "price": 20.29,
+      "change_5d_pct": 16.34,
       "trend": "High Fear Rising"
     }
   },
   "coins": [
     {
       "symbol": "BTC",
-      "price": 65056.3,
-      "change_24h": -8.563296743453874,
-      "rsi_4h": 23.404904042053317,
-      "funding_rate": -0.00122461549064,
-      "open_interest": 3092155.3400000143,
-      "sentiment": "Bearish",
-      "score": 35,
-      "comment_cn": "价格遭遇宏观紧缩和恐慌叙事双重打击。技术上极度超卖 (RSI 23.4)，但抛压仍大。IBIT的创纪录交易量暗示机构正在深度吸筹，警惕空头回补反弹。",
-      "comment_en": "Price hit by the dual pressure of macro tightening and panic narrative. Technically deeply oversold (RSI 23.4), but selling pressure remains high. Record IBIT volume suggests deep institutional accumulation; watch for short-covering bounce."
+      "price": 66474.9,
+      "change_24h": -4.4200491739636885,
+      "rsi_4h": 30.53625513599964,
+      "funding_rate": -0.00578450661894,
+      "open_interest": 3097306.6400000164,
+      "sentiment": "Neutral",
+      "score": 40,
+      "comment_cn": "虽然宏观叙事极度看空，但RSI接近30表明技术面过度超卖，可能支撑短期反弹。",
+      "comment_en": "Although the macro narrative is extremely bearish, RSI near 30 suggests severe technical oversold conditions, potentially supporting a short-term bounce."
     },
     {
       "symbol": "ETH",
-      "price": 1877.83,
-      "change_24h": -11.119578182093576,
-      "rsi_4h": 25.838204930060343,
-      "funding_rate": 0.00761622832284,
-      "open_interest": 5371303.610000012,
+      "price": 1920.86,
+      "change_24h": -6.8881607011284816,
+      "rsi_4h": 30.10523489249114,
+      "funding_rate": 0.00415527516531,
+      "open_interest": 5381819.14000001,
       "sentiment": "Bearish",
-      "score": 30,
-      "comment_cn": "弱于BTC，跌破2000美元关键支撑位。RSI超卖，且受到Vitalik抛售的负面影响。短期内面临更大的下行风险。",
-      "comment_en": "Weaker than BTC, losing the critical $2K support. Oversold RSI, negatively impacted by Vitalik's sale. Faces greater downside risk in the immediate term."
+      "score": 35,
+      "comment_cn": "跌破2000美元，且受到V神抛售消息影响。RSI严重超卖，但抛压仍在。",
+      "comment_en": "Broke below $2K, impacted by Vitalik's selling news. RSI is severely oversold, but selling pressure remains high."
     },
     {
       "symbol": "SOL",
-      "price": 79.38,
-      "change_24h": -13.538830192789463,
-      "rsi_4h": 22.251227023162045,
-      "funding_rate": -0.03987622880565,
-      "open_interest": 3192255.6600000015,
+      "price": 81.69,
+      "change_24h": -8.858641079995536,
+      "rsi_4h": 28.33942384311125,
+      "funding_rate": -0.04924284954303,
+      "open_interest": 3253575.1300000018,
       "sentiment": "Bearish",
       "score": 25,
-      "comment_cn": "高风险资产，跌幅最大 (-13.54%)，RSI极低 (22.3)。显示出在风险规避环境下的抛售潮和高杠杆平仓。",
-      "comment_en": "High-risk asset, suffering the largest drop (-13.54%) with extremely low RSI (22.3). Indicates wave of selling and high leverage washout in a risk-off environment."
+      "comment_cn": "山寨币跌幅最大，RSI低于29，处于极度超卖。风险/回报倾向于短期反弹，但基本面弱。",
+      "comment_en": "Suffered the largest drop among majors. RSI below 29, deeply oversold. Risk/reward favors a short-term rebound, but fundamentals are weak."
     },
     {
       "symbol": "BNB",
-      "price": 621.4,
-      "change_24h": -10.25418833044483,
-      "rsi_4h": 19.827036471378662,
-      "funding_rate": -0.01058515704684,
-      "open_interest": 7328872.0,
+      "price": 635.5,
+      "change_24h": -6.240778990852753,
+      "rsi_4h": 26.26552758050839,
+      "funding_rate": -0.012739976079080001,
+      "open_interest": 7274065.0,
       "sentiment": "Bearish",
       "score": 20,
-      "comment_cn": "所有主流币中最超卖的 (RSI 19.8)。尽管其生态系统相对独立，但在市场大恐慌中仍被大量抛售。存在强烈的技术性反弹需求。",
-      "comment_en": "The most oversold among major coins (RSI 19.8). Despite its relatively independent ecosystem, it was heavily dumped during the market panic. Strong technical rebound is imminent."
+      "comment_cn": "RSI跌至26.3，显示出极端的投降式抛售。虽然技术面可能反弹，但当前市场情绪对其不利。",
+      "comment_en": "RSI dropped to 26.3, indicating extreme capitulation selling. Technical bounce is likely, but current market sentiment is highly unfavorable."
     },
     {
       "symbol": "DOGE",
-      "price": 0.09093,
-      "change_24h": -10.8704175651833,
-      "rsi_4h": 28.948015636751677,
-      "funding_rate": -0.0038492391134000003,
-      "open_interest": 763336.3799999994,
+      "price": 0.09334,
+      "change_24h": -5.353883593591557,
+      "rsi_4h": 35.513802147689645,
+      "funding_rate": -0.00748278341757,
+      "open_interest": 746630.1399999991,
       "sentiment": "Bearish",
-      "score": 32,
-      "comment_cn": "高贝塔波动，跌幅紧随主流币。RSI接近超卖，但仍受市场整体恐慌情绪主导。",
-      "comment_en": "High-beta volatility, tracking major coins closely. RSI near oversold levels, still dominated by overall market fear."
+      "score": 30,
+      "comment_cn": "meme币跌幅相对较小，但仍处于回调趋势。如果大盘反弹，它可能表现出弹性。",
+      "comment_en": "Relatively smaller drop for the meme coin, but still in a correction trend. May show resilience if the broader market attempts a bounce."
     }
   ]
 }
