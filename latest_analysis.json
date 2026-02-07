@@ -1,68 +1,148 @@
 {
-  "timestamp": "2026-02-07T12:59:44.285548",
-  "global_summary_cn": "流动性状态：**紧缩且波动性高 (Risk Off)**，但市场展现出显著的韧性。宏观层面，尽管美债收益率下降且日元走弱（利好风险资产），但VIX指数上升至20.37，显示市场恐慌情绪和波动性急剧增加，使得流动性环境整体偏紧。\n\n叙事层面，市场正在消化剧烈抛售的后果。虽然出现了看跌情绪和ETH的集中抛压，但机构资金积极抄底：IBIT在ETF抛售‘第二糟糕’的日子里仍录得2.316亿美元的净流入。监管利好（参议院加密法案推进）和全球采用（俄罗斯Sberbank推出加密抵押贷款）提供了长期的支撑。这种“高恐慌下的强劲买盘”构成了**买入深度跌幅（Buy the Dip）**的背离局面，支撑了BTC从6万美元的快速反弹。",
-  "global_summary_en": "Liquidity Status: **Tight and High Volatility (Risk Off)**, but the market shows significant resilience. Macro-wise, despite falling US10Y yields and a weak Yen (which usually favors risk assets), the VIX index surged to 20.37, indicating sharply rising market fear and volatility, tightening the overall liquidity environment.\n\nNarrative-wise, the market is processing the recent violent sell-off. While there were bearish headlines and concentrated selling pressure on ETH, institutional capital aggressively bought the dip: IBIT recorded a massive $231.6 million net inflow on the 'second-worst' day for ETF prices. Regulatory tailwinds (Senate crypto bill progress) and global adoption (Russia's Sberbank launching crypto-backed loans) provide long-term support. This situation of 'Strong buying amid high fear' constitutes a **Buy the Dip** divergence, supporting BTC's swift recovery from $60,000.",
+  "timestamp": "2026-02-07T17:00:21.785310",
+  "global_summary_cn": "宏观流动性目前处于谨慎收紧状态，VIX上升显示市场恐惧度增加，但日元走弱（利差交易活跃）提供了一定的投机资金支持。叙事层面极为乐观：在比特币跌至60,000美元下方后，机构资金展现出强大的抄底意愿，现货ETF流入量在清算潮后迅速回升，录得3.31亿美元的强劲净流入。这种“机构抄底”的叙事与紧张的宏观环境形成了显著分歧。市场共识是，弱手已被清洗，且价格已被强大的现货需求所保护。短期内市场重点将是维持在$68K上方，等待即将公布的美国就业数据和通胀预期。市场结构支持看涨，尤其关注ETH和SOL，它们处于空头支付多头费用的状态，具备潜在的空头挤压条件。",
+  "global_summary_en": "Macro liquidity is currently cautiously tightening, evidenced by a rising VIX indicating increased market fear. However, the weak Yen (active carry trade) still provides underlying speculative funding. The narrative layer is strongly bullish: institutional money demonstrated robust \"buy the dip\" action after Bitcoin briefly dropped below $60,000. Spot ETF inflows quickly rebounded, posting a strong $331 million net inflow. This \"institutional accumulation\" narrative creates a significant divergence with the nervous macro backdrop. The consensus is that weak hands have been flushed out, and price action is now protected by strong spot demand. The short-term focus is holding above the $68K compression zone, pending upcoming US jobs data and inflation expectations. Market structure is generally bullish, with ETH and SOL showing negative funding rates, setting the stage for potential short squeezes.",
   "news_analysis": [
     {
-      "title_cn": "参议员Boozman称，加密法案在通过关键投票后，在参议院的讨论正在加快",
-      "title_en": "Crypto bill talks picking up in Senate after clearing a key vote, Sen. Boozman says",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "监管清晰度的积极进展，降低了长期不确定性。",
-      "reason_en": "Positive progress towards regulatory clarity, reducing long-term uncertainty."
+      "title_cn": "首先是四分之一拉链，现在是“401(k)鲻鱼头”——Z世代趋势揭示了经济状况",
+      "title_en": "First the quarter zip, now a '401(k) mullet' — what Gen Z trends say about the economy",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "宏观观察，与加密市场直接关联度低。",
+      "reason_en": "General macro observation, low direct relevance to the crypto market."
     },
     {
-      "title_cn": "IBIT在ETF价格‘第二糟糕’的日子里，仍流入了2.316亿美元",
+      "title_cn": "近千名谷歌员工签署联名信，敦促公司撤资ICE、CBP",
+      "title_en": "Nearly a thousand Google workers sign letter urging company to divest from ICE, CBP",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "政治/社会事件，对加密市场无直接影响。",
+      "reason_en": "Political/social event, no direct impact on crypto market movements."
+    },
+    {
+      "title_cn": "收入需要增加近5万美元，中位价房屋才能像2019年那样负担得起",
+      "title_en": "Incomes would need to rise nearly $50,000 for median-priced homes to be as affordable as they were in 2019",
+      "news_sentiment": "Bearish",
+      "classification": "NEUTRAL",
+      "reason_cn": "普遍的宏观压力指标，支持美联储长期保持限制性政策的背景。",
+      "reason_en": "General macro stress indicator, supporting the long-term restrictive Fed policy backdrop."
+    },
+    {
+      "title_cn": "克莱默的本周展望：关键的就业报告。以及Robinhood、麦当劳等公司的财报",
+      "title_en": "Cramer's week ahead: A key jobs report. Plus, earnings from Robinhood, McDonald's and more",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "日历事件提醒，高影响力就业数据即将发布。",
+      "reason_en": "Calendar event notice; high-impact jobs data (USD/CAD) upcoming."
+    },
+    {
+      "title_cn": "比特币在差点跌破6万美元后反弹至7万美元以上",
+      "title_en": "Bitcoin rebounds back above $70,000 after nearly breaking below $60,000 a day ago",
+      "news_sentiment": "Bullish",
+      "classification": "PRICED IN",
+      "reason_cn": "回顾性新闻，确认了在巨大抛售后的即时强劲反弹（当前价格为$69k）。",
+      "reason_en": "Retrospective news confirming the strong immediate rebound after the major sell-off (current price is ~$69k)."
+    },
+    {
+      "title_cn": "[USD] 密歇根大学初步通胀预期 (高)",
+      "title_en": "[USD] Prelim UoM Inflation Expectations (High)",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "即将到来的高影响力宏观事件。对美联储未来决策至关重要。",
+      "reason_en": "Upcoming high-impact macro event. Crucial for future Fed decision making."
+    },
+    {
+      "title_cn": "是什么导致比特币暴跌？BTC跌破6万美元背后的三大理论",
+      "title_en": "What crashed Bitcoin? Three theories behind BTC's trip below $60K",
+      "news_sentiment": "Neutral",
+      "classification": "PRICED IN",
+      "reason_cn": "对已发生事件的事后分析，市场已消化恐慌情绪。",
+      "reason_en": "Post-mortem analysis of an event that has already occurred; the panic has been digested by the market."
+    },
+    {
+      "title_cn": "BTC在拒绝2021年高点后，将“很快”填补84K美元的期货缺口",
+      "title_en": "Bitcoin to fill $84K futures gap 'very soon' as BTC rejects above 2021 top",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "明确的技术看涨目标（84K缺口），为反弹提供了具体的潜在上行空间。",
+      "reason_en": "Clear technical bullish target ($84K gap) providing specific potential upside for the current rebound."
+    },
+    {
+      "title_cn": "在ETF价格“第二糟糕”的一天之后，2.316亿美元流入IBIT",
       "title_en": "$231.6M pours into IBIT following ‘second-worst’ day for ETF price",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "这是机构在剧烈抛售后抄底的明确证据，显示出强大的机构买盘信念。",
-      "reason_en": "Clear evidence of institutional buying the dip after a sharp sell-off, demonstrating strong conviction from institutional capital."
+      "reason_cn": "机构在价格暴跌后进行强劲的“抄底”行为，确认了关键支撑位有现货需求保护。",
+      "reason_en": "Strong institutional 'buy the dip' action following the price crash, confirming spot demand protects key support levels."
     },
     {
-      "title_cn": "比特币反弹至7万美元以上，此前一天曾几乎跌破6万美元",
-      "title_en": "Bitcoin rebounds back above $70,000 after nearly breaking below $60,000 a day ago",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "对近期价格反弹的客观描述，确认了市场的短期恢复力。",
-      "reason_en": "Objective description of recent price action, confirming the market's short-term resilience."
-    },
-    {
-      "title_cn": "比特币被腰斩。加密货币生存危机背后的原因是什么",
-      "title_en": "Bitcoin gets slashed in half. What's behind the crypto's existential crisis",
-      "news_sentiment": "Bearish",
-      "classification": "PRICED IN",
-      "reason_cn": "这是对近期价格剧烈下跌（但并非腰斩）的情绪化反应。在价格反弹后发布，属于滞后性恐慌，已被吸收。",
-      "reason_en": "Emotional reaction to recent sharp price drops (which were not actually 50%). Released after the price rebounded, this lagged panic is likely already absorbed."
-    },
-    {
-      "title_cn": "Trend Research抛售了超过40万枚ETH，导致清算风险上升",
-      "title_en": "Trend Research dumps over 400K ETH as liquidation risk rises",
-      "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "表明大型实体进行了重大抛售，对ETH价格造成了直接压力，解释了ETH相对BTC的疲软。",
-      "reason_en": "Indicates significant selling by a major entity, putting direct pressure on the ETH price and explaining its relative weakness compared to BTC."
-    },
-    {
-      "title_cn": "俄罗斯联邦储蓄银行Sberbank将开始发行以加密货币为抵押的贷款",
-      "title_en": "Russia’s Sberbank to Start Issuing Loans Backed by Crypto Collateral",
+      "title_cn": "在BTC价格波动期间，“比特币”的谷歌搜索量猛增",
+      "title_en": "Google search volume for 'Bitcoin' skyrockets amid BTC price swings",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "重要的全球主流金融机构采用案例，增强了加密资产的实用性和接受度。",
-      "reason_en": "An important case of global mainstream financial adoption, enhancing the utility and acceptance of crypto assets."
+      "reason_cn": "表明零售兴趣和关注度回升，通常在大幅波动后预示着新的资金流入。",
+      "reason_en": "Indicates renewed retail interest and attention, often signaling new inflows following significant volatility."
+    },
+    {
+      "title_cn": "比特币的下一轮牛市可能并非来自更多“宽松政策”",
+      "title_en": "Bitcoin’s next bull market may not come from more 'accommodative policies'",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "长期观点，旨在减轻市场对美联储政策的依赖。",
+      "reason_en": "Long-term theoretical view, aiming to lessen market dependency on Fed policy."
+    },
+    {
+      "title_cn": "以太坊跌破2K美元，ETH持有者信心面临重大压力测试",
+      "title_en": "Ether slips below $2K as ETH holder confidence faces major stress test",
+      "news_sentiment": "Bearish",
+      "classification": "PRICED IN",
+      "reason_cn": "描述了ETH已经经历的压力测试和价格下跌（目前价格已恢复到$2051）。",
+      "reason_en": "Describes the stress test and price dip that ETH already endured (price has recovered to ~$2051)."
+    },
+    {
+      "title_cn": "Trend Research抛售超过40万枚ETH，清算风险上升",
+      "title_en": "Trend Research dumps over 400K ETH as liquidation risk rises",
+      "news_sentiment": "Bearish",
+      "classification": "PRICED IN",
+      "reason_cn": "导致近期跌势的重大清算事件，市场已消化该冲击。",
+      "reason_en": "Major liquidation event that contributed to the recent dip; the market has absorbed the shock."
+    },
+    {
+      "title_cn": "报告：越南提议在证券式规则下征收0.1%的加密交易税",
+      "title_en": "Report: Vietnam Proposes 0.1% Crypto Transaction Tax Under Securities-Style Rules",
+      "news_sentiment": "Bearish",
+      "classification": "NEUTRAL",
+      "reason_cn": "监管摩擦，但影响区域性且相对次要。",
+      "reason_en": "Regulatory friction, but regional and relatively minor impact compared to macro events."
+    },
+    {
+      "title_cn": "比特币ETF以3.31亿美元流入结束了连跌纪录",
+      "title_en": "Bitcoin ETFs Snap Losing Streak With $331 Million Inflow",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "最强烈的看涨信号，表明机构在价格下跌后果断重新入场。抵消了宏观恐惧。",
+      "reason_en": "Strongest bullish signal, indicating decisive institutional reentry after the dip. Offsets macro fear."
+    },
+    {
+      "title_cn": "比特币在68K美元盘整，技术信号为决定性突破奠定基础",
+      "title_en": "Bitcoin Compresses at $68K as Technical Signals Set the Stage for a Decisive Break",
+      "news_sentiment": "Neutral",
+      "classification": "IMPULSE",
+      "reason_cn": "确认了当前价格行为处于关键的盘整期，预示着即将出现大幅波动。",
+      "reason_en": "Confirms the current price action is in a key compression period, anticipating a decisive volatility break."
     }
   ],
   "fed_futures": {
     "price": 96.363,
     "implied_rate": 3.637,
-    "timestamp": "2026-02-07T12:59:30.293592+00:00",
+    "timestamp": "2026-02-07T16:59:57.239482+00:00",
     "trend": "Neutral (Stable expectations)",
     "change_5d_bps": 0.0,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
     "price": 156.784,
-    "timestamp": "2026-02-07T12:59:30.333511+00:00",
+    "timestamp": "2026-02-07T16:59:57.303706+00:00",
     "trend": "Yen Weakness (Risk On)",
     "change_5d_pct": 1.02,
     "zone": "Weak Yen (Intervention Risk)"
@@ -87,63 +167,63 @@
   "coins": [
     {
       "symbol": "BTC",
-      "price": 69009.6,
-      "change_24h": 3.678886553517173,
-      "rsi_4h": 42.954146715107505,
-      "funding_rate": 0.01,
-      "open_interest": 2975619.980000013,
+      "price": 69027.2,
+      "change_24h": -1.3161243098424908,
+      "rsi_4h": 43.1085947759603,
+      "funding_rate": 0.00426433416405,
+      "open_interest": 2945048.2900000126,
       "sentiment": "Bullish",
-      "score": 85,
-      "comment_cn": "在经历剧烈回调后，获得强大的机构支持。价格已恢复大部分跌幅，衍生品指标正在冷却。",
-      "comment_en": "Strong institutional support following the severe correction. Price has recovered most losses, and derivative metrics are cooling off."
+      "score": 75,
+      "comment_cn": "机构资金在跌破6万美元后迅速抄底，ETF流入强劲。目前在$68K-$70K区间盘整，短期看涨目标是填补$84K的期货缺口。",
+      "comment_en": "Institutional money quickly bought the dip below $60K, supported by strong ETF inflows. Consolidating in the $68K-$70K range, with a near-term bullish target of filling the $84K futures gap."
     },
     {
       "symbol": "ETH",
-      "price": 2044.36,
-      "change_24h": 6.396177906383681,
-      "rsi_4h": 43.68079643098678,
-      "funding_rate": 0.01,
-      "open_interest": 5189240.960000005,
-      "sentiment": "Neutral",
-      "score": 70,
-      "comment_cn": "受到大型实体抛售的影响，相对BTC表现较弱，且曾短暂跌破关键的2000美元关口。需观察能否稳住阵脚。",
-      "comment_en": "Weaker relative to BTC due to large entity selling and a temporary dip below the crucial $2,000 level. Needs to confirm stability."
+      "price": 2051.75,
+      "change_24h": 0.7582342570630235,
+      "rsi_4h": 44.47333036921673,
+      "funding_rate": -0.00458178568732,
+      "open_interest": 5003593.970000003,
+      "sentiment": "Bullish",
+      "score": 80,
+      "comment_cn": "经历清算冲击后恢复，目前资金费率为负，显示空头拥挤，价格高于$2000。具备空头挤压的良好条件。",
+      "comment_en": "Recovered post-liquidation shock. Negative funding indicates crowded shorts above $2,000. Good setup for a potential short squeeze."
     },
     {
       "symbol": "SOL",
-      "price": 86.24,
-      "change_24h": 5.286289830301548,
-      "rsi_4h": 41.4487241529969,
-      "funding_rate": 0.0014365356505799999,
-      "open_interest": 3031614.5500000017,
-      "sentiment": "Bullish",
-      "score": 75,
-      "comment_cn": "在市场反弹中表现强劲，4H RSI和Funding都处于健康水平，显示出良好的投机兴趣和复苏力度。",
-      "comment_en": "Strong performance during the market bounce. 4H RSI and Funding are healthy, indicating good speculative interest and recovery strength."
+      "price": 87.09,
+      "change_24h": 0.41508128675198824,
+      "rsi_4h": 43.555009872743554,
+      "funding_rate": -0.013400537346890002,
+      "open_interest": 3070421.8400000026,
+      "sentiment": "Neutral/Bullish",
+      "score": 65,
+      "comment_cn": "与ETH类似，资金费率为负，显示存在一些空头头寸。波动性消化后正在寻求跟随大盘反弹。",
+      "comment_en": "Similar to ETH, negative funding suggests short positioning. Looking to follow BTC/ETH rebound after volatility digestion."
     },
     {
       "symbol": "BNB",
-      "price": 639.2,
-      "change_24h": 0.3926495994974085,
-      "rsi_4h": 32.66469283423015,
-      "funding_rate": -0.00146435165516,
-      "open_interest": 7005179.0,
-      "sentiment": "Neutral",
-      "score": 55,
-      "comment_cn": "恢复最慢（24h涨幅最低），且Funding转负，暗示在最近的波动中遭遇局部抛压，表现相对滞后。",
-      "comment_en": "Slowest recovery (lowest 24h gain) with negative Funding, suggesting localized selling pressure during the volatility. Relative underperformer."
+      "price": 643.5,
+      "change_24h": -2.440873256519106,
+      "rsi_4h": 34.858843282489914,
+      "funding_rate": -0.00443807814423,
+      "open_interest": 6855732.0,
+      "sentiment": "Bearish",
+      "score": 40,
+      "comment_cn": "表现弱于大盘，跌幅最大，RSI接近超卖 (34.9)，需密切关注是否形成新的支撑，短期看弱。",
+      "comment_en": "Underperforming major coins, suffered the largest drop, RSI approaching oversold (34.9). Needs to establish new support; weak short-term outlook."
     },
     {
       "symbol": "DOGE",
-      "price": 0.09689,
-      "change_24h": 3.6478391099700582,
-      "rsi_4h": 44.32085623814748,
-      "funding_rate": 0.0003211549743,
-      "open_interest": 728870.3099999999,
+      "price": 0.0978,
+      "change_24h": -1.3814661692043928,
+      "rsi_4h": 46.52245671860068,
+      "funding_rate": -0.00391669666491,
+      "open_interest": 725087.7399999999,
       "sentiment": "Neutral",
-      "score": 65,
-      "comment_cn": "跟随大盘复苏。作为高波动性资产，其复苏力度与整体市场风险偏好挂钩。",
-      "comment_en": "Recovering in line with the broader market. As a high-volatility asset, its recovery strength is tied to overall market risk appetite."
+      "score": 50,
+      "comment_cn": "中性表现，资金费率略为负值。作为风险指标，跟随主要市场情绪波动。",
+      "comment_en": "Neutral performance with slightly negative funding. Acting as a risk barometer, fluctuating with overall market sentiment."
     }
   ]
 }
