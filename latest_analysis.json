@@ -1,85 +1,93 @@
 {
-  "timestamp": "2026-02-08T01:01:40.182397",
-  "global_summary_cn": "流动性状态：全球流动性环境偏向于**谨慎风险偏好**。尽管VIX（恐慌指数）上升至高位（20.37），表明短期市场波动和担忧加剧，但美国10年期国债收益率下降和日元持续疲软（USD/JPY 156.784）为风险资产提供了宏观支持。在叙事层面，市场正在经历剧烈抛售后的**弹性与恢复**。机构投资者通过ETF（IBIT流入2.316亿美元）积极抄底，以及比特币挖矿难度大幅下降11.16%，为比特币提供了强大的基本面支持和买入信号。虽然以太坊因大额抛售（40万枚ETH抛售，V神卖出）叙事较弱，但整体市场结构显示出在宏观流动性支撑下的“逢低买入”正在主导。",
-  "global_summary_en": "Liquidity Status: The global liquidity environment leans towards **Cautiously Risk-On**. Although the VIX (Fear Index) is high and rising (20.37), indicating elevated short-term market volatility and fear, the falling US 10-Year yield and continued Yen weakness (USD/JPY 156.784) provide macro support for risk assets. Narratively, the market is demonstrating **Resilience and Recovery** following the severe crash. Institutional investors aggressively bought the dip via ETFs ($231.6M IBIT inflow), coupled with a massive 11.16% drop in Bitcoin mining difficulty, providing strong fundamental support and a buying signal for BTC. While Ethereum faces weaker narratives due to large sales (400K ETH dump, Vitalik's sale), the overall market structure suggests that 'Buy the Dip' momentum, backed by supportive macro liquidity, is currently dominating.",
+  "timestamp": "2026-02-08T05:02:14.824353",
+  "global_summary_cn": "流动性状态：宏观流动性信号矛盾，但偏向收紧/避险。DXY走强和VIX高企表明市场恐惧情绪正在上升，限制了风险资产的上行空间。新闻方面，尽管近期市场经历大幅下跌，机构资金（IBIT流入、富达看涨）仍表现出强劲的抄底意愿，这与彼得·希夫的熊市警告形成鲜明对比。市场正处于流动性紧缩与积极叙事试图挽回跌势的Divergence（背离）阶段。这预示着短期反弹将面临宏观阻力，可能表现为高波动率的区间震荡。目前SOL由于资金费率为负，存在较高的轧空潜力。",
+  "global_summary_en": "Liquidity Status: Macro liquidity signals are contradictory but lean towards tightening/Risk-Off. The strengthening DXY and high VIX indicate rising market fear, limiting upside potential for risk assets. In terms of news, despite the recent significant market drop, institutional capital (IBIT inflows, Fidelity bullishness) shows strong intentions to 'Buy the Dip,' sharply contrasting with Peter Schiff's bear market warnings. The market is in a state of Divergence: Tight Liquidity against an actively bullish recovery narrative. This suggests that short-term rallies will face macro headwinds, likely resulting in high-volatility ranging action. SOL currently exhibits high short-squeeze potential due to negative funding rates.",
   "news_analysis": [
     {
-      "title_cn": "比特币挖矿难度下降超11%，为2021年中国禁令以来最大降幅",
-      "title_en": "Bitcoin difficulty drops by over 11%, sharpest drop since 2021 China ban",
-      "news_sentiment": "Bullish",
+      "title_cn": "Peter Schiff 警告比特币反弹是熊市崩溃前的陷阱",
+      "title_en": "Peter Schiff Warns Bitcoin Rallies Are Traps Before Bear Market Crash",
+      "news_sentiment": "Bearish",
       "classification": "IMPULSE",
-      "reason_cn": "挖矿难度大幅下降，直接降低了矿工的运营成本和抛售压力，属于重大利好消息，改善了比特币的基本面供需结构。",
-      "reason_en": "The significant drop in mining difficulty directly reduces miners' operational costs and selling pressure. This is a major positive fundamental improvement, easing supply constraints."
+      "reason_cn": "Schiff的负面言论在市场反弹尝试时起到压制情绪的作用，强化了潜在的下行风险。",
+      "reason_en": "Schiff's negative commentary acts as a sentiment dampener during recovery attempts, reinforcing potential downside risk."
     },
     {
-      "title_cn": "在ETF价格“第二差”的一天后，IBIT流入2.316亿美元",
+      "title_cn": "富达称 $65K 比特币是整合期间的具吸引力入场点",
+      "title_en": "$65K Bitcoin Marks Attractive Entry Point, Fidelity Says Amid Consolidation",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "来自主要机构（富达）的公开支持，确认了在近期低点进行积累的策略，提供了强劲的支撑叙事。",
+      "reason_en": "Public endorsement from a major institution (Fidelity) confirms the strategy of accumulating near recent lows, providing a strong supportive narrative."
+    },
+    {
+      "title_cn": "IBIT 在 ETF 价格“第二差”日后涌入 $231.6M 资金",
       "title_en": "$231.6M pours into IBIT following ‘second-worst’ day for ETF price",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "明确显示机构投资者在价格暴跌后积极抄底，证明了现货比特币ETF的强劲需求和市场对长期价格的信心。",
-      "reason_en": "Clear evidence of institutional investors actively buying the dip after the price crash, demonstrating strong demand for spot Bitcoin ETFs and confidence in long-term pricing."
+      "reason_cn": "这是强劲的结构性需求信号，表明机构在价格下跌时加速买入，吸收了抛售压力。",
+      "reason_en": "A strong signal of structural demand, showing institutions accelerated buying during the price dip, absorbing selling pressure."
     },
     {
-      "title_cn": "比特币在跌破60,000美元后反弹至70,000美元上方",
-      "title_en": "Bitcoin rebounds back above $70,000 after nearly breaking below $60,000 a day ago",
+      "title_cn": "比特币难度下降超过 11%，为 2021 年中国禁令以来最大降幅",
+      "title_en": "Bitcoin difficulty drops by over 11%, sharpest drop since 2021 China ban",
       "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "这是对近期价格波动的总结性描述，反弹趋势已在当前价格行动中体现（但目前低于70k），表明即时看涨冲动可能正在冷却。",
-      "reason_en": "This summarizes the recent price action. The rebound trend is already reflected in the current market price (which is now below $70k), suggesting the immediate bullish impulse may be cooling."
+      "classification": "IMPULSE",
+      "reason_cn": "难度调整对于矿工盈利能力和网络健康至关重要，这是消除近期抛售压力后的积极基本面信号。",
+      "reason_en": "The difficulty adjustment is crucial for miner profitability and network health; this is a positive fundamental signal following the recent flush out."
     },
     {
-      "title_cn": "以太坊跌破2K美元，ETH持有者信心面临重大压力测试",
+      "title_cn": "比特币在跌破 $60,000 后反弹至 $70,000 上方",
+      "title_en": "Bitcoin rebounds back above $70,000 after nearly breaking below $60,000 a day ago",
+      "news_sentiment": "Neutral",
+      "classification": "PRICED IN",
+      "reason_cn": "该标题描述了当前价格行动，市场已经消化了从低点反弹的事实。",
+      "reason_en": "This headline describes the current price action; the market has already factored in the rebound from the recent low."
+    },
+    {
+      "title_cn": "以太坊跌破 $2K，ETH 持有者信心面临重大压力测试",
       "title_en": "Ether slips below $2K as ETH holder confidence faces major stress test",
       "news_sentiment": "Bearish",
       "classification": "PRICED IN",
-      "reason_cn": "描述了ETH近期的弱势。尽管ETH在24小时内略有恢复，但此消息确认了市场对ETH的信心正在受到挑战，形成阻力。",
-      "reason_en": "Describes recent ETH weakness. Although ETH has slightly recovered in 24 hours, this news confirms that market confidence in ETH is being challenged, forming resistance."
+      "reason_cn": "描述了最近的下跌事件，市场已经消化了以太坊在机构抛售压力下表现出的相对疲软。",
+      "reason_en": "Describes the recent sell-off event; the market has already absorbed the relative weakness shown by Ethereum under institutional selling pressure."
     },
     {
-      "title_cn": "Trend Research清算了超过40万枚ETH，因为清算风险上升",
+      "title_cn": "Trend Research 抛售超过 400K ETH，清算风险上升",
       "title_en": "Trend Research dumps over 400K ETH as liquidation risk rises",
       "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "大规模的强制平仓或主动抛售事件，对ETH造成了巨大的短期供应压力，是导致其疲软的关键因素。",
-      "reason_en": "A large-scale forced or active liquidation event, creating immense short-term supply pressure on ETH, which is a primary reason for its relative weakness."
+      "classification": "PRICED IN",
+      "reason_cn": "这是导致近期 ETH 价格暴跌的主要催化剂之一，其影响已大部分反映在价格中。",
+      "reason_en": "One of the major catalysts leading to the recent steep ETH decline; its impact is largely reflected in the current price."
     },
     {
-      "title_cn": "罗伯特·清崎悄悄买入比特币？准备在新的底部加仓",
-      "title_en": "Robert Kiyosaki Quietly Buying Bitcoin? Preparing to Load up After New Bottom",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "名人支持，为逢低买入叙事提供情绪支持，但不是直接的市场驱动因素。",
-      "reason_en": "Celebrity endorsement, providing sentiment support for the dip-buying narrative, but not a direct market driver."
-    },
-    {
-      "title_cn": "VIX: 20.37 (趋势：恐惧值高且上升)",
-      "title_en": "VIX: 20.37 (Trend: High Fear Rising)",
+      "title_cn": "Vitalik Buterin 在标记计划提现后出售了价值 $6.6M 的 ETH",
+      "title_en": "Vitalik Buterin sells $6.6M in ETH after flagging planned withdrawals",
       "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "VIX上升表明市场短期波动性和不确定性高企，意味着风险资产需谨慎，短期内可能存在进一步波动。",
-      "reason_en": "Rising VIX indicates high short-term volatility and uncertainty in the broader market, suggesting caution for risk assets and potential for continued short-term turbulence."
+      "classification": "PRICED IN",
+      "reason_cn": "尽管事先通知，Buterin 的抛售仍增加了市场对 ETH 抛压的担忧，但其影响已在近期价格中体现。",
+      "reason_en": "Despite pre-announcement, Buterin's sale added to concerns about ETH selling pressure, but the impact is already factored into recent prices."
     }
   ],
   "fed_futures": {
-    "price": 96.363,
-    "implied_rate": 3.637,
-    "timestamp": "2026-02-08T01:01:24.477596+00:00",
+    "price": 96.41,
+    "implied_rate": 3.59,
+    "timestamp": "2026-02-08T05:01:57.782779+00:00",
     "trend": "Neutral (Stable expectations)",
-    "change_5d_bps": 0.0,
+    "change_5d_bps": -4.5,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
     "price": 156.784,
-    "timestamp": "2026-02-08T01:01:24.517240+00:00",
+    "timestamp": "2026-02-08T05:01:57.825138+00:00",
     "trend": "Yen Weakness (Risk On)",
     "change_5d_pct": 1.02,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 97.63,
-      "change_5d_pct": 0.02,
-      "trend": "Neutral"
+      "price": 97.68,
+      "change_5d_pct": 0.25,
+      "trend": "Stronger (Risk Off)"
     },
     "us10y": {
       "price": 4.21,
@@ -95,63 +103,63 @@
   "coins": [
     {
       "symbol": "BTC",
-      "price": 69201.7,
-      "change_24h": -1.2025298383873035,
-      "rsi_4h": 43.74661475829395,
-      "funding_rate": 0.00551470039332,
-      "open_interest": 2933374.3000000133,
-      "sentiment": "Bullish",
-      "score": 75,
-      "comment_cn": "宏观利好（难度下降）和机构抄底推动价格弹性恢复。短线承压，但结构强劲。",
-      "comment_en": "Macro bullish factors (difficulty drop) and institutional dip buying drive price resilience. Short-term pressure exists, but structure remains strong."
+      "price": 69272.1,
+      "change_24h": -2.1561160813914397,
+      "rsi_4h": 44.140060490185434,
+      "funding_rate": 0.00634318378222,
+      "open_interest": 2950942.460000012,
+      "sentiment": "Neutral",
+      "score": 70,
+      "comment_cn": "机构支撑强劲（IBIT流入），但宏观流动性逆风限制了快速突破。预计在宏观形势改善前，将维持 $65K - $72K 震荡。",
+      "comment_en": "Strong institutional backing (IBIT inflows), but macro liquidity headwinds limit rapid breakthroughs. Expect range-bound trading between $65K and $72K until macro improves."
     },
     {
       "symbol": "ETH",
-      "price": 2085.93,
-      "change_24h": 2.0139381342462324,
-      "rsi_4h": 47.902283842254405,
-      "funding_rate": 0.0038409983191,
-      "open_interest": 5199520.030000006,
-      "sentiment": "Bearish",
-      "score": 40,
-      "comment_cn": "叙事疲软，面临大量抛售和清算压力。尽管有24小时反弹，但相对BTC仍处于劣势。",
-      "comment_en": "Weak narrative facing significant selling and liquidation pressure. Despite a 24h bounce, it remains disadvantaged relative to BTC."
+      "price": 2081.31,
+      "change_24h": -0.3881459926678278,
+      "rsi_4h": 47.476389321756116,
+      "funding_rate": 0.00279785964832,
+      "open_interest": 5509964.420000008,
+      "sentiment": "Neutral",
+      "score": 55,
+      "comment_cn": "消化了大量抛售事件（Vitalik, Trend Research）。目前试图守住 $2000 上方，但缺乏独立的看涨催化剂。",
+      "comment_en": "Digesting massive sell-off events. Currently trying to hold above $2000 but lacks independent bullish catalysts."
     },
     {
       "symbol": "SOL",
-      "price": 87.45,
-      "change_24h": 1.0398613518197641,
-      "rsi_4h": 44.643221658093715,
-      "funding_rate": -0.02213801377518,
-      "open_interest": 3076684.320000001,
-      "sentiment": "Neutral/Bullish",
-      "score": 65,
-      "comment_cn": "跟随大盘恢复，负资金费率暗示空头拥挤。一旦市场稳定，有潜在的空头挤压机会。",
-      "comment_en": "Recovering in line with the market. Negative funding suggests crowded shorts, offering potential for a squeeze if stability holds."
+      "price": 87.3,
+      "change_24h": -0.6825938566552997,
+      "rsi_4h": 44.605639898346816,
+      "funding_rate": -0.02460034558174,
+      "open_interest": 3107120.8000000007,
+      "sentiment": "Bullish",
+      "score": 75,
+      "comment_cn": "资金费率为负（-0.0246%），在整体市场稳定时，具备强大的轧空潜力。相对强弱指数（RSI）显示盘整。",
+      "comment_en": "Negative funding rate (-0.0246%) suggests strong short-squeeze potential if the overall market stabilizes. RSI indicates consolidation."
     },
     {
       "symbol": "BNB",
-      "price": 647.9,
-      "change_24h": -0.7810107197549805,
-      "rsi_4h": 37.299167861483234,
-      "funding_rate": 0.00156588762346,
-      "open_interest": 6828650.0,
-      "sentiment": "Neutral",
-      "score": 50,
-      "comment_cn": "RSI较低，走势相对疲软，缺乏独立叙事驱动。",
-      "comment_en": "Low RSI suggests relative weakness and consolidation, lacking independent narrative drivers."
+      "price": 642.9,
+      "change_24h": -2.1163215590742963,
+      "rsi_4h": 35.8623814561293,
+      "funding_rate": 0.0004756222555,
+      "open_interest": 6871380.0,
+      "sentiment": "Bearish",
+      "score": 40,
+      "comment_cn": "在当前市场环境下表现疲软，跌幅较大且 RSI 接近超卖。需要关注其能否迅速反弹回到关键支撑位上方。",
+      "comment_en": "Underperforming in the current market, showing deeper decline and RSI nearing oversold. Needs to quickly reclaim key support levels."
     },
     {
       "symbol": "DOGE",
-      "price": 0.09803,
-      "change_24h": 0.3377686796315362,
-      "rsi_4h": 47.08402651308871,
-      "funding_rate": 0.00712929450373,
-      "open_interest": 744655.7399999996,
+      "price": 0.09715,
+      "change_24h": -1.0591709950096744,
+      "rsi_4h": 45.28665782209003,
+      "funding_rate": 0.01,
+      "open_interest": 750947.7499999995,
       "sentiment": "Neutral",
-      "score": 55,
-      "comment_cn": "在市场恢复中表现一般，资金费率适中，风险中性。",
-      "comment_en": "Average performance during the recovery; moderate funding rates, risk neutral."
+      "score": 50,
+      "comment_cn": "中性表现，跟随大盘波动。资金费率健康，但缺乏驱动力。",
+      "comment_en": "Neutral performance, tracking the broader market movement. Funding rates are healthy but lacks independent drivers."
     }
   ]
 }
