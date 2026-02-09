@@ -1,163 +1,196 @@
 {
-  "timestamp": "2026-02-08T21:04:28.354844",
-  "global_summary_cn": "**流动性状况：收紧/避险。** 宏观层面，DXY走强和VIX指数上升表明全球流动性正在收紧，市场处于避险情绪中。尽管日元疲软（有利于利差交易），但美国即将公布的高影响力CPI数据增加了短期波动风险。然而，加密货币市场的叙事已达到“极度恐惧”的洗盘状态，交易员们讨论比特币跌至5万美元，以及以太坊遭受重创。这种极度负面的情绪与比特币目前在7万美元上方的稳定表现形成了看涨背离。这意味着抛售压力可能已在很大程度上被吸收。当前市场处于流动性紧缩但情绪极度看跌的“逢低买入”机会，但需要密切关注美国CPI数据公布后的走势，以防宏观风险迅速传导。",
-  "global_summary_en": "**Liquidity Status: Tightening/Risk Off.** Macro liquidity is tightening, evidenced by a strengthening DXY and rising VIX, indicating overall risk aversion. Despite a weak Yen (which usually favors risk), high-impact US CPI data this week adds significant short-term volatility risk. However, the crypto narrative has reached a 'washout' state of 'Extreme Fear,' with discussions about BTC dropping to $50K and severe ETH stress tests. This extremely negative sentiment forms a bullish divergence against BTC's current stability above $70K. Selling pressure appears largely absorbed. The current market presents a 'Buy the Dip' opportunity amidst tight liquidity and extreme pessimism, but investors must monitor the US CPI release closely for immediate macro risks.",
+  "timestamp": "2026-02-09T01:05:09.792212",
+  "global_summary_cn": "流动性状态：全球流动性处于混合状态，但由于DXY（97.57）走强和VIX（20.37）上升，主要倾向于“风险规避”。尽管10年期美债收益率正在下降，日元套利交易继续提供风险支持，但宏观阻力占主导地位。\n\n市场目前处于分歧阶段。尽管流动性收紧，比特币仍表现出韧性，稳定在70,000美元上方（+1.83%）。新闻叙事正在迅速从极度恐慌（近期ETH/BTC暴跌、鲸鱼抛售）转向机构积累。最新的驱动新闻包括Coinbase CEO、Bitwise CEO的看涨认可，以及主要比特币持有者暗示积累。然而，由于即将公布高影响力的美国CPI报告，主要的波动性风险仍然存在。短期内，如果CPI数据强劲，风险偏向于盘整或“逢高卖出”情景，但强大的机构叙事表明潜在的积累压力正在建立，有可能在70,000美元上方建立坚固的底部。",
+  "global_summary_en": "Liquidity Status: Global liquidity is mixed but trending towards Risk Off, driven primarily by a stronger DXY (97.57) and rising VIX (20.37), indicating increased market fear and caution. While the US10Y is falling and the Yen carry trade remains supportive (Risk On), macro headwinds dominate.\n\nThe market is currently experiencing a divergence. Despite tightening liquidity, BTC has shown resilience, stabilizing above $70K (+1.83%). The News Narrative is rapidly transitioning from extreme fear (recent ETH/BTC crashes, whale dumps) towards institutional accumulation. Fresh impulse news features bullish endorsements from the Coinbase CEO, Bitwise CEO, and hints of accumulation from major Bitcoin holders. However, major volatility risk remains due to the upcoming high-impact US CPI report. The short-term risk favors consolidation or a 'Sell the Rally' scenario if CPI is hot, but the strong institutional narrative suggests underlying accumulation pressure (Buy the Dip) is building, potentially establishing a resilient floor above $70,000.",
   "news_analysis": [
     {
-      "title_cn": "美国核心CPI和CPI月率/年率（高）",
-      "title_en": "[USD] Core CPI m/m / CPI m/m / CPI y/y (High)",
+      "title_cn": "爱泼斯坦文件：国会议员呼吁特朗普商务部长努特尼克辞职或被解雇",
+      "title_en": "Epstein files: Congressional lawmakers call for Trump Commerce chief Lutnick to resign, or be fired",
       "news_sentiment": "Neutral",
-      "classification": "IMPULSE",
-      "reason_cn": "这是本周最高影响力的宏观数据，将在短期内决定美联储预期和美元走势，对风险资产构成直接冲击。",
-      "reason_en": "This is the highest-impact macro data scheduled this week, determining Fed expectations and dollar strength, posing a direct impact on risk assets.",
-      "title_cn_original": "[USD] Core CPI m/m (High)"
+      "classification": "NEUTRAL",
+      "reason_cn": "无关的政治/法律新闻，对加密货币市场没有直接影响。",
+      "reason_en": "Unrelated political/legal news, no direct impact on crypto markets."
     },
     {
-      "title_cn": "交易员认为熊市尚未结束，BTC价格“真正的底部”在5万美元",
+      "title_cn": "近千名谷歌员工签署信函，敦促公司撤资ICE、CBP",
+      "title_en": "Nearly a thousand Google workers sign letter urging company to divest from ICE, CBP",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "ESG或企业内部政治压力新闻，对市场流动性或叙事影响低。",
+      "reason_en": "ESG or internal corporate political pressure news, low impact on market liquidity or narrative."
+    },
+    {
+      "title_cn": "先是四分之一拉链，现在是'401(k)鲻鱼' — Z世代趋势揭示了经济状况",
+      "title_en": "First the quarter zip, now a '401(k) mullet' — what Gen Z trends say about the economy",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "社会经济评论，不属于市场驱动因素。",
+      "reason_en": "Socio-economic commentary, not a market driver."
+    },
+    {
+      "title_cn": "若要让中位房价恢复到2019年的可负担水平，收入需增加近5万美元",
+      "title_en": "Incomes would need to rise nearly $50,000 for median-priced homes to be as affordable as they were in 2019",
+      "news_sentiment": "Bearish",
+      "classification": "NEUTRAL",
+      "reason_cn": "确认了持续的通胀和负担能力危机，这支持美联储继续保持限制性货币政策，间接利空风险资产。",
+      "reason_en": "Confirms ongoing inflation and affordability crisis, which supports the Fed maintaining restrictive policy, indirectly bearish for risk assets."
+    },
+    {
+      "title_cn": "克莱默本周展望：关键就业报告。加上Robinhood、麦当劳等公司的财报",
+      "title_en": "Cramer's week ahead: A key jobs report. Plus, earnings from Robinhood, McDonald's and more",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "传统的市场日历更新，不构成直接的叙事驱动。",
+      "reason_en": "Traditional market calendar update, does not constitute a direct narrative driver."
+    },
+    {
+      "title_cn": "美国核心CPI m/m, CPI m/m, CPI y/y即将来临",
+      "title_en": "[USD] Core CPI m/m, CPI m/m, CPI y/y Approaching",
+      "news_sentiment": "Bearish",
+      "classification": "IMPULSE",
+      "reason_cn": "高风险日历事件，市场通常在关键通胀数据发布前避险，增加波动性。",
+      "reason_en": "High-risk calendar events. Markets typically de-risk ahead of critical inflation data releases, increasing volatility."
+    },
+    {
+      "title_cn": "比特币熊市尚未结束？交易员认为BTC价格“真正底部”在5万美元",
       "title_en": "Bitcoin bear market not over? Trader sees BTC price 'real bottom' at $50K",
       "news_sentiment": "Bearish",
       "classification": "PRICED IN",
-      "reason_cn": "反映了市场在近期回调后的悲观情绪，这已经体现在“极度恐惧”的指标中。",
-      "reason_en": "Reflects the pessimism following the recent correction, already factored into the 'Extreme Fear' metrics.",
-      "title_cn_original": "Bitcoin bear market not over? Trader sees BTC price 'real bottom' at $50K (Sun, 08 Feb 2026 14:51:00 +0000)"
+      "reason_cn": "极度恐慌的言论，但市场已消化了近期的下跌，目前价格稳定在7万美元以上，表明该恐慌并未成为主要驱动力。",
+      "reason_en": "Extreme fear commentary. Market has absorbed recent dips, and price is stable above $70K, suggesting this fear call is not currently the main driver."
     },
     {
-      "title_cn": "Bitwise首席执行官：比特币跌破7万美元为机构提供了“新的机会”",
+      "title_cn": "Bitwise CEO：比特币跌破7万美元为机构提供了‘新的机会’",
       "title_en": "Bitcoin under $70K gives institutions a ‘new crack of the apple’: Bitwise CEO",
       "news_sentiment": "Bullish",
-      "classification": "DIVERGENCE",
-      "reason_cn": "在普遍悲观情绪中，机构领导者将下跌视为积累机会，形成乐观的逆向观点。",
-      "reason_en": "Institutional leadership framing the dip as an accumulation opportunity, contrasting the prevailing pessimistic sentiment.",
-      "title_cn_original": "Bitcoin under $70K gives institutions a ‘new crack of the apple’: Bitwise CEO (Sun, 08 Feb 2026 08:48:21 +0000)"
+      "classification": "IMPULSE",
+      "reason_cn": "机构的“逢低买入”叙事，为价格下方提供了强大的心理支撑，是当前反弹的驱动力之一。",
+      "reason_en": "Institutional 'Buy the Dip' narrative provides strong psychological support below, acting as one of the current drivers for stability."
     },
     {
-      "title_cn": "Bithumb追回99.7%超额支付的比特币，并弥补了剩余缺口",
+      "title_cn": "Bithumb追回了99.7%超额支付的比特币，并弥补了剩余短缺",
       "title_en": "Bithumb claws back 99.7% of overpaid Bitcoin, covers remaining shortfall",
       "news_sentiment": "Neutral",
       "classification": "NEUTRAL",
-      "reason_cn": "交易所层面的运营积极事件，对整体市场情绪影响不大，但有利于平台声誉。",
-      "reason_en": "A positive operational event for the exchange, but low impact on general market sentiment.",
-      "title_cn_original": "Bithumb claws back 99.7% of overpaid Bitcoin, covers remaining shortfall (Sun, 08 Feb 2026 07:46:04 +0000)"
+      "reason_cn": "交易所运营新闻，解决了技术风险，属于中性利好。",
+      "reason_en": "Exchange operational news, resolves a technical risk. Neutral positive."
     },
     {
-      "title_cn": "加密零售投资者正试图“元分析”加密崩盘：Santiment",
+      "title_cn": "Santiment：加密零售投资者正试图对加密崩盘进行‘元分析’",
       "title_en": "Crypto retail investors are trying to 'meta-analyze' crypto crash: Santiment",
-      "news_sentiment": "Bearish",
+      "news_sentiment": "Neutral",
       "classification": "NEUTRAL",
-      "reason_cn": "证实了散户情绪混乱和压力增加，但本身不构成价格驱动因素。",
-      "reason_en": "Confirms retail confusion and stress, reinforcing the low sentiment environment, but not a price driver itself.",
-      "title_cn_original": "Crypto retail investors are trying to 'meta-analyze' crypto crash: Santiment (Sun, 08 Feb 2026 01:38:04 +0000)"
+      "reason_cn": "行为分析，表明零售情绪不确定，但非价格驱动因素。",
+      "reason_en": "Behavioral analysis, indicating retail uncertainty, but not a price driver."
     },
     {
-      "title_cn": "比特币挖矿难度下降超11%，为2021年中国禁令以来最大降幅",
+      "title_cn": "比特币挖矿难度下降超11%，是2021年中国禁令以来最大降幅",
       "title_en": "Bitcoin difficulty drops by over 11%, sharpest drop since 2021 China ban",
       "news_sentiment": "Bullish",
       "classification": "DIVERGENCE",
-      "reason_cn": "难度大幅下降通常标志着矿工投降或优化结束，历史上是价格触底前的清理阶段，对长期是积极信号。",
-      "reason_en": "A significant difficulty drop often signals miner capitulation/optimization completion, historically a cleanup phase preceding bottoms. Long-term positive signal.",
-      "title_cn_original": "Bitcoin difficulty drops by over 11%, sharpest drop since 2021 China ban (Sat, 07 Feb 2026 18:57:04 +0000)"
+      "reason_cn": "挖矿难度大幅下降意味着生产成本降低或竞争减少，通常是健康盘整的先兆。",
+      "reason_en": "Sharp drop in mining difficulty implies lower production cost or less competition, often preceding a healthy consolidation/recovery."
     },
     {
-      "title_cn": "随着ETH持有者信心面临重大压力测试，以太坊跌破2000美元",
+      "title_cn": "以太坊跌破2000美元，ETH持有者信心面临重大压力测试",
       "title_en": "Ether slips below $2K as ETH holder confidence faces major stress test",
       "news_sentiment": "Bearish",
       "classification": "PRICED IN",
-      "reason_cn": "描述了最近的下跌（ETH现价$2,107），已被市场消化。",
-      "reason_en": "Describes recent price action (ETH is currently $2,107) which has already been absorbed by the market.",
-      "title_cn_original": "Ether slips below $2K as ETH holder confidence faces major stress test (Thu, 05 Feb 2026 17:30:51 +0000)"
+      "reason_cn": "描述了此前的价格行动，目前ETH已回升至2000美元上方，表明压力测试的高峰已过。",
+      "reason_en": "Refers to previous price action. ETH has recovered above $2K, suggesting the peak of the stress test may have passed."
     },
     {
-      "title_cn": "Vitalik Buterin在标记计划提款后出售了660万美元的ETH",
+      "title_cn": "Vitalik Buterin在预警计划提款后出售660万美元ETH",
       "title_en": "Vitalik Buterin sells $6.6M in ETH after flagging planned withdrawals",
       "news_sentiment": "Bearish",
       "classification": "PRICED IN",
-      "reason_cn": "这是一则引发近期以太坊恐慌情绪的旧消息，影响已反映在价格中。",
-      "reason_en": "Old news that contributed to the recent ETH panic; the impact is already priced into the correction.",
-      "title_cn_original": "Vitalik Buterin sells $6.6M in ETH after flagging planned withdrawals (Thu, 05 Feb 2026 11:12:59 +0000)"
+      "reason_cn": "鲸鱼抛售，但由于V神提前预警且市场已吸收，影响已消化。",
+      "reason_en": "Whale selling, but impact was absorbed as VB warned ahead and the market has stabilized."
     },
     {
-      "title_cn": "Trend Research抛售超过40万枚ETH，清算风险上升",
+      "title_cn": "比特币跌至6万美元，TRM Labs成为加密独角兽：Finance Redefined",
+      "title_en": "Bitcoin dips to $60K, TRM Labs becomes crypto unicorn: Finance Redefined",
+      "news_sentiment": "Bearish",
+      "classification": "PRICED IN",
+      "reason_cn": "回顾了最近的低点，市场已对6万美元的低位做出反应。",
+      "reason_en": "Recalls the recent low point; the market has already reacted to the $60K dip."
+    },
+    {
+      "title_cn": "以太坊领跌加密货币，暴跌30%：底部在哪里？",
+      "title_en": "Ether leads crypto losses with 30% crash: Where is the bottom?",
+      "news_sentiment": "Bearish",
+      "classification": "PRICED IN",
+      "reason_cn": "确认了近期的极端恐慌和抛售，现处于恢复阶段。",
+      "reason_en": "Confirms recent extreme fear and sell-off; currently in recovery mode."
+    },
+    {
+      "title_cn": "Trend Research抛售超过40万ETH，清算风险上升",
       "title_en": "Trend Research dumps over 400K ETH as liquidation risk rises",
       "news_sentiment": "Bearish",
       "classification": "PRICED IN",
-      "reason_cn": "导致近期以太坊价格大幅下跌的主要卖压事件，市场消化了此冲击。",
-      "reason_en": "Major selling pressure event that drove recent ETH weakness; the market has absorbed this shock.",
-      "title_cn_original": "Trend Research dumps over 400K ETH as liquidation risk rises (Fri, 06 Feb 2026 13:17:01 +0000)"
+      "reason_cn": "描述了大型机构抛售已被市场吸收，ETH价格已稳定。",
+      "reason_en": "Describes large institutional dump which has been absorbed; ETH price has stabilized."
     },
     {
-      "title_cn": "说唱明星Drake使用Stake在爱国者队上押注100万美元比特币",
+      "title_cn": "Coinbase CEO看好长期加密货币牛市前景加速",
+      "title_en": "Coinbase CEO Sees Bullish Outlook as Long-Term Crypto Bull Case Accelerates",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "来自主要机构的强有力看涨言论，为市场提供积极的叙事支持，抵消了近期的恐慌。",
+      "reason_en": "Strong bullish rhetoric from a major institution, providing positive narrative support and offsetting recent fear."
+    },
+    {
+      "title_cn": "报道：Jack Dorsey的Block公司着眼于业务改革，计划裁员10%",
+      "title_en": "Jack Dorsey’s Block Eyes 10% Workforce Reduction Amid Business Overhaul: Report",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "公司重组和削减成本措施，对公司长期财务有利，但短期中性。",
+      "reason_en": "Company restructuring and cost-cutting measure, positive for long-term financials but neutral short-term."
+    },
+    {
+      "title_cn": "Strategy老板暗示新的比特币积累，未实现损失突破34亿美元",
+      "title_en": "Strategy’s Boss Hints at New Bitcoin Accumulation as Unrealized Loss Tops $3.4 Billion",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "鲸鱼/大型机构暗示将在当前水平积累，强力支持“逢低买入”叙事。",
+      "reason_en": "Whale/major institution hints at accumulation at current levels, strongly supporting the 'Buy the Dip' narrative."
+    },
+    {
+      "title_cn": "说唱歌手Drake使用Stake投注100万美元比特币支持爱国者队，无视超级碗赔率",
       "title_en": "Rap Star Drake Uses Stake to Wager $1M in Bitcoin on Patriots Despite Super Bowl LX Odds",
       "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "名人效应和高调的比特币使用案例，对加密货币的品牌和公众认知是积极的。",
-      "reason_en": "Celebrity endorsement and high-profile Bitcoin use case, positive for crypto branding and public recognition.",
-      "title_cn_original": "Rap Star Drake Uses Stake to Wager $1M in Bitcoin on Patriots Despite Super Bowl LX Odds (Sun, 08 Feb 2026 20:00:23 +0000)"
-    },
-    {
-      "title_cn": "加密货币情绪触底，恐惧与贪婪指数闪烁“极度恐惧”",
-      "title_en": "Crypto Sentiment Hits Rock Bottom as Fear and Greed Indexes Flash ‘Extreme Fear’",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "在情绪分析中，“极度恐惧”传统上是一个强烈的反向买入信号，表明卖盘枯竭。",
-      "reason_en": "In sentiment analysis, 'Extreme Fear' is traditionally a strong contrarian buy signal, indicating exhaustion of selling pressure.",
-      "title_cn_original": "Crypto Sentiment Hits Rock Bottom as Fear and Greed Indexes Flash ‘Extreme Fear’ (Sun, 08 Feb 2026 16:30:55 +0000)"
+      "classification": "NEUTRAL",
+      "reason_cn": "名人采用和曝光，对加密货币形象有利，但非基本面驱动因素。",
+      "reason_en": "Celebrity adoption and exposure, positive for crypto image but not a fundamental driver."
     },
     {
       "title_cn": "Pudgy Penguins在纽约市举办情人节快闪活动",
       "title_en": "Pudgy Penguins Hit New York City With Valentine's Day Pop-Up Event",
       "news_sentiment": "Bullish",
       "classification": "NEUTRAL",
-      "reason_cn": "NFT品牌的持续市场营销活动，对特定生态系统积极，但对大盘影响有限。",
-      "reason_en": "Continued marketing efforts by a major NFT brand. Positive for the ecosystem but limited impact on the overall market.",
-      "title_cn_original": "Pudgy Penguins Hit New York City With Valentine's Day Pop-Up Event (Sun, 08 Feb 2026 18:22:57 +0000)"
-    },
-    {
-      "title_cn": "超越监管转向：Bybit BBU负责人规划“万亿美元”机构加密路径",
-      "title_en": "Beyond the Regulatory Pivot: Bybit BBU Head Maps ‘Trillion-Dollar’ Institutional Crypto Path",
-      "news_sentiment": "Bullish",
-      "classification": "NEUTRAL",
-      "reason_cn": "长期利好叙事，强调机构资本流入的潜力。",
-      "reason_en": "Long-term bullish narrative emphasizing the potential for institutional capital inflow.",
-      "title_cn_original": "Beyond the Regulatory Pivot: Bybit BBU Head Maps ‘Trillion-Dollar’ Institutional Crypto Path (Sun, 08 Feb 2026 17:30:36 +0000)"
-    },
-    {
-      "title_cn": "7个博彩市场，一个热门：海鹰队领跑超级碗LX赔率",
-      "title_en": "7 Betting Markets, One Favorite: Seahawks Lead Super Bowl LX Odds",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "体育博彩市场信息，与加密货币价格无直接关联。",
-      "reason_en": "Sports betting market information, no direct relevance to cryptocurrency pricing.",
-      "title_cn_original": "7 Betting Markets, One Favorite: Seahawks Lead Super Bowl LX Odds (Sun, 08 Feb 2026 18:30:25 +0000)"
-    },
-    {
-      "title_cn": "克莱默一周展望：关键就业报告。以及Robinhood、麦当劳等公司的财报",
-      "title_en": "Cramer's week ahead: A key jobs report. Plus, earnings from Robinhood, McDonald's and more",
-      "news_sentiment": "Neutral",
-      "classification": "NEUTRAL",
-      "reason_cn": "提醒本周宏观日程，但本身没有提供新的方向性信息。",
-      "reason_en": "A reminder of the week's macro calendar but provides no new directional information itself.",
-      "title_cn_original": "Cramer's week ahead: A key jobs report. Plus, earnings from Robinhood, McDonald's and more"
+      "reason_cn": "NFT生态系统正面公关/主流采用的标志。",
+      "reason_en": "Positive PR and sign of mainstream adoption for the NFT ecosystem."
     }
   ],
   "fed_futures": {
-    "price": 96.41,
-    "implied_rate": 3.59,
-    "timestamp": "2026-02-08T21:04:03.476709+00:00",
+    "price": 96.405,
+    "implied_rate": 3.595,
+    "timestamp": "2026-02-09T01:04:42.279062+00:00",
     "trend": "Neutral (Stable expectations)",
-    "change_5d_bps": -4.5,
+    "change_5d_bps": -4.0,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 157.614,
-    "timestamp": "2026-02-08T21:04:03.529207+00:00",
+    "price": 156.845,
+    "timestamp": "2026-02-09T01:04:42.326383+00:00",
     "trend": "Yen Weakness (Risk On)",
-    "change_5d_pct": 1.55,
+    "change_5d_pct": 0.9,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 97.68,
-      "change_5d_pct": 0.25,
+      "price": 97.57,
+      "change_5d_pct": 0.13,
       "trend": "Stronger (Risk Off)"
     },
     "us10y": {
@@ -174,63 +207,63 @@
   "coins": [
     {
       "symbol": "BTC",
-      "price": 70888.0,
-      "change_24h": 1.9432903775991712,
-      "rsi_4h": 50.35035268355656,
-      "funding_rate": 0.005299256499140001,
-      "open_interest": 2978633.350000016,
-      "sentiment": "Bullish",
-      "score": 75,
-      "comment_cn": "在宏观流动性收紧和情绪极度恐惧的背景下，BTC坚守7万美元关口并录得反弹。恐惧指标已达到反向买入区域。",
-      "comment_en": "BTC holds the $70K mark and shows resilience despite tightening macro liquidity and extreme fear. Fear metrics indicate a contrarian buy zone."
+      "price": 70538.5,
+      "change_24h": 1.827124066011475,
+      "rsi_4h": 49.03317410751671,
+      "funding_rate": 0.0063659029676,
+      "open_interest": 2983057.1400000155,
+      "sentiment": "Neutral",
+      "score": 65,
+      "comment_cn": "尽管宏观环境收紧，BTC仍稳定在7万美元以上。在机构逢低买入叙事支持下，显示出韧性。关注CPI数据。",
+      "comment_en": "BTC shows resilience, stabilizing above $70K despite tightening macro conditions. Supported by institutional 'Buy the Dip' narratives. Watch CPI data."
     },
     {
       "symbol": "ETH",
-      "price": 2107.25,
-      "change_24h": 0.24928520796760156,
-      "rsi_4h": 49.95761355281131,
-      "funding_rate": 0.00083327513425,
-      "open_interest": 5373371.910000003,
+      "price": 2086.94,
+      "change_24h": 0.021567321194938528,
+      "rsi_4h": 47.807848007220706,
+      "funding_rate": 0.005481193433900001,
+      "open_interest": 5461521.520000002,
       "sentiment": "Neutral",
-      "score": 55,
-      "comment_cn": "从近期的大额抛售中恢复，成功站上2100美元，但仍需确认强劲动能才能摆脱抛售压力遗留影响。",
-      "comment_en": "Recovering above $2,100 after recent large sell-offs. Needs to confirm strong momentum to shake off residual selling pressure effects."
+      "score": 50,
+      "comment_cn": "ETH恢复相对较弱，仅小幅上涨。在经历巨鲸抛售和信心测试后，需突破2100美元以确认反弹。",
+      "comment_en": "ETH recovery is relatively weak, posting only marginal gains. Needs to clear $2,100 to confirm a bounce after major whale dumps and confidence tests."
     },
     {
       "symbol": "SOL",
-      "price": 87.04,
-      "change_24h": -2.059187577360187,
-      "rsi_4h": 44.349821712975036,
-      "funding_rate": -0.023721781363469998,
-      "open_interest": 3146338.7400000016,
+      "price": 87.11,
+      "change_24h": -0.5139333028780297,
+      "rsi_4h": 44.83253655576721,
+      "funding_rate": -0.012410535498289998,
+      "open_interest": 3104517.010000002,
       "sentiment": "Bearish",
-      "score": 30,
-      "comment_cn": "相对弱势，价格下跌超过2%，且融资费率转负，显示空头压力正在积累或被积极做空。",
-      "comment_en": "Relative weakness with over 2% drop and negative funding, suggesting active shorting or accumulating short pressure."
+      "score": 40,
+      "comment_cn": "价格下跌且资金费率为负，显示出短期空头压力。在关键支撑位附近挣扎。",
+      "comment_en": "Price is dropping with negative funding, indicating short-term bearish pressure. Struggling near key support levels."
     },
     {
       "symbol": "BNB",
-      "price": 644.6,
-      "change_24h": -1.074278698588091,
-      "rsi_4h": 38.053251588878034,
-      "funding_rate": -0.010307291503920001,
-      "open_interest": 7025869.0,
+      "price": 640.5,
+      "change_24h": -1.279284833538834,
+      "rsi_4h": 36.83355252493359,
+      "funding_rate": 0.0026560041221,
+      "open_interest": 6958426.0,
       "sentiment": "Bearish",
       "score": 35,
-      "comment_cn": "RSI较低且融资费率转负，反映出短期内存在卖压和多头情绪疲软。",
-      "comment_en": "Low RSI and negative funding rate reflect immediate selling pressure and weak bullish sentiment in the short term."
+      "comment_cn": "跌幅最大，RSI接近超卖区域。技术结构较弱，易受市场抛售影响。",
+      "comment_en": "Largest drop among majors, with RSI approaching oversold territory. Weak technical structure and susceptible to market sell-offs."
     },
     {
       "symbol": "DOGE",
-      "price": 0.09678,
-      "change_24h": -1.875697049579226,
-      "rsi_4h": 44.86655866424007,
-      "funding_rate": 0.000450148348,
-      "open_interest": 719120.0299999998,
-      "sentiment": "Neutral",
-      "score": 45,
-      "comment_cn": "跟随大盘回调，RSI处于中性偏低区域，缺乏独立动能。",
-      "comment_en": "Following the broader market correction. RSI is slightly low-neutral, lacking independent momentum."
+      "price": 0.09652,
+      "change_24h": -1.7007841939097716,
+      "rsi_4h": 44.14774232950047,
+      "funding_rate": -0.00250551658884,
+      "open_interest": 701713.5399999997,
+      "sentiment": "Bearish",
+      "score": 30,
+      "comment_cn": "价格和资金费率均负。在流动性担忧下，meme币往往表现不佳。",
+      "comment_en": "Negative price action coupled with negative funding. Meme coins tend to underperform amid liquidity concerns."
     }
   ]
 }
