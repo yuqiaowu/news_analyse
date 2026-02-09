@@ -1,165 +1,165 @@
 {
-  "timestamp": "2026-02-09T13:06:57.858848",
-  "global_summary_cn": "流动性状态：全球宏观流动性环境处于支持风险资产的“风险偏好”状态。\n\n宏观流动性分析显示，美元指数下跌、美债收益率下降以及日元套利交易活跃，整体结构对风险资产有利（风险偏好）。然而，新闻叙事却非常悲观，充斥着关于价格暴跌、大规模清算以及即将到来的美国CPI数据带来的不确定性。这种“流动性宽松+负面新闻”的组合构成了一个强烈的**分歧**信号。鲸鱼在价格跌至6万美元时积极吸筹，且币安向SAFU基金增加了3亿美元比特币，这些都提供了坚实的底部支撑信号。短期内，市场主要受CPI前的恐慌情绪驱动。操作上，应警惕CPI数据带来的短期剧烈波动，但宏观结构暗示当前抛售可能是由恐慌和技术清算引发的“买入良机”。",
-  "global_summary_en": "Liquidity Status: Global macro liquidity conditions are currently in a \"Risk On\" state, supportive of risk assets.\n\nMacro analysis indicates a supportive environment driven by a weakening DXY, falling US Treasury yields, and an active Yen carry trade. However, the news narrative is overwhelmingly bearish, highlighting sharp price crashes, massive liquidations from the $72K 'fakeout,' and high uncertainty surrounding the imminent US CPI data. This combination of loose liquidity and negative news constitutes a strong **Divergence** signal.\n\nWhales actively accumulated 40K BTC during the $60K dip, and Binance boosted its SAFU reserve, providing strong foundational support. Short term, the market is driven by pre-CPI fear. While caution is required regarding immediate CPI volatility, the macro structure suggests that the current sell-off is primarily fear and technically driven, positioning it as a potential 'Buy the Dip' opportunity.",
+  "timestamp": "2026-02-09T17:07:30.535184",
+  "global_summary_cn": "流动性状态：全球宏观流动性偏宽松（风险偏好）。DXY走弱、美债收益率下降和VIX回落，表明风险资产环境良好。叙事层面，市场正在消化矿工抛售压力（Cango出售3.05亿美元BTC）和近期回调恐慌，但强大的机构买盘（Saylor、Binance和鲸鱼在6万美元区间持续积累40K BTC）提供了坚实的支撑。尽管CPI数据即将公布带来不确定性，但目前流动性宽松与内在需求强劲的结合，创造了一个“逢低买入”的环境。市场在7万美元附近盘整，等待宏观催化剂来确认突破方向。",
+  "global_summary_en": "Liquidity Status: Global macro liquidity is skewed towards Risk On. The falling DXY, declining US 10Y yields, and subsiding VIX indicate a supportive environment for risk assets. In terms of narrative, the market is digesting miner selling pressure (Cango selling $305M BTC) and recent crash fears, but strong institutional buying (Saylor, Binance, and whales accumulating 40K BTC around the $60K zone) provides solid underlying support. Despite upcoming CPI data uncertainty, the current blend of loose liquidity and strong intrinsic demand creates a 'Buy the Dip' environment. The market is consolidating near $70,000, awaiting macro catalysts to confirm the breakout direction.",
   "news_analysis": [
     {
-      "title_cn": "币安在市场下跌期间向SAFU储备金增加了3亿美元比特币",
+      "title_cn": "比特币矿工Cango出售3.05亿美元BTC以削减杠杆并转向AI业务",
+      "title_en": "Bitcoin miner Cango sells $305M BTC to cut leverage and fund AI pivot",
+      "news_sentiment": "Bearish",
+      "classification": "DISTRIBUTION",
+      "reason_cn": "这是一笔巨大的已实现抛压，是造成近期价格下跌和回调压力的直接原因。",
+      "reason_en": "This represents a large amount of realized selling pressure, directly contributing to the recent price decline and pullback pressure."
+    },
+    {
+      "title_cn": "Saylor的策略公司在比特币价格低于成本价时购入9000万美元比特币",
+      "title_en": "Saylor’s Strategy buys $90M in Bitcoin as price trades below cost basis",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "强大的机构信心的体现，为市场提供了关键支撑，表明主要买家将当前价格视为价值区。",
+      "reason_en": "A clear demonstration of strong institutional conviction, providing crucial support and indicating that major buyers view current prices as value."
+    },
+    {
+      "title_cn": "币安在市场下跌期间向SAFU储备增加了3亿美元比特币",
       "title_en": "Binance adds $300M in Bitcoin to SAFU reserve during market dip",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "在市场恐慌时，交易所增加储备金是对信心的积极支撑。",
-      "reason_en": "Positive confidence signal; the exchange is backing stability during a panic sell-off."
+      "reason_cn": "交易所向其安全基金注入比特币，增强了市场信心和储备弹性。",
+      "reason_en": "The exchange injecting BTC into its SAFU reserve boosts market confidence and operational resilience."
     },
     {
-      "title_cn": "比特币鲸鱼趁6万美元价格下跌之机，抢购了4万枚BTC",
+      "title_cn": "比特币巨鲸利用6万美元的价格下跌，抢购了4万枚BTC",
       "title_en": "Bitcoin whales took advantage of $60K price dip, scooping up 40K BTC",
       "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "证实了在关键心理关口存在强劲的机构积累和支撑。",
-      "reason_en": "Confirms strong institutional accumulation and support at key psychological levels."
+      "classification": "PRICED IN",
+      "reason_cn": "确认了价格从6万美元区域快速反弹的原因，显示出强手在波动中积极积累。",
+      "reason_en": "Confirms the reason for the rapid bounce from the $60K area, showing active accumulation by strong hands during volatility."
     },
     {
-      "title_cn": "BTC交易员等待5万美元底部：本周比特币需了解的五件事",
+      "title_cn": "比特币交易者等待5万美元底部：本周需要了解的五件事",
       "title_en": "BTC traders wait for $50K bottom: Five things to know in Bitcoin this week",
       "news_sentiment": "Bearish",
       "classification": "PRICED IN",
-      "reason_cn": "反映了当前市场对进一步下跌的悲观情绪，但鉴于鲸鱼在6万美元入场，5万美元可能过于悲观。",
-      "reason_en": "Reflects current market pessimism about further downside, potentially overshooting given confirmed whale accumulation at $60K."
+      "reason_cn": "体现了市场中挥之不去的恐惧和不确定性，这种情绪在最近的波动中得到了体现。",
+      "reason_en": "Reflects lingering fear and uncertainty in the market, an sentiment already priced in by the recent volatility reset."
     },
     {
-      "title_cn": "比特币夏普比率跌至先前市场底部水平",
-      "title_en": "Bitcoin Sharpe ratio slides to levels seen in previous market bottoms",
+      "title_cn": "NY联储调查：随着就业市场前景改善，1月近期预期通胀下降",
+      "title_en": "NY Fed survey: January near-term expected inflation lower amid better job market views",
       "news_sentiment": "Bullish",
-      "classification": "DIVERGENCE",
-      "reason_cn": "技术指标显示风险/回报比率改善，暗示可能接近周期性底部。",
-      "reason_en": "Technical indicator suggests improving risk/reward ratio, pointing towards potential cyclical bottom formation."
-    },
-    {
-      "title_cn": "地址中毒最近让两名受害者损失超过6200万美元",
-      "title_en": "Address poisoning recently cost 2 victims over $62M alone: Scam Sniffer",
-      "news_sentiment": "Bearish",
       "classification": "IMPULSE",
-      "reason_cn": "重大的安全事件和负面新闻，增加散户对行业的恐惧和不信任。",
-      "reason_en": "Major security breach news increases retail fear and distrust in the sector."
+      "reason_cn": "宏观上属于鸽派信号，减轻了美联储加息的压力，支持风险资产。",
+      "reason_en": "A dovish macro signal, reducing pressure on the Fed to hike and supporting risk assets."
     },
     {
-      "title_cn": "比特币7.2万美元‘假突破’：8200万美元被清算，Bithumb面临400亿美元错误调查",
-      "title_en": "Bitcoin’s $72K ‘Fakeout’: $82M Liquidated as Bithumb Faces $40B Error Probe",
-      "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "解释了近期下跌的直接原因（清算瀑布），并带来了额外的监管和交易所操作风险。",
-      "reason_en": "Explains the mechanics of the recent crash (liquidation cascade) and introduces fresh regulatory/exchange risk."
-    },
-    {
-      "title_cn": "北京敦促贷方限制美国债务敞口，应对市场波动",
-      "title_en": "Beijing Urges Lenders to Limit US Debt Exposure Amid Market Volatility",
-      "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "地缘政治/宏观经济紧张局势加剧，增加全球市场的不确定性。",
-      "reason_en": "Increases geopolitical/macro tension and general market uncertainty."
-    },
-    {
-      "title_cn": "[USD] 核心CPI月率、CPI月率、CPI年率 (高)",
-      "title_en": "[USD] Core CPI m/m, CPI m/m, CPI y/y (High)",
+      "title_cn": "即将公布：[USD] 核心CPI m/m, CPI m/m, CPI y/y (高)",
+      "title_en": "Upcoming: [USD] Core CPI m/m, CPI m/m, CPI y/y (High)",
       "news_sentiment": "Neutral",
-      "classification": "IMPULSE",
-      "reason_cn": "即将发布的最高影响力的宏观数据，保证了短期的市场剧烈波动。",
-      "reason_en": "Highest impact macro data releases pending, guaranteeing high short-term volatility."
+      "classification": "NEUTRAL",
+      "reason_cn": "这是一个高影响力的待定事件，市场目前正在等待该数据以确定方向。",
+      "reason_en": "A high-impact pending event; the market is currently consolidating while awaiting this crucial macro data point for direction."
+    },
+    {
+      "title_cn": "Vitalik区分‘真正的DeFi’和中心化收益稳定币",
+      "title_en": "Vitalik draws line between ‘real DeFi’ and centralized yield stablecoins",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "生态系统健康度的评论，对价格没有直接影响。",
+      "reason_en": "General commentary on ecosystem health, with no immediate price impact."
     }
   ],
   "fed_futures": {
     "price": 96.405,
     "implied_rate": 3.595,
-    "timestamp": "2026-02-09T13:06:39.402632+00:00",
+    "timestamp": "2026-02-09T17:07:14.867122+00:00",
     "trend": "Neutral (Stable expectations)",
     "change_5d_bps": -4.5,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 156.258,
-    "timestamp": "2026-02-09T13:06:39.448927+00:00",
-    "trend": "Yen Weakness (Risk On)",
-    "change_5d_pct": 0.52,
+    "price": 156.063,
+    "timestamp": "2026-02-09T17:07:14.951185+00:00",
+    "trend": "Neutral",
+    "change_5d_pct": 0.4,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 97.17,
-      "change_5d_pct": -0.47,
+      "price": 97.02,
+      "change_5d_pct": -0.61,
       "trend": "Weaker (Risk On)"
     },
     "us10y": {
       "price": 4.21,
-      "change_5d_pct": -1.61,
+      "change_5d_pct": -1.4,
       "trend": "High Falling"
     },
     "vix": {
-      "price": 18.53,
-      "change_5d_pct": 2.94,
-      "trend": "Normal Rising"
+      "price": 17.08,
+      "change_5d_pct": -5.11,
+      "trend": "Normal Subsiding"
     }
   },
   "coins": [
     {
       "symbol": "BTC",
-      "price": 69035.9,
-      "change_24h": -2.8143833119120143,
-      "rsi_4h": 43.43656141689351,
-      "funding_rate": 0.009673672935659999,
-      "open_interest": 3057812.240000023,
+      "price": 70179.0,
+      "change_24h": -0.6860655668107332,
+      "rsi_4h": 48.43605890343834,
+      "funding_rate": 0.00206851263621,
+      "open_interest": 3006870.240000018,
       "sentiment": "Bullish",
-      "score": 70,
-      "comment_cn": "宏观流动性结构看涨，鲸鱼积累信号强烈。当前下跌主要是CPI前的恐慌和技术清算。",
-      "comment_en": "Macro liquidity is supportive, and whale accumulation signals are strong. Current dip is driven by CPI anxiety and technical liquidations."
+      "score": 80,
+      "comment_cn": "流动性支持与机构积累的双重利好。价格稳定在7万美元上方，尽管存在矿工抛售，但需求强劲。",
+      "comment_en": "Supported by loose liquidity and institutional accumulation. Price stable above $70k; strong demand absorbing miner selling."
     },
     {
       "symbol": "ETH",
-      "price": 2035.04,
-      "change_24h": -4.149514398485259,
-      "rsi_4h": 42.46463805581042,
-      "funding_rate": 0.01,
-      "open_interest": 5649417.520000003,
+      "price": 2092.25,
+      "change_24h": 0.09328804477825278,
+      "rsi_4h": 49.71985803694994,
+      "funding_rate": 0.00477321429694,
+      "open_interest": 5521652.0600000005,
       "sentiment": "Neutral",
-      "score": 40,
-      "comment_cn": "相对于BTC表现较弱，叙事中提到有30%的暴跌。等待CPI后确认底部。",
-      "comment_en": "Underperforming BTC with reports of a 30% crash. Waiting for post-CPI confirmation of a sustainable bottom."
+      "score": 65,
+      "comment_cn": "随大盘稳定，但缺乏独立的上行催化剂，近期表现弱于BTC。等待CPI数据指引。",
+      "comment_en": "Stable alongside BTC but lacks independent upside catalysts, underperforming BTC recently. Waiting for CPI guidance."
     },
     {
       "symbol": "SOL",
-      "price": 84.15,
-      "change_24h": -4.244424214838405,
-      "rsi_4h": 39.14680718724339,
-      "funding_rate": -0.01106882058024,
-      "open_interest": 2985992.7300000004,
-      "sentiment": "Volatile",
-      "score": 50,
-      "comment_cn": "RSI低（39.1），资金费率为负。空头头寸拥挤，若大盘反弹，可能出现剧烈空头挤压。",
-      "comment_en": "Low RSI and negative funding suggest crowded short positions. Highly volatile, potential for a sharp short squeeze if the broader market recovers."
+      "price": 86.15,
+      "change_24h": -0.634371395617067,
+      "rsi_4h": 45.201255595253016,
+      "funding_rate": -0.00431725775787,
+      "open_interest": 2885636.3100000015,
+      "sentiment": "Neutral",
+      "score": 55,
+      "comment_cn": "RSI和资金费率略显疲软。宏观环境利好，但链上动力似乎暂时减弱。",
+      "comment_en": "Slight weakness reflected in lower RSI and slightly negative funding. Macro conditions are good, but immediate on-chain momentum appears subdued."
     },
     {
       "symbol": "BNB",
-      "price": 627.2,
-      "change_24h": -2.3965141612200402,
-      "rsi_4h": 35.072646733226236,
-      "funding_rate": -0.00167937853847,
-      "open_interest": 7072515.0,
-      "sentiment": "Bearish",
-      "score": 45,
-      "comment_cn": "RSI较低且资金费率为负。技术上显示疲软，但币安支持的消息可能提供间接支撑。",
-      "comment_en": "Technically weak with low RSI and negative funding. Binance's support news might provide indirect backing."
+      "price": 634.7,
+      "change_24h": -0.4392156862745027,
+      "rsi_4h": 39.657412652705446,
+      "funding_rate": 0.00376622875126,
+      "open_interest": 7080867.0,
+      "sentiment": "Neutral",
+      "score": 60,
+      "comment_cn": "RSI处于主要币种中的最低水平，显示出短线相对疲软。仍维持在关键价格区间。",
+      "comment_en": "RSI is the lowest among major coins, indicating relative weakness in the short term. Maintaining critical price range nevertheless."
     },
     {
       "symbol": "DOGE",
-      "price": 0.09414,
-      "change_24h": -3.821005312627701,
-      "rsi_4h": 40.25878903263018,
-      "funding_rate": -0.00259041653053,
-      "open_interest": 697289.9499999997,
+      "price": 0.09529,
+      "change_24h": -0.915046272226272,
+      "rsi_4h": 43.640295325334904,
+      "funding_rate": -0.00083839952131,
+      "open_interest": 706902.9199999998,
       "sentiment": "Neutral",
-      "score": 40,
-      "comment_cn": "波动性大，跟随山寨币大盘下跌。在等待整体市场情绪回暖。",
-      "comment_en": "High volatility, following the general altcoin market downturn. Waiting for overall sentiment to warm up."
+      "score": 50,
+      "comment_cn": "缺乏叙事驱动力，遵循大盘震荡走势。投机兴趣处于中性状态。",
+      "comment_en": "Lacking narrative catalyst, tracking overall market chop. Speculative interest is currently neutral."
     }
   ]
 }
