@@ -1,164 +1,157 @@
 {
-  "timestamp": "2026-02-13T17:22:17.675850",
-  "global_summary_cn": "流动性状态：**中性/谨慎宽松**。尽管美联储降息预期持续下降（利好），且美债收益率趋于走低，但日元走强（预示着避险或套利交易平仓）和VIX小幅上升，给宏观环境带来了不确定性。市场目前正处于由“美国CPI数据放缓”引发的短期动能推动中，比特币冲高至69000美元上方，以太坊和高贝塔资产表现强劲。\n\n然而，这种上涨与结构性弱点（如ETF资金流出4.1亿美元、OI处于低位）形成显著背离。这表明当前的拉升更可能是对数据意外的反应，而不是结构性需求复苏。在今晚关键的CPI数据公布之前，市场情绪高涨但脆弱。如果CPI结果高于预期，当前涨势可能被迅速抛售（卖出反弹）。操作上，应保持谨慎，关注即将到来的通胀数据对美联储预期的影响。",
-  "global_summary_en": "Liquidity Status: **Neutral/Cautiously Loose**. Although Fed rate expectations continue to fall (Bullish) and US 10-year yields are trending lower, the strengthening Yen (signaling risk-off or carry trade unwinding) and a slight rise in VIX introduce macroeconomic uncertainty. The market is currently driven by short-term momentum sparked by the 'slower US CPI print,' pushing BTC above $69K, with ETH and high-beta assets showing strong performance.\n\nHowever, this rally significantly diverges from structural weaknesses, such as the $410M ETF outflow and low Open Interest (OI). This suggests the current push is likely a reaction to the data surprise rather than a structural demand recovery. Sentiment is high but fragile ahead of tonight's critical CPI data release. If CPI results exceed expectations, the current gains could be quickly sold off (Sell the Rally). Operators should remain cautious and monitor the impact of upcoming inflation data on Fed expectations.",
+  "timestamp": "2026-02-13T21:22:46.567818",
+  "global_summary_cn": "宏观流动性目前处于混合/谨慎收紧状态。尽管美联储降息预期有所下降（偏鸽派），但VIX恐慌指数上升至高位，且日元走强，暗示全球风险偏好正在撤退。然而，加密市场新闻叙事却异常强劲，主要围绕比特币突破69,000美元、零售交易者清算空头头寸，以及ETH的机构需求。这种市场状态表现为**“乐观叙事与收紧流动性之间的分歧”**。短期看，强劲的价格动量和空头挤压（短时冲量/IMPULSE）占据主导，推动BTC突破关键阻力位。但投资者应警惕VIX和日元趋势，这可能预示着如果缺乏真正的流动性注入，当前的反弹可能面临抛售压力。",
+  "global_summary_en": "Macro liquidity is currently in a mixed/cautious tightening state. Although Fed rate expectations have dropped (Dovish trend), the VIX fear index is high and rising, and the JPY is strengthening, signaling global risk-off unwinding. However, the crypto market narrative is aggressively bullish, focusing on Bitcoin breaking $69K, retail traders pressuring shorts, and strong institutional demand for ETH. This market state represents a **'Divergence between Bullish Narrative and Tightening Liquidity'**. In the short term, strong price momentum and short squeezes (IMPULSE) are dominating, pushing BTC past key resistance. Investors should remain cautious of the VIX and JPY trends, which suggest that without real liquidity injection, the current rally might face selling pressure.",
   "news_analysis": [
     {
-      "title_cn": "比特币突破69K，因美国CPI数据放缓，但美联储降息概率仍低",
+      "title_cn": "特朗普撤销环保署关于温室气体威胁的认定，对气候变化法规造成巨大打击",
+      "title_en": "Trump revokes EPA finding on greenhouse gas threat in huge blow to climate change regulations",
+      "news_sentiment": "Neutral",
+      "classification": "NEUTRAL",
+      "reason_cn": "政治/监管消息，对加密货币市场的直接影响有限，但可能增加长期政策不确定性。",
+      "reason_en": "Political/regulatory news. Limited direct impact on the crypto market, but may increase long-term policy uncertainty."
+    },
+    {
+      "title_cn": "Pinterest股价下跌近17%，因关税影响盈利。以下是发生的情况",
+      "title_en": "Pinterest stock sinks nearly 17% as tariffs hit earnings. Here's what's happening",
+      "news_sentiment": "Bearish",
+      "classification": "IMPULSE",
+      "reason_cn": "确认了关税对企业盈利的负面冲击，支持宏观经济摩擦的担忧，属于风险资产的利空信号。",
+      "reason_en": "Confirms the negative impact of tariffs on corporate earnings, supporting broader macroeconomic friction concerns. Negative signal for risk assets."
+    },
+    {
+      "title_cn": "比特币多头猛攻69K美元，因散户交易者对空头头寸施加压力",
+      "title_en": "Bitcoin bulls blitz $69K as retail traders pressure short positioning",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "直接确认了当前价格上涨是由空头挤压和零售动量驱动的，属于强劲的短期看涨信号。",
+      "reason_en": "Directly confirms the current price surge is driven by short squeeze and retail momentum, a strong immediate bullish signal."
+    },
+    {
+      "title_cn": "美国CPI数据放缓后比特币突破69K美元，但美联储降息赔率仍然很低",
       "title_en": "Bitcoin passes $69K on slower US CPI print, but Fed rate-cut odds stay low",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "这是当前价格上涨的主要驱动力，是市场对最新经济数据的直接反应。",
-      "reason_en": "This is the primary driver for the current price rise, representing a direct market reaction to the latest economic data.",
-      "title_original": "Bitcoin passes $69K on slower US CPI print, but Fed rate-cut odds stay low"
+      "reason_cn": "通胀数据放缓是短期催化剂，提供了风险资产上涨的理由。尽管流动性前景仍偏紧，但市场正在利用积极消息进行突破。",
+      "reason_en": "Slower inflation data acts as an immediate catalyst, providing justification for risk asset rally. The market is capitalizing on positive news despite tight liquidity outlook."
     },
     {
-      "title_cn": "比特币ETF流出4.1亿美元，渣打银行下调BTC目标价",
-      "title_en": "Bitcoin ETFs bleed $410M as Standard Chartered slashes BTC target",
-      "news_sentiment": "Bearish",
-      "classification": "DISTRIBUTION",
-      "reason_cn": "巨大的ETF资金流出与当前的拉升形成背离，暗示着机构在利用短期上涨进行抛售，是结构性弱点信号。",
-      "reason_en": "Significant ETF outflows diverge from the current rally, suggesting institutional selling into the short-term strength, signaling structural weakness.",
-      "title_original": "Bitcoin ETFs bleed $410M as Standard Chartered slashes BTC target"
-    },
-    {
-      "title_cn": "比特币未平仓合约创下2024年以来新低：TradFi是否正在放弃BTC？",
-      "title_en": "Bitcoin open interest hits lows not seen since 2024: Is TradFi abandoning BTC?",
-      "news_sentiment": "Bearish",
-      "classification": "DIVERGENCE",
-      "reason_cn": "未平仓合约低意味着杠杆兴趣低，但价格却在上涨，表明这次上涨主要由现货驱动。从长期来看，OI低迷是TradFi缺乏信心的表现。",
-      "reason_en": "Low OI suggests low leveraged interest, yet the price is rising, indicating spot-driven movement. However, chronically low OI suggests a lack of confidence from TradFi players.",
-      "title_original": "Bitcoin open interest hits lows not seen since 2024: Is TradFi abandoning BTC?"
-    },
-    {
-      "title_cn": "以太坊的隐藏优势：机构需求指向2400美元",
+      "title_cn": "以太坊的隐藏优势：为什么机构需求指向2.4K美元",
       "title_en": "Ether’s hidden strength: Why institutional demand points to $2.4K",
       "news_sentiment": "Bullish",
       "classification": "PRICED IN",
-      "reason_cn": "该消息为以太坊当日大幅上涨提供了理论支撑，但上涨已发生，故为已消化消息。",
-      "reason_en": "This news provides theoretical justification for Ethereum's significant daily gains, but the rally is already underway, classifying it as priced in.",
-      "title_original": "Ether’s hidden strength: Why institutional demand points to $2.4K"
+      "reason_cn": "长期基本面看涨叙事，支持ETH强于BTC的表现（24h涨幅更高）。考虑到强劲的涨幅，部分情绪已被消化。",
+      "reason_en": "Long-term bullish fundamental narrative, supporting ETH's outperformance (higher 24h gain). Given the strong move, some of this sentiment is already priced in."
     },
     {
-      "title_cn": "联邦快递加入Hedera网络理事会，着眼于供应链转型",
-      "title_en": "FedEx Enters Hedera Network Council With Eye on Supply Chain Transformation",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "重磅企业采用区块链/DLT技术的利好消息，对相关生态系统和整体行业情绪构成积极脉冲。",
-      "reason_en": "Strong positive news regarding major corporate adoption of DLT/blockchain, providing a positive impulse for the associated ecosystem and overall industry sentiment.",
-      "title_original": "FedEx Enters Hedera Network Council With Eye on Supply Chain Transformation"
+      "title_cn": "比特币反弹至69K美元，但图表仍然看跌：分析",
+      "title_en": "Bitcoin Bounces to $69K, But Charts Are Still Bearish: Analysis",
+      "news_sentiment": "Neutral",
+      "classification": "DIVERGENCE",
+      "reason_cn": "与强劲的价格动量形成对比，技术分析师保持谨慎，表明当前上涨可能缺乏可持续性或健康的结构。",
+      "reason_en": "Contrasts with strong price momentum. Technical analysts remain cautious, indicating the current rally may lack sustainability or healthy structure."
     },
     {
-      "title_cn": "在比特币下跌之际，Coinbase报告亏损6.67亿美元",
-      "title_en": "Morning Minute: Coinbase Reports $667 Million Loss Amid Bitcoin Dive",
-      "news_sentiment": "Bearish",
-      "classification": "PRICED IN",
-      "reason_cn": "负面的公司财务业绩，通常已在下跌过程中被市场消化，目前市场关注点已转移到宏观驱动的上涨动能。",
-      "reason_en": "Negative corporate financial results are usually priced in during market dips. Current market focus has shifted to macro-driven positive momentum.",
-      "title_original": "Morning Minute: Coinbase Reports $667 Million Loss Amid Bitcoin Dive"
-    },
-    {
-      "title_cn": "[USD] 核心CPI m/m (高), [USD] CPI m/m (高), [USD] CPI y/y (高)",
-      "title_en": "[USD] Core CPI m/m (High), [USD] CPI m/m (High), [USD] CPI y/y (High)",
+      "title_cn": "[USD] 核心CPI月率 (高)",
+      "title_en": "[USD] Core CPI m/m (High)",
       "news_sentiment": "Neutral",
       "classification": "NEUTRAL",
-      "reason_cn": "即将到来的高风险宏观经济事件，将在短期内决定市场方向，预示着高波动性。",
-      "reason_en": "Upcoming high-risk macroeconomic events that will determine the short-term market direction, signaling high volatility.",
-      "title_original": "[USD] Core CPI m/m (High)"
+      "reason_cn": "高影响力的宏观经济日历事件，市场正在等待结果。属于前瞻性风险。",
+      "reason_en": "High-impact macroeconomic calendar event. The market is anticipating the result. Forward-looking risk."
     }
   ],
   "fed_futures": {
     "price": 96.44,
     "implied_rate": 3.56,
-    "timestamp": "2026-02-13T17:22:00.352501+00:00",
+    "timestamp": "2026-02-13T21:22:32.354521+00:00",
     "trend": "Dovish (Rate expectations dropping)",
     "change_5d_bps": -8.0,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 152.7,
-    "timestamp": "2026-02-13T17:22:00.414607+00:00",
+    "price": 152.642,
+    "timestamp": "2026-02-13T21:22:32.408017+00:00",
     "trend": "Yen Strength (Risk Off)",
-    "change_5d_pct": -2.89,
+    "change_5d_pct": -2.93,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 96.86,
-      "change_5d_pct": 0.05,
+      "price": 96.85,
+      "change_5d_pct": 0.04,
       "trend": "Neutral"
     },
     "us10y": {
-      "price": 4.05,
-      "change_5d_pct": -3.43,
+      "price": 4.06,
+      "change_5d_pct": -3.38,
       "trend": "Neutral Falling"
     },
     "vix": {
-      "price": 19.28,
-      "change_5d_pct": 11.06,
-      "trend": "Normal Rising"
+      "price": 20.72,
+      "change_5d_pct": 19.35,
+      "trend": "High Fear Rising"
     }
   },
   "coins": [
     {
       "symbol": "BTC",
-      "price": 69066.8,
-      "change_24h": 4.646983778738723,
-      "rsi_4h": 55.24734264231278,
-      "funding_rate": 0.0007871148943999999,
-      "open_interest": 3007396.680000016,
+      "price": 68932.9,
+      "change_24h": 5.19866801777603,
+      "rsi_4h": 54.58132887786094,
+      "funding_rate": 0.0019640836779900002,
+      "open_interest": 3010956.980000017,
       "sentiment": "Bullish",
-      "score": 75,
-      "comment_cn": "价格受CPI数据驱动强势反弹至69K。RSI健康，但ETF资金流出构成重大结构性风险。",
-      "comment_en": "Price bounced strongly to $69K driven by CPI data. RSI is healthy, but ETF outflows pose a significant structural risk."
+      "score": 85,
+      "comment_cn": "成功突破69K美元，由空头挤压驱动。OI高企，但VIX上升提示需要警惕追高。",
+      "comment_en": "Successfully broke $69K, driven by a short squeeze. High OI, but rising VIX suggests caution when chasing."
     },
     {
       "symbol": "ETH",
-      "price": 2059.26,
-      "change_24h": 7.346494086001902,
-      "rsi_4h": 58.54802080429013,
-      "funding_rate": 0.0023831719981,
-      "open_interest": 6384851.080000004,
-      "sentiment": "Strongly Bullish",
-      "score": 85,
-      "comment_cn": "跑赢BTC，机构需求叙事强劲。上涨动能充足，是当前市场的领头羊。",
-      "comment_en": "Outperforming BTC with a strong institutional demand narrative. Excellent momentum, acting as the current market leader."
+      "price": 2053.34,
+      "change_24h": 7.078639966624961,
+      "rsi_4h": 57.5100117392128,
+      "funding_rate": 0.00029864622885,
+      "open_interest": 6309703.230000003,
+      "sentiment": "Bullish",
+      "score": 90,
+      "comment_cn": "受益于机构需求叙事，涨幅强劲。Funding率健康，表现出比BTC更强的结构性需求。",
+      "comment_en": "Benefiting from institutional demand narrative, showing strong gains. Healthy funding rate indicates stronger structural demand than BTC."
     },
     {
       "symbol": "SOL",
-      "price": 84.39,
-      "change_24h": 7.585415604283533,
-      "rsi_4h": 56.67304589416999,
-      "funding_rate": 0.005090179051799999,
-      "open_interest": 2834708.110000001,
-      "sentiment": "Strongly Bullish",
-      "score": 80,
-      "comment_cn": "典型的高贝塔表现。涨幅超过7%，表明在风险偏好回升时资金流入山寨币。",
-      "comment_en": "Classic high-beta performance. Gains over 7% indicate capital rotation into altcoins amid returning risk appetite."
+      "price": 84.94,
+      "change_24h": 10.28304336535965,
+      "rsi_4h": 57.98957481596498,
+      "funding_rate": 0.01,
+      "open_interest": 2802428.9000000013,
+      "sentiment": "Bullish",
+      "score": 95,
+      "comment_cn": "涨幅领先，资金费率高，表明市场对SOL的需求最为激进。风险偏好回归的首选标的。",
+      "comment_en": "Leading the rally with the highest gains and funding rate, indicating aggressive market demand. Prime beneficiary of renewed risk appetite."
     },
     {
       "symbol": "BNB",
-      "price": 616.2,
-      "change_24h": 1.4989293361884406,
-      "rsi_4h": 48.59455387317858,
-      "funding_rate": -0.00057434645406,
-      "open_interest": 7531185.0,
-      "sentiment": "Neutral",
-      "score": 50,
-      "comment_cn": "显著跑输市场，上涨动能不足（仅+1.5%），且资金费率显示有少量做空压力。",
-      "comment_en": "Significantly underperforming the market, lacking upside momentum (+1.5%). Negative funding suggests slight short pressure."
+      "price": 621.8,
+      "change_24h": 2.6919900908340137,
+      "rsi_4h": 51.62040106861804,
+      "funding_rate": 0.00902947089719,
+      "open_interest": 7323323.0,
+      "sentiment": "Bullish",
+      "score": 75,
+      "comment_cn": "稳健上涨，但略逊于高风险资产。在主流币中维持相对低波动性。",
+      "comment_en": "Solid rally, but slightly lagging high-beta assets. Maintains relatively lower volatility among major coins."
     },
     {
       "symbol": "DOGE",
-      "price": 0.09678,
-      "change_24h": 4.978848031239843,
-      "rsi_4h": 61.109785484328036,
-      "funding_rate": 0.00166425673454,
-      "open_interest": 759397.1399999997,
+      "price": 0.09735,
+      "change_24h": 6.837137840210709,
+      "rsi_4h": 62.66935972496612,
+      "funding_rate": 0.00560609340612,
+      "open_interest": 738385.5499999999,
       "sentiment": "Bullish",
-      "score": 70,
-      "comment_cn": "跟随风险资产集体上涨。RSI略高，但短期动能强劲，反映了市场整体乐观情绪。",
-      "comment_en": "Tracking the broader risk-asset rally. RSI is slightly high, but strong short-term momentum reflects overall market optimism."
+      "score": 80,
+      "comment_cn": "Meme币轮动，RSI进入高位。涨幅强劲，跟随整体市场动量。",
+      "comment_en": "Meme coin rotation, RSI moving into high territory. Strong gains following overall market momentum."
     }
   ]
 }
