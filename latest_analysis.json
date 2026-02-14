@@ -1,92 +1,60 @@
 {
-  "timestamp": "2026-02-14T05:24:01.400903",
-  "global_summary_cn": "流动性状态：收紧/避险压力。尽管全球宏观信号显示流动性正在收紧（VIX高企且日元走强），但加密市场正经历叙事驱动的反弹。\n\n**双层分析**：\n\n**第一层（流动性）**：VIX飙升至20.6，且日元走强（USD/JPY 5日跌幅-2.81%），表明全球避险情绪上升。美联储利率预期稳定在高位，对流动性无积极贡献。\n\n**第二层（叙事）**：叙事层面强烈偏多。主要的推动力来自机构行动，例如币安锁定了10亿美元的比特币作为长期储备，以及CFTC将Ripple和Coinbase纳入其精英委员会，增强了监管乐观情绪。\n\n**综合判断**：市场处于“流动性收紧，利好消息驱动上涨”的背离状态。微观机构叙事（Binance/CFTC）目前压倒了宏观恐惧。然而，本周即将公布的核心CPI数据是主要的宏观风险点，这可能迫使加密货币重新与避险环境关联。",
-  "global_summary_en": "Liquidity Status: Tightening/Risk-Off Pressure. Despite global macro signals indicating tightening liquidity (High VIX and strengthening Yen), the crypto market is experiencing a narrative-driven rally.\n\n**Dual-Layer Analysis**:\n\n**Layer 1 (Liquidity)**: The VIX surged to 20.6, and the Yen strengthened sharply (USD/JPY 5D change -2.81%), signaling rising global risk aversion. Fed rate expectations remain stable at a high, restrictive level.\n\n**Layer 2 (Narrative)**: The narrative layer is strongly bullish, driven by institutional actions, notably Binance locking $1 billion into Bitcoin as a long-term reserve, and the CFTC including Ripple and Coinbase in its elite committee, bolstering regulatory optimism.\n\n**Synthesis**: The market is in a state of divergence: 'Tight Liquidity, Good News Driven Rally.' Micro-institutional narratives (Binance/CFTC) are currently overpowering macro fear. However, the high-impact Core CPI data scheduled this week represents a major macro risk that could force crypto assets to realign with the risk-off environment.",
+  "timestamp": "2026-02-14T09:24:32.884713",
+  "global_summary_cn": "流动性状态：**收紧/谨慎**。宏观层面，全球流动性环境显示出压力。VIX指数（恐慌指标）上升至20以上，同时日元走强（USD/JPY大幅下跌），暗示着全球套利交易可能正在平仓，这是一个明确的风险关闭信号。\n\n然而，加密货币市场正在经历强劲的叙事驱动型反弹，形成了明显的**分歧**。核心催化剂包括：1. 特朗普媒体申请与BTC/ETH挂钩的加密ETF；2. 币安将10亿美元锁定为长期储备；3. 零售交易者推动的空头挤压，将BTC推至69,000美元。尽管宏观环境恶化，但这些强大的正面消息脉冲暂时压倒了宏观风险。市场情绪极度乐观，但鉴于即将到来的高风险美国CPI数据，以及VIX飙升，这种反弹可能在短期内面临考验，需警惕在宏观数据发布前“卖出消息”的风险。",
+  "global_summary_en": "Liquidity Status: **Tightening / Cautious**. Macro conditions indicate stress, with the VIX (Fear Index) rising above 20 and the Yen strengthening significantly (USD/JPY drop), suggesting a potential global carry trade unwind—a clear Risk Off signal.\n\nHowever, the crypto market is experiencing a strong narrative-driven rally, creating a significant **Divergence**. Key catalysts include: 1. Trump Media filing for crypto ETFs tied to BTC/ETH; 2. Binance securing $1 billion in long-term BTC reserves; and 3. A retail-fueled short squeeze pushing BTC to $69,000. These strong positive impulses are currently overriding macro risk. While sentiment is highly bullish, the rally faces an immediate test due to the high-risk US CPI data calendar and the spiking VIX. Caution is advised for a potential 'Sell the Rally' scenario before macro certainty is restored.",
   "news_analysis": [
     {
-      "title_cn": "币安将10亿美元锁定为比特币——1.5万枚BTC现被锁定为长期储备支柱",
+      "title_cn": "特朗普媒体申请与比特币、以太坊、Cronos挂钩的加密ETF",
+      "title_en": "Trump Media files for two new crypto ETFs tied to Bitcoin, Ether, Cronos",
+      "news_sentiment": "Bullish",
+      "classification": "IMPULSE",
+      "reason_cn": "这是重大的制度和政治关注，为比特币和以太坊带来了新的投资产品曝光和合法性。作为直接的市场催化剂，驱动了当前的上涨。",
+      "reason_en": "This signifies major institutional and political exposure, bringing new investment products and legitimacy to BTC and ETH. It acts as a direct market catalyst driving the current surge."
+    },
+    {
+      "title_cn": "币安锁定10亿美元比特币——15,000枚BTC作为长期储备",
       "title_en": "Binance Locks $1 Billion Into Bitcoin—15K BTC Now Secured as Long-Term Reserve Powerhouse",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "币安将大量BTC转移到长期储备中，这是对资产的直接信心投票，有助于减少感知到的流通供应。",
-      "reason_en": "Binance moving a significant amount of BTC into long-term reserves is a direct vote of confidence in the asset and helps reduce perceived circulating supply."
+      "reason_cn": "全球最大交易所对BTC的长期承诺，是巨量的长期持有者积累，大幅减少了流通供应，是极强的基本面利好。",
+      "reason_en": "A massive long-term commitment by the world's largest exchange. This signifies significant long-term HODLing and reduces circulating supply, acting as an extremely strong fundamental positive."
     },
     {
-      "title_cn": "CFTC揭示全明星委员会——Ripple和Coinbase加入精英名单，推动加密货币监管突破",
-      "title_en": "CFTC Unveils All-Star Committee—Ripple and Coinbase Join Elite Roster Fueling Crypto Regulatory Breakthrough",
-      "news_sentiment": "Bullish",
-      "classification": "IMPULSE",
-      "reason_cn": "主要加密公司被纳入官方监管机构，标志着行业正在加速接受和制度化，减轻了长期监管风险。",
-      "reason_en": "Inclusion of major crypto companies in an official regulatory body signals accelerating acceptance and institutionalization, mitigating long-term regulatory risk."
-    },
-    {
-      "title_cn": "以太坊开放利率跌至三年低点：这对以太坊价格意味着什么？",
-      "title_en": "ETH open interest falls to 3-year low: What does it mean for Ether price?",
-      "news_sentiment": "Neutral",
-      "classification": "DIVERGENCE",
-      "reason_cn": "虽然价格上涨，但开放利率低迷表明衍生品交易者/机构兴趣不足。如果上涨缺乏杠杆支持，则可能被视为弱势。",
-      "reason_en": "Low Open Interest despite rising prices suggests a lack of derivative trader/institutional engagement. A rally without leverage backing can be viewed as structurally weak."
-    },
-    {
-      "title_cn": "以太坊维持在2千美元，但2.42亿美元的现货ETH ETF流出是否会重新引发价格下行？",
-      "title_en": "Ether holds $2K, but will $242M spot ETH ETF outflow reignite price downside?",
-      "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "巨大的ETF流出是资本撤离的明确信号，对ETH的机构需求构成了直接的负面压力。",
-      "reason_en": "A massive ETF outflow is a clear signal of capital flight, placing direct negative pressure on institutional demand for ETH."
-    },
-    {
-      "title_cn": "比特币多头猛攻69K美元，零售交易员施压空头头寸",
+      "title_cn": "比特币多头猛攻69K美元，零售交易者施压空头头寸",
       "title_en": "Bitcoin bulls blitz $69K as retail traders pressure short positioning",
       "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "这则新闻描述了当前正在发生或已经发生的运动。它确认了短期看涨势头，但本身不是新的催化剂。",
-      "reason_en": "This headline describes the movement currently happening or already happened. It confirms short-term bullish momentum but is not a new catalyst in itself."
+      "classification": "IMPULSE",
+      "reason_cn": "确认当前价格上涨是由动量和空头解除头寸驱动的，表明市场结构对进一步上行有支撑，只要宏观环境允许。",
+      "reason_en": "Confirms the current price action is driven by momentum and short covering. This indicates supportive market structure for further upside, contingent upon macro conditions."
     },
     {
-      "title_cn": "比特币$72K目标可能实现，如果V形复苏模式完成",
-      "title_en": "Bitcoin $72K target possible if V-shaped recovery pattern completes",
+      "title_cn": "以太坊坚守2K美元，但2.42亿美元的现货ETH ETF流出是否会重新引发价格下跌？",
+      "title_en": "Ether holds $2K, but will $242M spot ETH ETF outflow reignite price downside?",
+      "news_sentiment": "Neutral",
+      "classification": "DIVERGENCE",
+      "reason_cn": "尽管以太坊价格上涨，但存在持续的机构流出压力。这是基本面疲软与市场叙事（特朗普ETF）拉动之间的分歧。",
+      "reason_en": "Persistent institutional outflow pressure despite ETH price holding strong. This is a divergence between underlying fundamental weakness (outflows) and narrative strength (Trump ETF news)."
+    },
+    {
+      "title_cn": "核心CPI m/m，CPI m/m，CPI y/y (高影响)",
+      "title_en": "Core CPI m/m, CPI m/m, CPI y/y (High Impact)",
       "news_sentiment": "Neutral",
       "classification": "NEUTRAL",
-      "reason_cn": "技术分析预测，受现有价格行动驱动。不是基本面新闻，对市场影响中性。",
-      "reason_en": "Technical analysis forecast driven by existing price action. Neutral impact as it is not fundamental news."
-    },
-    {
-      "title_cn": "[USD] 核心CPI m/m (高) / CPI m/m (高) / CPI y/y (高)",
-      "title_en": "[USD] Core CPI m/m (High) / CPI m/m (High) / CPI y/y (High)",
-      "news_sentiment": "Bearish",
-      "classification": "IMPULSE",
-      "reason_cn": "即将到来的高影响事件。通胀数据高企将巩固美联储的限制性立场，对流动性构成风险。",
-      "reason_en": "Upcoming high-impact events. High inflation data would solidify the Fed's restrictive stance, posing a risk to liquidity."
-    },
-    {
-      "title_cn": "加密货币走向主流，渣打银行深化数字资产推进",
-      "title_en": "Crypto Goes Mainstream as Standard Chartered Deepens Digital Asset Push",
-      "news_sentiment": "Bullish",
-      "classification": "PRICED IN",
-      "reason_cn": "这是行业主流化趋势的一部分。长期利好，但缺乏推动近期价格的冲击力。",
-      "reason_en": "Part of the ongoing trend of industry mainstreaming. Positive long-term, but lacks impulse to drive immediate price action."
-    },
-    {
-      "title_cn": "公开交易的区块链借贷机构Figure确认客户数据泄露",
-      "title_en": "Publicly Traded Blockchain Lender Figure Confirms Customer Data Breach",
-      "news_sentiment": "Bearish",
-      "classification": "NEUTRAL",
-      "reason_cn": "特定公司的负面消息，虽然对加密生态系统不利，但对主要代币（BTC/ETH）的价格影响有限。",
-      "reason_en": "Negative news for a specific company. While detrimental to the crypto ecosystem, the price impact on major tokens (BTC/ETH) is limited."
+      "reason_cn": "本周最大的宏观风险事件，所有交易者都在等待数据。在此之前市场可能保持高度波动或观望，增加了宏观流动性的不确定性。",
+      "reason_en": "The highest risk macro event of the week. All traders are awaiting the data. The market is likely to remain highly volatile or paused until release, adding to macro liquidity uncertainty."
     }
   ],
   "fed_futures": {
     "price": 96.36,
     "implied_rate": 3.64,
-    "timestamp": "2026-02-14T05:23:44.188036+00:00",
+    "timestamp": "2026-02-14T09:24:15.378276+00:00",
     "trend": "Neutral (Stable expectations)",
     "change_5d_bps": 0.0,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
     "price": 152.821,
-    "timestamp": "2026-02-14T05:23:44.237380+00:00",
+    "timestamp": "2026-02-14T09:24:15.420988+00:00",
     "trend": "Yen Strength (Risk Off)",
     "change_5d_pct": -2.81,
     "zone": "Weak Yen (Intervention Risk)"
@@ -111,63 +79,63 @@
   "coins": [
     {
       "symbol": "BTC",
-      "price": 68899.7,
-      "change_24h": 3.7594517139961328,
-      "rsi_4h": 54.23054648669835,
-      "funding_rate": 0.0009764597914500001,
-      "open_interest": 2998548.2900000233,
+      "price": 69600.1,
+      "change_24h": 4.220317841564394,
+      "rsi_4h": 58.04526860381927,
+      "funding_rate": -0.00206477733544,
+      "open_interest": 2985476.020000021,
       "sentiment": "Bullish",
-      "score": 80,
-      "comment_cn": "受币安锁定10亿美元储备的直接利好推动，尽管宏观环境收紧，仍维持强劲势头。正在测试阻力位。",
-      "comment_en": "Driven by the direct bullish news of Binance locking $1B in reserves, maintaining strong momentum despite the tight macro backdrop. Testing resistance."
+      "score": 85,
+      "comment_cn": "受到ETF备案和币安储备的双重刺激，突破69,000美元。空头挤压是主要动力，但必须关注VIX和即将到来的CPI数据。",
+      "comment_en": "Dual catalysts (ETF filing, Binance reserves) powered the breach of $69,000. Short squeeze is driving momentum, but VIX and CPI risk must be monitored."
     },
     {
       "symbol": "ETH",
-      "price": 2055.67,
-      "change_24h": 5.809111544618369,
-      "rsi_4h": 57.66368937611455,
-      "funding_rate": 0.007397468099499999,
-      "open_interest": 6415150.650000003,
+      "price": 2076.9,
+      "change_24h": 5.9426647622934095,
+      "rsi_4h": 60.49759190076217,
+      "funding_rate": 0.00393281075003,
+      "open_interest": 6389039.150000007,
       "sentiment": "Neutral",
-      "score": 60,
-      "comment_cn": "价格坚挺，但受ETF资金大规模流出和开放利率低迷的结构性弱点困扰。上涨缺乏衍生品支持。",
-      "comment_en": "Price remains firm, but plagued by structural weaknesses from large ETF outflows and low Open Interest. The rally lacks derivative support."
+      "score": 65,
+      "comment_cn": "跟随比特币上涨，但也受到持续的现货ETF流出的拖累。尽管有ETF叙事支持，但上行潜力受到资金流的限制。",
+      "comment_en": "Rallying alongside BTC, but weighed down by persistent spot ETF outflows. Upside potential is capped by fund flows despite positive ETF narrative support."
     },
     {
       "symbol": "SOL",
-      "price": 85.0,
-      "change_24h": 8.349267049075841,
-      "rsi_4h": 57.93416420279032,
-      "funding_rate": 0.00197806128305,
-      "open_interest": 2812574.6200000015,
+      "price": 86.01,
+      "change_24h": 7.930731584891464,
+      "rsi_4h": 60.889831123946564,
+      "funding_rate": -0.00810885471987,
+      "open_interest": 2795752.9699999997,
       "sentiment": "Bullish",
-      "score": 85,
-      "comment_cn": "在主要资产中表现最佳，展现出强大的纯粹势头和内部力量。风险回报比高，但RSI接近超买。",
-      "comment_en": "Best performer among majors, demonstrating strong pure momentum and internal strength. High risk/reward ratio, but RSI approaching overbought territory."
+      "score": 80,
+      "comment_cn": "在大型山寨币中表现最强劲。健康的RSI和低融资利率支持了 clean 的上行动力，是风险偏好的明显受益者。",
+      "comment_en": "Strongest performer among major altcoins. Healthy RSI and low funding support clean upside momentum. A clear beneficiary of risk appetite."
     },
     {
       "symbol": "BNB",
-      "price": 618.7,
-      "change_24h": 2.467704537926481,
-      "rsi_4h": 49.91504161180174,
+      "price": 626.7,
+      "change_24h": 4.189526184538661,
+      "rsi_4h": 54.88689498086533,
       "funding_rate": 0.01,
-      "open_interest": 7354826.0,
-      "sentiment": "Neutral",
-      "score": 50,
-      "comment_cn": "跟随大盘，但涨幅温和。币安新闻间接利好，但自身缺乏特定催化剂。",
-      "comment_en": "Trailing the market with moderate gains. Indirectly supported by the Binance news, but lacks its own specific catalyst."
+      "open_interest": 7446727.0,
+      "sentiment": "Bullish",
+      "score": 75,
+      "comment_cn": "稳定上涨，得益于币安的强大生态系统消息（10亿美元储备）。高正向融资利率显示看涨情绪正在建立。",
+      "comment_en": "Stable growth supported by Binance ecosystem strength (the $1B reserve news). Higher positive funding shows constructive bullish sentiment is building."
     },
     {
       "symbol": "DOGE",
-      "price": 0.09703,
-      "change_24h": 4.863287582405711,
-      "rsi_4h": 61.86938472458223,
-      "funding_rate": 0.00647056679762,
-      "open_interest": 750326.7199999997,
+      "price": 0.09754,
+      "change_24h": 4.187139500106822,
+      "rsi_4h": 63.06435967088637,
+      "funding_rate": 0.00551554710361,
+      "open_interest": 746925.4899999998,
       "sentiment": "Bullish",
-      "score": 75,
-      "comment_cn": "零售情绪和高RSI的良好表现。在风险资产中表现强劲，反映出市场风险偏好正在回归。",
-      "comment_en": "Strong performance driven by retail sentiment and high RSI. Strong showing among risk assets, reflecting returning market risk appetite."
+      "score": 70,
+      "comment_cn": "表现良好，RSI达到最高，显示出零售情绪高涨，通常是市场兴奋的滞后指标，需警惕局部过热风险。",
+      "comment_en": "Performing well, with the highest RSI, indicating heightened retail euphoria. This is often a lagging indicator of market excitement; watch for localized overheating risk."
     }
   ]
 }
