@@ -1,84 +1,84 @@
 {
-  "timestamp": "2026-02-15T13:28:18.443909",
-  "global_summary_cn": "流动性状态：全球流动性处于不确定状态，即期面临压力，但长期前景改善。宏观层面出现分歧：美联储降息预期下降（鸽派倾向，长期利好），但VIX指数上升（恐慌情绪加剧）且日元走强（全球去风险化迹象）。加密市场叙事则异常强劲，尤其是“特朗普媒体”提交了新的BTC和ETH ETF申请，极大地提振了市场情绪。然而，ETH正面临抛售压力（高流出和低未平仓量）。整体市场正处于宏观压力下的叙事驱动型集会，形成了“利好消息遭遇紧缩流动性”的局面。当前市场警惕本周核心PCE数据发布前的波动。",
-  "global_summary_en": "Liquidity Status: Global liquidity is in an uncertain state, facing immediate stress but improving long-term outlook. Macro conditions are divergent: Fed rate expectations are dropping (Dovish bias, long-term positive), but the VIX is rising (increasing fear) and the Yen is strengthening (signaling global de-risking). Crypto narratives, however, are extremely strong, particularly the 'Trump Media' filing for new BTC and ETH ETFs, significantly boosting sentiment. However, ETH is specifically facing selling pressure (high outflows and low Open Interest). The overall market is a narrative-driven rally under macro pressure, creating a 'Good News Meets Tight Liquidity' scenario. Caution is warranted ahead of the high-impact Core PCE data release this week.",
+  "timestamp": "2026-02-15T17:28:49.085292",
+  "global_summary_cn": "流动性状态：全球流动性处于脆弱且略微收紧的状态。尽管美联储降息预期有所下降（偏鸽派），但VIX恐慌指数的上升（风险厌恶）和日元大幅走强（套利交易平仓压力）表明宏观环境承压。叙事层面喜忧参半，但偏向负面，特别是以太坊现货ETF流出2.42亿美元，导致ETH价格大幅下跌。目前市场处于“流动性收紧 + 负面消息冲击”的组合，这是一种看跌的背离。在核心PCE数据发布前，预计市场将保持谨慎和波动。如果PCE数据高于预期，将加剧流动性紧缩，推动价格进一步下行；若低于预期，则可能成为买入的催化剂。",
+  "global_summary_en": "Liquidity Status: Global liquidity is fragile and showing a tightening bias. Although Fed rate expectations have dropped (Dovish), the rising VIX (Risk Off) and the sharp strengthening of the Yen (Carry Trade unwind pressure) indicate a stressed macro environment. The narrative is mixed but leaning negative, especially due to the $242M outflow from Spot ETH ETFs, driving a significant drop in ETH price. The market is currently in a 'Tightening Liquidity + Negative News Shock' scenario, representing a bearish divergence. Caution and volatility are expected ahead of the Core PCE data release. If PCE is hotter than anticipated, it will exacerbate liquidity tightening and drive prices lower; if cooler, it could serve as a catalyst for buying the dip.",
   "news_analysis": [
     {
-      "title_cn": "特朗普媒体提交与比特币、以太坊和Cronos挂钩的两个新的加密ETF文件",
+      "title_cn": "机构可能会因量子计算威胁而“厌倦”并解雇比特币开发者：风投",
+      "title_en": "Institutions may get 'fed up' and fire Bitcoin devs over quantum: VC",
+      "news_sentiment": "Bearish",
+      "classification": "IMPULSE",
+      "reason_cn": "新的看跌叙事，注入了关于机构与核心开发者社群之间潜在冲突的长期恐惧（FUD）。",
+      "reason_en": "A fresh bearish narrative injecting long-term fear (FUD) about potential conflict between institutional interests and core developer communities."
+    },
+    {
+      "title_cn": "特朗普媒体提交了两份与比特币、以太币和Cronos挂钩的新加密货币ETF申请",
       "title_en": "Trump Media files for two new crypto ETFs tied to Bitcoin, Ether, Cronos",
       "news_sentiment": "Bullish",
       "classification": "IMPULSE",
-      "reason_cn": "政治高层和主流机构对加密货币兴趣的直接信号，这是继现货ETF获批后，加密资产合法化的又一重要催化剂。",
-      "reason_en": "Direct signal of political and mainstream institutional interest in crypto. This is a significant catalyst for the legitimization of crypto assets following the initial spot ETF approvals."
+      "reason_cn": "积极的长期机构采用信号，尽管发布时间可能尚远，但提升了市场情绪。",
+      "reason_en": "Positive long-term signal for institutional adoption, boosting sentiment despite the potential delay until launch."
     },
     {
-      "title_cn": "比特币多头突破69K美元，零售交易者对空头头寸施加压力",
-      "title_en": "Bitcoin bulls blitz $69K as retail traders pressure short positioning",
-      "news_sentiment": "Bullish",
+      "title_cn": "在比特币价格暴跌中，ETF资金流出量下降，但并未发出“加密寒冬”投资者恐慌的信号",
+      "title_en": "In bitcoin price plummet, ETF flows are down but aren't signaling 'crypto winter' investor panic",
+      "news_sentiment": "Neutral",
       "classification": "PRICED IN",
-      "reason_cn": "确认了近期的价格走势和情绪，零售 FOMO 正在积极推动价格接近历史高点。流动性在 BTC 核心得到巩固。",
-      "reason_en": "Confirmation of recent price action and sentiment. Retail FOMO is actively pushing the price near all-time highs. Liquidity is consolidated in the BTC core."
+      "reason_cn": "证实了当前ETF流入减弱是市场疲软的原因之一，但同时淡化了极端恐慌情绪。",
+      "reason_en": "Confirms that reduced ETF inflows contribute to current market weakness but downplays signs of extreme panic."
     },
     {
-      "title_cn": "以太坊维持2K美元，但2.42亿美元的现货ETH ETF流出会否重新点燃价格下跌？",
+      "title_cn": "以太币守住2000美元，但2.42亿美元的现货ETH ETF流出是否会重新点燃价格下行？",
       "title_en": "Ether holds $2K, but will $242M spot ETH ETF outflow reignite price downside?",
       "news_sentiment": "Bearish",
       "classification": "IMPULSE",
-      "reason_cn": "表明存在显著的现货抛售压力，尤其是在价格未能大幅上涨时，这与 BTC 的强劲表现形成鲜明对比。",
-      "reason_en": "Indicates significant spot selling pressure, especially when the price fails to rally strongly, contrasting sharply with BTC's robust performance."
+      "reason_cn": "直接且重大的负面催化剂，解释了ETH在过去24小时内表现不佳的主要原因。",
+      "reason_en": "A direct and significant negative catalyst explaining the severe underperformance of ETH over the last 24 hours."
     },
     {
-      "title_cn": "ETH未平仓合约降至3年低点：这对以太坊价格意味着什么？",
+      "title_cn": "ETH未平仓合约降至三年低点：这对以太币价格意味着什么？",
       "title_en": "ETH open interest falls to 3-year low: What does it mean for Ether price?",
       "news_sentiment": "Bearish",
-      "classification": "DIVERGENCE",
-      "reason_cn": "未平仓合约下降表明市场缺乏杠杆兴趣和持续的资本流入。这预示着ETH市场可能缺乏动能或正在经历去杠杆化。",
-      "reason_en": "Falling Open Interest signals a lack of leveraged interest and sustained capital inflow. This suggests potential loss of momentum or ongoing deleveraging in the ETH market."
-    },
-    {
-      "title_cn": "闪电实验室开源L402代理工具以支持AI支付",
-      "title_en": "Lightning Labs Open‑Sources L402 Agent Tools to Power AI Payments",
-      "news_sentiment": "Bullish",
-      "classification": "NEUTRAL",
-      "reason_cn": "长期利好基础设施发展。虽然短期内对价格影响有限，但表明比特币生态系统的持续创新。",
-      "reason_en": "Positive for long-term infrastructure development. While having limited short-term price impact, it shows continued innovation in the Bitcoin ecosystem."
-    },
-    {
-      "title_cn": "VIX: 20.6（趋势：恐慌高涨）",
-      "title_en": "VIX: 20.6 (Trend: High Fear Rising)",
-      "news_sentiment": "Bearish",
       "classification": "IMPULSE",
-      "reason_cn": "市场恐慌情绪指标升高，通常伴随着资金流向安全资产，这对风险资产如加密货币构成不利影响。",
-      "reason_en": "The market fear index is elevated and rising, usually accompanying capital flight to safety, which is detrimental to risk assets like crypto."
+      "reason_cn": "反映出投资者/投机者对以太坊缺乏兴趣和信念，支持短期看跌情绪。",
+      "reason_en": "Reflects a lack of speculative interest and conviction in Ethereum, supporting the short-term bearish sentiment."
     },
     {
-      "title_cn": "美联储利率预期：趋势鸽派（5D变化：-7.7 bps）",
-      "title_en": "Fed Rate Expectations: Trend Dovish (5D Change: -7.7 bps)",
-      "news_sentiment": "Bullish",
-      "classification": "NEUTRAL",
-      "reason_cn": "虽然目前宏观市场紧张，但美联储降息预期的下降提供了长期流动性宽松的积极信号。",
-      "reason_en": "While the immediate macro market is tense, the drop in Fed rate expectations provides a positive signal for long-term liquidity loosening."
-    },
-    {
-      "title_cn": "[USD] 核心PCE物价指数月率 (高影响力)",
-      "title_en": "[USD] Core PCE Price Index m/m (High)",
+      "title_cn": "比特币在量子修复方面迈出一步，但专家们对威胁的紧迫性存在分歧",
+      "title_en": "Bitcoin Takes Step Towards Quantum Fix as Experts Diverge on Urgency of Threat",
       "news_sentiment": "Neutral",
       "classification": "NEUTRAL",
-      "reason_cn": "本周最重要的宏观数据发布。如果数据过热，可能导致风险资产的显著抛售，加剧当前的紧缩流动性担忧。",
-      "reason_en": "The most important macro data release this week. If the data is hot, it could lead to a significant sell-off in risk assets and intensify current tight liquidity concerns."
+      "reason_cn": "处理长期的生存风险，但对短期价格影响不大。是网络韧性的积极信号。",
+      "reason_en": "Addresses long-term existential risk but has little short-term price impact. Positive signal for network resilience."
+    },
+    {
+      "title_cn": "难度降低11%后，比特币准备进行积极重新校准",
+      "title_en": "After an 11% Difficulty Cut, Bitcoin Is Poised for Aggressive Recalibration",
+      "news_sentiment": "Bullish",
+      "classification": "NEUTRAL",
+      "reason_cn": "技术性的网络调整，对矿工利润和网络健康有利，但不是即时价格驱动因素。",
+      "reason_en": "A technical network adjustment that is healthy for miner profitability and network health but not an immediate price driver."
+    },
+    {
+      "title_cn": "[USD] 核心PCE物价指数月率 (高)",
+      "title_en": "[USD] Core PCE Price Index m/m (High)",
+      "news_sentiment": "Bearish",
+      "classification": "IMPULSE",
+      "reason_cn": "即将到来的高风险宏观事件。如果数据高于预期，将导致流动性收紧和风险资产抛售。",
+      "reason_en": "Upcoming high-risk macro event. A hotter-than-expected print would lead to liquidity tightening and risk-asset sell-off."
     }
   ],
   "fed_futures": {
     "price": 96.44,
     "implied_rate": 3.56,
-    "timestamp": "2026-02-15T13:28:01.700882+00:00",
+    "timestamp": "2026-02-15T17:28:31.650055+00:00",
     "trend": "Dovish (Rate expectations dropping)",
     "change_5d_bps": -7.7,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
     "price": 152.821,
-    "timestamp": "2026-02-15T13:28:01.746099+00:00",
+    "timestamp": "2026-02-15T17:28:31.690491+00:00",
     "trend": "Yen Strength (Risk Off)",
     "change_5d_pct": -2.81,
     "zone": "Weak Yen (Intervention Risk)"
@@ -103,63 +103,63 @@
   "coins": [
     {
       "symbol": "BTC",
-      "price": 69380.0,
-      "change_24h": 0.14448635174127825,
-      "rsi_4h": 52.102986330549925,
-      "funding_rate": 0.00188132915307,
-      "open_interest": 2978252.8500000136,
-      "sentiment": "Bullish",
-      "score": 75,
-      "comment_cn": "在宏观逆风和强劲 ETF 叙事下保持弹性，价格稳定在关键阻力位以下。资金费率为正，显示多头占优。",
-      "comment_en": "Showing resilience amidst macro headwinds and strong ETF narratives, holding steady just below key resistance. Positive funding suggests bullish dominance."
+      "price": 68934.0,
+      "change_24h": -1.3050232298430107,
+      "rsi_4h": 49.29847893522204,
+      "funding_rate": 0.00040052521695,
+      "open_interest": 2970749.590000015,
+      "sentiment": "Neutral",
+      "score": 55,
+      "comment_cn": "宏观流动性受压，但BTC价格在ETF流出冲击下表现出相对韧性。等待PCE数据指引。",
+      "comment_en": "Macro liquidity is stressed, but BTC shows relative resilience despite ETF outflow concerns. Waiting for PCE data guidance."
     },
     {
       "symbol": "ETH",
-      "price": 2020.06,
-      "change_24h": -2.3861527756301273,
-      "rsi_4h": 47.12344357980008,
-      "funding_rate": 0.00686710452807,
-      "open_interest": 6573550.890000002,
-      "sentiment": "Neutral",
-      "score": 40,
-      "comment_cn": "基本面疲软，遭受大量 ETF 流出和未平仓合约低迷的压力。相对BTC表现不佳，短期内面临下行风险。",
-      "comment_en": "Under pressure from significant ETF outflows and low OI, signaling fundamental weakness. Underperforming BTC and facing short-term downside risk."
+      "price": 1998.19,
+      "change_24h": -4.203062525768751,
+      "rsi_4h": 43.972110594346375,
+      "funding_rate": 0.0005862478244,
+      "open_interest": 6737712.020000004,
+      "sentiment": "Bearish",
+      "score": 30,
+      "comment_cn": "受2.42亿美元现货ETF流出和OI降至低点的双重打击，技术和基本面都处于弱势。",
+      "comment_en": "Hit by a double whammy of $242M Spot ETF outflow and low OI. Weak technicals and fundamentals currently."
     },
     {
       "symbol": "SOL",
-      "price": 87.82,
-      "change_24h": 1.9503134432319393,
-      "rsi_4h": 58.61827492691814,
-      "funding_rate": -0.00563823331013,
-      "open_interest": 2808234.7300000023,
-      "sentiment": "Bullish",
-      "score": 80,
-      "comment_cn": "表现出强大的相对强度和动能，RSI 强劲。尽管资金费率为负，价格仍在上涨，暗示潜在的空头回补。",
-      "comment_en": "Demonstrating strong relative strength and momentum, with robust RSI. Negative funding suggests short interest is being squeezed as the price rises."
+      "price": 87.2,
+      "change_24h": -1.1898016997167107,
+      "rsi_4h": 56.25606181443515,
+      "funding_rate": 0.0061145779058,
+      "open_interest": 2808807.3600000036,
+      "sentiment": "Neutral/Bullish",
+      "score": 65,
+      "comment_cn": "在主要币种疲软时表现出相对强势（RSI较高），可能是资金轮动或特定生态系统活动推动。",
+      "comment_en": "Showing relative strength (high RSI) while majors falter, possibly driven by capital rotation or specific ecosystem activity."
     },
     {
       "symbol": "BNB",
-      "price": 621.7,
-      "change_24h": -0.8769132653061223,
-      "rsi_4h": 47.89950397322747,
-      "funding_rate": -0.008106989142720001,
-      "open_interest": 7297750.0,
-      "sentiment": "Neutral",
-      "score": 55,
-      "comment_cn": "价格稳定，但资金费率为负，显示出一些短期看跌情绪。在市场盘整期间表现中性。",
-      "comment_en": "Price is stable, but negative funding suggests some short-term bearish sentiment. Neutral performance during overall market consolidation."
+      "price": 618.4,
+      "change_24h": -2.445180627859284,
+      "rsi_4h": 45.66047648707525,
+      "funding_rate": -0.0015697240700700001,
+      "open_interest": 7222968.0,
+      "sentiment": "Bearish",
+      "score": 40,
+      "comment_cn": "跟随大盘下跌，且融资利率为负，显示市场做空压力或缺乏新的买盘动力。",
+      "comment_en": "Following the general downtrend. Negative funding suggests short pressure or lack of new buying momentum."
     },
     {
       "symbol": "DOGE",
-      "price": 0.10919,
-      "change_24h": 9.84909456740442,
-      "rsi_4h": 65.32756421208764,
-      "funding_rate": 0.01,
-      "open_interest": 871554.9899999995,
+      "price": 0.10647,
+      "change_24h": 1.0055971919172673,
+      "rsi_4h": 59.242009817511885,
+      "funding_rate": 0.0069495898203500005,
+      "open_interest": 848815.6599999996,
       "sentiment": "Bullish",
-      "score": 90,
-      "comment_cn": "明显的零售冲动驱动，涨幅近10%，RSI高企，资金费率极高。动能强劲，但波动性风险极大。",
-      "comment_en": "Clear retail impulse drive, spiking nearly 10% with high RSI and very high funding. Strong momentum but extreme volatility risk."
+      "score": 70,
+      "comment_cn": "作为投机性资产，逆势上涨且资金费率高，表明强烈的零售投机情绪。",
+      "comment_en": "Outperforming majors with positive returns and high funding, indicating strong retail speculative interest."
     }
   ]
 }
