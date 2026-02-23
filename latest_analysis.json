@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-02-23T05:46:21.004184",
+  "timestamp": "2026-02-23T09:46:41.458142",
   "global_summary_cn": "分析失败: 404 models/gemini-2.5-flash-preview-09-2025 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
   "global_summary_en": "分析失败: 404 models/gemini-2.5-flash-preview-09-2025 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
   "news_analysis": [],
   "fed_futures": {
     "price": 96.405,
     "implied_rate": 3.595,
-    "timestamp": "2026-02-23T05:46:20.755830+00:00",
+    "timestamp": "2026-02-23T09:46:41.217070+00:00",
     "trend": "Neutral (Stable expectations)",
     "change_5d_bps": -4.2,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 154.432,
-    "timestamp": "2026-02-23T05:46:20.797691+00:00",
+    "price": 154.761,
+    "timestamp": "2026-02-23T09:46:41.254221+00:00",
     "trend": "Yen Weakness (Risk On)",
-    "change_5d_pct": 0.54,
+    "change_5d_pct": 0.75,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 97.48,
-      "change_5d_pct": -0.23,
+      "price": 97.58,
+      "change_5d_pct": -0.13,
       "trend": "Weaker (Risk On)"
     },
     "us10y": {
@@ -30,19 +30,19 @@
       "trend": "Neutral Rising"
     },
     "vix": {
-      "price": 19.09,
-      "change_5d_pct": -5.91,
-      "trend": "Normal Subsiding"
+      "price": 20.07,
+      "change_5d_pct": -1.08,
+      "trend": "High Fear"
     }
   },
   "coins": [
     {
       "symbol": "BTC",
-      "price": 65046.9,
-      "change_24h": -4.263389046208921,
-      "rsi_4h": 30.79684668044159,
-      "funding_rate": -0.00906191496647,
-      "open_interest": 3214045.8900000155,
+      "price": 66376.0,
+      "change_24h": -2.5115295361748378,
+      "rsi_4h": 42.515406520898296,
+      "funding_rate": -0.00673590012205,
+      "open_interest": 3185759.150000014,
       "sentiment": "Neutral",
       "score": 50,
       "comment_cn": "",
@@ -50,11 +50,11 @@
     },
     {
       "symbol": "ETH",
-      "price": 1867.63,
-      "change_24h": -5.357387184229853,
-      "rsi_4h": 30.23335690269569,
-      "funding_rate": -0.01824802238551,
-      "open_interest": 6904186.590000023,
+      "price": 1917.3,
+      "change_24h": -2.941176470588242,
+      "rsi_4h": 42.698240972188955,
+      "funding_rate": -0.02139654775933,
+      "open_interest": 6577440.780000013,
       "sentiment": "Neutral",
       "score": 50,
       "comment_cn": "",
@@ -62,11 +62,11 @@
     },
     {
       "symbol": "SOL",
-      "price": 78.03,
-      "change_24h": -8.048550553853403,
-      "rsi_4h": 27.71165406953314,
-      "funding_rate": -0.03655695121726,
-      "open_interest": 3078667.000000003,
+      "price": 80.47,
+      "change_24h": -5.4628759398496305,
+      "rsi_4h": 39.57398242653428,
+      "funding_rate": -0.042731769114030003,
+      "open_interest": 3000895.6800000034,
       "sentiment": "Neutral",
       "score": 50,
       "comment_cn": "",
@@ -74,11 +74,11 @@
     },
     {
       "symbol": "BNB",
-      "price": 593.9,
-      "change_24h": -4.147837314396392,
-      "rsi_4h": 33.65295862729366,
-      "funding_rate": -0.014275106356940001,
-      "open_interest": 7561199.0,
+      "price": 609.8,
+      "change_24h": -2.2756410256410327,
+      "rsi_4h": 46.45592238738317,
+      "funding_rate": -0.01616675046898,
+      "open_interest": 7440733.0,
       "sentiment": "Neutral",
       "score": 50,
       "comment_cn": "",
@@ -86,11 +86,11 @@
     },
     {
       "symbol": "DOGE",
-      "price": 0.09297,
-      "change_24h": -4.2730642504118626,
-      "rsi_4h": 26.24583981379648,
-      "funding_rate": -0.00889334284854,
-      "open_interest": 782621.0099999995,
+      "price": 0.09651,
+      "change_24h": -0.8119218910585807,
+      "rsi_4h": 44.902098358950624,
+      "funding_rate": -0.0092461066498,
+      "open_interest": 798773.0999999997,
       "sentiment": "Neutral",
       "score": 50,
       "comment_cn": "",
