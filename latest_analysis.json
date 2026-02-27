@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-02-27T05:53:54.288745",
+  "timestamp": "2026-02-27T09:54:09.235051",
   "global_summary_cn": "分析失败: 404 models/gemini-2.5-flash-preview-09-2025 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
   "global_summary_en": "分析失败: 404 models/gemini-2.5-flash-preview-09-2025 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
   "news_analysis": [],
   "fed_futures": {
     "price": 96.41,
     "implied_rate": 3.59,
-    "timestamp": "2026-02-27T05:53:53.984820+00:00",
+    "timestamp": "2026-02-27T09:54:08.975706+00:00",
     "trend": "Dovish (Rate expectations dropping)",
     "change_5d_bps": -5.0,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 155.775,
-    "timestamp": "2026-02-27T05:53:54.030374+00:00",
+    "price": 156.084,
+    "timestamp": "2026-02-27T09:54:09.018238+00:00",
     "trend": "Yen Weakness (Risk On)",
-    "change_5d_pct": 0.93,
+    "change_5d_pct": 1.13,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 97.7,
-      "change_5d_pct": -0.0,
+      "price": 97.74,
+      "change_5d_pct": 0.04,
       "trend": "Neutral"
     },
     "us10y": {
@@ -30,19 +30,19 @@
       "trend": "Neutral Falling"
     },
     "vix": {
-      "price": 18.63,
-      "change_5d_pct": -2.41,
+      "price": 19.29,
+      "change_5d_pct": -8.19,
       "trend": "Normal Subsiding"
     }
   },
   "coins": [
     {
       "symbol": "BTC",
-      "price": 67765.0,
-      "change_24h": -0.9138762977043426,
-      "rsi_4h": 56.5413070826834,
-      "funding_rate": 0.00446893770515,
-      "open_interest": 2890203.910000005,
+      "price": 67377.7,
+      "change_24h": -1.7787716533596467,
+      "rsi_4h": 53.669727923491834,
+      "funding_rate": 0.00383062445112,
+      "open_interest": 2916559.9100000053,
       "sentiment": "Neutral",
       "score": 50,
       "comment_cn": "",
@@ -50,11 +50,11 @@
     },
     {
       "symbol": "ETH",
-      "price": 2043.0,
-      "change_24h": -1.144842402717421,
-      "rsi_4h": 63.65117855229806,
-      "funding_rate": 0.00348841436015,
-      "open_interest": 6214097.97,
+      "price": 2013.39,
+      "change_24h": -2.964012550062884,
+      "rsi_4h": 56.419274356986065,
+      "funding_rate": 0.00260191734541,
+      "open_interest": 6288411.5200000005,
       "sentiment": "Neutral",
       "score": 50,
       "comment_cn": "",
@@ -62,11 +62,11 @@
     },
     {
       "symbol": "SOL",
-      "price": 87.54,
-      "change_24h": -0.1938205449777534,
-      "rsi_4h": 63.11455097422687,
-      "funding_rate": -0.00024631224622,
-      "open_interest": 2747495.6400000025,
+      "price": 86.41,
+      "change_24h": -2.184740774281194,
+      "rsi_4h": 57.69766743068681,
+      "funding_rate": -0.00101737607212,
+      "open_interest": 2751266.270000002,
       "sentiment": "Neutral",
       "score": 50,
       "comment_cn": "",
@@ -74,11 +74,11 @@
     },
     {
       "symbol": "BNB",
-      "price": 632.4,
-      "change_24h": 0.5885159853666186,
-      "rsi_4h": 64.63780105147676,
+      "price": 624.9,
+      "change_24h": -0.7780247697681768,
+      "rsi_4h": 58.004536636078875,
       "funding_rate": 0.01,
-      "open_interest": 7286010.0,
+      "open_interest": 7280080.0,
       "sentiment": "Neutral",
       "score": 50,
       "comment_cn": "",
@@ -86,11 +86,11 @@
     },
     {
       "symbol": "DOGE",
-      "price": 0.09872,
-      "change_24h": -1.5360063834031514,
-      "rsi_4h": 55.17728897179922,
-      "funding_rate": 0.00488293814409,
-      "open_interest": 747106.7099999997,
+      "price": 0.09733,
+      "change_24h": -2.864271457085826,
+      "rsi_4h": 50.64783591451807,
+      "funding_rate": 0.0070620823363,
+      "open_interest": 741348.9400000001,
       "sentiment": "Neutral",
       "score": 50,
       "comment_cn": "",
