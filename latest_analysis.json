@@ -1,28 +1,28 @@
 {
-  "timestamp": "2026-05-06T03:09:19.283594",
+  "timestamp": "2026-05-06T07:09:27.619622",
   "global_summary_cn": "分析失败: 404 models/gemini-2.5-flash-preview-09-2025 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
   "global_summary_en": "分析失败: 404 models/gemini-2.5-flash-preview-09-2025 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
   "news_analysis": [],
   "fed_futures": {
     "price": 96.365,
     "implied_rate": 3.635,
-    "timestamp": "2026-05-06T03:09:18.952151+00:00",
+    "timestamp": "2026-05-06T07:09:27.350450+00:00",
     "trend": "Neutral (Stable expectations)",
-    "change_5d_bps": -0.5,
+    "change_5d_bps": -0.7,
     "zone": "Restrictive (High)"
   },
   "japan_macro": {
-    "price": 157.85,
-    "timestamp": "2026-05-06T03:09:19.025993+00:00",
+    "price": 156.415,
+    "timestamp": "2026-05-06T07:09:27.391004+00:00",
     "trend": "Yen Strength (Risk Off)",
-    "change_5d_pct": -1.46,
+    "change_5d_pct": -2.35,
     "zone": "Weak Yen (Intervention Risk)"
   },
   "liquidity_monitor": {
     "dxy": {
-      "price": 98.31,
-      "change_5d_pct": 0.23,
-      "trend": "Stronger (Risk Off)"
+      "price": 98.07,
+      "change_5d_pct": -0.14,
+      "trend": "Weaker (Risk On)"
     },
     "us10y": {
       "price": 4.42,
@@ -31,18 +31,18 @@
     },
     "vix": {
       "price": 17.38,
-      "change_5d_pct": -7.6,
-      "trend": "Normal Subsiding"
+      "change_5d_pct": 2.9,
+      "trend": "Normal Rising"
     }
   },
   "coins": [
     {
       "symbol": "BTC",
-      "price": 81389.5,
-      "change_24h": 1.0786006135045516,
-      "rsi_4h": 65.79945680442663,
-      "funding_rate": -0.0018234819923799999,
-      "open_interest": 3541890.480000014,
+      "price": 81564.9,
+      "change_24h": 0.821878862793565,
+      "rsi_4h": 66.68078687627448,
+      "funding_rate": -0.00412457993112,
+      "open_interest": 3523176.000000011,
       "sentiment": "Neutral",
       "score": 50,
       "comment_cn": "",
@@ -50,11 +50,11 @@
     },
     {
       "symbol": "ETH",
-      "price": 2370.0,
-      "change_24h": 0.11489980061504342,
-      "rsi_4h": 58.35203146681344,
-      "funding_rate": 0.0032086854889,
-      "open_interest": 7197379.7100000065,
+      "price": 2371.99,
+      "change_24h": -0.18977487902378365,
+      "rsi_4h": 58.29846102103225,
+      "funding_rate": 0.00391336566816,
+      "open_interest": 7280571.08000001,
       "sentiment": "Neutral",
       "score": 50,
       "comment_cn": "",
@@ -62,11 +62,11 @@
     },
     {
       "symbol": "SOL",
-      "price": 87.1,
-      "change_24h": 3.150165798199901,
-      "rsi_4h": 69.40790510924933,
+      "price": 87.65,
+      "change_24h": 3.373039273499232,
+      "rsi_4h": 72.0097899857238,
       "funding_rate": 0.01,
-      "open_interest": 2972347.8500000024,
+      "open_interest": 3021150.2800000007,
       "sentiment": "Neutral",
       "score": 50,
       "comment_cn": "",
@@ -74,11 +74,11 @@
     },
     {
       "symbol": "BNB",
-      "price": 634.5,
-      "change_24h": 1.4550687559961661,
-      "rsi_4h": 66.54554311613767,
+      "price": 637.3,
+      "change_24h": 1.6103316326530466,
+      "rsi_4h": 69.47852312959029,
       "funding_rate": 0.01,
-      "open_interest": 7719716.0,
+      "open_interest": 7935893.0,
       "sentiment": "Neutral",
       "score": 50,
       "comment_cn": "",
@@ -86,11 +86,11 @@
     },
     {
       "symbol": "DOGE",
-      "price": 0.11536,
-      "change_24h": 3.49901309886955,
-      "rsi_4h": 73.19121264198098,
-      "funding_rate": 0.00480838635408,
-      "open_interest": 1120609.5399999998,
+      "price": 0.11571,
+      "change_24h": 3.7664783427495254,
+      "rsi_4h": 73.07668961286299,
+      "funding_rate": 0.00902843535787,
+      "open_interest": 1110142.49,
       "sentiment": "Neutral",
       "score": 50,
       "comment_cn": "",
